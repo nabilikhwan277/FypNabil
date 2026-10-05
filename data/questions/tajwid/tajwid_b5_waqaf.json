@@ -1,0 +1,152 @@
+{
+  "topic_id": "tajwid_b5_waqaf",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b5_waqaf_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bahagian waqaf?",
+      "question_jawi": "براڤاكه بهاڬين وقف؟",
+      "reference_answer_rumi": "Empat",
+      "reference_answer_jawi": "امڤت",
+      "rubric": [
+        {"criterion": "Menyatakan empat", "marks": 1, "keywords": ["empat", "4", "امڤت"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [66]
+    },
+    {
+      "id": "tajwid_b5_waqaf_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud tanda waqaf لا?",
+      "question_jawi": "اڤاكه مقصود تندا وقف لا؟",
+      "reference_answer_rumi": "Dilarang waqaf",
+      "reference_answer_jawi": "دلارڠ وقف",
+      "rubric": [
+        {"criterion": "Menyatakan dilarang waqaf", "marks": 1, "keywords": ["dilarang waqaf", "dilarang", "دلارڠ وقف", "tidak boleh berhenti"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [68]
+    },
+    {
+      "id": "tajwid_b5_waqaf_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tanda waqaf مـ dinamakan apa?",
+      "question_jawi": "تندا وقف مـ دناماكن اڤ؟",
+      "reference_answer_rumi": "Waqaf Lazim",
+      "reference_answer_jawi": "وقف لازم",
+      "rubric": [
+        {"criterion": "Menyatakan Waqaf Lazim", "marks": 1, "keywords": ["Waqaf Lazim", "وقف لازم", "lazim"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [68]
+    },
+    {
+      "id": "tajwid_b5_waqaf_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti waqaf?",
+      "question_jawi": "اڤاكه ارتي وقف؟",
+      "reference_answer_rumi": "Waqaf ialah memberhentikan bacaan dengan mengambil nafas yang baru dengan niat untuk menyambung semula bacaan.",
+      "reference_answer_jawi": "وقف اياله ممبرهنتيكن باچاءن دڠن مڠمبيل نفس يڠ بارو دڠن نية اونتوق مڽامبوڠ سمولا باچاءن.",
+      "rubric": [
+        {"criterion": "Memberhentikan bacaan dengan mengambil nafas baru", "marks": 1, "keywords": ["memberhentikan bacaan", "nafas", "ممبرهنتيكن", "نفس"]},
+        {"criterion": "Dengan niat menyambung semula bacaan", "marks": 1, "keywords": ["menyambung semula", "niat", "مڽامبوڠ سمولا", "نية"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [66, 69]
+    },
+    {
+      "id": "tajwid_b5_waqaf_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan bahagian waqaf.",
+      "question_jawi": "سنارايكن بهاڬين وقف.",
+      "reference_answer_rumi": "Ikhtibari, Idhtirari, Ikhtiyari dan Intizari.",
+      "reference_answer_jawi": "إِختِبَارِي، إِضْطِرَارِي، إِختِيَارِي دان إِنْتِظَارِي.",
+      "rubric": [
+        {"criterion": "Ikhtibari", "marks": 1, "keywords": ["Ikhtibari", "إختباري", "إِختِبَارِي"]},
+        {"criterion": "Idhtirari", "marks": 1, "keywords": ["Idhtirari", "Idtirari", "إضطراري", "إِضْطِرَارِي"]},
+        {"criterion": "Ikhtiyari", "marks": 1, "keywords": ["Ikhtiyari", "إختياري", "إِختِيَارِي"]},
+        {"criterion": "Intizari", "marks": 1, "keywords": ["Intizari", "Intidzari", "إنتظاري", "إِنْتِظَارِي"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [66, 69]
+    },
+    {
+      "id": "tajwid_b5_waqaf_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah yang dimaksudkan dengan perkataan berikut: إِخْتِبَارِي، إِضْطِرَارِي، إِخْتِيَارِي?",
+      "question_jawi": "اڤاكه يڠ دمقصودكن دڠن ڤركاتاءن برايكوت: إِخْتِبَارِي، إِضْطِرَارِي، إِخْتِيَارِي؟",
+      "reference_answer_rumi": "Ikhtibari: waqaf untuk menerangkan sesuatu hukum, mengajar orang ramai dan menyoal di dalam peperiksaan al-Quran. Idhtirari: waqaf terpaksa oleh sesuatu sebab seperti terbatuk, bersin dan pendek nafas. Ikhtiyari: waqaf mengikut pilihan pembaca (dengan memilih tempat-tempat tertentu).",
+      "reference_answer_jawi": "إِختِبَارِي: وقف اونتوق منرڠكن سسواتو حكوم، مڠاجر اورڠ راماي دان مڽوءال ددالم ڤڤريقساءن القرءان. إِضْطِرَارِي: وقف ترڤقسا اوليه سسواتو سبب سڤرتي ترباتوق، برسين دان ڤنديق نفس. إِختِيَارِي: وقف مڠيكوت ڤيليهن ڤمباچ (دڠن مميليه تمڤت٢ ترتنتو).",
+      "rubric": [
+        {"criterion": "Ikhtibari: menerangkan hukum / mengajar / peperiksaan", "marks": 1, "keywords": ["menerangkan", "hukum", "mengajar", "peperiksaan", "منرڠكن", "مڠاجر", "ڤڤريقساءن"]},
+        {"criterion": "Idhtirari: terpaksa kerana batuk, bersin, pendek nafas", "marks": 1, "keywords": ["terpaksa", "batuk", "bersin", "pendek nafas", "ترڤقسا", "ترباتوق", "برسين"]},
+        {"criterion": "Ikhtiyari: pilihan pembaca", "marks": 1, "keywords": ["pilihan pembaca", "pilihan", "ڤيليهن ڤمباچ", "memilih"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [66, 69]
+    },
+    {
+      "id": "tajwid_b5_waqaf_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah maksud waqaf berikut: Hasan, Qabih, Kafi?",
+      "question_jawi": "اڤاكه مقصود وقف برايكوت: حسن، قبيح، كافي؟",
+      "reference_answer_rumi": "Waqaf Hasan: menghentikan bacaan pada tempat yang masih tergantung dari segi lafaz dan makna tetapi boleh difahami. Waqaf Qabih: menghentikan bacaan pada tempat yang tidak difahami ertinya atau boleh membawa kesalahan makna. Waqaf Kafi: menghentikan bacaan pada tempat yang telah sempurna pada lafaz tetapi masih ada hubungan dari segi makna.",
+      "reference_answer_jawi": "وقف حسن: مڠهنتيكن باچاءن ڤد تمڤت يڠ ماسيه ترڬنتوڠ دري سڬي لفظ دان معنا تتاڤي بوليه دفهمي. وقف قبيح: مڠهنتيكن باچاءن ڤد تمڤت يڠ تيدق دفهمي ارتيڽ اتاو بوليه ممباوا كسالهن معنا. وقف كافي: مڠهنتيكن باچاءن ڤد تمڤت يڠ تله سمڤورنا ڤد لفظ تتاڤي ماسيه اد هوبوڠن دري سڬي معنا.",
+      "rubric": [
+        {"criterion": "Hasan: tergantung lafaz dan makna tetapi boleh difahami", "marks": 1, "keywords": ["tergantung", "boleh difahami", "ترڬنتوڠ", "بوليه دفهمي"]},
+        {"criterion": "Qabih: tidak difahami atau kesalahan makna", "marks": 1, "keywords": ["tidak difahami", "kesalahan makna", "تيدق دفهمي", "كسالهن معنا"]},
+        {"criterion": "Kafi: sempurna lafaz tetapi ada hubungan makna", "marks": 1, "keywords": ["sempurna pada lafaz", "hubungan", "makna", "هوبوڠن", "سمڤورنا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [67, 69]
+    },
+    {
+      "id": "tajwid_b5_waqaf_q8",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan empat tanda waqaf.",
+      "question_jawi": "توليسكن امڤت تندا وقف.",
+      "reference_answer_rumi": "Mana-mana empat daripada: مـ (Waqaf Lazim), ج (Waqaf Jaiz), صلى, قلى, ∴ ∴ (Waqaf Mu'anaqah), لا (dilarang waqaf).",
+      "reference_answer_jawi": "مان٢ امڤت درڤد: مـ، ج، صلى، قلى، ∴ ∴، لا.",
+      "rubric": [
+        {"criterion": "Setiap tanda waqaf yang betul (1 markah setiap satu, maksimum 4)", "marks": 4, "keywords": ["مـ", "م", "ج", "صلى", "قلى", "∴", "ۛ", "لا"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [68, 69]
+    },
+    {
+      "id": "tajwid_b5_waqaf_q9",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan maksud tanda waqaf صلى, قلى dan ∴ ∴ (Waqaf Mu'anaqah), serta berikan contoh ayat al-Quran bagi Waqaf Mu'anaqah beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن مقصود تندا وقف صلى، قلى دان ∴ ∴ (وقف معانقة)، سرتا بريكن چونتوه ايات القرءان باݢي وقف معانقة بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "صلى: harus waqaf tetapi dibaca wasal lebih utama. قلى: waqaf lebih utama daripada wasal. ∴ ∴: Waqaf Mu'anaqah iaitu berhenti pada salah satu tempat sahaja. Contoh: ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ (Surah al-Baqarah: 2).",
+      "reference_answer_jawi": "صلى: هاروس وقف تتاڤي دباچ وصل لبيه اوتام. قلى: وقف لبيه اوتام درڤد وصل. ∴ ∴: وقف معانقة ياءيت برهنتي ڤد ساله ساتو تمڤت سهاج. چونتوه: ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ (سورة البقرة: 2).",
+      "rubric": [
+        {"criterion": "صلى: harus waqaf tetapi wasal lebih utama", "marks": 1, "keywords": ["wasal lebih utama", "وصل لبيه اوتام", "harus waqaf"]},
+        {"criterion": "قلى: waqaf lebih utama daripada wasal", "marks": 1, "keywords": ["waqaf lebih utama", "وقف لبيه اوتام"]},
+        {"criterion": "Mu'anaqah: berhenti pada salah satu tempat sahaja", "marks": 2, "keywords": ["salah satu tempat", "Mu'anaqah", "معانقة", "ساله ساتو تمڤت"]},
+        {"criterion": "Contoh ayat al-Baqarah: 2 dengan surah dan ayat", "marks": 2, "keywords": ["لَا رَيۡبَ", "لا ريب", "al-Baqarah", "البقرة", "2"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [68]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "topic_id": "tajwid_b4_tingkatan_mad",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b4_tingkatan_mad_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah kadar harakat bacaan Mad Lazim?",
+      "question_jawi": "براڤاكه قدر حركة باچاءن مد لازم؟",
+      "reference_answer_rumi": "Enam harakat",
+      "reference_answer_jawi": "انم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan enam harakat", "marks": 1, "keywords": ["enam harakat", "6 harakat", "انم حركة", "enam", "6"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [64]
+    },
+    {
+      "id": "tajwid_b4_tingkatan_mad_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Apakah tingkatan mad yang paling kuat?",
+      "question_jawi": "اڤاكه تيڠكتن مد يڠ ڤاليڠ قوات؟",
+      "reference_answer_rumi": "Mad Lazim (tingkatan pertama dalam jadual martabat mad far'i)",
+      "reference_answer_jawi": "مد لازم",
+      "rubric": [
+        {"criterion": "Menyatakan Mad Lazim", "marks": 1, "keywords": ["Mad Lazim", "مد لازم", "lazim"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [64, 65]
+    },
+    {
+      "id": "tajwid_b4_tingkatan_mad_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Apakah tingkatan mad yang paling lemah?",
+      "question_jawi": "اڤاكه تيڠكتن مد يڠ ڤاليڠ لمه؟",
+      "reference_answer_rumi": "Mad Badal (tingkatan terakhir dalam jadual martabat mad far'i)",
+      "reference_answer_jawi": "مد بدل",
+      "rubric": [
+        {"criterion": "Menyatakan Mad Badal", "marks": 1, "keywords": ["Mad Badal", "مد بدل", "badal"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [64, 65]
+    },
+    {
+      "id": "tajwid_b4_tingkatan_mad_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah tingkatan mad?",
+      "question_jawi": "براڤاكه تيڠكتن مد؟",
+      "reference_answer_rumi": "Lima tingkatan",
+      "reference_answer_jawi": "ليم تيڠكتن",
+      "rubric": [
+        {"criterion": "Menyatakan lima", "marks": 1, "keywords": ["lima", "5", "ليم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [64, 65]
+    },
+    {
+      "id": "tajwid_b4_tingkatan_mad_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Nyatakan tingkatan mad mengikut susunan yang betul.",
+      "question_jawi": "ڽاتاكن تيڠكتن مد مڠيكوت سوسونن يڠ بتول.",
+      "reference_answer_rumi": "Mad Lazim, Mad Wajib Muttasil, Mad 'Aridh Lissukun, Mad Jaiz Munfasil, Mad Badal.",
+      "reference_answer_jawi": "مد لازم، مد واجب متصل، مد عارض للسكون، مد جائز منفصل، مد بدل.",
+      "rubric": [
+        {"criterion": "Menyenaraikan kelima-lima mad", "marks": 2, "keywords": ["Lazim", "Wajib Muttasil", "Aridh Lissukun", "Jaiz Munfasil", "Badal", "مد لازم", "مد واجب متصل", "مد عارض للسكون", "مد جائز منفصل", "مد بدل"]},
+        {"criterion": "Susunan betul (Lazim pertama, Badal terakhir)", "marks": 2, "keywords": ["Lazim", "Badal", "مد لازم", "مد بدل"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [64, 65]
+    },
+    {
+      "id": "tajwid_b4_tingkatan_mad_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan kadar harakat bagi Mad Wajib Muttasil, Mad 'Aridh Lissukun dan Mad Badal.",
+      "question_jawi": "ڽاتاكن قدر حركة باݢي مد واجب متصل، مد عارض للسكون دان مد بدل.",
+      "reference_answer_rumi": "Mad Wajib Muttasil: empat atau lima. Mad 'Aridh Lissukun: harus dua, empat atau enam harakat. Mad Badal: dua harakat.",
+      "reference_answer_jawi": "مد واجب متصل: امڤت اتاو ليم. مد عارض للسكون: هاروس دوا، امڤت اتاو انم حركة. مد بدل: دوا حركة.",
+      "rubric": [
+        {"criterion": "Mad Wajib Muttasil empat atau lima", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]},
+        {"criterion": "Mad 'Aridh Lissukun dua, empat atau enam", "marks": 1, "keywords": ["dua, empat atau enam", "2, 4 atau 6", "دوا، امڤت اتاو انم"]},
+        {"criterion": "Mad Badal dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [64]
+    },
+    {
+      "id": "tajwid_b4_tingkatan_mad_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan kepentingan mempelajari tingkatan mad. Jelaskan dengan contoh kalimah yang diberikan dalam buku.",
+      "question_jawi": "تراڠكن كڤنتيڠن ممڤلاجري تيڠكتن مد. جلسكن دڠن چونتوه كليمه يڠ دبريكن دالم بوكو.",
+      "reference_answer_rumi": "Apabila terdapat dua hukum mad dalam satu kalimah, hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Contohnya kalimah مِمَّا يَشَآءُ ketika bacaan waqaf terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+      "reference_answer_jawi": "اڤابيلا ترداڤت دوا حكوم مد دالم ساتو كليمه، حكومڽ هندقله برڤندوکن كڤد تيڠكتن يڠ ترتيڠڬي. چونتوه كليمه مِمَّا يَشَآءُ كتيک باچاءن وقف ترداڤت دوا حكوم ياءيت مد عارض للسكون دان مد واجب متصل. حكوم سبنرڽ اداله مد واجب متصل كران تيڠكتنڽ لبيه تيڠڬي درڤد مد عارض للسكون.",
+      "rubric": [
+        {"criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi", "marks": 2, "keywords": ["tingkatan yang tertinggi", "tertinggi", "ترتيڠڬي", "dua hukum"]},
+        {"criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf", "marks": 1, "keywords": ["مِمَّا يَشَآءُ", "مما يشاء", "yasya", "waqaf"]},
+        {"criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil", "marks": 1, "keywords": ["Aridh Lissukun", "Wajib Muttasil", "عارض للسكون", "واجب متصل"]},
+        {"criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi", "marks": 2, "keywords": ["Wajib Muttasil", "lebih tinggi", "واجب متصل", "لبيه تيڠڬي"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [64]
+    }
+  ]
+}

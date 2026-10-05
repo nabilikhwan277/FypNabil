@@ -1,0 +1,121 @@
+{
+  "topic_id": "fiqh_b1_solat_dhuha",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_dhuha_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah hukum solat dhuha?",
+      "question_jawi": "اڤاكه حكوم صلاة ضحى؟",
+      "reference_answer_rumi": "Sunat muakkad",
+      "reference_answer_jawi": "سنة مؤكد",
+      "rubric": [
+        {"criterion": "Menyatakan sunat muakkad", "marks": 1, "keywords": ["sunat muakkad", "muakkad", "سنة مؤكد", "مؤكد"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [14]
+    },
+    {
+      "id": "fiqh_b1_solat_dhuha_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Lebih kurang berapa minit selepas matahari terbit bermulanya waktu dhuha?",
+      "question_jawi": "لبيه كورڠ برڤ مينيت سلڤس ماتاهاري تربيت برمولاڽ وقتو ضحى؟",
+      "reference_answer_rumi": "Lebih kurang 28 minit",
+      "reference_answer_jawi": "لبيه كورڠ 28 مينيت",
+      "rubric": [
+        {"criterion": "Menyatakan 28 minit", "marks": 1, "keywords": ["28 minit", "dua puluh lapan minit", "28 مينيت"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [14]
+    },
+    {
+      "id": "fiqh_b1_solat_dhuha_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah berakhirnya waktu solat dhuha?",
+      "question_jawi": "بيلاكه براخيرڽ وقتو صلاة ضحى؟",
+      "reference_answer_rumi": "Hingga gelincir matahari sebelum masuk waktu zohor",
+      "reference_answer_jawi": "هيڠڬ ڬلينچير ماتاهاري سبلوم ماسوق وقتو ظهر",
+      "rubric": [
+        {"criterion": "Menyatakan gelincir matahari", "marks": 1, "keywords": ["gelincir matahari", "ڬلينچير ماتاهاري", "ݢلينچير"]},
+        {"criterion": "Menyatakan sebelum masuk waktu zohor", "marks": 1, "keywords": ["sebelum zohor", "waktu zohor", "ظهر"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [14]
+    },
+    {
+      "id": "fiqh_b1_solat_dhuha_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan dua fadhilat solat dhuha dan huraikan satu daripadanya.",
+      "question_jawi": "ڽاتاكن دوا فضيلة صلاة ضحى دان هورايكن ساتو درڤداڽ.",
+      "reference_answer_rumi": "1. Jaminan rezeki: orang yang selalu mengamalkan solat dhuha akan dikurniakan rezeki yang melimpah ruah kerana waktu dhuha itu ada keistimewaannya. 2. Kekuatan jasmani: pergerakan solat merupakan senaman badan yang memberikan kesihatan yang baik; pergerakan seperti rukuk dan sujud dapat meregangkan otot manusia.",
+      "reference_answer_jawi": "1. جامينن رزقي: اورڠ يڠ سلالو مڠعملكن صلاة ضحى اكن دكورنياكن رزقي يڠ مليمڤه روه كران وقتو ضحى ايت اد كأيستيميواءنڽ. 2. ككواتن جسماني: ڤربواتن صلاة مروڤاكن سنمن بادن يڠ ممبريكن كصيحتن يڠ باءيق؛ ڤرڬرقن سڤرتي ركوع دان سجود داڤت مرڠڬڠكن اوتوت ماءنسي.",
+      "rubric": [
+        {"criterion": "Menyatakan jaminan rezeki", "marks": 1, "keywords": ["jaminan rezeki", "rezeki", "رزقي", "جامينن رزقي"]},
+        {"criterion": "Menyatakan kekuatan jasmani", "marks": 1, "keywords": ["kekuatan jasmani", "jasmani", "ككواتن جسماني", "جسماني"]},
+        {"criterion": "Huraian yang betul bagi salah satu fadhilat", "marks": 1, "keywords": ["melimpah ruah", "senaman", "kesihatan", "meregangkan otot", "مليمڤه روه", "سنمن", "كصيحتن", "اوتوت"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [15]
+    },
+    {
+      "id": "fiqh_b1_solat_dhuha_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Baca dan hafal: Tuliskan lafaz niat solat dhuha dan nyatakan maksudnya.",
+      "question_jawi": "باچ دان حافل: توليسكن لفظ نية صلاة ضحى دان ڽاتاكن مقصودڽ.",
+      "reference_answer_rumi": "أُصَلِّي سُنَّةَ ٱلضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat dhuha dua rakaat kerana Allah Taala.",
+      "reference_answer_jawi": "أُصَلِّي سُنَّةَ ٱلضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة ضحى دوا ركعة كران الله تعالى.",
+      "rubric": [
+        {"criterion": "Menulis lafaz niat dengan betul", "marks": 2, "keywords": ["أُصَلِّي", "ٱلضُّحَى", "رَكْعَتَيْنِ", "اصلي", "الضحى"]},
+        {"criterion": "Menyatakan maksud niat", "marks": 1, "keywords": ["sahaja aku solat sunat dhuha", "dua rakaat kerana Allah", "سهاج اكو صلاة سنة ضحى"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [15]
+    },
+    {
+      "id": "fiqh_b1_solat_dhuha_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Mari berdoa bersama-sama: Berdasarkan maksud doa selepas solat dhuha, nyatakan tiga keadaan rezeki yang dipohon supaya Allah turunkan, keluarkan, mudahkan, sucikan atau dekatkan.",
+      "question_jawi": "ماري بردعاء برسام-سام: برداسركن مقصود دعاء سلڤس صلاة ضحى، ڽاتاكن تيݢ كأداءن رزقي يڠ دڤوهون سوڤاي الله تورونكن، كلواركن، مودهكن، سوچيكن اتاو دكتكن.",
+      "reference_answer_rumi": "Jika rezekiku masih di langit turunkanlah; jika di bumi keluarkanlah; jika sukar mudahkanlah; jika haram sucikanlah; jika jauh dekatkanlah. (Mana-mana tiga)",
+      "reference_answer_jawi": "جک رزقيكو ماسيه دلاڠيت تورونكنڽ؛ جک دبومي كلواركنڽ؛ جک سوكر مودهكنڽ؛ جک حرام سوچيكنڽ؛ جک جاءوه دكتكنڽ. (مان-مان تيݢ)",
+      "rubric": [
+        {"criterion": "Keadaan pertama yang betul (langit-turunkan / bumi-keluarkan / sukar-mudahkan / haram-sucikan / jauh-dekatkan)", "marks": 1, "keywords": ["langit", "bumi", "sukar", "haram", "jauh", "لاڠيت", "بومي", "سوكر", "حرام", "جاءوه"]},
+        {"criterion": "Keadaan kedua yang betul", "marks": 1, "keywords": ["turunkan", "keluarkan", "mudahkan", "sucikan", "dekatkan", "تورونكن", "كلواركن", "مودهكن", "سوچيكن", "دكتكن"]},
+        {"criterion": "Keadaan ketiga yang betul", "marks": 1, "keywords": ["langit", "bumi", "sukar", "haram", "jauh", "لاڠيت", "بومي", "سوكر", "حرام", "جاءوه"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [17]
+    },
+    {
+      "id": "fiqh_b1_solat_dhuha_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Encik Ahmad ingin menambah rezeki dan menjaga kesihatan badannya. Cadangkan satu solat sunat kepadanya, terangkan pengertian dan waktu solat tersebut, serta huraikan dua fadhilatnya.",
+      "question_jawi": "انچيق احمد ايڠين منمبه رزقي دان منجاݢ كصيحتن بادنڽ. چادڠكن ساتو صلاة سنة كڤداڽ، ترڠكن ڤڠرتين دان وقتو صلاة ترسبوت، سرتا هورايكن دوا فضيلتڽ.",
+      "reference_answer_rumi": "Solat dhuha. Solat dhuha ialah solat sunat yang didirikan sepanjang waktu dhuha. Waktunya bermula apabila matahari terbit sekadar satu galah tingginya, lebih kurang 28 minit selepas matahari terbit hingga gelincir matahari sebelum masuk waktu zohor. Fadhilat: jaminan rezeki, iaitu orang yang selalu mengamalkannya dikurniakan rezeki yang melimpah ruah; kekuatan jasmani, iaitu pergerakan solat seperti rukuk dan sujud merupakan senaman yang memberi kesihatan dan meregangkan otot.",
+      "reference_answer_jawi": "صلاة ضحى. صلاة ضحى برمقصود صلاة سنة يڠ دديريكن سڤنجڠ وقتو ضحى. وقتوڽ برمولا اڤابيلا ماتاهاري تله تربيت سقدر ساتو ڬاله تيڠڬيڽ، لبيه كورڠ 28 مينيت سلڤس ماتاهاري تربيت هيڠڬ ڬلينچير ماتاهاري سبلوم ماسوق وقتو ظهر. فضيلة: جامينن رزقي، اورڠ يڠ سلالو مڠعملكنڽ دكورنياكن رزقي يڠ مليمڤه روه؛ ككواتن جسماني، ڤرڬرقن صلاة سڤرتي ركوع دان سجود مروڤاكن سنمن يڠ ممبري كصيحتن دان مرڠڬڠكن اوتوت.",
+      "rubric": [
+        {"criterion": "Mencadangkan solat dhuha", "marks": 1, "keywords": ["dhuha", "ضحى"]},
+        {"criterion": "Pengertian: solat sunat sepanjang waktu dhuha", "marks": 1, "keywords": ["sepanjang waktu dhuha", "سڤنجڠ وقتو ضحى"]},
+        {"criterion": "Waktu: 28 minit selepas matahari terbit hingga gelincir matahari sebelum zohor", "marks": 2, "keywords": ["28 minit", "satu galah", "gelincir matahari", "sebelum zohor", "28 مينيت", "ڬاله", "ڬلينچير"]},
+        {"criterion": "Huraian fadhilat jaminan rezeki", "marks": 1, "keywords": ["rezeki", "melimpah ruah", "رزقي", "مليمڤه روه"]},
+        {"criterion": "Huraian fadhilat kekuatan jasmani", "marks": 1, "keywords": ["jasmani", "senaman", "kesihatan", "otot", "جسماني", "سنمن", "كصيحتن", "اوتوت"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [14, 15]
+    }
+  ]
+}

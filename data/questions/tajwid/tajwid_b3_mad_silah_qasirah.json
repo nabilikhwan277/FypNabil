@@ -1,0 +1,105 @@
+{
+  "topic_id": "tajwid_b3_mad_silah_qasirah",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_silah_qasirah_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Silah Qasirah?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد صلة قصيرة؟",
+      "reference_answer_rumi": "Dua harakat",
+      "reference_answer_jawi": "دوا حركة",
+      "rubric": [
+        {"criterion": "Menyatakan dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_qasirah_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Huruf apakah yang menjadi asas hukum Mad Silah Qasirah?",
+      "question_jawi": "حروف اڤاكه يڠ منجادي اساس حكوم مد صلة قصيرة؟",
+      "reference_answer_rumi": "Ha dhamir",
+      "reference_answer_jawi": "هاء ضمير",
+      "rubric": [
+        {"criterion": "Menyatakan ha dhamir", "marks": 1, "keywords": ["ha dhamir", "ha damir", "هاء ضمير"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_qasirah_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Ha dhamir dalam Mad Silah Qasirah bertemu dengan huruf selain apa?",
+      "question_jawi": "هاء ضمير دالم مد صلة قصيرة برتمو دڠن حروف سلاءين اڤ؟",
+      "reference_answer_rumi": "Selain hamzah qata'",
+      "reference_answer_jawi": "سلاءين همزة قطع",
+      "rubric": [
+        {"criterion": "Menyatakan hamzah qata'", "marks": 1, "keywords": ["hamzah qata", "hamzah qatha", "همزة قطع"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_qasirah_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan pengertian Mad Silah Qasirah.",
+      "question_jawi": "ڽاتاكن ڤڠرتين مد صلة قصيرة.",
+      "reference_answer_rumi": "Mad Silah Qasirah ialah apabila ha dhamir berbaris bawah atau depan bertemu dengan huruf selain hamzah qata'.",
+      "reference_answer_jawi": "مد صلة قصيرة اياله اڤابيلا هاء ضمير برباريس باوه اتاو دڤن برتمو دڠن حروف سلاءين همزة قطع.",
+      "rubric": [
+        {"criterion": "Menyebut ha dhamir", "marks": 1, "keywords": ["ha dhamir", "هاء ضمير"]},
+        {"criterion": "Berbaris bawah atau depan", "marks": 1, "keywords": ["baris bawah", "depan", "باوه", "دڤن"]},
+        {"criterion": "Bertemu huruf selain hamzah qata'", "marks": 1, "keywords": ["selain hamzah qata", "hamzah qata", "سلاءين همزة قطع"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [63]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_qasirah_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Berikan satu contoh ayat bagi ha dhamir berbaris bawah dan satu contoh bagi ha dhamir berbaris depan dalam Mad Silah Qasirah, beserta nama surah.",
+      "question_jawi": "بريكن ساتو چونتوه ايات باݢي هاء ضمير برباريس باوه دان ساتو چونتوه باݢي هاء ضمير برباريس دڤن دالم مد صلة قصيرة، بسرتا نام سورة.",
+      "reference_answer_rumi": "Berbaris bawah: أَمۡ يَقُولُونَ شَاعِرٞ نَّتَرَبَّصُ بِهِۦ رَيۡبَ ٱلۡمَنُونِ (Surah at-Tur: 30). Berbaris depan: فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ إِنَّهُۥ كَانَ تَوَّابَۢا (Surah an-Nasr: 3).",
+      "reference_answer_jawi": "برباريس باوه: أَمۡ يَقُولُونَ شَاعِرٞ نَّتَرَبَّصُ بِهِۦ رَيۡبَ ٱلۡمَنُونِ (سورة الطور: 30). برباريس دڤن: فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ إِنَّهُۥ كَانَ تَوَّابَۢا (سورة النصر: 3).",
+      "rubric": [
+        {"criterion": "Contoh ha dhamir berbaris bawah", "marks": 1, "keywords": ["بِهِۦ", "أَهۡلِهِۦ"]},
+        {"criterion": "Surah bagi contoh berbaris bawah", "marks": 1, "keywords": ["at-Tur", "الطور", "Insyiqaq", "الإنشقاق"]},
+        {"criterion": "Contoh ha dhamir berbaris depan", "marks": 1, "keywords": ["إِنَّهُۥ", "وَرَحۡمَتُهُۥ"]},
+        {"criterion": "Surah bagi contoh berbaris depan", "marks": 1, "keywords": ["an-Nasr", "النصر", "al-Baqarah", "البقرة"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [63]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_qasirah_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum Mad Silah Qasirah meliputi pengertian dan kadar harakat, serta kenal pasti kalimah yang mengandungi Mad Silah Qasirah dalam ayat وَيَنقَلِبُ إِلَىٰٓ أَهۡلِهِۦ مَسۡرُورٗا dan jelaskan sebabnya.",
+      "question_jawi": "تراڠكن حكوم مد صلة قصيرة مليڤوتي ڤڠرتين دان قدر حركة، سرتا كنل ڤستي كليمه يڠ مڠاندوڠي مد صلة قصيرة دالم ايات وَيَنقَلِبُ إِلَىٰٓ أَهۡلِهِۦ مَسۡرُورٗا دان جلسكن سببڽ.",
+      "reference_answer_rumi": "Mad Silah Qasirah ialah apabila ha dhamir berbaris bawah atau depan bertemu dengan huruf selain hamzah qata'. Kadarnya dua harakat. Dalam ayat tersebut (Surah al-Insyiqaq: 9), kalimahnya ialah أَهۡلِهِۦ kerana ha dhamir berbaris bawah bertemu dengan huruf mim (مَسۡرُورٗا), iaitu huruf selain hamzah qata'.",
+      "reference_answer_jawi": "مد صلة قصيرة اياله اڤابيلا هاء ضمير برباريس باوه اتاو دڤن برتمو دڠن حروف سلاءين همزة قطع. قدرڽ دوا حركة. دالم ايات ترسبوت (سورة الإنشقاق: 9)، كليمهڽ اياله أَهۡلِهِۦ كران هاء ضمير برباريس باوه برتمو دڠن حروف ميم (مَسۡرُورٗا)، ياءيت حروف سلاءين همزة قطع.",
+      "rubric": [
+        {"criterion": "Pengertian: ha dhamir berbaris bawah/depan", "marks": 1, "keywords": ["ha dhamir", "هاء ضمير", "baris bawah", "depan"]},
+        {"criterion": "Bertemu huruf selain hamzah qata'", "marks": 1, "keywords": ["hamzah qata", "همزة قطع"]},
+        {"criterion": "Kadar dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]},
+        {"criterion": "Mengenal pasti kalimah أَهۡلِهِۦ", "marks": 1, "keywords": ["أَهۡلِهِۦ", "اهله", "ahlihi"]},
+        {"criterion": "Sebab: ha dhamir berbaris bawah bertemu huruf mim (bukan hamzah qata')", "marks": 1, "keywords": ["mim", "ميم", "مَسۡرُورٗا", "bukan hamzah", "selain hamzah"]}
+      ],
+      "max_marks": 5,
+      "source_pages": [63]
+    }
+  ]
+}

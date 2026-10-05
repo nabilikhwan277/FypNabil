@@ -1,0 +1,26 @@
+sequenceDiagram
+  autonumber
+  participant S as Student (web app)
+  participant R as ReAct controller (code)
+  participant Q as Question bank
+  participant K as Knowledge base (ChromaDB)
+  participant E as bge-m3 embedder
+  participant M as Student memory (SQLite)
+  S->>R: answer to question q
+  Note over R: Thought 1: What does this question test?
+  R->>Q: get_question(q)
+  Q-->>R: rubric criteria, marks, reference answer
+  Note over R: Thought 2: What does the textbook say?
+  R->>K: search_notes(question + answer, topic first)
+  K-->>R: top-4 textbook chunks
+  Note over R: Thought 3: Which criteria are met?
+  R->>E: embed(answer, reference, criteria)
+  E-->>R: similarities
+  R->>R: score_rubric (Layer A rules, then Layer B rule)
+  Note over R: Thought 4: What has this student got wrong before?
+  R->>M: get_history(student, topic)
+  M-->>R: mastery, level, repeated mistakes
+  Note over R: Thought 5: What feedback helps most?
+  R->>R: generate_feedback (templates, source page, next step)
+  R->>M: save attempt, update mastery / unlock / XP / badges
+  R-->>S: score, feedback, 5-step trace

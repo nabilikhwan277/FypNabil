@@ -1,0 +1,661 @@
+[
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "topic_id": "jawi_b1_imbuhan_an_alif_nun",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_alif_nun.md",
+  "question_rumi": "Tulis perkataan 'kesilauan' dalam tulisan Jawi.",
+  "question_jawi": "توليس ڤركاتاءن 'kesilauan' دالم توليسن جاوي.",
+  "reference_answer_rumi": "kesilauan",
+  "reference_answer_jawi": "كسيلاوان",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "marks": 2,
+    "keywords": [
+     "كسيلاوان"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+  "topic_id": "jawi_b1_imbuhan_an_alif_nun",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_alif_nun.md",
+  "question_rumi": "Murid menyenaraikan kata dasar yang berakhir dengan bunyi vokal 'u' kemudian meletakkan imbuhan '-an' yang sesuai. Berikan dua contoh dalam tulisan Jawi.",
+  "question_jawi": "موريد مڽنارايكن كات داسر يڠ براخير دڠن بوڽي ۏوكل 'u' كمودين ملتقكن ايمبوهن '-an' يڠ سسواي.",
+  "reference_answer_rumi": "Contoh: palu -> paluan; deru -> deruan (atau guru -> perguruan, tuju -> tujuan)",
+  "reference_answer_jawi": "ڤالو -> ڤالوان؛ درو -> دروان",
+  "rubric": [
+   {
+    "criterion": "Contoh pertama kata '-ان' dieja betul",
+    "marks": 1,
+    "keywords": [
+     "ڤالوان",
+     "دروان",
+     "ڤرݢوروان",
+     "توجوان",
+     "لالوان",
+     "كماجوان"
+    ]
+   },
+   {
+    "criterion": "Contoh kedua kata '-ان' dieja betul",
+    "marks": 1,
+    "keywords": [
+     "ڤالوان",
+     "دروان",
+     "ڤرݢوروان",
+     "توجوان",
+     "لالوان",
+     "كماجوان"
+    ]
+   },
+   {
+    "criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)",
+    "marks": 1,
+    "keywords": [
+     "و",
+     "vokal u"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q11",
+  "topic_id": "jawi_b1_imbuhan_an_nun",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_nun.md",
+  "question_rumi": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+  "question_jawi": "اڤاكه يڠ ترداڤت دمردي اݢروتيكنولوݢي ڤرك؟",
+  "reference_answer_rumi": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+  "reference_answer_jawi": "ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن",
+  "rubric": [
+   {
+    "criterion": "Menyebut bunga ros",
+    "marks": 1,
+    "keywords": [
+     "bunga ros",
+     "بوڠا روس"
+    ]
+   },
+   {
+    "criterion": "Menyebut strawberi / buah-buahan",
+    "marks": 1,
+    "keywords": [
+     "strawberi",
+     "buah-buahan",
+     "ستروبيري",
+     "بواه-بواهن"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q12",
+  "topic_id": "jawi_b1_imbuhan_an_nun",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_nun.md",
+  "question_rumi": "Nyatakan aktiviti ketika berada di Big Red Strawberry Farm.",
+  "question_jawi": "ڤاتاكن اكتيۏيتي كتيك برادا دبيك ريد ستروبيري فرم.",
+  "reference_answer_rumi": "Mendapat pengalaman memetik sendiri buah strawberi dan membeli sebagai buah tangan.",
+  "reference_answer_jawi": "داڤت ڤڠالمن ممتيق سنديري بواه ستروبيري دان ممبلي سباݢاي بواه تاڠن.",
+  "rubric": [
+   {
+    "criterion": "Memetik sendiri buah strawberi",
+    "marks": 1,
+    "keywords": [
+     "memetik",
+     "ممتيق"
+    ]
+   },
+   {
+    "criterion": "Membeli sebagai buah tangan",
+    "marks": 1,
+    "keywords": [
+     "buah tangan",
+     "بواه تاڠن"
+    ]
+   },
+   {
+    "criterion": "Menyebut 'pengalaman'",
+    "marks": 1,
+    "keywords": [
+     "pengalaman",
+     "ڤڠالمن"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q6",
+  "topic_id": "jawi_b1_imbuhan_an_nun",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_nun.md",
+  "question_rumi": "Kenapakah ejaan 'pakaian' menggunakan huruf 'ن' sahaja bagi imbuhan '-an'? Tuliskan juga ejaan Jawinya.",
+  "question_jawi": "كنڤاكه ايجاءن 'pakaian' مڠݢوناكن حروف 'ن' سهاج باݢي ايمبوهن '-an'؟ توليسكن جوݢ ايجاءن جاويڽ.",
+  "reference_answer_rumi": "Kerana kata dasarnya 'pakai' (ڤاكاي) berakhir dengan huruf '-ي' (diftong 'ai'); imbuhan '-an' pada kata dasar yang berakhir dengan huruf '-ي' ditulis dengan 'ن' sahaja. Ejaan: ڤاكاين.",
+  "reference_answer_jawi": "كران كات داسرڽ ڤاكاي براخير دڠن حروف '-ي'؛ ايمبوهن '-an' ڤد كات داسر يڠ براخير دڠن حروف '-ي' هندقله دتوليس دڠن حروف 'ن' سهاج. ايجاءن: ڤاكاين.",
+  "rubric": [
+   {
+    "criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'",
+    "marks": 1,
+    "keywords": [
+     "berakhir dengan huruf ي",
+     "ڤاكاي",
+     "diftong ai"
+    ]
+   },
+   {
+    "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+    "marks": 1,
+    "keywords": [
+     "ن sahaja",
+     "huruf nun sahaja",
+     "سهاج"
+    ]
+   },
+   {
+    "criterion": "Mengeja ڤاكاين dengan betul",
+    "marks": 1,
+    "keywords": [
+     "ڤاكاين"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q4",
+  "topic_id": "jawi_b2_imbuhan_i_hamzah_ya",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b2_imbuhan_i_hamzah_ya.md",
+  "question_rumi": "Tulis perkataan 'dianggotai' dalam tulisan Jawi.",
+  "question_jawi": "توليس ڤركاتاءن 'dianggotai' دالم توليسن جاوي.",
+  "reference_answer_rumi": "dianggotai",
+  "reference_answer_jawi": "دأڠݢوتاءي",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'dianggotai' dengan betul (دأڠݢوتاءي)",
+    "marks": 2,
+    "keywords": [
+     "دأڠݢوتاءي"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q3",
+  "topic_id": "jawi_b2_imbuhan_i_ya",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b2_imbuhan_i_ya.md",
+  "question_rumi": "Tulis perkataan 'menasihati' dalam tulisan Jawi.",
+  "question_jawi": "توليس ڤركاتاءن 'menasihati' دالم توليسن جاوي.",
+  "reference_answer_rumi": "menasihati",
+  "reference_answer_jawi": "منصيحتي",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+    "marks": 2,
+    "keywords": [
+     "منصيحتي"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q8",
+  "topic_id": "jawi_b2_imbuhan_i_ya",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/jawi/jawi_b2_imbuhan_i_ya.md",
+  "question_rumi": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+  "question_jawi": "تراڠكن چارا مڠيجا ايمبوهن '-i' دڠن حروف '-ي'. دالم جواڤن اندا، جلسكن مقصود سوكو كات ترتوتوڤ، ۏوكل يڠ ترليبت، دان توكركن كات داسر 'marah'، 'bayang' دان 'ubat' كڤد كات برايمبوهن '-i' دالم توليسن جاوي.",
+  "reference_answer_rumi": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+  "reference_answer_jawi": "ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ دأيجا دڠن حروف '-ي' سهاج. سوكو كات ترتوتوڤ اياله سوكو كات يڠ دأخيري اوليه حروف كونسونن؛ ۏوكل 'a'، 'i' اتاو 'u'. ماره -> دمارهي؛ بايڠ -> دبايڠي؛ اوبت -> اوبتي.",
+  "rubric": [
+   {
+    "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+    "marks": 1,
+    "keywords": [
+     "ي sahaja",
+     "حروف '-ي'",
+     "سهاج"
+    ]
+   },
+   {
+    "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+    "marks": 1,
+    "keywords": [
+     "konsonan",
+     "كونسونن"
+    ]
+   },
+   {
+    "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+    "marks": 1,
+    "keywords": [
+     "vokal a",
+     "a, i",
+     "ۏوكل"
+    ]
+   },
+   {
+    "criterion": "Mengeja dimarahi: دمارهي",
+    "marks": 1,
+    "keywords": [
+     "دمارهي"
+    ]
+   },
+   {
+    "criterion": "Mengeja dibayangi: دبايڠي",
+    "marks": 1,
+    "keywords": [
+     "دبايڠي"
+    ]
+   },
+   {
+    "criterion": "Mengeja ubati: اوبتي",
+    "marks": 1,
+    "keywords": [
+     "اوبتي"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q11",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Di manakah termaktubnya dalil yang mewajibkan berpuasa?",
+  "question_jawi": "دماناكه ترمكتوبڽ دليل يڠ مواجبكن برڤواسا؟",
+  "reference_answer_rumi": "Dalam al-Quran, hadis dan ijmak ulama.",
+  "reference_answer_jawi": "دالم القرءان، حديث دان اجماع علماء.",
+  "rubric": [
+   {
+    "criterion": "Al-Quran",
+    "marks": 1,
+    "keywords": [
+     "al-Quran",
+     "Quran",
+     "القرءان"
+    ]
+   },
+   {
+    "criterion": "Hadis",
+    "marks": 1,
+    "keywords": [
+     "hadis",
+     "حديث"
+    ]
+   },
+   {
+    "criterion": "Ijmak ulama",
+    "marks": 1,
+    "keywords": [
+     "ijmak",
+     "ulama",
+     "اجماع",
+     "علماء"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q13",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Apakah ibadah yang boleh digandakan semasa bulan Ramadan?",
+  "question_jawi": "اڤاكه عبادة يڠ بوليه دݢنداكن سماس بولن رمضان؟",
+  "reference_answer_rumi": "Bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+  "reference_answer_jawi": "برصدقه، صلاة سنة تراويح دمسجد، تداروس القرءان، دودوق دالم مجليس علمو دان بربوک ڤواسا سچارا برجماعه.",
+  "rubric": [
+   {
+    "criterion": "Ibadah pertama (cth. bersedekah)",
+    "marks": 1,
+    "keywords": [
+     "sedekah",
+     "برصدقه"
+    ]
+   },
+   {
+    "criterion": "Ibadah kedua (cth. solat sunat tarawih)",
+    "marks": 1,
+    "keywords": [
+     "tarawih",
+     "تراويح"
+    ]
+   },
+   {
+    "criterion": "Ibadah ketiga (cth. tadarus al-Quran / majlis ilmu / berbuka puasa berjemaah)",
+    "marks": 1,
+    "keywords": [
+     "tadarus",
+     "majlis ilmu",
+     "berbuka",
+     "تداروس",
+     "مجليس علمو",
+     "برجماعه"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q14",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Jawikan perkataan berikut: halal, syarikat, istilah, tahajud.",
+  "question_jawi": "جاويكن ڤركاتاٴن برايكوت: halal, syarikat, istilah, tahajud.",
+  "reference_answer_rumi": "halal, syarikat, istilah, tahajud",
+  "reference_answer_jawi": "حلال، شريكت، ايستيله، تهجد",
+  "rubric": [
+   {
+    "criterion": "halal: حلال",
+    "marks": 1,
+    "keywords": [
+     "حلال"
+    ]
+   },
+   {
+    "criterion": "syarikat: شريكت (kata umum, ta maftuhah)",
+    "marks": 1,
+    "keywords": [
+     "شريكت"
+    ]
+   },
+   {
+    "criterion": "istilah: ايستيله (ejaan Melayu, bukan اصطلاح)",
+    "marks": 1,
+    "keywords": [
+     "ايستيله"
+    ]
+   },
+   {
+    "criterion": "tahajud: تهجد",
+    "marks": 1,
+    "keywords": [
+     "تهجد"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q5",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Kata pinjaman bahasa Arab terbahagi kepada berapa kategori? Namakan.",
+  "question_jawi": "كات ڤينجمن بهاس عرب تربهاݢي كڤد براڤ كاتݢوري؟ نامكن.",
+  "reference_answer_rumi": "Dua: istilah agama dan kata umum",
+  "reference_answer_jawi": "دوا: ايستيله اݢام دان كات عموم",
+  "rubric": [
+   {
+    "criterion": "Menyatakan istilah agama",
+    "marks": 1,
+    "keywords": [
+     "istilah agama",
+     "istilah keagamaan",
+     "ايستيله اݢام"
+    ]
+   },
+   {
+    "criterion": "Menyatakan kata umum",
+    "marks": 1,
+    "keywords": [
+     "kata umum",
+     "كات عموم"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q7",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Nyatakan kaedah menulis kata pinjaman bahasa Arab yang bermula dengan 'al takrif' dan berikan dua contoh dalam tulisan Jawi.",
+  "question_jawi": "ڽاتاكن قاعده منوليس كات ڤينجمن بهاس عرب يڠ برمولا دڠن 'ال تعريف' دان بريكن دوا چونتوه دالم توليسن جاوي.",
+  "reference_answer_rumi": "Kata yang bermula dengan 'al takrif' (sama ada 'al syamsiah' atau 'al qamariah') dikekalkan ejaan Arabnya dan tanda sempang tidak perlu digunakan. Contoh: Al-Rahim الرحيم, Al-Qamar القمر.",
+  "reference_answer_jawi": "كات يڠ برمولا دڠن 'ال تعريف'، سام اد 'ال شمسية' اتاو 'ال قمرية' هندقله دككلكن ايجاٴن عربڽ. تندا سمڠ تيدق ڤرلو دݢوناكن. چونتوه: الرحيم، القمر.",
+  "rubric": [
+   {
+    "criterion": "Menyatakan ejaan Arab dikekalkan (sama ada al syamsiah atau al qamariah)",
+    "marks": 1,
+    "keywords": [
+     "dikekalkan",
+     "ejaan Arab",
+     "دككلكن",
+     "syamsiah",
+     "qamariah"
+    ]
+   },
+   {
+    "criterion": "Menyatakan tanda sempang tidak perlu digunakan",
+    "marks": 1,
+    "keywords": [
+     "sempang",
+     "سمڠ"
+    ]
+   },
+   {
+    "criterion": "Contoh pertama betul (cth. الرحمن، الرحيم، القمر، القدوس، الليل، المؤمن، العزيز، النجم، السلام، الصديق، الخالق، الغفار، الشمس، العليم)",
+    "marks": 1,
+    "keywords": [
+     "الرحمن",
+     "الرحيم",
+     "القمر",
+     "القدوس",
+     "الليل",
+     "المؤمن",
+     "العزيز",
+     "النجم",
+     "السلام",
+     "الصديق",
+     "الخالق",
+     "الغفار",
+     "الشمس",
+     "العليم"
+    ]
+   },
+   {
+    "criterion": "Contoh kedua betul",
+    "marks": 1,
+    "keywords": [
+     "الرحمن",
+     "الرحيم",
+     "القمر",
+     "القدوس",
+     "الليل",
+     "المؤمن",
+     "العزيز",
+     "النجم",
+     "السلام",
+     "الصديق",
+     "الخالق",
+     "الغفار",
+     "الشمس",
+     "العليم"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q9",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Bandingkan kaedah penulisan kata pinjaman bahasa Arab dalam kategori istilah keagamaan dengan kategori kata umum. Berikan contoh bagi setiap kategori, termasuk perkataan 'solat' dan 'sabun' dalam tulisan Jawi.",
+  "question_jawi": "بنديڠكن قاعده ڤنوليسن كات ڤينجمن بهاس عرب دالم كاتݢوري ايستيله كأݢاماٴن دڠن كاتݢوري كات عموم. بريكن چونتوه باݢي ستياڤ كاتݢوري، ترماسوق ڤركاتاٴن 'solat' دان 'sabun' دالم توليسن جاوي.",
+  "reference_answer_rumi": "Istilah keagamaan (berkaitan aktiviti agama Islam) dikekalkan ejaan asalnya, cth. hamzah akhir ditulis sejajar, ta marbutah dikekalkan: solat = صلاة. Kata umum (digunakan dalam aktiviti kehidupan) ditulis mengikut bunyi/sebutan orang Melayu: sabun = سابون (ejaan asal صابون).",
+  "reference_answer_jawi": "ايستيله كأݢاماٴن دككلكن ايجاٴن اصلن، چونتوه صلاة. كات عموم دتوليس مڠيكوت بوڽي ملايو، چونتوه سابون (ايجاٴن اصل صابون).",
+  "rubric": [
+   {
+    "criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam",
+    "marks": 1,
+    "keywords": [
+     "aktiviti agama",
+     "keagamaan",
+     "كأݢاماٴن"
+    ]
+   },
+   {
+    "criterion": "Istilah keagamaan dikekalkan ejaan asalnya",
+    "marks": 1,
+    "keywords": [
+     "dikekalkan",
+     "ejaan asal",
+     "دككلكن ايجاٴن اصلن"
+    ]
+   },
+   {
+    "criterion": "Mengeja solat: صلاة",
+    "marks": 1,
+    "keywords": [
+     "صلاة"
+    ]
+   },
+   {
+    "criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu",
+    "marks": 1,
+    "keywords": [
+     "bunyi Melayu",
+     "sebutan orang Melayu",
+     "بوڽي ملايو",
+     "سبوتن اورڠ ملايو"
+    ]
+   },
+   {
+    "criterion": "Mengeja sabun: سابون (bukan صابون)",
+    "marks": 1,
+    "keywords": [
+     "سابون"
+    ]
+   },
+   {
+    "criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)",
+    "marks": 1,
+    "keywords": [
+     "قبلة",
+     "زكاة",
+     "حلال",
+     "تيمم",
+     "كرتس",
+     "لاهير",
+     "ايستيله",
+     "علامت"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q1",
+  "topic_id": "jawi_b4_akronim_dilafaz",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_dilafaz.md",
+  "question_rumi": "Tulis akronim 'PETRONAS' (Petrolium Nasional) dalam tulisan Jawi.",
+  "question_jawi": "توليس اكرونيم 'PETRONAS' دالم توليسن جاوي.",
+  "reference_answer_rumi": "PETRONAS",
+  "reference_answer_jawi": "ڤيترونس",
+  "rubric": [
+   {
+    "criterion": "Mengeja ڤيترونس dengan betul",
+    "marks": 1,
+    "keywords": [
+     "ڤيترونس"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q2",
+  "topic_id": "jawi_b4_akronim_dilafaz",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_dilafaz.md",
+  "question_rumi": "Tulis akronim 'JAIS' (Jabatan Agama Islam Selangor) dalam tulisan Jawi.",
+  "question_jawi": "توليس اكرونيم 'JAIS' دالم توليسن جاوي.",
+  "reference_answer_rumi": "JAIS",
+  "reference_answer_jawi": "جاءيس",
+  "rubric": [
+   {
+    "criterion": "Mengeja جاءيس dengan hamzah",
+    "marks": 1,
+    "keywords": [
+     "جاءيس"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q6",
+  "topic_id": "jawi_b4_akronim_inggeris",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_inggeris.md",
+  "question_rumi": "Nyatakan peraturan mengeja akronim bahasa Inggeris dalam tulisan Jawi dan tulis akronim Jawi bagi 'CIMB'.",
+  "question_jawi": "ڽاتاكن ڤراتورن مڠيجا اكرونيم بهاس ايڠݢريس دالم توليسن جاوي دان توليس اكرونيم جاوي باݢي 'CIMB'.",
+  "reference_answer_rumi": "Dieja dengan menulis nama huruf satu persatu dan diletakkan tanda noktah selepas setiap huruf. CIMB = سي.اءي.عيم.بي.",
+  "reference_answer_jawi": "دأيجا دڠن منوليس نام حروف ساتو ڤرساتو دان دلتقكن تندا نقطه سلڤس ستياڤ حروف ترسبوت. سي.اءي.عيم.بي.",
+  "rubric": [
+   {
+    "criterion": "Menulis nama huruf satu persatu",
+    "marks": 1,
+    "keywords": [
+     "nama huruf",
+     "satu persatu",
+     "نام حروف",
+     "ساتو ڤرساتو"
+    ]
+   },
+   {
+    "criterion": "Tanda noktah selepas setiap huruf",
+    "marks": 1,
+    "keywords": [
+     "noktah",
+     "نقطه"
+    ]
+   },
+   {
+    "criterion": "CIMB: سي.اءي.عيم.بي",
+    "marks": 1,
+    "keywords": [
+     "سي.اءي.عيم.بي"
+    ]
+   }
+  ],
+  "max_marks": 3
+ }
+]

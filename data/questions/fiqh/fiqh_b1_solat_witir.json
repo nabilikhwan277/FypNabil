@@ -1,0 +1,104 @@
+{
+  "topic_id": "fiqh_b1_solat_witir",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_witir_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud perkataan witir?",
+      "question_jawi": "اڤاكه مقصود ڤركاتاءن وتر؟",
+      "reference_answer_rumi": "Ganjil",
+      "reference_answer_jawi": "ݢنجيل",
+      "rubric": [
+        {"criterion": "Menyatakan ganjil", "marks": 1, "keywords": ["ganjil", "ݢنجيل", "گنجيل"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [40]
+    },
+    {
+      "id": "fiqh_b1_solat_witir_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah waktu solat witir?",
+      "question_jawi": "بيلاكه وقتو صلاة وتر؟",
+      "reference_answer_rumi": "Selepas solat isyak hingga terbit fajar",
+      "reference_answer_jawi": "سلڤس صلاة عشاء هيڠݢ تربيت فجر",
+      "rubric": [
+        {"criterion": "Selepas solat isyak", "marks": 1, "keywords": ["isyak", "عشاء"]},
+        {"criterion": "Hingga terbit fajar", "marks": 1, "keywords": ["terbit fajar", "fajar", "فجر"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [40]
+    },
+    {
+      "id": "fiqh_b1_solat_witir_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan rakaat maksimum solat witir yang dinyatakan dalam buku?",
+      "question_jawi": "برڤاكه بيلڠن ركعة مقسيموم صلاة وتر يڠ دڽاتاكن دالم بوكو؟",
+      "reference_answer_rumi": "11 rakaat",
+      "reference_answer_jawi": "11 ركعة",
+      "rubric": [
+        {"criterion": "Menyatakan 11 rakaat", "marks": 1, "keywords": ["11", "sebelas", "سبلس"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [40]
+    },
+    {
+      "id": "fiqh_b1_solat_witir_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat solat witir.",
+      "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة وتر.",
+      "reference_answer_rumi": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+      "reference_answer_jawi": "1. دسوكاءي اوليه الله. 2. مندكتكن ديري كڤد الله. 3. ممبريكن ككواتن روحاني دان منڠڠكن جيوا.",
+      "rubric": [
+        {"criterion": "Disukai oleh Allah", "marks": 1, "keywords": ["disukai", "دسوكاءي"]},
+        {"criterion": "Mendekatkan diri kepada Allah", "marks": 1, "keywords": ["mendekatkan diri", "مندكتكن ديري"]},
+        {"criterion": "Kekuatan rohani / menenangkan jiwa", "marks": 1, "keywords": ["kekuatan rohani", "menenangkan jiwa", "روحاني", "جيوا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [41]
+    },
+    {
+      "id": "fiqh_b1_solat_witir_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Senaraikan bilangan rakaat solat witir mengikut angka ganjil seperti yang dinyatakan dalam buku.",
+      "question_jawi": "سناريكن بيلڠن ركعة صلاة وتر مڠيكوت اڠك ݢنجيل سڤرتي يڠ دڽاتاكن دالم بوكو.",
+      "reference_answer_rumi": "1, 3, 5, 7, 9 atau 11 rakaat",
+      "reference_answer_jawi": "1، 3، 5، 7، 9 اتاو 11 ركعة",
+      "rubric": [
+        {"criterion": "Menyatakan 1, 3 dan 5", "marks": 1, "keywords": ["1", "3", "5"]},
+        {"criterion": "Menyatakan 7 dan 9", "marks": 1, "keywords": ["7", "9"]},
+        {"criterion": "Menyatakan 11", "marks": 1, "keywords": ["11"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [40]
+    },
+    {
+      "id": "fiqh_b1_solat_witir_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Aminah ingin mendirikan solat witir tiga rakaat iaitu dua rakaat dan diikuti satu rakaat. Terangkan pengertian solat witir, tuliskan kedua-dua lafaz niat yang perlu digunakannya beserta maksud, dan nyatakan satu fadhilat solat witir.",
+      "question_jawi": "امينه ايڠين منديريكن صلاة وتر تيݢ ركعة ياءيت دوا ركعة دان دايكوتي ساتو ركعة. ترڠكن ڤڠرتين صلاة وتر، توليسكن كدوا-دوا لفظ نية يڠ ڤرلو دݢوناكنڽ بسرتا مقصود، دان ڽاتاكن ساتو فضيلة صلاة وتر.",
+      "reference_answer_rumi": "Solat witir didirikan selepas solat isyak hingga terbit fajar; witir ertinya ganjil; bilangannya 1, 3, 5, 7, 9 atau 11 rakaat. Niat dua rakaat: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى (Sahaja aku solat sunat witir dua rakaat kerana Allah Taala). Niat satu rakaat: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَةً لِلَّهِ تَعَالَى (Sahaja aku solat sunat witir satu rakaat kerana Allah Taala). Fadhilat: disukai Allah SWT / mendekatkan diri kepada Allah SWT / memberikan kekuatan rohani dan menenangkan jiwa.",
+      "reference_answer_jawi": "صلاة وتر دديريكن سلڤس صلاة عشاء هيڠݢ تربيت فجر؛ وتر ارتيڽ ݢنجيل. نية دوا ركعة: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. نية ساتو ركعة: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَةً لِلَّهِ تَعَالَى. فضيلة: دسوكاءي اوليه الله / مندكتكن ديري كڤد الله / ممبريكن ككواتن روحاني دان منڠڠكن جيوا.",
+      "rubric": [
+        {"criterion": "Pengertian: selepas isyak hingga fajar, witir bermaksud ganjil", "marks": 1, "keywords": ["ganjil", "isyak", "fajar", "ݢنجيل"]},
+        {"criterion": "Lafaz niat dua rakaat beserta maksud", "marks": 2, "keywords": ["رَكْعَتَيْنِ", "ٱلْوِتْرِ", "dua rakaat"]},
+        {"criterion": "Lafaz niat satu rakaat beserta maksud", "marks": 2, "keywords": ["رَكْعَةً", "satu rakaat", "ساتو ركعة"]},
+        {"criterion": "Satu fadhilat", "marks": 1, "keywords": ["disukai", "mendekatkan diri", "kekuatan rohani", "menenangkan jiwa"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [40, 41]
+    }
+  ]
+}

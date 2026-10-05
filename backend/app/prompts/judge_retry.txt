@@ -1,0 +1,5 @@
+Kriteria: {criterion}
+Jawapan rujukan: {reference}
+Jawapan murid: "{answer}"
+
+Adakah jawapan murid memenuhi kriteria? Jawab dengan SATU perkataan sahaja: YA, SEPARA atau TIDAK.

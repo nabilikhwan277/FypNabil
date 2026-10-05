@@ -1,0 +1,965 @@
+[
+ {
+  "question_id": "tajwid_b1_mad_bahagian_q3",
+  "topic_id": "tajwid_b1_mad_bahagian",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/tajwid/tajwid_b1_mad_bahagian.md",
+  "question_rumi": "Berapakah bahagian mad?",
+  "question_jawi": "براڤاكه بهاݢين مد؟",
+  "reference_answer_rumi": "Dua bahagian",
+  "reference_answer_jawi": "دوا بهاݢين",
+  "rubric": [
+   {
+    "criterion": "Menyatakan dua bahagian",
+    "marks": 1,
+    "keywords": [
+     "dua",
+     "2",
+     "دوا"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+  "topic_id": "tajwid_b2_mad_asli_kalimi",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/tajwid/tajwid_b2_mad_asli_kalimi.md",
+  "question_rumi": "Nyatakan satu nama lain bagi mad asli.",
+  "question_jawi": "ڽاتاكن ساتو نام لاٴين باݢي مد اصلي.",
+  "reference_answer_rumi": "Mad tabi'i atau mad zati",
+  "reference_answer_jawi": "مد طبيعي اتاو مد ذاتي",
+  "rubric": [
+   {
+    "criterion": "Menyatakan mad tabi'i atau mad zati",
+    "marks": 1,
+    "keywords": [
+     "tabi'i",
+     "tabii",
+     "zati",
+     "طبيعي",
+     "ذاتي"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "tajwid_b3_mad_aridh_lissukun_q7",
+  "topic_id": "tajwid_b3_mad_aridh_lissukun",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_aridh_lissukun.md",
+  "question_rumi": "Terangkan hukum Mad 'Aridh Lissukun meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu misal bagi setiap huruf mad (alif, wau dan ya).",
+  "question_jawi": "تراڠكن حكوم مد عارض للسكون مليڤوتي ڤڠرتين، قدر حركة دان سبب دناماكن، سرتا بريكن ساتو ميثل باݢي ستياڤ حروف مد (اليف، واو دان ياء).",
+  "reference_answer_rumi": "Mad 'Aridh Lissukun ialah apabila huruf mad bertemu dengan huruf mati kerana waqaf (berhenti bacaan). Kadarnya dua atau empat atau enam harakat. Dinamakan demikian kerana bacaan mati pada huruf akhir itu adalah mati yang mendatang disebabkan bacaan yang diwaqafkan. Misal alif: بِحُسۡبَانٖ; wau: يَسۡطُرُونَ; ya: عَلِيمٌ.",
+  "reference_answer_jawi": "مد عارض للسكون اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن). قدرڽ دوا اتاو امڤت اتاو انم حركة. دناماكن دمكين كران باچاءن ماتي ڤد حروف يڠ اخير ايت اداله ماتي يڠ منداتڠ دسببكن باچاءن يڠ دوقفكن. ميثل اليف: بِحُسۡبَانٖ؛ واو: يَسۡطُرُونَ؛ ياء: عَلِيمٌ.",
+  "rubric": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu huruf mati kerana waqaf",
+    "marks": 1,
+    "keywords": [
+     "huruf mad",
+     "huruf mati",
+     "waqaf",
+     "حروف مد",
+     "وقف"
+    ]
+   },
+   {
+    "criterion": "Kadar dua atau empat atau enam harakat",
+    "marks": 1,
+    "keywords": [
+     "dua atau empat atau enam",
+     "2, 4 atau 6",
+     "دوا اتاو امڤت اتاو انم"
+    ]
+   },
+   {
+    "criterion": "Sebab: mati mendatang kerana diwaqafkan",
+    "marks": 1,
+    "keywords": [
+     "mendatang",
+     "diwaqafkan",
+     "منداتڠ",
+     "دوقفكن"
+    ]
+   },
+   {
+    "criterion": "Misal huruf alif",
+    "marks": 1,
+    "keywords": [
+     "بِحُسۡبَانٖ",
+     "وَٱلۡفُرۡقَانِ",
+     "لَدَا ٱلۡبَابِ"
+    ]
+   },
+   {
+    "criterion": "Misal huruf wau",
+    "marks": 1,
+    "keywords": [
+     "يَسۡطُرُونَ",
+     "يُنفِقُونَ",
+     "تَشۡكُرُونَ",
+     "يَرۡجِعُونَ",
+     "يَعۡلَمُونَ"
+    ]
+   },
+   {
+    "criterion": "Misal huruf ya",
+    "marks": 1,
+    "keywords": [
+     "بِٱلۡمُهۡتَدِينَ",
+     "عَلِيمٌ",
+     "حَكِيمٌ",
+     "ٱلرَّحِيمُ",
+     "شَهِيدٌ"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "tajwid_b3_mad_badal_q1",
+  "topic_id": "tajwid_b3_mad_badal",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_badal.md",
+  "question_rumi": "Berapakah kadar panjang bacaan Mad Badal?",
+  "question_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد بدل؟",
+  "reference_answer_rumi": "Dua harakat",
+  "reference_answer_jawi": "دوا حركة",
+  "rubric": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "marks": 1,
+    "keywords": [
+     "dua harakat",
+     "2 harakat",
+     "دوا حركة"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q3",
+  "topic_id": "tajwid_b3_mad_farq",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_farq.md",
+  "question_rumi": "Berapakah bilangan kalimah Mad Farq dalam al-Quran dan di berapa tempat?",
+  "question_jawi": "براڤاكه بيلڠن كليمه مد فرق دالم القرءان دان د براڤ تمڤت؟",
+  "reference_answer_rumi": "Tiga kalimah dalam enam tempat",
+  "reference_answer_jawi": "تيݢ كليمه دالم انم تمڤت",
+  "rubric": [
+   {
+    "criterion": "Tiga kalimah",
+    "marks": 1,
+    "keywords": [
+     "tiga",
+     "3",
+     "تيݢ"
+    ]
+   },
+   {
+    "criterion": "Enam tempat",
+    "marks": 1,
+    "keywords": [
+     "enam",
+     "6",
+     "انم"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q5",
+  "topic_id": "tajwid_b3_mad_farq",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_farq.md",
+  "question_rumi": "Terangkan cara membaca Mad Farq dengan tashil.",
+  "question_jawi": "تراڠكن چارا ممباچ مد فرق دڠن تسهيل.",
+  "reference_answer_rumi": "Tashil iaitu membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama.",
+  "reference_answer_jawi": "تسهيل ياءيت ممبوپيكن همزة كدوا انتارا بوپي همزة دان اليف، تتاڤي باچاءن مد لبيه اوتام.",
+  "rubric": [
+   {
+    "criterion": "Membunyikan hamzah kedua",
+    "marks": 1,
+    "keywords": [
+     "hamzah kedua",
+     "همزة كدوا"
+    ]
+   },
+   {
+    "criterion": "Antara bunyi hamzah dan alif",
+    "marks": 1,
+    "keywords": [
+     "hamzah dan alif",
+     "antara",
+     "همزة دان اليف"
+    ]
+   },
+   {
+    "criterion": "Bacaan mad lebih utama",
+    "marks": 1,
+    "keywords": [
+     "lebih utama",
+     "لبيه اوتام"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q6",
+  "topic_id": "tajwid_b3_mad_farq",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_farq.md",
+  "question_rumi": "Senaraikan nama surah dan nombor ayat yang mengandungi hukum Mad Farq.",
+  "question_jawi": "سنارايكن نام سورة دان نومبور ايات يڠ مڠاندوڠي حكوم مد فرق.",
+  "reference_answer_rumi": "Surah Yunus ayat 59, 91 dan 51; Surah an-Naml ayat 59; Surah al-An'am ayat 143 dan 144.",
+  "reference_answer_jawi": "سورة يونس ايات 59، 91 دان 51؛ سورة النمل ايات 59؛ سورة الأنعام ايات 143 دان 144.",
+  "rubric": [
+   {
+    "criterion": "Surah Yunus (59, 91, 51)",
+    "marks": 2,
+    "keywords": [
+     "Yunus",
+     "يونس",
+     "59",
+     "91",
+     "51"
+    ]
+   },
+   {
+    "criterion": "Surah an-Naml 59",
+    "marks": 1,
+    "keywords": [
+     "Naml",
+     "النمل"
+    ]
+   },
+   {
+    "criterion": "Surah al-An'am 143 dan 144",
+    "marks": 1,
+    "keywords": [
+     "An'am",
+     "Anam",
+     "الأنعام",
+     "143",
+     "144"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q4",
+  "topic_id": "tajwid_b3_mad_iwadh",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_iwadh.md",
+  "question_rumi": "Berikan pengertian Mad 'Iwadh.",
+  "question_jawi": "بريكن ڤڠرتين مد عوض.",
+  "reference_answer_rumi": "Mad 'Iwadh ialah apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas kecuali pada huruf ta marbutah.",
+  "reference_answer_jawi": "مد عوض اياله اڤابيلا مووقفكن باچاءن ڤد اخير كليمه يڠ برباريس تنوين دأتس كچوالي ڤد حروف تاء مربوطة.",
+  "rubric": [
+   {
+    "criterion": "Mewaqafkan bacaan pada akhir kalimah",
+    "marks": 1,
+    "keywords": [
+     "waqaf",
+     "mewaqafkan",
+     "akhir kalimah",
+     "مووقفكن",
+     "اخير كليمه"
+    ]
+   },
+   {
+    "criterion": "Berbaris tanwin di atas",
+    "marks": 1,
+    "keywords": [
+     "tanwin di atas",
+     "tanwin",
+     "تنوين دأتس",
+     "تنوين"
+    ]
+   },
+   {
+    "criterion": "Kecuali ta marbutah",
+    "marks": 1,
+    "keywords": [
+     "ta marbutah",
+     "kecuali",
+     "تاء مربوطة",
+     "كچوالي"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "tajwid_b3_mad_jaiz_munfasil_q6",
+  "topic_id": "tajwid_b3_mad_jaiz_munfasil",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_jaiz_munfasil.md",
+  "question_rumi": "Terangkan hukum Mad Jaiz Munfasil meliputi pengertian, kadar harakat, sebab dinamakan dan keadaan ketika waqaf, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+  "question_jawi": "تراڠكن حكوم مد جائز منفصل مليڤوتي ڤڠرتين، قدر حركة، سبب دناماكن دان كأداٴن كتيک وقف، سرتا بريكن ساتو چونتوه ايات القرءان بسرتا نام سورة دان نومبور اياتڽ.",
+  "reference_answer_rumi": "Mad Jaiz Munfasil ialah apabila bertemu huruf mad dan hamzah dalam dua kalimah. Kadarnya empat atau lima harakat. Dinamakan Mad Jaiz kerana ulama qiraat mengharuskan dibaca dua harakat atau lebih. Ia hanya berlaku ketika wasal; jika kalimah pertama diwaqafkan, ia menjadi Mad Asli Kalimi (dua harakat). Contoh: وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ (Surah al-Buruj: 8).",
+  "reference_answer_jawi": "مد جائز منفصل اياله اڤابيلا برتمو حروف مد دان همزة دالم دوا كليمه. قدرڽ امڤت اتاو ليم حركة. دناماكن مد جائز كران علماء قراءة مڠهاروسكن دباچ دوا حركة اتاو لبيه. اي هاڽ برلاكو كتيک وصل؛ جک كليمه ڤرتام دواقفكن، اي منجادي مد اصلي كلمي (دوا حركة). چونتوه: وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ (سورة البروج: 8).",
+  "rubric": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu hamzah dalam dua kalimah",
+    "marks": 1,
+    "keywords": [
+     "dua kalimah",
+     "دوا كليمه"
+    ]
+   },
+   {
+    "criterion": "Kadar empat atau lima harakat",
+    "marks": 1,
+    "keywords": [
+     "empat atau lima",
+     "4 atau 5",
+     "امڤت اتاو ليم"
+    ]
+   },
+   {
+    "criterion": "Sebab dinamakan: ulama qiraat mengharuskan",
+    "marks": 1,
+    "keywords": [
+     "mengharuskan",
+     "مڠهاروسكن",
+     "harus"
+    ]
+   },
+   {
+    "criterion": "Waqaf pada kalimah pertama menjadi Mad Asli Kalimi",
+    "marks": 1,
+    "keywords": [
+     "Mad Asli Kalimi",
+     "wasal sahaja",
+     "مد اصلي كلمي",
+     "وصل"
+    ]
+   },
+   {
+    "criterion": "Contoh ayat yang betul beserta surah dan ayat",
+    "marks": 2,
+    "keywords": [
+     "al-Buruj",
+     "البروج",
+     "al-Bayyinah",
+     "البينة",
+     "al-Baqarah",
+     "البقرة"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6",
+  "topic_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_lazim_harfi_mukhaffaf.md",
+  "question_rumi": "Senaraikan lima surah yang mengandungi hukum Mad Lazim Harfi Mukhaffaf.",
+  "question_jawi": "سنارايكن ليم سورة يڠ مڠاندوڠي حكوم مد لازم حرفي مخفف.",
+  "reference_answer_rumi": "Mana-mana lima: al-Qalam, Qaf, Sad, Maryam, Yasin, asy-Syura, an-Naml, Yunus, Yusuf, Hud, Ibrahim, al-Hijr, ar-Ra'd, ad-Dukhan, al-Baqarah, asy-Syu'ara', al-Qasas, al-A'raf.",
+  "reference_answer_jawi": "مان٢ ليم: القلم، ق، ص، مريم، يس، الشورى، النمل، يونس، يوسف، هود، إبراهيم، الحجر، الرعد، الدخان، البقرة، الشعراء، القصص، الأعراف.",
+  "rubric": [
+   {
+    "criterion": "Dua surah pertama yang betul",
+    "marks": 2,
+    "keywords": [
+     "Qalam",
+     "Qaf",
+     "Sad",
+     "Maryam",
+     "Yasin",
+     "Syura",
+     "Naml",
+     "Yunus",
+     "Yusuf",
+     "Hud",
+     "Ibrahim",
+     "Hijr",
+     "Ra'd",
+     "Dukhan",
+     "Baqarah",
+     "Syu'ara",
+     "Qasas",
+     "A'raf",
+     "القلم",
+     "مريم",
+     "يس",
+     "الشورى",
+     "النمل",
+     "يونس",
+     "يوسف",
+     "هود",
+     "إبراهيم",
+     "الحجر",
+     "الرعد",
+     "الدخان",
+     "البقرة",
+     "الشعراء",
+     "القصص",
+     "الأعراف"
+    ]
+   },
+   {
+    "criterion": "Tiga surah berikutnya yang betul",
+    "marks": 2,
+    "keywords": [
+     "Qalam",
+     "Qaf",
+     "Sad",
+     "Maryam",
+     "Yasin",
+     "Syura",
+     "Naml",
+     "Yunus",
+     "Yusuf",
+     "Hud",
+     "Ibrahim",
+     "Hijr",
+     "Ra'd",
+     "Dukhan",
+     "Baqarah",
+     "Syu'ara",
+     "Qasas",
+     "A'raf",
+     "القلم",
+     "مريم",
+     "يس",
+     "الشورى",
+     "النمل",
+     "يونس",
+     "يوسف",
+     "هود",
+     "إبراهيم",
+     "الحجر",
+     "الرعد",
+     "الدخان",
+     "البقرة",
+     "الشعراء",
+     "القصص",
+     "الأعراف"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1",
+  "topic_id": "tajwid_b3_mad_lazim_harfi_muthaqqal",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_lazim_harfi_muthaqqal.md",
+  "question_rumi": "Bagaimanakah cara bacaan Mad Lazim Harfi Muthaqqal?",
+  "question_jawi": "باݢايماناكه چارا باچاءن مد لازم حرفي مثقل؟",
+  "reference_answer_rumi": "Dibaca dengan idgham beserta dengung",
+  "reference_answer_jawi": "دباچ دڠن إدغام برسرتا دڠوڠ",
+  "rubric": [
+   {
+    "criterion": "Idgham",
+    "marks": 1,
+    "keywords": [
+     "idgham",
+     "إدغام"
+    ]
+   },
+   {
+    "criterion": "Beserta dengung",
+    "marks": 1,
+    "keywords": [
+     "dengung",
+     "دڠوڠ"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7",
+  "topic_id": "tajwid_b3_mad_lazim_harfi_muthaqqal",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_lazim_harfi_muthaqqal.md",
+  "question_rumi": "Terangkan cara membaca kalimah الٓمٓصٓ dan الٓمٓ.",
+  "question_jawi": "تراڠكن چارا ممباچ كليمه الٓمٓصٓ دان الٓمٓ.",
+  "reference_answer_rumi": "الٓمٓصٓ dibaca أَلِف لام ميم صاد dan الٓمٓ dibaca أَلِف لام ميم; Mad Lazim Harfi Muthaqqal dibaca dengan idgham beserta dengung.",
+  "reference_answer_jawi": "الٓمٓصٓ دباچ أَلِف لام ميم صاد دان الٓمٓ دباچ أَلِف لام ميم؛ مد لازم حرفي مثقل دباچ دڠن إدغام برسرتا دڠوڠ.",
+  "rubric": [
+   {
+    "criterion": "الٓمٓصٓ dibaca alif lam mim sad",
+    "marks": 1,
+    "keywords": [
+     "لام ميم صاد",
+     "lam mim sad",
+     "alif lam mim sad"
+    ]
+   },
+   {
+    "criterion": "الٓمٓ dibaca alif lam mim",
+    "marks": 1,
+    "keywords": [
+     "لام ميم",
+     "lam mim",
+     "alif lam mim"
+    ]
+   },
+   {
+    "criterion": "Dibaca dengan idgham beserta dengung",
+    "marks": 2,
+    "keywords": [
+     "idgham",
+     "dengung",
+     "إدغام",
+     "دڠوڠ"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9",
+  "topic_id": "tajwid_b3_mad_lazim_harfi_muthaqqal",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_lazim_harfi_muthaqqal.md",
+  "question_rumi": "Berapakah kadar panjang bacaan Mad Lazim Harfi Muthaqqal?",
+  "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لازم حرفي مثقل؟",
+  "reference_answer_rumi": "Enam harakat (kadar Mad Lazim)",
+  "reference_answer_jawi": "انم حركة",
+  "rubric": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "marks": 1,
+    "keywords": [
+     "enam harakat",
+     "6 harakat",
+     "enam",
+     "انم حركة"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+  "topic_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_lazim_kalimi_mukhaffaf.md",
+  "question_rumi": "Apakah kalimah yang mengandungi hukum Mad Lazim Kalimi Mukhaffaf dalam al-Quran?",
+  "question_jawi": "اڤاكه كليمه يڠ مڠاندوڠي حكوم مد لازم كلمي مخفف دالم القرءان؟",
+  "reference_answer_rumi": "ءَآلۡـَٰٔنَ",
+  "reference_answer_jawi": "ءَآلۡـَٰٔنَ",
+  "rubric": [
+   {
+    "criterion": "Menyatakan ءَآلۡـَٰٔنَ",
+    "marks": 1,
+    "keywords": [
+     "ءَآلۡـَٰٔنَ",
+     "آلآن",
+     "الآن",
+     "aal'ana",
+     "al-an"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+  "topic_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_lazim_kalimi_mukhaffaf.md",
+  "question_rumi": "Apakah erti Mad Lazim Kalimi Mukhaffaf dan di manakah tempatnya dalam al-Quran?",
+  "question_jawi": "اڤاكه ارتي مد لازم كلمي مخفف دان د ماناكه تمڤتڽ دالم القرءان؟",
+  "reference_answer_rumi": "Mad Lazim Kalimi Mukhaffaf ialah apabila huruf mad bertemu dengan huruf mati dalam satu kalimah. Hanya terdapat dua tempat dalam al-Quran iaitu Surah Yunus ayat 51 dan 91.",
+  "reference_answer_jawi": "مد لازم كلمي مخفف اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو كليمه. هاڽ ترداڤت دوا تمڤت دالم القرءان يائيت سورة يونس ايات 51 دان 91.",
+  "rubric": [
+   {
+    "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+    "marks": 2,
+    "keywords": [
+     "huruf mad",
+     "huruf mati",
+     "satu kalimah",
+     "حروف مد",
+     "حروف ماتي",
+     "ساتو كليمه"
+    ]
+   },
+   {
+    "criterion": "Surah Yunus ayat 51 dan 91",
+    "marks": 2,
+    "keywords": [
+     "Yunus",
+     "يونس",
+     "51",
+     "91"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "tajwid_b3_mad_lin_q5",
+  "topic_id": "tajwid_b3_mad_lin",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_lin.md",
+  "question_rumi": "Senaraikan huruf-huruf Mad Lin dan nyatakan syaratnya.",
+  "question_jawi": "سنارايكن حروف٢ مد لين دان ڽاتاكن شرطڽ.",
+  "reference_answer_rumi": "1. Huruf wau yang mati sebelumnya berbaris atas. 2. Huruf ya yang mati sebelumnya berbaris atas.",
+  "reference_answer_jawi": "1. حروف واو يڠ ماتي سبلومڽ برباريس اتس. 2. حروف ياء يڠ ماتي سبلومڽ برباريس اتس.",
+  "rubric": [
+   {
+    "criterion": "Huruf wau mati",
+    "marks": 1,
+    "keywords": [
+     "wau",
+     "واو",
+     "و"
+    ]
+   },
+   {
+    "criterion": "Huruf ya mati",
+    "marks": 1,
+    "keywords": [
+     "ya",
+     "ياء",
+     "ي"
+    ]
+   },
+   {
+    "criterion": "Huruf sebelumnya berbaris atas",
+    "marks": 1,
+    "keywords": [
+     "baris atas",
+     "berbaris atas",
+     "fathah",
+     "برباريس اتس"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "tajwid_b3_mad_tazim_q4",
+  "topic_id": "tajwid_b3_mad_tazim",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_tazim.md",
+  "question_rumi": "Apakah erti Mad Ta'zim?",
+  "question_jawi": "اڤاكه ارتي مد تعظيم؟",
+  "reference_answer_rumi": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ.",
+  "reference_answer_jawi": "مد تعظيم اياله اڤابيلا ترداڤت كليمه لَآ يڠ منونجوقكن ڤنافين برتمو دڠن كليمه إِلَٰهَ.",
+  "rubric": [
+   {
+    "criterion": "Menyebut kalimah لَآ",
+    "marks": 1,
+    "keywords": [
+     "لَآ",
+     "لا",
+     "la"
+    ]
+   },
+   {
+    "criterion": "Menyatakan لَآ menunjukkan penafian",
+    "marks": 1,
+    "keywords": [
+     "penafian",
+     "ڤنافين",
+     "nafi"
+    ]
+   },
+   {
+    "criterion": "Menyatakan bertemu dengan kalimah إِلَٰهَ",
+    "marks": 1,
+    "keywords": [
+     "إِلَٰهَ",
+     "اله",
+     "ilaha"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+  "topic_id": "tajwid_b3_mad_wajib_muttasil",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_wajib_muttasil.md",
+  "question_rumi": "Nyatakan kadar panjang bacaan Mad Wajib Muttasil.",
+  "question_jawi": "نياتاكن قدر ڤنجڠ باچاٴن مد واجب متصل.",
+  "reference_answer_rumi": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+  "reference_answer_jawi": "a. امڤت اتاو ليم حركة اڤابيلا همزه براد دتڠه كليمه اتاو دهوجوڠ كليمه كتيک دباچ دڠن وصل اتاو وقف. b. امڤت اتاو ليم اتاو انم حركة اڤابيلا همزه براد دهوجوڠ كليمه كتيک دباچ دڠن وقف سهاج.",
+  "rubric": [
+   {
+    "criterion": "Empat atau lima harakat",
+    "marks": 1,
+    "keywords": [
+     "empat atau lima",
+     "4 atau 5",
+     "امڤت اتاو ليم"
+    ]
+   },
+   {
+    "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+    "marks": 1,
+    "keywords": [
+     "tengah kalimah",
+     "wasal",
+     "وصل",
+     "دتڠه كليمه"
+    ]
+   },
+   {
+    "criterion": "Empat atau lima atau enam harakat",
+    "marks": 1,
+    "keywords": [
+     "enam",
+     "6",
+     "انم"
+    ]
+   },
+   {
+    "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+    "marks": 1,
+    "keywords": [
+     "waqaf sahaja",
+     "hujung kalimah",
+     "وقف",
+     "سهاج"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+  "topic_id": "tajwid_b3_mad_wajib_muttasil",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b3_mad_wajib_muttasil.md",
+  "question_rumi": "Tuliskan tiga misal Mad Wajib Muttasil.",
+  "question_jawi": "توليسكن تيݢ ميثل مد واجب متصل.",
+  "reference_answer_rumi": "Contoh: مِّنَ ٱلسَّمَآءِ ، بِٱلسُّوٓءِ ، هَنِيٓـٔٗا (atau misal lain dalam buku: أَبۡنَآءَكُمۡ ، أُوْلَٰٓئِكَ ، قُرُوٓءٖ ، تَبُوٓأَ ، وَجِاْيٓءَ ، مَّرِيٓـٔٗا ، نِسَآءَكُمۡ ، سُوٓءَ).",
+  "reference_answer_jawi": "چونتوه: مِّنَ ٱلسَّمَآءِ ، بِٱلسُّوٓءِ ، هَنِيٓـٔٗا",
+  "rubric": [
+   {
+    "criterion": "Misal pertama yang betul",
+    "marks": 1,
+    "keywords": [
+     "ٱلسَّمَآءِ",
+     "أَبۡنَآءَكُمۡ",
+     "أُوْلَٰٓئِكَ",
+     "نِسَآءَكُمۡ",
+     "السماء",
+     "ابناءكم"
+    ]
+   },
+   {
+    "criterion": "Misal kedua yang betul",
+    "marks": 1,
+    "keywords": [
+     "بِٱلسُّوٓءِ",
+     "قُرُوٓءٖ",
+     "تَبُوٓأَ",
+     "سُوٓءَ",
+     "بالسوء",
+     "قروء"
+    ]
+   },
+   {
+    "criterion": "Misal ketiga yang betul",
+    "marks": 1,
+    "keywords": [
+     "وَجِاْيٓءَ",
+     "هَنِيٓـٔٗا",
+     "مَّرِيٓـٔٗا",
+     "هنيئا",
+     "مريئا"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q6",
+  "topic_id": "tajwid_b4_tingkatan_mad",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/tajwid/tajwid_b4_tingkatan_mad.md",
+  "question_rumi": "Nyatakan kadar harakat bagi Mad Wajib Muttasil, Mad 'Aridh Lissukun dan Mad Badal.",
+  "question_jawi": "ڽاتاكن قدر حركة باݢي مد واجب متصل، مد عارض للسكون دان مد بدل.",
+  "reference_answer_rumi": "Mad Wajib Muttasil: empat atau lima. Mad 'Aridh Lissukun: harus dua, empat atau enam harakat. Mad Badal: dua harakat.",
+  "reference_answer_jawi": "مد واجب متصل: امڤت اتاو ليم. مد عارض للسكون: هاروس دوا، امڤت اتاو انم حركة. مد بدل: دوا حركة.",
+  "rubric": [
+   {
+    "criterion": "Mad Wajib Muttasil empat atau lima",
+    "marks": 1,
+    "keywords": [
+     "empat atau lima",
+     "4 atau 5",
+     "امڤت اتاو ليم"
+    ]
+   },
+   {
+    "criterion": "Mad 'Aridh Lissukun dua, empat atau enam",
+    "marks": 1,
+    "keywords": [
+     "dua, empat atau enam",
+     "2, 4 atau 6",
+     "دوا، امڤت اتاو انم"
+    ]
+   },
+   {
+    "criterion": "Mad Badal dua harakat",
+    "marks": 1,
+    "keywords": [
+     "dua harakat",
+     "2 harakat",
+     "دوا حركة"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q7",
+  "topic_id": "tajwid_b4_tingkatan_mad",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/tajwid/tajwid_b4_tingkatan_mad.md",
+  "question_rumi": "Terangkan kepentingan mempelajari tingkatan mad. Jelaskan dengan contoh kalimah yang diberikan dalam buku.",
+  "question_jawi": "تراڠكن كڤنتيڠن ممڤلاجري تيڠكتن مد. جلسكن دڠن چونتوه كليمه يڠ دبريكن دالم بوكو.",
+  "reference_answer_rumi": "Apabila terdapat dua hukum mad dalam satu kalimah, hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Contohnya kalimah مِمَّا يَشَآءُ ketika bacaan waqaf terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+  "reference_answer_jawi": "اڤابيلا ترداڤت دوا حكوم مد دالم ساتو كليمه، حكومڽ هندقله برڤندوکن كڤد تيڠكتن يڠ ترتيڠڬي. چونتوه كليمه مِمَّا يَشَآءُ كتيک باچاءن وقف ترداڤت دوا حكوم ياءيت مد عارض للسكون دان مد واجب متصل. حكوم سبنرڽ اداله مد واجب متصل كران تيڠكتنڽ لبيه تيڠڬي درڤد مد عارض للسكون.",
+  "rubric": [
+   {
+    "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+    "marks": 2,
+    "keywords": [
+     "tingkatan yang tertinggi",
+     "tertinggi",
+     "ترتيڠڬي",
+     "dua hukum"
+    ]
+   },
+   {
+    "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+    "marks": 1,
+    "keywords": [
+     "مِمَّا يَشَآءُ",
+     "مما يشاء",
+     "yasya",
+     "waqaf"
+    ]
+   },
+   {
+    "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+    "marks": 1,
+    "keywords": [
+     "Aridh Lissukun",
+     "Wajib Muttasil",
+     "عارض للسكون",
+     "واجب متصل"
+    ]
+   },
+   {
+    "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+    "marks": 2,
+    "keywords": [
+     "Wajib Muttasil",
+     "lebih tinggi",
+     "واجب متصل",
+     "لبيه تيڠڬي"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q7",
+  "topic_id": "tajwid_b6_ibtida",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/tajwid/tajwid_b6_ibtida.md",
+  "question_rumi": "Terangkan maksud Ibtida' Aqbah dan jelaskan bagaimana bacaan {... نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥۚ ...} hendaklah dimulakan, beserta nama surah dan nombor ayatnya.",
+  "question_jawi": "تراڠكن مقصود إبتداء أقبح دان جلسكن باݢايمان باچاءن {... نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥۚ ...} هندقله دمولاكن، بسرتا نام سورة دان نومبور اياتڽ.",
+  "reference_answer_rumi": "Ibtida' Aqbah ialah memulakan atau menyambung bacaan pada suatu tempat yang boleh mengubah makna atau maksud yang dikehendaki oleh Allah Taala atau yang boleh menyalahi akidah (dengan niat). Jika dimulakan dengan نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ maksudnya \"...Kami adalah anak Allah dan kekasih-Nya...\". Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ (Surah al-Maidah: 18).",
+  "reference_answer_jawi": "إبتداء أقبح اياله ممولاكن اتاو مڽامبوڠ باچاءن ڤد سواتو تمڤت يڠ بوليه مڠوبه معنا اتاو مقصود يڠ دكهندقي اوليه الله تعالى اتاو يڠ بوليه مڽالهي عقيده (دڠن نية). جک دمولاكن دڠن نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ مقصودڽ \"...كامي اداله انق الله دان ككاسيهڽ...\". هندقله دمولاكن دڠن وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ (سورة المائدة: 18).",
+  "rubric": [
+   {
+    "criterion": "Mengubah makna/maksud yang dikehendaki Allah Taala",
+    "marks": 1,
+    "keywords": [
+     "dikehendaki oleh Allah",
+     "mengubah makna",
+     "دكهندقي اوليه الله",
+     "مڠوبه معنا"
+    ]
+   },
+   {
+    "criterion": "Menyalahi akidah (dengan niat)",
+    "marks": 1,
+    "keywords": [
+     "menyalahi akidah",
+     "akidah",
+     "عقيده",
+     "مڽالهي عقيده"
+    ]
+   },
+   {
+    "criterion": "Menyatakan maksud 'Kami adalah anak Allah dan kekasih-Nya'",
+    "marks": 1,
+    "keywords": [
+     "anak Allah",
+     "kekasih",
+     "انق الله",
+     "ككاسيهڽ"
+    ]
+   },
+   {
+    "criterion": "Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ",
+    "marks": 2,
+    "keywords": [
+     "وَقَالَتِ ٱلۡيَهُودُ",
+     "وقالت اليهود",
+     "Yahudi",
+     "Nasara",
+     "Nasrani"
+    ]
+   },
+   {
+    "criterion": "Surah al-Maidah: 18",
+    "marks": 1,
+    "keywords": [
+     "al-Maidah",
+     "Maidah",
+     "المائدة",
+     "18"
+    ]
+   }
+  ],
+  "max_marks": 6
+ }
+]

@@ -1,0 +1,104 @@
+{
+  "topic_id": "tajwid_b2_mad_asli_kalimi",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b2_mad_asli_kalimi_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan mad asli kalimi?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد اصلي كلمي؟",
+      "reference_answer_rumi": "Dua harakat",
+      "reference_answer_jawi": "دوا حركة",
+      "rubric": [
+        {"criterion": "Menyatakan dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [15, 16]
+    },
+    {
+      "id": "tajwid_b2_mad_asli_kalimi_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan satu nama lain bagi mad asli.",
+      "question_jawi": "ڽاتاكن ساتو نام لاٴين باݢي مد اصلي.",
+      "reference_answer_rumi": "Mad tabi'i atau mad zati",
+      "reference_answer_jawi": "مد طبيعي اتاو مد ذاتي",
+      "rubric": [
+        {"criterion": "Menyatakan mad tabi'i atau mad zati", "marks": 1, "keywords": ["tabi'i", "tabii", "zati", "طبيعي", "ذاتي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [13]
+    },
+    {
+      "id": "tajwid_b2_mad_asli_kalimi_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Adakah mad asli dimadkan apabila bertemu hamzah wasal ketika dibaca wasal?",
+      "question_jawi": "اداكه مد اصلي دمدكن اڤابيلا برتمو همزة وصل كتيک دباچ وصل؟",
+      "reference_answer_rumi": "Tidak dimadkan",
+      "reference_answer_jawi": "تيدق دمدكن",
+      "rubric": [
+        {"criterion": "Menyatakan tidak dimadkan", "marks": 1, "keywords": ["tidak", "tidak dimadkan", "تيدق"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [14]
+    },
+    {
+      "id": "tajwid_b2_mad_asli_kalimi_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti mad asli kalimi?",
+      "question_jawi": "اڤاكه ارتي مد اصلي كلمي؟",
+      "reference_answer_rumi": "Pertemuan huruf mad dengan salah satu daripada huruf hijaiyah dalam satu kalimah, dan selepas huruf mad itu bukan huruf hamzah atau huruf yang mati.",
+      "reference_answer_jawi": "ڤرتموان حروف مد دڠن ساله ساتو درڤد حروف هجائية دالم ساتو كليمه دان سلڤس حروف مد ايت بوكن حروف همزة اتاو حروف يڠ ماتي.",
+      "rubric": [
+        {"criterion": "Pertemuan huruf mad dengan huruf hijaiyah", "marks": 1, "keywords": ["huruf hijaiyah", "هجائية"]},
+        {"criterion": "Dalam satu kalimah", "marks": 1, "keywords": ["satu kalimah", "ساتو كليمه"]},
+        {"criterion": "Selepasnya bukan hamzah atau huruf mati", "marks": 1, "keywords": ["bukan hamzah", "huruf mati", "بوكن حروف همزة", "ماتي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [15, 16]
+    },
+    {
+      "id": "tajwid_b2_mad_asli_kalimi_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan pengertian mad asli dan senaraikan dua bahagiannya.",
+      "question_jawi": "ڽاتاكن ڤڠرتين مد اصلي دان سنارايكن دوا بهاݢينڽ.",
+      "reference_answer_rumi": "Mad yang terjadi disebabkan tiada huruf hamzah sebelum atau selepas huruf mad, atau tiada huruf mati selepas huruf mad. Bahagiannya: mad asli kalimi dan mad asli harfi.",
+      "reference_answer_jawi": "مد يڠ ترجادي دسببكن تياد حروف همزة سبلوم اتاو سلڤس حروف مد، اتاو تياد حروف ماتي سلڤس حروف مد. بهاݢينڽ: مد اصلي كلمي دان مد اصلي حرفي.",
+      "rubric": [
+        {"criterion": "Tiada hamzah sebelum/selepas huruf mad", "marks": 1, "keywords": ["tiada hamzah", "تياد حروف همزة"]},
+        {"criterion": "Tiada huruf mati selepas huruf mad", "marks": 1, "keywords": ["tiada huruf mati", "تياد حروف ماتي"]},
+        {"criterion": "Mad asli kalimi", "marks": 1, "keywords": ["kalimi", "كلمي"]},
+        {"criterion": "Mad asli harfi", "marks": 1, "keywords": ["harfi", "حرفي"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [13, 14]
+    },
+    {
+      "id": "tajwid_b2_mad_asli_kalimi_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum mad asli apabila bertemu hamzah wasal dan tanda pada huruf mad asli, serta berikan contoh daripada buku.",
+      "question_jawi": "تراڠكن حكوم مد اصلي اڤابيلا برتمو همزة وصل دان تندا ڤد حروف مد اصلي، سرتا بريكن چونتوه درڤد بوكو.",
+      "reference_answer_rumi": "Mad asli yang bertemu hamzah wasal tidak dimadkan ketika dibaca wasal, contohnya رَبَّنَا ٱغْفِرْ لَنَا, فِى ٱلْأَرْضِ, فِى ٱلنَّارِ. Huruf-huruf mad asli tidak diberi tanda (tidak diletakkan tanda mati), contohnya يَقُولُونَ رَبَّنَا dan وَإِذَا قِيلَ لَهُمْ. Kadar bacaannya dua harakat.",
+      "reference_answer_jawi": "مد اصلي يڠ برتمو همزة وصل تيدق دمدكن كتيک دباچ وصل، چونتوهڽ رَبَّنَا ٱغْفِرْ لَنَا، فِى ٱلْأَرْضِ، فِى ٱلنَّارِ. حروف٢ مد اصلي تياد تندا (تيدق دلتقكن تندا ماتي)، چونتوهڽ يَقُولُونَ رَبَّنَا دان وَإِذَا قِيلَ لَهُمْ. قدر باچاٴنڽ دوا حركة.",
+      "rubric": [
+        {"criterion": "Tidak dimadkan ketika wasal bila bertemu hamzah wasal", "marks": 2, "keywords": ["tidak dimadkan", "hamzah wasal", "تيدق دمدكن", "همزة وصل"]},
+        {"criterion": "Contoh hamzah wasal", "marks": 1, "keywords": ["رَبَّنَا ٱغْفِرْ لَنَا", "فِى ٱلْأَرْضِ", "فِى ٱلنَّارِ", "في الأرض", "في النار"]},
+        {"criterion": "Tiada tanda mati pada huruf mad asli", "marks": 1, "keywords": ["tiada tanda", "tanda mati", "تياد تندا", "تندا ماتي"]},
+        {"criterion": "Contoh tiada tanda", "marks": 1, "keywords": ["يَقُولُونَ", "قِيلَ", "يقولون", "قيل"]}
+      ],
+      "max_marks": 5,
+      "source_pages": [14]
+    }
+  ]
+}

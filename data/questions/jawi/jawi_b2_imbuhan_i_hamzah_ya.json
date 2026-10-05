@@ -1,0 +1,217 @@
+{
+  "topic_id": "jawi_b2_imbuhan_i_hamzah_ya",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'menghantui' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'menghantui' دالم توليسن جاوي.",
+      "reference_answer_rumi": "menghantui",
+      "reference_answer_jawi": "مڠهنتوءي",
+      "rubric": [
+        {"criterion": "Mengeja 'menghantui' dengan betul (مڠهنتوءي)", "marks": 1, "keywords": ["مڠهنتوءي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [39]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'dinamai' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'dinamai' دالم توليسن جاوي.",
+      "reference_answer_rumi": "dinamai",
+      "reference_answer_jawi": "دناماءي",
+      "rubric": [
+        {"criterion": "Mengeja 'dinamai' dengan betul (دناماءي)", "marks": 1, "keywords": ["دناماءي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [40]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'dimurkai' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'dimurkai' دالم توليسن جاوي.",
+      "reference_answer_rumi": "dimurkai",
+      "reference_answer_jawi": "دمورکاءي",
+      "rubric": [
+        {"criterion": "Mengeja 'dimurkai' dengan betul (دمورکاءي)", "marks": 2, "keywords": ["دمورکاءي"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [40]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'dianggotai' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'dianggotai' دالم توليسن جاوي.",
+      "reference_answer_rumi": "dianggotai",
+      "reference_answer_jawi": "دأڠݢوتاءي",
+      "rubric": [
+        {"criterion": "Mengeja 'dianggotai' dengan betul (دأڠݢوتاءي)", "marks": 2, "keywords": ["دأڠݢوتاءي"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [39]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Huruf apakah digunakan untuk mengeja imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u'?",
+      "question_jawi": "حروف اڤاكه دݢوناكن اونتوق مڠيجا ايمبوهن '-i' ڤد سوكو كات تربوک دڠن ۏوكل 'a' دان 'u'؟",
+      "reference_answer_rumi": "Huruf '-ءي' (hamzah ya)",
+      "reference_answer_jawi": "حروف '-ءي'",
+      "rubric": [
+        {"criterion": "Menyatakan huruf '-ءي'", "marks": 1, "keywords": ["ءي", "hamzah ya", "hamzah"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [39]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Terangkan cara mengeja 'merajai' daripada kata dasar 'raja' (راج) dan tuliskan ejaan Jawinya.",
+      "question_jawi": "تراڠكن چارا مڠيجا 'merajai' درڤد كات داسر 'raja' (راج) دان توليسكن ايجاءن جاويڽ.",
+      "reference_answer_rumi": "Kata dasar raja (راج) berakhir dengan suku kata terbuka yang menggunakan vokal 'a' tetapi tidak ditulis dengan huruf 'ا'. Maka huruf 'ا' diletakkan terlebih dahulu, kemudian diikuti dengan huruf '-ءي': راج + ا + ءي = مراجاءي.",
+      "reference_answer_jawi": "كات داسر راج براخير دڠن سوكو كات تربوک يڠ مڠݢوناكن ۏوكل 'a' تتاڤي تيدق دتوليس دڠن حروف 'ا'. حروف 'ا' دلتقكن ترلبيه دهولو دأيكوتي دڠن حروف '-ءي': راج + ا + ءي = مراجاءي.",
+      "rubric": [
+        {"criterion": "Menyatakan vokal 'a' tidak ditulis dengan huruf 'ا' dalam راج", "marks": 1, "keywords": ["tidak ditulis", "تيدق دتوليس", "vokal a"]},
+        {"criterion": "Menyatakan huruf 'ا' diletakkan terlebih dahulu", "marks": 1, "keywords": ["letak", "alif", "ا", "ملتقكن", "ترلبيه دهولو"]},
+        {"criterion": "Menyatakan diikuti dengan huruf '-ءي'", "marks": 1, "keywords": ["ءي", "hamzah ya"]},
+        {"criterion": "Mengeja مراجاءي dengan betul", "marks": 1, "keywords": ["مراجاءي"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [40]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan dua jenis kata yang imbuhan '-i'nya menggunakan huruf '-ءي', dan berikan satu contoh Jawi bagi setiap jenis.",
+      "question_jawi": "ڽاتاكن دوا جنيس كات يڠ ايمبوهن '-i'ڽ مڠݢوناكن حروف '-ءي'، دان بريكن ساتو چونتوه جاوي باݢي ستياڤ جنيس.",
+      "reference_answer_rumi": "1. Imbuhan '-i' pada suku kata terbuka yang menggunakan vokal 'a' (ا) dan 'u' (و), contoh mengembarai (مڠمباراءي). 2. Imbuhan '-i' pada suku kata terbuka yang menggunakan vokal 'a' tetapi tidak ditulis dengan huruf 'ا', contoh dikatai (دکاتاءي).",
+      "reference_answer_jawi": "1. ايمبوهن '-i' ڤد سوكو كات تربوک يڠ مڠݢوناكن ۏوكل 'ا' دان 'و'، چونتوه مڠمباراءي. 2. ايمبوهن '-i' ڤد سوكو كات تربوک يڠ مڠݢوناكن ۏوكل 'a' تتاڤي تيدق دتوليس دڠن حروف 'ا'، چونتوه دکاتاءي.",
+      "rubric": [
+        {"criterion": "Jenis 1: suku kata terbuka dengan vokal 'a' dan 'u' (ا dan و)", "marks": 1, "keywords": ["suku kata terbuka", "سوكو كات تربوک", "vokal a dan u"]},
+        {"criterion": "Contoh jenis 1 betul (cth. مڠمباراءي, دأڠݢوتاءي, مراکوءي, مڠهنتوءي, دبنتوءي, چينتاءي, ممسراءي)", "marks": 1, "keywords": ["مڠمباراءي", "دأڠݢوتاءي", "مراکوءي", "مڠهنتوءي", "دبنتوءي", "چينتاءي", "ممسراءي"]},
+        {"criterion": "Jenis 2: vokal 'a' tetapi tidak ditulis dengan huruf 'ا'", "marks": 1, "keywords": ["tidak ditulis", "تيدق دتوليس"]},
+        {"criterion": "Contoh jenis 2 betul (cth. مراجاءي, دناماءي, دکاتاءي, دمورکاءي, دکواساءي, دبوکاءي, ممباجاءي)", "marks": 1, "keywords": ["مراجاءي", "دناماءي", "دکاتاءي", "دمورکاءي", "دکواساءي", "دبوکاءي", "ممباجاءي"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [38, 39, 40]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Bandingkan cara mengeja 'mengembarai' (kata dasar کمبارا) dengan 'dikatai' (kata dasar کات). Jelaskan peraturan bagi setiap satu, tuliskan ejaan Jawinya, dan nyatakan dua kumpulan kata dasar yang berakhir dengan bunyi vokal 'a' tetapi tidak ditulis dengan huruf 'ا' menurut 'Tahukah Anda'.",
+      "question_jawi": "بنديڠكن چارا مڠيجا 'mengembarai' (كات داسر کمبارا) دڠن 'dikatai' (كات داسر کات). جلسكن ڤراتورن باݢي ستياڤ ساتو، توليسكن ايجاءن جاويڽ، دان ڽاتاكن دوا كومڤولن كات داسر يڠ براخير دڠن بوڽي ۏوكل 'a' تتاڤي تيدق دتوليس دڠن حروف 'ا'.",
+      "reference_answer_rumi": "کمبارا berakhir dengan suku kata terbuka bervokal 'a' yang sudah ditulis dengan 'ا', maka terus ditambah '-ءي': مڠمباراءي. کات berakhir dengan bunyi vokal 'a' tetapi tidak ditulis dengan 'ا', maka huruf 'ا' diletakkan terlebih dahulu diikuti '-ءي': دکاتاءي. Dua kumpulan: (i) kata-kata menurut kaedah luar 'د، ر، ل، و، ڠ' iaitu dua suku kata dengan kombinasi vokal 'a-a' dan suku kata akhir bermula dengan huruf ب، ت، ڤ، س، ک، ن، ڽ، چ، ي، ݢ، ج، م; (ii) kata-kata menurut hukum ک dan ݢ.",
+      "reference_answer_jawi": "کمبارا + ءي = مڠمباراءي. کات + ا + ءي = دکاتاءي. (i) كات٢ منوروت قاعده لوار 'د'، 'ر'، 'ل'، 'و'، 'ڠ' ياءيت دوا سوكو كات دڠن كومبيناسي ۏوكل 'a-a'؛ (ii) كات٢ منوروت حكوم ک دان ݢ.",
+      "rubric": [
+        {"criterion": "Peraturan mengembarai: suku kata terbuka vokal 'a' terus ditambah '-ءي'", "marks": 1, "keywords": ["ءي", "suku kata terbuka", "تربوک"]},
+        {"criterion": "Mengeja مڠمباراءي dengan betul", "marks": 1, "keywords": ["مڠمباراءي"]},
+        {"criterion": "Peraturan dikatai: letak 'ا' terlebih dahulu diikuti '-ءي'", "marks": 1, "keywords": ["ا terlebih dahulu", "ملتقكن حروف 'ا'", "alif"]},
+        {"criterion": "Mengeja دکاتاءي dengan betul", "marks": 1, "keywords": ["دکاتاءي"]},
+        {"criterion": "Kumpulan 1: kaedah luar د، ر، ل، و، ڠ (dua suku kata vokal a-a)", "marks": 1, "keywords": ["kaedah luar", "قاعده لوار", "a-a"]},
+        {"criterion": "Kumpulan 2: hukum ک dan ݢ", "marks": 1, "keywords": ["hukum ka", "hukum ga", "حكوم ک دان ݢ"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [39, 40, 44]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q9",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berdasarkan petikan 'Angkasawan Pertama Negara', siapakah nama penuh angkasawan negara?",
+      "question_jawi": "سياڤاکه نام ڤنوه اڠکاساوان نݢارا؟",
+      "reference_answer_rumi": "Datuk Doktor Sheikh Muszaphar Shukor Al-Masrie bin Sheikh Mustapha",
+      "reference_answer_jawi": "داتوء دوکتور شيخ مظفر شکور المصري بن شيخ مصطفى",
+      "rubric": [
+        {"criterion": "Menyebut Sheikh Muszaphar Shukor", "marks": 1, "keywords": ["Muszaphar", "Shukor", "مظفر", "شکور"]},
+        {"criterion": "Menyebut Al-Masrie bin Sheikh Mustapha", "marks": 1, "keywords": ["Masrie", "Mustapha", "المصري", "مصطفى"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [41, 43]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q10",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Apakah jenis roket yang digunakan oleh angkasawan negara?",
+      "question_jawi": "اڤاکه جنيس روکيت يڠ دݢوناکن اوليه اڠکاساوان نݢارا؟",
+      "reference_answer_rumi": "Roket Soyuz TMA-11",
+      "reference_answer_jawi": "روکيت سويوز تي.عيم.أي-11",
+      "rubric": [
+        {"criterion": "Menyatakan Soyuz TMA-11", "marks": 1, "keywords": ["Soyuz", "TMA-11", "سويوز"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [41, 43]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q11",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Di manakah roket tersebut dilepaskan?",
+      "question_jawi": "دماناکه روکيت ترسبوت دلڤسکن؟",
+      "reference_answer_rumi": "Dari tapak pelancaran Baikonur, Kazakhstan",
+      "reference_answer_jawi": "دري تاڤق ڤلنچرن بايکونور، کازکستن",
+      "rubric": [
+        {"criterion": "Menyebut Baikonur", "marks": 1, "keywords": ["Baikonur", "بايکونور"]},
+        {"criterion": "Menyebut Kazakhstan", "marks": 1, "keywords": ["Kazakhstan", "کازکستن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [41, 43]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q12",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Bilakah angkasawan negara berlepas ke angkasa?",
+      "question_jawi": "بيلاکه اڠکاساوان نݢارا برلڤس کأڠکاس؟",
+      "reference_answer_rumi": "Pada 10 Oktober 2007 jam 9:21 malam waktu Malaysia (28 Ramadan)",
+      "reference_answer_jawi": "10 اوکتوبر 2007 جم 9:21 مالم وقتو مليسيا",
+      "rubric": [
+        {"criterion": "Menyatakan 10 Oktober 2007", "marks": 1, "keywords": ["10 Oktober 2007", "10 اوکتوبر 2007"]},
+        {"criterion": "Menyatakan jam 9:21 malam atau 28 Ramadan", "marks": 1, "keywords": ["9:21", "28 Ramadan", "28 رمضان"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [41, 43]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_hamzah_ya_q13",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Nyatakan uji kaji yang dijalankan oleh angkasawan negara.",
+      "question_jawi": "ڽاتاکن اوجي کاجي يڠ دجالنکن اوليه اڠکاساوان نݢارا.",
+      "reference_answer_rumi": "Tiga uji kaji yang membabitkan sel di angkasa, mikrob di angkasa serta pengkristalan protein.",
+      "reference_answer_jawi": "تيݢ اوجي کاجي ممبابيتکن سيل دأڠکاس، ميکروب دأڠکاس سرتا ڤڠکريستلن ڤروتين.",
+      "rubric": [
+        {"criterion": "Sel di angkasa", "marks": 1, "keywords": ["sel", "سيل"]},
+        {"criterion": "Mikrob di angkasa", "marks": 1, "keywords": ["mikrob", "ميکروب"]},
+        {"criterion": "Pengkristalan protein", "marks": 1, "keywords": ["pengkristalan protein", "protein", "ڤڠکريستلن ڤروتين"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [42, 43]
+    }
+  ]
+}

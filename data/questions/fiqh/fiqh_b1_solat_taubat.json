@@ -1,0 +1,104 @@
+{
+  "topic_id": "fiqh_b1_solat_taubat",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_taubat_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan rakaat solat taubat?",
+      "question_jawi": "برڤاكه بيلڠن ركعة صلاة توبة؟",
+      "reference_answer_rumi": "Dua rakaat",
+      "reference_answer_jawi": "دوا ركعة",
+      "rubric": [
+        {"criterion": "Menyatakan dua rakaat", "marks": 1, "keywords": ["dua rakaat", "2 rakaat", "دوا ركعة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [32]
+    },
+    {
+      "id": "fiqh_b1_solat_taubat_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah seorang mukmin digalakkan mendirikan solat taubat?",
+      "question_jawi": "بيلاكه سأورڠ مؤمن دݢالقكن منديريكن صلاة توبة؟",
+      "reference_answer_rumi": "Apabila dia telah berazam untuk bertaubat (sebelum bertaubat kepada Allah SWT)",
+      "reference_answer_jawi": "اڤابيلا دي تله برعزم اونتوق برتوبة",
+      "rubric": [
+        {"criterion": "Menyatakan apabila berazam untuk bertaubat", "marks": 1, "keywords": ["berazam", "bertaubat", "برعزم", "برتوبة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [32]
+    },
+    {
+      "id": "fiqh_b1_solat_taubat_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Hadis tentang dalil solat taubat diriwayatkan oleh siapa?",
+      "question_jawi": "حديث تنتڠ دليل صلاة توبة دريوايتكن اوليه سياڤ؟",
+      "reference_answer_rumi": "Ahmad",
+      "reference_answer_jawi": "احمد",
+      "rubric": [
+        {"criterion": "Menyatakan Ahmad", "marks": 1, "keywords": ["Ahmad", "احمد"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [33]
+    },
+    {
+      "id": "fiqh_b1_solat_taubat_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga keadaan taubat tidak akan diterima.",
+      "question_jawi": "ڽاتاكن تيݢ كأداءن توبة تيدق اكن دتريما.",
+      "reference_answer_rumi": "1. Ketika sakaratul maut. 2. Apabila turun azab daripada Allah SWT. 3. Apabila matahari terbit dari barat.",
+      "reference_answer_jawi": "1. كتيك سكرات الموت. 2. اڤابيلا تورون عذاب درڤد الله. 3. اڤابيلا ماتاهاري تربيت دري بارت.",
+      "rubric": [
+        {"criterion": "Ketika sakaratul maut", "marks": 1, "keywords": ["sakaratul maut", "سكرات الموت"]},
+        {"criterion": "Apabila turun azab", "marks": 1, "keywords": ["azab", "عذاب"]},
+        {"criterion": "Matahari terbit dari barat", "marks": 1, "keywords": ["matahari terbit dari barat", "barat", "بارت"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [35]
+    },
+    {
+      "id": "fiqh_b1_solat_taubat_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Senaraikan empat fadhilat solat taubat.",
+      "question_jawi": "سناريكن امڤت فضيلة صلاة توبة.",
+      "reference_answer_rumi": "1. Mendapat keampunan daripada Allah SWT. 2. Allah SWT akan meninggikan darjat hamba-Nya yang mahu bertaubat. 3. Mendapat kemuliaan di dunia dan di akhirat. 4. Dimurahkan rezeki oleh Allah SWT.",
+      "reference_answer_jawi": "1. منداڤت كأمڤونن درڤد الله. 2. الله اكن منيڠݢيكن درجت ڤارا همباڽ يڠ ماهو برتوبة كڤداڽ. 3. منداڤت كمولياءن ددنيا دان دأخرة. 4. دمورهكن رزقي اوليه الله.",
+      "rubric": [
+        {"criterion": "Mendapat keampunan Allah", "marks": 1, "keywords": ["keampunan", "كأمڤونن"]},
+        {"criterion": "Ditinggikan darjat", "marks": 1, "keywords": ["darjat", "درجت"]},
+        {"criterion": "Kemuliaan di dunia dan akhirat", "marks": 1, "keywords": ["kemuliaan", "كمولياءن"]},
+        {"criterion": "Dimurahkan rezeki", "marks": 1, "keywords": ["rezeki", "رزقي"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [34]
+    },
+    {
+      "id": "fiqh_b1_solat_taubat_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Seorang rakan anda menyesal atas dosa yang telah dilakukannya. Terangkan kepadanya pengertian solat taubat, waktu yang digalakkan untuk mendirikannya, lafaz niatnya dan dua fadhilatnya.",
+      "question_jawi": "سأورڠ راكن اندا مڽسل اتس دوسا يڠ تله دلاكوكنڽ. ترڠكن كڤداڽ ڤڠرتين صلاة توبة، وقتو يڠ دݢالقكن اونتوق منديريكنڽ، لفظ نيتڽ دان دوا فضيلتڽ.",
+      "reference_answer_rumi": "Solat taubat didirikan dua rakaat ketika seseorang ingin bertaubat kepada Allah SWT atas segala dosa. Digalakkan apabila telah berazam untuk bertaubat, sebaik-baiknya sebelum bertaubat kepada Allah SWT. Niat: أُصَلِّي رَكْعَتَيْنِ سُنَّةَ ٱلتَّوْبَةِ لِلَّهِ تَعَالَى (Sahaja aku solat dua rakaat sunat taubat kerana Allah Taala). Fadhilat: mendapat keampunan Allah SWT; ditinggikan darjat; kemuliaan di dunia dan akhirat; dimurahkan rezeki.",
+      "reference_answer_jawi": "صلاة توبة دديريكن دوا ركعة كتيك سسأورڠ ايڠين برتوبة كڤد الله اتس سݢالا دوسا. دݢالقكن اڤابيلا تله برعزم اونتوق برتوبة. نية: أُصَلِّي رَكْعَتَيْنِ سُنَّةَ ٱلتَّوْبَةِ لِلَّهِ تَعَالَى. فضيلة: منداڤت كأمڤونن؛ دتيڠݢيكن درجت؛ كمولياءن ددنيا دان دأخرة؛ دمورهكن رزقي.",
+      "rubric": [
+        {"criterion": "Pengertian: dua rakaat untuk bertaubat atas dosa", "marks": 1, "keywords": ["dua rakaat", "bertaubat", "dosa", "دوا ركعة", "دوسا"]},
+        {"criterion": "Waktu: apabila berazam untuk bertaubat", "marks": 1, "keywords": ["berazam", "برعزم"]},
+        {"criterion": "Lafaz niat yang betul", "marks": 2, "keywords": ["أُصَلِّي", "ٱلتَّوْبَةِ", "التوبة", "sunat taubat"]},
+        {"criterion": "Dua fadhilat", "marks": 2, "keywords": ["keampunan", "darjat", "kemuliaan", "rezeki", "كأمڤونن", "رزقي"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [32, 34]
+    }
+  ]
+}

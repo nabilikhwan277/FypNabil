@@ -1,0 +1,104 @@
+{
+  "topic_id": "fiqh_b2_fadhilat_puasa",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b2_fadhilat_puasa_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah nama pintu syurga yang dimasuki oleh orang yang berpuasa?",
+      "question_jawi": "اڤاکه نام ڤينتو شرݢ يڠ دماسوقي اوليه اورڠ يڠ برڤواسا؟",
+      "reference_answer_rumi": "Al-Rayyan",
+      "reference_answer_jawi": "الرَّيَّان",
+      "rubric": [
+        {"criterion": "Menyatakan al-Rayyan", "marks": 1, "keywords": ["Rayyan", "al-Rayyan", "ar-Rayyan", "الريان", "الرَّيَّان"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [59]
+    },
+    {
+      "id": "fiqh_b2_fadhilat_puasa_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bau mulut orang yang berpuasa lebih harum daripada bau apa?",
+      "question_jawi": "باءو مولوت اورڠ يڠ برڤواسا لبيه هاروم درڤد باءو اڤ؟",
+      "reference_answer_rumi": "Bau kasturi",
+      "reference_answer_jawi": "باءو کستوري",
+      "rubric": [
+        {"criterion": "Menyatakan kasturi", "marks": 1, "keywords": ["kasturi", "کستوري"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [59]
+    },
+    {
+      "id": "fiqh_b2_fadhilat_puasa_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan pintu syurga menurut hadis riwayat al-Bukhari dalam buku teks?",
+      "question_jawi": "براڤاکه بيلڠن ڤينتو شرݢ منوروت حديث رواية البخاري دالم بوکو تيکس؟",
+      "reference_answer_rumi": "Lapan pintu",
+      "reference_answer_jawi": "لاڤن ڤينتو",
+      "rubric": [
+        {"criterion": "Menyatakan lapan", "marks": 1, "keywords": ["lapan", "8", "لاڤن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [59]
+    },
+    {
+      "id": "fiqh_b2_fadhilat_puasa_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat puasa.",
+      "question_jawi": "ڽاتاکن تيݢ فضيلة ڤواسا.",
+      "reference_answer_rumi": "Mana-mana tiga: bau mulut orang berpuasa lebih harum daripada kasturi; masuk syurga melalui pintu al-Rayyan; perisai daripada api neraka; menghapus kesalahan; menjadi syafaat (penolong); pelindung daripada penyakit kronik; mendidik diri menjadi penyabar; merasai kesusahan orang lain; mengawal nafsu; menyemai sifat mahmudah.",
+      "reference_answer_jawi": "مان٢ تيݢ: باءو مولوت اورڠ برڤواسا لبيه هاروم درڤد کستوري؛ ماسوق شرݢ ملالوءي ڤينتو الرَّيَّان؛ ڤريساي درڤد اڤي نراک؛ مڠهاڤوس کسالهن؛ منجادي شفاعة (ڤنولوڠ)؛ ڤليندوڠ درڤد ڤڽاکيت کرونيک؛ منديديق ديري منجادي ڤڽابر؛ مراساءي کسوسهن اورڠ لاءين؛ مڠاول نفسو؛ مڽماي صيفت محمودة.",
+      "rubric": [
+        {"criterion": "Fadhilat pertama yang betul", "marks": 1, "keywords": ["kasturi", "Rayyan", "perisai", "neraka", "کستوري", "الرَّيَّان", "ڤريساي"]},
+        {"criterion": "Fadhilat kedua yang betul", "marks": 1, "keywords": ["menghapus kesalahan", "syafaat", "penolong", "penyakit kronik", "مڠهاڤوس کسالهن", "شفاعة", "ڤنولوڠ"]},
+        {"criterion": "Fadhilat ketiga yang betul", "marks": 1, "keywords": ["penyabar", "kesusahan", "nafsu", "mahmudah", "ڤڽابر", "کسوسهن", "نفسو", "محمودة"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [59]
+    },
+    {
+      "id": "fiqh_b2_fadhilat_puasa_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Puasa mempunyai kepentingan dari segi rohani dan jasmani. Nyatakan satu kepentingan dari segi jasmani dan dua dari segi rohani.",
+      "question_jawi": "ڤواسا ممڤوڽاءي کڤنتيڠن دري سݢي روحاني دان جسماني. ڽاتاکن ساتو کڤنتيڠن دري سݢي جسماني دان دوا دري سݢي روحاني.",
+      "reference_answer_rumi": "Jasmani: pelindung daripada penyakit yang kronik. Rohani (mana-mana dua): mendidik diri menjadi penyabar; mengawal nafsu daripada perkara yang dilarang Allah; menyemai sifat mahmudah (terpuji); menghapus kesalahan.",
+      "reference_answer_jawi": "جسماني: ڤليندوڠ درڤد ڤڽاکيت يڠ کرونيک. روحاني (مان٢ دوا): منديديق ديري منجادي ڤڽابر؛ مڠاول نفسو درڤد ڤرکارا يڠ دلارڠ الله؛ مڽماي صيفت محمودة (ترڤوجي)؛ مڠهاڤوس کسالهن.",
+      "rubric": [
+        {"criterion": "Jasmani: pelindung daripada penyakit kronik", "marks": 1, "keywords": ["penyakit", "kronik", "ڤڽاکيت", "کرونيک"]},
+        {"criterion": "Rohani pertama", "marks": 1, "keywords": ["penyabar", "sabar", "nafsu", "ڤڽابر", "نفسو"]},
+        {"criterion": "Rohani kedua", "marks": 1, "keywords": ["mahmudah", "terpuji", "kesalahan", "محمودة", "ترڤوجي", "کسالهن"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [59]
+    },
+    {
+      "id": "fiqh_b2_fadhilat_puasa_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Huraikan fadhilat puasa berkaitan pintu al-Rayyan berdasarkan hadis riwayat al-Bukhari dan nyatakan dua fadhilat puasa yang lain.",
+      "question_jawi": "هورايکن فضيلة ڤواسا برکاءيتن ڤينتو الرَّيَّان برداسرکن حديث رواية البخاري دان ڽاتاکن دوا فضيلة ڤواسا يڠ لاءين.",
+      "reference_answer_rumi": "Di syurga ada lapan pintu, antaranya disebut al-Rayyan; tidak ada seorang pun dapat memasukinya melainkan orang yang berpuasa. Allah SWT akan memasukkan orang yang berpuasa ke dalam syurga melalui pintu al-Rayyan. Fadhilat lain (mana-mana dua): puasa perisai daripada api neraka; menghapus kesalahan; menjadi syafaat; bau mulut lebih harum daripada kasturi.",
+      "reference_answer_jawi": "دشرݢ اد لاڤن ڤينتو، انتاراڽ دسبوت الرَّيَّان؛ تيدق اد سأورڠ ڤون داڤت مماسوقيڽ ملاءينکن اورڠ يڠ برڤواسا. الله سبحانه وتعالى اکن مماسوقکن اورڠ يڠ برڤواسا کدالم شرݢ ملالوءي ڤينتو الرَّيَّان. فضيلة لاءين (مان٢ دوا): ڤريساي درڤد اڤي نراک؛ مڠهاڤوس کسالهن؛ منجادي شفاعة؛ باءو مولوت لبيه هاروم درڤد کستوري.",
+      "rubric": [
+        {"criterion": "Syurga ada lapan pintu", "marks": 1, "keywords": ["lapan pintu", "lapan", "لاڤن ڤينتو"]},
+        {"criterion": "Salah satunya al-Rayyan", "marks": 1, "keywords": ["Rayyan", "الرَّيَّان", "الريان"]},
+        {"criterion": "Hanya orang berpuasa boleh memasukinya", "marks": 2, "keywords": ["melainkan orang yang berpuasa", "orang yang berpuasa", "ملاءينکن اورڠ يڠ برڤواسا"]},
+        {"criterion": "Fadhilat lain pertama", "marks": 1, "keywords": ["perisai", "neraka", "kasturi", "ڤريساي", "نراک", "کستوري"]},
+        {"criterion": "Fadhilat lain kedua", "marks": 1, "keywords": ["kesalahan", "syafaat", "penolong", "کسالهن", "شفاعة", "ڤنولوڠ"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [59]
+    }
+  ]
+}

@@ -1,0 +1,1165 @@
+{
+  "split": "train",
+  "questions": 306,
+  "results": {
+    "correct_rumi": {
+      "all": {
+        "n": 256,
+        "mean_percent": 98.8,
+        "full_marks": 0.965,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.03,
+        "median_ms": 61,
+        "p95_ms": 179
+      },
+      "fiqh": {
+        "n": 90,
+        "mean_percent": 99.3,
+        "full_marks": 0.978,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.02,
+        "median_ms": 58,
+        "p95_ms": 194
+      },
+      "jawi": {
+        "n": 41,
+        "mean_percent": 94.1,
+        "full_marks": 0.829,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.07,
+        "median_ms": 74,
+        "p95_ms": 170
+      },
+      "tajwid": {
+        "n": 125,
+        "mean_percent": 100.0,
+        "full_marks": 1.0,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.02,
+        "median_ms": 61,
+        "p95_ms": 144
+      },
+      "L1": {
+        "n": 126,
+        "mean_percent": 100.0,
+        "full_marks": 1.0,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.0,
+        "median_ms": 55,
+        "p95_ms": 66
+      },
+      "L2": {
+        "n": 92,
+        "mean_percent": 97.7,
+        "full_marks": 0.946,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.05,
+        "median_ms": 74,
+        "p95_ms": 144
+      },
+      "L3": {
+        "n": 38,
+        "mean_percent": 97.4,
+        "full_marks": 0.895,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.08,
+        "median_ms": 144,
+        "p95_ms": 264
+      }
+    },
+    "correct_jawi": {
+      "all": {
+        "n": 306,
+        "mean_percent": 99.3,
+        "full_marks": 0.971,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.02,
+        "median_ms": 59,
+        "p95_ms": 157
+      },
+      "fiqh": {
+        "n": 90,
+        "mean_percent": 99.3,
+        "full_marks": 0.967,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.03,
+        "median_ms": 59,
+        "p95_ms": 181
+      },
+      "jawi": {
+        "n": 91,
+        "mean_percent": 99.0,
+        "full_marks": 0.956,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.02,
+        "median_ms": 58,
+        "p95_ms": 153
+      },
+      "tajwid": {
+        "n": 125,
+        "mean_percent": 99.5,
+        "full_marks": 0.984,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.02,
+        "median_ms": 59,
+        "p95_ms": 148
+      },
+      "L1": {
+        "n": 163,
+        "mean_percent": 100.0,
+        "full_marks": 1.0,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.0,
+        "median_ms": 55,
+        "p95_ms": 64
+      },
+      "L2": {
+        "n": 105,
+        "mean_percent": 98.8,
+        "full_marks": 0.962,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.03,
+        "median_ms": 72,
+        "p95_ms": 126
+      },
+      "L3": {
+        "n": 38,
+        "mean_percent": 97.4,
+        "full_marks": 0.868,
+        "zero": 0.0,
+        "llm_calls_per_answer": 0.11,
+        "median_ms": 149,
+        "p95_ms": 906
+      }
+    },
+    "wrong": {
+      "all": {
+        "n": 306,
+        "mean_percent": 2.6,
+        "full_marks": 0.01,
+        "zero": 0.944,
+        "llm_calls_per_answer": 1.4,
+        "median_ms": 63,
+        "p95_ms": 4557
+      },
+      "fiqh": {
+        "n": 90,
+        "mean_percent": 3.0,
+        "full_marks": 0.011,
+        "zero": 0.944,
+        "llm_calls_per_answer": 1.42,
+        "median_ms": 66,
+        "p95_ms": 3825
+      },
+      "jawi": {
+        "n": 91,
+        "mean_percent": 0.5,
+        "full_marks": 0.0,
+        "zero": 0.978,
+        "llm_calls_per_answer": 0.9,
+        "median_ms": 60,
+        "p95_ms": 4009
+      },
+      "tajwid": {
+        "n": 125,
+        "mean_percent": 3.8,
+        "full_marks": 0.016,
+        "zero": 0.92,
+        "llm_calls_per_answer": 1.74,
+        "median_ms": 81,
+        "p95_ms": 4155
+      },
+      "L1": {
+        "n": 163,
+        "mean_percent": 0.6,
+        "full_marks": 0.006,
+        "zero": 0.994,
+        "llm_calls_per_answer": 0.0,
+        "median_ms": 56,
+        "p95_ms": 70
+      },
+      "L2": {
+        "n": 105,
+        "mean_percent": 4.7,
+        "full_marks": 0.019,
+        "zero": 0.914,
+        "llm_calls_per_answer": 2.59,
+        "median_ms": 2047,
+        "p95_ms": 6353
+      },
+      "L3": {
+        "n": 38,
+        "mean_percent": 5.3,
+        "full_marks": 0.0,
+        "zero": 0.816,
+        "llm_calls_per_answer": 4.08,
+        "median_ms": 3096,
+        "p95_ms": 7538
+      }
+    }
+  },
+  "layer_counts": {
+    "correct_rumi": {
+      "A-keyword": 554,
+      "A-truefalse": 8,
+      "B-guard": 4,
+      "A-spelling": 49,
+      "B-llm": 4
+    },
+    "correct_jawi": {
+      "A-keyword": 555,
+      "A-truefalse": 8,
+      "B-guard": 7,
+      "A-spelling": 130
+    },
+    "wrong": {
+      "A-none": 140,
+      "A-truefalse": 8,
+      "B-guard": 388,
+      "A-keyword": 18,
+      "B-llm": 7,
+      "A-spelling": 130,
+      "B-fallback": 9
+    }
+  },
+  "llm_verdicts": {
+    "correct_rumi": {
+      "ya": 8
+    },
+    "correct_jawi": {
+      "ya": 7
+    },
+    "wrong": {
+      "ya": 394,
+      "None": 9,
+      "separa": 1
+    }
+  },
+  "failures": {
+    "correct_not_full": [
+      {
+        "id": "fiqh_b1_solat_dhuha_q6",
+        "subject": "fiqh",
+        "level": 2,
+        "case": "correct_rumi",
+        "percent": 66.7,
+        "llm_calls": 1,
+        "ms": 841,
+        "layers": [
+          "A-keyword",
+          "B-guard",
+          "A-keyword"
+        ],
+        "llm_sims": [
+          0.4992
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Keadaan kedua yang betul"
+        ],
+        "answer": "Jika rezekiku masih di langit turunkanlah; jika di bumi keluarkanlah; jika sukar mudahkanlah; jika haram sucikanlah; jik"
+      },
+      {
+        "id": "fiqh_b1_solat_dhuha_q6",
+        "subject": "fiqh",
+        "level": 2,
+        "case": "correct_jawi",
+        "percent": 66.7,
+        "llm_calls": 1,
+        "ms": 677,
+        "layers": [
+          "A-keyword",
+          "B-guard",
+          "A-keyword"
+        ],
+        "llm_sims": [
+          0.5079
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Keadaan kedua yang betul"
+        ],
+        "answer": "جک رزقيكو ماسيه دلاڠيت تورونكنڽ؛ جک دبومي كلواركنڽ؛ جک سوكر مودهكنڽ؛ جک حرام سوچيكنڽ؛ جک جاءوه دكتكنڽ. (مان-مان تيݢ)"
+      },
+      {
+        "id": "fiqh_b1_solat_gerhana_q7",
+        "subject": "fiqh",
+        "level": 3,
+        "case": "correct_jawi",
+        "percent": 83.3,
+        "llm_calls": 1,
+        "ms": 1044,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "A-keyword",
+          "A-keyword",
+          "A-keyword",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4896
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Rukuk dan sujud dalam tempoh yang lama"
+        ],
+        "answer": "صلاة ݢرهان بولن (خسوف) اياله صلاة يڠ دديريكن كران ترجاديڽ ݢرهان، سباڽق دوا ركعة دڠن امڤت ركوع دان امڤت سجود، سچارا برجما"
+      },
+      {
+        "id": "fiqh_b1_solat_hari_raya_q5",
+        "subject": "fiqh",
+        "level": 2,
+        "case": "correct_rumi",
+        "percent": 66.7,
+        "llm_calls": 1,
+        "ms": 795,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4394
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Mana-mana fadhilat ketiga yang betul"
+        ],
+        "answer": "1. Memperoleh pahala kerana menghidupkan salah satu sunnah Nabi SAW. 2. Sebagai simbol perpaduan umat Islam. 3. Mendapat"
+      },
+      {
+        "id": "fiqh_b1_solat_witir_q6",
+        "subject": "fiqh",
+        "level": 3,
+        "case": "correct_jawi",
+        "percent": 83.3,
+        "llm_calls": 1,
+        "ms": 987,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "A-keyword",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.5197
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Satu fadhilat"
+        ],
+        "answer": "صلاة وتر دديريكن سلڤس صلاة عشاء هيڠݢ تربيت فجر؛ وتر ارتيڽ ݢنجيل. نية دوا ركعة: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ ل"
+      },
+      {
+        "id": "jawi_b1_imbuhan_an_alif_nun_q7",
+        "subject": "jawi",
+        "level": 3,
+        "case": "correct_rumi",
+        "percent": 66.7,
+        "llm_calls": 0,
+        "ms": 141,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "A-spelling",
+          "A-keyword",
+          "A-spelling"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [
+          "Ayat contoh mengandungi kata '-ان' yang dieja betul (cth. ڤالوان, دروان, ڤرݢوروان, كسيلاوان, ݢوراوان)"
+        ],
+        "answer": "Akhiran '-an' pada kata dasar yang diakhiri dengan huruf 'و' termasuk bunyi diftong 'au' dieja dengan '-ان'. Kata dasar "
+      },
+      {
+        "id": "jawi_b1_imbuhan_an_nun_q5",
+        "subject": "jawi",
+        "level": 2,
+        "case": "correct_rumi",
+        "percent": 50.0,
+        "llm_calls": 0,
+        "ms": 80,
+        "layers": [
+          "A-keyword",
+          "A-spelling",
+          "A-keyword",
+          "A-spelling"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [
+          "Contoh betul bagi jenis pertama (cth. ڤوجين, تارين, بلاين, ڤاكاين)",
+          "Contoh betul bagi jenis kedua (cth. سوكتن, تاڤيسن, سبوتن, كأخلاصن)"
+        ],
+        "answer": "1. Kata dasar yang berakhir dengan huruf '-ي', contoh tari -> tarian. 2. Kata dasar yang berakhir dengan suku kata tertu"
+      },
+      {
+        "id": "jawi_b2_imbuhan_i_hamzah_ya_q8",
+        "subject": "jawi",
+        "level": 3,
+        "case": "correct_rumi",
+        "percent": 83.3,
+        "llm_calls": 2,
+        "ms": 1619,
+        "layers": [
+          "A-keyword",
+          "A-spelling",
+          "B-llm",
+          "A-spelling",
+          "A-keyword",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.634,
+          0.5074
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Kumpulan 2: hukum ک dan ݢ"
+        ],
+        "answer": "کمبارا berakhir dengan suku kata terbuka bervokal 'a' yang sudah ditulis dengan 'ا', maka terus ditambah '-ءي': مڠمباراء"
+      },
+      {
+        "id": "jawi_b2_imbuhan_i_hamzah_ya_q8",
+        "subject": "jawi",
+        "level": 3,
+        "case": "correct_jawi",
+        "percent": 83.3,
+        "llm_calls": 1,
+        "ms": 906,
+        "layers": [
+          "A-keyword",
+          "A-spelling",
+          "B-guard",
+          "A-spelling",
+          "A-keyword",
+          "A-keyword"
+        ],
+        "llm_sims": [
+          0.5984
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Peraturan dikatai: letak 'ا' terlebih dahulu diikuti '-ءي'"
+        ],
+        "answer": "کمبارا + ءي = مڠمباراءي. کات + ا + ءي = دکاتاءي. (i) كات٢ منوروت قاعده لوار 'د'، 'ر'، 'ل'، 'و'، 'ڠ' ياءيت دوا سوكو كات د"
+      },
+      {
+        "id": "jawi_b2_imbuhan_i_ya_q9",
+        "subject": "jawi",
+        "level": 2,
+        "case": "correct_rumi",
+        "percent": 33.3,
+        "llm_calls": 0,
+        "ms": 59,
+        "layers": [
+          "A-keyword",
+          "A-spelling",
+          "A-spelling"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [
+          "Kata kedua betul dari syair",
+          "Kata ketiga betul dari syair"
+        ],
+        "answer": "Mana-mana tiga: dihormati, disakiti, rahmati, dekati, diberkati, dituruti."
+      },
+      {
+        "id": "jawi_b3_pinjaman_inggeris_q9",
+        "subject": "jawi",
+        "level": 3,
+        "case": "correct_rumi",
+        "percent": 66.7,
+        "llm_calls": 0,
+        "ms": 243,
+        "layers": [
+          "A-keyword",
+          "A-spelling",
+          "A-keyword",
+          "A-spelling",
+          "A-keyword",
+          "A-spelling"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [
+          "Contoh betul bagi kaedah kedua",
+          "Contoh betul bagi kaedah ketiga"
+        ],
+        "answer": "Mana-mana tiga daripada: (i) dieja mengikut sebutan baku bahasa Melayu, cth. industri ايندوستري; (ii) gugus konsonan di "
+      },
+      {
+        "id": "jawi_b3_pinjaman_inggeris_q9",
+        "subject": "jawi",
+        "level": 3,
+        "case": "correct_jawi",
+        "percent": 66.7,
+        "llm_calls": 0,
+        "ms": 252,
+        "layers": [
+          "A-keyword",
+          "A-spelling",
+          "A-keyword",
+          "A-spelling",
+          "A-keyword",
+          "A-spelling"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [
+          "Contoh betul bagi kaedah kedua",
+          "Contoh betul bagi kaedah ketiga"
+        ],
+        "answer": "(i) دأيجا مڠيكوت سبوتن باكو بهاس ملايو، چونتوه ايندوستري؛ (ii) ݢوݢوس كونسونن دأول كات دتوليس سرڠكاي، چونتوه كلينيك؛ (iii"
+      },
+      {
+        "id": "jawi_b4_akronim_inggeris_q8",
+        "subject": "jawi",
+        "level": 3,
+        "case": "correct_rumi",
+        "percent": 83.3,
+        "llm_calls": 1,
+        "ms": 825,
+        "layers": [
+          "B-guard",
+          "A-keyword",
+          "A-keyword",
+          "A-keyword",
+          "A-spelling",
+          "A-spelling"
+        ],
+        "llm_sims": [
+          0.4597
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Menyatakan cara penulisan kedua-dua bahasa berbeza"
+        ],
+        "answer": "Akronim bahasa Melayu ditulis dengan huruf abjad Jawi dan noktah (cth. د.ب.ڤ), manakala akronim bahasa Inggeris dieja de"
+      },
+      {
+        "id": "jawi_b4_akronim_inggeris_q8",
+        "subject": "jawi",
+        "level": 3,
+        "case": "correct_jawi",
+        "percent": 83.3,
+        "llm_calls": 1,
+        "ms": 799,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "A-keyword",
+          "B-guard",
+          "A-spelling",
+          "A-spelling"
+        ],
+        "llm_sims": [
+          0.4132
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Menyebut bahasa Melayu menggunakan huruf abjad Jawi"
+        ],
+        "answer": "چارا ڤنوليسن اكرونيم بهاس ملايو دان بهاس ايڠݢريس بربيذا. اكرونيم بهاس ايڠݢريس دأيجا دڠن منوليس نام حروف ساتو ڤرساتو دان "
+      },
+      {
+        "id": "jawi_b4_akronim_melayu_q7",
+        "subject": "jawi",
+        "level": 2,
+        "case": "correct_rumi",
+        "percent": 75.0,
+        "llm_calls": 0,
+        "ms": 135,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "A-spelling",
+          "A-spelling"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [
+          "Contoh kedua betul"
+        ],
+        "answer": "Singkatan nama jabatan, organisasi, pertubuhan, syarikat, nama jawatan, pangkat dan sebagainya ditulis dengan huruf dala"
+      },
+      {
+        "id": "jawi_b4_akronim_melayu_q7",
+        "subject": "jawi",
+        "level": 2,
+        "case": "correct_jawi",
+        "percent": 75.0,
+        "llm_calls": 0,
+        "ms": 103,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "A-spelling",
+          "A-spelling"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [
+          "Contoh kedua betul"
+        ],
+        "answer": "سيڠكتن ڤڠݢل نام باݢي جابتن، اورݢانيساسي، ڤرتوبوهن، شريكت، نام جاوتن، ڤڠكت دان سأومڤاماڽ دتوليس دڠن مڠݢوناكن حروف دالم اب"
+      },
+      {
+        "id": "tajwid_b1_mad_bahagian_q7",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "correct_jawi",
+        "percent": 66.7,
+        "llm_calls": 1,
+        "ms": 720,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4724
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Menyatakan mad terbahagi kepada dua"
+        ],
+        "answer": "مد اصلي دان مد فرعي."
+      },
+      {
+        "id": "tajwid_b3_mad_farq_q4",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "correct_jawi",
+        "percent": 66.7,
+        "llm_calls": 1,
+        "ms": 703,
+        "layers": [
+          "A-keyword",
+          "B-guard",
+          "A-keyword"
+        ],
+        "llm_sims": [
+          0.5833
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Di permulaan kalimah"
+        ],
+        "answer": "مد فرق اياله اڤابيلا سلڤس حروف همزة قطع دڤرمولاءن كليمه ترداڤت همزة وصل."
+      }
+    ],
+    "wrong_not_zero": [
+      {
+        "id": "fiqh_b1_solat_tahajud_q1",
+        "subject": "fiqh",
+        "level": 1,
+        "case": "wrong",
+        "percent": 100.0,
+        "llm_calls": 0,
+        "ms": 57,
+        "layers": [
+          "A-keyword"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [],
+        "answer": "أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat tarawih dua rakaat keran"
+      },
+      {
+        "id": "fiqh_b1_solat_tarawih_q5",
+        "subject": "fiqh",
+        "level": 2,
+        "case": "wrong",
+        "percent": 66.7,
+        "llm_calls": 1,
+        "ms": 807,
+        "layers": [
+          "A-keyword",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.5565
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Maksud niat"
+        ],
+        "answer": "Solat gerhana bulan (khusuf) ialah solat yang didirikan kerana terjadinya gerhana, sebanyak dua rakaat dengan empat ruku"
+      },
+      {
+        "id": "fiqh_b1_solat_tarawih_q6",
+        "subject": "fiqh",
+        "level": 3,
+        "case": "wrong",
+        "percent": 33.3,
+        "llm_calls": 4,
+        "ms": 3022,
+        "layers": [
+          "B-guard",
+          "B-guard",
+          "B-guard",
+          "B-llm"
+        ],
+        "llm_sims": [
+          0.4716,
+          0.4806,
+          0.3801,
+          0.6067
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya",
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Menyatakan solat bersama imam hingga imam selesai",
+          "Ganjaran qiam semalaman / bersolat sepanjang malam",
+          "Menasihati Ali menunggu hingga selesai"
+        ],
+        "answer": "1. Jaminan rezeki: orang yang selalu mengamalkan solat dhuha akan dikurniakan rezeki yang melimpah ruah kerana waktu dhu"
+      },
+      {
+        "id": "fiqh_b1_solat_taubat_q6",
+        "subject": "fiqh",
+        "level": 3,
+        "case": "wrong",
+        "percent": 50.0,
+        "llm_calls": 2,
+        "ms": 1474,
+        "layers": [
+          "A-keyword",
+          "B-guard",
+          "A-keyword",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4785,
+          0.4713
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Waktu: apabila berazam untuk bertaubat",
+          "Dua fadhilat"
+        ],
+        "answer": "أُصَلِّي سُنَّةَ ٱلظُّهْرِ قَبْلِيَّةً رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat sebelum Zohor du"
+      },
+      {
+        "id": "fiqh_b2_pengertian_puasa_q7",
+        "subject": "fiqh",
+        "level": 3,
+        "case": "wrong",
+        "percent": 16.7,
+        "llm_calls": 5,
+        "ms": 3825,
+        "layers": [
+          "B-guard",
+          "A-keyword",
+          "B-guard",
+          "B-guard",
+          "B-guard",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4337,
+          0.3846,
+          0.4028,
+          0.4664,
+          0.4183
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya",
+          "ya",
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Menahan diri daripada makan, minum dan perkara yang membatalkan",
+          "Seruan kepada orang yang beriman",
+          "Diwajibkan berpuasa",
+          "Sebagaimana diwajibkan atas umat sebelum",
+          "Supaya bertakwa"
+        ],
+        "answer": "Solat witir didirikan selepas solat isyak hingga terbit fajar; witir ertinya ganjil; bilangannya 1, 3, 5, 7, 9 atau 11 r"
+      },
+      {
+        "id": "jawi_b1_imbuhan_an_nun_q7",
+        "subject": "jawi",
+        "level": 3,
+        "case": "wrong",
+        "percent": 16.7,
+        "llm_calls": 2,
+        "ms": 1611,
+        "layers": [
+          "A-spelling",
+          "B-guard",
+          "A-keyword",
+          "B-guard",
+          "A-spelling",
+          "A-spelling"
+        ],
+        "llm_sims": [
+          0.535,
+          0.4943
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Kata dasar berakhir dengan huruf '-ي'",
+          "Menyebut suku kata terbuka dengan vokal 'i' dan diftong 'ai'",
+          "Menyebut vokal 'a', 'i', 'e' taling, 'u', 'o'",
+          "Mengeja belaian: بلاين",
+          "Mengeja tapisan: تاڤيسن"
+        ],
+        "answer": "geografi = ݢيوݢرافي (huruf 'g' diberi padanan 'ݢ'); plastik = ڤلستيك (suku kata tertutup berakhir 'k' ditulis 'ك'); nasi"
+      },
+      {
+        "id": "jawi_b2_imbuhan_i_ya_q7",
+        "subject": "jawi",
+        "level": 2,
+        "case": "wrong",
+        "percent": 33.3,
+        "llm_calls": 2,
+        "ms": 1389,
+        "layers": [
+          "A-keyword",
+          "B-guard",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.5262,
+          0.4756
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Menyebut vokal 'i'",
+          "Menyebut vokal 'u'"
+        ],
+        "answer": "Kata dasar raja (راج) berakhir dengan suku kata terbuka yang menggunakan vokal 'a' tetapi tidak ditulis dengan huruf 'ا'"
+      },
+      {
+        "id": "tajwid_b3_mad_aridh_lissukun_q4",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "wrong",
+        "percent": 33.3,
+        "llm_calls": 2,
+        "ms": 1410,
+        "layers": [
+          "A-keyword",
+          "B-guard",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.5701,
+          0.4519
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Bertemu dengan huruf mati",
+          "Kerana waqaf (berhenti bacaan)"
+        ],
+        "answer": "Apabila bertemu huruf mad dan hamzah dalam dua kalimah."
+      },
+      {
+        "id": "tajwid_b3_mad_fari_pengenalan_q5",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "wrong",
+        "percent": 100.0,
+        "llm_calls": 4,
+        "ms": 2313,
+        "layers": [
+          "B-llm",
+          "B-llm",
+          "B-llm",
+          "B-llm"
+        ],
+        "llm_sims": [
+          0.6196,
+          0.6714,
+          0.6237,
+          0.6188
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya",
+          "ya",
+          "ya"
+        ],
+        "missed": [],
+        "answer": "Tashil iaitu membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama."
+      },
+      {
+        "id": "tajwid_b3_mad_fari_pengenalan_q7",
+        "subject": "tajwid",
+        "level": 3,
+        "case": "wrong",
+        "percent": 16.7,
+        "llm_calls": 4,
+        "ms": 3020,
+        "layers": [
+          "B-guard",
+          "B-guard",
+          "B-llm",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4858,
+          0.446,
+          0.6307,
+          0.4496
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya",
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Bahagian pertama: hamzah sebelum atau selepas huruf mad",
+          "Dua contoh hukum bahagian pertama",
+          "Dua contoh hukum bahagian kedua"
+        ],
+        "answer": "Kerana bacaan mati pada huruf yang akhir itu adalah mati yang mendatang disebabkan bacaan yang diwaqafkan."
+      },
+      {
+        "id": "tajwid_b3_mad_jaiz_munfasil_q4",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "wrong",
+        "percent": 25.0,
+        "llm_calls": 4,
+        "ms": 2888,
+        "layers": [
+          "B-guard",
+          "B-guard",
+          "B-guard",
+          "B-llm"
+        ],
+        "llm_sims": [
+          0.5636,
+          0.4633,
+          0.4256,
+          0.756
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya",
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Ulama qiraat mengharuskan dibaca dua harakat atau lebih",
+          "Riwayat Hafs: empat atau lima harakat",
+          "Munfasil: berpisah"
+        ],
+        "answer": "Mad Badal ialah apabila berhimpun dua hamzah dalam satu kalimah dan diganti hamzah kedua dengan huruf mad mengikut baris"
+      },
+      {
+        "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q7",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "wrong",
+        "percent": 25.0,
+        "llm_calls": 3,
+        "ms": 2101,
+        "layers": [
+          "B-guard",
+          "A-keyword",
+          "B-guard",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4981,
+          0.5901,
+          0.4324
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Mad = memanjangkan bacaan",
+          "Harfi = satu huruf",
+          "Mukhaffaf = tidak diidghamkan"
+        ],
+        "answer": "Dua atau empat atau enam harakat"
+      },
+      {
+        "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q8",
+        "subject": "tajwid",
+        "level": 3,
+        "case": "wrong",
+        "percent": 33.3,
+        "llm_calls": 3,
+        "ms": 2208,
+        "layers": [
+          "A-keyword",
+          "B-guard",
+          "B-guard",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4135,
+          0.4028,
+          0.4091
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Cara bacaan: tanpa idgham dan tanpa dengung",
+          "Kadar enam harakat",
+          "Dua misal yang betul beserta surah"
+        ],
+        "answer": "Terdapat huruf mati selepas huruf mad"
+      },
+      {
+        "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q5",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "wrong",
+        "percent": 100.0,
+        "llm_calls": 0,
+        "ms": 81,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "A-keyword"
+        ],
+        "llm_sims": [],
+        "llm_verdicts": [],
+        "missed": [],
+        "answer": "Mad Lazim Harfi Mukhaffaf ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf di permulaan surah (fawatih"
+      },
+      {
+        "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q8",
+        "subject": "tajwid",
+        "level": 3,
+        "case": "wrong",
+        "percent": 33.3,
+        "llm_calls": 3,
+        "ms": 2187,
+        "layers": [
+          "A-keyword",
+          "B-guard",
+          "B-guard",
+          "B-guard"
+        ],
+        "llm_sims": [
+          0.4603,
+          0.3449,
+          0.3329
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Hukum tanpa idgham dan kadar enam harakat",
+          "Tempat: Surah Yunus ayat 51 dan 91",
+          "Contoh ayat yang betul"
+        ],
+        "answer": "Mad far'i ialah mad yang terjadi disebabkan terdapat huruf hamzah sebelum atau selepas huruf mad, atau terdapat huruf ma"
+      },
+      {
+        "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q6",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "wrong",
+        "percent": 75.0,
+        "llm_calls": 1,
+        "ms": 792,
+        "layers": [
+          "A-keyword",
+          "A-keyword",
+          "B-guard",
+          "A-keyword"
+        ],
+        "llm_sims": [
+          0.5857
+        ],
+        "llm_verdicts": [
+          "ya"
+        ],
+        "missed": [
+          "Kalimi = satu kalimah"
+        ],
+        "answer": "Mad = memanjangkan bacaan; Lazim = mesti dibaca enam harakat; Harfi = satu huruf; Mukhaffaf = tidak diidghamkan."
+      },
+      {
+        "id": "tajwid_b3_mad_lin_q4",
+        "subject": "tajwid",
+        "level": 2,
+        "case": "wrong",
+        "percent": 33.3,
+        "llm_calls": 2,
+        "ms": 1199,
+        "layers": [
+          "B-guard",
+          "B-guard",
+          "A-keyword"
+        ],
+        "llm_sims": [
+          0.4012,
+          0.3662
+        ],
+        "llm_verdicts": [
+          "ya",
+          "ya"
+        ],
+        "missed": [
+          "Menyebut huruf lin",
+          "Bertemu dengan huruf mati"
+        ],
+        "answer": "Waqaf Lazim"
+      }
+    ]
+  }
+}

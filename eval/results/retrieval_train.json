@@ -1,0 +1,282 @@
+{
+  "split": "train",
+  "k": 10,
+  "runs": {
+    "rumi_subject/dense": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.824,
+        "recall@4": 0.964,
+        "mrr@10": 0.884
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.922,
+          "recall@4": 0.989,
+          "mrr@10": 0.949
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.681,
+          "recall@4": 0.912,
+          "mrr@10": 0.783
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.856,
+          "recall@4": 0.984,
+          "mrr@10": 0.91
+        }
+      }
+    },
+    "rumi_subject/keyword": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.915,
+        "recall@4": 0.98,
+        "mrr@10": 0.947
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.878,
+          "recall@4": 0.978,
+          "mrr@10": 0.921
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.956,
+          "recall@4": 0.989,
+          "mrr@10": 0.975
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.912,
+          "recall@4": 0.976,
+          "mrr@10": 0.947
+        }
+      }
+    },
+    "rumi_subject/hybrid": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.899,
+        "recall@4": 0.99,
+        "mrr@10": 0.942
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.9,
+          "recall@4": 0.978,
+          "mrr@10": 0.939
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.879,
+          "recall@4": 1.0,
+          "mrr@10": 0.938
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.912,
+          "recall@4": 0.992,
+          "mrr@10": 0.947
+        }
+      }
+    },
+    "jawi_subject/dense": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.618,
+        "recall@4": 0.807,
+        "mrr@10": 0.707
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.622,
+          "recall@4": 0.789,
+          "mrr@10": 0.699
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.44,
+          "recall@4": 0.659,
+          "mrr@10": 0.544
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.744,
+          "recall@4": 0.928,
+          "mrr@10": 0.831
+        }
+      }
+    },
+    "jawi_subject/keyword": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.879,
+        "recall@4": 0.974,
+        "mrr@10": 0.927
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.856,
+          "recall@4": 0.956,
+          "mrr@10": 0.906
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.89,
+          "recall@4": 0.989,
+          "mrr@10": 0.94
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.888,
+          "recall@4": 0.976,
+          "mrr@10": 0.933
+        }
+      }
+    },
+    "jawi_subject/hybrid": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.869,
+        "recall@4": 0.958,
+        "mrr@10": 0.915
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.789,
+          "recall@4": 0.922,
+          "mrr@10": 0.857
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.89,
+          "recall@4": 0.978,
+          "mrr@10": 0.934
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.912,
+          "recall@4": 0.968,
+          "mrr@10": 0.942
+        }
+      }
+    },
+    "rumi_all/dense": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.807,
+        "recall@4": 0.935,
+        "mrr@10": 0.864
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.922,
+          "recall@4": 0.989,
+          "mrr@10": 0.948
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.648,
+          "recall@4": 0.824,
+          "mrr@10": 0.734
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.84,
+          "recall@4": 0.976,
+          "mrr@10": 0.898
+        }
+      }
+    },
+    "rumi_all/keyword": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.902,
+        "recall@4": 0.974,
+        "mrr@10": 0.938
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.878,
+          "recall@4": 0.967,
+          "mrr@10": 0.918
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.923,
+          "recall@4": 0.978,
+          "mrr@10": 0.953
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.904,
+          "recall@4": 0.976,
+          "mrr@10": 0.943
+        }
+      }
+    },
+    "rumi_all/hybrid": {
+      "overall": {
+        "n": 306,
+        "recall@1": 0.873,
+        "recall@4": 0.977,
+        "mrr@10": 0.923
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 90,
+          "recall@1": 0.889,
+          "recall@4": 0.978,
+          "mrr@10": 0.933
+        },
+        "jawi": {
+          "n": 91,
+          "recall@1": 0.802,
+          "recall@4": 0.956,
+          "mrr@10": 0.88
+        },
+        "tajwid": {
+          "n": 125,
+          "recall@1": 0.912,
+          "recall@4": 0.992,
+          "mrr@10": 0.948
+        }
+      }
+    }
+  },
+  "misses_rumi_subject_hybrid": {
+    "fiqh": [
+      {
+        "id": "fiqh_b1_solat_tahajud_q6",
+        "rank": null,
+        "q": "Puan Siti sering mengeluh tentang masalah yang menimpanya kerana tiada pekerjaan tetap dan",
+        "got": "fiqh_b1_pengenalan"
+      },
+      {
+        "id": "fiqh_b2_latihan_q7",
+        "rank": null,
+        "q": "Latihan 2: Baca dan fahami situasi di bawah. Kemudian, nyatakan hukum beserta alasannya. A",
+        "got": "fiqh_b2_pengertian_puasa"
+      }
+    ],
+    "tajwid": [
+      {
+        "id": "tajwid_b4_tingkatan_mad_q1",
+        "rank": null,
+        "q": "Berapakah kadar harakat bacaan Mad Lazim?",
+        "got": "tajwid_b3_mad_lazim_harfi_muthaqqal"
+      }
+    ]
+  }
+}

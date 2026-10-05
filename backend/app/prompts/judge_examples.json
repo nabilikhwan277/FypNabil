@@ -1,0 +1,20 @@
+[
+ {
+  "criterion": "Menyatakan kekuatan jasmani",
+  "answer": "Dapat rezeki banyak dan badan jadi kuat.",
+  "met": "ya",
+  "source": "fiqh_b1_solat_dhuha_q4::partial"
+ },
+ {
+  "criterion": "Pengertian: dua rakaat dengan empat rukuk dan empat sujud",
+  "answer": "Solat gerhana bulan. Ada dua rakaat. Rakaat pertama baca Fatihah dan surah yang panjang, lepas tu rukuk dua kali.",
+  "met": "separa",
+  "source": "fiqh_b1_solat_gerhana_q7::partial"
+ },
+ {
+  "criterion": "Huraian yang betul bagi salah satu fadhilat",
+  "answer": "Dapat rezeki banyak dan badan jadi kuat.",
+  "met": "tidak",
+  "source": "fiqh_b1_solat_dhuha_q4::partial"
+ }
+]

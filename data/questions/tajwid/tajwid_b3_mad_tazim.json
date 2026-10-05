@@ -1,0 +1,118 @@
+{
+  "topic_id": "tajwid_b3_mad_tazim",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_tazim_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Ta'zim?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد تعظيم؟",
+      "reference_answer_rumi": "Empat atau lima harakat",
+      "reference_answer_jawi": "امڤت اتاو ليم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima harakat", "4 atau 5 harakat", "امڤت اتاو ليم حركة", "4 atau 5"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [37]
+    },
+    {
+      "id": "tajwid_b3_mad_tazim_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Kalimah لَآ dalam Mad Ta'zim bertemu dengan kalimah apa?",
+      "question_jawi": "كليمه لَآ دالم مد تعظيم برتمو دڠن كليمه اڤ؟",
+      "reference_answer_rumi": "Kalimah إِلَٰهَ",
+      "reference_answer_jawi": "كليمه إِلَٰهَ",
+      "rubric": [
+        {"criterion": "Menyatakan kalimah إِلَٰهَ", "marks": 1, "keywords": ["إِلَٰهَ", "اله", "ilaha", "ilah"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [37]
+    },
+    {
+      "id": "tajwid_b3_mad_tazim_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Mengapakah dinamakan Mad Ta'zim?",
+      "question_jawi": "مڠاڤاكه دناماكن مد تعظيم؟",
+      "reference_answer_rumi": "Kerana membesar dan memuliakan Allah",
+      "reference_answer_jawi": "كران ممبسر دان ممولياكن الله",
+      "rubric": [
+        {"criterion": "Menyatakan membesar dan memuliakan Allah", "marks": 2, "keywords": ["membesar", "memuliakan Allah", "ممبسر", "ممولياكن الله"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [37]
+    },
+    {
+      "id": "tajwid_b3_mad_tazim_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Ta'zim?",
+      "question_jawi": "اڤاكه ارتي مد تعظيم؟",
+      "reference_answer_rumi": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ.",
+      "reference_answer_jawi": "مد تعظيم اياله اڤابيلا ترداڤت كليمه لَآ يڠ منونجوقكن ڤنافين برتمو دڠن كليمه إِلَٰهَ.",
+      "rubric": [
+        {"criterion": "Menyebut kalimah لَآ", "marks": 1, "keywords": ["لَآ", "لا", "la"]},
+        {"criterion": "Menyatakan لَآ menunjukkan penafian", "marks": 1, "keywords": ["penafian", "ڤنافين", "nafi"]},
+        {"criterion": "Menyatakan bertemu dengan kalimah إِلَٰهَ", "marks": 1, "keywords": ["إِلَٰهَ", "اله", "ilaha"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [37, 38]
+    },
+    {
+      "id": "tajwid_b3_mad_tazim_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan nama surah dan nombor ayat yang mengandungi hukum Mad Ta'zim (daripada ayat dalam aktiviti).",
+      "question_jawi": "سنارايكن نام سورة دان نومبور ايات يڠ مڠاندوڠي حكوم مد تعظيم.",
+      "reference_answer_rumi": "Surah as-Saffat ayat 35, Surah Taha ayat 14, Surah at-Taubah ayat 129.",
+      "reference_answer_jawi": "سورة الصافات ايات 35، سورة طه ايات 14، سورة التوبة ايات 129.",
+      "rubric": [
+        {"criterion": "Surah as-Saffat ayat 35", "marks": 1, "keywords": ["Saffat", "الصافات", "35"]},
+        {"criterion": "Surah Taha ayat 14", "marks": 1, "keywords": ["Taha", "طه", "14"]},
+        {"criterion": "Surah at-Taubah ayat 129", "marks": 1, "keywords": ["Taubah", "التوبة", "129"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [38]
+    },
+    {
+      "id": "tajwid_b3_mad_tazim_q6",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Ta'zim? (soalan aktiviti)",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد تعظيم؟",
+      "reference_answer_rumi": "Empat atau lima harakat",
+      "reference_answer_jawi": "امڤت اتاو ليم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [38]
+    },
+    {
+      "id": "tajwid_b3_mad_tazim_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum Mad Ta'zim meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن حكوم مد تعظيم ملیڤوتي ڤڠرتين، قدر حركة دان سبب دناماكن، سرتا بريكن ساتو چونتوه ايات القرءان بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ. Kadarnya empat atau lima harakat. Dinamakan Mad Ta'zim kerana membesar dan memuliakan Allah. Contoh: ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ (Surah an-Naml: 26).",
+      "reference_answer_jawi": "مد تعظيم اياله اڤابيلا ترداڤت كليمه لَآ يڠ منونجوقكن ڤنافين برتمو دڠن كليمه إِلَٰهَ. قدرڽ امڤت اتاو ليم حركة. دناماكن مد تعظيم كران ممبسر دان ممولياكن الله. چونتوه: ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ (سورة النمل: 26).",
+      "rubric": [
+        {"criterion": "Pengertian: لَآ penafian bertemu إِلَٰهَ", "marks": 2, "keywords": ["لَآ", "penafian", "إِلَٰهَ", "ڤنافين"]},
+        {"criterion": "Kadar empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]},
+        {"criterion": "Sebab: membesar dan memuliakan Allah", "marks": 1, "keywords": ["memuliakan Allah", "membesar", "ممولياكن الله"]},
+        {"criterion": "Contoh ayat yang betul beserta surah dan ayat", "marks": 2, "keywords": ["an-Naml", "النمل", "Muhammad", "محمد", "Saffat", "Taha", "Taubah", "لَآ إِلَٰهَ"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [37, 38]
+    }
+  ]
+}

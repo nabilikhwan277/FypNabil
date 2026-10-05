@@ -1,0 +1,104 @@
+{
+  "topic_id": "tajwid_b3_mad_lin",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_lin_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Lin?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لين؟",
+      "reference_answer_rumi": "Dua atau empat atau enam harakat",
+      "reference_answer_jawi": "دوا اتاو امڤت اتاو انم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan dua atau empat atau enam harakat", "marks": 2, "keywords": ["dua atau empat atau enam", "2, 4 atau 6", "2 atau 4 atau 6", "دوا اتاو امڤت اتاو انم"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [56, 57]
+    },
+    {
+      "id": "tajwid_b3_mad_lin_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Bilakah berlakunya hukum Mad Lin?",
+      "question_jawi": "بيلاكه برلاكوڽ حكوم مد لين؟",
+      "reference_answer_rumi": "Hanya ketika mewaqafkan ayat",
+      "reference_answer_jawi": "هاڽ كتيك مووقفكن ايات",
+      "rubric": [
+        {"criterion": "Menyatakan ketika mewaqafkan ayat", "marks": 1, "keywords": ["waqaf", "mewaqafkan", "berhenti", "وقف", "مووقفكن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [56, 57]
+    },
+    {
+      "id": "tajwid_b3_mad_lin_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Adakah berlaku hukum Mad Lin jika dibaca dengan wasal (sambung)?",
+      "question_jawi": "اداكه برلاكو حكوم مد لين جك دباچ دڠن وصل (سامبوڠ)؟",
+      "reference_answer_rumi": "Tidak berlaku",
+      "reference_answer_jawi": "تيدق برلاكو",
+      "rubric": [
+        {"criterion": "Menyatakan tidak berlaku", "marks": 1, "keywords": ["tidak", "tidak berlaku", "تيدق"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [56]
+    },
+    {
+      "id": "tajwid_b3_mad_lin_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Lin?",
+      "question_jawi": "اڤاكه ارتي مد لين؟",
+      "reference_answer_rumi": "Mad Lin ialah apabila huruf lin bertemu dengan huruf mati kerana waqaf (berhenti bacaan).",
+      "reference_answer_jawi": "مد لين اياله اڤابيلا حروف لين برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن).",
+      "rubric": [
+        {"criterion": "Menyebut huruf lin", "marks": 1, "keywords": ["huruf lin", "حروف لين"]},
+        {"criterion": "Bertemu dengan huruf mati", "marks": 1, "keywords": ["huruf mati", "حروف ماتي"]},
+        {"criterion": "Kerana waqaf (berhenti bacaan)", "marks": 1, "keywords": ["waqaf", "berhenti", "وقف", "برهنتي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [56, 57]
+    },
+    {
+      "id": "tajwid_b3_mad_lin_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan huruf-huruf Mad Lin dan nyatakan syaratnya.",
+      "question_jawi": "سنارايكن حروف٢ مد لين دان ڽاتاكن شرطڽ.",
+      "reference_answer_rumi": "1. Huruf wau yang mati sebelumnya berbaris atas. 2. Huruf ya yang mati sebelumnya berbaris atas.",
+      "reference_answer_jawi": "1. حروف واو يڠ ماتي سبلومڽ برباريس اتس. 2. حروف ياء يڠ ماتي سبلومڽ برباريس اتس.",
+      "rubric": [
+        {"criterion": "Huruf wau mati", "marks": 1, "keywords": ["wau", "واو", "و"]},
+        {"criterion": "Huruf ya mati", "marks": 1, "keywords": ["ya", "ياء", "ي"]},
+        {"criterion": "Huruf sebelumnya berbaris atas", "marks": 1, "keywords": ["baris atas", "berbaris atas", "fathah", "برباريس اتس"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [56, 57]
+    },
+    {
+      "id": "tajwid_b3_mad_lin_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum Mad Lin meliputi pengertian, kadar harakat, bila ia berlaku dan huruf-hurufnya, serta berikan satu contoh ayat beserta nama surah dan nombor ayat.",
+      "question_jawi": "تراڠكن حكوم مد لين مليڤوتي ڤڠرتين، قدر حركة، بيلا اي برلاكو دان حروف٢ڽ، سرتا بريكن ساتو چونتوه ايات بسرتا نام سورة دان نومبور ايات.",
+      "reference_answer_rumi": "Mad Lin ialah apabila huruf lin bertemu dengan huruf mati kerana waqaf (berhenti bacaan). Kadarnya dua atau empat atau enam harakat. Hukumnya hanya berlaku ketika mewaqafkan ayat dan tidak berlaku jika dibaca wasal. Huruf lin ialah wau dan ya yang mati sebelumnya berbaris atas. Contoh: وَءَامَنَهُم مِّنۡ خَوۡفِۭ (Surah Quraisy: 4).",
+      "reference_answer_jawi": "مد لين اياله اڤابيلا حروف لين برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن). قدرڽ دوا اتاو امڤت اتاو انم حركة. حكومڽ هاڽ برلاكو كتيك مووقفكن ايات دان تيدق برلاكو جك دباچ وصل. حروف لين اياله واو دان ياء يڠ ماتي سبلومڽ برباريس اتس. چونتوه: وَءَامَنَهُم مِّنۡ خَوۡفِۭ (سورة قريش: 4).",
+      "rubric": [
+        {"criterion": "Pengertian: huruf lin bertemu huruf mati kerana waqaf", "marks": 1, "keywords": ["huruf lin", "huruf mati", "waqaf", "حروف لين", "وقف"]},
+        {"criterion": "Kadar dua atau empat atau enam harakat", "marks": 1, "keywords": ["dua atau empat atau enam", "2, 4 atau 6", "دوا اتاو امڤت اتاو انم"]},
+        {"criterion": "Berlaku hanya ketika waqaf / tidak ketika wasal", "marks": 1, "keywords": ["mewaqafkan", "wasal", "sambung", "مووقفكن", "وصل"]},
+        {"criterion": "Huruf wau dan ya mati sebelumnya berbaris atas", "marks": 1, "keywords": ["wau", "ya", "baris atas", "واو", "ياء"]},
+        {"criterion": "Contoh ayat beserta surah dan nombor ayat", "marks": 2, "keywords": ["خَوۡفِۭ", "ٱلۡبَيۡتِ", "Quraisy", "قريش", "ٱلصَّيۡفِ", "عَيۡنَيۡنِ", "al-Balad", "البلد"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [56, 57]
+    }
+  ]
+}

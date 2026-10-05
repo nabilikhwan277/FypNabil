@@ -1,0 +1,148 @@
+@import 'tailwindcss';
+
+/* Kid-friendly theme: rounded, bright, chunky, high contrast. */
+@theme {
+  /* Nunito has no Arabic glyphs, so Jawi text anywhere falls back to Naskh. */
+  --font-sans: 'Nunito', 'Noto Naskh Arabic', ui-sans-serif, system-ui, sans-serif;
+  --font-jawi: 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+
+  --color-ink: #1e293b; /* slate-800, body text */
+
+  --animate-twinkle: twinkle 3.2s ease-in-out infinite;
+  --animate-floaty: floaty 3s ease-in-out infinite;
+  --animate-wiggle: wiggle 1.2s ease-in-out infinite;
+  --animate-pop: pop 0.35s ease-out both;
+
+  @keyframes twinkle {
+    0%,
+    100% {
+      opacity: 0.25;
+      transform: scale(0.8);
+    }
+    50% {
+      opacity: 0.95;
+      transform: scale(1.1);
+    }
+  }
+  @keyframes floaty {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(4deg);
+    }
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    80% {
+      transform: scale(1.08);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+/* Sky-to-sunshine background with a soft dotted pattern. */
+body {
+  @apply font-sans text-ink antialiased;
+  background-color: #e0f2fe;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgb(2 132 199 / 0.1) 1.5px, transparent 0),
+    linear-gradient(180deg, #dbeafe 0%, #e0f2fe 35%, #fef9c3 100%);
+  background-size:
+    22px 22px,
+    100% 100%;
+}
+
+/* Jawi text: right-to-left Naskh font. In the components layer so Tailwind
+   size utilities (text-3xl etc.) still apply. */
+@layer components {
+  .jawi {
+    font-family: var(--font-jawi);
+    direction: rtl;
+    line-height: 1.9;
+  }
+}
+
+/* Naskh looks smaller than Nunito at the same size; nudge body-level Jawi up. */
+[dir='rtl'] body {
+  font-size: 1.1rem;
+}
+
+@layer components {
+  /* Chunky "3D" buttons: a darker bottom edge that presses down on click.
+     Text is >= 20px bold, so white on emerald-600 meets WCAG AA for large text. */
+  .btn-primary {
+    @apply inline-flex min-h-14 cursor-pointer items-center justify-center gap-2 rounded-2xl border-b-4 border-emerald-800 bg-emerald-600 px-6 py-3 text-xl font-black text-white shadow-md transition select-none hover:-translate-y-0.5 hover:bg-emerald-700 active:translate-y-0.5 active:border-b-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0;
+  }
+  .btn-secondary {
+    @apply inline-flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-2xl border-2 border-b-4 border-slate-200 bg-white px-5 py-2 font-bold text-ink shadow-sm transition select-none hover:-translate-y-0.5 hover:border-sky-300 active:translate-y-0.5 active:border-b-2 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-choice {
+    @apply inline-flex min-h-14 cursor-pointer items-center justify-center gap-2 rounded-2xl border-2 border-b-4 border-slate-200 bg-white px-5 py-3 text-xl font-black text-ink shadow-sm transition select-none hover:-translate-y-0.5 hover:border-sky-400 active:translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:translate-y-0 aria-pressed:border-emerald-600 aria-pressed:bg-emerald-50 aria-pressed:text-emerald-900;
+  }
+  .card {
+    @apply rounded-3xl border-2 border-white bg-white/95 p-5 shadow-[0_6px_0_0_rgb(15_23_42_/_0.07)];
+  }
+  .field {
+    @apply w-full rounded-2xl border-2 border-b-4 border-slate-200 bg-white px-4 py-3 text-lg outline-none focus:border-emerald-500;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-sm font-black text-ink shadow-sm ring-2 ring-white;
+  }
+}
+
+.font-jawi {
+  font-family: var(--font-jawi);
+}
+/* Answer box: Latin text in Nunito, Arabic-script glyphs fall back to Naskh. */
+.font-jawi-mix {
+  font-family: 'Nunito', var(--font-jawi), sans-serif;
+}
+
+/* Any Arabic-script block inside notes uses the Naskh font. */
+.note-body :is(p, li, td, th, h2, h3, h4, blockquote)[dir='auto']:dir(rtl) {
+  font-family: var(--font-jawi);
+  line-height: 2;
+}
+
+/* Visible keyboard focus for accessibility. */
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+/* Headings / main that only receive focus from code (tabindex=-1) need no ring. */
+[tabindex='-1']:focus {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

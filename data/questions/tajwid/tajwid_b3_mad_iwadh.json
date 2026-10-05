@@ -1,0 +1,104 @@
+{
+  "topic_id": "tajwid_b3_mad_iwadh",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_iwadh_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar bacaan Mad 'Iwadh?",
+      "question_jawi": "براڤاكه قدر باچاءن مد عوض؟",
+      "reference_answer_rumi": "Dua harakat",
+      "reference_answer_jawi": "دوا حركة",
+      "rubric": [
+        {"criterion": "Menyatakan dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [59, 60]
+    },
+    {
+      "id": "tajwid_b3_mad_iwadh_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Pada huruf apakah tanwin di atas tidak dibaca sebagai Mad 'Iwadh?",
+      "question_jawi": "ڤد حروف اڤاكه تنوين دأتس تيدق دباچ سباݢاي مد عوض؟",
+      "reference_answer_rumi": "Huruf ta marbutah",
+      "reference_answer_jawi": "حروف تاء مربوطة",
+      "rubric": [
+        {"criterion": "Menyatakan ta marbutah", "marks": 1, "keywords": ["ta marbutah", "تاء مربوطة", "ة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [59]
+    },
+    {
+      "id": "tajwid_b3_mad_iwadh_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Mad 'Iwadh termasuk dalam bahagian mad apa?",
+      "question_jawi": "مد عوض ترماسوق دالم بهاݢين مد اڤ؟",
+      "reference_answer_rumi": "Mad Asli",
+      "reference_answer_jawi": "مد اصلي",
+      "rubric": [
+        {"criterion": "Menyatakan Mad Asli", "marks": 1, "keywords": ["Mad Asli", "asli", "مد اصلي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [59]
+    },
+    {
+      "id": "tajwid_b3_mad_iwadh_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Berikan pengertian Mad 'Iwadh.",
+      "question_jawi": "بريكن ڤڠرتين مد عوض.",
+      "reference_answer_rumi": "Mad 'Iwadh ialah apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas kecuali pada huruf ta marbutah.",
+      "reference_answer_jawi": "مد عوض اياله اڤابيلا مووقفكن باچاءن ڤد اخير كليمه يڠ برباريس تنوين دأتس كچوالي ڤد حروف تاء مربوطة.",
+      "rubric": [
+        {"criterion": "Mewaqafkan bacaan pada akhir kalimah", "marks": 1, "keywords": ["waqaf", "mewaqafkan", "akhir kalimah", "مووقفكن", "اخير كليمه"]},
+        {"criterion": "Berbaris tanwin di atas", "marks": 1, "keywords": ["tanwin di atas", "tanwin", "تنوين دأتس", "تنوين"]},
+        {"criterion": "Kecuali ta marbutah", "marks": 1, "keywords": ["ta marbutah", "kecuali", "تاء مربوطة", "كچوالي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [59, 60]
+    },
+    {
+      "id": "tajwid_b3_mad_iwadh_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Terangkan cara membaca Mad 'Iwadh dan bilakah ia berlaku.",
+      "question_jawi": "تراڠكن چارا ممباچ مد عوض دان بيلاكه اي برلاكو.",
+      "reference_answer_rumi": "Dengan menukarkan baris tanwin kepada huruf alif. Mad 'Iwadh hanya berlaku ketika waqaf sahaja.",
+      "reference_answer_jawi": "دڠن منوكركن باريس تنوين كڤد حروف اليف. مد عوض هاڽ برلاكو كتيك وقف سهاج.",
+      "rubric": [
+        {"criterion": "Menukarkan baris tanwin", "marks": 1, "keywords": ["menukarkan", "tanwin", "منوكركن", "تنوين"]},
+        {"criterion": "Kepada huruf alif", "marks": 1, "keywords": ["alif", "اليف"]},
+        {"criterion": "Berlaku ketika waqaf sahaja", "marks": 1, "keywords": ["waqaf", "وقف"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [59, 60]
+    },
+    {
+      "id": "tajwid_b3_mad_iwadh_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum Mad 'Iwadh meliputi pengertian, kadar harakat dan cara membacanya, serta berikan dua misal Mad 'Iwadh.",
+      "question_jawi": "تراڠكن حكوم مد عوض مليڤوتي ڤڠرتين، قدر حركة دان چارا ممباچڽ، سرتا بريكن دوا ميثل مد عوض.",
+      "reference_answer_rumi": "Mad 'Iwadh ialah apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas kecuali pada huruf ta marbutah. Kadarnya dua harakat. Cara membacanya ialah dengan menukarkan baris tanwin kepada huruf alif. Misal: مِهَٰدٗا dan أَزۡوَٰجٗا.",
+      "reference_answer_jawi": "مد عوض اياله اڤابيلا مووقفكن باچاءن ڤد اخير كليمه يڠ برباريس تنوين دأتس كچوالي ڤد حروف تاء مربوطة. قدرڽ دوا حركة. چارا ممباچڽ اياله دڠن منوكركن باريس تنوين كڤد حروف اليف. ميثل: مِهَٰدٗا دان أَزۡوَٰجٗا.",
+      "rubric": [
+        {"criterion": "Pengertian: waqaf pada tanwin di atas", "marks": 1, "keywords": ["waqaf", "tanwin", "وقف", "تنوين"]},
+        {"criterion": "Pengecualian ta marbutah", "marks": 1, "keywords": ["ta marbutah", "تاء مربوطة"]},
+        {"criterion": "Kadar dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]},
+        {"criterion": "Cara: tukar tanwin kepada alif", "marks": 1, "keywords": ["alif", "menukarkan", "اليف", "منوكركن"]},
+        {"criterion": "Dua misal yang betul", "marks": 2, "keywords": ["مِهَٰدٗا", "أَزۡوَٰجٗا", "أَوۡتَادٗا", "إِنشَآءٗ", "سَوَآءٗ", "سَعِيرًا", "وَزَفِيرٗا", "ثُبُورٗا", "مُّبِينٗا", "عَزِيزًا", "حَكِيمٗا"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [59, 60]
+    }
+  ]
+}

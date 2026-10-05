@@ -1,0 +1,26 @@
+flowchart TD
+  subgraph IN["Input"]
+    A1["Student answer (Rumi or Jawi)"]
+    A2["KAFA textbook notes (48 topics)"]
+    A3["Rubrics + reference answers (382 questions)"]
+    A4["Student learning history (SQLite)"]
+  end
+  subgraph PROC["Process (ReAct, FastAPI)"]
+    P1["Step 1 get_question: rubric + reference"]
+    P2["Step 2 search_notes: hybrid RAG, bge-m3 + BM25"]
+    VDB[("ChromaDB: 339 note chunks, 382 reference answers")]
+    P3["Step 3 score_rubric: Layer A rules + Layer B"]
+    P4["Step 4 get_history: mastery, repeated mistakes"]
+    P5["Step 5 generate_feedback: templates + textbook page"]
+    P6["Memory update: mastery, level unlock, XP, badges"]
+    P1 --> P2 --> P3 --> P4 --> P5 --> P6
+    P2 <-.-> VDB
+  end
+  subgraph OUT["Output (web app)"]
+    O1["Score + stars"]
+    O2["Mistake explanation"]
+    O3["Correct answer + textbook source"]
+    O4["Adaptive next-step suggestion"]
+    O5["ReAct trace: 'How the AI thinks'"]
+  end
+  IN --> PROC --> OUT

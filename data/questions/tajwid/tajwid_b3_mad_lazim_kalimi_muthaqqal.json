@@ -1,0 +1,136 @@
+{
+  "topic_id": "tajwid_b3_mad_lazim_kalimi_muthaqqal",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Lazim Kalimi Muthaqqal?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لازم كلمي مثقل؟",
+      "reference_answer_rumi": "Enam harakat",
+      "reference_answer_jawi": "انم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan enam harakat", "marks": 1, "keywords": ["enam harakat", "6 harakat", "enam", "انم حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [40, 41]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah hukum bacaan Mad Lazim Kalimi Muthaqqal?",
+      "question_jawi": "اڤاكه حكوم باچاءن مد لازم كلمي مثقل؟",
+      "reference_answer_rumi": "Dibaca dengan idgham",
+      "reference_answer_jawi": "دباچ دڠن إدغام",
+      "rubric": [
+        {"criterion": "Menyatakan idgham", "marks": 1, "keywords": ["idgham", "إدغام"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [41]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud perkataan 'kalimi'?",
+      "question_jawi": "اڤاكه مقصود ڤركاتاءن كلمي؟",
+      "reference_answer_rumi": "Satu kalimah",
+      "reference_answer_jawi": "ساتو كليمه",
+      "rubric": [
+        {"criterion": "Menyatakan satu kalimah", "marks": 1, "keywords": ["satu kalimah", "ساتو كليمه"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [41]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah asal kalimah ٱلطَّآمَّةُ?",
+      "question_jawi": "اڤاكه اصل كليمه ٱلطَّآمَّةُ؟",
+      "reference_answer_rumi": "الطَّامْـمَةُ",
+      "reference_answer_jawi": "الطَّامْـمَةُ",
+      "rubric": [
+        {"criterion": "Menyatakan الطَّامْـمَةُ", "marks": 1, "keywords": ["الطَّامْـمَةُ", "الطاممة", "طامْمة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [42]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Apakah erti Mad Lazim Kalimi Muthaqqal dan bagaimanakah hukum bacaannya?",
+      "question_jawi": "اڤاكه ارتي مد لازم كلمي مثقل دان باݢايماناكه حكوم باچاءنڽ؟",
+      "reference_answer_rumi": "Mad Lazim Kalimi Muthaqqal ialah apabila huruf mad bertemu dengan huruf yang bertasydid dalam satu kalimah. Hukum bacaannya dibaca dengan idgham.",
+      "reference_answer_jawi": "مد لازم كلمي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف يڠ برتشديد دالم ساتو كليمه. حكوم باچاءنڽ دباچ دڠن إدغام.",
+      "rubric": [
+        {"criterion": "Huruf mad bertemu huruf bertasydid", "marks": 1, "keywords": ["huruf mad", "bertasydid", "tasydid", "حروف مد", "برتشديد"]},
+        {"criterion": "Dalam satu kalimah", "marks": 1, "keywords": ["satu kalimah", "ساتو كليمه"]},
+        {"criterion": "Dibaca dengan idgham", "marks": 1, "keywords": ["idgham", "إدغام"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [41]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan maksud setiap perkataan dalam nama Mad Lazim Kalimi Muthaqqal.",
+      "question_jawi": "نياتاكن مقصود ستياڤ ڤركاتاءن دالم نام مد لازم كلمي مثقل.",
+      "reference_answer_rumi": "Mad = memanjangkan bacaan; Lazim = mesti dibaca enam harakat; Kalimi = satu kalimah; Muthaqqal = diidghamkan (bertasydid).",
+      "reference_answer_jawi": "مد = ممنجڠكن باچاءن؛ لازم = مستي دباچ انم حركة؛ كلمي = ساتو كليمه؛ مثقل = دإدغامكن (برتشديد).",
+      "rubric": [
+        {"criterion": "Mad = memanjangkan bacaan", "marks": 1, "keywords": ["memanjangkan bacaan", "ممنجڠكن باچاءن"]},
+        {"criterion": "Lazim = mesti dibaca enam harakat", "marks": 1, "keywords": ["mesti dibaca enam", "enam harakat", "مستي دباچ انم حركة"]},
+        {"criterion": "Kalimi = satu kalimah", "marks": 1, "keywords": ["satu kalimah", "ساتو كليمه"]},
+        {"criterion": "Muthaqqal = diidghamkan (bertasydid)", "marks": 1, "keywords": ["diidghamkan", "bertasydid", "دإدغامكن", "برتشديد"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [41]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Bincangkan misal hukum Mad Lazim Kalimi Muthaqqal dalam ayat Surah an-Nazi'at: 34 dan Surah 'Abasa: 33.",
+      "question_jawi": "بينچڠكن ميثل حكوم مد لازم كلمي مثقل دالم ايات سورة النازعات: 34 دان سورة عبس: 33.",
+      "reference_answer_rumi": "Surah an-Nazi'at: 34 — ٱلطَّآمَّةُ; Surah 'Abasa: 33 — ٱلصَّآخَّةُ. Pada kedua-duanya huruf mad bertemu huruf bertasydid dalam satu kalimah.",
+      "reference_answer_jawi": "سورة النازعات: 34 — ٱلطَّآمَّةُ؛ سورة عبس: 33 — ٱلصَّآخَّةُ. ڤد كدوا٢ڽ حروف مد برتمو حروف برتشديد دالم ساتو كليمه.",
+      "rubric": [
+        {"criterion": "Mengenal pasti ٱلطَّآمَّةُ", "marks": 1, "keywords": ["ٱلطَّآمَّةُ", "الطامة", "tammah"]},
+        {"criterion": "Mengenal pasti ٱلصَّآخَّةُ", "marks": 1, "keywords": ["ٱلصَّآخَّةُ", "الصاخة", "sakhkhah"]},
+        {"criterion": "Huruf mad bertemu huruf bertasydid dalam satu kalimah", "marks": 1, "keywords": ["bertasydid", "tasydid", "satu kalimah", "برتشديد"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [42]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_muthaqqal_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan Mad Lazim Kalimi Muthaqqal meliputi pengertian, hukum bacaan dan kadar harakat, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن مد لازم كلمي مثقل ملیڤوتي ڤڠرتين، حكوم باچاءن دان قدر حركة، سرتا بريكن ساتو چونتوه ايات القرءان بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "Mad Lazim Kalimi Muthaqqal ialah apabila huruf mad bertemu dengan huruf yang bertasydid dalam satu kalimah. Ia dibaca dengan idgham dan mesti dibaca enam harakat. Contoh: فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلۡكُبۡرَىٰ (Surah an-Nazi'at: 34).",
+      "reference_answer_jawi": "مد لازم كلمي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف يڠ برتشديد دالم ساتو كليمه. اي دباچ دڠن إدغام دان مستي دباچ انم حركة. چونتوه: فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلۡكُبۡرَىٰ (سورة النازعات: 34).",
+      "rubric": [
+        {"criterion": "Pengertian: huruf mad bertemu huruf bertasydid dalam satu kalimah", "marks": 2, "keywords": ["huruf mad", "bertasydid", "satu kalimah", "حروف مد", "برتشديد", "ساتو كليمه"]},
+        {"criterion": "Hukum: dibaca dengan idgham", "marks": 1, "keywords": ["idgham", "إدغام"]},
+        {"criterion": "Kadar enam harakat", "marks": 1, "keywords": ["enam", "6", "انم"]},
+        {"criterion": "Contoh ayat yang betul beserta surah dan ayat", "marks": 2, "keywords": ["Nazi'at", "النازعات", "34", "Abasa", "عبس", "33", "ٱلطَّآمَّةُ", "ٱلصَّآخَّةُ"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [41, 42]
+    }
+  ]
+}

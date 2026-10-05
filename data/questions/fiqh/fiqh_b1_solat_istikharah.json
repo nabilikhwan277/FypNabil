@@ -1,0 +1,103 @@
+{
+  "topic_id": "fiqh_b1_solat_istikharah",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_istikharah_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah tujuan solat istikharah didirikan?",
+      "question_jawi": "اڤاكه توجوان صلاة استخارة دديريكن؟",
+      "reference_answer_rumi": "Memohon petunjuk dan bimbingan daripada Allah SWT terhadap perkara yang diragui atau sukar untuk membuat pilihan",
+      "reference_answer_jawi": "مموهون ڤتونجوق دان بيمبيڠن درڤد الله ﷻ ترهادڤ ڤركارا يڠ دراݢوءي اتاو سوكر اونتوق ممبوات ڤيليهن",
+      "rubric": [
+        {"criterion": "Menyatakan memohon petunjuk/bimbingan daripada Allah", "marks": 1, "keywords": ["petunjuk", "bimbingan", "ڤتونجوق", "بيمبيڠن"]},
+        {"criterion": "Menyatakan perkara yang diragui atau sukar membuat pilihan", "marks": 1, "keywords": ["diragui", "sukar", "pilihan", "دراݢوءي", "سوكر", "ڤيليهن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [25]
+    },
+    {
+      "id": "fiqh_b1_solat_istikharah_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan rakaat solat istikharah menurut lafaz niatnya?",
+      "question_jawi": "برڤاكه بيلڠن ركعة صلاة استخارة منوروت لفظ نيتڽ؟",
+      "reference_answer_rumi": "Dua rakaat",
+      "reference_answer_jawi": "دوا ركعة",
+      "rubric": [
+        {"criterion": "Menyatakan dua rakaat", "marks": 1, "keywords": ["dua rakaat", "2 rakaat", "دوا ركعة", "رَكْعَتَيْنِ"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [26]
+    },
+    {
+      "id": "fiqh_b1_solat_istikharah_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan satu cara petunjuk daripada Allah SWT boleh berlaku selepas solat istikharah selain gerak hati.",
+      "question_jawi": "ڽاتاكن ساتو چارا ڤتونجوق درڤد الله ﷻ بوليه برلاكو سلڤس صلاة استخارة سلاءين ݢرق هاتي.",
+      "reference_answer_rumi": "Mendapat ilham atau idea untuk menyelesaikan kebuntuan / melalui mimpi / dipermudah segala urusan oleh Allah SWT",
+      "reference_answer_jawi": "منداڤت الهام اتاو ايديا اونتوق مڽلسايكن كبونتوان / ملالوءي ميمڤي / دڤرموده سݢالا اوروسن اوليه الله ﷻ",
+      "rubric": [
+        {"criterion": "Menyatakan salah satu: ilham/idea, mimpi, atau dipermudah urusan", "marks": 1, "keywords": ["ilham", "idea", "mimpi", "dipermudah", "urusan", "الهام", "ايديا", "ميمڤي", "دڤرموده", "اوروسن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [25]
+    },
+    {
+      "id": "fiqh_b1_solat_istikharah_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat solat istikharah.",
+      "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة استخارة.",
+      "reference_answer_rumi": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+      "reference_answer_jawi": "1. داڤت ممبريكن كتنڠن كڤد هاتي مأنسي. 2. مڠهيلڠكن صيفت سومبوڠ دالم ديري كيت. 3. منجاݢ عقيدة سوڤاي سنتياس يقين دڠن كتنتوان يڠ تله دتقديركن اوليه الله ﷻ.",
+      "rubric": [
+        {"criterion": "Memberi ketenangan kepada hati", "marks": 1, "keywords": ["ketenangan", "tenang", "hati", "كتنڠن", "هاتي"]},
+        {"criterion": "Menghilangkan sifat sombong", "marks": 1, "keywords": ["sombong", "سومبوڠ"]},
+        {"criterion": "Menjaga akidah / yakin dengan ketentuan Allah", "marks": 1, "keywords": ["akidah", "yakin", "ketentuan", "takdir", "عقيدة", "يقين", "كتنتوان"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [26]
+    },
+    {
+      "id": "fiqh_b1_solat_istikharah_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Baca dan hafal: Tuliskan lafaz niat solat istikharah dan nyatakan maksudnya.",
+      "question_jawi": "باچ دان حافل: توليسكن لفظ نية صلاة استخارة دان ڽاتاكن مقصودڽ.",
+      "reference_answer_rumi": "أُصَلِّي سُنَّةَ الْإِسْتِخَارَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat istikharah dua rakaat kerana Allah Taala.",
+      "reference_answer_jawi": "أُصَلِّي سُنَّةَ الْإِسْتِخَارَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة استخارة دوا ركعة كران الله تعالى.",
+      "rubric": [
+        {"criterion": "Menulis lafaz niat dengan betul", "marks": 2, "keywords": ["أُصَلِّي", "الْإِسْتِخَارَةِ", "رَكْعَتَيْنِ", "اصلي", "الاستخارة"]},
+        {"criterion": "Menyatakan maksud niat", "marks": 1, "keywords": ["sahaja aku solat sunat istikharah", "dua rakaat kerana Allah", "سهاج اكو صلاة سنة استخارة"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [26]
+    },
+    {
+      "id": "fiqh_b1_solat_istikharah_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Siti sukar membuat pilihan antara dua cita-cita untuk masa hadapannya. Cadangkan satu solat sunat yang sesuai untuknya, terangkan pengertian solat tersebut dan nyatakan dua cara petunjuk daripada Allah SWT boleh berlaku.",
+      "question_jawi": "سيتي سوكر ممبوات ڤيليهن انتارا دوا چيتا-چيتا اونتوق ماس هادڤنڽ. چادڠكن ساتو صلاة سنة يڠ سسواي اونتوقڽ، ترڠكن ڤڠرتين صلاة ترسبوت دان ڽاتاكن دوا چارا ڤتونجوق درڤد الله ﷻ بوليه برلاكو.",
+      "reference_answer_rumi": "Solat istikharah. Solat istikharah ialah solat sunat yang didirikan bagi memohon petunjuk dan bimbingan daripada Allah SWT terhadap perkara yang diragui atau sukar untuk membuat pilihan. Petunjuk boleh berlaku melalui: gerak hati yang kuat untuk melakukan atau meninggalkan pilihan tersebut; mendapat ilham atau idea untuk menyelesaikan kebuntuan; melalui mimpi; dipermudah segala urusan oleh Allah SWT.",
+      "reference_answer_jawi": "صلاة استخارة. صلاة استخارة اياله صلاة سنة يڠ دديريكن باݢي مموهون ڤتونجوق دان بيمبيڠن درڤد الله ﷻ ترهادڤ ڤركارا يڠ دراݢوءي اتاو سوكر اونتوق ممبوات ڤيليهن. ڤتونجوق بوليه برلاكو ملالوءي: ݢرق هاتي يڠ قوات اونتوق ملاكوكن اتاو منيڠݢلكن ڤيليهن ترسبوت؛ منداڤت الهام اتاو ايديا اونتوق مڽلسايكن كبونتوان؛ ملالوءي ميمڤي؛ دڤرموده سݢالا اوروسن اوليه الله ﷻ.",
+      "rubric": [
+        {"criterion": "Mencadangkan solat istikharah", "marks": 1, "keywords": ["istikharah", "استخارة"]},
+        {"criterion": "Pengertian: memohon petunjuk dan bimbingan Allah", "marks": 1, "keywords": ["petunjuk", "bimbingan", "ڤتونجوق", "بيمبيڠن"]},
+        {"criterion": "Pengertian: perkara yang diragui atau sukar membuat pilihan", "marks": 1, "keywords": ["diragui", "sukar", "pilihan", "دراݢوءي", "سوكر", "ڤيليهن"]},
+        {"criterion": "Menyatakan dua cara petunjuk berlaku (gerak hati, ilham/idea, mimpi, dipermudah urusan)", "marks": 2, "keywords": ["gerak hati", "ilham", "idea", "mimpi", "dipermudah", "ݢرق هاتي", "الهام", "ميمڤي", "دڤرموده"]}
+      ],
+      "max_marks": 5,
+      "source_pages": [24, 25]
+    }
+  ]
+}

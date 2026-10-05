@@ -1,0 +1,183 @@
+{
+  "topic_id": "fiqh_b1_latihan",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_latihan_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_rawatib",
+      "question_rumi": "Latihan 1: Isi tempat kosong dengan jawapan yang betul (sebelum, tertutup, lima, 28, petunjuk, tujuh). Solat sunat qabliyyah ialah solat sunat yang didirikan ____ solat fardu.",
+      "question_jawi": "لاتيهن 1: ايسي تمڤت كوسوڠ دڠن جواڤن يڠ بتول (سبلوم، ترتوتوڤ، ليم، 28، ڤتونجوق، توجوه). صلاة سنة قَبْلِيَّة اياله صلاة سنة يڠ دديريكن ____ صلاة فرض.",
+      "reference_answer_rumi": "Sebelum",
+      "reference_answer_jawi": "سبلوم",
+      "rubric": [
+        {"criterion": "Menjawab sebelum", "marks": 1, "keywords": ["sebelum", "سبلوم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [54]
+    },
+    {
+      "id": "fiqh_b1_latihan_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_dhuha",
+      "question_rumi": "Latihan 1: Isi tempat kosong dengan jawapan yang betul (sebelum, tertutup, lima, 28, petunjuk, tujuh). Sekitar ____ minit selepas matahari terbit, disunatkan kepada kita untuk mendirikan solat dhuha.",
+      "question_jawi": "لاتيهن 1: ايسي تمڤت كوسوڠ دڠن جواڤن يڠ بتول (سبلوم، ترتوتوڤ، ليم، 28، ڤتونجوق، توجوه). سكيتر ____ مينيت سلڤس ماتاهاري تربيت، دسنتكن كڤد كيت اونتوق منديريكن صلاة ضحى.",
+      "reference_answer_rumi": "28",
+      "reference_answer_jawi": "28",
+      "rubric": [
+        {"criterion": "Menjawab 28", "marks": 1, "keywords": ["28", "dua puluh lapan"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [54]
+    },
+    {
+      "id": "fiqh_b1_latihan_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_istikharah",
+      "question_rumi": "Latihan 1: Isi tempat kosong dengan jawapan yang betul (sebelum, tertutup, lima, 28, petunjuk, tujuh). Solat istikharah didirikan untuk memohon ____ daripada Allah SWT.",
+      "question_jawi": "لاتيهن 1: ايسي تمڤت كوسوڠ دڠن جواڤن يڠ بتول (سبلوم، ترتوتوڤ، ليم، 28، ڤتونجوق، توجوه). صلاة استخارة دديريكن اونتوق مموهون ____ درڤد الله ﷻ.",
+      "reference_answer_rumi": "Petunjuk",
+      "reference_answer_jawi": "ڤتونجوق",
+      "rubric": [
+        {"criterion": "Menjawab petunjuk", "marks": 1, "keywords": ["petunjuk", "ڤتونجوق"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [54]
+    },
+    {
+      "id": "fiqh_b1_latihan_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_hari_raya",
+      "question_rumi": "Latihan 1: Isi tempat kosong dengan jawapan yang betul (sebelum, tertutup, lima, 28, petunjuk, tujuh). Pada rakaat pertama solat dua hari raya, disunatkan kepada kita untuk bertakbir sebanyak ____ kali, manakala pada rakaat kedua disunatkan bertakbir sebanyak ____ kali.",
+      "question_jawi": "لاتيهن 1: ايسي تمڤت كوسوڠ دڠن جواڤن يڠ بتول (سبلوم، ترتوتوڤ، ليم، 28، ڤتونجوق، توجوه). ڤد ركعة ڤرتام صلاة دوا هاري راي، دسنتكن كڤد كيت اونتوق برتكبير سباڽق ____ كالي، ماناكالا ڤد ركعة كدوا دسنتكن برتكبير سباڽق ____ كالي.",
+      "reference_answer_rumi": "Tujuh; lima",
+      "reference_answer_jawi": "توجوه؛ ليم",
+      "rubric": [
+        {"criterion": "Rakaat pertama: tujuh", "marks": 1, "keywords": ["tujuh", "7", "توجوه"]},
+        {"criterion": "Rakaat kedua: lima", "marks": 1, "keywords": ["lima", "5", "ليم"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [54, 48]
+    },
+    {
+      "id": "fiqh_b1_latihan_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_taubat",
+      "question_rumi": "Latihan 1: Isi tempat kosong dengan jawapan yang betul (sebelum, tertutup, lima, 28, petunjuk, tujuh). Apabila terbit matahari dari barat, maka pintu taubat akan ____.",
+      "question_jawi": "لاتيهن 1: ايسي تمڤت كوسوڠ دڠن جواڤن يڠ بتول (سبلوم، ترتوتوڤ، ليم، 28، ڤتونجوق، توجوه). اڤابيلا تربيت ماتاهاري دري بارت، مك ڤينتو توبة اكن ____.",
+      "reference_answer_rumi": "Tertutup",
+      "reference_answer_jawi": "ترتوتوڤ",
+      "rubric": [
+        {"criterion": "Menjawab tertutup", "marks": 1, "keywords": ["tertutup", "ترتوتوڤ"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [54]
+    },
+    {
+      "id": "fiqh_b1_latihan_q6",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_tarawih",
+      "question_rumi": "Latihan 2: Tulis Betul atau Salah tentang pernyataan yang berikut. Pada bulan Ramadan, solat tarawih didirikan selepas solat isyak hingga menjelang fajar sadiq.",
+      "question_jawi": "لاتيهن 2: توليس بتول اتاو ساله تنتڠ ڤڽاتاءن يڠ برايكوت. ڤد بولن رمضان، صلاة تراويح دديريكن سلڤس صلاة عشاء هيڠݢ منجلڠ فجر صادق.",
+      "reference_answer_rumi": "Betul",
+      "reference_answer_jawi": "بتول",
+      "rubric": [
+        {"criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)", "marks": 1, "keywords": ["betul", "بتول"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [55]
+    },
+    {
+      "id": "fiqh_b1_latihan_q7",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_witir",
+      "question_rumi": "Latihan 2: Tulis Betul atau Salah tentang pernyataan yang berikut. Solat witir boleh didirikan sebanyak enam rakaat.",
+      "question_jawi": "لاتيهن 2: توليس بتول اتاو ساله تنتڠ ڤڽاتاءن يڠ برايكوت. صلاة وتر بوليه دديريكن سباڽق انم ركعة.",
+      "reference_answer_rumi": "Salah",
+      "reference_answer_jawi": "ساله",
+      "rubric": [
+        {"criterion": "Menjawab Salah (bilangan rakaat witir mengikut angka ganjil: 1, 3, 5, 7, 9 atau 11)", "marks": 1, "keywords": ["salah", "ساله"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [55]
+    },
+    {
+      "id": "fiqh_b1_latihan_q8",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_hari_raya",
+      "question_rumi": "Latihan 2: Tulis Betul atau Salah tentang pernyataan yang berikut. Solat sunat dua hari raya akan terbatal sekiranya imam tidak bertakbir sebanyak tujuh kali dalam rakaat yang pertama.",
+      "question_jawi": "لاتيهن 2: توليس بتول اتاو ساله تنتڠ ڤڽاتاءن يڠ برايكوت. صلاة سنة دوا هاري راي اكن تربطل سكيراڽ امام تيدق برتكبير سباڽق توجوه كالي دالم ركعة يڠ ڤرتام.",
+      "reference_answer_rumi": "Salah",
+      "reference_answer_jawi": "ساله",
+      "rubric": [
+        {"criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)", "marks": 1, "keywords": ["salah", "ساله"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [55]
+    },
+    {
+      "id": "fiqh_b1_latihan_q9",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_gerhana",
+      "question_rumi": "Latihan 2: Tulis Betul atau Salah tentang pernyataan yang berikut. Solat sunat gerhana didirikan kerana terjadinya gerhana matahari atau bulan.",
+      "question_jawi": "لاتيهن 2: توليس بتول اتاو ساله تنتڠ ڤڽاتاءن يڠ برايكوت. صلاة سنة ݢرهان دديريكن كران ترجاديڽ ݢرهان ماتاهاري اتاو بولن.",
+      "reference_answer_rumi": "Betul",
+      "reference_answer_jawi": "بتول",
+      "rubric": [
+        {"criterion": "Menjawab Betul", "marks": 1, "keywords": ["betul", "بتول"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [55]
+    },
+    {
+      "id": "fiqh_b1_latihan_q10",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_gerhana",
+      "question_rumi": "Latihan 2: Tulis Betul atau Salah tentang pernyataan yang berikut. Solat sunat gerhana wajib didirikan secara berjemaah.",
+      "question_jawi": "لاتيهن 2: توليس بتول اتاو ساله تنتڠ ڤڽاتاءن يڠ برايكوت. صلاة سنة ݢرهان واجب دديريكن سچارا برجماعه.",
+      "reference_answer_rumi": "Salah",
+      "reference_answer_jawi": "ساله",
+      "rubric": [
+        {"criterion": "Menjawab Salah (hukumnya sunat muakkad dan boleh didirikan secara berjemaah atau bersendirian)", "marks": 1, "keywords": ["salah", "ساله"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [55]
+    },
+    {
+      "id": "fiqh_b1_latihan_q11",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b1_solat_tahajud",
+      "question_rumi": "Latihan 2: Tulis Betul atau Salah tentang pernyataan yang berikut. Solat tahajud juga dikenali sebagai qiamullail.",
+      "question_jawi": "لاتيهن 2: توليس بتول اتاو ساله تنتڠ ڤڽاتاءن يڠ برايكوت. صلاة تهجد جوݢ دكنلي سباݢاي قيام الليل.",
+      "reference_answer_rumi": "Betul",
+      "reference_answer_jawi": "بتول",
+      "rubric": [
+        {"criterion": "Menjawab Betul", "marks": 1, "keywords": ["betul", "بتول"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [55]
+    }
+  ]
+}

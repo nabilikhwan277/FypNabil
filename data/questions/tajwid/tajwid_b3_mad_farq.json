@@ -1,0 +1,121 @@
+{
+  "topic_id": "tajwid_b3_mad_farq",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_farq_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Farq?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد فرق؟",
+      "reference_answer_rumi": "Enam harakat",
+      "reference_answer_jawi": "انم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan enam harakat", "marks": 1, "keywords": ["enam harakat", "6 harakat", "enam", "انم حركة", "انم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [34, 36]
+    },
+    {
+      "id": "tajwid_b3_mad_farq_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Mad Farq termasuk dalam bahagian mad apa?",
+      "question_jawi": "مد فرق ترماسوق دالم بهاݢين مد اڤ؟",
+      "reference_answer_rumi": "Mad Lazim Kalimi",
+      "reference_answer_jawi": "مد لازم كلمي",
+      "rubric": [
+        {"criterion": "Menyatakan Mad Lazim Kalimi", "marks": 1, "keywords": ["Lazim Kalimi", "لازم كلمي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [35]
+    },
+    {
+      "id": "tajwid_b3_mad_farq_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan kalimah Mad Farq dalam al-Quran dan di berapa tempat?",
+      "question_jawi": "براڤاكه بيلڠن كليمه مد فرق دالم القرءان دان د براڤ تمڤت؟",
+      "reference_answer_rumi": "Tiga kalimah dalam enam tempat",
+      "reference_answer_jawi": "تيݢ كليمه دالم انم تمڤت",
+      "rubric": [
+        {"criterion": "Tiga kalimah", "marks": 1, "keywords": ["tiga", "3", "تيݢ"]},
+        {"criterion": "Enam tempat", "marks": 1, "keywords": ["enam", "6", "انم"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [35]
+    },
+    {
+      "id": "tajwid_b3_mad_farq_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Farq?",
+      "question_jawi": "اڤاكه ارتي مد فرق؟",
+      "reference_answer_rumi": "Mad Farq ialah apabila selepas huruf hamzah qata' di permulaan kalimah terdapat hamzah wasal.",
+      "reference_answer_jawi": "مد فرق اياله اڤابيلا سلڤس حروف همزة قطع دڤرمولاءن كليمه ترداڤت همزة وصل.",
+      "rubric": [
+        {"criterion": "Menyebut hamzah qata'", "marks": 1, "keywords": ["hamzah qata'", "qata", "همزة قطع"]},
+        {"criterion": "Di permulaan kalimah", "marks": 1, "keywords": ["permulaan kalimah", "ڤرمولاءن كليمه"]},
+        {"criterion": "Diikuti hamzah wasal", "marks": 1, "keywords": ["hamzah wasal", "wasal", "همزة وصل"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [34, 36]
+    },
+    {
+      "id": "tajwid_b3_mad_farq_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Terangkan cara membaca Mad Farq dengan tashil.",
+      "question_jawi": "تراڠكن چارا ممباچ مد فرق دڠن تسهيل.",
+      "reference_answer_rumi": "Tashil iaitu membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama.",
+      "reference_answer_jawi": "تسهيل ياءيت ممبوپيكن همزة كدوا انتارا بوپي همزة دان اليف، تتاڤي باچاءن مد لبيه اوتام.",
+      "rubric": [
+        {"criterion": "Membunyikan hamzah kedua", "marks": 1, "keywords": ["hamzah kedua", "همزة كدوا"]},
+        {"criterion": "Antara bunyi hamzah dan alif", "marks": 1, "keywords": ["hamzah dan alif", "antara", "همزة دان اليف"]},
+        {"criterion": "Bacaan mad lebih utama", "marks": 1, "keywords": ["lebih utama", "لبيه اوتام"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [34, 36]
+    },
+    {
+      "id": "tajwid_b3_mad_farq_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan nama surah dan nombor ayat yang mengandungi hukum Mad Farq.",
+      "question_jawi": "سنارايكن نام سورة دان نومبور ايات يڠ مڠاندوڠي حكوم مد فرق.",
+      "reference_answer_rumi": "Surah Yunus ayat 59, 91 dan 51; Surah an-Naml ayat 59; Surah al-An'am ayat 143 dan 144.",
+      "reference_answer_jawi": "سورة يونس ايات 59، 91 دان 51؛ سورة النمل ايات 59؛ سورة الأنعام ايات 143 دان 144.",
+      "rubric": [
+        {"criterion": "Surah Yunus (59, 91, 51)", "marks": 2, "keywords": ["Yunus", "يونس", "59", "91", "51"]},
+        {"criterion": "Surah an-Naml 59", "marks": 1, "keywords": ["Naml", "النمل"]},
+        {"criterion": "Surah al-An'am 143 dan 144", "marks": 1, "keywords": ["An'am", "Anam", "الأنعام", "143", "144"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [35, 36]
+    },
+    {
+      "id": "tajwid_b3_mad_farq_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan Mad Farq meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن مد فرق ملیڤوتي ڤڠرتين، قدر حركة دان سبب دناماكن، سرتا بريكن ساتو چونتوه ايات القرءان بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "Mad Farq ialah apabila selepas huruf hamzah qata' di permulaan kalimah terdapat hamzah wasal. Kadarnya enam harakat. Dinamakan Mad Farq kerana untuk membezakan antara hamzah istifham di permulaan kalimah dengan hamzah khabar selepasnya. Contoh: قُلۡ ءَآللَّهُ أَذِنَ لَكُمۡۖ أَمۡ عَلَى ٱللَّهِ تَفۡتَرُونَ (Surah Yunus: 59).",
+      "reference_answer_jawi": "مد فرق اياله اڤابيلا سلڤس حروف همزة قطع دڤرمولاءن كليمه ترداڤت همزة وصل. قدرڽ انم حركة. دناماكن مد فرق كران اونتوق ممبيذاكن انتارا همزة إستفهام دڤرمولاءن كليمه دڠن همزة خبر سلڤسڽ. چونتوه: قُلۡ ءَآللَّهُ أَذِنَ لَكُمۡۖ أَمۡ عَلَى ٱللَّهِ تَفۡتَرُونَ (سورة يونس: 59).",
+      "rubric": [
+        {"criterion": "Pengertian: hamzah qata' di permulaan kalimah diikuti hamzah wasal", "marks": 2, "keywords": ["hamzah qata'", "hamzah wasal", "همزة قطع", "همزة وصل"]},
+        {"criterion": "Kadar enam harakat", "marks": 1, "keywords": ["enam", "6", "انم"]},
+        {"criterion": "Sebab: membezakan hamzah istifham dengan hamzah khabar", "marks": 1, "keywords": ["membezakan", "istifham", "khabar", "إستفهام", "خبر"]},
+        {"criterion": "Contoh ayat yang betul beserta surah dan ayat", "marks": 2, "keywords": ["ءَآللَّهُ", "ءَآلذَّكَرَيۡنِ", "ءَآلۡـَٰٔنَ", "Yunus", "يونس", "Naml", "النمل", "An'am", "الأنعام"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [34, 35]
+    }
+  ]
+}

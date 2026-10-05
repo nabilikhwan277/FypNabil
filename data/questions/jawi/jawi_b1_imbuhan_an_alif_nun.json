@@ -1,0 +1,136 @@
+{
+  "topic_id": "jawi_b1_imbuhan_an_alif_nun",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b1_imbuhan_an_alif_nun_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'paluan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'paluan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "paluan",
+      "reference_answer_jawi": "ڤالوان",
+      "rubric": [
+        {"criterion": "Mengeja 'paluan' dengan betul (ڤالوان)", "marks": 1, "keywords": ["ڤالوان"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [19]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_alif_nun_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'kesilauan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'kesilauan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "kesilauan",
+      "reference_answer_jawi": "كسيلاوان",
+      "rubric": [
+        {"criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)", "marks": 2, "keywords": ["كسيلاوان"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [19]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_alif_nun_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Jawikan perkataan bergaris: Antara 'tujuan' manusia diciptakan di muka bumi adalah untuk mengabdikan diri kepada Allah.",
+      "question_jawi": "جاويكن ڤركاتاءن برݢاريس: 'tujuan'.",
+      "reference_answer_rumi": "tujuan",
+      "reference_answer_jawi": "توجوان",
+      "rubric": [
+        {"criterion": "Mengeja 'tujuan' dengan betul (توجوان)", "marks": 1, "keywords": ["توجوان"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [18, 21]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_alif_nun_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'gurauan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'gurauan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "gurauan",
+      "reference_answer_jawi": "ݢوراوان",
+      "rubric": [
+        {"criterion": "Mengeja 'gurauan' dengan betul (ݢوراوان), menggunakan huruf ݢ", "marks": 1, "keywords": ["ݢوراوان"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [19]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_alif_nun_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Kenapakah ejaan 'deruan' menggunakan huruf '-ان' bagi imbuhan '-an'? Tuliskan ejaan Jawinya.",
+      "question_jawi": "كنڤاكه ايجاءن 'deruan' مڠݢوناكن حروف '-ان' باݢي ايمبوهن '-an'؟ توليسكن ايجاءن جاويڽ.",
+      "reference_answer_rumi": "Kerana kata dasar 'deru' diakhiri dengan huruf 'و' (vokal 'u' dalam suku kata terbuka). Akhiran '-an' pada kata dasar yang diakhiri dengan huruf 'و' termasuk bunyi diftong 'au' hendaklah dieja dengan huruf '-ان'. Ejaan: دروان.",
+      "reference_answer_jawi": "كران كات داسر 'deru' دأخيري دڠن حروف 'و'. اخيرن '-an' ڤد كات داسر يڠ دأخيري دڠن حروف 'و' ترماسوق بوڽي ديفتوڠ 'au' هندقله دأيجا دڠن حروف '-ان'. ايجاءن: دروان.",
+      "rubric": [
+        {"criterion": "Kata dasar diakhiri dengan huruf 'و'", "marks": 1, "keywords": ["huruf wau", "huruf و", "حروف 'و'", "berakhir dengan و"]},
+        {"criterion": "Menyatakan peraturan dieja dengan '-ان'", "marks": 1, "keywords": ["-ان", "alif nun", "ان"]},
+        {"criterion": "Mengeja دروان dengan betul", "marks": 1, "keywords": ["دروان"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [19]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_alif_nun_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Jawikan perkataan berikut: perguruan, laluan, kemajuan.",
+      "question_jawi": "جاويكن ڤركاتاءن برايكوت: perguruan, laluan, kemajuan.",
+      "reference_answer_rumi": "perguruan, laluan, kemajuan",
+      "reference_answer_jawi": "ڤرݢوروان، لالوان، كماجوان",
+      "rubric": [
+        {"criterion": "perguruan: ڤرݢوروان", "marks": 1, "keywords": ["ڤرݢوروان"]},
+        {"criterion": "laluan: لالوان", "marks": 1, "keywords": ["لالوان"]},
+        {"criterion": "kemajuan: كماجوان", "marks": 1, "keywords": ["كماجوان"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [10, 18, 19]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_alif_nun_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan peraturan ejaan imbuhan '-an' dengan huruf '-ان'. Nyatakan ciri kata dasar yang terlibat (vokal dan diftong) dan tuliskan satu ayat contoh dari buku dalam tulisan Jawi yang mengandungi kata berimbuhan '-ان'.",
+      "question_jawi": "تراڠكن ڤراتورن ايجاءن ايمبوهن '-an' دڠن حروف '-ان'. ڽاتاكن چيري كات داسر يڠ ترليبت دان توليسكن ساتو ايات چونتوه دالم توليسن جاوي يڠ مڠاندوڠي كات برايمبوهن '-ان'.",
+      "reference_answer_rumi": "Akhiran '-an' pada kata dasar yang diakhiri dengan huruf 'و' termasuk bunyi diftong 'au' dieja dengan '-ان'. Kata dasar ini terdiri daripada suku kata terbuka yang menggunakan vokal 'u' atau 'o' dan diftong 'au'. Contoh ayat: Gurauan bersama rakan hendaklah berpada-pada dan tidak melampaui batas.",
+      "reference_answer_jawi": "اخيرن '-an' ڤد كات داسر يڠ دأخيري دڠن حروف 'و' ترماسوق بوڽي ديفتوڠ 'au' هندقله دأيجا دڠن حروف '-ان'. كات داسر اين ترديري درڤد سوكو كات تربوك يڠ مڠݢوناكن ۏوكل 'u' اتاو 'o' دان ديفتوڠ 'au'. چونتوه: ݢوراوان برسام راكن هندقله برڤادا-ڤادا دان تيدق ملمڤاوءي باتس.",
+      "rubric": [
+        {"criterion": "Kata dasar diakhiri dengan huruf 'و'", "marks": 1, "keywords": ["huruf و", "حروف 'و'", "wau"]},
+        {"criterion": "Termasuk bunyi diftong 'au'", "marks": 1, "keywords": ["diftong au", "ديفتوڠ 'au'"]},
+        {"criterion": "Dieja dengan '-ان'", "marks": 1, "keywords": ["-ان", "ان"]},
+        {"criterion": "Suku kata terbuka dengan vokal 'u' atau 'o'", "marks": 1, "keywords": ["suku kata terbuka", "vokal u", "vokal o", "سوكو كات تربوك"]},
+        {"criterion": "Ayat contoh mengandungi kata '-ان' yang dieja betul (cth. ڤالوان, دروان, ڤرݢوروان, كسيلاوان, ݢوراوان)", "marks": 2, "keywords": ["ڤالوان", "دروان", "ڤرݢوروان", "كسيلاوان", "ݢوراوان"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [19, 22]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_alif_nun_q8",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Murid menyenaraikan kata dasar yang berakhir dengan bunyi vokal 'u' kemudian meletakkan imbuhan '-an' yang sesuai. Berikan dua contoh dalam tulisan Jawi.",
+      "question_jawi": "موريد مڽنارايكن كات داسر يڠ براخير دڠن بوڽي ۏوكل 'u' كمودين ملتقكن ايمبوهن '-an' يڠ سسواي.",
+      "reference_answer_rumi": "Contoh: palu -> paluan; deru -> deruan (atau guru -> perguruan, tuju -> tujuan)",
+      "reference_answer_jawi": "ڤالو -> ڤالوان؛ درو -> دروان",
+      "rubric": [
+        {"criterion": "Contoh pertama kata '-ان' dieja betul", "marks": 1, "keywords": ["ڤالوان", "دروان", "ڤرݢوروان", "توجوان", "لالوان", "كماجوان"]},
+        {"criterion": "Contoh kedua kata '-ان' dieja betul", "marks": 1, "keywords": ["ڤالوان", "دروان", "ڤرݢوروان", "توجوان", "لالوان", "كماجوان"]},
+        {"criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)", "marks": 1, "keywords": ["و", "vokal u"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [20]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "topic_id": "fiqh_b1_solat_gerhana",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_gerhana_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah hukum solat gerhana matahari dan bulan?",
+      "question_jawi": "اڤاكه حكوم صلاة ݢرهان ماتاهاري دان بولن؟",
+      "reference_answer_rumi": "Sunat muakkad (sunat yang dituntut)",
+      "reference_answer_jawi": "سنة مُؤَكَّد (سنة يڠ دتونتوت)",
+      "rubric": [
+        {"criterion": "Menyatakan sunat muakkad", "marks": 1, "keywords": ["sunat muakkad", "muakkad", "dituntut", "سنة مؤكد", "مُؤَكَّد", "دتونتوت"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [49]
+    },
+    {
+      "id": "fiqh_b1_solat_gerhana_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud solat khusuf dan solat kusuf?",
+      "question_jawi": "اڤاكه مقصود صلاة خسوف دان صلاة كسوف؟",
+      "reference_answer_rumi": "Solat khusuf ialah solat gerhana bulan; solat kusuf ialah solat gerhana matahari.",
+      "reference_answer_jawi": "صلاة خُسُوف اياله صلاة ݢرهان بولن؛ صلاة كُسُوف اياله صلاة ݢرهان ماتاهاري.",
+      "rubric": [
+        {"criterion": "Khusuf = gerhana bulan", "marks": 1, "keywords": ["khusuf gerhana bulan", "gerhana bulan", "ݢرهان بولن"]},
+        {"criterion": "Kusuf = gerhana matahari", "marks": 1, "keywords": ["kusuf gerhana matahari", "gerhana matahari", "ݢرهان ماتاهاري"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [49]
+    },
+    {
+      "id": "fiqh_b1_solat_gerhana_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah lafaz seruan bagi solat gerhana sebagai ganti azan dan iqamah?",
+      "question_jawi": "اڤاكه لفظ سروان باݢي صلاة ݢرهان سباݢاي ݢنتي اذان دان إقامة؟",
+      "reference_answer_rumi": "ٱلصَّلَاةُ جَامِعَةٌ",
+      "reference_answer_jawi": "ٱلصَّلَاةُ جَامِعَةٌ",
+      "rubric": [
+        {"criterion": "Menyatakan as-solatu jami'ah", "marks": 1, "keywords": ["ٱلصَّلَاةُ جَامِعَةٌ", "الصلاة جامعة", "as-solatu jami'ah", "assolatu jamiah", "jamiah"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [50]
+    },
+    {
+      "id": "fiqh_b1_solat_gerhana_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah solat gerhana berakhir?",
+      "question_jawi": "بيلاكه صلاة ݢرهان براخير؟",
+      "reference_answer_rumi": "Apabila telah tamatnya gerhana matahari atau bulan",
+      "reference_answer_jawi": "اڤابيلا تله تمتڽ ݢرهان ماتاهاري اتاو بولن",
+      "rubric": [
+        {"criterion": "Menyatakan apabila gerhana tamat", "marks": 1, "keywords": ["tamat gerhana", "gerhana tamat", "tamatnya", "تمتڽ ݢرهان", "تمت"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [53]
+    },
+    {
+      "id": "fiqh_b1_solat_gerhana_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat solat gerhana matahari dan bulan.",
+      "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة ݢرهان ماتاهاري دان بولن.",
+      "reference_answer_rumi": "1. Menginsafi kekuasaan Allah SWT terhadap penciptaan alam. 2. Memohon keampunan daripada Allah SWT. 3. Memberikan pengajaran kepada manusia supaya tidak melakukan kemungkaran. 4. Mendapat ganjaran pahala.",
+      "reference_answer_jawi": "1. مڠينصافي ككواساءن الله ﷻ ترهادڤ ڤنچيڤتاءن عالم. 2. مموهون كأمڤونن درڤد الله ﷻ. 3. ممبريكن ڤڠاجرن كڤد مأنسي سوڤاي تيدق ملاكوكن كموڠكرن. 4. منداڤت ݢنجرن ڤهالا.",
+      "rubric": [
+        {"criterion": "Mana-mana fadhilat pertama yang betul", "marks": 1, "keywords": ["menginsafi kekuasaan Allah", "penciptaan alam", "مڠينصافي", "ڤنچيڤتاءن عالم"]},
+        {"criterion": "Mana-mana fadhilat kedua yang betul", "marks": 1, "keywords": ["memohon keampunan", "keampunan", "كأمڤونن"]},
+        {"criterion": "Mana-mana fadhilat ketiga yang betul", "marks": 1, "keywords": ["pengajaran", "kemungkaran", "ganjaran pahala", "ڤڠاجرن", "كموڠكرن", "ڤهالا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [51]
+    },
+    {
+      "id": "fiqh_b1_solat_gerhana_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Senaraikan amalan anggota badan dan tiga amalan lisan yang dilakukan semasa gerhana.",
+      "question_jawi": "سناراي كن عملن اڠݢوتا بادن دان تيݢ عملن ليسن يڠ دلاكوكن سماس ݢرهان.",
+      "reference_answer_rumi": "Amalan anggota badan: solat gerhana, memerdekakan hamba, sedekah. Amalan lisan: istighfar, memperbanyak zikir, tahlil, takbir, tasbih, doa.",
+      "reference_answer_jawi": "عملن اڠݢوتا بادن: صلاة ݢرهان، ممرديكاكن همبا، صدقه. عملن ليسن: استغفار، ممڤربڽق ذيكير، تهليل، تكبير، تسبيح، دعاء.",
+      "rubric": [
+        {"criterion": "Amalan anggota badan: solat gerhana, memerdekakan hamba, sedekah (sekurang-kurangnya dua)", "marks": 2, "keywords": ["solat gerhana", "memerdekakan hamba", "sedekah", "صلاة ݢرهان", "ممرديكاكن همبا", "صدقه"]},
+        {"criterion": "Tiga amalan lisan", "marks": 2, "keywords": ["istighfar", "zikir", "tahlil", "takbir", "tasbih", "doa", "استغفار", "ذيكير", "تهليل", "تكبير", "تسبيح", "دعاء"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [53]
+    },
+    {
+      "id": "fiqh_b1_solat_gerhana_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Pada suatu malam berlaku gerhana bulan. Terangkan solat yang disunatkan pada ketika itu dari segi pengertian, lafaz niat, dan cara pelaksanaan rakaat pertamanya yang membezakannya daripada solat sunat biasa.",
+      "question_jawi": "ڤد سواتو مالم برلاكو ݢرهان بولن. ترڠكن صلاة يڠ دسنتكن ڤد كتيك ايت دري سݢي ڤڠرتين، لفظ نية، دان چارا ڤلقساناءن ركعة ڤرتامڽ يڠ ممبيذاكنڽ درڤد صلاة سنة بياسا.",
+      "reference_answer_rumi": "Solat gerhana bulan (khusuf) ialah solat yang didirikan kerana terjadinya gerhana, sebanyak dua rakaat dengan empat rukuk dan empat sujud, secara berjemaah atau bersendirian. Niat: أُصَلِّي سُنَّةَ ٱلْخُسُوفِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Rakaat pertama: niat ketika takbiratul ihram, doa iftitah, al-Fatihah, surah yang panjang seperti al-Baqarah, rukuk pertama yang lama, iktidal, membaca al-Fatihah dan surah panjang sekali lagi, rukuk kedua yang lama, iktidal, sujud pertama yang lama, duduk antara dua sujud, sujud kedua yang lama.",
+      "reference_answer_jawi": "صلاة ݢرهان بولن (خسوف) اياله صلاة يڠ دديريكن كران ترجاديڽ ݢرهان، سباڽق دوا ركعة دڠن امڤت ركوع دان امڤت سجود، سچارا برجماعه اتاو برسأورڠن. نية: أُصَلِّي سُنَّةَ ٱلْخُسُوفِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. ركعة ڤرتام: نية كتيك تكبيرة الإحرام، دعاء افتتاح، الفاتحة، سورة يڠ ڤنجڠ سڤرتي البقرة، ركوع ڤرتام يڠ لام، اعتدال، ممباچ الفاتحة دان سورة ڤنجڠ سكالي لاݢي، ركوع كدوا يڠ لام، اعتدال، سجود ڤرتام يڠ لام، دودوق انتارا دوا سجود، سجود كدوا يڠ لام.",
+      "rubric": [
+        {"criterion": "Mengenal pasti solat gerhana bulan / khusuf", "marks": 1, "keywords": ["gerhana bulan", "khusuf", "ݢرهان بولن", "خسوف"]},
+        {"criterion": "Pengertian: dua rakaat dengan empat rukuk dan empat sujud", "marks": 1, "keywords": ["empat rukuk", "empat sujud", "امڤت ركوع", "امڤت سجود"]},
+        {"criterion": "Lafaz niat solat gerhana bulan", "marks": 1, "keywords": ["ٱلْخُسُوفِ", "الخسوف", "أُصَلِّي"]},
+        {"criterion": "Membaca surah panjang seperti al-Baqarah", "marks": 1, "keywords": ["surah yang panjang", "al-Baqarah", "البقرة", "ڤنجڠ"]},
+        {"criterion": "Dua kali rukuk dalam satu rakaat dengan al-Fatihah semula selepas iktidal", "marks": 1, "keywords": ["rukuk kedua", "dua rukuk", "ركوع كدوا"]},
+        {"criterion": "Rukuk dan sujud dalam tempoh yang lama", "marks": 1, "keywords": ["tempoh yang lama", "lama", "تيمڤوه يڠ لام"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [49, 50, 52]
+    }
+  ]
+}

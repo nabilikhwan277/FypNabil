@@ -1,0 +1,104 @@
+{
+  "topic_id": "fiqh_b1_solat_tarawih",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_tarawih_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Pada bulan apakah solat tarawih didirikan?",
+      "question_jawi": "ڤد بولن اڤاكه صلاة تراويح دديريكن؟",
+      "reference_answer_rumi": "Bulan Ramadan",
+      "reference_answer_jawi": "بولن رمضان",
+      "rubric": [
+        {"criterion": "Menyatakan bulan Ramadan", "marks": 1, "keywords": ["Ramadan", "Ramadhan", "رمضان"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [37]
+    },
+    {
+      "id": "fiqh_b1_solat_tarawih_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan jumlah rakaat solat tarawih.",
+      "question_jawi": "ڽاتاكن جومله ركعة صلاة تراويح.",
+      "reference_answer_rumi": "Lapan rakaat atau 20 rakaat",
+      "reference_answer_jawi": "لاڤن ركعة اتاو 20 ركعة",
+      "rubric": [
+        {"criterion": "Menyatakan lapan rakaat", "marks": 1, "keywords": ["lapan", "8", "لاڤن"]},
+        {"criterion": "Menyatakan 20 rakaat", "marks": 1, "keywords": ["20", "dua puluh", "دوا ڤولوه"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [37]
+    },
+    {
+      "id": "fiqh_b1_solat_tarawih_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah waktu solat tarawih didirikan?",
+      "question_jawi": "بيلاكه وقتو صلاة تراويح دديريكن؟",
+      "reference_answer_rumi": "Selepas solat isyak hingga terbit fajar sadiq (waktu subuh)",
+      "reference_answer_jawi": "سلڤس صلاة عشاء هيڠݢ تربيت فجر صادق (وقتو صبح)",
+      "rubric": [
+        {"criterion": "Selepas solat isyak", "marks": 1, "keywords": ["selepas isyak", "isyak", "عشاء"]},
+        {"criterion": "Hingga terbit fajar sadiq / subuh", "marks": 1, "keywords": ["fajar sadiq", "subuh", "فجر صادق", "صبح"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [37]
+    },
+    {
+      "id": "fiqh_b1_solat_tarawih_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat solat tarawih.",
+      "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة تراويح.",
+      "reference_answer_rumi": "1. Meningkatkan kualiti ibadah. 2. Mendapat kebaikan di dunia dan di akhirat. 3. Diampunkan dosa yang lalu.",
+      "reference_answer_jawi": "1. منيڠكتكن كواليتي عبادة. 2. منداڤت كباءيقن ددنيا دان دأخرة. 3. دأمڤونكن دوسا يڠ لالو.",
+      "rubric": [
+        {"criterion": "Meningkatkan kualiti ibadah", "marks": 1, "keywords": ["kualiti ibadah", "كواليتي عبادة"]},
+        {"criterion": "Kebaikan di dunia dan akhirat", "marks": 1, "keywords": ["kebaikan", "كباءيقن"]},
+        {"criterion": "Diampunkan dosa yang lalu", "marks": 1, "keywords": ["diampunkan dosa", "dosa yang lalu", "دأمڤونكن دوسا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [38]
+    },
+    {
+      "id": "fiqh_b1_solat_tarawih_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Tuliskan lafaz niat solat tarawih dan nyatakan maksudnya.",
+      "question_jawi": "توليسكن لفظ نية صلاة تراويح دان ڽاتاكن مقصودڽ.",
+      "reference_answer_rumi": "أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat tarawih dua rakaat kerana Allah Taala.",
+      "reference_answer_jawi": "أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة تراويح دوا ركعة كران الله تعالى.",
+      "rubric": [
+        {"criterion": "Lafaz niat yang betul", "marks": 2, "keywords": ["أُصَلِّي", "ٱلتَّرَاوِيحِ", "التراويح", "رَكْعَتَيْنِ"]},
+        {"criterion": "Maksud niat", "marks": 1, "keywords": ["sahaja aku solat sunat tarawih", "سهاج اكو صلاة سنة تراويح"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [37]
+    },
+    {
+      "id": "fiqh_b1_solat_tarawih_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Ali selalu balik ke rumah sebelum imam selesai solat tarawih di masjid. Berdasarkan hadis riwayat al-Tirmizi, terangkan kelebihan yang Ali akan terlepas dan nasihatkan dia tentang dua fadhilat lain solat tarawih.",
+      "question_jawi": "علي سلالو باليق كرومه سبلوم امام سلساي صلاة تراويح دمسجد. برداسركن حديث رواية الترمذي، ترڠكن كلبيهن يڠ علي اكن ترلڤس دان نصيحتكن دي تنتڠ دوا فضيلة لاءين صلاة تراويح.",
+      "reference_answer_rumi": "Hadis: مَنْ قَامَ مَعَ الْإِمَامِ حَتَّى يَنْصَرِفَ كُتِبَ لَهُ قِيَامُ لَيْلَةٍ – sesiapa yang bersolat tarawih bersama imam sehingga imam selesai, dituliskan baginya ganjaran orang yang qiam semalaman (seumpama bersolat sepanjang malam). Ali perlu solat bersama imam hingga selesai. Fadhilat lain: meningkatkan kualiti ibadah; mendapat kebaikan di dunia dan akhirat; diampunkan dosa yang lalu.",
+      "reference_answer_jawi": "حديث: مَنْ قَامَ مَعَ الْإِمَامِ حَتَّى يَنْصَرِفَ كُتِبَ لَهُ قِيَامُ لَيْلَةٍ – سسياڤ يڠ برصلاة تراويح برسام امام سهيڠݢ امام سلساي، دتوليسكن باݢيڽ ݢنجرن اورڠ يڠ قيام سمالمن. فضيلة لاءين: منيڠكتكن كواليتي عبادة؛ منداڤت كباءيقن ددنيا دان دأخرة؛ دأمڤونكن دوسا يڠ لالو.",
+      "rubric": [
+        {"criterion": "Menyatakan solat bersama imam hingga imam selesai", "marks": 1, "keywords": ["bersama imam", "sehingga imam selesai", "برسام امام", "سلساي"]},
+        {"criterion": "Ganjaran qiam semalaman / bersolat sepanjang malam", "marks": 2, "keywords": ["qiam semalaman", "sepanjang malam", "قيام سمالمن", "سڤنجڠ مالم"]},
+        {"criterion": "Menasihati Ali menunggu hingga selesai", "marks": 1, "keywords": ["tunggu", "hingga selesai", "سلساي"]},
+        {"criterion": "Dua fadhilat lain", "marks": 2, "keywords": ["kualiti ibadah", "kebaikan di dunia dan akhirat", "diampunkan dosa", "كواليتي عبادة", "دأمڤونكن دوسا"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [38]
+    }
+  ]
+}

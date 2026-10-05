@@ -1,0 +1,185 @@
+{
+  "topic_id": "jawi_b4_akronim_inggeris",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b4_akronim_inggeris_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'MIC' (Malaysian Indian Congress) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'MIC' دالم توليسن جاوي.",
+      "reference_answer_rumi": "MIC",
+      "reference_answer_jawi": "عيم.اءي.سي",
+      "rubric": [
+        {"criterion": "Menulis عيم.اءي.سي dengan betul", "marks": 1, "keywords": ["عيم.اءي.سي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [75]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'KLCC' (Kuala Lumpur Convention Centre) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'KLCC' دالم توليسن جاوي.",
+      "reference_answer_rumi": "KLCC",
+      "reference_answer_jawi": "كي.ايل.سي.سي",
+      "rubric": [
+        {"criterion": "Menulis nama huruf كي dan ايل dengan betul", "marks": 1, "keywords": ["كي", "ايل"]},
+        {"criterion": "Menulis كي.ايل.سي.سي lengkap dengan noktah", "marks": 1, "keywords": ["كي.ايل.سي.سي"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [75]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'VIP' (Very Important Person) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'VIP' دالم توليسن جاوي.",
+      "reference_answer_rumi": "VIP",
+      "reference_answer_jawi": "ۏي.اءي.ڤي",
+      "rubric": [
+        {"criterion": "Menulis ۏي.اءي.ڤي dengan huruf ۏ dan ڤ yang betul", "marks": 2, "keywords": ["ۏي.اءي.ڤي"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [75]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'USA' (United States of America) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'USA' دالم توليسن جاوي.",
+      "reference_answer_rumi": "USA",
+      "reference_answer_jawi": "يو.ايس.أي",
+      "rubric": [
+        {"criterion": "Menulis يو.ايس.أي dengan betul", "marks": 1, "keywords": ["يو.ايس.أي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [75]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah nama huruf Rumi 'm' dalam tulisan Jawi?",
+      "question_jawi": "اڤاكه نام حروف رومي 'm' دالم توليسن جاوي؟",
+      "reference_answer_rumi": "em",
+      "reference_answer_jawi": "عيم",
+      "rubric": [
+        {"criterion": "Menulis عيم", "marks": 1, "keywords": ["عيم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [74]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan peraturan mengeja akronim bahasa Inggeris dalam tulisan Jawi dan tulis akronim Jawi bagi 'CIMB'.",
+      "question_jawi": "ڽاتاكن ڤراتورن مڠيجا اكرونيم بهاس ايڠݢريس دالم توليسن جاوي دان توليس اكرونيم جاوي باݢي 'CIMB'.",
+      "reference_answer_rumi": "Dieja dengan menulis nama huruf satu persatu dan diletakkan tanda noktah selepas setiap huruf. CIMB = سي.اءي.عيم.بي.",
+      "reference_answer_jawi": "دأيجا دڠن منوليس نام حروف ساتو ڤرساتو دان دلتقكن تندا نقطه سلڤس ستياڤ حروف ترسبوت. سي.اءي.عيم.بي.",
+      "rubric": [
+        {"criterion": "Menulis nama huruf satu persatu", "marks": 1, "keywords": ["nama huruf", "satu persatu", "نام حروف", "ساتو ڤرساتو"]},
+        {"criterion": "Tanda noktah selepas setiap huruf", "marks": 1, "keywords": ["noktah", "نقطه"]},
+        {"criterion": "CIMB: سي.اءي.عيم.بي", "marks": 1, "keywords": ["سي.اءي.عيم.بي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [74, 75]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim Jawi bagi 'MCA', 'PLO' dan 'OUM'.",
+      "question_jawi": "توليس اكرونيم جاوي باݢي 'MCA'، 'PLO' دان 'OUM'.",
+      "reference_answer_rumi": "MCA, PLO, OUM",
+      "reference_answer_jawi": "عيم.سي.أي، ڤي.ايل.او، او.يو.عيم",
+      "rubric": [
+        {"criterion": "MCA: عيم.سي.أي", "marks": 1, "keywords": ["عيم.سي.أي"]},
+        {"criterion": "PLO: ڤي.ايل.او", "marks": 1, "keywords": ["ڤي.ايل.او"]},
+        {"criterion": "OUM: او.يو.عيم", "marks": 1, "keywords": ["او.يو.عيم"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [75]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Cara penulisan akronim bahasa Melayu dan bahasa Inggeris berbeza. Huraikan perbezaan ini dengan menyatakan peraturan akronim bahasa Inggeris, dan tulis akronim Jawi bagi 'KLCC' dan 'USA' sebagai contoh.",
+      "question_jawi": "چارا ڤنوليسن اكرونيم بهاس ملايو دان بهاس ايڠݢريس بربيذا. هورايكن ڤربيذاءن اين دڠن مڽاتاكن ڤراتورن اكرونيم بهاس ايڠݢريس، دان توليس اكرونيم جاوي باݢي 'KLCC' دان 'USA' سباݢاي چونتوه.",
+      "reference_answer_rumi": "Akronim bahasa Melayu ditulis dengan huruf abjad Jawi dan noktah (cth. د.ب.ڤ), manakala akronim bahasa Inggeris dieja dengan menulis nama huruf Rumi satu persatu dan tanda noktah selepas setiap huruf. KLCC = كي.ايل.سي.سي; USA = يو.ايس.أي.",
+      "reference_answer_jawi": "چارا ڤنوليسن اكرونيم بهاس ملايو دان بهاس ايڠݢريس بربيذا. اكرونيم بهاس ايڠݢريس دأيجا دڠن منوليس نام حروف ساتو ڤرساتو دان دلتقكن تندا نقطه سلڤس ستياڤ حروف. كي.ايل.سي.سي؛ يو.ايس.أي.",
+      "rubric": [
+        {"criterion": "Menyatakan cara penulisan kedua-dua bahasa berbeza", "marks": 1, "keywords": ["berbeza", "بربيذا"]},
+        {"criterion": "Bahasa Inggeris: menulis nama huruf satu persatu", "marks": 1, "keywords": ["nama huruf", "satu persatu", "نام حروف"]},
+        {"criterion": "Tanda noktah selepas setiap huruf", "marks": 1, "keywords": ["noktah", "نقطه"]},
+        {"criterion": "Menyebut bahasa Melayu menggunakan huruf abjad Jawi", "marks": 1, "keywords": ["abjad Jawi", "ابجد جاوي"]},
+        {"criterion": "KLCC: كي.ايل.سي.سي", "marks": 1, "keywords": ["كي.ايل.سي.سي"]},
+        {"criterion": "USA: يو.ايس.أي", "marks": 1, "keywords": ["يو.ايس.أي"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [74, 75, 76]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q9",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Jawikan akronim: Information and Communication Technology (ICT).",
+      "question_jawi": "جاويكن اكرونيم: Information and Communication Technology (ICT).",
+      "reference_answer_rumi": "ICT",
+      "reference_answer_jawi": "اءي.سي.تي",
+      "rubric": [
+        {"criterion": "Menulis اءي.سي.تي (seperti dicetak dalam aktiviti iii)", "marks": 1, "keywords": ["اءي.سي.تي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [75, 76]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q10",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Jawikan akronim: Short Message Service (SMS), Closed Circuit Television (CCTV), Light Rapid Transit (LRT).",
+      "question_jawi": "جاويكن اكرونيم: SMS، CCTV، LRT.",
+      "reference_answer_rumi": "SMS, CCTV, LRT (jawapan tidak dicetak; mengikut panduan nama huruf Rumi)",
+      "reference_answer_jawi": "ايس.عيم.ايس، سي.سي.تي.ۏي، ايل.ار.تي",
+      "rubric": [
+        {"criterion": "SMS: ايس.عيم.ايس (diterbitkan daripada panduan nama huruf)", "marks": 1, "keywords": ["ايس.عيم.ايس"]},
+        {"criterion": "CCTV: سي.سي.تي.ۏي (diterbitkan daripada panduan nama huruf)", "marks": 1, "keywords": ["سي.سي.تي.ۏي"]},
+        {"criterion": "LRT: ايل.ار.تي (diterbitkan daripada panduan nama huruf)", "marks": 1, "keywords": ["ايل.ار.تي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [74, 75]
+    },
+    {
+      "id": "jawi_b4_akronim_inggeris_q11",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Isi tempat kosong dengan pilihan (ڤمنتاون، كونۏوكيشن، ڤڠاجرن، ديوان، ڤروفيسور): (a) ____ دوكتور ادي فرحان مروڤاكن ڤنشرح بهاس ملايو دأونيۏرسيتي ملايا. (b) مجليس ____ ابڠ ساي دأداكن دكي.ايل.سي.سي. (c) كراجاءن نݢري سلاڠور سريڠ ممبوات ڤروجيك٢ ____ اءي.سي.تي.",
+      "question_jawi": "ايسي تمڤت كوسوڠ.",
+      "reference_answer_rumi": "(a) Profesor (b) konvokesyen (c) pemantauan",
+      "reference_answer_jawi": "(a) ڤروفيسور (b) كونۏوكيشن (c) ڤمنتاون",
+      "rubric": [
+        {"criterion": "(a) ڤروفيسور", "marks": 1, "keywords": ["ڤروفيسور"]},
+        {"criterion": "(b) كونۏوكيشن", "marks": 1, "keywords": ["كونۏوكيشن"]},
+        {"criterion": "(c) ڤمنتاون", "marks": 1, "keywords": ["ڤمنتاون"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [76]
+    }
+  ]
+}

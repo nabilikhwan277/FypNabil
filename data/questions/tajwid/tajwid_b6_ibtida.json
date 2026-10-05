@@ -1,0 +1,122 @@
+{
+  "topic_id": "tajwid_b6_ibtida",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b6_ibtida_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Apakah maksud Ibtida'?",
+      "question_jawi": "اڤاكه مقصود إبتداء؟",
+      "reference_answer_rumi": "Ibtida' ialah memulakan bacaan atau menyambung bacaan setelah waqaf.",
+      "reference_answer_jawi": "إبتداء اياله ممولاكن باچاءن اتاو مڽامبوڠ باچاءن ستله وقف.",
+      "rubric": [
+        {"criterion": "Memulakan atau menyambung bacaan", "marks": 1, "keywords": ["memulakan bacaan", "menyambung bacaan", "ممولاكن باچاءن", "مڽامبوڠ باچاءن"]},
+        {"criterion": "Setelah waqaf", "marks": 1, "keywords": ["setelah waqaf", "selepas waqaf", "ستله وقف"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [70, 72]
+    },
+    {
+      "id": "tajwid_b6_ibtida_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Surah manakah yang tidak dibaca basmalah apabila memulakan bacaan pada awal surah?",
+      "question_jawi": "سورة مناكه يڠ تيدق دباچ بسمله اڤابيلا ممولاكن باچاءن ڤد اول سورة؟",
+      "reference_answer_rumi": "Surah at-Taubah (Bara'ah)",
+      "reference_answer_jawi": "سورة التوبة (براءة)",
+      "rubric": [
+        {"criterion": "Menyatakan Surah at-Taubah / Bara'ah", "marks": 1, "keywords": ["at-Taubah", "Taubah", "Bara'ah", "Baraah", "التوبة", "براءة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [72]
+    },
+    {
+      "id": "tajwid_b6_ibtida_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah yang perlu dibaca apabila memulakan bacaan pada pertengahan surah atau ayat?",
+      "question_jawi": "اڤاكه يڠ ڤرلو دباچ اڤابيلا ممولاكن باچاءن ڤد ڤرتڠهن سورة اتاو ايات؟",
+      "reference_answer_rumi": "Isti'azah",
+      "reference_answer_jawi": "استعاذة",
+      "rubric": [
+        {"criterion": "Menyatakan isti'azah", "marks": 1, "keywords": ["isti'azah", "istiazah", "isti'adzah", "استعاذة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [72]
+    },
+    {
+      "id": "tajwid_b6_ibtida_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan bahagian Ibtida'.",
+      "question_jawi": "سنارايكن بهاڬين إبتداء.",
+      "reference_answer_rumi": "Ibtida' Jaiz, Ibtida' Qabih dan Ibtida' Aqbah.",
+      "reference_answer_jawi": "إِبْتِدَاء جَائِزْ، إِبْتِدَاء قَبِيح دان إِبْتِدَاء أَقْبَح.",
+      "rubric": [
+        {"criterion": "Ibtida' Jaiz", "marks": 1, "keywords": ["Jaiz", "جائز", "جَائِزْ"]},
+        {"criterion": "Ibtida' Qabih", "marks": 1, "keywords": ["Qabih", "قبيح", "قَبِيح"]},
+        {"criterion": "Ibtida' Aqbah", "marks": 1, "keywords": ["Aqbah", "أقبح", "أَقْبَح"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [70, 72]
+    },
+    {
+      "id": "tajwid_b6_ibtida_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah maksud Ibtida' Qabih?",
+      "question_jawi": "اڤاكه مقصود إبتداء قبيح؟",
+      "reference_answer_rumi": "Memulakan atau menyambung bacaan pada suatu tempat yang boleh menghilangkan maksud atau mengubah atau merosakkan makna.",
+      "reference_answer_jawi": "ممولاكن اتاو مڽامبوڠ باچاءن ڤد سواتو تمڤت يڠ بوليه مڠهيلڠكن مقصود اتاو مڠوبه اتاو مروسقكن معنا.",
+      "rubric": [
+        {"criterion": "Memulakan atau menyambung bacaan pada suatu tempat", "marks": 1, "keywords": ["memulakan", "menyambung", "ممولاكن", "مڽامبوڠ"]},
+        {"criterion": "Menghilangkan maksud", "marks": 1, "keywords": ["menghilangkan maksud", "مڠهيلڠكن مقصود"]},
+        {"criterion": "Mengubah atau merosakkan makna", "marks": 1, "keywords": ["mengubah", "merosakkan makna", "مڠوبه", "مروسقكن معنا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [71, 72]
+    },
+    {
+      "id": "tajwid_b6_ibtida_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan maksud Ibtida' Jaiz dan berikan contohnya.",
+      "question_jawi": "توليسكن مقصود إبتداء جائز دان بريكن چونتوهڽ.",
+      "reference_answer_rumi": "Memulakan atau menyambung ayat yang berasingan dan difahami maknanya. Contoh: فَإِن لَّمۡ تَفۡعَلُواْ وَلَن تَفۡعَلُواْ ... kemudian memulakan dengan ayat seterusnya فَٱتَّقُواْ ٱلنَّارَ ٱلَّتِي وَقُودُهَا ٱلنَّاسُ وَٱلۡحِجَارَةُۖ أُعِدَّتۡ لِلۡكَٰفِرِينَ (Surah al-Baqarah: 24).",
+      "reference_answer_jawi": "ممولاكن اتاو مڽامبوڠ ايات يڠ براسيڠن دان دفهمي معناڽ. چونتوه: فَإِن لَّمۡ تَفۡعَلُواْ وَلَن تَفۡعَلُواْ ... كمودين ممولاكن دڠن ايات ستروسڽ فَٱتَّقُواْ ٱلنَّارَ ٱلَّتِي وَقُودُهَا ٱلنَّاسُ وَٱلۡحِجَارَةُۖ أُعِدَّتۡ لِلۡكَٰفِرِينَ (سورة البقرة: 24).",
+      "rubric": [
+        {"criterion": "Ayat yang berasingan", "marks": 1, "keywords": ["berasingan", "براسيڠن"]},
+        {"criterion": "Difahami maknanya", "marks": 1, "keywords": ["difahami maknanya", "difahami", "دفهمي معناڽ"]},
+        {"criterion": "Contoh Surah al-Baqarah: 24", "marks": 2, "keywords": ["فَٱتَّقُواْ ٱلنَّارَ", "فاتقوا النار", "al-Baqarah", "البقرة", "24"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [70, 72]
+    },
+    {
+      "id": "tajwid_b6_ibtida_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan maksud Ibtida' Aqbah dan jelaskan bagaimana bacaan {... نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥۚ ...} hendaklah dimulakan, beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن مقصود إبتداء أقبح دان جلسكن باݢايمان باچاءن {... نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥۚ ...} هندقله دمولاكن، بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "Ibtida' Aqbah ialah memulakan atau menyambung bacaan pada suatu tempat yang boleh mengubah makna atau maksud yang dikehendaki oleh Allah Taala atau yang boleh menyalahi akidah (dengan niat). Jika dimulakan dengan نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ maksudnya \"...Kami adalah anak Allah dan kekasih-Nya...\". Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ (Surah al-Maidah: 18).",
+      "reference_answer_jawi": "إبتداء أقبح اياله ممولاكن اتاو مڽامبوڠ باچاءن ڤد سواتو تمڤت يڠ بوليه مڠوبه معنا اتاو مقصود يڠ دكهندقي اوليه الله تعالى اتاو يڠ بوليه مڽالهي عقيده (دڠن نية). جک دمولاكن دڠن نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ مقصودڽ \"...كامي اداله انق الله دان ككاسيهڽ...\". هندقله دمولاكن دڠن وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ (سورة المائدة: 18).",
+      "rubric": [
+        {"criterion": "Mengubah makna/maksud yang dikehendaki Allah Taala", "marks": 1, "keywords": ["dikehendaki oleh Allah", "mengubah makna", "دكهندقي اوليه الله", "مڠوبه معنا"]},
+        {"criterion": "Menyalahi akidah (dengan niat)", "marks": 1, "keywords": ["menyalahi akidah", "akidah", "عقيده", "مڽالهي عقيده"]},
+        {"criterion": "Menyatakan maksud 'Kami adalah anak Allah dan kekasih-Nya'", "marks": 1, "keywords": ["anak Allah", "kekasih", "انق الله", "ككاسيهڽ"]},
+        {"criterion": "Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ", "marks": 2, "keywords": ["وَقَالَتِ ٱلۡيَهُودُ", "وقالت اليهود", "Yahudi", "Nasara", "Nasrani"]},
+        {"criterion": "Surah al-Maidah: 18", "marks": 1, "keywords": ["al-Maidah", "Maidah", "المائدة", "18"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [71]
+    }
+  ]
+}

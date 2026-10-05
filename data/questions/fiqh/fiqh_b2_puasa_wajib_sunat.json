@@ -1,0 +1,106 @@
+{
+  "topic_id": "fiqh_b2_puasa_wajib_sunat",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b2_puasa_wajib_sunat_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Pada bulan apakah umat Islam diwajibkan berpuasa?",
+      "question_jawi": "ڤد بولن اڤاکه اومت إسلام دواجبکن برڤواسا؟",
+      "reference_answer_rumi": "Bulan Ramadan",
+      "reference_answer_jawi": "بولن رمضان",
+      "rubric": [
+        {"criterion": "Menyatakan Ramadan", "marks": 1, "keywords": ["Ramadan", "Ramadhan", "رمضان"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [61]
+    },
+    {
+      "id": "fiqh_b2_puasa_wajib_sunat_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Pada tarikh berapakah bulan Syawal diharamkan berpuasa?",
+      "question_jawi": "ڤد تاريخ براڤاکه بولن شوال دحرامکن برڤواسا؟",
+      "reference_answer_rumi": "1 Syawal",
+      "reference_answer_jawi": "1 شوال",
+      "rubric": [
+        {"criterion": "Menyatakan 1 Syawal", "marks": 1, "keywords": ["1 Syawal", "satu Syawal", "1", "1 شوال"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [61]
+    },
+    {
+      "id": "fiqh_b2_puasa_wajib_sunat_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tarikh puasa hari putih (al-ayyam al-bid).",
+      "question_jawi": "ڽاتاکن تاريخ ڤواسا هاري ڤوتيه (الْأَيَّامُ الْبِيضُ).",
+      "reference_answer_rumi": "13, 14 dan 15 setiap bulan Hijrah",
+      "reference_answer_jawi": "13، 14 دان 15 ستياڤ بولن هجرة",
+      "rubric": [
+        {"criterion": "Menyatakan 13, 14 dan 15", "marks": 1, "keywords": ["13", "14", "15"]},
+        {"criterion": "Setiap bulan Hijrah", "marks": 1, "keywords": ["bulan Hijrah", "Hijrah", "هجرة"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [61]
+    },
+    {
+      "id": "fiqh_b2_puasa_wajib_sunat_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Senaraikan empat jenis puasa wajib.",
+      "question_jawi": "سنارايکن امڤت جنيس ڤواسا واجب.",
+      "reference_answer_rumi": "Puasa pada bulan Ramadan, puasa qada, puasa kafarah dan puasa nazar.",
+      "reference_answer_jawi": "ڤواسا ڤد بولن رمضان، ڤواسا قضاء، ڤواسا کفارة دان ڤواسا نذر.",
+      "rubric": [
+        {"criterion": "Puasa Ramadan", "marks": 1, "keywords": ["Ramadan", "Ramadhan", "رمضان"]},
+        {"criterion": "Puasa qada", "marks": 1, "keywords": ["qada", "qadha", "ganti", "قضاء"]},
+        {"criterion": "Puasa kafarah", "marks": 1, "keywords": ["kafarah", "kaffarah", "کفارة"]},
+        {"criterion": "Puasa nazar", "marks": 1, "keywords": ["nazar", "نذر"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [61]
+    },
+    {
+      "id": "fiqh_b2_puasa_wajib_sunat_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Senaraikan tiga jenis puasa sunat beserta waktunya.",
+      "question_jawi": "سنارايکن تيݢ جنيس ڤواسا سنة برسرتا وقتوڽ.",
+      "reference_answer_rumi": "Mana-mana tiga: enam hari pada bulan Syawal (kecuali 1 Syawal); hari Isnin dan Khamis setiap minggu; Tasu'a dan Asyura (9 dan 10 Muharram); 9 Zulhijjah (sempena wukuf di Arafah) bagi yang tidak mengerjakan haji; Nisfu Syaaban (15 Syaaban); hari putih (13, 14 dan 15 setiap bulan Hijrah).",
+      "reference_answer_jawi": "مان٢ تيݢ: انم هاري ڤد بولن شوال (کچوالي 1 شوال)؛ هاري اثنين دان خميس ستياڤ ميڠݢو؛ تاسوعاء دان عاشوراء (9 دان 10 محرم)؛ 9 ذوالحجة (سمڤنا وقوف دعرفة) باݢي يڠ تيدق مڠرجاکن حج؛ نصف شعبان (15 شعبان)؛ هاري ڤوتيه (13، 14 دان 15 ستياڤ بولن هجرة).",
+      "rubric": [
+        {"criterion": "Puasa sunat pertama dengan waktu", "marks": 1, "keywords": ["Syawal", "Isnin", "Khamis", "شوال", "اثنين", "خميس"]},
+        {"criterion": "Puasa sunat kedua dengan waktu", "marks": 1, "keywords": ["Tasu'a", "Asyura", "Muharram", "Zulhijjah", "Arafah", "تاسوعاء", "عاشوراء", "محرم", "ذوالحجة"]},
+        {"criterion": "Puasa sunat ketiga dengan waktu", "marks": 1, "keywords": ["Nisfu Syaaban", "Syaaban", "hari putih", "13", "نصف شعبان", "شعبان", "هاري ڤوتيه"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [61]
+    },
+    {
+      "id": "fiqh_b2_puasa_wajib_sunat_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Bezakan puasa wajib dan puasa sunat dengan memberikan dua contoh bagi setiap satu. Kemudian terangkan siapakah yang disunatkan berpuasa pada 9 Zulhijjah.",
+      "question_jawi": "بيذاکن ڤواسا واجب دان ڤواسا سنة دڠن ممبريکن دوا چونتوه باݢي ستياڤ ساتو. کمودين تراڠکن سياڤاکه يڠ دسنتکن برڤواسا ڤد 9 ذوالحجة.",
+      "reference_answer_rumi": "Hukum puasa wajib atau sunat bergantung pada jenis puasa. Contoh puasa wajib: puasa Ramadan, qada, kafarah, nazar. Contoh puasa sunat: enam hari Syawal, Isnin dan Khamis, Tasu'a dan Asyura, Nisfu Syaaban, hari putih. Puasa 9 Zulhijjah (sempena wukuf di Arafah) adalah bagi orang yang tidak mengerjakan haji pada tahun itu.",
+      "reference_answer_jawi": "حکوم ڤواسا واجب اتاو سنة برݢنتوڠ ڤد جنيس ڤواسا. چونتوه ڤواسا واجب: ڤواسا رمضان، قضاء، کفارة، نذر. چونتوه ڤواسا سنة: انم هاري شوال، اثنين دان خميس، تاسوعاء دان عاشوراء، نصف شعبان، هاري ڤوتيه. ڤواسا 9 ذوالحجة (سمڤنا وقوف دعرفة) باݢي اورڠ يڠ تيدق مڠرجاکن حج ڤد تاهون ايت.",
+      "rubric": [
+        {"criterion": "Contoh puasa wajib pertama", "marks": 1, "keywords": ["Ramadan", "qada", "رمضان", "قضاء"]},
+        {"criterion": "Contoh puasa wajib kedua", "marks": 1, "keywords": ["kafarah", "nazar", "qada", "کفارة", "نذر", "قضاء"]},
+        {"criterion": "Contoh puasa sunat pertama", "marks": 1, "keywords": ["Syawal", "Isnin", "Khamis", "شوال", "اثنين", "خميس"]},
+        {"criterion": "Contoh puasa sunat kedua", "marks": 1, "keywords": ["Asyura", "Tasu'a", "Syaaban", "hari putih", "عاشوراء", "شعبان", "هاري ڤوتيه"]},
+        {"criterion": "9 Zulhijjah bagi orang yang tidak mengerjakan haji", "marks": 2, "keywords": ["tidak mengerjakan haji", "tidak berhaji", "wukuf", "Arafah", "تيدق مڠرجاکن حج", "وقوف", "عرفة"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [58, 61]
+    }
+  ]
+}

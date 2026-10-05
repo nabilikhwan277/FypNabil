@@ -1,0 +1,104 @@
+{
+  "topic_id": "fiqh_b1_solat_hajat",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_hajat_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah pengertian solat hajat?",
+      "question_jawi": "اڤاكه ڤڠرتين صلاة حاجت؟",
+      "reference_answer_rumi": "Solat bagi mereka yang mempunyai hajat atau kesulitan dalam sesuatu hal",
+      "reference_answer_jawi": "صلاة باڬي مريک يڠ ممڤوڽاءي حاجت اتاو كسوليتن دالم سسواتو حال",
+      "rubric": [
+        {"criterion": "Menyatakan mempunyai hajat", "marks": 1, "keywords": ["hajat", "حاجت"]},
+        {"criterion": "Menyatakan kesulitan dalam sesuatu hal", "marks": 1, "keywords": ["kesulitan", "كسوليتن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [21]
+    },
+    {
+      "id": "fiqh_b1_solat_hajat_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah solat hajat boleh dilakukan?",
+      "question_jawi": "بيلاكه صلاة حاجت بوليه دلاكوكن؟",
+      "reference_answer_rumi": "Pada bila-bila masa selain waktu-waktu haram",
+      "reference_answer_jawi": "ڤد بيلا٢ ماس سلاءين وقتو٢ حرام",
+      "rubric": [
+        {"criterion": "Menyatakan bila-bila masa selain waktu haram", "marks": 1, "keywords": ["bila-bila masa", "selain waktu haram", "waktu haram", "بيلا٢ ماس", "وقتو٢ حرام"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [21]
+    },
+    {
+      "id": "fiqh_b1_solat_hajat_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan satu waktu haram untuk menunaikan solat.",
+      "question_jawi": "ڽاتاكن ساتو وقتو حرام اونتوق منونايكن صلاة.",
+      "reference_answer_rumi": "Selepas solat Subuh / ketika matahari hampir terbit / ketika matahari tegak di atas kepala / ketika matahari hampir terbenam / selepas solat Asar",
+      "reference_answer_jawi": "سلڤس صلاة صبح / كتيک ماتاهاري همڤير تربيت / كتيک ماتاهاري تڬق دأتس كڤالا / كتيک ماتاهاري همڤير تربنم / سلڤس صلاة عصر",
+      "rubric": [
+        {"criterion": "Menyatakan salah satu waktu haram yang betul", "marks": 1, "keywords": ["selepas Subuh", "hampir terbit", "tegak di atas kepala", "hampir terbenam", "selepas Asar", "صبح", "تربيت", "كڤالا", "تربنم", "عصر"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [21]
+    },
+    {
+      "id": "fiqh_b1_solat_hajat_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat solat hajat.",
+      "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة حاجت.",
+      "reference_answer_rumi": "1. Meningkatkan keimanan dan keyakinan kita kepada Allah SWT. 2. Menjauhkan kita daripada gangguan syaitan. 3. Menenangkan hati dan jiwa yang sedang bimbang atau tertekan.",
+      "reference_answer_jawi": "1. منيڠكتكن كأيمانن دان كياقينن كيت كڤد الله ﷻ. 2. منجاءوهكن كيت درڤد ݢڠݢوان شيطان. 3. منندڠكن هاتي دان جيوا يڠ سدڠ بيمبڠ اتاو ترتكن.",
+      "rubric": [
+        {"criterion": "Meningkatkan keimanan dan keyakinan kepada Allah", "marks": 1, "keywords": ["keimanan", "keyakinan", "iman", "كأيمانن", "كياقينن"]},
+        {"criterion": "Menjauhkan daripada gangguan syaitan", "marks": 1, "keywords": ["syaitan", "gangguan", "شيطان", "ݢڠݢوان"]},
+        {"criterion": "Menenangkan hati dan jiwa yang bimbang/tertekan", "marks": 1, "keywords": ["menenangkan", "hati", "jiwa", "bimbang", "tertekan", "منندڠكن", "هاتي", "جيوا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [22]
+    },
+    {
+      "id": "fiqh_b1_solat_hajat_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Baca dan hafal: Tuliskan lafaz niat solat hajat dan nyatakan maksudnya.",
+      "question_jawi": "باچ دان حافل: توليسكن لفظ نية صلاة حاجت دان ڽاتاكن مقصودڽ.",
+      "reference_answer_rumi": "أُصَلِّي سُنَّةَ ٱلْحَاجَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat hajat dua rakaat kerana Allah Taala.",
+      "reference_answer_jawi": "أُصَلِّي سُنَّةَ ٱلْحَاجَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة حاجت دوا ركعة كران الله تعالى.",
+      "rubric": [
+        {"criterion": "Menulis lafaz niat dengan betul", "marks": 2, "keywords": ["أُصَلِّي", "ٱلْحَاجَةِ", "رَكْعَتَيْنِ", "اصلي", "الحاجة"]},
+        {"criterion": "Menyatakan maksud niat", "marks": 1, "keywords": ["sahaja aku solat sunat hajat", "dua rakaat kerana Allah", "سهاج اكو صلاة سنة حاجت"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [22]
+    },
+    {
+      "id": "fiqh_b1_solat_hajat_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "textbook",
+      "question_rumi": "Berdasarkan dialog (Baca dialog dan lakonkan), Hasan takut menghadapi peperiksaan dan Muhammad gementar menghadapi perlawanan bola sepak. Apakah nasihat Ustaz Ahmad kepada mereka? Terangkan pengertian solat hajat dan nyatakan dalil yang berkaitan beserta maksudnya.",
+      "question_jawi": "برداسركن ديالوݢ (باچ ديالوݢ دان لاكونكن)، حسن تاكوت مڠهادڤي ڤڤريقساءن دان محمد ڬمنتر مڠهادڤي ڤرلاونن بولا سيڤق. اڤاكه نصيحت استاذ احمد كڤد مريک؟ ترڠكن ڤڠرتين صلاة حاجت دان ڽاتاكن دليل يڠ بركاءيتن بسرتا مقصودڽ.",
+      "reference_answer_rumi": "Ustaz Ahmad menasihati mereka supaya tidak takut dan susah hati, berusaha melakukan yang terbaik, berdoa dan bertawakal kepada Allah SWT serta melakukan solat hajat. Solat hajat ialah solat bagi mereka yang mempunyai hajat atau kesulitan dalam sesuatu hal. Dalil: وَقَالَ رَبُّكُمُ ٱدْعُونِيٓ أَسْتَجِبْ لَكُمْ (Surah Ghafir: 60). Maksudnya: Tuhanmu berfirman, berdoalah kepadaKu, nescaya akan Aku perkenankan doa permohonanmu.",
+      "reference_answer_jawi": "استاذ احمد مناصيحتي مريک سوڤاي تيدق تاكوت دان سوسه هاتي، براوسها ملاكوكن يڠ ترباءيق، بردعاء دان برتوكل كڤد الله ﷻ سرتا ملاكوكن صلاة حاجت. صلاة حاجت اياله صلاة باڬي مريک يڠ ممڤوڽاءي حاجت اتاو كسوليتن دالم سسواتو حال. دليل: وَقَالَ رَبُّكُمُ ٱدْعُونِيٓ أَسْتَجِبْ لَكُمْ (سورة غافر: 60). مقصودڽ: توهنمو برفرمان، بردعاءله كڤداكو، نسچاي اكن اكو ڤركننكن دعاء ڤرموهوننمو.",
+      "rubric": [
+        {"criterion": "Nasihat: berusaha melakukan yang terbaik", "marks": 1, "keywords": ["berusaha", "terbaik", "براوسها", "ترباءيق"]},
+        {"criterion": "Nasihat: berdoa, bertawakal dan melakukan solat hajat", "marks": 1, "keywords": ["berdoa", "bertawakal", "solat hajat", "بردعاء", "برتوكل", "صلاة حاجت"]},
+        {"criterion": "Pengertian solat hajat (hajat atau kesulitan)", "marks": 1, "keywords": ["hajat", "kesulitan", "حاجت", "كسوليتن"]},
+        {"criterion": "Menulis dalil Surah Ghafir: 60 dengan betul", "marks": 2, "keywords": ["ٱدْعُونِيٓ", "أَسْتَجِبْ", "ادعوني", "استجب", "Ghafir", "غافر"]},
+        {"criterion": "Menyatakan maksud dalil", "marks": 1, "keywords": ["berdoalah kepadaKu", "perkenankan", "بردعاءله", "ڤركننكن"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [19, 20, 21]
+    }
+  ]
+}

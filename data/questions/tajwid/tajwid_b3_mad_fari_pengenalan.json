@@ -1,0 +1,120 @@
+{
+  "topic_id": "tajwid_b3_mad_fari_pengenalan",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_fari_pengenalan_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bahagian mad far'i?",
+      "question_jawi": "براڤاكه بهاݢين مد فرعي؟",
+      "reference_answer_rumi": "Dua bahagian",
+      "reference_answer_jawi": "دوا بهاݢين",
+      "rubric": [
+        {"criterion": "Menyatakan dua bahagian", "marks": 1, "keywords": ["dua", "2", "دوا"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [21]
+    },
+    {
+      "id": "tajwid_b3_mad_fari_pengenalan_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bagaimanakah kadar panjang bacaan mad far'i ditentukan?",
+      "question_jawi": "باݢايماناكه قدر ڤنجڠ باچاٴن مد فرعي دتنتوكن؟",
+      "reference_answer_rumi": "Mengikut jenis mad yang terbentuk",
+      "reference_answer_jawi": "مڠيكوت جنيس مد يڠ تربنتوق",
+      "rubric": [
+        {"criterion": "Menyatakan mengikut jenis mad yang terbentuk", "marks": 1, "keywords": ["jenis mad", "terbentuk", "جنيس مد", "تربنتوق"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [20]
+    },
+    {
+      "id": "tajwid_b3_mad_fari_pengenalan_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah sebab terbentuknya mad far'i bahagian kedua?",
+      "question_jawi": "اڤاكه سبب تربنتوقڽ مد فرعي بهاݢين كدوا؟",
+      "reference_answer_rumi": "Terdapat huruf mati selepas huruf mad",
+      "reference_answer_jawi": "ترداڤت حروف ماتي سلڤس حروف مد",
+      "rubric": [
+        {"criterion": "Menyatakan huruf mati selepas huruf mad", "marks": 2, "keywords": ["huruf mati", "selepas huruf mad", "حروف ماتي", "سلڤس حروف مد"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [21]
+    },
+    {
+      "id": "tajwid_b3_mad_fari_pengenalan_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan pengertian mad far'i.",
+      "question_jawi": "نياتاكن ڤڠرتين مد فرعي.",
+      "reference_answer_rumi": "Mad far'i ialah mad yang terjadi disebabkan terdapat huruf hamzah sebelum atau selepas huruf mad, atau terdapat huruf mati selepas huruf mad.",
+      "reference_answer_jawi": "مد فرعي اياله مد يڠ ترجادي دسببكن ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد، اتاو ترداڤت حروف ماتي سلڤس حروف مد.",
+      "rubric": [
+        {"criterion": "Huruf hamzah sebelum atau selepas huruf mad", "marks": 2, "keywords": ["hamzah", "sebelum atau selepas", "همزة", "سبلوم اتاو سلڤس"]},
+        {"criterion": "Huruf mati selepas huruf mad", "marks": 1, "keywords": ["huruf mati", "حروف ماتي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [20]
+    },
+    {
+      "id": "tajwid_b3_mad_fari_pengenalan_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Senaraikan empat hukum mad yang terbentuk dengan sebab terdapat huruf hamzah sebelum atau selepas huruf mad.",
+      "question_jawi": "سنارايكن امڤت حكوم مد يڠ تربنتوق دڠن سبب ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد.",
+      "reference_answer_rumi": "Mana-mana empat: Mad Wajib Muttasil, Mad Jaiz Munfasil, Mad Badal, Mad Silah Tawilah, Mad Farq, Mad Ta'zim.",
+      "reference_answer_jawi": "مان٢ امڤت: مد واجب متصل، مد جائز منفصل، مد بدل، مد صلة طويلة، مد فرق، مد تعظيم.",
+      "rubric": [
+        {"criterion": "Hukum pertama yang betul", "marks": 1, "keywords": ["Wajib Muttasil", "Jaiz Munfasil", "Badal", "Silah Tawilah", "Farq", "Ta'zim", "متصل", "منفصل", "بدل", "طويلة", "فرق", "تعظيم"]},
+        {"criterion": "Hukum kedua yang betul", "marks": 1, "keywords": ["Wajib Muttasil", "Jaiz Munfasil", "Badal", "Silah Tawilah", "Farq", "Ta'zim", "متصل", "منفصل", "بدل", "طويلة", "فرق", "تعظيم"]},
+        {"criterion": "Hukum ketiga yang betul", "marks": 1, "keywords": ["Wajib Muttasil", "Jaiz Munfasil", "Badal", "Silah Tawilah", "Farq", "Ta'zim", "متصل", "منفصل", "بدل", "طويلة", "فرق", "تعظيم"]},
+        {"criterion": "Hukum keempat yang betul", "marks": 1, "keywords": ["Wajib Muttasil", "Jaiz Munfasil", "Badal", "Silah Tawilah", "Farq", "Ta'zim", "متصل", "منفصل", "بدل", "طويلة", "فرق", "تعظيم"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [21, 22]
+    },
+    {
+      "id": "tajwid_b3_mad_fari_pengenalan_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Namakan tiga jenis mad yang dikategorikan sebagai mad asli seperti dalam ruangan Tahukah Anda?",
+      "question_jawi": "نامكن تيݢ جنيس مد يڠ دكاتيݢوريكن سباݢاي مد اصلي سڤرتي دالم روڠن تاهوكه اندا؟",
+      "reference_answer_rumi": "Mad 'Iwad, Mad Tamkin, Mad Silah Qasirah",
+      "reference_answer_jawi": "مد عوض، مد تمكين، مد صلة قصيرة",
+      "rubric": [
+        {"criterion": "Mad 'Iwad", "marks": 1, "keywords": ["Iwad", "Iwadh", "عوض"]},
+        {"criterion": "Mad Tamkin", "marks": 1, "keywords": ["Tamkin", "تمكين"]},
+        {"criterion": "Mad Silah Qasirah", "marks": 1, "keywords": ["Silah Qasirah", "Qasirah", "صلة قصيرة", "قصيرة"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [21]
+    },
+    {
+      "id": "tajwid_b3_mad_fari_pengenalan_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan dua bahagian mad far'i beserta sebab terbentuknya, dan berikan dua contoh hukum mad bagi setiap bahagian.",
+      "question_jawi": "تراڠكن دوا بهاݢين مد فرعي بسرتا سبب تربنتوقڽ، دان بريكن دوا چونتوه حكوم مد باݢي ستياڤ بهاݢين.",
+      "reference_answer_rumi": "Bahagian pertama terbentuk kerana terdapat huruf hamzah sebelum atau selepas huruf mad, contohnya Mad Wajib Muttasil dan Mad Jaiz Munfasil (juga Mad Badal, Mad Silah Tawilah, Mad Farq, Mad Ta'zim). Bahagian kedua terbentuk kerana terdapat huruf mati selepas huruf mad, contohnya Mad Lazim Kalimi Muthaqqal dan Mad Lin (juga Mad Lazim Kalimi Mukhaffaf, Mad Lazim Harfi Muthaqqal, Mad Lazim Harfi Mukhaffaf, Mad 'Arid Lissukun).",
+      "reference_answer_jawi": "بهاݢين ڤرتام تربنتوق كران ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد، چونتوهڽ مد واجب متصل دان مد جائز منفصل. بهاݢين كدوا تربنتوق كران ترداڤت حروف ماتي سلڤس حروف مد، چونتوهڽ مد لازم كلمي مثقل دان مد لين.",
+      "rubric": [
+        {"criterion": "Bahagian pertama: hamzah sebelum atau selepas huruf mad", "marks": 1, "keywords": ["hamzah", "همزة", "sebelum atau selepas"]},
+        {"criterion": "Dua contoh hukum bahagian pertama", "marks": 2, "keywords": ["Wajib Muttasil", "Jaiz Munfasil", "Badal", "Silah Tawilah", "Farq", "Ta'zim", "متصل", "منفصل", "بدل", "تعظيم"]},
+        {"criterion": "Bahagian kedua: huruf mati selepas huruf mad", "marks": 1, "keywords": ["huruf mati", "حروف ماتي"]},
+        {"criterion": "Dua contoh hukum bahagian kedua", "marks": 2, "keywords": ["Lazim Kalimi", "Lazim Harfi", "Arid Lissukun", "Aridh", "Lin", "لازم", "عارض", "لين"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [21, 22]
+    }
+  ]
+}

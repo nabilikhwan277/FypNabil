@@ -1,0 +1,152 @@
+{
+  "topic_id": "jawi_b4_akronim_dilafaz",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b4_akronim_dilafaz_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'PETRONAS' (Petrolium Nasional) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'PETRONAS' دالم توليسن جاوي.",
+      "reference_answer_rumi": "PETRONAS",
+      "reference_answer_jawi": "ڤيترونس",
+      "rubric": [
+        {"criterion": "Mengeja ڤيترونس dengan betul", "marks": 1, "keywords": ["ڤيترونس"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [77]
+    },
+    {
+      "id": "jawi_b4_akronim_dilafaz_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'JAIS' (Jabatan Agama Islam Selangor) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'JAIS' دالم توليسن جاوي.",
+      "reference_answer_rumi": "JAIS",
+      "reference_answer_jawi": "جاءيس",
+      "rubric": [
+        {"criterion": "Mengeja جاءيس dengan hamzah", "marks": 1, "keywords": ["جاءيس"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [77]
+    },
+    {
+      "id": "jawi_b4_akronim_dilafaz_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'PERHILITAN' dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'PERHILITAN' دالم توليسن جاوي.",
+      "reference_answer_rumi": "PERHILITAN",
+      "reference_answer_jawi": "ڤرهيليتن",
+      "rubric": [
+        {"criterion": "Mengeja ڤرهيليتن dengan betul", "marks": 2, "keywords": ["ڤرهيليتن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [77]
+    },
+    {
+      "id": "jawi_b4_akronim_dilafaz_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'UNESCO' dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'UNESCO' دالم توليسن جاوي.",
+      "reference_answer_rumi": "UNESCO",
+      "reference_answer_jawi": "يونيسكو",
+      "rubric": [
+        {"criterion": "Mengeja يونيسكو dengan betul", "marks": 1, "keywords": ["يونيسكو"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [78]
+    },
+    {
+      "id": "jawi_b4_akronim_dilafaz_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'TADIKA' (Taman Didikan Kanak-Kanak) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'TADIKA' دالم توليسن جاوي.",
+      "reference_answer_rumi": "TADIKA",
+      "reference_answer_jawi": "تاديكا",
+      "rubric": [
+        {"criterion": "Mengeja تاديكا dengan betul", "marks": 1, "keywords": ["تاديكا"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [77]
+    },
+    {
+      "id": "jawi_b4_akronim_dilafaz_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Apakah akronim yang dilafaz dan bagaimanakah ia ditulis dalam Jawi? Berikan satu contoh.",
+      "question_jawi": "اڤاكه اكرونيم يڠ دلفظ دان باݢايماناكه اي دتوليس دالم جاوي؟ بريكن ساتو چونتوه.",
+      "reference_answer_rumi": "Akronim yang terhasil daripada gabungan beberapa patah kata yang dipendekkan sebutannya dan boleh dilafazkan dengan sempurna; ia boleh ditulis lengkap sebagai kata. Contoh: MARA (مارا).",
+      "reference_answer_jawi": "اكرونيم يڠ ترحاصيل درڤد ݢابوڠن ببراڤ ڤاته كات يڠ دڤنديقكن سبوتنڽ دان بوليه دلفظكن دڠن سمڤورنا؛ بوليه دتوليس لڠكڤ سباݢاي كات. چونتوه: مارا.",
+      "rubric": [
+        {"criterion": "Gabungan beberapa patah kata yang dipendekkan / boleh dilafazkan", "marks": 1, "keywords": ["dilafazkan", "dipendekkan", "gabungan", "دلفظكن", "دڤنديقكن"]},
+        {"criterion": "Ditulis lengkap sebagai kata", "marks": 1, "keywords": ["sebagai kata", "ditulis lengkap", "لڠكڤ سباݢاي كات"]},
+        {"criterion": "Contoh betul dengan ejaan Jawi (cth. ايكيم, ڤيترونس, جاءيس, ماءيس, اينتن, ڤروتون, مارا, تاديكا, ڤرهيليتن, يونيسكو, فيلدا, ريسدا, لينوس)", "marks": 1, "keywords": ["ايكيم", "ڤيترونس", "جاءيس", "ماءيس", "اينتن", "ڤروتون", "مارا", "تاديكا", "ڤرهيليتن", "يونيسكو", "فيلدا", "ريسدا", "لينوس"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [77, 79]
+    },
+    {
+      "id": "jawi_b4_akronim_dilafaz_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim Jawi bagi 'FELDA', 'RISDA' dan 'LINUS'.",
+      "question_jawi": "توليس اكرونيم جاوي باݢي 'FELDA'، 'RISDA' دان 'LINUS'.",
+      "reference_answer_rumi": "FELDA, RISDA, LINUS",
+      "reference_answer_jawi": "فيلدا، ريسدا، لينوس",
+      "rubric": [
+        {"criterion": "FELDA: فيلدا", "marks": 1, "keywords": ["فيلدا"]},
+        {"criterion": "RISDA: ريسدا", "marks": 1, "keywords": ["ريسدا"]},
+        {"criterion": "LINUS: لينوس", "marks": 1, "keywords": ["لينوس"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [78]
+    },
+    {
+      "id": "jawi_b4_akronim_dilafaz_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Bandingkan penulisan akronim 'MARA' (akronim yang dilafaz) dengan akronim 'MRSM' dalam tulisan Jawi. Terangkan peraturan akronim yang dilafaz dan berikan dua contoh lain (satu bahasa Melayu, satu bahasa Inggeris) beserta ejaan Jawinya.",
+      "question_jawi": "بنديڠكن ڤنوليسن اكرونيم 'MARA' دڠن اكرونيم 'MRSM' دالم توليسن جاوي. تراڠكن ڤراتورن اكرونيم يڠ دلفظ دان بريكن دوا چونتوه لاءين (ساتو بهاس ملايو، ساتو بهاس ايڠݢريس) بسرتا ايجاءن جاويڽ.",
+      "reference_answer_rumi": "MARA boleh dilafazkan dengan sempurna, maka ditulis lengkap sebagai kata: مارا. MRSM tidak dilafaz sebagai kata, maka ditulis dengan huruf Jawi dan noktah: م.ر.س.م. Akronim yang dilafaz terhasil daripada gabungan beberapa patah kata yang dipendekkan sebutannya dan boleh ditulis lengkap sebagai kata. Contoh BM: PROTON (ڤروتون); BI: UNESCO (يونيسكو).",
+      "reference_answer_jawi": "مارا بوليه دلفظكن دڠن سمڤورنا، دتوليس لڠكڤ سباݢاي كات. م.ر.س.م دتوليس دڠن حروف جاوي دان تندا نقطه. اكرونيم يڠ دلفظ ترحاصيل درڤد ݢابوڠن ببراڤ ڤاته كات يڠ دڤنديقكن سبوتنڽ. چونتوه: ڤروتون، يونيسكو.",
+      "rubric": [
+        {"criterion": "MARA ditulis مارا sebagai satu kata", "marks": 1, "keywords": ["مارا"]},
+        {"criterion": "MRSM ditulis م.ر.س.م dengan noktah", "marks": 1, "keywords": ["م.ر.س.م"]},
+        {"criterion": "Menerangkan akronim dilafaz boleh dilafazkan dengan sempurna / ditulis lengkap sebagai kata", "marks": 1, "keywords": ["dilafazkan", "sebagai kata", "دلفظكن", "سباݢاي كات"]},
+        {"criterion": "Menyebut gabungan beberapa patah kata yang dipendekkan sebutannya", "marks": 1, "keywords": ["gabungan", "dipendekkan", "ݢابوڠن", "دڤنديقكن"]},
+        {"criterion": "Contoh bahasa Melayu betul (ايكيم, ڤيترونس, جاءيس, ماءيس, اينتن, ڤروتون, تاديكا, ڤرهيليتن)", "marks": 1, "keywords": ["ايكيم", "ڤيترونس", "جاءيس", "ماءيس", "اينتن", "ڤروتون", "تاديكا", "ڤرهيليتن"]},
+        {"criterion": "Contoh bahasa Inggeris betul (يونيسكو, فيلدا, ريسدا, لينوس)", "marks": 1, "keywords": ["يونيسكو", "فيلدا", "ريسدا", "لينوس"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [70, 77, 78, 79]
+    },
+    {
+      "id": "jawi_b4_akronim_dilafaz_q9",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Jawikan akronim berikut: JAKIM, TABIKA.",
+      "question_jawi": "جاويكن اكرونيم يڠ برايكوت: JAKIM، TABIKA.",
+      "reference_answer_rumi": "JAKIM, TABIKA (jawapan tidak dicetak dalam buku; ditulis lengkap sebagai kata mengikut peraturan, cth. seperti تاديكا)",
+      "reference_answer_jawi": "جاكيم، تابيكا",
+      "rubric": [
+        {"criterion": "Ditulis sebagai satu kata tanpa noktah", "marks": 1, "keywords": ["جاكيم", "تابيكا"]},
+        {"criterion": "JAKIM: جاكيم (diterbitkan; tidak dicetak)", "marks": 1, "keywords": ["جاكيم"]},
+        {"criterion": "TABIKA: تابيكا (diterbitkan berdasarkan pola تاديكا; tidak dicetak)", "marks": 1, "keywords": ["تابيكا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [78]
+    }
+  ]
+}

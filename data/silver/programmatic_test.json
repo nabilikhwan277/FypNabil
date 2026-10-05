@@ -1,0 +1,6420 @@
+[
+ {
+  "question_id": "fiqh_b1_latihan_q6",
+  "answer_id": "fiqh_b1_latihan_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "بتول",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q6",
+  "answer_id": "fiqh_b1_latihan_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Betul",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q6",
+  "answer_id": "fiqh_b1_latihan_q6::tf_flip",
+  "kind": "tf_flip",
+  "script": "rumi",
+  "answer": "Salah",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q6",
+  "answer_id": "fiqh_b1_latihan_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q6",
+  "answer_id": "fiqh_b1_latihan_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Terbenam matahari (maghrib)",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q8",
+  "answer_id": "fiqh_b1_latihan_q8::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ساله",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q8",
+  "answer_id": "fiqh_b1_latihan_q8::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Salah",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q8",
+  "answer_id": "fiqh_b1_latihan_q8::tf_flip",
+  "kind": "tf_flip",
+  "script": "rumi",
+  "answer": "Betul",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q8",
+  "answer_id": "fiqh_b1_latihan_q8::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q8",
+  "answer_id": "fiqh_b1_latihan_q8::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Terbit fajar (subuh)",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q5",
+  "answer_id": "fiqh_b1_solat_dhuha_q5::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "أُصَلِّي سُنَّةَ ٱلضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة ضحى دوا ركعة كران الله تعالى.",
+  "criteria": [
+   {
+    "criterion": "Menulis lafaz niat dengan betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan maksud niat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q5",
+  "answer_id": "fiqh_b1_solat_dhuha_q5::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "أُصَلِّي سُنَّةَ ٱلضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat dhuha dua rakaat kerana Allah Taala.",
+  "criteria": [
+   {
+    "criterion": "Menulis lafaz niat dengan betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan maksud niat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q5",
+  "answer_id": "fiqh_b1_solat_dhuha_q5::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menulis lafaz niat dengan betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan maksud niat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q5",
+  "answer_id": "fiqh_b1_solat_dhuha_q5::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Apabila dia telah berazam untuk bertaubat (sebelum bertaubat kepada Allah SWT)",
+  "criteria": [
+   {
+    "criterion": "Menulis lafaz niat dengan betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan maksud niat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q7",
+  "answer_id": "fiqh_b1_solat_dhuha_q7::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "صلاة ضحى. صلاة ضحى برمقصود صلاة سنة يڠ دديريكن سڤنجڠ وقتو ضحى. وقتوڽ برمولا اڤابيلا ماتاهاري تله تربيت سقدر ساتو ڬاله تيڠڬيڽ، لبيه كورڠ 28 مينيت سلڤس ماتاهاري تربيت هيڠڬ ڬلينچير ماتاهاري سبلوم ماسوق وقتو ظهر. فضيلة: جامينن رزقي، اورڠ يڠ سلالو مڠعملكنڽ دكورنياكن رزقي يڠ مليمڤه روه؛ ككواتن جسماني، ڤرڬرقن صلاة سڤرتي ركوع دان سجود مروڤاكن سنمن يڠ ممبري كصيحتن دان مرڠڬڠكن اوتوت.",
+  "criteria": [
+   {
+    "criterion": "Mencadangkan solat dhuha",
+    "met": "ya"
+   },
+   {
+    "criterion": "Pengertian: solat sunat sepanjang waktu dhuha",
+    "met": "ya"
+   },
+   {
+    "criterion": "Waktu: 28 minit selepas matahari terbit hingga gelincir matahari sebelum zohor",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huraian fadhilat jaminan rezeki",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huraian fadhilat kekuatan jasmani",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q7",
+  "answer_id": "fiqh_b1_solat_dhuha_q7::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Solat dhuha. Solat dhuha ialah solat sunat yang didirikan sepanjang waktu dhuha. Waktunya bermula apabila matahari terbit sekadar satu galah tingginya, lebih kurang 28 minit selepas matahari terbit hingga gelincir matahari sebelum masuk waktu zohor. Fadhilat: jaminan rezeki, iaitu orang yang selalu mengamalkannya dikurniakan rezeki yang melimpah ruah; kekuatan jasmani, iaitu pergerakan solat seperti rukuk dan sujud merupakan senaman yang memberi kesihatan dan meregangkan otot.",
+  "criteria": [
+   {
+    "criterion": "Mencadangkan solat dhuha",
+    "met": "ya"
+   },
+   {
+    "criterion": "Pengertian: solat sunat sepanjang waktu dhuha",
+    "met": "ya"
+   },
+   {
+    "criterion": "Waktu: 28 minit selepas matahari terbit hingga gelincir matahari sebelum zohor",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huraian fadhilat jaminan rezeki",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huraian fadhilat kekuatan jasmani",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q7",
+  "answer_id": "fiqh_b1_solat_dhuha_q7::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mencadangkan solat dhuha",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Pengertian: solat sunat sepanjang waktu dhuha",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Waktu: 28 minit selepas matahari terbit hingga gelincir matahari sebelum zohor",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huraian fadhilat jaminan rezeki",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huraian fadhilat kekuatan jasmani",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q7",
+  "answer_id": "fiqh_b1_solat_dhuha_q7::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Tertutup",
+  "criteria": [
+   {
+    "criterion": "Mencadangkan solat dhuha",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Pengertian: solat sunat sepanjang waktu dhuha",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Waktu: 28 minit selepas matahari terbit hingga gelincir matahari sebelum zohor",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huraian fadhilat jaminan rezeki",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huraian fadhilat kekuatan jasmani",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hajat_q1",
+  "answer_id": "fiqh_b1_solat_hajat_q1::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "صلاة باڬي مريک يڠ ممڤوڽاءي حاجت اتاو كسوليتن دالم سسواتو حال",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mempunyai hajat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan kesulitan dalam sesuatu hal",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hajat_q1",
+  "answer_id": "fiqh_b1_solat_hajat_q1::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Solat bagi mereka yang mempunyai hajat atau kesulitan dalam sesuatu hal",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mempunyai hajat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan kesulitan dalam sesuatu hal",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hajat_q1",
+  "answer_id": "fiqh_b1_solat_hajat_q1::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mempunyai hajat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan kesulitan dalam sesuatu hal",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hajat_q1",
+  "answer_id": "fiqh_b1_solat_hajat_q1::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "أُصَلِّي سُنَّةَ الْإِسْتِخَارَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat istikharah dua rakaat kerana Allah Taala.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mempunyai hajat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan kesulitan dalam sesuatu hal",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hajat_q3",
+  "answer_id": "fiqh_b1_solat_hajat_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "سلڤس صلاة صبح / كتيک ماتاهاري همڤير تربيت / كتيک ماتاهاري تڬق دأتس كڤالا / كتيک ماتاهاري همڤير تربنم / سلڤس صلاة عصر",
+  "criteria": [
+   {
+    "criterion": "Menyatakan salah satu waktu haram yang betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hajat_q3",
+  "answer_id": "fiqh_b1_solat_hajat_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Selepas solat Subuh / ketika matahari hampir terbit / ketika matahari tegak di atas kepala / ketika matahari hampir terbenam / selepas solat Asar",
+  "criteria": [
+   {
+    "criterion": "Menyatakan salah satu waktu haram yang betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hajat_q3",
+  "answer_id": "fiqh_b1_solat_hajat_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan salah satu waktu haram yang betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hajat_q3",
+  "answer_id": "fiqh_b1_solat_hajat_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Betul",
+  "criteria": [
+   {
+    "criterion": "Menyatakan salah satu waktu haram yang betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hari_raya_q3",
+  "answer_id": "fiqh_b1_solat_hari_raya_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "توجوه كالي دالم ركعة ڤرتام دان ليم كالي دالم ركعة كدوا",
+  "criteria": [
+   {
+    "criterion": "Rakaat pertama: tujuh kali",
+    "met": "ya"
+   },
+   {
+    "criterion": "Rakaat kedua: lima kali",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hari_raya_q3",
+  "answer_id": "fiqh_b1_solat_hari_raya_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Tujuh kali dalam rakaat pertama dan lima kali dalam rakaat kedua",
+  "criteria": [
+   {
+    "criterion": "Rakaat pertama: tujuh kali",
+    "met": "ya"
+   },
+   {
+    "criterion": "Rakaat kedua: lima kali",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hari_raya_q3",
+  "answer_id": "fiqh_b1_solat_hari_raya_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Rakaat pertama: tujuh kali",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Rakaat kedua: lima kali",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hari_raya_q3",
+  "answer_id": "fiqh_b1_solat_hari_raya_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Pada 2/3 malam sebelum masuknya waktu subuh",
+  "criteria": [
+   {
+    "criterion": "Rakaat pertama: tujuh kali",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Rakaat kedua: lima kali",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "answer_id": "fiqh_b1_solat_istikharah_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "1. داڤت ممبريكن كتنڠن كڤد هاتي مأنسي. 2. مڠهيلڠكن صيفت سومبوڠ دالم ديري كيت. 3. منجاݢ عقيدة سوڤاي سنتياس يقين دڠن كتنتوان يڠ تله دتقديركن اوليه الله ﷻ.",
+  "criteria": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "answer_id": "fiqh_b1_solat_istikharah_q4::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+  "criteria": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "answer_id": "fiqh_b1_solat_istikharah_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "answer_id": "fiqh_b1_solat_istikharah_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Solat sunat yang mengiringi solat-solat fardu",
+  "criteria": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_rawatib_q2",
+  "answer_id": "fiqh_b1_solat_rawatib_q2::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "صلاة سنة قَبْلِيَّة",
+  "criteria": [
+   {
+    "criterion": "Menyatakan qabliyyah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_rawatib_q2",
+  "answer_id": "fiqh_b1_solat_rawatib_q2::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Solat sunat qabliyyah",
+  "criteria": [
+   {
+    "criterion": "Menyatakan qabliyyah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_rawatib_q2",
+  "answer_id": "fiqh_b1_solat_rawatib_q2::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan qabliyyah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_rawatib_q2",
+  "answer_id": "fiqh_b1_solat_rawatib_q2::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Terbit fajar (subuh)",
+  "criteria": [
+   {
+    "criterion": "Menyatakan qabliyyah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_tahajud_q4",
+  "answer_id": "fiqh_b1_solat_tahajud_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "1. ممبرسيهكن هاتي درڤد كبنچين سسام مأنسي. 2. منچينتاءي الله سبحانه وتعالى دان مڠواتكن ايمان. 3. مڤوڽاءي راس تاكوت كڤد الله سبحانه وتعالى دان مڽدري بهاوا كهيدوڤن ددنيا هاڽ سمنتارا دان سيڠكت.",
+  "criteria": [
+   {
+    "criterion": "Membersihkan hati daripada kebencian",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mencintai Allah dan menguatkan iman",
+    "met": "ya"
+   },
+   {
+    "criterion": "Rasa takut kepada Allah / dunia sementara",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_tahajud_q4",
+  "answer_id": "fiqh_b1_solat_tahajud_q4::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "1. Membersihkan hati daripada kebencian sesama manusia. 2. Mencintai Allah SWT dan menguatkan iman. 3. Mempunyai rasa takut kepada Allah SWT dan menyedari bahawa kehidupan di dunia hanya sementara dan singkat.",
+  "criteria": [
+   {
+    "criterion": "Membersihkan hati daripada kebencian",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mencintai Allah dan menguatkan iman",
+    "met": "ya"
+   },
+   {
+    "criterion": "Rasa takut kepada Allah / dunia sementara",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_tahajud_q4",
+  "answer_id": "fiqh_b1_solat_tahajud_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Membersihkan hati daripada kebencian",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mencintai Allah dan menguatkan iman",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Rasa takut kepada Allah / dunia sementara",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_tahajud_q4",
+  "answer_id": "fiqh_b1_solat_tahajud_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Hukum puasa wajib atau sunat, bergantung pada jenis puasa yang akan dilakukan.",
+  "criteria": [
+   {
+    "criterion": "Membersihkan hati daripada kebencian",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mencintai Allah dan menguatkan iman",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Rasa takut kepada Allah / dunia sementara",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_taubat_q3",
+  "answer_id": "fiqh_b1_solat_taubat_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "احمد",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Ahmad",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_taubat_q3",
+  "answer_id": "fiqh_b1_solat_taubat_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Ahmad",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Ahmad",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_taubat_q3",
+  "answer_id": "fiqh_b1_solat_taubat_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Ahmad",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_taubat_q3",
+  "answer_id": "fiqh_b1_solat_taubat_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "13, 14 dan 15 setiap bulan Hijrah",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Ahmad",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q2",
+  "answer_id": "fiqh_b1_solat_witir_q2::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "سلڤس صلاة عشاء هيڠݢ تربيت فجر",
+  "criteria": [
+   {
+    "criterion": "Selepas solat isyak",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hingga terbit fajar",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q2",
+  "answer_id": "fiqh_b1_solat_witir_q2::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Selepas solat isyak hingga terbit fajar",
+  "criteria": [
+   {
+    "criterion": "Selepas solat isyak",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hingga terbit fajar",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q2",
+  "answer_id": "fiqh_b1_solat_witir_q2::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Selepas solat isyak",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hingga terbit fajar",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q2",
+  "answer_id": "fiqh_b1_solat_witir_q2::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Jika rezekiku masih di langit turunkanlah; jika di bumi keluarkanlah; jika sukar mudahkanlah; jika haram sucikanlah; jika jauh dekatkanlah. (Mana-mana tiga)",
+  "criteria": [
+   {
+    "criterion": "Selepas solat isyak",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hingga terbit fajar",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q4",
+  "answer_id": "fiqh_b1_solat_witir_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "1. دسوكاءي اوليه الله. 2. مندكتكن ديري كڤد الله. 3. ممبريكن ككواتن روحاني دان منڠڠكن جيوا.",
+  "criteria": [
+   {
+    "criterion": "Disukai oleh Allah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mendekatkan diri kepada Allah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kekuatan rohani / menenangkan jiwa",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q4",
+  "answer_id": "fiqh_b1_solat_witir_q4::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+  "criteria": [
+   {
+    "criterion": "Disukai oleh Allah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mendekatkan diri kepada Allah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kekuatan rohani / menenangkan jiwa",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q4",
+  "answer_id": "fiqh_b1_solat_witir_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Disukai oleh Allah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mendekatkan diri kepada Allah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kekuatan rohani / menenangkan jiwa",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q4",
+  "answer_id": "fiqh_b1_solat_witir_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Dua rakaat",
+  "criteria": [
+   {
+    "criterion": "Disukai oleh Allah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mendekatkan diri kepada Allah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kekuatan rohani / menenangkan jiwa",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q2",
+  "answer_id": "fiqh_b2_batal_puasa_q2::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ملاهيرکن انق",
+  "criteria": [
+   {
+    "criterion": "Menyatakan melahirkan anak",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q2",
+  "answer_id": "fiqh_b2_batal_puasa_q2::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Melahirkan anak",
+  "criteria": [
+   {
+    "criterion": "Menyatakan melahirkan anak",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q2",
+  "answer_id": "fiqh_b2_batal_puasa_q2::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan melahirkan anak",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q2",
+  "answer_id": "fiqh_b2_batal_puasa_q2::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Bulan Ramadan",
+  "criteria": [
+   {
+    "criterion": "Menyatakan melahirkan anak",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q5",
+  "answer_id": "fiqh_b2_batal_puasa_q5::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت؛ مماسوقکن سسواتو دڠن سڠاج ملالوءي روڠݢ يڠ تربوک؛ مونتهه دڠن سڠاج؛ مڠلوارکن مني دڠن سڠاج (مان٢ تيݢ).",
+  "criteria": [
+   {
+    "criterion": "Perkara sengaja pertama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara sengaja kedua",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara sengaja ketiga",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q5",
+  "answer_id": "fiqh_b2_batal_puasa_q5::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Makan dan minum dengan sengaja walaupun sedikit; memasukkan sesuatu dengan sengaja melalui rongga yang terbuka; muntah dengan sengaja; mengeluarkan mani dengan sengaja (mana-mana tiga).",
+  "criteria": [
+   {
+    "criterion": "Perkara sengaja pertama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara sengaja kedua",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara sengaja ketiga",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q5",
+  "answer_id": "fiqh_b2_batal_puasa_q5::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Perkara sengaja pertama",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Perkara sengaja kedua",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Perkara sengaja ketiga",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q5",
+  "answer_id": "fiqh_b2_batal_puasa_q5::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "1. Membersihkan hati daripada kebencian sesama manusia. 2. Mencintai Allah SWT dan menguatkan iman. 3. Mempunyai rasa takut kepada Allah SWT dan menyedari bahawa kehidupan di dunia hanya sementara dan singkat.",
+  "criteria": [
+   {
+    "criterion": "Perkara sengaja pertama",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Perkara sengaja kedua",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Perkara sengaja ketiga",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q6",
+  "answer_id": "fiqh_b2_batal_puasa_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ڤواسا علي بطل کران ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت ممبطلکن ڤواسا. ڤواسا سيتي بطل کران کلوار حيض ممبطلکن ڤواسا. ڤرکارا لاءين (مان٢ دوا): مونتهه دڠن سڠاج؛ هيلڠ عقل؛ مرتد؛ برستوبوه دسياڠ هاري؛ ولادة؛ مماسوقکن سسواتو ملالوءي روڠݢ يڠ تربوک؛ مڠلوارکن مني دڠن سڠاج.",
+  "criteria": [
+   {
+    "criterion": "Puasa Ali batal",
+    "met": "ya"
+   },
+   {
+    "criterion": "Alasan: minum dengan sengaja walaupun sedikit",
+    "met": "ya"
+   },
+   {
+    "criterion": "Puasa Siti batal",
+    "met": "ya"
+   },
+   {
+    "criterion": "Alasan: keluar haid",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara lain pertama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara lain kedua",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q6",
+  "answer_id": "fiqh_b2_batal_puasa_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Puasa Ali batal kerana makan dan minum dengan sengaja walaupun sedikit membatalkan puasa. Puasa Siti batal kerana keluar haid membatalkan puasa. Perkara lain (mana-mana dua): muntah dengan sengaja; hilang akal; murtad; bersetubuh di siang hari; wiladah; memasukkan sesuatu melalui rongga yang terbuka; mengeluarkan mani dengan sengaja.",
+  "criteria": [
+   {
+    "criterion": "Puasa Ali batal",
+    "met": "ya"
+   },
+   {
+    "criterion": "Alasan: minum dengan sengaja walaupun sedikit",
+    "met": "ya"
+   },
+   {
+    "criterion": "Puasa Siti batal",
+    "met": "ya"
+   },
+   {
+    "criterion": "Alasan: keluar haid",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara lain pertama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara lain kedua",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q6",
+  "answer_id": "fiqh_b2_batal_puasa_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Puasa Ali batal",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Alasan: minum dengan sengaja walaupun sedikit",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Puasa Siti batal",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Alasan: keluar haid",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Perkara lain pertama",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Perkara lain kedua",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q6",
+  "answer_id": "fiqh_b2_batal_puasa_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mendapat ilham atau idea untuk menyelesaikan kebuntuan / melalui mimpi / dipermudah segala urusan oleh Allah SWT",
+  "criteria": [
+   {
+    "criterion": "Puasa Ali batal",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Alasan: minum dengan sengaja walaupun sedikit",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Puasa Siti batal",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Alasan: keluar haid",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Perkara lain pertama",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Perkara lain kedua",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_fadhilat_puasa_q1",
+  "answer_id": "fiqh_b2_fadhilat_puasa_q1::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "الرَّيَّان",
+  "criteria": [
+   {
+    "criterion": "Menyatakan al-Rayyan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_fadhilat_puasa_q1",
+  "answer_id": "fiqh_b2_fadhilat_puasa_q1::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Al-Rayyan",
+  "criteria": [
+   {
+    "criterion": "Menyatakan al-Rayyan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_fadhilat_puasa_q1",
+  "answer_id": "fiqh_b2_fadhilat_puasa_q1::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan al-Rayyan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_fadhilat_puasa_q1",
+  "answer_id": "fiqh_b2_fadhilat_puasa_q1::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Keluar daripada Islam",
+  "criteria": [
+   {
+    "criterion": "Menyatakan al-Rayyan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_hikmah_puasa_q6",
+  "answer_id": "fiqh_b2_hikmah_puasa_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ڤربواتن عائشة برکاءيتن حکمه مڠرتکن ڤرساوداراءن سسام مسلم (دان مراساءي کسوسهن اورڠ فقير دان ميسکين). ڤربواتن حکيم برکاءيتن حکمه منجاءوهکن ديري درڤد دوسا دان کجاهتن. حکمه لاءين (مان٢ دوا): ممبنتوق صيفت صبر، برديسيڤلين دان برشکور؛ مڽيحتکن توبوه بادن دان منچردسکن اوتق؛ مندکتکن ديري کڤد الله دڠن عملن٢ موليا.",
+  "criteria": [
+   {
+    "criterion": "Aisyah: mengeratkan persaudaraan / merasai kesusahan orang lain",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hakim: menjauhkan diri daripada dosa dan kejahatan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hikmah lain pertama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hikmah lain kedua",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_hikmah_puasa_q6",
+  "answer_id": "fiqh_b2_hikmah_puasa_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Perbuatan Aisyah berkaitan hikmah mengeratkan persaudaraan sesama Muslim (dan merasai kesusahan orang fakir dan miskin). Perbuatan Hakim berkaitan hikmah menjauhkan diri daripada dosa dan kejahatan. Hikmah lain (mana-mana dua): membentuk sifat sabar, berdisiplin dan bersyukur; menyihatkan tubuh badan dan mencerdaskan otak; mendekatkan diri kepada Allah SWT dengan amalan-amalan mulia.",
+  "criteria": [
+   {
+    "criterion": "Aisyah: mengeratkan persaudaraan / merasai kesusahan orang lain",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hakim: menjauhkan diri daripada dosa dan kejahatan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hikmah lain pertama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hikmah lain kedua",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_hikmah_puasa_q6",
+  "answer_id": "fiqh_b2_hikmah_puasa_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Aisyah: mengeratkan persaudaraan / merasai kesusahan orang lain",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hakim: menjauhkan diri daripada dosa dan kejahatan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hikmah lain pertama",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hikmah lain kedua",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_hikmah_puasa_q6",
+  "answer_id": "fiqh_b2_hikmah_puasa_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Petunjuk",
+  "criteria": [
+   {
+    "criterion": "Aisyah: mengeratkan persaudaraan / merasai kesusahan orang lain",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hakim: menjauhkan diri daripada dosa dan kejahatan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hikmah lain pertama",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hikmah lain kedua",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q3",
+  "answer_id": "fiqh_b2_latihan_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "بتول",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (Tasu'a = 9 Muharram)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q3",
+  "answer_id": "fiqh_b2_latihan_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Betul",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (Tasu'a = 9 Muharram)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q3",
+  "answer_id": "fiqh_b2_latihan_q3::tf_flip",
+  "kind": "tf_flip",
+  "script": "rumi",
+  "answer": "Salah",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (Tasu'a = 9 Muharram)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q3",
+  "answer_id": "fiqh_b2_latihan_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (Tasu'a = 9 Muharram)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q3",
+  "answer_id": "fiqh_b2_latihan_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Selepas solat isyak hingga terbit fajar",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (Tasu'a = 9 Muharram)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q4",
+  "answer_id": "fiqh_b2_latihan_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ساله",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (puasa pelindung daripada penyakit kronik dan menyihatkan tubuh badan)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q4",
+  "answer_id": "fiqh_b2_latihan_q4::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Salah",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (puasa pelindung daripada penyakit kronik dan menyihatkan tubuh badan)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q4",
+  "answer_id": "fiqh_b2_latihan_q4::tf_flip",
+  "kind": "tf_flip",
+  "script": "rumi",
+  "answer": "Betul",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (puasa pelindung daripada penyakit kronik dan menyihatkan tubuh badan)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q4",
+  "answer_id": "fiqh_b2_latihan_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (puasa pelindung daripada penyakit kronik dan menyihatkan tubuh badan)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q4",
+  "answer_id": "fiqh_b2_latihan_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Solat istikharah. Solat istikharah ialah solat sunat yang didirikan bagi memohon petunjuk dan bimbingan daripada Allah SWT terhadap perkara yang diragui atau sukar untuk membuat pilihan. Petunjuk boleh berlaku melalui: gerak hati yang kuat untuk melakukan atau meninggalkan pilihan tersebut; mendapat ilham atau idea untuk menyelesaikan kebuntuan; melalui mimpi; dipermudah segala urusan oleh Allah SWT.",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (puasa pelindung daripada penyakit kronik dan menyihatkan tubuh badan)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q8",
+  "answer_id": "fiqh_b2_latihan_q8::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ڤربواتن زينب ساله / تيدق دبنرکن (بردوسا) کران دي تله برنذر، دان ڤواسا نذر ترماسوق دالم ڤواسا واجب. والاوڤون ڤواسا هاري ڤوتيه اصلڽ سنة، اڤابيلا دنذرکن اي منجادي واجب دتونايکن.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Alasan: puasa nazar ialah puasa wajib",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q8",
+  "answer_id": "fiqh_b2_latihan_q8::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Perbuatan Zainab salah / tidak dibenarkan (berdosa) kerana dia telah bernazar, dan puasa nazar termasuk dalam puasa wajib. Walaupun puasa hari putih asalnya sunat, apabila dinazarkan ia menjadi wajib ditunaikan.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Alasan: puasa nazar ialah puasa wajib",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q8",
+  "answer_id": "fiqh_b2_latihan_q8::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Alasan: puasa nazar ialah puasa wajib",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q8",
+  "answer_id": "fiqh_b2_latihan_q8::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Solat bagi mereka yang mempunyai hajat atau kesulitan dalam sesuatu hal",
+  "criteria": [
+   {
+    "criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Alasan: puasa nazar ialah puasa wajib",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q3",
+  "answer_id": "fiqh_b2_pengertian_puasa_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "سورة البقرة ايت 183",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Surah al-Baqarah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan ayat 183",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q3",
+  "answer_id": "fiqh_b2_pengertian_puasa_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Surah al-Baqarah ayat 183",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Surah al-Baqarah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan ayat 183",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q3",
+  "answer_id": "fiqh_b2_pengertian_puasa_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Surah al-Baqarah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan ayat 183",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q3",
+  "answer_id": "fiqh_b2_pengertian_puasa_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Surah al-Baqarah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan ayat 183",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q6",
+  "answer_id": "fiqh_b2_pengertian_puasa_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "حکوم ڤواسا واجب اتاو سنة، برݢنتوڠ ڤد جنيس ڤواسا يڠ اکن دلاکوکن.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan wajib",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan sunat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Bergantung pada jenis puasa",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q6",
+  "answer_id": "fiqh_b2_pengertian_puasa_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Hukum puasa wajib atau sunat, bergantung pada jenis puasa yang akan dilakukan.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan wajib",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan sunat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Bergantung pada jenis puasa",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q6",
+  "answer_id": "fiqh_b2_pengertian_puasa_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan wajib",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan sunat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Bergantung pada jenis puasa",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q6",
+  "answer_id": "fiqh_b2_pengertian_puasa_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Salah",
+  "criteria": [
+   {
+    "criterion": "Menyatakan wajib",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan sunat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Bergantung pada jenis puasa",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q2::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "كسيلاوان",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q2::jawi_typo",
+  "kind": "jawi_typo",
+  "script": "jawi",
+  "answer": "قسيلاوان",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q2::rumi_for_jawi",
+  "kind": "rumi_for_jawi",
+  "script": "rumi",
+  "answer": "kesilauan",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q2::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q2::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q8::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ڤالو -> ڤالوان؛ درو -> دروان",
+  "criteria": [
+   {
+    "criterion": "Contoh pertama kata '-ان' dieja betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh kedua kata '-ان' dieja betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q8::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Contoh: palu -> paluan; deru -> deruan (atau guru -> perguruan, tuju -> tujuan)",
+  "criteria": [
+   {
+    "criterion": "Contoh pertama kata '-ان' dieja betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh kedua kata '-ان' dieja betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q8::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Contoh pertama kata '-ان' dieja betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh kedua kata '-ان' dieja betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_alif_nun_q8::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "MARA boleh dilafazkan dengan sempurna, maka ditulis lengkap sebagai kata: مارا. MRSM tidak dilafaz sebagai kata, maka ditulis dengan huruf Jawi dan noktah: م.ر.س.م. Akronim yang dilafaz terhasil daripada gabungan beberapa patah kata yang dipendekkan sebutannya dan boleh ditulis lengkap sebagai kata. Contoh BM: PROTON (ڤروتون); BI: UNESCO (يونيسكو).",
+  "criteria": [
+   {
+    "criterion": "Contoh pertama kata '-ان' dieja betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh kedua kata '-ان' dieja betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q11",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q11::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن",
+  "criteria": [
+   {
+    "criterion": "Menyebut bunga ros",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut strawberi / buah-buahan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q11",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q11::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+  "criteria": [
+   {
+    "criterion": "Menyebut bunga ros",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut strawberi / buah-buahan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q11",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q11::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyebut bunga ros",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut strawberi / buah-buahan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q11",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q11::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Sambutan sepanjang bulan Ogos; acara kemuncak pada 1 September setiap tahun",
+  "criteria": [
+   {
+    "criterion": "Menyebut bunga ros",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut strawberi / buah-buahan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q12",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q12::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "داڤت ڤڠالمن ممتيق سنديري بواه ستروبيري دان ممبلي سباݢاي بواه تاڠن.",
+  "criteria": [
+   {
+    "criterion": "Memetik sendiri buah strawberi",
+    "met": "ya"
+   },
+   {
+    "criterion": "Membeli sebagai buah tangan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut 'pengalaman'",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q12",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q12::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mendapat pengalaman memetik sendiri buah strawberi dan membeli sebagai buah tangan.",
+  "criteria": [
+   {
+    "criterion": "Memetik sendiri buah strawberi",
+    "met": "ya"
+   },
+   {
+    "criterion": "Membeli sebagai buah tangan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut 'pengalaman'",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q12",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q12::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Memetik sendiri buah strawberi",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Membeli sebagai buah tangan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut 'pengalaman'",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q12",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q12::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Sambutan sepanjang bulan Ogos; acara kemuncak pada 1 September setiap tahun",
+  "criteria": [
+   {
+    "criterion": "Memetik sendiri buah strawberi",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Membeli sebagai buah tangan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut 'pengalaman'",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q6",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "كران كات داسرڽ ڤاكاي براخير دڠن حروف '-ي'؛ ايمبوهن '-an' ڤد كات داسر يڠ براخير دڠن حروف '-ي' هندقله دتوليس دڠن حروف 'ن' سهاج. ايجاءن: ڤاكاين.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja ڤاكاين dengan betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q6",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Kerana kata dasarnya 'pakai' (ڤاكاي) berakhir dengan huruf '-ي' (diftong 'ai'); imbuhan '-an' pada kata dasar yang berakhir dengan huruf '-ي' ditulis dengan 'ن' sahaja. Ejaan: ڤاكاين.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja ڤاكاين dengan betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q6",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja ڤاكاين dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q6",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Kerana kata dasar 'deru' diakhiri dengan huruf 'و' (vokal 'u' dalam suku kata terbuka). Akhiran '-an' pada kata dasar yang diakhiri dengan huruf 'و' termasuk bunyi diftong 'au' hendaklah dieja dengan huruf '-ان'. Ejaan: دروان.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja ڤاكاين dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q8::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ڤد 1 اڤريل 2018",
+  "criteria": [
+   {
+    "criterion": "Menyatakan 1 April 2018",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q8::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Pada 1 April 2018",
+  "criteria": [
+   {
+    "criterion": "Menyatakan 1 April 2018",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q8::number_swap",
+  "kind": "number_swap",
+  "script": "rumi",
+  "answer": "Pada empat April 2018",
+  "criteria": [
+   {
+    "criterion": "Menyatakan 1 April 2018",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q8::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan 1 April 2018",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q8",
+  "answer_id": "jawi_b1_imbuhan_an_nun_q8::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Bank Islam Malaysia Berhad",
+  "criteria": [
+   {
+    "criterion": "Menyatakan 1 April 2018",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q11",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q11::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دري تاڤق ڤلنچرن بايکونور، کازکستن",
+  "criteria": [
+   {
+    "criterion": "Menyebut Baikonur",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut Kazakhstan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q11",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q11::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Dari tapak pelancaran Baikonur, Kazakhstan",
+  "criteria": [
+   {
+    "criterion": "Menyebut Baikonur",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut Kazakhstan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q11",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q11::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyebut Baikonur",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut Kazakhstan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q11",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q11::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Dua: istilah agama dan kata umum",
+  "criteria": [
+   {
+    "criterion": "Menyebut Baikonur",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut Kazakhstan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q4",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دأڠݢوتاءي",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'dianggotai' dengan betul (دأڠݢوتاءي)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q4",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q4::jawi_typo",
+  "kind": "jawi_typo",
+  "script": "jawi",
+  "answer": "دأڠݢوةاءي",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'dianggotai' dengan betul (دأڠݢوتاءي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q4",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q4::rumi_for_jawi",
+  "kind": "rumi_for_jawi",
+  "script": "rumi",
+  "answer": "dianggotai",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'dianggotai' dengan betul (دأڠݢوتاءي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q4",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'dianggotai' dengan betul (دأڠݢوتاءي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q4",
+  "answer_id": "jawi_b2_imbuhan_i_hamzah_ya_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "gurauan",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'dianggotai' dengan betul (دأڠݢوتاءي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q10",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q10::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "واجب دحرمتي",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ayah dan ibu wajib dihormati",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q10",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q10::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Wajib dihormati.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ayah dan ibu wajib dihormati",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q10",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q10::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ayah dan ibu wajib dihormati",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q10",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q10::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Dalam al-Quran, hadis dan ijmak ulama.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ayah dan ibu wajib dihormati",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q3",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "منصيحتي",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q3",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q3::jawi_typo",
+  "kind": "jawi_typo",
+  "script": "jawi",
+  "answer": "منسيحتي",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q3",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q3::rumi_for_jawi",
+  "kind": "rumi_for_jawi",
+  "script": "rumi",
+  "answer": "menasihati",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q3",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q3",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Madinah",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q8",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q8::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ دأيجا دڠن حروف '-ي' سهاج. سوكو كات ترتوتوڤ اياله سوكو كات يڠ دأخيري اوليه حروف كونسونن؛ ۏوكل 'a'، 'i' اتاو 'u'. ماره -> دمارهي؛ بايڠ -> دبايڠي؛ اوبت -> اوبتي.",
+  "criteria": [
+   {
+    "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+    "met": "ya"
+   },
+   {
+    "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja dimarahi: دمارهي",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja dibayangi: دبايڠي",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja ubati: اوبتي",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q8",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q8::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+  "criteria": [
+   {
+    "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+    "met": "ya"
+   },
+   {
+    "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja dimarahi: دمارهي",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja dibayangi: دبايڠي",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja ubati: اوبتي",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q8",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q8::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja dimarahi: دمارهي",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja dibayangi: دبايڠي",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja ubati: اوبتي",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q8",
+  "answer_id": "jawi_b2_imbuhan_i_ya_q8::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari ghurub (terbenam).",
+  "criteria": [
+   {
+    "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja dimarahi: دمارهي",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja dibayangi: دبايڠي",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja ubati: اوبتي",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q11",
+  "answer_id": "jawi_b3_pinjaman_arab_q11::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دالم القرءان، حديث دان اجماع علماء.",
+  "criteria": [
+   {
+    "criterion": "Al-Quran",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hadis",
+    "met": "ya"
+   },
+   {
+    "criterion": "Ijmak ulama",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q11",
+  "answer_id": "jawi_b3_pinjaman_arab_q11::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Dalam al-Quran, hadis dan ijmak ulama.",
+  "criteria": [
+   {
+    "criterion": "Al-Quran",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hadis",
+    "met": "ya"
+   },
+   {
+    "criterion": "Ijmak ulama",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q11",
+  "answer_id": "jawi_b3_pinjaman_arab_q11::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Al-Quran",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hadis",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Ijmak ulama",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q11",
+  "answer_id": "jawi_b3_pinjaman_arab_q11::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup hendaklah dieja dengan huruf '-ي' sahaja. Contoh: baluti (بالوتي), dimarahi (دمارهي).",
+  "criteria": [
+   {
+    "criterion": "Al-Quran",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hadis",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Ijmak ulama",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q13",
+  "answer_id": "jawi_b3_pinjaman_arab_q13::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "برصدقه، صلاة سنة تراويح دمسجد، تداروس القرءان، دودوق دالم مجليس علمو دان بربوک ڤواسا سچارا برجماعه.",
+  "criteria": [
+   {
+    "criterion": "Ibadah pertama (cth. bersedekah)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Ibadah kedua (cth. solat sunat tarawih)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Ibadah ketiga (cth. tadarus al-Quran / majlis ilmu / berbuka puasa berjemaah)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q13",
+  "answer_id": "jawi_b3_pinjaman_arab_q13::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+  "criteria": [
+   {
+    "criterion": "Ibadah pertama (cth. bersedekah)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Ibadah kedua (cth. solat sunat tarawih)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Ibadah ketiga (cth. tadarus al-Quran / majlis ilmu / berbuka puasa berjemaah)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q13",
+  "answer_id": "jawi_b3_pinjaman_arab_q13::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Ibadah pertama (cth. bersedekah)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Ibadah kedua (cth. solat sunat tarawih)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Ibadah ketiga (cth. tadarus al-Quran / majlis ilmu / berbuka puasa berjemaah)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q13",
+  "answer_id": "jawi_b3_pinjaman_arab_q13::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Suku kata yang diakhiri oleh huruf konsonan.",
+  "criteria": [
+   {
+    "criterion": "Ibadah pertama (cth. bersedekah)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Ibadah kedua (cth. solat sunat tarawih)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Ibadah ketiga (cth. tadarus al-Quran / majlis ilmu / berbuka puasa berjemaah)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q14",
+  "answer_id": "jawi_b3_pinjaman_arab_q14::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "حلال، شريكت، ايستيله، تهجد",
+  "criteria": [
+   {
+    "criterion": "halal: حلال",
+    "met": "ya"
+   },
+   {
+    "criterion": "syarikat: شريكت (kata umum, ta maftuhah)",
+    "met": "ya"
+   },
+   {
+    "criterion": "istilah: ايستيله (ejaan Melayu, bukan اصطلاح)",
+    "met": "ya"
+   },
+   {
+    "criterion": "tahajud: تهجد",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q14",
+  "answer_id": "jawi_b3_pinjaman_arab_q14::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "halal: حلال",
+    "met": "tidak"
+   },
+   {
+    "criterion": "syarikat: شريكت (kata umum, ta maftuhah)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "istilah: ايستيله (ejaan Melayu, bukan اصطلاح)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "tahajud: تهجد",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q14",
+  "answer_id": "jawi_b3_pinjaman_arab_q14::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "masakan, harian, belian",
+  "criteria": [
+   {
+    "criterion": "halal: حلال",
+    "met": "tidak"
+   },
+   {
+    "criterion": "syarikat: شريكت (kata umum, ta maftuhah)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "istilah: ايستيله (ejaan Melayu, bukan اصطلاح)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "tahajud: تهجد",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q5",
+  "answer_id": "jawi_b3_pinjaman_arab_q5::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دوا: ايستيله اݢام دان كات عموم",
+  "criteria": [
+   {
+    "criterion": "Menyatakan istilah agama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan kata umum",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q5",
+  "answer_id": "jawi_b3_pinjaman_arab_q5::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Dua: istilah agama dan kata umum",
+  "criteria": [
+   {
+    "criterion": "Menyatakan istilah agama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan kata umum",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q5",
+  "answer_id": "jawi_b3_pinjaman_arab_q5::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan istilah agama",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan kata umum",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q5",
+  "answer_id": "jawi_b3_pinjaman_arab_q5::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Wajib dihormati.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan istilah agama",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan kata umum",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q7",
+  "answer_id": "jawi_b3_pinjaman_arab_q7::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "كات يڠ برمولا دڠن 'ال تعريف'، سام اد 'ال شمسية' اتاو 'ال قمرية' هندقله دككلكن ايجاٴن عربڽ. تندا سمڠ تيدق ڤرلو دݢوناكن. چونتوه: الرحيم، القمر.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ejaan Arab dikekalkan (sama ada al syamsiah atau al qamariah)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan tanda sempang tidak perlu digunakan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh pertama betul (cth. الرحمن، الرحيم، القمر، القدوس، الليل، المؤمن، العزيز، النجم، السلام، الصديق، الخالق، الغفار، الشمس، العليم)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh kedua betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q7",
+  "answer_id": "jawi_b3_pinjaman_arab_q7::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Kata yang bermula dengan 'al takrif' (sama ada 'al syamsiah' atau 'al qamariah') dikekalkan ejaan Arabnya dan tanda sempang tidak perlu digunakan. Contoh: Al-Rahim الرحيم, Al-Qamar القمر.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ejaan Arab dikekalkan (sama ada al syamsiah atau al qamariah)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan tanda sempang tidak perlu digunakan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh pertama betul (cth. الرحمن، الرحيم، القمر، القدوس، الليل، المؤمن، العزيز، النجم، السلام، الصديق، الخالق، الغفار، الشمس، العليم)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh kedua betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q7",
+  "answer_id": "jawi_b3_pinjaman_arab_q7::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ejaan Arab dikekalkan (sama ada al syamsiah atau al qamariah)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan tanda sempang tidak perlu digunakan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh pertama betul (cth. الرحمن، الرحيم، القمر، القدوس، الليل، المؤمن، العزيز، النجم، السلام، الصديق، الخالق، الغفار، الشمس، العليم)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh kedua betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q7",
+  "answer_id": "jawi_b3_pinjaman_arab_q7::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "DBP",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ejaan Arab dikekalkan (sama ada al syamsiah atau al qamariah)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan tanda sempang tidak perlu digunakan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh pertama betul (cth. الرحمن، الرحيم، القمر، القدوس، الليل، المؤمن، العزيز، النجم، السلام، الصديق، الخالق، الغفار، الشمس، العليم)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh kedua betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q9",
+  "answer_id": "jawi_b3_pinjaman_arab_q9::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ايستيله كأݢاماٴن دككلكن ايجاٴن اصلن، چونتوه صلاة. كات عموم دتوليس مڠيكوت بوڽي ملايو، چونتوه سابون (ايجاٴن اصل صابون).",
+  "criteria": [
+   {
+    "criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam",
+    "met": "ya"
+   },
+   {
+    "criterion": "Istilah keagamaan dikekalkan ejaan asalnya",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja solat: صلاة",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja sabun: سابون (bukan صابون)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q9",
+  "answer_id": "jawi_b3_pinjaman_arab_q9::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Istilah keagamaan (berkaitan aktiviti agama Islam) dikekalkan ejaan asalnya, cth. hamzah akhir ditulis sejajar, ta marbutah dikekalkan: solat = صلاة. Kata umum (digunakan dalam aktiviti kehidupan) ditulis mengikut bunyi/sebutan orang Melayu: sabun = سابون (ejaan asal صابون).",
+  "criteria": [
+   {
+    "criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam",
+    "met": "ya"
+   },
+   {
+    "criterion": "Istilah keagamaan dikekalkan ejaan asalnya",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja solat: صلاة",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja sabun: سابون (bukan صابون)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q9",
+  "answer_id": "jawi_b3_pinjaman_arab_q9::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Istilah keagamaan dikekalkan ejaan asalnya",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja solat: صلاة",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja sabun: سابون (bukan صابون)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q9",
+  "answer_id": "jawi_b3_pinjaman_arab_q9::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+  "criteria": [
+   {
+    "criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Istilah keagamaan dikekalkan ejaan asalnya",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja solat: صلاة",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mengeja sabun: سابون (bukan صابون)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q1",
+  "answer_id": "jawi_b4_akronim_dilafaz_q1::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ڤيترونس",
+  "criteria": [
+   {
+    "criterion": "Mengeja ڤيترونس dengan betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q1",
+  "answer_id": "jawi_b4_akronim_dilafaz_q1::jawi_typo",
+  "kind": "jawi_typo",
+  "script": "jawi",
+  "answer": "فيترونس",
+  "criteria": [
+   {
+    "criterion": "Mengeja ڤيترونس dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q1",
+  "answer_id": "jawi_b4_akronim_dilafaz_q1::rumi_for_jawi",
+  "kind": "rumi_for_jawi",
+  "script": "rumi",
+  "answer": "PETRONAS",
+  "criteria": [
+   {
+    "criterion": "Mengeja ڤيترونس dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q1",
+  "answer_id": "jawi_b4_akronim_dilafaz_q1::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mengeja ڤيترونس dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q1",
+  "answer_id": "jawi_b4_akronim_dilafaz_q1::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Kerana kata dasarnya 'pakai' (ڤاكاي) berakhir dengan huruf '-ي' (diftong 'ai'); imbuhan '-an' pada kata dasar yang berakhir dengan huruf '-ي' ditulis dengan 'ن' sahaja. Ejaan: ڤاكاين.",
+  "criteria": [
+   {
+    "criterion": "Mengeja ڤيترونس dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q2",
+  "answer_id": "jawi_b4_akronim_dilafaz_q2::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "جاءيس",
+  "criteria": [
+   {
+    "criterion": "Mengeja جاءيس dengan hamzah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q2",
+  "answer_id": "jawi_b4_akronim_dilafaz_q2::jawi_typo",
+  "kind": "jawi_typo",
+  "script": "jawi",
+  "answer": "جاايس",
+  "criteria": [
+   {
+    "criterion": "Mengeja جاءيس dengan hamzah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q2",
+  "answer_id": "jawi_b4_akronim_dilafaz_q2::rumi_for_jawi",
+  "kind": "rumi_for_jawi",
+  "script": "rumi",
+  "answer": "JAIS",
+  "criteria": [
+   {
+    "criterion": "Mengeja جاءيس dengan hamzah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q2",
+  "answer_id": "jawi_b4_akronim_dilafaz_q2::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mengeja جاءيس dengan hamzah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q2",
+  "answer_id": "jawi_b4_akronim_dilafaz_q2::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "em",
+  "criteria": [
+   {
+    "criterion": "Mengeja جاءيس dengan hamzah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q4",
+  "answer_id": "jawi_b4_akronim_inggeris_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "يو.ايس.أي",
+  "criteria": [
+   {
+    "criterion": "Menulis يو.ايس.أي dengan betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q4",
+  "answer_id": "jawi_b4_akronim_inggeris_q4::jawi_typo",
+  "kind": "jawi_typo",
+  "script": "jawi",
+  "answer": "يو.ايص.أي",
+  "criteria": [
+   {
+    "criterion": "Menulis يو.ايس.أي dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q4",
+  "answer_id": "jawi_b4_akronim_inggeris_q4::rumi_for_jawi",
+  "kind": "rumi_for_jawi",
+  "script": "rumi",
+  "answer": "USA",
+  "criteria": [
+   {
+    "criterion": "Menulis يو.ايس.أي dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q4",
+  "answer_id": "jawi_b4_akronim_inggeris_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menulis يو.ايس.أي dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q4",
+  "answer_id": "jawi_b4_akronim_inggeris_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "dinamai",
+  "criteria": [
+   {
+    "criterion": "Menulis يو.ايس.أي dengan betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q6",
+  "answer_id": "jawi_b4_akronim_inggeris_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دأيجا دڠن منوليس نام حروف ساتو ڤرساتو دان دلتقكن تندا نقطه سلڤس ستياڤ حروف ترسبوت. سي.اءي.عيم.بي.",
+  "criteria": [
+   {
+    "criterion": "Menulis nama huruf satu persatu",
+    "met": "ya"
+   },
+   {
+    "criterion": "Tanda noktah selepas setiap huruf",
+    "met": "ya"
+   },
+   {
+    "criterion": "CIMB: سي.اءي.عيم.بي",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q6",
+  "answer_id": "jawi_b4_akronim_inggeris_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Dieja dengan menulis nama huruf satu persatu dan diletakkan tanda noktah selepas setiap huruf. CIMB = سي.اءي.عيم.بي.",
+  "criteria": [
+   {
+    "criterion": "Menulis nama huruf satu persatu",
+    "met": "ya"
+   },
+   {
+    "criterion": "Tanda noktah selepas setiap huruf",
+    "met": "ya"
+   },
+   {
+    "criterion": "CIMB: سي.اءي.عيم.بي",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q6",
+  "answer_id": "jawi_b4_akronim_inggeris_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menulis nama huruf satu persatu",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Tanda noktah selepas setiap huruf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "CIMB: سي.اءي.عيم.بي",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q6",
+  "answer_id": "jawi_b4_akronim_inggeris_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "SK (Sekolah Kebangsaan), SPM, GPK (jawapan tidak dicetak dalam buku; mengikut peraturan)",
+  "criteria": [
+   {
+    "criterion": "Menulis nama huruf satu persatu",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Tanda noktah selepas setiap huruf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "CIMB: سي.اءي.عيم.بي",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q13",
+  "answer_id": "jawi_b4_akronim_melayu_q13::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دوكتور",
+  "criteria": [
+   {
+    "criterion": "Mengeja دوكتور dalam ejaan penuh",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q13",
+  "answer_id": "jawi_b4_akronim_melayu_q13::jawi_typo",
+  "kind": "jawi_typo",
+  "script": "jawi",
+  "answer": "دوقتور",
+  "criteria": [
+   {
+    "criterion": "Mengeja دوكتور dalam ejaan penuh",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q13",
+  "answer_id": "jawi_b4_akronim_melayu_q13::rumi_for_jawi",
+  "kind": "rumi_for_jawi",
+  "script": "rumi",
+  "answer": "Doktor",
+  "criteria": [
+   {
+    "criterion": "Mengeja دوكتور dalam ejaan penuh",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q13",
+  "answer_id": "jawi_b4_akronim_melayu_q13::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mengeja دوكتور dalam ejaan penuh",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q13",
+  "answer_id": "jawi_b4_akronim_melayu_q13::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mendapat pengalaman memetik sendiri buah strawberi dan membeli sebagai buah tangan.",
+  "criteria": [
+   {
+    "criterion": "Mengeja دوكتور dalam ejaan penuh",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b1_mad_bahagian_q3",
+  "answer_id": "tajwid_b1_mad_bahagian_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دوا بهاݢين",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua bahagian",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b1_mad_bahagian_q3",
+  "answer_id": "tajwid_b1_mad_bahagian_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Dua bahagian",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua bahagian",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b1_mad_bahagian_q3",
+  "answer_id": "tajwid_b1_mad_bahagian_q3::number_swap",
+  "kind": "number_swap",
+  "script": "rumi",
+  "answer": "empat bahagian",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua bahagian",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b1_mad_bahagian_q3",
+  "answer_id": "tajwid_b1_mad_bahagian_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua bahagian",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b1_mad_bahagian_q3",
+  "answer_id": "tajwid_b1_mad_bahagian_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "ح، ي، ط، ه، ر (dihimpunkan dalam حَيٌّ طَهُرَ)",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua bahagian",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+  "answer_id": "tajwid_b2_mad_asli_kalimi_q2::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "مد طبيعي اتاو مد ذاتي",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mad tabi'i atau mad zati",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+  "answer_id": "tajwid_b2_mad_asli_kalimi_q2::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mad tabi'i atau mad zati",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mad tabi'i atau mad zati",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+  "answer_id": "tajwid_b2_mad_asli_kalimi_q2::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mad tabi'i atau mad zati",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+  "answer_id": "tajwid_b2_mad_asli_kalimi_q2::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya. Ia dibaca dengan idgham beserta dengung. Mad = memanjangkan bacaan, Lazim = mesti dibaca panjang, Harfi = satu huruf, Muthaqqal = diidghamkan (ditasydidkan). Contoh: طسٓمٓ (Surah asy-Syu'ara').",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mad tabi'i atau mad zati",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q3",
+  "answer_id": "tajwid_b2_mad_asli_kalimi_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "تيدق دمدكن",
+  "criteria": [
+   {
+    "criterion": "Menyatakan tidak dimadkan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q3",
+  "answer_id": "tajwid_b2_mad_asli_kalimi_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Tidak dimadkan",
+  "criteria": [
+   {
+    "criterion": "Menyatakan tidak dimadkan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q3",
+  "answer_id": "tajwid_b2_mad_asli_kalimi_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan tidak dimadkan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q3",
+  "answer_id": "tajwid_b2_mad_asli_kalimi_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Ikhtibari, Idhtirari, Ikhtiyari dan Intizari.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan tidak dimadkan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_aridh_lissukun_q7",
+  "answer_id": "tajwid_b3_mad_aridh_lissukun_q7::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "مد عارض للسكون اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن). قدرڽ دوا اتاو امڤت اتاو انم حركة. دناماكن دمكين كران باچاءن ماتي ڤد حروف يڠ اخير ايت اداله ماتي يڠ منداتڠ دسببكن باچاءن يڠ دوقفكن. ميثل اليف: بِحُسۡبَانٖ؛ واو: يَسۡطُرُونَ؛ ياء: عَلِيمٌ.",
+  "criteria": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu huruf mati kerana waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kadar dua atau empat atau enam harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Sebab: mati mendatang kerana diwaqafkan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal huruf alif",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal huruf wau",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal huruf ya",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_aridh_lissukun_q7",
+  "answer_id": "tajwid_b3_mad_aridh_lissukun_q7::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mad 'Aridh Lissukun ialah apabila huruf mad bertemu dengan huruf mati kerana waqaf (berhenti bacaan). Kadarnya dua atau empat atau enam harakat. Dinamakan demikian kerana bacaan mati pada huruf akhir itu adalah mati yang mendatang disebabkan bacaan yang diwaqafkan. Misal alif: بِحُسۡبَانٖ; wau: يَسۡطُرُونَ; ya: عَلِيمٌ.",
+  "criteria": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu huruf mati kerana waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kadar dua atau empat atau enam harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Sebab: mati mendatang kerana diwaqafkan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal huruf alif",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal huruf wau",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal huruf ya",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_aridh_lissukun_q7",
+  "answer_id": "tajwid_b3_mad_aridh_lissukun_q7::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu huruf mati kerana waqaf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kadar dua atau empat atau enam harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Sebab: mati mendatang kerana diwaqafkan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal huruf alif",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal huruf wau",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal huruf ya",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_aridh_lissukun_q7",
+  "answer_id": "tajwid_b3_mad_aridh_lissukun_q7::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Apabila bertemu huruf mad dan hamzah dalam satu kalimah.",
+  "criteria": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu huruf mati kerana waqaf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kadar dua atau empat atau enam harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Sebab: mati mendatang kerana diwaqafkan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal huruf alif",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal huruf wau",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal huruf ya",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_badal_q1",
+  "answer_id": "tajwid_b3_mad_badal_q1::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دوا حركة",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_badal_q1",
+  "answer_id": "tajwid_b3_mad_badal_q1::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Dua harakat",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_badal_q1",
+  "answer_id": "tajwid_b3_mad_badal_q1::number_swap",
+  "kind": "number_swap",
+  "script": "rumi",
+  "answer": "tujuh harakat",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_badal_q1",
+  "answer_id": "tajwid_b3_mad_badal_q1::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_badal_q1",
+  "answer_id": "tajwid_b3_mad_badal_q1::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_fari_pengenalan_q3",
+  "answer_id": "tajwid_b3_mad_fari_pengenalan_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ترداڤت حروف ماتي سلڤس حروف مد",
+  "criteria": [
+   {
+    "criterion": "Menyatakan huruf mati selepas huruf mad",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_fari_pengenalan_q3",
+  "answer_id": "tajwid_b3_mad_fari_pengenalan_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Terdapat huruf mati selepas huruf mad",
+  "criteria": [
+   {
+    "criterion": "Menyatakan huruf mati selepas huruf mad",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_fari_pengenalan_q3",
+  "answer_id": "tajwid_b3_mad_fari_pengenalan_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan huruf mati selepas huruf mad",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_fari_pengenalan_q3",
+  "answer_id": "tajwid_b3_mad_fari_pengenalan_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Satu kalimah",
+  "criteria": [
+   {
+    "criterion": "Menyatakan huruf mati selepas huruf mad",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q1",
+  "answer_id": "tajwid_b3_mad_farq_q1::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "انم حركة",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q1",
+  "answer_id": "tajwid_b3_mad_farq_q1::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Enam harakat",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q1",
+  "answer_id": "tajwid_b3_mad_farq_q1::number_swap",
+  "kind": "number_swap",
+  "script": "rumi",
+  "answer": "empat harakat",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q1",
+  "answer_id": "tajwid_b3_mad_farq_q1::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q1",
+  "answer_id": "tajwid_b3_mad_farq_q1::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Kerana waqaf (berhenti bacaan)",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q3",
+  "answer_id": "tajwid_b3_mad_farq_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "تيݢ كليمه دالم انم تمڤت",
+  "criteria": [
+   {
+    "criterion": "Tiga kalimah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Enam tempat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q3",
+  "answer_id": "tajwid_b3_mad_farq_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Tiga kalimah dalam enam tempat",
+  "criteria": [
+   {
+    "criterion": "Tiga kalimah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Enam tempat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q3",
+  "answer_id": "tajwid_b3_mad_farq_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Tiga kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Enam tempat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q3",
+  "answer_id": "tajwid_b3_mad_farq_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Dengan menukarkan baris tanwin kepada huruf alif. Mad 'Iwadh hanya berlaku ketika waqaf sahaja.",
+  "criteria": [
+   {
+    "criterion": "Tiga kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Enam tempat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q5",
+  "answer_id": "tajwid_b3_mad_farq_q5::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "تسهيل ياءيت ممبوپيكن همزة كدوا انتارا بوپي همزة دان اليف، تتاڤي باچاءن مد لبيه اوتام.",
+  "criteria": [
+   {
+    "criterion": "Membunyikan hamzah kedua",
+    "met": "ya"
+   },
+   {
+    "criterion": "Antara bunyi hamzah dan alif",
+    "met": "ya"
+   },
+   {
+    "criterion": "Bacaan mad lebih utama",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q5",
+  "answer_id": "tajwid_b3_mad_farq_q5::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Tashil iaitu membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama.",
+  "criteria": [
+   {
+    "criterion": "Membunyikan hamzah kedua",
+    "met": "ya"
+   },
+   {
+    "criterion": "Antara bunyi hamzah dan alif",
+    "met": "ya"
+   },
+   {
+    "criterion": "Bacaan mad lebih utama",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q5",
+  "answer_id": "tajwid_b3_mad_farq_q5::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Membunyikan hamzah kedua",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Antara bunyi hamzah dan alif",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Bacaan mad lebih utama",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q5",
+  "answer_id": "tajwid_b3_mad_farq_q5::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "صلى: harus waqaf tetapi dibaca wasal lebih utama. قلى: waqaf lebih utama daripada wasal. ∴ ∴: Waqaf Mu'anaqah iaitu berhenti pada salah satu tempat sahaja. Contoh: ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ (Surah al-Baqarah: 2).",
+  "criteria": [
+   {
+    "criterion": "Membunyikan hamzah kedua",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Antara bunyi hamzah dan alif",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Bacaan mad lebih utama",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q6",
+  "answer_id": "tajwid_b3_mad_farq_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "سورة يونس ايات 59، 91 دان 51؛ سورة النمل ايات 59؛ سورة الأنعام ايات 143 دان 144.",
+  "criteria": [
+   {
+    "criterion": "Surah Yunus (59, 91, 51)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah an-Naml 59",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah al-An'am 143 dan 144",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q6",
+  "answer_id": "tajwid_b3_mad_farq_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Surah Yunus ayat 59, 91 dan 51; Surah an-Naml ayat 59; Surah al-An'am ayat 143 dan 144.",
+  "criteria": [
+   {
+    "criterion": "Surah Yunus (59, 91, 51)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah an-Naml 59",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah al-An'am 143 dan 144",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q6",
+  "answer_id": "tajwid_b3_mad_farq_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Surah Yunus (59, 91, 51)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah an-Naml 59",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah al-An'am 143 dan 144",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q6",
+  "answer_id": "tajwid_b3_mad_farq_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Lima",
+  "criteria": [
+   {
+    "criterion": "Surah Yunus (59, 91, 51)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah an-Naml 59",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah al-An'am 143 dan 144",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q1",
+  "answer_id": "tajwid_b3_mad_iwadh_q1::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دوا حركة",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q1",
+  "answer_id": "tajwid_b3_mad_iwadh_q1::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Dua harakat",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q1",
+  "answer_id": "tajwid_b3_mad_iwadh_q1::number_swap",
+  "kind": "number_swap",
+  "script": "rumi",
+  "answer": "tiga harakat",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q1",
+  "answer_id": "tajwid_b3_mad_iwadh_q1::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q1",
+  "answer_id": "tajwid_b3_mad_iwadh_q1::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q4",
+  "answer_id": "tajwid_b3_mad_iwadh_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "مد عوض اياله اڤابيلا مووقفكن باچاءن ڤد اخير كليمه يڠ برباريس تنوين دأتس كچوالي ڤد حروف تاء مربوطة.",
+  "criteria": [
+   {
+    "criterion": "Mewaqafkan bacaan pada akhir kalimah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Berbaris tanwin di atas",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kecuali ta marbutah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q4",
+  "answer_id": "tajwid_b3_mad_iwadh_q4::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mad 'Iwadh ialah apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas kecuali pada huruf ta marbutah.",
+  "criteria": [
+   {
+    "criterion": "Mewaqafkan bacaan pada akhir kalimah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Berbaris tanwin di atas",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kecuali ta marbutah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q4",
+  "answer_id": "tajwid_b3_mad_iwadh_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mewaqafkan bacaan pada akhir kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Berbaris tanwin di atas",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kecuali ta marbutah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q4",
+  "answer_id": "tajwid_b3_mad_iwadh_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Dua atau empat atau enam harakat",
+  "criteria": [
+   {
+    "criterion": "Mewaqafkan bacaan pada akhir kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Berbaris tanwin di atas",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kecuali ta marbutah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_jaiz_munfasil_q6",
+  "answer_id": "tajwid_b3_mad_jaiz_munfasil_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "مد جائز منفصل اياله اڤابيلا برتمو حروف مد دان همزة دالم دوا كليمه. قدرڽ امڤت اتاو ليم حركة. دناماكن مد جائز كران علماء قراءة مڠهاروسكن دباچ دوا حركة اتاو لبيه. اي هاڽ برلاكو كتيک وصل؛ جک كليمه ڤرتام دواقفكن، اي منجادي مد اصلي كلمي (دوا حركة). چونتوه: وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ (سورة البروج: 8).",
+  "criteria": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu hamzah dalam dua kalimah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kadar empat atau lima harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Sebab dinamakan: ulama qiraat mengharuskan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Waqaf pada kalimah pertama menjadi Mad Asli Kalimi",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh ayat yang betul beserta surah dan ayat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_jaiz_munfasil_q6",
+  "answer_id": "tajwid_b3_mad_jaiz_munfasil_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mad Jaiz Munfasil ialah apabila bertemu huruf mad dan hamzah dalam dua kalimah. Kadarnya empat atau lima harakat. Dinamakan Mad Jaiz kerana ulama qiraat mengharuskan dibaca dua harakat atau lebih. Ia hanya berlaku ketika wasal; jika kalimah pertama diwaqafkan, ia menjadi Mad Asli Kalimi (dua harakat). Contoh: وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ (Surah al-Buruj: 8).",
+  "criteria": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu hamzah dalam dua kalimah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kadar empat atau lima harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Sebab dinamakan: ulama qiraat mengharuskan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Waqaf pada kalimah pertama menjadi Mad Asli Kalimi",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh ayat yang betul beserta surah dan ayat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_jaiz_munfasil_q6",
+  "answer_id": "tajwid_b3_mad_jaiz_munfasil_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu hamzah dalam dua kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kadar empat atau lima harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Sebab dinamakan: ulama qiraat mengharuskan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Waqaf pada kalimah pertama menjadi Mad Asli Kalimi",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh ayat yang betul beserta surah dan ayat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_jaiz_munfasil_q6",
+  "answer_id": "tajwid_b3_mad_jaiz_munfasil_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Apabila terdapat dua hukum mad dalam satu kalimah, hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Contohnya kalimah مِمَّا يَشَآءُ ketika bacaan waqaf terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+  "criteria": [
+   {
+    "criterion": "Pengertian: huruf mad bertemu hamzah dalam dua kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kadar empat atau lima harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Sebab dinamakan: ulama qiraat mengharuskan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Waqaf pada kalimah pertama menjadi Mad Asli Kalimi",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh ayat yang betul beserta surah dan ayat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "مان٢ ليم: القلم، ق، ص، مريم، يس، الشورى، النمل، يونس، يوسف، هود، إبراهيم، الحجر، الرعد، الدخان، البقرة، الشعراء، القصص، الأعراف.",
+  "criteria": [
+   {
+    "criterion": "Dua surah pertama yang betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Tiga surah berikutnya yang betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mana-mana lima: al-Qalam, Qaf, Sad, Maryam, Yasin, asy-Syura, an-Naml, Yunus, Yusuf, Hud, Ibrahim, al-Hijr, ar-Ra'd, ad-Dukhan, al-Baqarah, asy-Syu'ara', al-Qasas, al-A'raf.",
+  "criteria": [
+   {
+    "criterion": "Dua surah pertama yang betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Tiga surah berikutnya yang betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Dua surah pertama yang betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Tiga surah berikutnya yang betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad Lazim Kalimi Muthaqqal ialah apabila huruf mad bertemu dengan huruf yang bertasydid dalam satu kalimah. Hukum bacaannya dibaca dengan idgham.",
+  "criteria": [
+   {
+    "criterion": "Dua surah pertama yang betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Tiga surah berikutnya yang betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دباچ دڠن إدغام برسرتا دڠوڠ",
+  "criteria": [
+   {
+    "criterion": "Idgham",
+    "met": "ya"
+   },
+   {
+    "criterion": "Beserta dengung",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Dibaca dengan idgham beserta dengung",
+  "criteria": [
+   {
+    "criterion": "Idgham",
+    "met": "ya"
+   },
+   {
+    "criterion": "Beserta dengung",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Idgham",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Beserta dengung",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "طه (Surah Taha) dibaca Ta, Ha: huruf pertama ط dieja dua huruf (طا) dan huruf kedua ه dieja dua huruf (ها). كٓهيعٓصٓ (Surah Maryam) dibaca Kaf, Ha, Ya, 'Ain, Sad: huruf kedua ه dieja (ها) dan huruf ketiga ي dieja (يا). Semuanya mad asli harfi dan wajib dibaca dua harakat.",
+  "criteria": [
+   {
+    "criterion": "Idgham",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Beserta dengung",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "دأدغامكن (دتشديدكن)",
+  "criteria": [
+   {
+    "criterion": "Diidghamkan / ditasydidkan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Diidghamkan (ditasydidkan)",
+  "criteria": [
+   {
+    "criterion": "Diidghamkan / ditasydidkan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Diidghamkan / ditasydidkan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Dua bahagian",
+  "criteria": [
+   {
+    "criterion": "Diidghamkan / ditasydidkan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "الٓمٓصٓ دباچ أَلِف لام ميم صاد دان الٓمٓ دباچ أَلِف لام ميم؛ مد لازم حرفي مثقل دباچ دڠن إدغام برسرتا دڠوڠ.",
+  "criteria": [
+   {
+    "criterion": "الٓمٓصٓ dibaca alif lam mim sad",
+    "met": "ya"
+   },
+   {
+    "criterion": "الٓمٓ dibaca alif lam mim",
+    "met": "ya"
+   },
+   {
+    "criterion": "Dibaca dengan idgham beserta dengung",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "الٓمٓصٓ dibaca أَلِف لام ميم صاد dan الٓمٓ dibaca أَلِف لام ميم; Mad Lazim Harfi Muthaqqal dibaca dengan idgham beserta dengung.",
+  "criteria": [
+   {
+    "criterion": "الٓمٓصٓ dibaca alif lam mim sad",
+    "met": "ya"
+   },
+   {
+    "criterion": "الٓمٓ dibaca alif lam mim",
+    "met": "ya"
+   },
+   {
+    "criterion": "Dibaca dengan idgham beserta dengung",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "الٓمٓصٓ dibaca alif lam mim sad",
+    "met": "tidak"
+   },
+   {
+    "criterion": "الٓمٓ dibaca alif lam mim",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Dibaca dengan idgham beserta dengung",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "14 huruf",
+  "criteria": [
+   {
+    "criterion": "الٓمٓصٓ dibaca alif lam mim sad",
+    "met": "tidak"
+   },
+   {
+    "criterion": "الٓمٓ dibaca alif lam mim",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Dibaca dengan idgham beserta dengung",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "انم حركة",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Enam harakat (kadar Mad Lazim)",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9::number_swap",
+  "kind": "number_swap",
+  "script": "rumi",
+  "answer": "tujuh harakat (kadar Mad Lazim)",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9",
+  "answer_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "طه (Surah Taha) dibaca Ta, Ha: huruf pertama ط dieja dua huruf (طا) dan huruf kedua ه dieja dua huruf (ها). كٓهيعٓصٓ (Surah Maryam) dibaca Kaf, Ha, Ya, 'Ain, Sad: huruf kedua ه dieja (ها) dan huruf ketiga ي dieja (يا). Semuanya mad asli harfi dan wajib dibaca dua harakat.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+  "answer_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ءَآلۡـَٰٔنَ",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ءَآلۡـَٰٔنَ",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+  "answer_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "ءَآلۡـَٰٔنَ",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ءَآلۡـَٰٔنَ",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+  "answer_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ءَآلۡـَٰٔنَ",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+  "answer_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad Asli Kalimi (dua harakat)",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ءَآلۡـَٰٔنَ",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+  "answer_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "مد لازم كلمي مخفف اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو كليمه. هاڽ ترداڤت دوا تمڤت دالم القرءان يائيت سورة يونس ايات 51 دان 91.",
+  "criteria": [
+   {
+    "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah Yunus ayat 51 dan 91",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+  "answer_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mad Lazim Kalimi Mukhaffaf ialah apabila huruf mad bertemu dengan huruf mati dalam satu kalimah. Hanya terdapat dua tempat dalam al-Quran iaitu Surah Yunus ayat 51 dan 91.",
+  "criteria": [
+   {
+    "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah Yunus ayat 51 dan 91",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+  "answer_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah Yunus ayat 51 dan 91",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+  "answer_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad Wajib Muttasil: empat atau lima. Mad 'Aridh Lissukun: harus dua, empat atau enam harakat. Mad Badal: dua harakat.",
+  "criteria": [
+   {
+    "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah Yunus ayat 51 dan 91",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lin_q5",
+  "answer_id": "tajwid_b3_mad_lin_q5::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "1. حروف واو يڠ ماتي سبلومڽ برباريس اتس. 2. حروف ياء يڠ ماتي سبلومڽ برباريس اتس.",
+  "criteria": [
+   {
+    "criterion": "Huruf wau mati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huruf ya mati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huruf sebelumnya berbaris atas",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lin_q5",
+  "answer_id": "tajwid_b3_mad_lin_q5::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "1. Huruf wau yang mati sebelumnya berbaris atas. 2. Huruf ya yang mati sebelumnya berbaris atas.",
+  "criteria": [
+   {
+    "criterion": "Huruf wau mati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huruf ya mati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Huruf sebelumnya berbaris atas",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lin_q5",
+  "answer_id": "tajwid_b3_mad_lin_q5::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Huruf wau mati",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huruf ya mati",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huruf sebelumnya berbaris atas",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lin_q5",
+  "answer_id": "tajwid_b3_mad_lin_q5::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mana-mana empat: Mad Wajib Muttasil, Mad Jaiz Munfasil, Mad Badal, Mad Silah Tawilah, Mad Farq, Mad Ta'zim.",
+  "criteria": [
+   {
+    "criterion": "Huruf wau mati",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huruf ya mati",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huruf sebelumnya berbaris atas",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tamkin_q2",
+  "answer_id": "tajwid_b3_mad_tamkin_q2::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ليم كليمه سهاج",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima kalimah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tamkin_q2",
+  "answer_id": "tajwid_b3_mad_tamkin_q2::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Lima kalimah sahaja",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima kalimah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tamkin_q2",
+  "answer_id": "tajwid_b3_mad_tamkin_q2::number_swap",
+  "kind": "number_swap",
+  "script": "rumi",
+  "answer": "tujuh kalimah sahaja",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima kalimah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tamkin_q2",
+  "answer_id": "tajwid_b3_mad_tamkin_q2::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima kalimah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tamkin_q2",
+  "answer_id": "tajwid_b3_mad_tamkin_q2::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad Lazim Kalimi Muthaqqal ialah apabila huruf mad bertemu dengan huruf yang bertasydid dalam satu kalimah. Ia dibaca dengan idgham dan mesti dibaca enam harakat. Contoh: فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلۡكُبۡرَىٰ (Surah an-Nazi'at: 34).",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima kalimah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tazim_q4",
+  "answer_id": "tajwid_b3_mad_tazim_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "مد تعظيم اياله اڤابيلا ترداڤت كليمه لَآ يڠ منونجوقكن ڤنافين برتمو دڠن كليمه إِلَٰهَ.",
+  "criteria": [
+   {
+    "criterion": "Menyebut kalimah لَآ",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan لَآ menunjukkan penafian",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan bertemu dengan kalimah إِلَٰهَ",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tazim_q4",
+  "answer_id": "tajwid_b3_mad_tazim_q4::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ.",
+  "criteria": [
+   {
+    "criterion": "Menyebut kalimah لَآ",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan لَآ menunjukkan penafian",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan bertemu dengan kalimah إِلَٰهَ",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tazim_q4",
+  "answer_id": "tajwid_b3_mad_tazim_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyebut kalimah لَآ",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan لَآ menunjukkan penafian",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan bertemu dengan kalimah إِلَٰهَ",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_tazim_q4",
+  "answer_id": "tajwid_b3_mad_tazim_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad Jaiz Munfasil ialah apabila bertemu huruf mad dan hamzah dalam dua kalimah. Kadarnya empat atau lima harakat. Dinamakan Mad Jaiz kerana ulama qiraat mengharuskan dibaca dua harakat atau lebih. Ia hanya berlaku ketika wasal; jika kalimah pertama diwaqafkan, ia menjadi Mad Asli Kalimi (dua harakat). Contoh: وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ (Surah al-Buruj: 8).",
+  "criteria": [
+   {
+    "criterion": "Menyebut kalimah لَآ",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan لَآ menunjukkan penafian",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan bertemu dengan kalimah إِلَٰهَ",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+  "answer_id": "tajwid_b3_mad_wajib_muttasil_q5::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "a. امڤت اتاو ليم حركة اڤابيلا همزه براد دتڠه كليمه اتاو دهوجوڠ كليمه كتيک دباچ دڠن وصل اتاو وقف. b. امڤت اتاو ليم اتاو انم حركة اڤابيلا همزه براد دهوجوڠ كليمه كتيک دباچ دڠن وقف سهاج.",
+  "criteria": [
+   {
+    "criterion": "Empat atau lima harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Empat atau lima atau enam harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+  "answer_id": "tajwid_b3_mad_wajib_muttasil_q5::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+  "criteria": [
+   {
+    "criterion": "Empat atau lima harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Empat atau lima atau enam harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+  "answer_id": "tajwid_b3_mad_wajib_muttasil_q5::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Empat atau lima harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Empat atau lima atau enam harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+  "answer_id": "tajwid_b3_mad_wajib_muttasil_q5::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Surah at-Taubah (Bara'ah)",
+  "criteria": [
+   {
+    "criterion": "Empat atau lima harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Empat atau lima atau enam harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+  "answer_id": "tajwid_b3_mad_wajib_muttasil_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "چونتوه: مِّنَ ٱلسَّمَآءِ ، بِٱلسُّوٓءِ ، هَنِيٓـٔٗا",
+  "criteria": [
+   {
+    "criterion": "Misal pertama yang betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal kedua yang betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal ketiga yang betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+  "answer_id": "tajwid_b3_mad_wajib_muttasil_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Contoh: مِّنَ ٱلسَّمَآءِ ، بِٱلسُّوٓءِ ، هَنِيٓـٔٗا (atau misal lain dalam buku: أَبۡنَآءَكُمۡ ، أُوْلَٰٓئِكَ ، قُرُوٓءٖ ، تَبُوٓأَ ، وَجِاْيٓءَ ، مَّرِيٓـٔٗا ، نِسَآءَكُمۡ ، سُوٓءَ).",
+  "criteria": [
+   {
+    "criterion": "Misal pertama yang betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal kedua yang betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Misal ketiga yang betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+  "answer_id": "tajwid_b3_mad_wajib_muttasil_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Misal pertama yang betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal kedua yang betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal ketiga yang betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+  "answer_id": "tajwid_b3_mad_wajib_muttasil_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Potongan huruf yang berada di pembukaan surah",
+  "criteria": [
+   {
+    "criterion": "Misal pertama yang betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal kedua yang betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal ketiga yang betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q4",
+  "answer_id": "tajwid_b4_tingkatan_mad_q4::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "ليم تيڠكتن",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q4",
+  "answer_id": "tajwid_b4_tingkatan_mad_q4::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Lima tingkatan",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q4",
+  "answer_id": "tajwid_b4_tingkatan_mad_q4::number_swap",
+  "kind": "number_swap",
+  "script": "rumi",
+  "answer": "enam tingkatan",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q4",
+  "answer_id": "tajwid_b4_tingkatan_mad_q4::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q4",
+  "answer_id": "tajwid_b4_tingkatan_mad_q4::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Mad 'Iwadh ialah apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas kecuali pada huruf ta marbutah.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q6",
+  "answer_id": "tajwid_b4_tingkatan_mad_q6::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "مد واجب متصل: امڤت اتاو ليم. مد عارض للسكون: هاروس دوا، امڤت اتاو انم حركة. مد بدل: دوا حركة.",
+  "criteria": [
+   {
+    "criterion": "Mad Wajib Muttasil empat atau lima",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mad 'Aridh Lissukun dua, empat atau enam",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mad Badal dua harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q6",
+  "answer_id": "tajwid_b4_tingkatan_mad_q6::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Mad Wajib Muttasil: empat atau lima. Mad 'Aridh Lissukun: harus dua, empat atau enam harakat. Mad Badal: dua harakat.",
+  "criteria": [
+   {
+    "criterion": "Mad Wajib Muttasil empat atau lima",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mad 'Aridh Lissukun dua, empat atau enam",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mad Badal dua harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q6",
+  "answer_id": "tajwid_b4_tingkatan_mad_q6::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mad Wajib Muttasil empat atau lima",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mad 'Aridh Lissukun dua, empat atau enam",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mad Badal dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q6",
+  "answer_id": "tajwid_b4_tingkatan_mad_q6::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Tidak berlaku",
+  "criteria": [
+   {
+    "criterion": "Mad Wajib Muttasil empat atau lima",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mad 'Aridh Lissukun dua, empat atau enam",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mad Badal dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q7",
+  "answer_id": "tajwid_b4_tingkatan_mad_q7::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "اڤابيلا ترداڤت دوا حكوم مد دالم ساتو كليمه، حكومڽ هندقله برڤندوکن كڤد تيڠكتن يڠ ترتيڠڬي. چونتوه كليمه مِمَّا يَشَآءُ كتيک باچاءن وقف ترداڤت دوا حكوم ياءيت مد عارض للسكون دان مد واجب متصل. حكوم سبنرڽ اداله مد واجب متصل كران تيڠكتنڽ لبيه تيڠڬي درڤد مد عارض للسكون.",
+  "criteria": [
+   {
+    "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q7",
+  "answer_id": "tajwid_b4_tingkatan_mad_q7::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Apabila terdapat dua hukum mad dalam satu kalimah, hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Contohnya kalimah مِمَّا يَشَآءُ ketika bacaan waqaf terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+  "criteria": [
+   {
+    "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q7",
+  "answer_id": "tajwid_b4_tingkatan_mad_q7::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q7",
+  "answer_id": "tajwid_b4_tingkatan_mad_q7::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Surah an-Nazi'at: 34 — ٱلطَّآمَّةُ; Surah 'Abasa: 33 — ٱلصَّآخَّةُ. Pada kedua-duanya huruf mad bertemu huruf bertasydid dalam satu kalimah.",
+  "criteria": [
+   {
+    "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q1",
+  "answer_id": "tajwid_b6_ibtida_q1::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "إبتداء اياله ممولاكن باچاءن اتاو مڽامبوڠ باچاءن ستله وقف.",
+  "criteria": [
+   {
+    "criterion": "Memulakan atau menyambung bacaan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Setelah waqaf",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q1",
+  "answer_id": "tajwid_b6_ibtida_q1::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Ibtida' ialah memulakan bacaan atau menyambung bacaan setelah waqaf.",
+  "criteria": [
+   {
+    "criterion": "Memulakan atau menyambung bacaan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Setelah waqaf",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q1",
+  "answer_id": "tajwid_b6_ibtida_q1::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Memulakan atau menyambung bacaan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Setelah waqaf",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q1",
+  "answer_id": "tajwid_b6_ibtida_q1::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "حُيِّيتُم ، ٱلنَّبِيِّـۧنَ ، عِلِّيِّينَ ، وَٱلۡأُمِّيِّـۧنَ ، رَبَّٰنِيِّـۧنَ",
+  "criteria": [
+   {
+    "criterion": "Memulakan atau menyambung bacaan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Setelah waqaf",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q2",
+  "answer_id": "tajwid_b6_ibtida_q2::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "سورة التوبة (براءة)",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Surah at-Taubah / Bara'ah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q2",
+  "answer_id": "tajwid_b6_ibtida_q2::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Surah at-Taubah (Bara'ah)",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Surah at-Taubah / Bara'ah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q2",
+  "answer_id": "tajwid_b6_ibtida_q2::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Surah at-Taubah / Bara'ah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q2",
+  "answer_id": "tajwid_b6_ibtida_q2::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "حُيِّيتُم ، ٱلنَّبِيِّـۧنَ ، عِلِّيِّينَ ، وَٱلۡأُمِّيِّـۧنَ ، رَبَّٰنِيِّـۧنَ",
+  "criteria": [
+   {
+    "criterion": "Menyatakan Surah at-Taubah / Bara'ah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q7",
+  "answer_id": "tajwid_b6_ibtida_q7::ref_jawi",
+  "kind": "ref_jawi",
+  "script": "jawi",
+  "answer": "إبتداء أقبح اياله ممولاكن اتاو مڽامبوڠ باچاءن ڤد سواتو تمڤت يڠ بوليه مڠوبه معنا اتاو مقصود يڠ دكهندقي اوليه الله تعالى اتاو يڠ بوليه مڽالهي عقيده (دڠن نية). جک دمولاكن دڠن نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ مقصودڽ \"...كامي اداله انق الله دان ككاسيهڽ...\". هندقله دمولاكن دڠن وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ (سورة المائدة: 18).",
+  "criteria": [
+   {
+    "criterion": "Mengubah makna/maksud yang dikehendaki Allah Taala",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyalahi akidah (dengan niat)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan maksud 'Kami adalah anak Allah dan kekasih-Nya'",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah al-Maidah: 18",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q7",
+  "answer_id": "tajwid_b6_ibtida_q7::ref_rumi",
+  "kind": "ref_rumi",
+  "script": "rumi",
+  "answer": "Ibtida' Aqbah ialah memulakan atau menyambung bacaan pada suatu tempat yang boleh mengubah makna atau maksud yang dikehendaki oleh Allah Taala atau yang boleh menyalahi akidah (dengan niat). Jika dimulakan dengan نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ maksudnya \"...Kami adalah anak Allah dan kekasih-Nya...\". Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ نَحۡنُ أَبۡنَٰٓؤُاْ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ (Surah al-Maidah: 18).",
+  "criteria": [
+   {
+    "criterion": "Mengubah makna/maksud yang dikehendaki Allah Taala",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyalahi akidah (dengan niat)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan maksud 'Kami adalah anak Allah dan kekasih-Nya'",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah al-Maidah: 18",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q7",
+  "answer_id": "tajwid_b6_ibtida_q7::dont_know",
+  "kind": "dont_know",
+  "script": "rumi",
+  "answer": "saya tidak tahu",
+  "criteria": [
+   {
+    "criterion": "Mengubah makna/maksud yang dikehendaki Allah Taala",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyalahi akidah (dengan niat)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan maksud 'Kami adalah anak Allah dan kekasih-Nya'",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah al-Maidah: 18",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ },
+ {
+  "question_id": "tajwid_b6_ibtida_q7",
+  "answer_id": "tajwid_b6_ibtida_q7::other_topic",
+  "kind": "other_topic",
+  "script": "rumi",
+  "answer": "Empat",
+  "criteria": [
+   {
+    "criterion": "Mengubah makna/maksud yang dikehendaki Allah Taala",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyalahi akidah (dengan niat)",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan maksud 'Kami adalah anak Allah dan kekasih-Nya'",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hendaklah dimulakan dengan وَقَالَتِ ٱلۡيَهُودُ وَٱلنَّصَٰرَىٰ",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah al-Maidah: 18",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0,
+  "label_source": "construction"
+ }
+]

@@ -1,0 +1,159 @@
+{
+ "best_by_error": "no_llm_sim",
+ "chosen": "no_llm_sim",
+ "candidates": {
+  "no_llm_sim": {
+   "name": "no_llm_sim",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "sim",
+    "hi": 0.65,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   }
+  },
+  "no_llm_sims": {
+   "name": "no_llm_sims",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "sims",
+    "hi": 0.75,
+    "lo": 1.1,
+    "w": 0.7,
+    "guard": 0.6
+   }
+  },
+  "no_llm_overlap": {
+   "name": "no_llm_overlap",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "overlap",
+    "hi": 0.8,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   }
+  },
+  "no_llm_mix": {
+   "name": "no_llm_mix",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "mix",
+    "hi": 0.85,
+    "lo": 0.75,
+    "w": 0.3,
+    "guard": 0.6
+   }
+  },
+  "llm_prob_zeroshot": {
+   "name": "llm_prob_zeroshot",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "prob_zs",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   }
+  },
+  "llm_prob_fewshot": {
+   "name": "llm_prob_fewshot",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "prob_fs",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   }
+  },
+  "hybrid_zeroshot": {
+   "name": "hybrid_zeroshot",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "hybrid_zs",
+    "hi": 0.85,
+    "lo": 0.8,
+    "w": 0.3,
+    "guard": 0.6
+   }
+  },
+  "hybrid_fewshot": {
+   "name": "hybrid_fewshot",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "hybrid_fs",
+    "hi": 0.85,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   }
+  },
+  "llm_generative": {
+   "name": "llm_generative",
+   "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+   },
+   "l23": {
+    "method": "gen",
+    "hi": 0.6,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.65
+   }
+  }
+ }
+}

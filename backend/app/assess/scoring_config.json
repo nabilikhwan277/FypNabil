@@ -1,0 +1,19 @@
+{
+  "name": "no_llm_sim",
+  "l1": {
+    "method": "sim",
+    "hi": 0.95,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+  },
+  "l23": {
+    "method": "sim",
+    "hi": 0.65,
+    "lo": 1.1,
+    "w": 0.5,
+    "guard": 0.6
+  },
+  "tuned_on": "train silver",
+  "selection": "min mark-weighted criterion error"
+}

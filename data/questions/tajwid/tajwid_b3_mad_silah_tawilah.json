@@ -1,0 +1,135 @@
+{
+  "topic_id": "tajwid_b3_mad_silah_tawilah",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_silah_tawilah_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Silah Tawilah?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد صلة طويلة؟",
+      "reference_answer_rumi": "Empat atau lima harakat",
+      "reference_answer_jawi": "امڤت اتاو ليم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima harakat", "4 atau 5 harakat", "4 atau 5", "امڤت اتاو ليم حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [31]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_tawilah_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Ha' dhamir bertemu dengan huruf apakah dalam Mad Silah Tawilah?",
+      "question_jawi": "هاء ضمير برتمو دڠن حروف اڤاكه دالم مد صلة طويلة؟",
+      "reference_answer_rumi": "Hamzah qata'",
+      "reference_answer_jawi": "همزة قطع",
+      "rubric": [
+        {"criterion": "Menyatakan hamzah qata'", "marks": 1, "keywords": ["hamzah qata'", "hamzah qata", "hamzah", "همزة قطع", "همزة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [31]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_tawilah_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah nama lain bagi Mad Silah Tawilah?",
+      "question_jawi": "اڤاكه نام لاين باݢي مد صلة طويلة؟",
+      "reference_answer_rumi": "Mad Silah Kubra",
+      "reference_answer_jawi": "مد صلة كبرى",
+      "rubric": [
+        {"criterion": "Menyatakan Mad Silah Kubra", "marks": 1, "keywords": ["Silah Kubra", "Kubra", "صلة كبرى", "كبرى"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [32]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_tawilah_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Mad Silah Tawilah termasuk dalam bahagian mad apa?",
+      "question_jawi": "مد صلة طويلة ترماسوق دالم بهاݢين مد اڤ؟",
+      "reference_answer_rumi": "Mad Jaiz Munfasil",
+      "reference_answer_jawi": "مد جائز منفصل",
+      "rubric": [
+        {"criterion": "Menyatakan Mad Jaiz Munfasil", "marks": 1, "keywords": ["Jaiz Munfasil", "Munfasil", "جائز منفصل", "منفصل"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [32]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_tawilah_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Silah dan berapakah bahagiannya?",
+      "question_jawi": "اڤاكه ارتي مد صلة دان براڤاكه بهاݢينڽ؟",
+      "reference_answer_rumi": "Mad Silah ialah apabila ha' dhamir yang berbaris bawah atau depan bertemu huruf hijaiyah dengan syarat sebelum dan selepas ha' dhamir adalah huruf berbaris. Ia terbahagi kepada dua: Mad Silah Qasirah dan Mad Silah Tawilah.",
+      "reference_answer_jawi": "مد صلة اياله اڤابيلا هاء ضمير يڠ برباريس باوه اتاو دڤن برتمو حروف هجائية دڠن شرط سبلوم دان سلڤس هاء ضمير اداله حروف برباريس. اي تربهاݢي كڤد دوا: مد صلة قصيرة دان مد صلة طويلة.",
+      "rubric": [
+        {"criterion": "Ha' dhamir berbaris bawah atau depan bertemu huruf hijaiyah", "marks": 1, "keywords": ["ha' dhamir", "hijaiyah", "هاء ضمير", "هجائية"]},
+        {"criterion": "Syarat sebelum dan selepas ha' dhamir huruf berbaris", "marks": 1, "keywords": ["sebelum dan selepas", "berbaris", "سبلوم دان سلڤس", "برباريس"]},
+        {"criterion": "Dua bahagian: Mad Silah Qasirah dan Mad Silah Tawilah", "marks": 2, "keywords": ["dua", "Qasirah", "Tawilah", "قصيرة", "طويلة"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [31, 33]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_tawilah_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Silah Tawilah dan berapakah kadar panjang bacaannya?",
+      "question_jawi": "اڤاكه ارتي مد صلة طويلة دان براڤاكه قدر ڤنجڠ باچاءنڽ؟",
+      "reference_answer_rumi": "Mad Silah Tawilah ialah apabila ha' dhamir bertemu dengan hamzah qata'. Kadar panjang bacaannya empat atau lima harakat.",
+      "reference_answer_jawi": "مد صلة طويلة اياله اڤابيلا هاء ضمير برتمو دڠن همزة قطع. قدر ڤنجڠ باچاءنڽ امڤت اتاو ليم حركة.",
+      "rubric": [
+        {"criterion": "Menyebut ha' dhamir", "marks": 1, "keywords": ["ha' dhamir", "ha dhamir", "هاء ضمير"]},
+        {"criterion": "Bertemu hamzah qata'", "marks": 1, "keywords": ["hamzah qata'", "hamzah", "همزة قطع"]},
+        {"criterion": "Kadar empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [31, 33]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_tawilah_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan tiga misal Mad Silah Tawilah.",
+      "question_jawi": "توليسكن تيݢ ميثل مد صلة طويلة.",
+      "reference_answer_rumi": "Contoh: بِهِۦٓ إِلَّا (al-Mutaffifin: 12), عِلۡمِهِۦٓ إِلَّا (al-Baqarah: 255), مَالَهُۥٓ أَخۡلَدَهُۥ (al-Humazah: 3), لَهُۥٓ إِخۡوَةٞ (an-Nisa': 11), وَكَلِمَتُهُۥٓ أَلۡقَىٰهَآ atau سُبۡحَٰنَهُۥٓ أَن (an-Nisa': 171).",
+      "reference_answer_jawi": "چونتوه: بِهِۦٓ إِلَّا (المطففين: 12)، عِلۡمِهِۦٓ إِلَّا (البقرة: 255)، مَالَهُۥٓ أَخۡلَدَهُۥ (الهمزة: 3)، لَهُۥٓ إِخۡوَةٞ (النساء: 11)، وَكَلِمَتُهُۥٓ أَلۡقَىٰهَآ اتاو سُبۡحَٰنَهُۥٓ أَن (النساء: 171).",
+      "rubric": [
+        {"criterion": "Misal pertama yang betul", "marks": 1, "keywords": ["بِهِۦٓ إِلَّا", "عِلۡمِهِۦٓ", "مَالَهُۥٓ", "لَهُۥٓ إِخۡوَةٞ", "وَكَلِمَتُهُۥٓ", "سُبۡحَٰنَهُۥٓ"]},
+        {"criterion": "Misal kedua yang betul", "marks": 1, "keywords": ["بِهِۦٓ إِلَّا", "عِلۡمِهِۦٓ", "مَالَهُۥٓ", "لَهُۥٓ إِخۡوَةٞ", "وَكَلِمَتُهُۥٓ", "سُبۡحَٰنَهُۥٓ"]},
+        {"criterion": "Misal ketiga yang betul", "marks": 1, "keywords": ["بِهِۦٓ إِلَّا", "عِلۡمِهِۦٓ", "مَالَهُۥٓ", "لَهُۥٓ إِخۡوَةٞ", "وَكَلِمَتُهُۥٓ", "سُبۡحَٰنَهُۥٓ"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [32, 33]
+    },
+    {
+      "id": "tajwid_b3_mad_silah_tawilah_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan Mad Silah Tawilah meliputi pengertian, kadar harakat dan erti hamzah qata', serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن مد صلة طويلة ملیڤوتي ڤڠرتين، قدر حركة دان ارتي همزة قطع، سرتا بريكن ساتو چونتوه ايات القرءان بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "Mad Silah Tawilah ialah apabila ha' dhamir bertemu dengan hamzah qata'. Kadarnya empat atau lima harakat. Hamzah qata' ialah huruf hamzah mutaharrik yang kekal pada tulisan dan sebutan. Contoh: يَحۡسَبُ أَنَّ مَالَهُۥٓ أَخۡلَدَهُۥ (Surah al-Humazah: 3).",
+      "reference_answer_jawi": "مد صلة طويلة اياله اڤابيلا هاء ضمير برتمو دڠن همزة قطع. قدرڽ امڤت اتاو ليم حركة. همزة قطع اياله حروف همزة مُتَحَرِّكْ يڠ ككل ڤد توليسن دان سبوتن. چونتوه: يَحۡسَبُ أَنَّ مَالَهُۥٓ أَخۡلَدَهُۥ (سورة الهمزة: 3).",
+      "rubric": [
+        {"criterion": "Pengertian: ha' dhamir bertemu hamzah qata'", "marks": 2, "keywords": ["ha' dhamir", "hamzah qata'", "هاء ضمير", "همزة قطع"]},
+        {"criterion": "Kadar empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]},
+        {"criterion": "Erti qata': hamzah mutaharrik kekal pada tulisan dan sebutan", "marks": 1, "keywords": ["mutaharrik", "kekal", "tulisan dan sebutan", "ككل", "توليسن دان سبوتن"]},
+        {"criterion": "Contoh ayat yang betul beserta surah dan ayat", "marks": 2, "keywords": ["Humazah", "الهمزة", "Mutaffifin", "المطففين", "Baqarah", "البقرة", "Nisa", "النساء"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [31, 32]
+    }
+  ]
+}

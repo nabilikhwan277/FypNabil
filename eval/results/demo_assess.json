@@ -1,0 +1,793 @@
+[
+  {
+    "question_id": "tajwid_b3_mad_badal_q1",
+    "answer": "2 harakat",
+    "attempt_id": 1,
+    "score": 1.0,
+    "max_marks": 1.0,
+    "percent": 100.0,
+    "feedback": {
+      "score": 1.0,
+      "max_marks": 1.0,
+      "percent": 100.0,
+      "stars": 3,
+      "xp_gained": 32,
+      "verdict": {
+        "rumi": "Syabas! Jawapan kamu tepat.",
+        "jawi": "شاباس! جواڤن کامو تڤت."
+      },
+      "mistakes": [],
+      "correct_answer": {
+        "rumi": "Dua harakat",
+        "jawi": "دوا حركة"
+      },
+      "source": {
+        "rumi": "Buku Teks Tajwid Tahun 5, ms. 19, 21",
+        "jawi": "بوكو تيکس تجويد تاهون 5، مس. 19, 21",
+        "topic_rumi": "Mad Badal",
+        "topic_jawi": "مد بدل",
+        "book_pages": [
+          19,
+          21
+        ]
+      },
+      "repeated": null,
+      "suggestion": {
+        "rumi": "Hebat! Teruskan dengan soalan seterusnya.",
+        "jawi": "هيبت! تروسکن دڠن سوءالن ستروسڽ.",
+        "action": "continue",
+        "level": 1
+      },
+      "encouragement": {
+        "rumi": "Teruskan usaha, kamu memang hebat!",
+        "jawi": "تروسکن اوسها، کامو میمڠ هيبت!",
+        "source": "template"
+      },
+      "mastery": {
+        "before": 0.0,
+        "after": 1.0
+      },
+      "level": {
+        "before": 1,
+        "after": 1,
+        "unlocked": false
+      }
+    },
+    "criteria": [
+      {
+        "criterion": "Menyatakan dua harakat",
+        "marks": 1.0,
+        "awarded": 1.0,
+        "met": "ya",
+        "layer": "A-keyword",
+        "evidence": "dua harakat",
+        "similarity": 0.7465,
+        "llm_raw": "",
+        "llm_reason": "",
+        "llm_verdict": null
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "thought": "Soalan ini Tahap 1 (short) topik tajwid_b3_mad_badal. Apakah kriteria pemarkahannya?",
+        "action": "get_question",
+        "action_input": {
+          "question_id": "tajwid_b3_mad_badal_q1"
+        },
+        "observation": {
+          "criteria": [
+            "Menyatakan dua harakat"
+          ],
+          "max_marks": 1,
+          "reference": "Dua harakat"
+        },
+        "ms": 0
+      },
+      {
+        "step": 2,
+        "thought": "Apakah kata buku teks tentang soalan ini?",
+        "action": "search_notes",
+        "action_input": {
+          "query": "Berapakah kadar panjang bacaan Mad Badal? 2 harakat",
+          "topic_id": "tajwid_b3_mad_badal",
+          "k": 4
+        },
+        "observation": {
+          "chunks": [
+            {
+              "id": "tajwid_b3_mad_badal::s03p0",
+              "section": "Kadar Harakat",
+              "score": 0.03279
+            },
+            {
+              "id": "tajwid_b3_mad_badal::s07p0",
+              "section": "Aktiviti (ayat latihan dalam buku)",
+              "score": 0.032
+            },
+            {
+              "id": "tajwid_b3_mad_badal::s01p0",
+              "section": "Objektif Pembelajaran",
+              "score": 0.03151
+            },
+            {
+              "id": "tajwid_b3_mad_badal::s02p0",
+              "section": "Pengertian",
+              "score": 0.03102
+            }
+          ]
+        },
+        "ms": 3844
+      },
+      {
+        "step": 3,
+        "thought": "Kriteria manakah yang dipenuhi oleh jawapan murid?",
+        "action": "score_rubric",
+        "action_input": {
+          "answer": "2 harakat"
+        },
+        "observation": {
+          "score": 1.0,
+          "max_marks": 1.0,
+          "percent": 100.0,
+          "answer_similarity": 0.7642,
+          "llm_calls": 0,
+          "criteria": [
+            {
+              "criterion": "Menyatakan dua harakat",
+              "met": "ya",
+              "awarded": 1.0,
+              "layer": "A-keyword",
+              "evidence": "dua harakat"
+            }
+          ]
+        },
+        "ms": 35
+      },
+      {
+        "step": 4,
+        "thought": "Apakah yang murid ini pernah tersilap sebelum ini?",
+        "action": "get_history",
+        "action_input": {
+          "topic_id": "tajwid_b3_mad_badal"
+        },
+        "observation": {
+          "mastery": 0.0,
+          "attempts": 0,
+          "level_unlocked": 1,
+          "repeated_mistakes": [],
+          "mastery_after": 1.0,
+          "level_after": 1
+        },
+        "ms": 0
+      },
+      {
+        "step": 5,
+        "thought": "Maklum balas apakah yang paling membantu murid ini?",
+        "action": "generate_feedback",
+        "action_input": {
+          "mastery": 0.0
+        },
+        "observation": {
+          "stars": 3,
+          "mistakes": 0,
+          "suggestion": "continue",
+          "encouragement_source": "template"
+        },
+        "ms": 64
+      }
+    ],
+    "new_badges": [
+      "langkah_pertama",
+      "tiga_bintang"
+    ],
+    "latency_ms": 3945
+  },
+  {
+    "question_id": "tajwid_b3_mad_badal_q1",
+    "answer": "enam harakat",
+    "attempt_id": 2,
+    "score": 0.0,
+    "max_marks": 1.0,
+    "percent": 0.0,
+    "feedback": {
+      "score": 0.0,
+      "max_marks": 1.0,
+      "percent": 0.0,
+      "stars": 1,
+      "xp_gained": 12,
+      "verdict": {
+        "rumi": "Cuba lagi, kamu boleh!",
+        "jawi": "چوبا لاݢي، کامو بوليه!"
+      },
+      "mistakes": [
+        {
+          "criterion": "Menyatakan dua harakat",
+          "status": "tidak",
+          "rumi": "Belum disebut atau belum tepat: Menyatakan dua harakat",
+          "jawi": "بلوم دسبوت اتاو بلوم تڤت: Menyatakan dua harakat"
+        }
+      ],
+      "correct_answer": {
+        "rumi": "Dua harakat",
+        "jawi": "دوا حركة"
+      },
+      "source": {
+        "rumi": "Buku Teks Tajwid Tahun 5, ms. 19, 21",
+        "jawi": "بوكو تيکس تجويد تاهون 5، مس. 19, 21",
+        "topic_rumi": "Mad Badal",
+        "topic_jawi": "مد بدل",
+        "book_pages": [
+          19,
+          21
+        ]
+      },
+      "repeated": null,
+      "suggestion": {
+        "rumi": "Lihat jawapan betul di atas, kemudian cuba soalan yang serupa.",
+        "jawi": "ليهت جواڤن بتول دأتس، کمودين چوبا سوءالن يڠ سروڤا.",
+        "action": "similar",
+        "level": 1
+      },
+      "encouragement": {
+        "rumi": "Jangan putus asa, setiap cubaan membuat kamu lebih pandai.",
+        "jawi": "جاڠن ڤوتوس اس، ستياڤ چوباءن ممبوات کامو لبيه ڤنداي.",
+        "source": "template"
+      },
+      "mastery": {
+        "before": 1.0,
+        "after": 0.7
+      },
+      "level": {
+        "before": 1,
+        "after": 1,
+        "unlocked": false
+      }
+    },
+    "criteria": [
+      {
+        "criterion": "Menyatakan dua harakat",
+        "marks": 1.0,
+        "awarded": 0.0,
+        "met": "tidak",
+        "layer": "A-none",
+        "evidence": "",
+        "similarity": 0.6331,
+        "llm_raw": "",
+        "llm_reason": "",
+        "llm_verdict": null
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "thought": "Soalan ini Tahap 1 (short) topik tajwid_b3_mad_badal. Apakah kriteria pemarkahannya?",
+        "action": "get_question",
+        "action_input": {
+          "question_id": "tajwid_b3_mad_badal_q1"
+        },
+        "observation": {
+          "criteria": [
+            "Menyatakan dua harakat"
+          ],
+          "max_marks": 1,
+          "reference": "Dua harakat"
+        },
+        "ms": 0
+      },
+      {
+        "step": 2,
+        "thought": "Apakah kata buku teks tentang soalan ini?",
+        "action": "search_notes",
+        "action_input": {
+          "query": "Berapakah kadar panjang bacaan Mad Badal? enam harakat",
+          "topic_id": "tajwid_b3_mad_badal",
+          "k": 4
+        },
+        "observation": {
+          "chunks": [
+            {
+              "id": "tajwid_b3_mad_badal::s03p0",
+              "section": "Kadar Harakat",
+              "score": 0.03279
+            },
+            {
+              "id": "tajwid_b3_mad_badal::s07p0",
+              "section": "Aktiviti (ayat latihan dalam buku)",
+              "score": 0.032
+            },
+            {
+              "id": "tajwid_b3_mad_badal::s01p0",
+              "section": "Objektif Pembelajaran",
+              "score": 0.03151
+            },
+            {
+              "id": "tajwid_b3_mad_badal::s02p0",
+              "section": "Pengertian",
+              "score": 0.03102
+            }
+          ]
+        },
+        "ms": 31
+      },
+      {
+        "step": 3,
+        "thought": "Kriteria manakah yang dipenuhi oleh jawapan murid?",
+        "action": "score_rubric",
+        "action_input": {
+          "answer": "enam harakat"
+        },
+        "observation": {
+          "score": 0.0,
+          "max_marks": 1.0,
+          "percent": 0.0,
+          "answer_similarity": 0.7039,
+          "llm_calls": 0,
+          "criteria": [
+            {
+              "criterion": "Menyatakan dua harakat",
+              "met": "tidak",
+              "awarded": 0.0,
+              "layer": "A-none",
+              "evidence": ""
+            }
+          ]
+        },
+        "ms": 23
+      },
+      {
+        "step": 4,
+        "thought": "Apakah yang murid ini pernah tersilap sebelum ini?",
+        "action": "get_history",
+        "action_input": {
+          "topic_id": "tajwid_b3_mad_badal"
+        },
+        "observation": {
+          "mastery": 1.0,
+          "attempts": 1,
+          "level_unlocked": 1,
+          "repeated_mistakes": [],
+          "mastery_after": 0.7,
+          "level_after": 1
+        },
+        "ms": 0
+      },
+      {
+        "step": 5,
+        "thought": "Maklum balas apakah yang paling membantu murid ini?",
+        "action": "generate_feedback",
+        "action_input": {
+          "mastery": 1.0
+        },
+        "observation": {
+          "stars": 1,
+          "mistakes": 1,
+          "suggestion": "similar",
+          "encouragement_source": "template"
+        },
+        "ms": 0
+      }
+    ],
+    "new_badges": [],
+    "latency_ms": 55
+  },
+  {
+    "question_id": "jawi_b3_pinjaman_inggeris_q1",
+    "answer": "تيكنولوݢي",
+    "attempt_id": 3,
+    "score": 1.0,
+    "max_marks": 1.0,
+    "percent": 100.0,
+    "feedback": {
+      "score": 1.0,
+      "max_marks": 1.0,
+      "percent": 100.0,
+      "stars": 3,
+      "xp_gained": 32,
+      "verdict": {
+        "rumi": "Syabas! Jawapan kamu tepat.",
+        "jawi": "شاباس! جواڤن کامو تڤت."
+      },
+      "mistakes": [],
+      "correct_answer": {
+        "rumi": "teknologi",
+        "jawi": "تيكنولوݢي"
+      },
+      "source": {
+        "rumi": "Buku Teks Jawi Tahun 5, ms. 51",
+        "jawi": "بوكو تيکس جاوي تاهون 5، مس. 51",
+        "topic_rumi": "Kata Pinjaman Bahasa Inggeris",
+        "topic_jawi": "كات ڤينجمن بهاس ايڠݢريس",
+        "book_pages": [
+          51
+        ]
+      },
+      "repeated": null,
+      "suggestion": {
+        "rumi": "Hebat! Teruskan dengan soalan seterusnya.",
+        "jawi": "هيبت! تروسکن دڠن سوءالن ستروسڽ.",
+        "action": "continue",
+        "level": 1
+      },
+      "encouragement": {
+        "rumi": "Teruskan usaha, kamu memang hebat!",
+        "jawi": "تروسکن اوسها، کامو میمڠ هيبت!",
+        "source": "template"
+      },
+      "mastery": {
+        "before": 0.0,
+        "after": 1.0
+      },
+      "level": {
+        "before": 1,
+        "after": 1,
+        "unlocked": false
+      }
+    },
+    "criteria": [
+      {
+        "criterion": "Mengeja 'teknologi' dengan betul (تيكنولوݢي), menggunakan huruf 'ݢ' bagi 'g'",
+        "marks": 1.0,
+        "awarded": 1.0,
+        "met": "ya",
+        "layer": "A-spelling",
+        "evidence": "تيكنولوݢي",
+        "similarity": 0.5023,
+        "llm_raw": "",
+        "llm_reason": "",
+        "llm_verdict": null
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "thought": "Soalan ini Tahap 1 (short) topik jawi_b3_pinjaman_inggeris. Apakah kriteria pemarkahannya?",
+        "action": "get_question",
+        "action_input": {
+          "question_id": "jawi_b3_pinjaman_inggeris_q1"
+        },
+        "observation": {
+          "criteria": [
+            "Mengeja 'teknologi' dengan betul (تيكنولوݢي), menggunakan huruf 'ݢ' bagi 'g'"
+          ],
+          "max_marks": 1,
+          "reference": "teknologi"
+        },
+        "ms": 0
+      },
+      {
+        "step": 2,
+        "thought": "Apakah kata buku teks tentang soalan ini?",
+        "action": "search_notes",
+        "action_input": {
+          "query": "Tulis perkataan 'teknologi' dalam tulisan Jawi. تيكنولوݢي",
+          "topic_id": "jawi_b3_pinjaman_inggeris",
+          "k": 4
+        },
+        "observation": {
+          "chunks": [
+            {
+              "id": "jawi_b3_pinjaman_inggeris::s02p2",
+              "section": "1. Kaedah Menulis Kata Pinjaman Bahasa Inggeris | قاعده منوليس كات ڤينجمن بهاس ايڠݢريس",
+              "score": 0.02036
+            },
+            {
+              "id": "jawi_b3_pinjaman_inggeris::s00p0",
+              "section": "Ringkasan",
+              "score": 0.0041
+            },
+            {
+              "id": "jawi_b3_pinjaman_inggeris::s02p1",
+              "section": "1. Kaedah Menulis Kata Pinjaman Bahasa Inggeris | قاعده منوليس كات ڤينجمن بهاس ايڠݢريس",
+              "score": 0.00403
+            },
+            {
+              "id": "jawi_b3_pinjaman_inggeris::s03p0",
+              "section": "2. Contoh Ayat | چونتوه ايات (book p52)",
+              "score": 0.00391
+            }
+          ]
+        },
+        "ms": 21
+      },
+      {
+        "step": 3,
+        "thought": "Kriteria manakah yang dipenuhi oleh jawapan murid?",
+        "action": "score_rubric",
+        "action_input": {
+          "answer": "تيكنولوݢي"
+        },
+        "observation": {
+          "score": 1.0,
+          "max_marks": 1.0,
+          "percent": 100.0,
+          "answer_similarity": 0.8155,
+          "llm_calls": 0,
+          "criteria": [
+            {
+              "criterion": "Mengeja 'teknologi' dengan betul (تيكنولوݢي), menggunakan huruf 'ݢ' bagi 'g'",
+              "met": "ya",
+              "awarded": 1.0,
+              "layer": "A-spelling",
+              "evidence": "تيكنولوݢي"
+            }
+          ]
+        },
+        "ms": 29
+      },
+      {
+        "step": 4,
+        "thought": "Apakah yang murid ini pernah tersilap sebelum ini?",
+        "action": "get_history",
+        "action_input": {
+          "topic_id": "jawi_b3_pinjaman_inggeris"
+        },
+        "observation": {
+          "mastery": 0.0,
+          "attempts": 0,
+          "level_unlocked": 1,
+          "repeated_mistakes": [],
+          "mastery_after": 1.0,
+          "level_after": 1
+        },
+        "ms": 0
+      },
+      {
+        "step": 5,
+        "thought": "Maklum balas apakah yang paling membantu murid ini?",
+        "action": "generate_feedback",
+        "action_input": {
+          "mastery": 0.0
+        },
+        "observation": {
+          "stars": 3,
+          "mistakes": 0,
+          "suggestion": "continue",
+          "encouragement_source": "template"
+        },
+        "ms": 0
+      }
+    ],
+    "new_badges": [],
+    "latency_ms": 51
+  },
+  {
+    "question_id": "fiqh_b1_solat_dhuha_q6",
+    "answer": "Dimurahkan rezeki dan dimudahkan urusan",
+    "attempt_id": 4,
+    "score": 0.0,
+    "max_marks": 3.0,
+    "percent": 0.0,
+    "feedback": {
+      "score": 0.0,
+      "max_marks": 3.0,
+      "percent": 0.0,
+      "stars": 1,
+      "xp_gained": 12,
+      "verdict": {
+        "rumi": "Cuba lagi, kamu boleh!",
+        "jawi": "چوبا لاݢي، کامو بوليه!"
+      },
+      "mistakes": [
+        {
+          "criterion": "Keadaan pertama yang betul (langit-turunkan / bumi-keluarkan / sukar-mudahkan / haram-sucikan / jauh-dekatkan)",
+          "status": "tidak",
+          "rumi": "Belum disebut atau belum tepat: Keadaan pertama yang betul (langit-turunkan / bumi-keluarkan / sukar-mudahkan / haram-sucikan / jauh-dekatkan)",
+          "jawi": "بلوم دسبوت اتاو بلوم تڤت: Keadaan pertama yang betul (langit-turunkan / bumi-keluarkan / sukar-mudahkan / haram-sucikan / jauh-dekatkan)"
+        },
+        {
+          "criterion": "Keadaan kedua yang betul",
+          "status": "tidak",
+          "rumi": "Belum disebut atau belum tepat: Keadaan kedua yang betul",
+          "jawi": "بلوم دسبوت اتاو بلوم تڤت: Keadaan kedua yang betul"
+        },
+        {
+          "criterion": "Keadaan ketiga yang betul",
+          "status": "tidak",
+          "rumi": "Belum disebut atau belum tepat: Keadaan ketiga yang betul",
+          "jawi": "بلوم دسبوت اتاو بلوم تڤت: Keadaan ketiga yang betul"
+        }
+      ],
+      "correct_answer": {
+        "rumi": "Jika rezekiku masih di langit turunkanlah; jika di bumi keluarkanlah; jika sukar mudahkanlah; jika haram sucikanlah; jika jauh dekatkanlah. (Mana-mana tiga)",
+        "jawi": "جک رزقيكو ماسيه دلاڠيت تورونكنڽ؛ جک دبومي كلواركنڽ؛ جک سوكر مودهكنڽ؛ جک حرام سوچيكنڽ؛ جک جاءوه دكتكنڽ. (مان-مان تيݢ)"
+      },
+      "source": {
+        "rumi": "Buku Teks Ibadah Tahun 5, ms. 12",
+        "jawi": "بوكو تيکس عبادة تاهون 5، مس. 12",
+        "topic_rumi": "Solat Dhuha",
+        "topic_jawi": "صلاة ضحى",
+        "book_pages": [
+          12
+        ]
+      },
+      "repeated": null,
+      "suggestion": {
+        "rumi": "Baca semula nota topik ini, kemudian cuba soalan Tahap 1 yang mudah.",
+        "jawi": "باچ سمولا نوتا توڤيق اين، کمودين چوبا سوءالن تاهڤ 1 يڠ موده.",
+        "action": "read_note",
+        "level": 1
+      },
+      "encouragement": {
+        "rumi": "Jangan putus asa, setiap cubaan membuat kamu lebih pandai.",
+        "jawi": "جاڠن ڤوتوس اس، ستياڤ چوباءن ممبوات کامو لبيه ڤنداي.",
+        "source": "template"
+      },
+      "mastery": {
+        "before": 0.0,
+        "after": 0.0
+      },
+      "level": {
+        "before": 1,
+        "after": 1,
+        "unlocked": false
+      }
+    },
+    "criteria": [
+      {
+        "criterion": "Keadaan pertama yang betul (langit-turunkan / bumi-keluarkan / sukar-mudahkan / haram-sucikan / jauh-dekatkan)",
+        "marks": 1.0,
+        "awarded": 0.0,
+        "met": "tidak",
+        "layer": "B-guard",
+        "evidence": "",
+        "similarity": 0.5303,
+        "llm_raw": "Ya, jawapan murid memenuhi kriteria ini.",
+        "llm_reason": "jawapan murid memenuhi kriteria ini",
+        "llm_verdict": "ya"
+      },
+      {
+        "criterion": "Keadaan kedua yang betul",
+        "marks": 1.0,
+        "awarded": 0.0,
+        "met": "tidak",
+        "layer": "B-guard",
+        "evidence": "",
+        "similarity": 0.5602,
+        "llm_raw": "Ya, jawapan murid memenuhi kriteria ini.",
+        "llm_reason": "jawapan murid memenuhi kriteria ini",
+        "llm_verdict": "ya"
+      },
+      {
+        "criterion": "Keadaan ketiga yang betul",
+        "marks": 1.0,
+        "awarded": 0.0,
+        "met": "tidak",
+        "layer": "B-guard",
+        "evidence": "",
+        "similarity": 0.493,
+        "llm_raw": "Ya, jawapan murid memenuhi kriteria ini.",
+        "llm_reason": "jawapan murid memenuhi kriteria ini",
+        "llm_verdict": "ya"
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "thought": "Soalan ini Tahap 2 (structured) topik fiqh_b1_solat_dhuha. Apakah kriteria pemarkahannya?",
+        "action": "get_question",
+        "action_input": {
+          "question_id": "fiqh_b1_solat_dhuha_q6"
+        },
+        "observation": {
+          "criteria": [
+            "Keadaan pertama yang betul (langit-turunkan / bumi-keluarkan / sukar-mudahkan / haram-sucikan / jauh-dekatkan)",
+            "Keadaan kedua yang betul",
+            "Keadaan ketiga yang betul"
+          ],
+          "max_marks": 3,
+          "reference": "Jika rezekiku masih di langit turunkanlah; jika di bumi keluarkanlah; jika sukar mudahkanlah; jika haram sucikanlah; jika jauh dekatkanlah. (Mana-mana tiga)"
+        },
+        "ms": 0
+      },
+      {
+        "step": 2,
+        "thought": "Apakah kata buku teks tentang soalan ini?",
+        "action": "search_notes",
+        "action_input": {
+          "query": "Mari berdoa bersama-sama: Berdasarkan maksud doa selepas solat dhuha, nyatakan tiga keadaan rezeki yang dipohon supaya Allah turunkan, keluarkan, mudahkan, suc…",
+          "topic_id": "fiqh_b1_solat_dhuha",
+          "k": 4
+        },
+        "observation": {
+          "chunks": [
+            {
+              "id": "fiqh_b1_solat_dhuha::s03p0",
+              "section": "Fadhilat Solat Dhuha",
+              "score": 0.03252
+            },
+            {
+              "id": "fiqh_b1_solat_dhuha::s05p0",
+              "section": "Doa Selepas Solat Dhuha",
+              "score": 0.03252
+            },
+            {
+              "id": "fiqh_b1_solat_dhuha::s02p0",
+              "section": "Lafaz Niat Solat Dhuha",
+              "score": 0.03126
+            },
+            {
+              "id": "fiqh_b1_solat_dhuha::s05p1",
+              "section": "Doa Selepas Solat Dhuha",
+              "score": 0.03101
+            }
+          ]
+        },
+        "ms": 24
+      },
+      {
+        "step": 3,
+        "thought": "Kriteria manakah yang dipenuhi oleh jawapan murid?",
+        "action": "score_rubric",
+        "action_input": {
+          "answer": "Dimurahkan rezeki dan dimudahkan urusan"
+        },
+        "observation": {
+          "score": 0.0,
+          "max_marks": 3.0,
+          "percent": 0.0,
+          "answer_similarity": 0.5824,
+          "llm_calls": 3,
+          "criteria": [
+            {
+              "criterion": "Keadaan pertama yang betul (langit-turunkan / bumi-keluarkan / sukar-mudahkan / haram-sucikan / jauh-dekatkan)",
+              "met": "tidak",
+              "awarded": 0.0,
+              "layer": "B-guard",
+              "evidence": ""
+            },
+            {
+              "criterion": "Keadaan kedua yang betul",
+              "met": "tidak",
+              "awarded": 0.0,
+              "layer": "B-guard",
+              "evidence": ""
+            },
+            {
+              "criterion": "Keadaan ketiga yang betul",
+              "met": "tidak",
+              "awarded": 0.0,
+              "layer": "B-guard",
+              "evidence": ""
+            }
+          ]
+        },
+        "ms": 9839
+      },
+      {
+        "step": 4,
+        "thought": "Apakah yang murid ini pernah tersilap sebelum ini?",
+        "action": "get_history",
+        "action_input": {
+          "topic_id": "fiqh_b1_solat_dhuha"
+        },
+        "observation": {
+          "mastery": 0.0,
+          "attempts": 0,
+          "level_unlocked": 1,
+          "repeated_mistakes": [],
+          "mastery_after": 0.0,
+          "level_after": 1
+        },
+        "ms": 0
+      },
+      {
+        "step": 5,
+        "thought": "Maklum balas apakah yang paling membantu murid ini?",
+        "action": "generate_feedback",
+        "action_input": {
+          "mastery": 0.0
+        },
+        "observation": {
+          "stars": 1,
+          "mistakes": 3,
+          "suggestion": "read_note",
+          "encouragement_source": "template"
+        },
+        "ms": 0
+      }
+    ],
+    "new_badges": [],
+    "latency_ms": 9864
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "cuda": true,
+  "llm_load_s": 6.1,
+  "llm_device": "cuda",
+  "vram_after_llm_gb": 2.79,
+  "prompts": [
+    {
+      "name": "rumi_fact",
+      "prompt": "Berapakah kadar harakat bacaan Mad Asli? Jawab dalam satu ayat pendek.",
+      "reply": "Kadar harakat bacaan Mad Asli adalah 80% dalam kalangan penduduk di kawasan tersebut.",
+      "latency_ms": 1128,
+      "new_tokens": 27,
+      "tokens_per_s": 23.9
+    },
+    {
+      "name": "rumi_explain",
+      "prompt": "Terangkan secara ringkas apakah solat sunat dhuha kepada murid Tahun 5.",
+      "reply": "Solat sunat dhuha kepada murid Tahun 5 adalah solat sunat yang dilakukan oleh murid Tahun 5 sebelum solat fardhu. Solat ini dilakukan dengan tujuan untuk memohon pertolongan dan keberkatan Allah SWT. Murid Tahun 5 akan berdoa kepada Allah SWT untuk memohon pertolongan dan keberkatan dalam kehidupan mereka.",
+      "latency_ms": 3097,
+      "new_tokens": 91,
+      "tokens_per_s": 29.4
+    },
+    {
+      "name": "jawi_reply",
+      "prompt": "جاوب دالم توليسن جاوي: اڤاكه مقصود وقف؟",
+      "reply": "\"قواف\" دالم بهاس ايڠڬريس بوليه برمولا دڠن ڤركارا يڠ دڤرچايأي دالم بوديا دان اڬام ماجوريتي ملايو، د مان اي مروجوق كڤد ڤركارا يڠ دأڠڬڤ سباڬاي ڤركارا يڠ دأڠڬڤ سباڬاي ڤركارا يڠ دأڠڬڤ سباڬاي ڤركارا يڠ دأڠڬ�",
+      "latency_ms": 4859,
+      "new_tokens": 150,
+      "tokens_per_s": 30.9
+    },
+    {
+      "name": "json_judge",
+      "prompt": "Anda pemeriksa jawapan. Kriteria: 'Menyatakan kadar dua harakat'. Jawapan murid: 'dua harakat'. Balas JSON sahaja: {\"met\": \"ya|separa|tidak\", \"reason\": \"...\"}",
+      "reply": "{\"met\": \"separa\", \"reason\": \"Kadar dua harakat adalah satu cara untuk menunjukkan bahawa jawapan yang diberikan adalah tepat dan sesuai dengan kriteria yang ditetapkan.\"}",
+      "latency_ms": 1609,
+      "new_tokens": 48,
+      "tokens_per_s": 29.8
+    },
+    {
+      "name": "rumi_fact_grounded",
+      "prompt": "Nota buku teks: \"Kadar panjang bacaan Mad Asli ialah dua harakat.\"\nBerdasarkan nota di atas SAHAJA, jawab: Berapakah kadar harakat bacaan Mad Asli? Jawab dalam satu ayat pendek.",
+      "reply": "Kadar panjang bacaan Mad Asli ialah dua harakat.",
+      "latency_ms": 577,
+      "new_tokens": 18,
+      "tokens_per_s": 31.2
+    },
+    {
+      "name": "json_judge_grounded",
+      "prompt": "Anda pemeriksa jawapan murid Tahun 5.\nNota buku teks: \"Kadar panjang bacaan Mad Asli ialah dua harakat.\"\nSoalan: Berapakah kadar harakat bacaan Mad Asli?\nJawapan rujukan: dua harakat\nKriteria: Menyatakan kadar dua harakat\nJawapan murid: \"2 harakat\"\nAdakah jawapan murid memenuhi kriteria? Balas JSON sahaja, tanpa teks lain: {\"met\": \"ya\" atau \"separa\" atau \"tidak\", \"reason\": \"sebab ringkas\"}",
+      "reply": "Ya, jawapan murid memenuhi kriteria dengan menyatakan kadar dua harakat.",
+      "latency_ms": 690,
+      "new_tokens": 21,
+      "tokens_per_s": 30.4
+    },
+    {
+      "name": "json_judge_grounded_wrong",
+      "prompt": "Anda pemeriksa jawapan murid Tahun 5.\nNota buku teks: \"Kadar panjang bacaan Mad Asli ialah dua harakat.\"\nSoalan: Berapakah kadar harakat bacaan Mad Asli?\nJawapan rujukan: dua harakat\nKriteria: Menyatakan kadar dua harakat\nJawapan murid: \"enam harakat\"\nAdakah jawapan murid memenuhi kriteria? Balas JSON sahaja, tanpa teks lain: {\"met\": \"ya\" atau \"separa\" atau \"tidak\", \"reason\": \"sebab ringkas\"}",
+      "reply": "{\"met\": \"ya\", \"reason\": \"sebab ringkas\"}",
+      "latency_ms": 553,
+      "new_tokens": 16,
+      "tokens_per_s": 28.9
+    }
+  ],
+  "embed_load_s": 7.4,
+  "similarity": [
+    {
+      "a": "Mad Asli dibaca dua harakat.",
+      "b": "Kadar Mad Asli ialah 2 harakat.",
+      "cosine": 0.864
+    },
+    {
+      "a": "Mad Asli dibaca dua harakat.",
+      "b": "Solat dhuha didirikan pada waktu pagi.",
+      "cosine": 0.449
+    },
+    {
+      "a": "اڤاكه مقصود وقف؟",
+      "b": "Waqaf ialah memberhentikan bacaan.",
+      "cosine": 0.567
+    }
+  ],
+  "vram_peak_gb": 5.39
+}

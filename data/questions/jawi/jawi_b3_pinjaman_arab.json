@@ -1,0 +1,277 @@
+{
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b3_pinjaman_arab_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'wuduk' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'wuduk' دالم توليسن جاوي.",
+      "reference_answer_rumi": "wuduk",
+      "reference_answer_jawi": "وضوء",
+      "rubric": [
+        {"criterion": "Mengeja 'wuduk' dengan betul (وضوء), hamzah akhir ditulis sejajar", "marks": 1, "keywords": ["وضوء"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [47]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'Madinah' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'Madinah' دالم توليسن جاوي.",
+      "reference_answer_rumi": "Madinah",
+      "reference_answer_jawi": "مدينة",
+      "rubric": [
+        {"criterion": "Mengeja 'Madinah' dengan betul (مدينة), ta marbutah dikekalkan", "marks": 1, "keywords": ["مدينة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [47, 48]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'Al-Rahman' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'Al-Rahman' دالم توليسن جاوي.",
+      "reference_answer_rumi": "Al-Rahman",
+      "reference_answer_jawi": "الرحمن",
+      "rubric": [
+        {"criterion": "Mengeja 'Al-Rahman' dengan betul (الرحمن), tanpa tanda sempang", "marks": 1, "keywords": ["الرحمن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [48, 49]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'alamat' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'alamat' دالم توليسن جاوي.",
+      "reference_answer_rumi": "alamat",
+      "reference_answer_jawi": "علامت",
+      "rubric": [
+        {"criterion": "Mengeja 'alamat' dengan betul (علامت), menggunakan ta maftuhah 'ت'", "marks": 1, "keywords": ["علامت"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [50, 51]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Kata pinjaman bahasa Arab terbahagi kepada berapa kategori? Namakan.",
+      "question_jawi": "كات ڤينجمن بهاس عرب تربهاݢي كڤد براڤ كاتݢوري؟ نامكن.",
+      "reference_answer_rumi": "Dua: istilah agama dan kata umum",
+      "reference_answer_jawi": "دوا: ايستيله اݢام دان كات عموم",
+      "rubric": [
+        {"criterion": "Menyatakan istilah agama", "marks": 1, "keywords": ["istilah agama", "istilah keagamaan", "ايستيله اݢام"]},
+        {"criterion": "Menyatakan kata umum", "marks": 1, "keywords": ["kata umum", "كات عموم"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [46]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Perkataan 'jemaah' dan 'sahabat' berasal daripada perkataan Arab yang dieja dengan ta marbutah. Tuliskan ejaan Jawi kedua-duanya dan terangkan mengapa ejaannya berbeza.",
+      "question_jawi": "ڤركاتاٴن 'jemaah' دان 'sahabat' براصل درڤد ڤركاتاٴن عرب يڠ دأيجا دڠن تاء مربوطة. توليسكن ايجاٴن جاوي كدوا-دواڽ دان تراڠكن مڠاڤ ايجاٴنڽ بربيذا.",
+      "reference_answer_rumi": "jemaah = جماعه: disebut oleh orang Melayu sebagai ha, maka dieja 'ه'. sahabat = صحابت: disebut oleh orang Melayu dengan bunyi 'ta', maka dieja dengan ta maftuhah 'ت'.",
+      "reference_answer_jawi": "جماعه: دسبوت اوليه اورڠ ملايو سباݢاي هاء، مک دأيجا 'ه'. صحابت: دسبوت دڠن بوڽي 'تاء'، مک دأيجا دڠن تاء مفتوحة 'ت'.",
+      "rubric": [
+        {"criterion": "Mengeja jemaah: جماعه", "marks": 1, "keywords": ["جماعه"]},
+        {"criterion": "Menerangkan jemaah disebut dengan bunyi ha, maka dieja 'ه'", "marks": 1, "keywords": ["ha", "هاء", "ه"]},
+        {"criterion": "Mengeja sahabat: صحابت", "marks": 1, "keywords": ["صحابت"]},
+        {"criterion": "Menerangkan sahabat disebut dengan bunyi ta, maka dieja ta maftuhah 'ت'", "marks": 1, "keywords": ["ta maftuhah", "bunyi ta", "تاء مفتوحة", "ت"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [50, 51]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan kaedah menulis kata pinjaman bahasa Arab yang bermula dengan 'al takrif' dan berikan dua contoh dalam tulisan Jawi.",
+      "question_jawi": "ڽاتاكن قاعده منوليس كات ڤينجمن بهاس عرب يڠ برمولا دڠن 'ال تعريف' دان بريكن دوا چونتوه دالم توليسن جاوي.",
+      "reference_answer_rumi": "Kata yang bermula dengan 'al takrif' (sama ada 'al syamsiah' atau 'al qamariah') dikekalkan ejaan Arabnya dan tanda sempang tidak perlu digunakan. Contoh: Al-Rahim الرحيم, Al-Qamar القمر.",
+      "reference_answer_jawi": "كات يڠ برمولا دڠن 'ال تعريف'، سام اد 'ال شمسية' اتاو 'ال قمرية' هندقله دككلكن ايجاٴن عربڽ. تندا سمڠ تيدق ڤرلو دݢوناكن. چونتوه: الرحيم، القمر.",
+      "rubric": [
+        {"criterion": "Menyatakan ejaan Arab dikekalkan (sama ada al syamsiah atau al qamariah)", "marks": 1, "keywords": ["dikekalkan", "ejaan Arab", "دككلكن", "syamsiah", "qamariah"]},
+        {"criterion": "Menyatakan tanda sempang tidak perlu digunakan", "marks": 1, "keywords": ["sempang", "سمڠ"]},
+        {"criterion": "Contoh pertama betul (cth. الرحمن، الرحيم، القمر، القدوس، الليل، المؤمن، العزيز، النجم، السلام، الصديق، الخالق، الغفار، الشمس، العليم)", "marks": 1, "keywords": ["الرحمن", "الرحيم", "القمر", "القدوس", "الليل", "المؤمن", "العزيز", "النجم", "السلام", "الصديق", "الخالق", "الغفار", "الشمس", "العليم"]},
+        {"criterion": "Contoh kedua betul", "marks": 1, "keywords": ["الرحمن", "الرحيم", "القمر", "القدوس", "الليل", "المؤمن", "العزيز", "النجم", "السلام", "الصديق", "الخالق", "الغفار", "الشمس", "العليم"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [48, 49]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q8",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Perkataan Arab عالم boleh dibaca 'Alam' dan 'Alim'. Bagaimanakah ejaan Jawi dibezakan untuk mengelakkan salah baca? Tuliskan kedua-dua ejaan.",
+      "question_jawi": "ڤركاتاٴن عرب عالم بوليه دباچ 'Alam' دان 'Alim'. باݢايماناكه ايجاٴن جاوي دبيذاكن اونتوق مڠيلقكن ساله باچ؟ توليسكن كدوا-دوا ايجاٴن.",
+      "reference_answer_rumi": "Kata umum diletakkan huruf vokal bagi mengelakkan salah baca. Alam = عالم; Alim diletakkan vokal 'ي' = عاليم.",
+      "reference_answer_jawi": "كات عموم دلتقكن حروف ۏوكل باݢي مڠيلقكن ساله باچ. Alam = عالم؛ Alim دلتقكن ۏوكل 'ي' = عاليم.",
+      "rubric": [
+        {"criterion": "Menyatakan huruf vokal diletakkan untuk mengelakkan salah baca", "marks": 1, "keywords": ["vokal", "ۏوكل", "salah baca"]},
+        {"criterion": "Ejaan Alam: عالم", "marks": 1, "keywords": ["عالم"]},
+        {"criterion": "Ejaan Alim dengan vokal 'ي': عاليم", "marks": 1, "keywords": ["عاليم"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [52]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q9",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Bandingkan kaedah penulisan kata pinjaman bahasa Arab dalam kategori istilah keagamaan dengan kategori kata umum. Berikan contoh bagi setiap kategori, termasuk perkataan 'solat' dan 'sabun' dalam tulisan Jawi.",
+      "question_jawi": "بنديڠكن قاعده ڤنوليسن كات ڤينجمن بهاس عرب دالم كاتݢوري ايستيله كأݢاماٴن دڠن كاتݢوري كات عموم. بريكن چونتوه باݢي ستياڤ كاتݢوري، ترماسوق ڤركاتاٴن 'solat' دان 'sabun' دالم توليسن جاوي.",
+      "reference_answer_rumi": "Istilah keagamaan (berkaitan aktiviti agama Islam) dikekalkan ejaan asalnya, cth. hamzah akhir ditulis sejajar, ta marbutah dikekalkan: solat = صلاة. Kata umum (digunakan dalam aktiviti kehidupan) ditulis mengikut bunyi/sebutan orang Melayu: sabun = سابون (ejaan asal صابون).",
+      "reference_answer_jawi": "ايستيله كأݢاماٴن دككلكن ايجاٴن اصلن، چونتوه صلاة. كات عموم دتوليس مڠيكوت بوڽي ملايو، چونتوه سابون (ايجاٴن اصل صابون).",
+      "rubric": [
+        {"criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam", "marks": 1, "keywords": ["aktiviti agama", "keagamaan", "كأݢاماٴن"]},
+        {"criterion": "Istilah keagamaan dikekalkan ejaan asalnya", "marks": 1, "keywords": ["dikekalkan", "ejaan asal", "دككلكن ايجاٴن اصلن"]},
+        {"criterion": "Mengeja solat: صلاة", "marks": 1, "keywords": ["صلاة"]},
+        {"criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu", "marks": 1, "keywords": ["bunyi Melayu", "sebutan orang Melayu", "بوڽي ملايو", "سبوتن اورڠ ملايو"]},
+        {"criterion": "Mengeja sabun: سابون (bukan صابون)", "marks": 1, "keywords": ["سابون"]},
+        {"criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)", "marks": 1, "keywords": ["قبلة", "زكاة", "حلال", "تيمم", "كرتس", "لاهير", "ايستيله", "علامت"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [46, 47, 49, 50]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q10",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berdasarkan petikan 'Ramadan Bulan yang Mulia', apakah maksud puasa?",
+      "question_jawi": "اڤاكه مقصود ڤواسا؟",
+      "reference_answer_rumi": "Menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari ghurub (terbenam).",
+      "reference_answer_jawi": "مناهن ديري درڤد ماكن دان مينوم مولاٴي دري تربيت فجر هيڠݢ ماتاهاري غروب.",
+      "rubric": [
+        {"criterion": "Menahan diri daripada makan dan minum", "marks": 1, "keywords": ["menahan diri", "makan dan minum", "مناهن ديري"]},
+        {"criterion": "Dari terbit fajar hingga matahari ghurub", "marks": 1, "keywords": ["fajar", "ghurub", "terbenam", "فجر", "غروب"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [53, 54]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q11",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Di manakah termaktubnya dalil yang mewajibkan berpuasa?",
+      "question_jawi": "دماناكه ترمكتوبڽ دليل يڠ مواجبكن برڤواسا؟",
+      "reference_answer_rumi": "Dalam al-Quran, hadis dan ijmak ulama.",
+      "reference_answer_jawi": "دالم القرءان، حديث دان اجماع علماء.",
+      "rubric": [
+        {"criterion": "Al-Quran", "marks": 1, "keywords": ["al-Quran", "Quran", "القرءان"]},
+        {"criterion": "Hadis", "marks": 1, "keywords": ["hadis", "حديث"]},
+        {"criterion": "Ijmak ulama", "marks": 1, "keywords": ["ijmak", "ulama", "اجماع", "علماء"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [53, 54]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q12",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Nyatakan kesan berpuasa dalam kehidupan manusia.",
+      "question_jawi": "ڽاتاكن كسن برڤواسا دالم كهيدوڤن ماءنسي.",
+      "reference_answer_rumi": "Menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; dan meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan.",
+      "reference_answer_jawi": "ميوچيكن جيوا درڤد صيفت٢ مذمومة سڤرتي رياء، بڠݢ ديري دان تكبور؛ منيڠكتكن تاهڤ كصيحتن ياٴيت دڠن مريحتكن ڤروت درڤد منچرنا ماكنن.",
+      "rubric": [
+        {"criterion": "Menyucikan jiwa daripada sifat mazmumah", "marks": 1, "keywords": ["menyucikan jiwa", "mazmumah", "مذمومة", "جيوا"]},
+        {"criterion": "Menyebut contoh sifat mazmumah (riak, bangga diri, takbur)", "marks": 1, "keywords": ["riak", "bangga diri", "takbur", "رياء", "تكبور"]},
+        {"criterion": "Meningkatkan tahap kesihatan", "marks": 1, "keywords": ["kesihatan", "كصيحتن"]},
+        {"criterion": "Merehatkan perut daripada mencerna makanan", "marks": 1, "keywords": ["merehatkan perut", "mencerna", "ڤروت"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [53, 54]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q13",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah ibadah yang boleh digandakan semasa bulan Ramadan?",
+      "question_jawi": "اڤاكه عبادة يڠ بوليه دݢنداكن سماس بولن رمضان؟",
+      "reference_answer_rumi": "Bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+      "reference_answer_jawi": "برصدقه، صلاة سنة تراويح دمسجد، تداروس القرءان، دودوق دالم مجليس علمو دان بربوک ڤواسا سچارا برجماعه.",
+      "rubric": [
+        {"criterion": "Ibadah pertama (cth. bersedekah)", "marks": 1, "keywords": ["sedekah", "برصدقه"]},
+        {"criterion": "Ibadah kedua (cth. solat sunat tarawih)", "marks": 1, "keywords": ["tarawih", "تراويح"]},
+        {"criterion": "Ibadah ketiga (cth. tadarus al-Quran / majlis ilmu / berbuka puasa berjemaah)", "marks": 1, "keywords": ["tadarus", "majlis ilmu", "berbuka", "تداروس", "مجليس علمو", "برجماعه"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [53, 54]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q14",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Jawikan perkataan berikut: halal, syarikat, istilah, tahajud.",
+      "question_jawi": "جاويكن ڤركاتاٴن برايكوت: halal, syarikat, istilah, tahajud.",
+      "reference_answer_rumi": "halal, syarikat, istilah, tahajud",
+      "reference_answer_jawi": "حلال، شريكت، ايستيله، تهجد",
+      "rubric": [
+        {"criterion": "halal: حلال", "marks": 1, "keywords": ["حلال"]},
+        {"criterion": "syarikat: شريكت (kata umum, ta maftuhah)", "marks": 1, "keywords": ["شريكت"]},
+        {"criterion": "istilah: ايستيله (ejaan Melayu, bukan اصطلاح)", "marks": 1, "keywords": ["ايستيله"]},
+        {"criterion": "tahajud: تهجد", "marks": 1, "keywords": ["تهجد"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [48, 49, 50, 54]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q15",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Jawikan perkataan berikut: sunnah, Isyak, amil, Al-Ghaffar.",
+      "question_jawi": "جاويكن ڤركاتاٴن برايكوت: sunnah, Isyak, amil, Al-Ghaffar.",
+      "reference_answer_rumi": "sunnah, Isyak, amil, Al-Ghaffar",
+      "reference_answer_jawi": "سنة، عشاء، عامل، الغفار",
+      "rubric": [
+        {"criterion": "sunnah: سنة (seperti dalam petikan 'صلاة سنة تراويح')", "marks": 1, "keywords": ["سنة"]},
+        {"criterion": "Isyak: عشاء (hamzah akhir sejajar)", "marks": 1, "keywords": ["عشاء"]},
+        {"criterion": "amil: عامل", "marks": 1, "keywords": ["عامل"]},
+        {"criterion": "Al-Ghaffar: الغفار (tanpa sempang)", "marks": 1, "keywords": ["الغفار"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [47, 48, 49, 53, 54]
+    },
+    {
+      "id": "jawi_b3_pinjaman_arab_q16",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Jawikan perkataan berikut: kiamat, ulama, zakat, hadis.",
+      "question_jawi": "جاويكن ڤركاتاٴن برايكوت: kiamat, ulama, zakat, hadis.",
+      "reference_answer_rumi": "kiamat, ulama, zakat, hadis",
+      "reference_answer_jawi": "قيامة، علماء، زكاة، حديث",
+      "rubric": [
+        {"criterion": "kiamat: قيامة (ta marbutah dikekalkan)", "marks": 1, "keywords": ["قيامة"]},
+        {"criterion": "ulama: علماء (hamzah akhir sejajar)", "marks": 1, "keywords": ["علماء"]},
+        {"criterion": "zakat: زكاة (ta marbutah dikekalkan)", "marks": 1, "keywords": ["زكاة"]},
+        {"criterion": "hadis: حديث", "marks": 1, "keywords": ["حديث"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [47, 48, 54]
+    }
+  ]
+}

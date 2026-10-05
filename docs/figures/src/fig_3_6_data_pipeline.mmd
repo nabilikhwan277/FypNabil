@@ -1,0 +1,12 @@
+flowchart TD
+  B["3 Year 5 textbooks: Ibadah (JAKIM), Jawi, Tajwid (JAIS)<br/>image-only PDFs, 220 pages"] --> I["Page images (PyMuPDF)"]
+  I --> T["AI-assisted transcription per topic<br/>Rumi + Jawi, Arabic copied as printed, unclear words marked"]
+  T --> N["48 topic notes (.md)<br/>subject, bab, pages, verified flag"]
+  T --> QB["382 questions (.json)<br/>Tahap 1: 204 · Tahap 2: 131 · Tahap 3: 47<br/>rubric + keywords + reference answer"]
+  N --> V["validate_data.py + teacher review checklist"]
+  QB --> V
+  V --> CH["Chunk by section: 339 chunks"]
+  CH --> EMB["bge-m3 embeddings"] --> DB[("ChromaDB")]
+  CH --> BM["BM25 keyword index"]
+  V --> SPL["Hold-out split: train 306 / test 76<br/>stratified by subject + level"]
+  SPL --> SIL["Silver answers for tuning and evaluation<br/>rule-built + AI-written, labelled per criterion"]

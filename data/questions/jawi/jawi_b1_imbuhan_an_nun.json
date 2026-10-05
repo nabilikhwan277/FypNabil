@@ -1,0 +1,219 @@
+{
+  "topic_id": "jawi_b1_imbuhan_an_nun",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'pujian' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'pujian' دالم توليسن جاوي.",
+      "reference_answer_rumi": "pujian",
+      "reference_answer_jawi": "ڤوجين",
+      "rubric": [
+        {"criterion": "Mengeja 'pujian' dengan betul (ڤوجين)", "marks": 1, "keywords": ["ڤوجين"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [13]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'sebutan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'sebutan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "sebutan",
+      "reference_answer_jawi": "سبوتن",
+      "rubric": [
+        {"criterion": "Mengeja 'sebutan' dengan betul (سبوتن)", "marks": 1, "keywords": ["سبوتن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [14]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'keikhlasan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'keikhlasan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "keikhlasan",
+      "reference_answer_jawi": "كأخلاصن",
+      "rubric": [
+        {"criterion": "Mengeja 'keikhlasan' dengan betul (كأخلاصن)", "marks": 2, "keywords": ["كأخلاصن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [14]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah cara menulis imbuhan '-an' dalam tulisan Jawi?",
+      "question_jawi": "براڤاكه چارا منوليس ايمبوهن '-an' دالم توليسن جاوي؟",
+      "reference_answer_rumi": "Tiga cara ('-ن', '-ان' dan '-ءن')",
+      "reference_answer_jawi": "تيݢ چارا ('-ن'، '-ان' دان '-ءن')",
+      "rubric": [
+        {"criterion": "Menyatakan tiga cara", "marks": 1, "keywords": ["tiga", "3", "تيݢ"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [10]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan dua jenis kata dasar yang imbuhan '-an'nya ditulis dengan huruf '-ن' sahaja, dan berikan satu contoh bagi setiap jenis.",
+      "question_jawi": "ڽاتاكن دوا جنيس كات داسر يڠ ايمبوهن '-an'ڽ دتوليس دڠن حروف '-ن' سهاج، دان بريكن ساتو چونتوه باݢي ستياڤ جنيس.",
+      "reference_answer_rumi": "1. Kata dasar yang berakhir dengan huruf '-ي', contoh tari -> tarian. 2. Kata dasar yang berakhir dengan suku kata tertutup, contoh sukat -> sukatan.",
+      "reference_answer_jawi": "1. كات داسر يڠ براخير دڠن حروف '-ي'، چونتوه تاري -> تارين. 2. كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ، چونتوه سوكت -> سوكتن.",
+      "rubric": [
+        {"criterion": "Kata dasar berakhir dengan huruf '-ي'", "marks": 1, "keywords": ["berakhir dengan huruf ي", "huruf ya", "حروف '-ي'"]},
+        {"criterion": "Contoh betul bagi jenis pertama (cth. ڤوجين, تارين, بلاين, ڤاكاين)", "marks": 1, "keywords": ["ڤوجين", "تارين", "بلاين", "ڤاكاين"]},
+        {"criterion": "Kata dasar berakhir dengan suku kata tertutup", "marks": 1, "keywords": ["suku kata tertutup", "سوكو كات ترتوتوڤ"]},
+        {"criterion": "Contoh betul bagi jenis kedua (cth. سوكتن, تاڤيسن, سبوتن, كأخلاصن)", "marks": 1, "keywords": ["سوكتن", "تاڤيسن", "سبوتن", "كأخلاصن"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [12, 13, 14]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Kenapakah ejaan 'pakaian' menggunakan huruf 'ن' sahaja bagi imbuhan '-an'? Tuliskan juga ejaan Jawinya.",
+      "question_jawi": "كنڤاكه ايجاءن 'pakaian' مڠݢوناكن حروف 'ن' سهاج باݢي ايمبوهن '-an'؟ توليسكن جوݢ ايجاءن جاويڽ.",
+      "reference_answer_rumi": "Kerana kata dasarnya 'pakai' (ڤاكاي) berakhir dengan huruf '-ي' (diftong 'ai'); imbuhan '-an' pada kata dasar yang berakhir dengan huruf '-ي' ditulis dengan 'ن' sahaja. Ejaan: ڤاكاين.",
+      "reference_answer_jawi": "كران كات داسرڽ ڤاكاي براخير دڠن حروف '-ي'؛ ايمبوهن '-an' ڤد كات داسر يڠ براخير دڠن حروف '-ي' هندقله دتوليس دڠن حروف 'ن' سهاج. ايجاءن: ڤاكاين.",
+      "rubric": [
+        {"criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'", "marks": 1, "keywords": ["berakhir dengan huruf ي", "ڤاكاي", "diftong ai"]},
+        {"criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja", "marks": 1, "keywords": ["ن sahaja", "huruf nun sahaja", "سهاج"]},
+        {"criterion": "Mengeja ڤاكاين dengan betul", "marks": 1, "keywords": ["ڤاكاين"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [13, 17]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan peraturan ejaan imbuhan '-an' dengan huruf '-ن'. Dalam jawapan anda, jelaskan jenis kata dasar yang terlibat serta vokal/diftong yang biasa digunakan, dan tukarkan kata dasar 'belai' dan 'tapis' kepada kata berimbuhan '-an' dalam tulisan Jawi.",
+      "question_jawi": "تراڠكن ڤراتورن ايجاءن ايمبوهن '-an' دڠن حروف '-ن'. دالم جواڤن اندا، جلسكن جنيس كات داسر يڠ ترليبت سرتا ۏوكل/ديفتوڠ يڠ بياسا دݢوناكن، دان توكركن كات داسر 'belai' دان 'tapis' كڤد كات برايمبوهن '-an' دالم توليسن جاوي.",
+      "reference_answer_rumi": "Imbuhan '-an' ditulis dengan '-ن' sahaja pada (1) kata dasar yang berakhir dengan huruf '-ي' - suku kata terbuka dengan vokal 'i' dan diftong 'ai'; dan (2) kata dasar yang berakhir dengan suku kata tertutup - biasanya vokal 'a', 'i', 'e' taling, 'u' dan 'o'. belai (بلاي) -> belaian (بلاين); tapis (تاڤيس) -> tapisan (تاڤيسن).",
+      "reference_answer_jawi": "ايمبوهن '-an' دتوليس دڠن '-ن' سهاج ڤد (1) كات داسر يڠ براخير دڠن حروف '-ي' - سوكو كات تربوك يڠ مڠݢوناكن ۏوكل 'i' دان ديفتوڠ 'ai'؛ (2) كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ - بياساڽ ۏوكل 'a'، 'i'، 'e' تاليڠ، 'u' دان 'o'. بلاي -> بلاين؛ تاڤيس -> تاڤيسن.",
+      "rubric": [
+        {"criterion": "Kata dasar berakhir dengan huruf '-ي'", "marks": 1, "keywords": ["huruf ي", "حروف '-ي'"]},
+        {"criterion": "Menyebut suku kata terbuka dengan vokal 'i' dan diftong 'ai'", "marks": 1, "keywords": ["vokal i", "diftong ai", "suku kata terbuka", "ديفتوڠ"]},
+        {"criterion": "Kata dasar berakhir dengan suku kata tertutup", "marks": 1, "keywords": ["suku kata tertutup", "ترتوتوڤ"]},
+        {"criterion": "Menyebut vokal 'a', 'i', 'e' taling, 'u', 'o'", "marks": 1, "keywords": ["e taling", "vokal a", "تاليڠ"]},
+        {"criterion": "Mengeja belaian: بلاين", "marks": 1, "keywords": ["بلاين"]},
+        {"criterion": "Mengeja tapisan: تاڤيسن", "marks": 1, "keywords": ["تاڤيسن"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [13, 14, 17]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q8",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berdasarkan petikan 'Laporan Lawatan Sambil Belajar ke Cameron Highlands', bilakah lawatan ke Cameron Highlands diadakan?",
+      "question_jawi": "بيلاكه لاوتن ككامرون هايلند دأداكن؟",
+      "reference_answer_rumi": "Pada 1 April 2018",
+      "reference_answer_jawi": "ڤد 1 اڤريل 2018",
+      "rubric": [
+        {"criterion": "Menyatakan 1 April 2018", "marks": 1, "keywords": ["1 April 2018", "1 اڤريل 2018"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [15, 16]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q9",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Berdasarkan petikan, apakah tujuan utama lawatan tersebut?",
+      "question_jawi": "اڤاكه توجوان اوتام لاوتن ترسبوت؟",
+      "reference_answer_rumi": "Untuk menambah ilmu pengetahuan ahli persatuan dan dapat menyaksikan sendiri tempat-tempat yang menarik di sana.",
+      "reference_answer_jawi": "اونتوق منمبه علمو ڤڠتاهوان اهلي ڤرساتوان دان داڤت مڽقسيكن سنديري تمڤت٢ يڠ مناريق دسان.",
+      "rubric": [
+        {"criterion": "Menambah ilmu pengetahuan ahli persatuan", "marks": 1, "keywords": ["ilmu pengetahuan", "علمو ڤڠتاهوان"]},
+        {"criterion": "Menyaksikan sendiri tempat-tempat menarik", "marks": 1, "keywords": ["menyaksikan", "tempat menarik", "مڽقسيكن"]},
+        {"criterion": "Jawapan ditulis dengan jelas berdasarkan petikan", "marks": 1, "keywords": ["persatuan", "ڤرساتوان"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [15, 16]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q10",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah jumlah murid dan guru pengiring yang terlibat dalam lawatan itu?",
+      "question_jawi": "براڤاكه جومله موريد دان ݢورو ڤڠيريڠ يڠ ترليبت؟",
+      "reference_answer_rumi": "Tiga puluh lima orang murid dan lima orang guru pengiring",
+      "reference_answer_jawi": "تيݢ ڤولوه ليم اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ",
+      "rubric": [
+        {"criterion": "35 orang murid", "marks": 1, "keywords": ["tiga puluh lima", "35", "تيݢ ڤولوه ليم"]},
+        {"criterion": "5 orang guru pengiring", "marks": 1, "keywords": ["lima orang guru", "5 orang guru", "ليم اورڠ ݢورو"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [15, 16]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q11",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+      "question_jawi": "اڤاكه يڠ ترداڤت دمردي اݢروتيكنولوݢي ڤرك؟",
+      "reference_answer_rumi": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+      "reference_answer_jawi": "ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن",
+      "rubric": [
+        {"criterion": "Menyebut bunga ros", "marks": 1, "keywords": ["bunga ros", "بوڠا روس"]},
+        {"criterion": "Menyebut strawberi / buah-buahan", "marks": 1, "keywords": ["strawberi", "buah-buahan", "ستروبيري", "بواه-بواهن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [15, 16]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q12",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Nyatakan aktiviti ketika berada di Big Red Strawberry Farm.",
+      "question_jawi": "ڤاتاكن اكتيۏيتي كتيك برادا دبيك ريد ستروبيري فرم.",
+      "reference_answer_rumi": "Mendapat pengalaman memetik sendiri buah strawberi dan membeli sebagai buah tangan.",
+      "reference_answer_jawi": "داڤت ڤڠالمن ممتيق سنديري بواه ستروبيري دان ممبلي سباݢاي بواه تاڠن.",
+      "rubric": [
+        {"criterion": "Memetik sendiri buah strawberi", "marks": 1, "keywords": ["memetik", "ممتيق"]},
+        {"criterion": "Membeli sebagai buah tangan", "marks": 1, "keywords": ["buah tangan", "بواه تاڠن"]},
+        {"criterion": "Menyebut 'pengalaman'", "marks": 1, "keywords": ["pengalaman", "ڤڠالمن"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [15, 16]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_nun_q13",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Jawikan perkataan berikut: masakan, harian, belian.",
+      "question_jawi": "جاويكن ڤركاتاءن برايكوت: masakan, harian, belian.",
+      "reference_answer_rumi": "masakan, harian, belian",
+      "reference_answer_jawi": "ماسقن، هارين، بلين",
+      "rubric": [
+        {"criterion": "masakan: ماسقن (seperti dicetak dalam Sudut Jawi)", "marks": 1, "keywords": ["ماسقن"]},
+        {"criterion": "harian: هارين (kata dasar berakhir huruf '-ي' + ن)", "marks": 1, "keywords": ["هارين"]},
+        {"criterion": "belian: بلين (kata dasar berakhir huruf '-ي' + ن)", "marks": 1, "keywords": ["بلين"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [11, 13, 16]
+    }
+  ]
+}

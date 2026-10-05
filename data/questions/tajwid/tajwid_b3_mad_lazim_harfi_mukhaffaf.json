@@ -1,0 +1,137 @@
+{
+  "topic_id": "tajwid_b3_mad_lazim_harfi_mukhaffaf",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bagaimanakah cara bacaan Mad Lazim Harfi Mukhaffaf?",
+      "question_jawi": "باݢايماناكه چارا باچاءن مد لازم حرفي مخفف؟",
+      "reference_answer_rumi": "Dibaca tanpa idgham dan tanpa dengung",
+      "reference_answer_jawi": "دباچ دڠن تنڤا إدغام دان تنڤا دڠوڠ",
+      "rubric": [
+        {"criterion": "Tanpa idgham", "marks": 1, "keywords": ["tanpa idgham", "tidak diidghamkan", "تنڤا إدغام"]},
+        {"criterion": "Tanpa dengung", "marks": 1, "keywords": ["tanpa dengung", "تنڤا دڠوڠ"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [49]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar bacaan Mad Lazim Harfi Mukhaffaf?",
+      "question_jawi": "براڤاكه قدر باچاءن مد لازم حرفي مخفف؟",
+      "reference_answer_rumi": "Enam harakat (lazim bermaksud mesti dibaca enam harakat)",
+      "reference_answer_jawi": "انم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan enam harakat", "marks": 1, "keywords": ["enam harakat", "6 harakat", "enam", "انم حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [52, 53]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan huruf di permulaan surah?",
+      "question_jawi": "براڤاكه بيلڠن حروف دڤرمولاءن سورة؟",
+      "reference_answer_rumi": "14 huruf",
+      "reference_answer_jawi": "14 حروف",
+      "rubric": [
+        {"criterion": "Menyatakan 14 huruf", "marks": 1, "keywords": ["14", "empat belas"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [52]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah kadar harakat yang harus bagi huruf 'Ain pada كٓهيعٓصٓ dan عٓسٓقٓ, dan berapakah yang lebih afdal?",
+      "question_jawi": "براڤاكه قدر حركة يڠ هاروس باݢي حروف عين ڤد كٓهيعٓصٓ دان عٓسٓقٓ، دان براڤاكه يڠ لبيه افضل؟",
+      "reference_answer_rumi": "Harus empat harakat; enam harakat lebih afdal",
+      "reference_answer_jawi": "هاروس امڤت حركة؛ انم حركة لبيه افضل",
+      "rubric": [
+        {"criterion": "Harus empat harakat", "marks": 1, "keywords": ["empat", "4", "امڤت"]},
+        {"criterion": "Enam harakat lebih afdal", "marks": 1, "keywords": ["enam", "6", "afdal", "انم", "افضل"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [52]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Lazim Harfi Mukhaffaf?",
+      "question_jawi": "اڤاكه ارتي مد لازم حرفي مخفف؟",
+      "reference_answer_rumi": "Mad Lazim Harfi Mukhaffaf ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan tidak diidghamkan ke dalam huruf berikutnya.",
+      "reference_answer_jawi": "مد لازم حرفي مخفف اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف يڠ ترداڤت دڤرمولاءن سورة (فواتح السور) دان تيدق دأدغامكن كدالم حروف برايكوتڽ.",
+      "rubric": [
+        {"criterion": "Huruf mad bertemu huruf mati dalam satu huruf", "marks": 1, "keywords": ["huruf mad", "huruf mati", "satu huruf", "حروف مد", "حروف ماتي"]},
+        {"criterion": "Di permulaan surah (fawatih al-suwar)", "marks": 1, "keywords": ["permulaan surah", "fawatih", "فواتح السور", "ڤرمولاءن سورة"]},
+        {"criterion": "Tidak diidghamkan ke dalam huruf berikutnya", "marks": 1, "keywords": ["tidak diidghamkan", "tanpa idgham", "تيدق دأدغامكن"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [49, 53]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan lima surah yang mengandungi hukum Mad Lazim Harfi Mukhaffaf.",
+      "question_jawi": "سنارايكن ليم سورة يڠ مڠاندوڠي حكوم مد لازم حرفي مخفف.",
+      "reference_answer_rumi": "Mana-mana lima: al-Qalam, Qaf, Sad, Maryam, Yasin, asy-Syura, an-Naml, Yunus, Yusuf, Hud, Ibrahim, al-Hijr, ar-Ra'd, ad-Dukhan, al-Baqarah, asy-Syu'ara', al-Qasas, al-A'raf.",
+      "reference_answer_jawi": "مان٢ ليم: القلم، ق، ص، مريم، يس، الشورى، النمل، يونس، يوسف، هود، إبراهيم، الحجر، الرعد، الدخان، البقرة، الشعراء، القصص، الأعراف.",
+      "rubric": [
+        {"criterion": "Dua surah pertama yang betul", "marks": 2, "keywords": ["Qalam", "Qaf", "Sad", "Maryam", "Yasin", "Syura", "Naml", "Yunus", "Yusuf", "Hud", "Ibrahim", "Hijr", "Ra'd", "Dukhan", "Baqarah", "Syu'ara", "Qasas", "A'raf", "القلم", "مريم", "يس", "الشورى", "النمل", "يونس", "يوسف", "هود", "إبراهيم", "الحجر", "الرعد", "الدخان", "البقرة", "الشعراء", "القصص", "الأعراف"]},
+        {"criterion": "Tiga surah berikutnya yang betul", "marks": 2, "keywords": ["Qalam", "Qaf", "Sad", "Maryam", "Yasin", "Syura", "Naml", "Yunus", "Yusuf", "Hud", "Ibrahim", "Hijr", "Ra'd", "Dukhan", "Baqarah", "Syu'ara", "Qasas", "A'raf", "القلم", "مريم", "يس", "الشورى", "النمل", "يونس", "يوسف", "هود", "إبراهيم", "الحجر", "الرعد", "الدخان", "البقرة", "الشعراء", "القصص", "الأعراف"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [50, 51, 53]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan erti kalimah: mad, lazim, harfi dan mukhaffaf.",
+      "question_jawi": "توليسكن ارتي كليمه: مد، لازم، حرفي دان مخفف.",
+      "reference_answer_rumi": "Mad = memanjangkan bacaan; Lazim = mesti dibaca enam harakat; Harfi = satu huruf; Mukhaffaf = tidak diidghamkan.",
+      "reference_answer_jawi": "مد = ممنجڠكن باچاءن؛ لازم = مستي دباچ انم حركة؛ حرفي = ساتو حروف؛ مخفف = تيدق دأدغامكن.",
+      "rubric": [
+        {"criterion": "Mad = memanjangkan bacaan", "marks": 1, "keywords": ["memanjangkan bacaan", "ممنجڠكن باچاءن"]},
+        {"criterion": "Lazim = mesti dibaca enam harakat", "marks": 1, "keywords": ["mesti dibaca enam", "enam harakat", "مستي دباچ انم حركة"]},
+        {"criterion": "Harfi = satu huruf", "marks": 1, "keywords": ["satu huruf", "ساتو حروف"]},
+        {"criterion": "Mukhaffaf = tidak diidghamkan", "marks": 1, "keywords": ["tidak diidghamkan", "تيدق دأدغامكن"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [52, 53]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_mukhaffaf_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan Mad Lazim Harfi Mukhaffaf meliputi pengertian, cara bacaan dan kadar harakat, serta berikan dua misal beserta nama surahnya.",
+      "question_jawi": "تراڠكن مد لازم حرفي مخفف ملیڤوتي ڤڠرتين، چارا باچاءن دان قدر حركة، سرتا بريكن دوا ميثل بسرتا نام سورةڽ.",
+      "reference_answer_rumi": "Mad Lazim Harfi Mukhaffaf ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf di permulaan surah (fawatih al-suwar) dan tidak diidghamkan ke dalam huruf berikutnya. Ia dibaca tanpa idgham dan tanpa dengung, mesti dibaca enam harakat (bagi 'Ain pada كٓهيعٓصٓ dan عٓسٓقٓ harus empat harakat, enam lebih afdal). Contoh: نٓ (Surah al-Qalam), قٓ (Surah Qaf), يسٓ (Surah Yasin).",
+      "reference_answer_jawi": "مد لازم حرفي مخفف اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف دڤرمولاءن سورة (فواتح السور) دان تيدق دأدغامكن كدالم حروف برايكوتڽ. اي دباچ تنڤا إدغام دان تنڤا دڠوڠ، مستي دباچ انم حركة. چونتوه: نٓ (سورة القلم)، قٓ (سورة ق)، يسٓ (سورة يس).",
+      "rubric": [
+        {"criterion": "Pengertian: huruf mad bertemu huruf mati di fawatih al-suwar, tidak diidghamkan", "marks": 2, "keywords": ["huruf mad", "huruf mati", "permulaan surah", "tidak diidghamkan", "فواتح السور", "تيدق دأدغامكن"]},
+        {"criterion": "Cara bacaan: tanpa idgham dan tanpa dengung", "marks": 1, "keywords": ["tanpa idgham", "tanpa dengung", "تنڤا إدغام", "تنڤا دڠوڠ"]},
+        {"criterion": "Kadar enam harakat", "marks": 1, "keywords": ["enam", "6", "انم"]},
+        {"criterion": "Dua misal yang betul beserta surah", "marks": 2, "keywords": ["نٓ", "قٓ", "صٓ", "كٓهيعٓصٓ", "يسٓ", "عٓسٓقٓ", "طسٓ", "الٓر", "حمٓ", "Qalam", "Qaf", "Sad", "Maryam", "Yasin", "Syura", "Naml", "Yunus", "Dukhan", "القلم", "مريم", "يس", "الشورى", "النمل"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [49, 50, 51, 52]
+    }
+  ]
+}

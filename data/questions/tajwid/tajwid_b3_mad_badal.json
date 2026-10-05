@@ -1,0 +1,104 @@
+{
+  "topic_id": "tajwid_b3_mad_badal",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_badal_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Badal?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد بدل؟",
+      "reference_answer_rumi": "Dua harakat",
+      "reference_answer_jawi": "دوا حركة",
+      "rubric": [
+        {"criterion": "Menyatakan dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [28, 30]
+    },
+    {
+      "id": "tajwid_b3_mad_badal_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Jika hamzah pertama berbaris atas, hamzah kedua digantikan dengan huruf apa?",
+      "question_jawi": "جک همزة ڤرتام برباريس اتس، همزة كدوا دݢنتيكن دڠن حروف اڤ؟",
+      "reference_answer_rumi": "Huruf alif",
+      "reference_answer_jawi": "حروف اليف",
+      "rubric": [
+        {"criterion": "Menyatakan huruf alif", "marks": 1, "keywords": ["alif", "اليف", "ا"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [28, 29]
+    },
+    {
+      "id": "tajwid_b3_mad_badal_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Jika hamzah pertama berbaris depan, hamzah kedua digantikan dengan huruf apa?",
+      "question_jawi": "جک همزة ڤرتام برباريس دڤن، همزة كدوا دݢنتيكن دڠن حروف اڤ؟",
+      "reference_answer_rumi": "Huruf wau",
+      "reference_answer_jawi": "حروف واو",
+      "rubric": [
+        {"criterion": "Menyatakan huruf wau", "marks": 1, "keywords": ["wau", "waw", "واو", "و"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [29]
+    },
+    {
+      "id": "tajwid_b3_mad_badal_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Badal?",
+      "question_jawi": "اڤاكه ارتي مد بدل؟",
+      "reference_answer_rumi": "Mad Badal ialah apabila berhimpun dua hamzah dalam satu kalimah dan diganti hamzah kedua dengan huruf mad mengikut baris hamzah yang pertama.",
+      "reference_answer_jawi": "مد بدل اياله اڤابيلا برهيمڤون دوا همزة دالم ساتو كليمه دان دݢنتي همزة كدوا دڠن حروف مد مڠيكوت باريس همزة يڠ ڤرتام.",
+      "rubric": [
+        {"criterion": "Berhimpun dua hamzah dalam satu kalimah", "marks": 1, "keywords": ["dua hamzah", "satu kalimah", "دوا همزة", "ساتو كليمه"]},
+        {"criterion": "Hamzah kedua diganti dengan huruf mad", "marks": 1, "keywords": ["diganti", "huruf mad", "دݢنتي", "حروف مد"]},
+        {"criterion": "Mengikut baris hamzah pertama", "marks": 1, "keywords": ["baris hamzah", "pertama", "باريس همزة", "ڤرتام"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [28, 30]
+    },
+    {
+      "id": "tajwid_b3_mad_badal_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan asal kalimah berikut: i. ءَامَنُواْ ii. أُوتُواْ iii. إِيمَٰنٗا",
+      "question_jawi": "توليسكن اصل كليمه برايكوت: i. ءَامَنُواْ ii. أُوتُواْ iii. إِيمَٰنٗا",
+      "reference_answer_rumi": "i. ءَأۡمَنُوا ii. أُؤۡتُوا iii. إِئۡمَانًا",
+      "reference_answer_jawi": "i. ءَأۡمَنُوا ii. أُؤۡتُوا iii. إِئۡمَانًا",
+      "rubric": [
+        {"criterion": "Asal ءَامَنُواْ ialah ءَأۡمَنُوا", "marks": 1, "keywords": ["ءَأۡمَنُوا", "ءأمنوا", "ءَأْمَنُوا"]},
+        {"criterion": "Asal أُوتُواْ ialah أُؤۡتُوا", "marks": 1, "keywords": ["أُؤۡتُوا", "أؤتوا", "أُؤْتُوا"]},
+        {"criterion": "Asal إِيمَٰنٗا ialah إِئۡمَانًا", "marks": 1, "keywords": ["إِئۡمَانًا", "إئمانا", "إِئْمَانًا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [28, 29, 30]
+    },
+    {
+      "id": "tajwid_b3_mad_badal_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan asal kalimah Mad Badal dan bagaimana hamzah kedua digantikan mengikut baris hamzah pertama. Berikan satu misal bagi setiap keadaan.",
+      "question_jawi": "تراڠكن اصل كليمه مد بدل دان باݢايمان همزة كدوا دݢنتيكن مڠيكوت باريس همزة ڤرتام. بريكن ساتو ميثل باݢي ستياڤ كأداٴن.",
+      "reference_answer_rumi": "Asal kalimah Mad Badal: berhimpun dua hamzah dalam satu kalimah; hamzah pertama berbaris dan hamzah kedua dimatikan. Hamzah kedua kemudian digantikan menjadi huruf mad mengikut baris hamzah pertama: baris atas menjadi alif (ءَأۡدَمُ menjadi ءَادَمُ), baris depan menjadi wau (أُؤۡتِيَ menjadi أُوتِيَ), baris bawah menjadi ya (إِئۡمَانًا menjadi إِيمَٰنٗا). Kadar bacaannya dua harakat.",
+      "reference_answer_jawi": "اصل كليمه مد بدل: برهيمڤون دوا همزة دالم ساتو كليمه؛ همزة ڤرتام برباريس دان همزة كدوا دماتيكن. همزة كدوا كمودين دݢنتيكن منجادي حروف مد مڠيكوت باريس همزة ڤرتام: باريس اتس منجادي اليف (ءَأۡدَمُ منجادي ءَادَمُ)، باريس دڤن منجادي واو (أُؤۡتِيَ منجادي أُوتِيَ)، باريس باوه منجادي ياء (إِئۡمَانًا منجادي إِيمَٰنٗا). قدر باچاٴنڽ دوا حركة.",
+      "rubric": [
+        {"criterion": "Dua hamzah dalam satu kalimah; hamzah pertama berbaris, kedua dimatikan", "marks": 2, "keywords": ["dua hamzah", "dimatikan", "دوا همزة", "دماتيكن"]},
+        {"criterion": "Baris atas menjadi alif beserta misal", "marks": 1, "keywords": ["alif", "اليف", "ءَادَمُ", "ءَازَرَ", "ءَامَنُواْ"]},
+        {"criterion": "Baris depan menjadi wau beserta misal", "marks": 1, "keywords": ["wau", "واو", "أُوتِيَ", "أُوتُواْ"]},
+        {"criterion": "Baris bawah menjadi ya beserta misal", "marks": 1, "keywords": ["ya", "ياء", "إِيمَٰنٗا", "إِيمَٰنِكُمۡ"]},
+        {"criterion": "Kadar dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [28, 29]
+    }
+  ]
+}

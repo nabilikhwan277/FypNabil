@@ -1,0 +1,103 @@
+{
+  "topic_id": "fiqh_b1_solat_tahajud",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_tahajud_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan rakaat sekurang-kurangnya bagi solat tahajud?",
+      "question_jawi": "برڤاكه بيلڠن ركعة سكورڠ-كورڠڽ باݢي صلاة تهجد؟",
+      "reference_answer_rumi": "Dua rakaat",
+      "reference_answer_jawi": "دوا ركعة",
+      "rubric": [
+        {"criterion": "Menyatakan dua rakaat", "marks": 1, "keywords": ["dua rakaat", "2 rakaat", "دوا ركعة", "2 ركعة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [29]
+    },
+    {
+      "id": "fiqh_b1_solat_tahajud_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Pada bahagian malam yang manakah solat tahajud didirikan?",
+      "question_jawi": "ڤد بهاݢين مالم يڠ ماناكه صلاة تهجد دديريكن؟",
+      "reference_answer_rumi": "Pada 2/3 malam sebelum masuknya waktu subuh",
+      "reference_answer_jawi": "ڤد 2/3 مالم سبلوم ماسوقڽ وقتو صبح",
+      "rubric": [
+        {"criterion": "Menyatakan 2/3 malam", "marks": 1, "keywords": ["2/3 malam", "dua pertiga malam", "2/3 مالم"]},
+        {"criterion": "Menyatakan sebelum masuk waktu subuh", "marks": 1, "keywords": ["sebelum subuh", "waktu subuh", "صبح"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [29]
+    },
+    {
+      "id": "fiqh_b1_solat_tahajud_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah langkah terakhir dalam cara pelaksanaan solat tahajud?",
+      "question_jawi": "اڤاكه لڠكه تراخير دالم چارا ڤلقساناءن صلاة تهجد؟",
+      "reference_answer_rumi": "Memberi salam",
+      "reference_answer_jawi": "ممبري سلام",
+      "rubric": [
+        {"criterion": "Menyatakan memberi salam", "marks": 1, "keywords": ["salam", "memberi salam", "سلام", "ممبري سلام"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [31]
+    },
+    {
+      "id": "fiqh_b1_solat_tahajud_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat solat tahajud.",
+      "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة تهجد.",
+      "reference_answer_rumi": "1. Membersihkan hati daripada kebencian sesama manusia. 2. Mencintai Allah SWT dan menguatkan iman. 3. Mempunyai rasa takut kepada Allah SWT dan menyedari bahawa kehidupan di dunia hanya sementara dan singkat.",
+      "reference_answer_jawi": "1. ممبرسيهكن هاتي درڤد كبنچين سسام مأنسي. 2. منچينتاءي الله سبحانه وتعالى دان مڠواتكن ايمان. 3. مڤوڽاءي راس تاكوت كڤد الله سبحانه وتعالى دان مڽدري بهاوا كهيدوڤن ددنيا هاڽ سمنتارا دان سيڠكت.",
+      "rubric": [
+        {"criterion": "Membersihkan hati daripada kebencian", "marks": 1, "keywords": ["membersihkan hati", "kebencian", "ممبرسيهكن هاتي", "كبنچين"]},
+        {"criterion": "Mencintai Allah dan menguatkan iman", "marks": 1, "keywords": ["mencintai Allah", "menguatkan iman", "منچينتاءي الله", "مڠواتكن ايمان"]},
+        {"criterion": "Rasa takut kepada Allah / dunia sementara", "marks": 1, "keywords": ["takut kepada Allah", "sementara", "تاكوت", "سمنتارا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [30]
+    },
+    {
+      "id": "fiqh_b1_solat_tahajud_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Tuliskan lafaz niat solat tahajud dan nyatakan maksudnya.",
+      "question_jawi": "توليسكن لفظ نية صلاة تهجد دان ڽاتاكن مقصودڽ.",
+      "reference_answer_rumi": "أُصَلِّي سُنَّةَ ٱلتَّهَجُّدِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat tahajud dua rakaat kerana Allah Taala.",
+      "reference_answer_jawi": "أُصَلِّي سُنَّةَ ٱلتَّهَجُّدِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة تهجد دوا ركعة كران الله تعالى.",
+      "rubric": [
+        {"criterion": "Menulis lafaz niat dengan betul", "marks": 2, "keywords": ["أُصَلِّي", "ٱلتَّهَجُّدِ", "رَكْعَتَيْنِ", "اصلي", "التهجد"]},
+        {"criterion": "Menyatakan maksud niat", "marks": 1, "keywords": ["sahaja aku solat sunat tahajud", "dua rakaat kerana Allah", "سهاج اكو صلاة سنة تهجد"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [30]
+    },
+    {
+      "id": "fiqh_b1_solat_tahajud_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Puan Siti sering mengeluh tentang masalah yang menimpanya kerana tiada pekerjaan tetap dan kesempitan wang. Cadangkan satu amalan solat sunat kepadanya, terangkan pengertian solat tersebut dan nyatakan dua fadhilatnya.",
+      "question_jawi": "ڤوان سيتي سريڠ مڠلوه تنتڠ مسئله يڠ منيمڤاڽ كران تيادا ڤكرجاءن تتڤ دان كسمڤيتن واڠ. چادڠكن ساتو عملن صلاة سنة كڤداڽ، ترڠكن ڤڠرتين صلاة ترسبوت دان ڽاتاكن دوا فضيلتڽ.",
+      "reference_answer_rumi": "Solat tahajud. Solat tahajud ialah solat sunat yang didirikan sekurang-kurangnya dua rakaat pada 2/3 malam sebelum masuknya waktu subuh. Melaluinya seseorang dapat bermunajat dan mengadu secara langsung kepada Allah SWT. Fadhilat: membersihkan hati daripada kebencian sesama manusia; mencintai Allah SWT dan menguatkan iman; mempunyai rasa takut kepada Allah SWT dan menyedari kehidupan dunia hanya sementara.",
+      "reference_answer_jawi": "صلاة تهجد. صلاة تهجد اياله صلاة سنة يڠ دديريكن سكورڠ-كورڠڽ دوا ركعة ڤد 2/3 مالم سبلوم ماسوقڽ وقتو صبح. ملالوءيڽ سسأورڠ داڤت برمناجات دان مڠادو سچارا لڠسوڠ كڤد الله سبحانه وتعالى. فضيلة: ممبرسيهكن هاتي درڤد كبنچين سسام مأنسي؛ منچينتاءي الله دان مڠواتكن ايمان؛ مڤوڽاءي راس تاكوت كڤد الله.",
+      "rubric": [
+        {"criterion": "Mencadangkan solat tahajud", "marks": 1, "keywords": ["tahajud", "تهجد"]},
+        {"criterion": "Pengertian: sekurang-kurangnya dua rakaat pada 2/3 malam sebelum subuh", "marks": 2, "keywords": ["dua rakaat", "2/3 malam", "sebelum subuh", "دوا ركعة", "2/3 مالم"]},
+        {"criterion": "Mengaitkan dengan bermunajat dan mengadu kepada Allah", "marks": 1, "keywords": ["bermunajat", "mengadu", "برمناجات", "مڠادو"]},
+        {"criterion": "Menyatakan dua fadhilat", "marks": 2, "keywords": ["membersihkan hati", "menguatkan iman", "takut kepada Allah", "ممبرسيهكن هاتي", "مڠواتكن ايمان"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [28, 29, 30]
+    }
+  ]
+}

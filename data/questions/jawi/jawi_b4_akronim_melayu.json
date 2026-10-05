@@ -1,0 +1,220 @@
+{
+  "topic_id": "jawi_b4_akronim_melayu",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b4_akronim_melayu_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'DBP' (Dewan Bahasa dan Pustaka) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'DBP' (ديوان بهاس دان ڤوستاك) دالم توليسن جاوي.",
+      "reference_answer_rumi": "DBP",
+      "reference_answer_jawi": "د.ب.ڤ",
+      "rubric": [
+        {"criterion": "Menulis د.ب.ڤ dengan huruf betul dan tanda noktah selepas setiap huruf", "marks": 1, "keywords": ["د.ب.ڤ", "د . ب . ڤ"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [68]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'UPSR' (Ujian Penilaian Sekolah Rendah) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'UPSR' (اوجين ڤنيلاين سكوله رنده) دالم توليسن جاوي.",
+      "reference_answer_rumi": "UPSR",
+      "reference_answer_jawi": "او.ڤ.س.ر",
+      "rubric": [
+        {"criterion": "Menulis او bagi vokal 'u' di awal kata", "marks": 1, "keywords": ["او"]},
+        {"criterion": "Menulis او.ڤ.س.ر lengkap dengan tanda noktah", "marks": 1, "keywords": ["او.ڤ.س.ر", "او . ڤ . س . ر"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [70]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'KPN' (Ketua Polis Negara) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'KPN' (كتوا ڤوليس نݢارا) دالم توليسن جاوي.",
+      "reference_answer_rumi": "KPN",
+      "reference_answer_jawi": "ك.ڤ.ن",
+      "rubric": [
+        {"criterion": "Menulis ك.ڤ.ن dengan betul", "marks": 1, "keywords": ["ك.ڤ.ن", "ك . ڤ . ن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [69]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'IPG' (Institut Pendidikan Guru) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'IPG' (اينستيتوت ڤنديديقن ݢورو) دالم توليسن جاوي.",
+      "reference_answer_rumi": "IPG",
+      "reference_answer_jawi": "اي.ڤ.ݢ",
+      "rubric": [
+        {"criterion": "Menulis اي bagi vokal 'i' di awal kata", "marks": 1, "keywords": ["اي"]},
+        {"criterion": "Menulis اي.ڤ.ݢ dengan huruf ڤ dan ݢ yang betul", "marks": 1, "keywords": ["اي.ڤ.ݢ", "اي . ڤ . ݢ"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [68]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis akronim 'TUDM' (Tentera Udara Diraja Malaysia) dalam tulisan Jawi.",
+      "question_jawi": "توليس اكرونيم 'TUDM' (تنترا اودارا دراج مليسيا) دالم توليسن جاوي.",
+      "reference_answer_rumi": "TUDM",
+      "reference_answer_jawi": "ت.او.د.م",
+      "rubric": [
+        {"criterion": "Menulis ت.او.د.م dengan betul", "marks": 1, "keywords": ["ت.او.د.م", "ت . او . د . م"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [68]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q6",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah tanda yang diletakkan selepas setiap huruf akronim singkatan bahasa Melayu dalam tulisan Jawi?",
+      "question_jawi": "اڤاكه تندا يڠ دلتقكن سلڤس ستياڤ حروف اكرونيم سيڠكتن بهاس ملايو دالم توليسن جاوي؟",
+      "reference_answer_rumi": "Tanda noktah",
+      "reference_answer_jawi": "تندا نقطه",
+      "rubric": [
+        {"criterion": "Menyatakan tanda noktah", "marks": 1, "keywords": ["noktah", "titik", "نقطه"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [67]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan peraturan penulisan akronim bagi singkatan dalam bahasa Melayu dan berikan dua contoh akronim Jawi.",
+      "question_jawi": "ڽاتاكن ڤراتورن ڤنوليسن اكرونيم باݢي سيڠكتن دالم بهاس ملايو دان بريكن دوا چونتوه اكرونيم جاوي.",
+      "reference_answer_rumi": "Singkatan nama jabatan, organisasi, pertubuhan, syarikat, nama jawatan, pangkat dan sebagainya ditulis dengan huruf dalam abjad Jawi dan diletakkan tanda noktah selepas setiap huruf. Contoh: BSN (ب.س.ن), MB (م.ب).",
+      "reference_answer_jawi": "سيڠكتن ڤڠݢل نام باݢي جابتن، اورݢانيساسي، ڤرتوبوهن، شريكت، نام جاوتن، ڤڠكت دان سأومڤاماڽ دتوليس دڠن مڠݢوناكن حروف دالم ابجد جاوي دان دلتقكن تندا نقطه سلڤس ستياڤ حروف. چونتوه: ب.س.ن، م.ب.",
+      "rubric": [
+        {"criterion": "Ditulis menggunakan huruf dalam abjad Jawi", "marks": 1, "keywords": ["abjad Jawi", "huruf Jawi", "ابجد جاوي"]},
+        {"criterion": "Diletakkan tanda noktah selepas setiap huruf", "marks": 1, "keywords": ["noktah", "نقطه"]},
+        {"criterion": "Contoh pertama betul (cth. ب.إ.م.ب, ب.س.ن, ت.ن.ب, ت.م, د.ب.ڤ, ݢ.ب, م.ب)", "marks": 1, "keywords": ["ب.إ.م.ب", "ب.س.ن", "ت.ن.ب", "ت.م", "د.ب.ڤ", "ݢ.ب", "م.ب", "س.ر.ا"]},
+        {"criterion": "Contoh kedua betul", "marks": 1, "keywords": ["ك.ڤ.ن", "ك.ڤ.ڤ", "او.ك.م", "او.س.م", "م.ر.س.م", "س.ب.ڤ", "ڤ.ك.ݢ"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [67, 68, 69, 70]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q8",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Bagaimanakah nama jawatan, pangkat dan gelaran seperti 'Profesor', 'Doktor' dan 'Yang Berhormat' ditulis dalam Jawi? Tulis ejaan Jawi ketiga-tiganya.",
+      "question_jawi": "باݢايماناكه نام جاوتن، ڤڠكت دان ݢلرن سڤرتي 'Profesor'، 'Doktor' دان 'Yang Berhormat' دتوليس دالم جاوي؟ توليس ايجاءن جاوي كتيݢ-تيݢڽ.",
+      "reference_answer_rumi": "Sedapat mungkin ditulis dalam bentuk kata dan ejaan yang penuh: Profesor (ڤروفيسور), Doktor (دوكتور), Yang Berhormat (يڠ برحرمت).",
+      "reference_answer_jawi": "سداڤت موڠكين دتوليس دالم بنتوق كات دان ايجاءن يڠ ڤنوه: ڤروفيسور، دوكتور، يڠ برحرمت.",
+      "rubric": [
+        {"criterion": "Menyatakan ditulis dalam bentuk kata dan ejaan penuh", "marks": 1, "keywords": ["ejaan penuh", "ejaan yang penuh", "ايجاءن يڠ ڤنوه", "ڤنوه"]},
+        {"criterion": "ڤروفيسور", "marks": 1, "keywords": ["ڤروفيسور"]},
+        {"criterion": "دوكتور", "marks": 1, "keywords": ["دوكتور"]},
+        {"criterion": "يڠ برحرمت", "marks": 1, "keywords": ["يڠ برحرمت"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [66]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q9",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Berdasarkan panduan Tahukah Anda, nyatakan huruf Jawi bagi vokal 'e pepet', 'e taling' dan 'u' di awal kata dalam akronim bahasa Melayu.",
+      "question_jawi": "برداسركن ڤندوان تاهوكه اندا، ڽاتاكن حروف جاوي باݢي ۏوكل 'e pepet'، 'e taling' دان 'u' دأول كات دالم اكرونيم بهاس ملايو.",
+      "reference_answer_rumi": "e pepet = ا; e taling = اي; u = او",
+      "reference_answer_jawi": "e pepet = ا؛ e taling = اي؛ u = او",
+      "rubric": [
+        {"criterion": "e pepet -> ا", "marks": 1, "keywords": ["ا"]},
+        {"criterion": "e taling -> اي", "marks": 1, "keywords": ["اي"]},
+        {"criterion": "u -> او", "marks": 1, "keywords": ["او"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [73]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q10",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan cara menulis akronim bahasa Melayu dalam tulisan Jawi. Dalam jawapan anda, jelaskan peraturannya, cara menulis vokal di awal kata, dan tulis akronim Jawi bagi 'HUKM' (Hospital Universiti Kebangsaan Malaysia) dan 'SRAI' (Sekolah Rendah Agama Integrasi).",
+      "question_jawi": "تراڠكن چارا منوليس اكرونيم بهاس ملايو دالم توليسن جاوي. دالم جواڤن اندا، جلسكن ڤراتورنڽ، چارا منوليس ۏوكل دأول كات، دان توليس اكرونيم جاوي باݢي 'HUKM' (هوسڤيتل اونيۏرسيتي كبڠساءن مليسيا) دان 'SRAI' (سكوله رنده اݢام اينتݢراسي).",
+      "reference_answer_rumi": "Singkatan nama jabatan, organisasi, pertubuhan, syarikat, jawatan, pangkat dan sebagainya ditulis dengan huruf abjad Jawi (huruf pertama setiap perkataan Jawi) dan tanda noktah selepas setiap huruf. Vokal di awal kata: a/e pepet = ا, i/e taling = اي, o/u = او. HUKM = ه.او.ك.م; SRAI = س.ر.ا.اي.",
+      "reference_answer_jawi": "سيڠكتن نام جابتن، اورݢانيساسي، ڤرتوبوهن، شريكت، جاوتن، ڤڠكت دان سأومڤاماڽ دتوليس دڠن حروف دالم ابجد جاوي دان دلتقكن تندا نقطه سلڤس ستياڤ حروف. ۏوكل دأول كات: a/e pepet = ا، i/e taling = اي، o/u = او. ه.او.ك.م؛ س.ر.ا.اي.",
+      "rubric": [
+        {"criterion": "Menggunakan huruf dalam abjad Jawi", "marks": 1, "keywords": ["abjad Jawi", "ابجد جاوي"]},
+        {"criterion": "Tanda noktah selepas setiap huruf", "marks": 1, "keywords": ["noktah", "نقطه"]},
+        {"criterion": "Vokal 'i'/'e taling' ditulis اي", "marks": 1, "keywords": ["اي"]},
+        {"criterion": "Vokal 'o'/'u' ditulis او", "marks": 1, "keywords": ["او"]},
+        {"criterion": "HUKM: ه.او.ك.م", "marks": 1, "keywords": ["ه.او.ك.م"]},
+        {"criterion": "SRAI: س.ر.ا.اي", "marks": 1, "keywords": ["س.ر.ا.اي"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [67, 68, 70, 73]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q11",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tulis akronim bagi: جابتن ڤڠڠكوتن جالن, كوريكولوم ستندرد سكوله رنده, لمباݢ حاصيل دالم نݢري.",
+      "question_jawi": "توليس اكرونيم برايكوت: جابتن ڤڠڠكوتن جالن، كوريكولوم ستندرد سكوله رنده، لمباݢ حاصيل دالم نݢري.",
+      "reference_answer_rumi": "JPJ, KSSR, LHDN (jawapan tidak dicetak dalam buku; mengikut peraturan huruf pertama setiap perkataan Jawi + noktah)",
+      "reference_answer_jawi": "ج.ڤ.ج، ك.س.س.ر، ل.ه.د.ن",
+      "rubric": [
+        {"criterion": "ج.ڤ.ج (diterbitkan mengikut peraturan; tidak dicetak)", "marks": 1, "keywords": ["ج.ڤ.ج"]},
+        {"criterion": "ك.س.س.ر (diterbitkan mengikut peraturan; tidak dicetak)", "marks": 1, "keywords": ["ك.س.س.ر"]},
+        {"criterion": "ل.ه.د.ن (diterbitkan mengikut peraturan; tidak dicetak)", "marks": 1, "keywords": ["ل.ه.د.ن"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [71]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q12",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Jawikan akronim berikut: SK, SPM, GPK.",
+      "question_jawi": "جاويكن اكرونيم برايكوت: SK، SPM، GPK.",
+      "reference_answer_rumi": "SK (Sekolah Kebangsaan), SPM, GPK (jawapan tidak dicetak dalam buku; mengikut peraturan)",
+      "reference_answer_jawi": "س.ك، س.ڤ.م، ݢ.ڤ.ك",
+      "rubric": [
+        {"criterion": "س.ك (diterbitkan mengikut peraturan)", "marks": 1, "keywords": ["س.ك"]},
+        {"criterion": "س.ڤ.م (diterbitkan mengikut peraturan)", "marks": 1, "keywords": ["س.ڤ.م"]},
+        {"criterion": "ݢ.ڤ.ك (diterbitkan mengikut peraturan)", "marks": 1, "keywords": ["ݢ.ڤ.ك"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [72]
+    },
+    {
+      "id": "jawi_b4_akronim_melayu_q13",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Jawikan perkataan bergaris: Doktor Fahmi bertugas di Hospital Kuala Lumpur (HKL) sebagai pakar ortopedik. Tulis ejaan Jawi bagi 'Doktor'.",
+      "question_jawi": "جاويكن ڤركاتاءن برݢاريس: توليس ايجاءن جاوي باݢي 'Doktor'.",
+      "reference_answer_rumi": "Doktor",
+      "reference_answer_jawi": "دوكتور",
+      "rubric": [
+        {"criterion": "Mengeja دوكتور dalam ejaan penuh", "marks": 1, "keywords": ["دوكتور"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [66, 72]
+    }
+  ]
+}

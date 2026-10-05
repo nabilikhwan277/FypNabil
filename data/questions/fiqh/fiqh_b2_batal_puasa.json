@@ -1,0 +1,107 @@
+{
+  "topic_id": "fiqh_b2_batal_puasa",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b2_batal_puasa_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud murtad?",
+      "question_jawi": "اڤاکه مقصود مرتد؟",
+      "reference_answer_rumi": "Keluar daripada Islam",
+      "reference_answer_jawi": "کلوار درڤد إسلام",
+      "rubric": [
+        {"criterion": "Menyatakan keluar daripada Islam", "marks": 1, "keywords": ["keluar daripada Islam", "keluar Islam", "کلوار درڤد إسلام", "کلوار درڤد اسلام"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [60]
+    },
+    {
+      "id": "fiqh_b2_batal_puasa_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud wiladah?",
+      "question_jawi": "اڤاکه مقصود ولادة؟",
+      "reference_answer_rumi": "Melahirkan anak",
+      "reference_answer_jawi": "ملاهيرکن انق",
+      "rubric": [
+        {"criterion": "Menyatakan melahirkan anak", "marks": 1, "keywords": ["melahirkan anak", "bersalin", "ملاهيرکن انق"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [60]
+    },
+    {
+      "id": "fiqh_b2_batal_puasa_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan dua contoh hilang akal yang membatalkan puasa.",
+      "question_jawi": "ڽاتاکن دوا چونتوه هيلڠ عقل يڠ ممبطلکن ڤواسا.",
+      "reference_answer_rumi": "Mana-mana dua: gila, mabuk, pengsan",
+      "reference_answer_jawi": "مان٢ دوا: ݢيلا، مابوق، ڤيڠسن",
+      "rubric": [
+        {"criterion": "Contoh pertama", "marks": 1, "keywords": ["gila", "mabuk", "pengsan", "ݢيلا", "مابوق", "ڤيڠسن"]},
+        {"criterion": "Contoh kedua", "marks": 1, "keywords": ["gila", "mabuk", "pengsan", "ݢيلا", "مابوق", "ڤيڠسن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [60]
+    },
+    {
+      "id": "fiqh_b2_batal_puasa_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Senaraikan empat perkara yang membatalkan puasa.",
+      "question_jawi": "سنارايکن امڤت ڤرکارا يڠ ممبطلکن ڤواسا.",
+      "reference_answer_rumi": "Mana-mana empat: makan dan minum dengan sengaja walaupun sedikit; memasukkan sesuatu dengan sengaja melalui rongga yang terbuka; muntah dengan sengaja; keluar haid dan nifas; hilang akal; murtad; mengeluarkan mani dengan sengaja; bersetubuh di siang hari; wiladah.",
+      "reference_answer_jawi": "مان٢ امڤت: ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت؛ مماسوقکن سسواتو دڠن سڠاج ملالوءي روڠݢ يڠ تربوک؛ مونتهه دڠن سڠاج؛ کلوار حيض دان نفاس؛ هيلڠ عقل؛ مرتد؛ مڠلوارکن مني دڠن سڠاج؛ برستوبوه دسياڠ هاري؛ ولادة.",
+      "rubric": [
+        {"criterion": "Perkara pertama", "marks": 1, "keywords": ["makan", "minum", "rongga", "ماکن", "مينوم", "روڠݢ"]},
+        {"criterion": "Perkara kedua", "marks": 1, "keywords": ["muntah", "haid", "nifas", "مونتهه", "حيض", "نفاس"]},
+        {"criterion": "Perkara ketiga", "marks": 1, "keywords": ["hilang akal", "murtad", "هيلڠ عقل", "مرتد"]},
+        {"criterion": "Perkara keempat", "marks": 1, "keywords": ["mani", "bersetubuh", "wiladah", "melahirkan", "مني", "برستوبوه", "ولادة"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [60]
+    },
+    {
+      "id": "fiqh_b2_batal_puasa_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga perkara yang membatalkan puasa jika dilakukan dengan sengaja.",
+      "question_jawi": "ڽاتاکن تيݢ ڤرکارا يڠ ممبطلکن ڤواسا جک دلاکوکن دڠن سڠاج.",
+      "reference_answer_rumi": "Makan dan minum dengan sengaja walaupun sedikit; memasukkan sesuatu dengan sengaja melalui rongga yang terbuka; muntah dengan sengaja; mengeluarkan mani dengan sengaja (mana-mana tiga).",
+      "reference_answer_jawi": "ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت؛ مماسوقکن سسواتو دڠن سڠاج ملالوءي روڠݢ يڠ تربوک؛ مونتهه دڠن سڠاج؛ مڠلوارکن مني دڠن سڠاج (مان٢ تيݢ).",
+      "rubric": [
+        {"criterion": "Perkara sengaja pertama", "marks": 1, "keywords": ["makan", "minum", "ماکن", "مينوم"]},
+        {"criterion": "Perkara sengaja kedua", "marks": 1, "keywords": ["rongga", "muntah", "روڠݢ", "مونتهه"]},
+        {"criterion": "Perkara sengaja ketiga", "marks": 1, "keywords": ["mani", "muntah", "rongga", "مني", "مونتهه", "روڠݢ"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [60]
+    },
+    {
+      "id": "fiqh_b2_batal_puasa_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Ali terminum air dengan sengaja walaupun sedikit ketika berpuasa, manakala Siti keluar haid pada siang hari Ramadan. Terangkan status puasa kedua-dua mereka berdasarkan perkara-perkara yang membatalkan puasa, dan nyatakan dua perkara lain yang turut membatalkan puasa.",
+      "question_jawi": "علي ترمينوم اءير دڠن سڠاج والاوڤون سديکيت کتيک برڤواسا، منکالا سيتي کلوار حيض ڤد سياڠ هاري رمضان. تراڠکن ستاتوس ڤواسا کدوا٢ مريک برداسرکن ڤرکارا٢ يڠ ممبطلکن ڤواسا، دان ڽاتاکن دوا ڤرکارا لاءين يڠ توروت ممبطلکن ڤواسا.",
+      "reference_answer_rumi": "Puasa Ali batal kerana makan dan minum dengan sengaja walaupun sedikit membatalkan puasa. Puasa Siti batal kerana keluar haid membatalkan puasa. Perkara lain (mana-mana dua): muntah dengan sengaja; hilang akal; murtad; bersetubuh di siang hari; wiladah; memasukkan sesuatu melalui rongga yang terbuka; mengeluarkan mani dengan sengaja.",
+      "reference_answer_jawi": "ڤواسا علي بطل کران ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت ممبطلکن ڤواسا. ڤواسا سيتي بطل کران کلوار حيض ممبطلکن ڤواسا. ڤرکارا لاءين (مان٢ دوا): مونتهه دڠن سڠاج؛ هيلڠ عقل؛ مرتد؛ برستوبوه دسياڠ هاري؛ ولادة؛ مماسوقکن سسواتو ملالوءي روڠݢ يڠ تربوک؛ مڠلوارکن مني دڠن سڠاج.",
+      "rubric": [
+        {"criterion": "Puasa Ali batal", "marks": 1, "keywords": ["batal", "بطل"]},
+        {"criterion": "Alasan: minum dengan sengaja walaupun sedikit", "marks": 1, "keywords": ["sengaja", "walaupun sedikit", "سڠاج", "والاوڤون سديکيت"]},
+        {"criterion": "Puasa Siti batal", "marks": 1, "keywords": ["batal", "بطل"]},
+        {"criterion": "Alasan: keluar haid", "marks": 1, "keywords": ["haid", "حيض"]},
+        {"criterion": "Perkara lain pertama", "marks": 1, "keywords": ["muntah", "hilang akal", "murtad", "مونتهه", "هيلڠ عقل", "مرتد"]},
+        {"criterion": "Perkara lain kedua", "marks": 1, "keywords": ["bersetubuh", "wiladah", "rongga", "mani", "برستوبوه", "ولادة", "روڠݢ", "مني"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [60]
+    }
+  ]
+}

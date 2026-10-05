@@ -1,0 +1,134 @@
+{
+  "topic_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Lazim Kalimi Mukhaffaf?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لازم كلمي مخفف؟",
+      "reference_answer_rumi": "Enam harakat",
+      "reference_answer_jawi": "انم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan enam harakat", "marks": 1, "keywords": ["enam harakat", "6 harakat", "enam", "انم حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [43]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah hukum bacaan Mad Lazim Kalimi Mukhaffaf?",
+      "question_jawi": "اڤاكه حكوم باچاءن مد لازم كلمي مخفف؟",
+      "reference_answer_rumi": "Dibaca dengan tanpa idgham",
+      "reference_answer_jawi": "دباچ دڠن تنڤا إدغام",
+      "rubric": [
+        {"criterion": "Menyatakan tanpa idgham", "marks": 1, "keywords": ["tanpa idgham", "tidak diidghamkan", "تنڤا إدغام"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [43]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah kalimah yang mengandungi hukum Mad Lazim Kalimi Mukhaffaf dalam al-Quran?",
+      "question_jawi": "اڤاكه كليمه يڠ مڠاندوڠي حكوم مد لازم كلمي مخفف دالم القرءان؟",
+      "reference_answer_rumi": "ءَآلۡـَٰٔنَ",
+      "reference_answer_jawi": "ءَآلۡـَٰٔنَ",
+      "rubric": [
+        {"criterion": "Menyatakan ءَآلۡـَٰٔنَ", "marks": 1, "keywords": ["ءَآلۡـَٰٔنَ", "آلآن", "الآن", "aal'ana", "al-an"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [43, 44]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud perkataan 'mukhaffaf'?",
+      "question_jawi": "اڤاكه مقصود ڤركاتاءن مخفف؟",
+      "reference_answer_rumi": "Tidak diidghamkan",
+      "reference_answer_jawi": "تيدق دإدغامكن",
+      "rubric": [
+        {"criterion": "Menyatakan tidak diidghamkan", "marks": 1, "keywords": ["tidak diidghamkan", "tanpa idgham", "تيدق دإدغامكن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [44]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Apakah erti Mad Lazim Kalimi Mukhaffaf dan di manakah tempatnya dalam al-Quran?",
+      "question_jawi": "اڤاكه ارتي مد لازم كلمي مخفف دان د ماناكه تمڤتڽ دالم القرءان؟",
+      "reference_answer_rumi": "Mad Lazim Kalimi Mukhaffaf ialah apabila huruf mad bertemu dengan huruf mati dalam satu kalimah. Hanya terdapat dua tempat dalam al-Quran iaitu Surah Yunus ayat 51 dan 91.",
+      "reference_answer_jawi": "مد لازم كلمي مخفف اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو كليمه. هاڽ ترداڤت دوا تمڤت دالم القرءان يائيت سورة يونس ايات 51 دان 91.",
+      "rubric": [
+        {"criterion": "Huruf mad bertemu huruf mati dalam satu kalimah", "marks": 2, "keywords": ["huruf mad", "huruf mati", "satu kalimah", "حروف مد", "حروف ماتي", "ساتو كليمه"]},
+        {"criterion": "Surah Yunus ayat 51 dan 91", "marks": 2, "keywords": ["Yunus", "يونس", "51", "91"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [43]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Terangkan asal kalimah ءَآلۡـَٰٔنَ.",
+      "question_jawi": "تراڠكن اصل كليمه ءَآلۡـَٰٔنَ.",
+      "reference_answer_rumi": "Asalnya hamzah istifham bertemu hamzah wasal (ءَٱلۡـَٰٔنَ), seterusnya hamzah wasal itu ditukarkan kepada huruf alif dan dipanjangkan dengan kadar enam harakat.",
+      "reference_answer_jawi": "اصلڽ همزة إِسْتِفْهَام برتمو همزة وصل (ءَٱلۡـَٰٔنَ)، ستروسڽ دتوكركن همزة وصل ايت كڤد حروف اليف دان دڤنجڠكن دڠن قدر انم حركة.",
+      "rubric": [
+        {"criterion": "Hamzah istifham bertemu hamzah wasal", "marks": 1, "keywords": ["istifham", "hamzah wasal", "إِسْتِفْهَام", "همزة وصل"]},
+        {"criterion": "Hamzah wasal ditukar kepada alif", "marks": 1, "keywords": ["alif", "ditukarkan", "اليف", "دتوكركن"]},
+        {"criterion": "Dipanjangkan enam harakat", "marks": 1, "keywords": ["enam", "6", "انم"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [44]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Bincangkan misal hukum Mad Lazim Kalimi Mukhaffaf dalam ayat Surah Yunus: 51 dan Surah Yunus: 91.",
+      "question_jawi": "بينچڠكن ميثل حكوم مد لازم كلمي مخفف دالم ايات سورة يونس: 51 دان سورة يونس: 91.",
+      "reference_answer_rumi": "Kalimah ءَآلۡـَٰٔنَ dalam kedua-dua ayat; huruf mad bertemu huruf mati dalam satu kalimah, dibaca tanpa idgham dengan enam harakat.",
+      "reference_answer_jawi": "كليمه ءَآلۡـَٰٔنَ دالم كدوا٢ ايات؛ حروف مد برتمو حروف ماتي دالم ساتو كليمه، دباچ تنڤا إدغام دڠن انم حركة.",
+      "rubric": [
+        {"criterion": "Mengenal pasti kalimah ءَآلۡـَٰٔنَ", "marks": 1, "keywords": ["ءَآلۡـَٰٔنَ", "آلآن", "الآن"]},
+        {"criterion": "Huruf mad bertemu huruf mati dalam satu kalimah", "marks": 1, "keywords": ["huruf mati", "satu kalimah", "حروف ماتي"]},
+        {"criterion": "Tanpa idgham, enam harakat", "marks": 1, "keywords": ["tanpa idgham", "enam", "تنڤا إدغام", "انم"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [43, 44]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan Mad Lazim Kalimi Mukhaffaf meliputi pengertian, hukum bacaan, kadar harakat dan tempatnya dalam al-Quran, serta berikan satu contoh ayat.",
+      "question_jawi": "تراڠكن مد لازم كلمي مخفف ملیڤوتي ڤڠرتين، حكوم باچاءن، قدر حركة دان تمڤتڽ دالم القرءان، سرتا بريكن ساتو چونتوه ايات.",
+      "reference_answer_rumi": "Mad Lazim Kalimi Mukhaffaf ialah apabila huruf mad bertemu dengan huruf mati dalam satu kalimah. Ia dibaca tanpa idgham dan mesti dibaca enam harakat. Hanya terdapat dua tempat iaitu Surah Yunus ayat 51 dan 91. Contoh: ءَآلۡـَٰٔنَ وَقَدۡ عَصَيۡتَ قَبۡلُ وَكُنتَ مِنَ ٱلۡمُفۡسِدِينَ (Surah Yunus: 91).",
+      "reference_answer_jawi": "مد لازم كلمي مخفف اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو كليمه. اي دباچ تنڤا إدغام دان مستي دباچ انم حركة. هاڽ ترداڤت دوا تمڤت يائيت سورة يونس ايات 51 دان 91. چونتوه: ءَآلۡـَٰٔنَ وَقَدۡ عَصَيۡتَ قَبۡلُ وَكُنتَ مِنَ ٱلۡمُفۡسِدِينَ (سورة يونس: 91).",
+      "rubric": [
+        {"criterion": "Pengertian: huruf mad bertemu huruf mati dalam satu kalimah", "marks": 2, "keywords": ["huruf mad", "huruf mati", "satu kalimah", "حروف مد", "حروف ماتي"]},
+        {"criterion": "Hukum tanpa idgham dan kadar enam harakat", "marks": 1, "keywords": ["tanpa idgham", "enam", "تنڤا إدغام", "انم"]},
+        {"criterion": "Tempat: Surah Yunus ayat 51 dan 91", "marks": 1, "keywords": ["Yunus", "يونس", "51", "91"]},
+        {"criterion": "Contoh ayat yang betul", "marks": 2, "keywords": ["ءَآلۡـَٰٔنَ", "Yunus", "يونس", "تَسۡتَعۡجِلُونَ", "ٱلۡمُفۡسِدِينَ"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [43, 44]
+    }
+  ]
+}

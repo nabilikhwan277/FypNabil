@@ -1,0 +1,170 @@
+{
+  "topic_id": "jawi_b3_pinjaman_inggeris",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'teknologi' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'teknologi' دالم توليسن جاوي.",
+      "reference_answer_rumi": "teknologi",
+      "reference_answer_jawi": "تيكنولوݢي",
+      "rubric": [
+        {"criterion": "Mengeja 'teknologi' dengan betul (تيكنولوݢي), menggunakan huruf 'ݢ' bagi 'g'", "marks": 1, "keywords": ["تيكنولوݢي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [59]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'universiti' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'universiti' دالم توليسن جاوي.",
+      "reference_answer_rumi": "universiti",
+      "reference_answer_jawi": "اونيۏرسيتي",
+      "rubric": [
+        {"criterion": "Mengeja 'universiti' dengan betul (اونيۏرسيتي), menggunakan huruf 'ۏ' bagi 'v'", "marks": 1, "keywords": ["اونيۏرسيتي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [56]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'mekanisme' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'mekanisme' دالم توليسن جاوي.",
+      "reference_answer_rumi": "mekanisme",
+      "reference_answer_jawi": "ميكانيسمى",
+      "rubric": [
+        {"criterion": "Mengeja 'mekanisme' dengan betul (ميكانيسمى), diakhiri huruf 'ى'", "marks": 1, "keywords": ["ميكانيسمى"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [58]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'struktur' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'struktur' دالم توليسن جاوي.",
+      "reference_answer_rumi": "struktur",
+      "reference_answer_jawi": "ستروكتور",
+      "rubric": [
+        {"criterion": "Mengeja 'struktur' dengan betul (ستروكتور), gugus konsonan awal ditulis serangkai", "marks": 1, "keywords": ["ستروكتور"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [56]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Kata pinjaman bahasa Inggeris yang berakhir dengan bunyi 'e' pepet hendaklah ditulis dengan huruf apa?",
+      "question_jawi": "كات ڤينجمن بهاس ايڠݢريس يڠ براخير دڠن بوڽي 'e' ڤڤت هندقله دتوليس دڠن حروف اڤ؟",
+      "reference_answer_rumi": "Huruf 'ى' (ye)",
+      "reference_answer_jawi": "حروف 'ى' (ye)",
+      "rubric": [
+        {"criterion": "Menyatakan huruf 'ى' (ye)", "marks": 1, "keywords": ["ى", "ye"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [58]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'teks' dan 'golf' dalam tulisan Jawi, kemudian terangkan kaedah ejaannya.",
+      "question_jawi": "توليس ڤركاتاءن 'teks' دان 'golf' دالم توليسن جاوي، كمودين تراڠكن قاعده ايجاءنڽ.",
+      "reference_answer_rumi": "teks = تيك س; golf = ݢول ف. Gugus konsonan di akhir kata hendaklah dijarakkan huruf akhirnya jika dua huruf akhir itu huruf perangkai.",
+      "reference_answer_jawi": "تيك س؛ ݢول ف. ݢوݢوس كونسونن دأخير كات هندقله دجارقكن حروف اخيرڽ جك دوا حروف اخير ايت حروف ڤرڠكاي.",
+      "rubric": [
+        {"criterion": "Mengeja 'teks' dengan betul (تيك س, huruf akhir berjarak)", "marks": 1, "keywords": ["تيك س", "تيكس"]},
+        {"criterion": "Mengeja 'golf' dengan betul (ݢول ف, huruf akhir berjarak)", "marks": 1, "keywords": ["ݢول ف", "ݢولف"]},
+        {"criterion": "Menyatakan gugus konsonan di akhir kata", "marks": 1, "keywords": ["gugus konsonan di akhir kata", "ݢوݢوس كونسونن دأخير كات"]},
+        {"criterion": "Menyatakan huruf akhir dijarakkan jika dua huruf akhir ialah huruf perangkai", "marks": 1, "keywords": ["dijarakkan", "huruf perangkai", "دجارقكن", "ڤرڠكاي"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [57]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Jawikan perkataan 'geografi', 'plastik' dan 'nasionalisme', dan nyatakan satu kaedah ejaan yang digunakan bagi setiap perkataan.",
+      "question_jawi": "جاويكن ڤركاتاءن 'geografi'، 'plastik' دان 'nasionalisme'، دان ڽاتاكن ساتو قاعده ايجاءن يڠ دݢوناكن باݢي ستياڤ ڤركاتاءن.",
+      "reference_answer_rumi": "geografi = ݢيوݢرافي (huruf 'g' diberi padanan 'ݢ'); plastik = ڤلستيك (suku kata tertutup berakhir 'k' ditulis 'ك'); nasionalisme = ناسيوناليسمى (bunyi 'e' pepet di akhir kata ditulis 'ى').",
+      "reference_answer_jawi": "ݢيوݢرافي (حروف 'g' دبري ڤادنن 'ݢ')؛ ڤلستيك (سوكو كات ترتوتوڤ براخير 'k' دتوليس 'ك')؛ ناسيوناليسمى (بوڽي 'e' ڤڤت دتوليس 'ى').",
+      "rubric": [
+        {"criterion": "Mengeja geografi: ݢيوݢرافي", "marks": 1, "keywords": ["ݢيوݢرافي"]},
+        {"criterion": "Mengeja plastik: ڤلستيك", "marks": 1, "keywords": ["ڤلستيك"]},
+        {"criterion": "Mengeja nasionalisme: ناسيوناليسمى", "marks": 1, "keywords": ["ناسيوناليسمى"]},
+        {"criterion": "Menyatakan kaedah yang betul bagi sekurang-kurangnya dua perkataan ('g' -> 'ݢ'; 'k' -> 'ك'; 'e' pepet -> 'ى')", "marks": 1, "keywords": ["ݢ", "ك", "ى", "e pepet", "padanan"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [58, 59]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q8",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Berdasarkan 'Tahukah Anda', terangkan mengapa 'bas' dieja بس dan tuliskan ejaan Jawi bagi 'epal' dan 'basikal'.",
+      "question_jawi": "برداسركن 'تاهوكه اندا'، تراڠكن مڠاڤ 'bas' دأيجا بس دان توليسكن ايجاءن جاوي باݢي 'epal' دان 'basikal'.",
+      "reference_answer_rumi": "Suku kata tertutup berbunyi 'a' dalam kata serapan bahasa Inggeris dieja dengan menggugurkan huruf 'ا' sebagaimana kaedah ejaan kata jati Melayu. epal = ايڤل; basikal = باسيكل.",
+      "reference_answer_jawi": "سوكو كات ترتوتوڤ بوڽي 'a' دالم كات سرڤن بهاس ايڠݢريس دأيجا دڠن مڠݢوݢوركن حروف 'ا' سباݢايمان قاعده ايجاءن كات جاتي ملايو. ايڤل؛ باسيكل.",
+      "rubric": [
+        {"criterion": "Menyatakan suku kata tertutup berbunyi 'a'", "marks": 1, "keywords": ["suku kata tertutup", "bunyi a", "سوكو كات ترتوتوڤ"]},
+        {"criterion": "Menyatakan huruf 'ا' digugurkan (seperti kata jati Melayu)", "marks": 1, "keywords": ["gugur", "menggugurkan", "مڠݢوݢوركن", "kata jati"]},
+        {"criterion": "Mengeja epal: ايڤل", "marks": 1, "keywords": ["ايڤل"]},
+        {"criterion": "Mengeja basikal: باسيكل", "marks": 1, "keywords": ["باسيكل"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [62]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q9",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan tiga kaedah menulis kata pinjaman bahasa Inggeris dalam tulisan Jawi. Bagi setiap kaedah, berikan satu contoh perkataan bersama ejaan Jawinya.",
+      "question_jawi": "تراڠكن تيݢ قاعده منوليس كات ڤينجمن بهاس ايڠݢريس دالم توليسن جاوي. باݢي ستياڤ قاعده، بريكن ساتو چونتوه ڤركاتاءن برسام ايجاءن جاويڽ.",
+      "reference_answer_rumi": "Mana-mana tiga daripada: (i) dieja mengikut sebutan baku bahasa Melayu, cth. industri ايندوستري; (ii) gugus konsonan di awal kata ditulis serangkai, cth. klinik كلينيك; (iii) gugus konsonan di akhir kata dijarakkan huruf akhirnya jika dua huruf akhir huruf perangkai, cth. teks تيك س; (iv) dieja mengikut sebutan bahasa sumber (bahasa Eropah) yang tidak diserap dalam sebutan Melayu, cth. homestay هومستي; (v) suku kata tertutup berakhir 'k' ditulis 'ك', cth. taktik تكتيك; (vi) kata berakhir bunyi 'e' pepet ditulis 'ى', cth. mekanisme ميكانيسمى; (vii) huruf 'g' diberi padanan 'ݢ', cth. agenda اݢيندا.",
+      "reference_answer_jawi": "(i) دأيجا مڠيكوت سبوتن باكو بهاس ملايو، چونتوه ايندوستري؛ (ii) ݢوݢوس كونسونن دأول كات دتوليس سرڠكاي، چونتوه كلينيك؛ (iii) ݢوݢوس كونسونن دأخير كات دجارقكن حروف اخيرڽ، چونتوه تيك س؛ (iv) دأيجا مڠيكوت سبوتن بهاس سومبر، چونتوه هومستي؛ (v) حروف 'k' دتوليس 'ك'، چونتوه تكتيك؛ (vi) بوڽي 'e' ڤڤت دتوليس 'ى'، چونتوه ميكانيسمى؛ (vii) حروف 'g' دبري ڤادنن 'ݢ'، چونتوه اݢيندا.",
+      "rubric": [
+        {"criterion": "Kaedah pertama diterangkan dengan betul", "marks": 1, "keywords": ["sebutan baku", "serangkai", "dijarakkan", "bahasa sumber", "ك", "ى", "ݢ"]},
+        {"criterion": "Contoh betul bagi kaedah pertama (ejaan Jawi seperti dalam buku)", "marks": 1, "keywords": ["ايندوستري", "كلينيك", "تيك س", "هومستي", "تكتيك", "ميكانيسمى", "اݢيندا"]},
+        {"criterion": "Kaedah kedua diterangkan dengan betul", "marks": 1, "keywords": ["sebutan baku", "serangkai", "dijarakkan", "bahasa sumber", "ك", "ى", "ݢ"]},
+        {"criterion": "Contoh betul bagi kaedah kedua", "marks": 1, "keywords": ["باتاليون", "ستروكتور", "ساءين س", "زيڠك", "ابستراك", "ليبراليسمى", "تراݢيدي"]},
+        {"criterion": "Kaedah ketiga diterangkan dengan betul", "marks": 1, "keywords": ["sebutan baku", "serangkai", "dijarakkan", "bahasa sumber", "ك", "ى", "ݢ"]},
+        {"criterion": "Contoh betul bagi kaedah ketiga", "marks": 1, "keywords": ["سوبسيدي", "سكريڤ", "فك س", "جورج تاءون", "اونيك", "ۏنداليسمى", "ݢينراسي"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [56, 57, 58, 59]
+    },
+    {
+      "id": "jawi_b3_pinjaman_inggeris_q10",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berdasarkan contoh ayat, apakah institusi perbankan berasaskan syariah yang pertama di Asia Tenggara? Tulis jawapan dalam tulisan Jawi.",
+      "question_jawi": "اڤاكه اينستيتوسي ڤربڠكن براساسكن شريعة يڠ ڤرتام دأسيا تڠݢارا؟",
+      "reference_answer_rumi": "Bank Islam Malaysia Berhad",
+      "reference_answer_jawi": "بڠك إسلام مليسيا برحد",
+      "rubric": [
+        {"criterion": "Menyatakan Bank Islam Malaysia Berhad (بڠك إسلام مليسيا برحد)", "marks": 2, "keywords": ["بڠك إسلام", "Bank Islam"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [60]
+    }
+  ]
+}

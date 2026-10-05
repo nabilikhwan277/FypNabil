@@ -1,0 +1,119 @@
+{
+  "topic_id": "fiqh_b1_solat_hari_raya",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_hari_raya_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Pada tarikh berapakah solat Aidilfitri didirikan?",
+      "question_jawi": "ڤد تاريخ برڤاكه صلاة عيد الفطري دديريكن؟",
+      "reference_answer_rumi": "Pada pagi 1 Syawal",
+      "reference_answer_jawi": "ڤد ڤاݢي 1 شوال",
+      "rubric": [
+        {"criterion": "Menyatakan 1 Syawal", "marks": 1, "keywords": ["1 Syawal", "satu Syawal", "1 شوال"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [43]
+    },
+    {
+      "id": "fiqh_b1_solat_hari_raya_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Pada tarikh berapakah solat Aidiladha didirikan?",
+      "question_jawi": "ڤد تاريخ برڤاكه صلاة عيد الأضحى دديريكن؟",
+      "reference_answer_rumi": "Pada pagi 10 Zulhijjah",
+      "reference_answer_jawi": "ڤد ڤاݢي 10 ذوالحجة",
+      "rubric": [
+        {"criterion": "Menyatakan 10 Zulhijjah", "marks": 1, "keywords": ["10 Zulhijjah", "sepuluh Zulhijjah", "10 ذوالحجة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [43]
+    },
+    {
+      "id": "fiqh_b1_solat_hari_raya_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapa kalikah takbir dilafazkan dalam rakaat pertama dan rakaat kedua solat hari raya?",
+      "question_jawi": "برڤ كاليكه تكبير دلفظكن دالم ركعة ڤرتام دان ركعة كدوا صلاة هاري راي؟",
+      "reference_answer_rumi": "Tujuh kali dalam rakaat pertama dan lima kali dalam rakaat kedua",
+      "reference_answer_jawi": "توجوه كالي دالم ركعة ڤرتام دان ليم كالي دالم ركعة كدوا",
+      "rubric": [
+        {"criterion": "Rakaat pertama: tujuh kali", "marks": 1, "keywords": ["tujuh", "7", "توجوه"]},
+        {"criterion": "Rakaat kedua: lima kali", "marks": 1, "keywords": ["lima", "5", "ليم"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [48]
+    },
+    {
+      "id": "fiqh_b1_solat_hari_raya_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah khutbah hari raya dilaksanakan?",
+      "question_jawi": "بيلاكه خطبه هاري راي دلقساناكن؟",
+      "reference_answer_rumi": "Selepas mendirikan solat hari raya",
+      "reference_answer_jawi": "سلڤس منديريكن صلاة هاري راي",
+      "rubric": [
+        {"criterion": "Menyatakan selepas solat hari raya", "marks": 1, "keywords": ["selepas solat", "selepas", "سلڤس"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [48]
+    },
+    {
+      "id": "fiqh_b1_solat_hari_raya_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat solat dua hari raya.",
+      "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة دوا هاري راي.",
+      "reference_answer_rumi": "1. Memperoleh pahala kerana menghidupkan salah satu sunnah Nabi SAW. 2. Sebagai simbol perpaduan umat Islam. 3. Mendapat kebaikan di dunia dan di akhirat. 4. Diangkat darjatnya di sisi Allah SWT.",
+      "reference_answer_jawi": "1. ممڤراوليه ڤهالا كران مڠهيدوڤكن ساله ساتو سنة نبي ﷺ. 2. سباݢاي سيمبول ڤڤادوان اومت إسلام. 3. منداڤت كباءيقن ددنيا دان دأخرة. 4. دأڠكت درجتڽ دسيسي الله ﷻ.",
+      "rubric": [
+        {"criterion": "Mana-mana fadhilat pertama yang betul", "marks": 1, "keywords": ["pahala", "sunnah Nabi", "ڤهالا", "سنة نبي", "perpaduan", "ڤڤادوان"]},
+        {"criterion": "Mana-mana fadhilat kedua yang betul", "marks": 1, "keywords": ["kebaikan di dunia", "akhirat", "كباءيقن", "دأخرة", "perpaduan", "ڤڤادوان"]},
+        {"criterion": "Mana-mana fadhilat ketiga yang betul", "marks": 1, "keywords": ["diangkat darjat", "darjat", "درجت", "دأڠكت"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [46]
+    },
+    {
+      "id": "fiqh_b1_solat_hari_raya_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Tuliskan lafaz niat solat sunat Aidilfitri sebagai makmum dan nyatakan maksudnya.",
+      "question_jawi": "توليسكن لفظ نية صلاة سنة عيد الفطري سباݢاي مأموم دان ڽاتاكن مقصودڽ.",
+      "reference_answer_rumi": "أُصَلِّي سُنَّةَ عِيدِ ٱلْفِطْرِ رَكْعَتَيْنِ مَأْمُومًا لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat Aidilfitri dua rakaat menjadi makmum kerana Allah Taala.",
+      "reference_answer_jawi": "أُصَلِّي سُنَّةَ عِيدِ ٱلْفِطْرِ رَكْعَتَيْنِ مَأْمُومًا لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة عيد الفطري دوا ركعة منجادي مأموم كران الله تعالى.",
+      "rubric": [
+        {"criterion": "Menulis lafaz niat dengan betul", "marks": 2, "keywords": ["أُصَلِّي", "عِيدِ ٱلْفِطْرِ", "مَأْمُومًا", "عيد الفطر", "مأموما"]},
+        {"criterion": "Menyatakan maksud niat", "marks": 1, "keywords": ["sahaja aku solat sunat Aidilfitri", "menjadi makmum", "منجادي مأموم", "سهاج اكو صلاة سنة عيد الفطري"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [44]
+    },
+    {
+      "id": "fiqh_b1_solat_hari_raya_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Pada pagi 1 Syawal, Ali pergi ke masjid bersama ayahnya untuk menunaikan solat sunat hari raya. Terangkan cara pelaksanaan rakaat pertama solat tersebut sehingga bangun ke rakaat kedua, dan nyatakan bacaan yang diselangi semasa melafazkan takbir.",
+      "question_jawi": "ڤد ڤاݢي 1 شوال، علي ڤرݢي كمسجد برسام ايهڽ اونتوق منونايكن صلاة سنة هاري راي. ترڠكن چارا ڤلقساناءن ركعة ڤرتام صلاة ترسبوت سهيڠݢ باڠون كركعة كدوا، دان ڽاتاكن باچاءن يڠ دسلڠي سماس ملفظكن تكبير.",
+      "reference_answer_rumi": "Solat Aidilfitri. Rakaat pertama: niat solat ketika takbiratul ihram, membaca doa iftitah, takbir tujuh kali, membaca surah al-Fatihah, membaca surah pilihan, rukuk kemudian iktidal, sujud, duduk antara dua sujud, sujud kedua, bangun untuk rakaat kedua. Takbir diselangi dengan bacaan tasbih: سُبْحَانَ اللَّهِ وَٱلْحَمْدُ لِلَّهِ وَلَا إِلَٰهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ.",
+      "reference_answer_jawi": "صلاة عيد الفطري. ركعة ڤرتام: نية صلاة كتيك تكبيرة الإحرام، ممباچ دعاء افتتاح، تكبير توجوه كالي، ممباچ سورة الفاتحة، ممباچ سورة ڤيليهن، ركوع كمودين اعتدال، سجود، دودوق انتارا دوا سجود، سجود كدوا، باڠون اونتوق ركعة يڠ كدوا. تكبير دسلڠي دڠن باچاءن تسبيح: سُبْحَانَ اللَّهِ وَٱلْحَمْدُ لِلَّهِ وَلَا إِلَٰهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ.",
+      "rubric": [
+        {"criterion": "Niat ketika takbiratul ihram dan doa iftitah", "marks": 1, "keywords": ["takbiratul ihram", "iftitah", "تكبيرة الإحرام", "افتتاح"]},
+        {"criterion": "Takbir tujuh kali selepas doa iftitah", "marks": 1, "keywords": ["tujuh kali", "7 kali", "توجوه كالي"]},
+        {"criterion": "Membaca al-Fatihah dan surah pilihan", "marks": 1, "keywords": ["al-Fatihah", "surah pilihan", "الفاتحة", "ڤيليهن"]},
+        {"criterion": "Rukuk, iktidal, sujud, duduk antara dua sujud, sujud kedua, bangun", "marks": 1, "keywords": ["rukuk", "iktidal", "sujud", "ركوع", "اعتدال", "سجود"]},
+        {"criterion": "Menyatakan takbir diselangi bacaan tasbih", "marks": 1, "keywords": ["tasbih", "subhanallah", "تسبيح", "سُبْحَانَ اللَّهِ", "سبحان الله"]}
+      ],
+      "max_marks": 5,
+      "source_pages": [43, 48]
+    }
+  ]
+}

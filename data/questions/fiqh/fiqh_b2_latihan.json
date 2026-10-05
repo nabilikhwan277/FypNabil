@@ -1,0 +1,138 @@
+{
+  "topic_id": "fiqh_b2_latihan",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b2_latihan_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b2_batal_puasa",
+      "question_rumi": "Latihan 1: Tulis Betul atau Salah bagi pernyataan berikut. Ahmad pengsan seketika semasa berpuasa maka puasanya terbatal.",
+      "question_jawi": "لاتيهن 1: توليس بتول اتاو ساله باݢي ڤڽاتاءن برايکوت. احمد ڤيڠسن سکتيک سماس برڤواسا مک ڤواساڽ تربطل.",
+      "reference_answer_rumi": "Betul",
+      "reference_answer_jawi": "بتول",
+      "rubric": [
+        {"criterion": "Menjawab Betul (hilang akal termasuk pengsan membatalkan puasa)", "marks": 1, "keywords": ["betul", "بتول"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63, 60]
+    },
+    {
+      "id": "fiqh_b2_latihan_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b2_puasa_wajib_sunat",
+      "question_rumi": "Latihan 1: Tulis Betul atau Salah bagi pernyataan berikut. Orang yang berwukuf di Arafah diwajibkan berpuasa.",
+      "question_jawi": "لاتيهن 1: توليس بتول اتاو ساله باݢي ڤڽاتاءن برايکوت. اورڠ يڠ بروقوف دعرفة دواجبکن برڤواسا.",
+      "reference_answer_rumi": "Salah",
+      "reference_answer_jawi": "ساله",
+      "rubric": [
+        {"criterion": "Menjawab Salah (puasa 9 Zulhijjah ialah puasa sunat bagi orang yang tidak mengerjakan haji)", "marks": 1, "keywords": ["salah", "ساله"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63, 61]
+    },
+    {
+      "id": "fiqh_b2_latihan_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b2_puasa_wajib_sunat",
+      "question_rumi": "Latihan 1: Tulis Betul atau Salah bagi pernyataan berikut. Hari Tasu'a ialah hari yang kesembilan pada bulan Muharram.",
+      "question_jawi": "لاتيهن 1: توليس بتول اتاو ساله باݢي ڤڽاتاءن برايکوت. هاري تاسوعاء اياله هاري يڠ کسمبيلن ڤد بولن مُحَرَّم.",
+      "reference_answer_rumi": "Betul",
+      "reference_answer_jawi": "بتول",
+      "rubric": [
+        {"criterion": "Menjawab Betul (Tasu'a = 9 Muharram)", "marks": 1, "keywords": ["betul", "بتول"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63, 61]
+    },
+    {
+      "id": "fiqh_b2_latihan_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b2_fadhilat_puasa",
+      "question_rumi": "Latihan 1: Tulis Betul atau Salah bagi pernyataan berikut. Berpuasa mendatangkan kemudaratan kepada diri.",
+      "question_jawi": "لاتيهن 1: توليس بتول اتاو ساله باݢي ڤڽاتاءن برايکوت. برڤواسا منداتڠکن کمضرتن کڤد ديري.",
+      "reference_answer_rumi": "Salah",
+      "reference_answer_jawi": "ساله",
+      "rubric": [
+        {"criterion": "Menjawab Salah (puasa pelindung daripada penyakit kronik dan menyihatkan tubuh badan)", "marks": 1, "keywords": ["salah", "ساله"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63, 59]
+    },
+    {
+      "id": "fiqh_b2_latihan_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b2_hikmah_puasa",
+      "question_rumi": "Latihan 1: Tulis Betul atau Salah bagi pernyataan berikut. Berpuasa dapat menjadikan seseorang itu merasai kesusahan fakir dan miskin.",
+      "question_jawi": "لاتيهن 1: توليس بتول اتاو ساله باݢي ڤڽاتاءن برايکوت. برڤواسا داڤت منجاديکن سسأورڠ ايت مراساءي کسوسهن فقير دان ميسکين.",
+      "reference_answer_rumi": "Betul",
+      "reference_answer_jawi": "بتول",
+      "rubric": [
+        {"criterion": "Menjawab Betul", "marks": 1, "keywords": ["betul", "بتول"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63, 62]
+    },
+    {
+      "id": "fiqh_b2_latihan_q6",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b2_batal_puasa",
+      "question_rumi": "Latihan 1: Tulis Betul atau Salah bagi pernyataan berikut. Keluar mani dengan tidak sengaja di siang hari membatalkan puasa.",
+      "question_jawi": "لاتيهن 1: توليس بتول اتاو ساله باݢي ڤڽاتاءن برايکوت. کلوار مني دڠن تيدق سڠاج دسياڠ هاري ممبطلکن ڤواسا.",
+      "reference_answer_rumi": "Salah",
+      "reference_answer_jawi": "ساله",
+      "rubric": [
+        {"criterion": "Menjawab Salah (yang membatalkan ialah mengeluarkan mani dengan sengaja)", "marks": 1, "keywords": ["salah", "ساله"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [63, 60]
+    },
+    {
+      "id": "fiqh_b2_latihan_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b2_batal_puasa",
+      "question_rumi": "Latihan 2: Baca dan fahami situasi di bawah. Kemudian, nyatakan hukum beserta alasannya. Amin mengalami cirit-birit selama tiga hari tanpa henti pada bulan Ramadan. Ketika dia mendapatkan rawatan di klinik, doktor telah melakukan ujian darah terhadap dirinya dengan menggunakan jarum suntikan. Pada ketika itu, Amin sedang berpuasa. Adakah batal atau tidak puasa tersebut? Nyatakan alasan kamu.",
+      "question_jawi": "لاتيهن 2: باچ دان فهمي سيتواسي٢ دباوه. کمودين، ڽاتاکن حکوم برسرتا السنڽ. امين مڠالمي چيريت-بيريت سلام تيݢ هاري تنڤا هنتي ڤد بولن رمضان. کتيک دي منداڤتکن راوتن دکلينيک، دوکتور تله ملاکوکن اوجين داره ترهادڤ ديريڽ دڠن مڠݢوناکن جاروم سونتيقن. ڤد کتيک ايت، امين سدڠ برڤواسا. اداکه بطل اتاو تيدق ڤواسا ترسبوت؟ ڽاتاکن السن کامو.",
+      "reference_answer_rumi": "Puasa Amin tidak batal kerana ujian darah dengan jarum suntikan tidak termasuk dalam senarai perkara yang membatalkan puasa (ia bukan makan atau minum dan bukan memasukkan sesuatu melalui rongga yang terbuka).",
+      "reference_answer_jawi": "ڤواسا امين تيدق بطل کران اوجين داره دڠن جاروم سونتيقن تيدق ترماسوق دالم سناراي ڤرکارا يڠ ممبطلکن ڤواسا (اي بوکن ماکن اتاو مينوم دان بوکن مماسوقکن سسواتو ملالوءي روڠݢ يڠ تربوک).",
+      "rubric": [
+        {"criterion": "Menyatakan puasa tidak batal", "marks": 1, "keywords": ["tidak batal", "sah", "تيدق بطل", "صح"]},
+        {"criterion": "Alasan: ujian darah/jarum suntikan bukan perkara yang membatalkan puasa", "marks": 1, "keywords": ["bukan perkara yang membatalkan", "tidak termasuk", "jarum", "ujian darah", "تيدق ترماسوق", "جاروم", "اوجين داره"]},
+        {"criterion": "Alasan: bukan makan/minum atau memasukkan sesuatu melalui rongga terbuka", "marks": 1, "keywords": ["rongga yang terbuka", "rongga", "bukan makan", "روڠݢ يڠ تربوک", "روڠݢ"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [64, 60]
+    },
+    {
+      "id": "fiqh_b2_latihan_q8",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "related_topic_id": "fiqh_b2_puasa_wajib_sunat",
+      "question_rumi": "Latihan 2: Baca dan fahami situasi di bawah. Kemudian, nyatakan hukum beserta alasannya. Zainab telah bernazar untuk berpuasa pada hari putih bulan yang lepas. Namun, apabila tiba hari putih tersebut, dia sengaja meninggalkannya tanpa alasan yang kukuh. Apakah hukum perbuatan Zainab tersebut? Nyatakan alasan kamu.",
+      "question_jawi": "لاتيهن 2: باچ دان فهمي سيتواسي٢ دباوه. کمودين، ڽاتاکن حکوم برسرتا السنڽ. زينب تله برنذر اونتوق برڤواسا ڤد هاري ڤوتيه بولن يڠ لڤس. نامون، اڤابيلا تيبا هاري ڤوتيه ترسبوت، دي سڠاج منيڠݢلکنڽ تنڤا السن يڠ کوکوه. اڤاکه حکوم ڤربواتن زينب ترسبوت؟ ڽاتاکن السن کامو.",
+      "reference_answer_rumi": "Perbuatan Zainab salah / tidak dibenarkan (berdosa) kerana dia telah bernazar, dan puasa nazar termasuk dalam puasa wajib. Walaupun puasa hari putih asalnya sunat, apabila dinazarkan ia menjadi wajib ditunaikan.",
+      "reference_answer_jawi": "ڤربواتن زينب ساله / تيدق دبنرکن (بردوسا) کران دي تله برنذر، دان ڤواسا نذر ترماسوق دالم ڤواسا واجب. والاوڤون ڤواسا هاري ڤوتيه اصلڽ سنة، اڤابيلا دنذرکن اي منجادي واجب دتونايکن.",
+      "rubric": [
+        {"criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan", "marks": 1, "keywords": ["salah", "berdosa", "dosa", "haram", "tidak boleh", "ساله", "بردوسا", "حرام"]},
+        {"criterion": "Alasan: puasa nazar ialah puasa wajib", "marks": 1, "keywords": ["nazar", "wajib", "نذر", "واجب"]},
+        {"criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan", "marks": 1, "keywords": ["wajib ditunaikan", "mesti berpuasa", "hari putih", "واجب", "هاري ڤوتيه"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [64, 61]
+    }
+  ]
+}

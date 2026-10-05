@@ -1,0 +1,1216 @@
+[
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q1",
+  "topic_id": "jawi_b1_imbuhan_an_alif_nun",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_alif_nun.md",
+  "question_rumi": "Tulis perkataan 'paluan' dalam tulisan Jawi.",
+  "question_jawi": "توليس ڤركاتاءن 'paluan' دالم توليسن جاوي.",
+  "reference_answer_rumi": "paluan",
+  "reference_answer_jawi": "ڤالوان",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'paluan' dengan betul (ڤالوان)",
+    "marks": 1,
+    "keywords": [
+     "ڤالوان"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q3",
+  "topic_id": "jawi_b1_imbuhan_an_alif_nun",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_alif_nun.md",
+  "question_rumi": "Jawikan perkataan bergaris: Antara 'tujuan' manusia diciptakan di muka bumi adalah untuk mengabdikan diri kepada Allah.",
+  "question_jawi": "جاويكن ڤركاتاءن برݢاريس: 'tujuan'.",
+  "reference_answer_rumi": "tujuan",
+  "reference_answer_jawi": "توجوان",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'tujuan' dengan betul (توجوان)",
+    "marks": 1,
+    "keywords": [
+     "توجوان"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q5",
+  "topic_id": "jawi_b1_imbuhan_an_alif_nun",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_alif_nun.md",
+  "question_rumi": "Kenapakah ejaan 'deruan' menggunakan huruf '-ان' bagi imbuhan '-an'? Tuliskan ejaan Jawinya.",
+  "question_jawi": "كنڤاكه ايجاءن 'deruan' مڠݢوناكن حروف '-ان' باݢي ايمبوهن '-an'؟ توليسكن ايجاءن جاويڽ.",
+  "reference_answer_rumi": "Kerana kata dasar 'deru' diakhiri dengan huruf 'و' (vokal 'u' dalam suku kata terbuka). Akhiran '-an' pada kata dasar yang diakhiri dengan huruf 'و' termasuk bunyi diftong 'au' hendaklah dieja dengan huruf '-ان'. Ejaan: دروان.",
+  "reference_answer_jawi": "كران كات داسر 'deru' دأخيري دڠن حروف 'و'. اخيرن '-an' ڤد كات داسر يڠ دأخيري دڠن حروف 'و' ترماسوق بوڽي ديفتوڠ 'au' هندقله دأيجا دڠن حروف '-ان'. ايجاءن: دروان.",
+  "rubric": [
+   {
+    "criterion": "Kata dasar diakhiri dengan huruf 'و'",
+    "marks": 1,
+    "keywords": [
+     "huruf wau",
+     "huruf و",
+     "حروف 'و'",
+     "berakhir dengan و"
+    ]
+   },
+   {
+    "criterion": "Menyatakan peraturan dieja dengan '-ان'",
+    "marks": 1,
+    "keywords": [
+     "-ان",
+     "alif nun",
+     "ان"
+    ]
+   },
+   {
+    "criterion": "Mengeja دروان dengan betul",
+    "marks": 1,
+    "keywords": [
+     "دروان"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q6",
+  "topic_id": "jawi_b1_imbuhan_an_alif_nun",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_alif_nun.md",
+  "question_rumi": "Jawikan perkataan berikut: perguruan, laluan, kemajuan.",
+  "question_jawi": "جاويكن ڤركاتاءن برايكوت: perguruan, laluan, kemajuan.",
+  "reference_answer_rumi": "perguruan, laluan, kemajuan",
+  "reference_answer_jawi": "ڤرݢوروان، لالوان، كماجوان",
+  "rubric": [
+   {
+    "criterion": "perguruan: ڤرݢوروان",
+    "marks": 1,
+    "keywords": [
+     "ڤرݢوروان"
+    ]
+   },
+   {
+    "criterion": "laluan: لالوان",
+    "marks": 1,
+    "keywords": [
+     "لالوان"
+    ]
+   },
+   {
+    "criterion": "kemajuan: كماجوان",
+    "marks": 1,
+    "keywords": [
+     "كماجوان"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q7",
+  "topic_id": "jawi_b1_imbuhan_an_alif_nun",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_alif_nun.md",
+  "question_rumi": "Terangkan peraturan ejaan imbuhan '-an' dengan huruf '-ان'. Nyatakan ciri kata dasar yang terlibat (vokal dan diftong) dan tuliskan satu ayat contoh dari buku dalam tulisan Jawi yang mengandungi kata berimbuhan '-ان'.",
+  "question_jawi": "تراڠكن ڤراتورن ايجاءن ايمبوهن '-an' دڠن حروف '-ان'. ڽاتاكن چيري كات داسر يڠ ترليبت دان توليسكن ساتو ايات چونتوه دالم توليسن جاوي يڠ مڠاندوڠي كات برايمبوهن '-ان'.",
+  "reference_answer_rumi": "Akhiran '-an' pada kata dasar yang diakhiri dengan huruf 'و' termasuk bunyi diftong 'au' dieja dengan '-ان'. Kata dasar ini terdiri daripada suku kata terbuka yang menggunakan vokal 'u' atau 'o' dan diftong 'au'. Contoh ayat: Gurauan bersama rakan hendaklah berpada-pada dan tidak melampaui batas.",
+  "reference_answer_jawi": "اخيرن '-an' ڤد كات داسر يڠ دأخيري دڠن حروف 'و' ترماسوق بوڽي ديفتوڠ 'au' هندقله دأيجا دڠن حروف '-ان'. كات داسر اين ترديري درڤد سوكو كات تربوك يڠ مڠݢوناكن ۏوكل 'u' اتاو 'o' دان ديفتوڠ 'au'. چونتوه: ݢوراوان برسام راكن هندقله برڤادا-ڤادا دان تيدق ملمڤاوءي باتس.",
+  "rubric": [
+   {
+    "criterion": "Kata dasar diakhiri dengan huruf 'و'",
+    "marks": 1,
+    "keywords": [
+     "huruf و",
+     "حروف 'و'",
+     "wau"
+    ]
+   },
+   {
+    "criterion": "Termasuk bunyi diftong 'au'",
+    "marks": 1,
+    "keywords": [
+     "diftong au",
+     "ديفتوڠ 'au'"
+    ]
+   },
+   {
+    "criterion": "Dieja dengan '-ان'",
+    "marks": 1,
+    "keywords": [
+     "-ان",
+     "ان"
+    ]
+   },
+   {
+    "criterion": "Suku kata terbuka dengan vokal 'u' atau 'o'",
+    "marks": 1,
+    "keywords": [
+     "suku kata terbuka",
+     "vokal u",
+     "vokal o",
+     "سوكو كات تربوك"
+    ]
+   },
+   {
+    "criterion": "Ayat contoh mengandungi kata '-ان' yang dieja betul (cth. ڤالوان, دروان, ڤرݢوروان, كسيلاوان, ݢوراوان)",
+    "marks": 2,
+    "keywords": [
+     "ڤالوان",
+     "دروان",
+     "ڤرݢوروان",
+     "كسيلاوان",
+     "ݢوراوان"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_hamzah_nun_q1",
+  "topic_id": "jawi_b1_imbuhan_an_hamzah_nun",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_hamzah_nun.md",
+  "question_rumi": "Tulis perkataan 'jutaan' dalam tulisan Jawi.",
+  "question_jawi": "توليس ڤركاتاءن 'jutaan' دالم توليسن جاوي.",
+  "reference_answer_rumi": "jutaan",
+  "reference_answer_jawi": "جوتاءن",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'jutaan' dengan betul (جوتاءن)",
+    "marks": 1,
+    "keywords": [
+     "جوتاءن"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_hamzah_nun_q8",
+  "topic_id": "jawi_b1_imbuhan_an_hamzah_nun",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_hamzah_nun.md",
+  "question_rumi": "Berdasarkan petikan, bilakah acara kemuncak sambutan Hari Kemerdekaan diadakan?",
+  "question_jawi": "بيلاكه سمبوتن هاري كمرديكاءن دأداكن؟",
+  "reference_answer_rumi": "Sambutan sepanjang bulan Ogos; acara kemuncak pada 1 September setiap tahun",
+  "reference_answer_jawi": "سڤنجڠ بولن اوݢوس؛ اچارا كمونچق ڤد 1 سيڤتيمبر ستياڤ تاهون",
+  "rubric": [
+   {
+    "criterion": "Menyatakan sepanjang bulan Ogos atau 1 September",
+    "marks": 1,
+    "keywords": [
+     "Ogos",
+     "1 September",
+     "اوݢوس",
+     "سيڤتيمبر"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q4",
+  "topic_id": "jawi_b1_imbuhan_an_nun",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_nun.md",
+  "question_rumi": "Berapakah cara menulis imbuhan '-an' dalam tulisan Jawi?",
+  "question_jawi": "براڤاكه چارا منوليس ايمبوهن '-an' دالم توليسن جاوي؟",
+  "reference_answer_rumi": "Tiga cara ('-ن', '-ان' dan '-ءن')",
+  "reference_answer_jawi": "تيݢ چارا ('-ن'، '-ان' دان '-ءن')",
+  "rubric": [
+   {
+    "criterion": "Menyatakan tiga cara",
+    "marks": 1,
+    "keywords": [
+     "tiga",
+     "3",
+     "تيݢ"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q9",
+  "topic_id": "jawi_b1_imbuhan_an_nun",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b1_imbuhan_an_nun.md",
+  "question_rumi": "Berdasarkan petikan, apakah tujuan utama lawatan tersebut?",
+  "question_jawi": "اڤاكه توجوان اوتام لاوتن ترسبوت؟",
+  "reference_answer_rumi": "Untuk menambah ilmu pengetahuan ahli persatuan dan dapat menyaksikan sendiri tempat-tempat yang menarik di sana.",
+  "reference_answer_jawi": "اونتوق منمبه علمو ڤڠتاهوان اهلي ڤرساتوان دان داڤت مڽقسيكن سنديري تمڤت٢ يڠ مناريق دسان.",
+  "rubric": [
+   {
+    "criterion": "Menambah ilmu pengetahuan ahli persatuan",
+    "marks": 1,
+    "keywords": [
+     "ilmu pengetahuan",
+     "علمو ڤڠتاهوان"
+    ]
+   },
+   {
+    "criterion": "Menyaksikan sendiri tempat-tempat menarik",
+    "marks": 1,
+    "keywords": [
+     "menyaksikan",
+     "tempat menarik",
+     "مڽقسيكن"
+    ]
+   },
+   {
+    "criterion": "Jawapan ditulis dengan jelas berdasarkan petikan",
+    "marks": 1,
+    "keywords": [
+     "persatuan",
+     "ڤرساتوان"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q13",
+  "topic_id": "jawi_b2_imbuhan_i_hamzah_ya",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b2_imbuhan_i_hamzah_ya.md",
+  "question_rumi": "Nyatakan uji kaji yang dijalankan oleh angkasawan negara.",
+  "question_jawi": "ڽاتاکن اوجي کاجي يڠ دجالنکن اوليه اڠکاساوان نݢارا.",
+  "reference_answer_rumi": "Tiga uji kaji yang membabitkan sel di angkasa, mikrob di angkasa serta pengkristalan protein.",
+  "reference_answer_jawi": "تيݢ اوجي کاجي ممبابيتکن سيل دأڠکاس، ميکروب دأڠکاس سرتا ڤڠکريستلن ڤروتين.",
+  "rubric": [
+   {
+    "criterion": "Sel di angkasa",
+    "marks": 1,
+    "keywords": [
+     "sel",
+     "سيل"
+    ]
+   },
+   {
+    "criterion": "Mikrob di angkasa",
+    "marks": 1,
+    "keywords": [
+     "mikrob",
+     "ميکروب"
+    ]
+   },
+   {
+    "criterion": "Pengkristalan protein",
+    "marks": 1,
+    "keywords": [
+     "pengkristalan protein",
+     "protein",
+     "ڤڠکريستلن ڤروتين"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q7",
+  "topic_id": "jawi_b2_imbuhan_i_hamzah_ya",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b2_imbuhan_i_hamzah_ya.md",
+  "question_rumi": "Nyatakan dua jenis kata yang imbuhan '-i'nya menggunakan huruf '-ءي', dan berikan satu contoh Jawi bagi setiap jenis.",
+  "question_jawi": "ڽاتاكن دوا جنيس كات يڠ ايمبوهن '-i'ڽ مڠݢوناكن حروف '-ءي'، دان بريكن ساتو چونتوه جاوي باݢي ستياڤ جنيس.",
+  "reference_answer_rumi": "1. Imbuhan '-i' pada suku kata terbuka yang menggunakan vokal 'a' (ا) dan 'u' (و), contoh mengembarai (مڠمباراءي). 2. Imbuhan '-i' pada suku kata terbuka yang menggunakan vokal 'a' tetapi tidak ditulis dengan huruf 'ا', contoh dikatai (دکاتاءي).",
+  "reference_answer_jawi": "1. ايمبوهن '-i' ڤد سوكو كات تربوک يڠ مڠݢوناكن ۏوكل 'ا' دان 'و'، چونتوه مڠمباراءي. 2. ايمبوهن '-i' ڤد سوكو كات تربوک يڠ مڠݢوناكن ۏوكل 'a' تتاڤي تيدق دتوليس دڠن حروف 'ا'، چونتوه دکاتاءي.",
+  "rubric": [
+   {
+    "criterion": "Jenis 1: suku kata terbuka dengan vokal 'a' dan 'u' (ا dan و)",
+    "marks": 1,
+    "keywords": [
+     "suku kata terbuka",
+     "سوكو كات تربوک",
+     "vokal a dan u"
+    ]
+   },
+   {
+    "criterion": "Contoh jenis 1 betul (cth. مڠمباراءي, دأڠݢوتاءي, مراکوءي, مڠهنتوءي, دبنتوءي, چينتاءي, ممسراءي)",
+    "marks": 1,
+    "keywords": [
+     "مڠمباراءي",
+     "دأڠݢوتاءي",
+     "مراکوءي",
+     "مڠهنتوءي",
+     "دبنتوءي",
+     "چينتاءي",
+     "ممسراءي"
+    ]
+   },
+   {
+    "criterion": "Jenis 2: vokal 'a' tetapi tidak ditulis dengan huruf 'ا'",
+    "marks": 1,
+    "keywords": [
+     "tidak ditulis",
+     "تيدق دتوليس"
+    ]
+   },
+   {
+    "criterion": "Contoh jenis 2 betul (cth. مراجاءي, دناماءي, دکاتاءي, دمورکاءي, دکواساءي, دبوکاءي, ممباجاءي)",
+    "marks": 1,
+    "keywords": [
+     "مراجاءي",
+     "دناماءي",
+     "دکاتاءي",
+     "دمورکاءي",
+     "دکواساءي",
+     "دبوکاءي",
+     "ممباجاءي"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q6",
+  "topic_id": "jawi_b2_imbuhan_i_ya",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b2_imbuhan_i_ya.md",
+  "question_rumi": "Nyatakan peraturan ejaan imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup, dan berikan dua contoh kata berimbuhan dalam tulisan Jawi.",
+  "question_jawi": "ڽاتاكن ڤراتورن ايجاءن ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ، دان بريكن دوا چونتوه كات برايمبوهن دالم توليسن جاوي.",
+  "reference_answer_rumi": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup hendaklah dieja dengan huruf '-ي' sahaja. Contoh: baluti (بالوتي), dimarahi (دمارهي).",
+  "reference_answer_jawi": "ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ هندقله دأيجا دڠن حروف '-ي' سهاج. چونتوه: بالوتي، دمارهي.",
+  "rubric": [
+   {
+    "criterion": "Menyebut kata dasar berakhir dengan suku kata tertutup",
+    "marks": 1,
+    "keywords": [
+     "suku kata tertutup",
+     "سوكو كات ترتوتوڤ"
+    ]
+   },
+   {
+    "criterion": "Menyatakan dieja dengan huruf '-ي' sahaja",
+    "marks": 1,
+    "keywords": [
+     "ي sahaja",
+     "huruf ya",
+     "حروف '-ي' سهاج",
+     "سهاج"
+    ]
+   },
+   {
+    "criterion": "Contoh pertama betul (cth. بالوتي, منصيحتي, ممباسهي, دمارهي, دبايڠي, دلڠکڤي, دتڠݢلمي, اوبتي)",
+    "marks": 1,
+    "keywords": [
+     "بالوتي",
+     "منصيحتي",
+     "ممباسهي",
+     "دمارهي",
+     "دبايڠي",
+     "دلڠکڤي",
+     "دتڠݢلمي",
+     "اوبتي"
+    ]
+   },
+   {
+    "criterion": "Contoh kedua betul dan berbeza daripada contoh pertama",
+    "marks": 1,
+    "keywords": [
+     "بالوتي",
+     "منصيحتي",
+     "ممباسهي",
+     "دمارهي",
+     "دبايڠي",
+     "دلڠکڤي",
+     "دتڠݢلمي",
+     "اوبتي"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q9",
+  "topic_id": "jawi_b2_imbuhan_i_ya",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b2_imbuhan_i_ya.md",
+  "question_rumi": "Senaraikan tiga kata berimbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dalam syair 'Ayah dan Ibu'.",
+  "question_jawi": "سنارايكن تيݢ كات برايمبوهن '-i' ڤد كات داسر براخير دڠن سوكو كات ترتوتوڤ دالم شعير 'ايه دان ايبو'.",
+  "reference_answer_rumi": "Mana-mana tiga: dihormati, disakiti, rahmati, dekati, diberkati, dituruti.",
+  "reference_answer_jawi": "دحرمتي، دساکيتي، رحمتي، دکتي، دبرکتي، دتوروتي",
+  "rubric": [
+   {
+    "criterion": "Kata pertama betul dari syair",
+    "marks": 1,
+    "keywords": [
+     "دحرمتي",
+     "دساکيتي",
+     "رحمتي",
+     "دکتي",
+     "دبرکتي",
+     "دتوروتي",
+     "dihormati",
+     "disakiti",
+     "rahmati",
+     "dekati",
+     "diberkati",
+     "dituruti"
+    ]
+   },
+   {
+    "criterion": "Kata kedua betul dari syair",
+    "marks": 1,
+    "keywords": [
+     "دحرمتي",
+     "دساکيتي",
+     "رحمتي",
+     "دکتي",
+     "دبرکتي",
+     "دتوروتي"
+    ]
+   },
+   {
+    "criterion": "Kata ketiga betul dari syair",
+    "marks": 1,
+    "keywords": [
+     "دحرمتي",
+     "دساکيتي",
+     "رحمتي",
+     "دکتي",
+     "دبرکتي",
+     "دتوروتي"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q12",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Nyatakan kesan berpuasa dalam kehidupan manusia.",
+  "question_jawi": "ڽاتاكن كسن برڤواسا دالم كهيدوڤن ماءنسي.",
+  "reference_answer_rumi": "Menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; dan meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan.",
+  "reference_answer_jawi": "ميوچيكن جيوا درڤد صيفت٢ مذمومة سڤرتي رياء، بڠݢ ديري دان تكبور؛ منيڠكتكن تاهڤ كصيحتن ياٴيت دڠن مريحتكن ڤروت درڤد منچرنا ماكنن.",
+  "rubric": [
+   {
+    "criterion": "Menyucikan jiwa daripada sifat mazmumah",
+    "marks": 1,
+    "keywords": [
+     "menyucikan jiwa",
+     "mazmumah",
+     "مذمومة",
+     "جيوا"
+    ]
+   },
+   {
+    "criterion": "Menyebut contoh sifat mazmumah (riak, bangga diri, takbur)",
+    "marks": 1,
+    "keywords": [
+     "riak",
+     "bangga diri",
+     "takbur",
+     "رياء",
+     "تكبور"
+    ]
+   },
+   {
+    "criterion": "Meningkatkan tahap kesihatan",
+    "marks": 1,
+    "keywords": [
+     "kesihatan",
+     "كصيحتن"
+    ]
+   },
+   {
+    "criterion": "Merehatkan perut daripada mencerna makanan",
+    "marks": 1,
+    "keywords": [
+     "merehatkan perut",
+     "mencerna",
+     "ڤروت"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q15",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Jawikan perkataan berikut: sunnah, Isyak, amil, Al-Ghaffar.",
+  "question_jawi": "جاويكن ڤركاتاٴن برايكوت: sunnah, Isyak, amil, Al-Ghaffar.",
+  "reference_answer_rumi": "sunnah, Isyak, amil, Al-Ghaffar",
+  "reference_answer_jawi": "سنة، عشاء، عامل، الغفار",
+  "rubric": [
+   {
+    "criterion": "sunnah: سنة (seperti dalam petikan 'صلاة سنة تراويح')",
+    "marks": 1,
+    "keywords": [
+     "سنة"
+    ]
+   },
+   {
+    "criterion": "Isyak: عشاء (hamzah akhir sejajar)",
+    "marks": 1,
+    "keywords": [
+     "عشاء"
+    ]
+   },
+   {
+    "criterion": "amil: عامل",
+    "marks": 1,
+    "keywords": [
+     "عامل"
+    ]
+   },
+   {
+    "criterion": "Al-Ghaffar: الغفار (tanpa sempang)",
+    "marks": 1,
+    "keywords": [
+     "الغفار"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q16",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Jawikan perkataan berikut: kiamat, ulama, zakat, hadis.",
+  "question_jawi": "جاويكن ڤركاتاٴن برايكوت: kiamat, ulama, zakat, hadis.",
+  "reference_answer_rumi": "kiamat, ulama, zakat, hadis",
+  "reference_answer_jawi": "قيامة، علماء، زكاة، حديث",
+  "rubric": [
+   {
+    "criterion": "kiamat: قيامة (ta marbutah dikekalkan)",
+    "marks": 1,
+    "keywords": [
+     "قيامة"
+    ]
+   },
+   {
+    "criterion": "ulama: علماء (hamzah akhir sejajar)",
+    "marks": 1,
+    "keywords": [
+     "علماء"
+    ]
+   },
+   {
+    "criterion": "zakat: زكاة (ta marbutah dikekalkan)",
+    "marks": 1,
+    "keywords": [
+     "زكاة"
+    ]
+   },
+   {
+    "criterion": "hadis: حديث",
+    "marks": 1,
+    "keywords": [
+     "حديث"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q8",
+  "topic_id": "jawi_b3_pinjaman_arab",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_arab.md",
+  "question_rumi": "Perkataan Arab عالم boleh dibaca 'Alam' dan 'Alim'. Bagaimanakah ejaan Jawi dibezakan untuk mengelakkan salah baca? Tuliskan kedua-dua ejaan.",
+  "question_jawi": "ڤركاتاٴن عرب عالم بوليه دباچ 'Alam' دان 'Alim'. باݢايماناكه ايجاٴن جاوي دبيذاكن اونتوق مڠيلقكن ساله باچ؟ توليسكن كدوا-دوا ايجاٴن.",
+  "reference_answer_rumi": "Kata umum diletakkan huruf vokal bagi mengelakkan salah baca. Alam = عالم; Alim diletakkan vokal 'ي' = عاليم.",
+  "reference_answer_jawi": "كات عموم دلتقكن حروف ۏوكل باݢي مڠيلقكن ساله باچ. Alam = عالم؛ Alim دلتقكن ۏوكل 'ي' = عاليم.",
+  "rubric": [
+   {
+    "criterion": "Menyatakan huruf vokal diletakkan untuk mengelakkan salah baca",
+    "marks": 1,
+    "keywords": [
+     "vokal",
+     "ۏوكل",
+     "salah baca"
+    ]
+   },
+   {
+    "criterion": "Ejaan Alam: عالم",
+    "marks": 1,
+    "keywords": [
+     "عالم"
+    ]
+   },
+   {
+    "criterion": "Ejaan Alim dengan vokal 'ي': عاليم",
+    "marks": 1,
+    "keywords": [
+     "عاليم"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_inggeris_q1",
+  "topic_id": "jawi_b3_pinjaman_inggeris",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_inggeris.md",
+  "question_rumi": "Tulis perkataan 'teknologi' dalam tulisan Jawi.",
+  "question_jawi": "توليس ڤركاتاءن 'teknologi' دالم توليسن جاوي.",
+  "reference_answer_rumi": "teknologi",
+  "reference_answer_jawi": "تيكنولوݢي",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'teknologi' dengan betul (تيكنولوݢي), menggunakan huruf 'ݢ' bagi 'g'",
+    "marks": 1,
+    "keywords": [
+     "تيكنولوݢي"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_inggeris_q2",
+  "topic_id": "jawi_b3_pinjaman_inggeris",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_inggeris.md",
+  "question_rumi": "Tulis perkataan 'universiti' dalam tulisan Jawi.",
+  "question_jawi": "توليس ڤركاتاءن 'universiti' دالم توليسن جاوي.",
+  "reference_answer_rumi": "universiti",
+  "reference_answer_jawi": "اونيۏرسيتي",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'universiti' dengan betul (اونيۏرسيتي), menggunakan huruf 'ۏ' bagi 'v'",
+    "marks": 1,
+    "keywords": [
+     "اونيۏرسيتي"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_inggeris_q4",
+  "topic_id": "jawi_b3_pinjaman_inggeris",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_inggeris.md",
+  "question_rumi": "Tulis perkataan 'struktur' dalam tulisan Jawi.",
+  "question_jawi": "توليس ڤركاتاءن 'struktur' دالم توليسن جاوي.",
+  "reference_answer_rumi": "struktur",
+  "reference_answer_jawi": "ستروكتور",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'struktur' dengan betul (ستروكتور), gugus konsonan awal ditulis serangkai",
+    "marks": 1,
+    "keywords": [
+     "ستروكتور"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_inggeris_q6",
+  "topic_id": "jawi_b3_pinjaman_inggeris",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_inggeris.md",
+  "question_rumi": "Tulis perkataan 'teks' dan 'golf' dalam tulisan Jawi, kemudian terangkan kaedah ejaannya.",
+  "question_jawi": "توليس ڤركاتاءن 'teks' دان 'golf' دالم توليسن جاوي، كمودين تراڠكن قاعده ايجاءنڽ.",
+  "reference_answer_rumi": "teks = تيك س; golf = ݢول ف. Gugus konsonan di akhir kata hendaklah dijarakkan huruf akhirnya jika dua huruf akhir itu huruf perangkai.",
+  "reference_answer_jawi": "تيك س؛ ݢول ف. ݢوݢوس كونسونن دأخير كات هندقله دجارقكن حروف اخيرڽ جك دوا حروف اخير ايت حروف ڤرڠكاي.",
+  "rubric": [
+   {
+    "criterion": "Mengeja 'teks' dengan betul (تيك س, huruf akhir berjarak)",
+    "marks": 1,
+    "keywords": [
+     "تيك س",
+     "تيكس"
+    ]
+   },
+   {
+    "criterion": "Mengeja 'golf' dengan betul (ݢول ف, huruf akhir berjarak)",
+    "marks": 1,
+    "keywords": [
+     "ݢول ف",
+     "ݢولف"
+    ]
+   },
+   {
+    "criterion": "Menyatakan gugus konsonan di akhir kata",
+    "marks": 1,
+    "keywords": [
+     "gugus konsonan di akhir kata",
+     "ݢوݢوس كونسونن دأخير كات"
+    ]
+   },
+   {
+    "criterion": "Menyatakan huruf akhir dijarakkan jika dua huruf akhir ialah huruf perangkai",
+    "marks": 1,
+    "keywords": [
+     "dijarakkan",
+     "huruf perangkai",
+     "دجارقكن",
+     "ڤرڠكاي"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_inggeris_q7",
+  "topic_id": "jawi_b3_pinjaman_inggeris",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_inggeris.md",
+  "question_rumi": "Jawikan perkataan 'geografi', 'plastik' dan 'nasionalisme', dan nyatakan satu kaedah ejaan yang digunakan bagi setiap perkataan.",
+  "question_jawi": "جاويكن ڤركاتاءن 'geografi'، 'plastik' دان 'nasionalisme'، دان ڽاتاكن ساتو قاعده ايجاءن يڠ دݢوناكن باݢي ستياڤ ڤركاتاءن.",
+  "reference_answer_rumi": "geografi = ݢيوݢرافي (huruf 'g' diberi padanan 'ݢ'); plastik = ڤلستيك (suku kata tertutup berakhir 'k' ditulis 'ك'); nasionalisme = ناسيوناليسمى (bunyi 'e' pepet di akhir kata ditulis 'ى').",
+  "reference_answer_jawi": "ݢيوݢرافي (حروف 'g' دبري ڤادنن 'ݢ')؛ ڤلستيك (سوكو كات ترتوتوڤ براخير 'k' دتوليس 'ك')؛ ناسيوناليسمى (بوڽي 'e' ڤڤت دتوليس 'ى').",
+  "rubric": [
+   {
+    "criterion": "Mengeja geografi: ݢيوݢرافي",
+    "marks": 1,
+    "keywords": [
+     "ݢيوݢرافي"
+    ]
+   },
+   {
+    "criterion": "Mengeja plastik: ڤلستيك",
+    "marks": 1,
+    "keywords": [
+     "ڤلستيك"
+    ]
+   },
+   {
+    "criterion": "Mengeja nasionalisme: ناسيوناليسمى",
+    "marks": 1,
+    "keywords": [
+     "ناسيوناليسمى"
+    ]
+   },
+   {
+    "criterion": "Menyatakan kaedah yang betul bagi sekurang-kurangnya dua perkataan ('g' -> 'ݢ'; 'k' -> 'ك'; 'e' pepet -> 'ى')",
+    "marks": 1,
+    "keywords": [
+     "ݢ",
+     "ك",
+     "ى",
+     "e pepet",
+     "padanan"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_inggeris_q9",
+  "topic_id": "jawi_b3_pinjaman_inggeris",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/jawi/jawi_b3_pinjaman_inggeris.md",
+  "question_rumi": "Terangkan tiga kaedah menulis kata pinjaman bahasa Inggeris dalam tulisan Jawi. Bagi setiap kaedah, berikan satu contoh perkataan bersama ejaan Jawinya.",
+  "question_jawi": "تراڠكن تيݢ قاعده منوليس كات ڤينجمن بهاس ايڠݢريس دالم توليسن جاوي. باݢي ستياڤ قاعده، بريكن ساتو چونتوه ڤركاتاءن برسام ايجاءن جاويڽ.",
+  "reference_answer_rumi": "Mana-mana tiga daripada: (i) dieja mengikut sebutan baku bahasa Melayu, cth. industri ايندوستري; (ii) gugus konsonan di awal kata ditulis serangkai, cth. klinik كلينيك; (iii) gugus konsonan di akhir kata dijarakkan huruf akhirnya jika dua huruf akhir huruf perangkai, cth. teks تيك س; (iv) dieja mengikut sebutan bahasa sumber (bahasa Eropah) yang tidak diserap dalam sebutan Melayu, cth. homestay هومستي; (v) suku kata tertutup berakhir 'k' ditulis 'ك', cth. taktik تكتيك; (vi) kata berakhir bunyi 'e' pepet ditulis 'ى', cth. mekanisme ميكانيسمى; (vii) huruf 'g' diberi padanan 'ݢ', cth. agenda اݢيندا.",
+  "reference_answer_jawi": "(i) دأيجا مڠيكوت سبوتن باكو بهاس ملايو، چونتوه ايندوستري؛ (ii) ݢوݢوس كونسونن دأول كات دتوليس سرڠكاي، چونتوه كلينيك؛ (iii) ݢوݢوس كونسونن دأخير كات دجارقكن حروف اخيرڽ، چونتوه تيك س؛ (iv) دأيجا مڠيكوت سبوتن بهاس سومبر، چونتوه هومستي؛ (v) حروف 'k' دتوليس 'ك'، چونتوه تكتيك؛ (vi) بوڽي 'e' ڤڤت دتوليس 'ى'، چونتوه ميكانيسمى؛ (vii) حروف 'g' دبري ڤادنن 'ݢ'، چونتوه اݢيندا.",
+  "rubric": [
+   {
+    "criterion": "Kaedah pertama diterangkan dengan betul",
+    "marks": 1,
+    "keywords": [
+     "sebutan baku",
+     "serangkai",
+     "dijarakkan",
+     "bahasa sumber",
+     "ك",
+     "ى",
+     "ݢ"
+    ]
+   },
+   {
+    "criterion": "Contoh betul bagi kaedah pertama (ejaan Jawi seperti dalam buku)",
+    "marks": 1,
+    "keywords": [
+     "ايندوستري",
+     "كلينيك",
+     "تيك س",
+     "هومستي",
+     "تكتيك",
+     "ميكانيسمى",
+     "اݢيندا"
+    ]
+   },
+   {
+    "criterion": "Kaedah kedua diterangkan dengan betul",
+    "marks": 1,
+    "keywords": [
+     "sebutan baku",
+     "serangkai",
+     "dijarakkan",
+     "bahasa sumber",
+     "ك",
+     "ى",
+     "ݢ"
+    ]
+   },
+   {
+    "criterion": "Contoh betul bagi kaedah kedua",
+    "marks": 1,
+    "keywords": [
+     "باتاليون",
+     "ستروكتور",
+     "ساءين س",
+     "زيڠك",
+     "ابستراك",
+     "ليبراليسمى",
+     "تراݢيدي"
+    ]
+   },
+   {
+    "criterion": "Kaedah ketiga diterangkan dengan betul",
+    "marks": 1,
+    "keywords": [
+     "sebutan baku",
+     "serangkai",
+     "dijarakkan",
+     "bahasa sumber",
+     "ك",
+     "ى",
+     "ݢ"
+    ]
+   },
+   {
+    "criterion": "Contoh betul bagi kaedah ketiga",
+    "marks": 1,
+    "keywords": [
+     "سوبسيدي",
+     "سكريڤ",
+     "فك س",
+     "جورج تاءون",
+     "اونيك",
+     "ۏنداليسمى",
+     "ݢينراسي"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "jawi_b4_akronim_dilafaz_q6",
+  "topic_id": "jawi_b4_akronim_dilafaz",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_dilafaz.md",
+  "question_rumi": "Apakah akronim yang dilafaz dan bagaimanakah ia ditulis dalam Jawi? Berikan satu contoh.",
+  "question_jawi": "اڤاكه اكرونيم يڠ دلفظ دان باݢايماناكه اي دتوليس دالم جاوي؟ بريكن ساتو چونتوه.",
+  "reference_answer_rumi": "Akronim yang terhasil daripada gabungan beberapa patah kata yang dipendekkan sebutannya dan boleh dilafazkan dengan sempurna; ia boleh ditulis lengkap sebagai kata. Contoh: MARA (مارا).",
+  "reference_answer_jawi": "اكرونيم يڠ ترحاصيل درڤد ݢابوڠن ببراڤ ڤاته كات يڠ دڤنديقكن سبوتنڽ دان بوليه دلفظكن دڠن سمڤورنا؛ بوليه دتوليس لڠكڤ سباݢاي كات. چونتوه: مارا.",
+  "rubric": [
+   {
+    "criterion": "Gabungan beberapa patah kata yang dipendekkan / boleh dilafazkan",
+    "marks": 1,
+    "keywords": [
+     "dilafazkan",
+     "dipendekkan",
+     "gabungan",
+     "دلفظكن",
+     "دڤنديقكن"
+    ]
+   },
+   {
+    "criterion": "Ditulis lengkap sebagai kata",
+    "marks": 1,
+    "keywords": [
+     "sebagai kata",
+     "ditulis lengkap",
+     "لڠكڤ سباݢاي كات"
+    ]
+   },
+   {
+    "criterion": "Contoh betul dengan ejaan Jawi (cth. ايكيم, ڤيترونس, جاءيس, ماءيس, اينتن, ڤروتون, مارا, تاديكا, ڤرهيليتن, يونيسكو, فيلدا, ريسدا, لينوس)",
+    "marks": 1,
+    "keywords": [
+     "ايكيم",
+     "ڤيترونس",
+     "جاءيس",
+     "ماءيس",
+     "اينتن",
+     "ڤروتون",
+     "مارا",
+     "تاديكا",
+     "ڤرهيليتن",
+     "يونيسكو",
+     "فيلدا",
+     "ريسدا",
+     "لينوس"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q1",
+  "topic_id": "jawi_b4_akronim_inggeris",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_inggeris.md",
+  "question_rumi": "Tulis akronim 'MIC' (Malaysian Indian Congress) dalam tulisan Jawi.",
+  "question_jawi": "توليس اكرونيم 'MIC' دالم توليسن جاوي.",
+  "reference_answer_rumi": "MIC",
+  "reference_answer_jawi": "عيم.اءي.سي",
+  "rubric": [
+   {
+    "criterion": "Menulis عيم.اءي.سي dengan betul",
+    "marks": 1,
+    "keywords": [
+     "عيم.اءي.سي"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b4_akronim_inggeris_q8",
+  "topic_id": "jawi_b4_akronim_inggeris",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_inggeris.md",
+  "question_rumi": "Cara penulisan akronim bahasa Melayu dan bahasa Inggeris berbeza. Huraikan perbezaan ini dengan menyatakan peraturan akronim bahasa Inggeris, dan tulis akronim Jawi bagi 'KLCC' dan 'USA' sebagai contoh.",
+  "question_jawi": "چارا ڤنوليسن اكرونيم بهاس ملايو دان بهاس ايڠݢريس بربيذا. هورايكن ڤربيذاءن اين دڠن مڽاتاكن ڤراتورن اكرونيم بهاس ايڠݢريس، دان توليس اكرونيم جاوي باݢي 'KLCC' دان 'USA' سباݢاي چونتوه.",
+  "reference_answer_rumi": "Akronim bahasa Melayu ditulis dengan huruf abjad Jawi dan noktah (cth. د.ب.ڤ), manakala akronim bahasa Inggeris dieja dengan menulis nama huruf Rumi satu persatu dan tanda noktah selepas setiap huruf. KLCC = كي.ايل.سي.سي; USA = يو.ايس.أي.",
+  "reference_answer_jawi": "چارا ڤنوليسن اكرونيم بهاس ملايو دان بهاس ايڠݢريس بربيذا. اكرونيم بهاس ايڠݢريس دأيجا دڠن منوليس نام حروف ساتو ڤرساتو دان دلتقكن تندا نقطه سلڤس ستياڤ حروف. كي.ايل.سي.سي؛ يو.ايس.أي.",
+  "rubric": [
+   {
+    "criterion": "Menyatakan cara penulisan kedua-dua bahasa berbeza",
+    "marks": 1,
+    "keywords": [
+     "berbeza",
+     "بربيذا"
+    ]
+   },
+   {
+    "criterion": "Bahasa Inggeris: menulis nama huruf satu persatu",
+    "marks": 1,
+    "keywords": [
+     "nama huruf",
+     "satu persatu",
+     "نام حروف"
+    ]
+   },
+   {
+    "criterion": "Tanda noktah selepas setiap huruf",
+    "marks": 1,
+    "keywords": [
+     "noktah",
+     "نقطه"
+    ]
+   },
+   {
+    "criterion": "Menyebut bahasa Melayu menggunakan huruf abjad Jawi",
+    "marks": 1,
+    "keywords": [
+     "abjad Jawi",
+     "ابجد جاوي"
+    ]
+   },
+   {
+    "criterion": "KLCC: كي.ايل.سي.سي",
+    "marks": 1,
+    "keywords": [
+     "كي.ايل.سي.سي"
+    ]
+   },
+   {
+    "criterion": "USA: يو.ايس.أي",
+    "marks": 1,
+    "keywords": [
+     "يو.ايس.أي"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q12",
+  "topic_id": "jawi_b4_akronim_melayu",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_melayu.md",
+  "question_rumi": "Jawikan akronim berikut: SK, SPM, GPK.",
+  "question_jawi": "جاويكن اكرونيم برايكوت: SK، SPM، GPK.",
+  "reference_answer_rumi": "SK (Sekolah Kebangsaan), SPM, GPK (jawapan tidak dicetak dalam buku; mengikut peraturan)",
+  "reference_answer_jawi": "س.ك، س.ڤ.م، ݢ.ڤ.ك",
+  "rubric": [
+   {
+    "criterion": "س.ك (diterbitkan mengikut peraturan)",
+    "marks": 1,
+    "keywords": [
+     "س.ك"
+    ]
+   },
+   {
+    "criterion": "س.ڤ.م (diterbitkan mengikut peraturan)",
+    "marks": 1,
+    "keywords": [
+     "س.ڤ.م"
+    ]
+   },
+   {
+    "criterion": "ݢ.ڤ.ك (diterbitkan mengikut peraturan)",
+    "marks": 1,
+    "keywords": [
+     "ݢ.ڤ.ك"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q6",
+  "topic_id": "jawi_b4_akronim_melayu",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_melayu.md",
+  "question_rumi": "Apakah tanda yang diletakkan selepas setiap huruf akronim singkatan bahasa Melayu dalam tulisan Jawi?",
+  "question_jawi": "اڤاكه تندا يڠ دلتقكن سلڤس ستياڤ حروف اكرونيم سيڠكتن بهاس ملايو دالم توليسن جاوي؟",
+  "reference_answer_rumi": "Tanda noktah",
+  "reference_answer_jawi": "تندا نقطه",
+  "rubric": [
+   {
+    "criterion": "Menyatakan tanda noktah",
+    "marks": 1,
+    "keywords": [
+     "noktah",
+     "titik",
+     "نقطه"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q7",
+  "topic_id": "jawi_b4_akronim_melayu",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_melayu.md",
+  "question_rumi": "Nyatakan peraturan penulisan akronim bagi singkatan dalam bahasa Melayu dan berikan dua contoh akronim Jawi.",
+  "question_jawi": "ڽاتاكن ڤراتورن ڤنوليسن اكرونيم باݢي سيڠكتن دالم بهاس ملايو دان بريكن دوا چونتوه اكرونيم جاوي.",
+  "reference_answer_rumi": "Singkatan nama jabatan, organisasi, pertubuhan, syarikat, nama jawatan, pangkat dan sebagainya ditulis dengan huruf dalam abjad Jawi dan diletakkan tanda noktah selepas setiap huruf. Contoh: BSN (ب.س.ن), MB (م.ب).",
+  "reference_answer_jawi": "سيڠكتن ڤڠݢل نام باݢي جابتن، اورݢانيساسي، ڤرتوبوهن، شريكت، نام جاوتن، ڤڠكت دان سأومڤاماڽ دتوليس دڠن مڠݢوناكن حروف دالم ابجد جاوي دان دلتقكن تندا نقطه سلڤس ستياڤ حروف. چونتوه: ب.س.ن، م.ب.",
+  "rubric": [
+   {
+    "criterion": "Ditulis menggunakan huruf dalam abjad Jawi",
+    "marks": 1,
+    "keywords": [
+     "abjad Jawi",
+     "huruf Jawi",
+     "ابجد جاوي"
+    ]
+   },
+   {
+    "criterion": "Diletakkan tanda noktah selepas setiap huruf",
+    "marks": 1,
+    "keywords": [
+     "noktah",
+     "نقطه"
+    ]
+   },
+   {
+    "criterion": "Contoh pertama betul (cth. ب.إ.م.ب, ب.س.ن, ت.ن.ب, ت.م, د.ب.ڤ, ݢ.ب, م.ب)",
+    "marks": 1,
+    "keywords": [
+     "ب.إ.م.ب",
+     "ب.س.ن",
+     "ت.ن.ب",
+     "ت.م",
+     "د.ب.ڤ",
+     "ݢ.ب",
+     "م.ب",
+     "س.ر.ا"
+    ]
+   },
+   {
+    "criterion": "Contoh kedua betul",
+    "marks": 1,
+    "keywords": [
+     "ك.ڤ.ن",
+     "ك.ڤ.ڤ",
+     "او.ك.م",
+     "او.س.م",
+     "م.ر.س.م",
+     "س.ب.ڤ",
+     "ڤ.ك.ݢ"
+    ]
+   }
+  ],
+  "max_marks": 4
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q8",
+  "topic_id": "jawi_b4_akronim_melayu",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/jawi/jawi_b4_akronim_melayu.md",
+  "question_rumi": "Bagaimanakah nama jawatan, pangkat dan gelaran seperti 'Profesor', 'Doktor' dan 'Yang Berhormat' ditulis dalam Jawi? Tulis ejaan Jawi ketiga-tiganya.",
+  "question_jawi": "باݢايماناكه نام جاوتن، ڤڠكت دان ݢلرن سڤرتي 'Profesor'، 'Doktor' دان 'Yang Berhormat' دتوليس دالم جاوي؟ توليس ايجاءن جاوي كتيݢ-تيݢڽ.",
+  "reference_answer_rumi": "Sedapat mungkin ditulis dalam bentuk kata dan ejaan yang penuh: Profesor (ڤروفيسور), Doktor (دوكتور), Yang Berhormat (يڠ برحرمت).",
+  "reference_answer_jawi": "سداڤت موڠكين دتوليس دالم بنتوق كات دان ايجاءن يڠ ڤنوه: ڤروفيسور، دوكتور، يڠ برحرمت.",
+  "rubric": [
+   {
+    "criterion": "Menyatakan ditulis dalam bentuk kata dan ejaan penuh",
+    "marks": 1,
+    "keywords": [
+     "ejaan penuh",
+     "ejaan yang penuh",
+     "ايجاءن يڠ ڤنوه",
+     "ڤنوه"
+    ]
+   },
+   {
+    "criterion": "ڤروفيسور",
+    "marks": 1,
+    "keywords": [
+     "ڤروفيسور"
+    ]
+   },
+   {
+    "criterion": "دوكتور",
+    "marks": 1,
+    "keywords": [
+     "دوكتور"
+    ]
+   },
+   {
+    "criterion": "يڠ برحرمت",
+    "marks": 1,
+    "keywords": [
+     "يڠ برحرمت"
+    ]
+   }
+  ],
+  "max_marks": 4
+ }
+]

@@ -1,0 +1,21 @@
+flowchart TD
+  C["One rubric criterion + student answer"] --> SP{"Jawi spelling<br/>criterion?"}
+  SP -- yes --> SPM["Exact match after strict<br/>normalisation (harakat removed,<br/>font variants folded)"]
+  SP -- no --> TF{"Betul / Salah<br/>criterion?"}
+  TF -- yes --> TFM["Stated choice must<br/>match the key"]
+  TF -- no --> KW{"A rubric keyword<br/>appears in the answer?"}
+  KW -- yes --> NC{"Answer contradicts the<br/>reference numbers?<br/>e.g. enam vs dua harakat"}
+  NC -- no --> YA1["ya"]
+  NC -- yes --> TD1["tidak"]
+  KW -- no --> LB["Layer B (from scoring_config.json)"]
+  LB --> L1{"Tahap 1?"}
+  L1 -- yes --> R1["similarity ≥ 0.95<br/>(effectively keyword only)"]
+  L1 -- no --> R2["bge-m3 similarity(answer, criterion) ≥ 0.65<br/>and no number conflict"]
+  R2 -.->|"evaluated alternatives"| ALT["LLM generative judge + guard<br/>LLM probability judge<br/>hybrid LLM + similarity"]
+  SPM --> SUM
+  TFM --> SUM
+  YA1 --> SUM
+  TD1 --> SUM
+  R1 --> SUM
+  R2 --> SUM
+  SUM["Marks added in code:<br/>ya = full, separa = half, tidak = 0"]

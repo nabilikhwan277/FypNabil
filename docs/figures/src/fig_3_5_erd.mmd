@@ -1,0 +1,53 @@
+erDiagram
+  students ||--o{ attempts : makes
+  students ||--o{ mistakes : has
+  students ||--o{ topic_mastery : has
+  students ||--|| progress : has
+  students {
+    int id PK
+    text name
+    text kelas
+    text avatar
+    text script_pref
+    text created_at
+  }
+  attempts {
+    int id PK
+    int student_id FK
+    text question_id
+    text topic_id
+    text subject
+    int level
+    text answer
+    real score
+    real max_marks
+    real percent
+    text criteria_json
+    text feedback_json
+    text react_trace_json
+    int latency_ms
+    text created_at
+  }
+  mistakes {
+    int student_id PK
+    text topic_id PK
+    text criterion PK
+    int count
+    text last_seen
+  }
+  topic_mastery {
+    int student_id PK
+    text topic_id PK
+    text subject
+    real mastery
+    int attempts
+    int level_unlocked
+    text updated_at
+  }
+  progress {
+    int student_id PK
+    int xp
+    int streak_days
+    text last_active_date
+    text badges_json
+  }

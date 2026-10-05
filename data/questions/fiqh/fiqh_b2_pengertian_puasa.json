@@ -1,0 +1,122 @@
+{
+  "topic_id": "fiqh_b2_pengertian_puasa",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b2_pengertian_puasa_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah waktu puasa bermula?",
+      "question_jawi": "بيلاکه وقتو ڤواسا برمولا؟",
+      "reference_answer_rumi": "Terbit fajar (subuh)",
+      "reference_answer_jawi": "تربيت فجر (صبح)",
+      "rubric": [
+        {"criterion": "Menyatakan terbit fajar / subuh", "marks": 1, "keywords": ["terbit fajar", "fajar", "subuh", "تربيت فجر", "فجر", "صبح"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [58]
+    },
+    {
+      "id": "fiqh_b2_pengertian_puasa_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bilakah waktu puasa berakhir?",
+      "question_jawi": "بيلاکه وقتو ڤواسا براخير؟",
+      "reference_answer_rumi": "Terbenam matahari (maghrib)",
+      "reference_answer_jawi": "تربنم ماتاهاري (مغرب)",
+      "rubric": [
+        {"criterion": "Menyatakan terbenam matahari / maghrib", "marks": 1, "keywords": ["terbenam matahari", "maghrib", "تربنم ماتاهاري", "مغرب"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [58]
+    },
+    {
+      "id": "fiqh_b2_pengertian_puasa_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan surah dan ayat dalil kewajipan puasa yang terdapat dalam buku teks.",
+      "question_jawi": "ڽاتاکن سورة دان ايت دليل کواجيڤن ڤواسا يڠ ترداڤت دالم بوکو تيکس.",
+      "reference_answer_rumi": "Surah al-Baqarah ayat 183",
+      "reference_answer_jawi": "سورة البقرة ايت 183",
+      "rubric": [
+        {"criterion": "Menyatakan Surah al-Baqarah", "marks": 1, "keywords": ["al-Baqarah", "Baqarah", "البقرة"]},
+        {"criterion": "Menyatakan ayat 183", "marks": 1, "keywords": ["183", "١٨٣"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [57]
+    },
+    {
+      "id": "fiqh_b2_pengertian_puasa_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Menurut hadis riwayat Muslim, berapa tahunkah Allah menjauhkan daripada api neraka orang yang berpuasa sehari di jalan Allah?",
+      "question_jawi": "منوروت حديث رواية مسلم، براڤ تاهونکه الله منجاءوهکن درڤد اڤي نراک اورڠ يڠ برڤواسا سهاري دجالن الله؟",
+      "reference_answer_rumi": "70 tahun",
+      "reference_answer_jawi": "70 تاهون",
+      "rubric": [
+        {"criterion": "Menyatakan 70 tahun", "marks": 1, "keywords": ["70", "tujuh puluh", "٧٠", "توجوه ڤولوه"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [57]
+    },
+    {
+      "id": "fiqh_b2_pengertian_puasa_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Terangkan pengertian puasa.",
+      "question_jawi": "تراڠکن ڤڠرتين ڤواسا.",
+      "reference_answer_rumi": "Puasa ertinya menahan diri daripada makan dan minum serta melakukan perkara-perkara yang membatalkan puasa, bermula daripada terbit fajar (subuh) hingga terbenam matahari (maghrib) beserta niat.",
+      "reference_answer_jawi": "ڤواسا ارتيڽ مناهن ديري درڤد ماکن دان مينوم سرتا ملاکوکن ڤرکارا٢ يڠ ممبطلکن ڤواسا، برمولا درڤد تربيت فجر (صبح) هيڠݢ تربنم ماتاهاري (مغرب) برسرتا نية.",
+      "rubric": [
+        {"criterion": "Menahan diri daripada makan dan minum", "marks": 1, "keywords": ["menahan diri", "makan", "minum", "مناهن ديري", "ماکن", "مينوم"]},
+        {"criterion": "Dan perkara-perkara yang membatalkan puasa", "marks": 1, "keywords": ["membatalkan", "batal", "ممبطلکن"]},
+        {"criterion": "Dari terbit fajar hingga terbenam matahari", "marks": 1, "keywords": ["terbit fajar", "terbenam matahari", "subuh", "maghrib", "تربيت فجر", "تربنم ماتاهاري"]},
+        {"criterion": "Beserta niat", "marks": 1, "keywords": ["niat", "نية"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [58]
+    },
+    {
+      "id": "fiqh_b2_pengertian_puasa_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Apakah hukum puasa? Jelaskan.",
+      "question_jawi": "اڤاکه حکوم ڤواسا؟ جلسکن.",
+      "reference_answer_rumi": "Hukum puasa wajib atau sunat, bergantung pada jenis puasa yang akan dilakukan.",
+      "reference_answer_jawi": "حکوم ڤواسا واجب اتاو سنة، برݢنتوڠ ڤد جنيس ڤواسا يڠ اکن دلاکوکن.",
+      "rubric": [
+        {"criterion": "Menyatakan wajib", "marks": 1, "keywords": ["wajib", "واجب"]},
+        {"criterion": "Menyatakan sunat", "marks": 1, "keywords": ["sunat", "سنة"]},
+        {"criterion": "Bergantung pada jenis puasa", "marks": 1, "keywords": ["bergantung", "jenis puasa", "برݢنتوڠ", "جنيس ڤواسا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [58]
+    },
+    {
+      "id": "fiqh_b2_pengertian_puasa_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Huraikan pengertian puasa dan nyatakan maksud dalil daripada al-Quran (Surah al-Baqarah: 183) tentang kewajipan berpuasa.",
+      "question_jawi": "هورايکن ڤڠرتين ڤواسا دان ڽاتاکن مقصود دليل درڤد القرءان (سورة البقرة: 183) تنتڠ کواجيڤن برڤواسا.",
+      "reference_answer_rumi": "Puasa ialah menahan diri daripada makan dan minum serta perkara-perkara yang membatalkan puasa dari terbit fajar hingga terbenam matahari beserta niat. Maksud ayat: Wahai orang yang beriman, diwajibkan kamu berpuasa sebagaimana diwajibkan atas umat sebelum kamu, mudah-mudahan kamu bertakwa.",
+      "reference_answer_jawi": "ڤواسا اياله مناهن ديري درڤد ماکن دان مينوم سرتا ڤرکارا٢ يڠ ممبطلکن ڤواسا درڤد تربيت فجر هيڠݢ تربنم ماتاهاري برسرتا نية. مقصود ايت: واهاي اورڠ يڠ برايمان، دواجبکن کامو برڤواسا سباݢايمان دواجبکن اتس اومت سبلوم کامو، موده-مودهن کامو برتقوى.",
+      "rubric": [
+        {"criterion": "Menahan diri daripada makan, minum dan perkara yang membatalkan", "marks": 1, "keywords": ["menahan diri", "makan", "minum", "membatalkan", "مناهن ديري", "ممبطلکن"]},
+        {"criterion": "Dari terbit fajar hingga terbenam matahari beserta niat", "marks": 1, "keywords": ["fajar", "terbenam matahari", "niat", "فجر", "تربنم ماتاهاري", "نية"]},
+        {"criterion": "Seruan kepada orang yang beriman", "marks": 1, "keywords": ["orang yang beriman", "beriman", "برايمان"]},
+        {"criterion": "Diwajibkan berpuasa", "marks": 1, "keywords": ["diwajibkan", "wajib", "دواجبکن"]},
+        {"criterion": "Sebagaimana diwajibkan atas umat sebelum", "marks": 1, "keywords": ["umat sebelum", "sebelum kamu", "اومت سبلوم"]},
+        {"criterion": "Supaya bertakwa", "marks": 1, "keywords": ["takwa", "bertakwa", "برتقوى"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [57, 58]
+    }
+  ]
+}

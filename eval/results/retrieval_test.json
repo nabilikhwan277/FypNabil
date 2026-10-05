@@ -1,0 +1,259 @@
+{
+  "split": "test",
+  "k": 10,
+  "runs": {
+    "rumi_subject/dense": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.855,
+        "recall@4": 0.947,
+        "mrr@10": 0.898
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.87,
+          "recall@4": 0.87,
+          "mrr@10": 0.877
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.864,
+          "recall@4": 0.955,
+          "mrr@10": 0.902
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.839,
+          "recall@4": 1.0,
+          "mrr@10": 0.911
+        }
+      }
+    },
+    "rumi_subject/keyword": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.921,
+        "recall@4": 0.987,
+        "mrr@10": 0.957
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.913,
+          "recall@4": 1.0,
+          "mrr@10": 0.957
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.909,
+          "recall@4": 1.0,
+          "mrr@10": 0.955
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.935,
+          "recall@4": 0.968,
+          "mrr@10": 0.958
+        }
+      }
+    },
+    "rumi_subject/hybrid": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.908,
+        "recall@4": 1.0,
+        "mrr@10": 0.951
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.87,
+          "recall@4": 1.0,
+          "mrr@10": 0.924
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.955,
+          "recall@4": 1.0,
+          "mrr@10": 0.977
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.903,
+          "recall@4": 1.0,
+          "mrr@10": 0.952
+        }
+      }
+    },
+    "jawi_subject/dense": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.487,
+        "recall@4": 0.737,
+        "mrr@10": 0.613
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.435,
+          "recall@4": 0.565,
+          "mrr@10": 0.518
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.409,
+          "recall@4": 0.773,
+          "mrr@10": 0.583
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.581,
+          "recall@4": 0.839,
+          "mrr@10": 0.705
+        }
+      }
+    },
+    "jawi_subject/keyword": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.908,
+        "recall@4": 0.987,
+        "mrr@10": 0.947
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.87,
+          "recall@4": 0.957,
+          "mrr@10": 0.911
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.909,
+          "recall@4": 1.0,
+          "mrr@10": 0.955
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.935,
+          "recall@4": 1.0,
+          "mrr@10": 0.968
+        }
+      }
+    },
+    "jawi_subject/hybrid": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.816,
+        "recall@4": 0.934,
+        "mrr@10": 0.881
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.652,
+          "recall@4": 0.826,
+          "mrr@10": 0.752
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.955,
+          "recall@4": 1.0,
+          "mrr@10": 0.977
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.839,
+          "recall@4": 0.968,
+          "mrr@10": 0.91
+        }
+      }
+    },
+    "rumi_all/dense": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.842,
+        "recall@4": 0.921,
+        "mrr@10": 0.885
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.87,
+          "recall@4": 0.87,
+          "mrr@10": 0.877
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.818,
+          "recall@4": 0.864,
+          "mrr@10": 0.856
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.839,
+          "recall@4": 1.0,
+          "mrr@10": 0.911
+        }
+      }
+    },
+    "rumi_all/keyword": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.895,
+        "recall@4": 0.974,
+        "mrr@10": 0.937
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.87,
+          "recall@4": 0.957,
+          "mrr@10": 0.922
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.864,
+          "recall@4": 1.0,
+          "mrr@10": 0.924
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.935,
+          "recall@4": 0.968,
+          "mrr@10": 0.958
+        }
+      }
+    },
+    "rumi_all/hybrid": {
+      "overall": {
+        "n": 76,
+        "recall@1": 0.842,
+        "recall@4": 0.987,
+        "mrr@10": 0.909
+      },
+      "by_subject": {
+        "fiqh": {
+          "n": 23,
+          "recall@1": 0.826,
+          "recall@4": 0.957,
+          "mrr@10": 0.9
+        },
+        "jawi": {
+          "n": 22,
+          "recall@1": 0.818,
+          "recall@4": 1.0,
+          "mrr@10": 0.89
+        },
+        "tajwid": {
+          "n": 31,
+          "recall@1": 0.871,
+          "recall@4": 1.0,
+          "mrr@10": 0.93
+        }
+      }
+    }
+  },
+  "misses_rumi_subject_hybrid": {}
+}

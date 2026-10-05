@@ -1,0 +1,168 @@
+{
+  "topic_id": "jawi_b2_imbuhan_i_ya",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'membasahi' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'membasahi' دالم توليسن جاوي.",
+      "reference_answer_rumi": "membasahi",
+      "reference_answer_jawi": "ممباسهي",
+      "rubric": [
+        {"criterion": "Mengeja 'membasahi' dengan betul (ممباسهي)", "marks": 1, "keywords": ["ممباسهي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [33]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'dilengkapi' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'dilengkapi' دالم توليسن جاوي.",
+      "reference_answer_rumi": "dilengkapi",
+      "reference_answer_jawi": "دلڠکڤي",
+      "rubric": [
+        {"criterion": "Mengeja 'dilengkapi' dengan betul (دلڠکڤي)", "marks": 1, "keywords": ["دلڠکڤي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [33]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'menasihati' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'menasihati' دالم توليسن جاوي.",
+      "reference_answer_rumi": "menasihati",
+      "reference_answer_jawi": "منصيحتي",
+      "rubric": [
+        {"criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)", "marks": 2, "keywords": ["منصيحتي"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [33]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'ditenggelami' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'ditenggelami' دالم توليسن جاوي.",
+      "reference_answer_rumi": "ditenggelami",
+      "reference_answer_jawi": "دتڠݢلمي",
+      "rubric": [
+        {"criterion": "Mengeja 'ditenggelami' dengan betul (دتڠݢلمي)", "marks": 2, "keywords": ["دتڠݢلمي"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [33]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q5",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah yang dimaksudkan dengan suku kata tertutup?",
+      "question_jawi": "اڤاكه يڠ دمقصودكن دڠن سوكو كات ترتوتوڤ؟",
+      "reference_answer_rumi": "Suku kata yang diakhiri oleh huruf konsonan.",
+      "reference_answer_jawi": "سوكو كات يڠ دأخيري اوليه حروف كونسونن.",
+      "rubric": [
+        {"criterion": "Menyatakan suku kata yang diakhiri oleh huruf konsonan", "marks": 1, "keywords": ["konsonan", "كونسونن", "diakhiri", "دأخيري"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [36]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan peraturan ejaan imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup, dan berikan dua contoh kata berimbuhan dalam tulisan Jawi.",
+      "question_jawi": "ڽاتاكن ڤراتورن ايجاءن ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ، دان بريكن دوا چونتوه كات برايمبوهن دالم توليسن جاوي.",
+      "reference_answer_rumi": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup hendaklah dieja dengan huruf '-ي' sahaja. Contoh: baluti (بالوتي), dimarahi (دمارهي).",
+      "reference_answer_jawi": "ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ هندقله دأيجا دڠن حروف '-ي' سهاج. چونتوه: بالوتي، دمارهي.",
+      "rubric": [
+        {"criterion": "Menyebut kata dasar berakhir dengan suku kata tertutup", "marks": 1, "keywords": ["suku kata tertutup", "سوكو كات ترتوتوڤ"]},
+        {"criterion": "Menyatakan dieja dengan huruf '-ي' sahaja", "marks": 1, "keywords": ["ي sahaja", "huruf ya", "حروف '-ي' سهاج", "سهاج"]},
+        {"criterion": "Contoh pertama betul (cth. بالوتي, منصيحتي, ممباسهي, دمارهي, دبايڠي, دلڠکڤي, دتڠݢلمي, اوبتي)", "marks": 1, "keywords": ["بالوتي", "منصيحتي", "ممباسهي", "دمارهي", "دبايڠي", "دلڠکڤي", "دتڠݢلمي", "اوبتي"]},
+        {"criterion": "Contoh kedua betul dan berbeza daripada contoh pertama", "marks": 1, "keywords": ["بالوتي", "منصيحتي", "ممباسهي", "دمارهي", "دبايڠي", "دلڠکڤي", "دتڠݢلمي", "اوبتي"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [33]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Menurut 'Tahukah Anda', vokal apakah yang digunakan pada kata dasar yang berakhir dengan suku kata tertutup yang imbuhan '-i'nya dieja dengan huruf '-ي'?",
+      "question_jawi": "منوروت 'تاهوكه اندا'، ۏوكل اڤاكه يڠ دݢوناكن ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ يڠ ايمبوهن '-i'ڽ دأيجا دڠن حروف '-ي'؟",
+      "reference_answer_rumi": "Vokal 'a', 'i' atau 'u'.",
+      "reference_answer_jawi": "ۏوكل 'a'، 'i' اتاو 'u'.",
+      "rubric": [
+        {"criterion": "Menyebut vokal 'a'", "marks": 1, "keywords": ["a"]},
+        {"criterion": "Menyebut vokal 'i'", "marks": 1, "keywords": ["i"]},
+        {"criterion": "Menyebut vokal 'u'", "marks": 1, "keywords": ["u"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [36]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+      "question_jawi": "تراڠكن چارا مڠيجا ايمبوهن '-i' دڠن حروف '-ي'. دالم جواڤن اندا، جلسكن مقصود سوكو كات ترتوتوڤ، ۏوكل يڠ ترليبت، دان توكركن كات داسر 'marah'، 'bayang' دان 'ubat' كڤد كات برايمبوهن '-i' دالم توليسن جاوي.",
+      "reference_answer_rumi": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+      "reference_answer_jawi": "ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ دأيجا دڠن حروف '-ي' سهاج. سوكو كات ترتوتوڤ اياله سوكو كات يڠ دأخيري اوليه حروف كونسونن؛ ۏوكل 'a'، 'i' اتاو 'u'. ماره -> دمارهي؛ بايڠ -> دبايڠي؛ اوبت -> اوبتي.",
+      "rubric": [
+        {"criterion": "Peraturan: dieja dengan huruf '-ي' sahaja", "marks": 1, "keywords": ["ي sahaja", "حروف '-ي'", "سهاج"]},
+        {"criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan", "marks": 1, "keywords": ["konsonan", "كونسونن"]},
+        {"criterion": "Menyebut vokal 'a', 'i' atau 'u'", "marks": 1, "keywords": ["vokal a", "a, i", "ۏوكل"]},
+        {"criterion": "Mengeja dimarahi: دمارهي", "marks": 1, "keywords": ["دمارهي"]},
+        {"criterion": "Mengeja dibayangi: دبايڠي", "marks": 1, "keywords": ["دبايڠي"]},
+        {"criterion": "Mengeja ubati: اوبتي", "marks": 1, "keywords": ["اوبتي"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [33, 36]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q9",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan tiga kata berimbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dalam syair 'Ayah dan Ibu'.",
+      "question_jawi": "سنارايكن تيݢ كات برايمبوهن '-i' ڤد كات داسر براخير دڠن سوكو كات ترتوتوڤ دالم شعير 'ايه دان ايبو'.",
+      "reference_answer_rumi": "Mana-mana tiga: dihormati, disakiti, rahmati, dekati, diberkati, dituruti.",
+      "reference_answer_jawi": "دحرمتي، دساکيتي، رحمتي، دکتي، دبرکتي، دتوروتي",
+      "rubric": [
+        {"criterion": "Kata pertama betul dari syair", "marks": 1, "keywords": ["دحرمتي", "دساکيتي", "رحمتي", "دکتي", "دبرکتي", "دتوروتي", "dihormati", "disakiti", "rahmati", "dekati", "diberkati", "dituruti"]},
+        {"criterion": "Kata kedua betul dari syair", "marks": 1, "keywords": ["دحرمتي", "دساکيتي", "رحمتي", "دکتي", "دبرکتي", "دتوروتي"]},
+        {"criterion": "Kata ketiga betul dari syair", "marks": 1, "keywords": ["دحرمتي", "دساکيتي", "رحمتي", "دکتي", "دبرکتي", "دتوروتي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [34, 35]
+    },
+    {
+      "id": "jawi_b2_imbuhan_i_ya_q10",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berdasarkan syair 'Ayah dan Ibu', apakah yang wajib dilakukan terhadap ayah dan ibu?",
+      "question_jawi": "برداسركن شعير 'ايه دان ايبو'، اڤاكه يڠ واجب دلاكوكن ترهادڤ ايه دان ايبو؟",
+      "reference_answer_rumi": "Wajib dihormati.",
+      "reference_answer_jawi": "واجب دحرمتي",
+      "rubric": [
+        {"criterion": "Menyatakan ayah dan ibu wajib dihormati", "marks": 1, "keywords": ["dihormati", "دحرمتي", "hormat"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [34]
+    }
+  ]
+}

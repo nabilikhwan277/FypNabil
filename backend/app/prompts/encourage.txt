@@ -1,0 +1,2 @@
+Tulis SATU ayat pendek (tidak lebih 20 patah perkataan) untuk memberi semangat kepada murid Tahun 5 yang baru menjawab soalan tentang "{topic}" dan mendapat {band}.
+Jangan beri jawapan, fakta, nombor atau hukum. Gunakan bahasa Melayu yang mesra dan mudah.

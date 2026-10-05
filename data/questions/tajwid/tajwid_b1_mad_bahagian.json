@@ -1,0 +1,137 @@
+{
+  "topic_id": "tajwid_b1_mad_bahagian",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b1_mad_bahagian_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah erti mad pada bahasa?",
+      "question_jawi": "اڤاكه ارتي مد ڤد بهاس؟",
+      "reference_answer_rumi": "Memanjangkan suara",
+      "reference_answer_jawi": "ممنجڠكن سوارا",
+      "rubric": [
+        {"criterion": "Menyatakan memanjangkan suara", "marks": 1, "keywords": ["memanjangkan suara", "ممنجڠكن سوارا"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [10]
+    },
+    {
+      "id": "tajwid_b1_mad_bahagian_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan huruf mad?",
+      "question_jawi": "براڤاكه بيلڠن حروف مد؟",
+      "reference_answer_rumi": "Tiga",
+      "reference_answer_jawi": "تيݢ",
+      "rubric": [
+        {"criterion": "Menyatakan tiga huruf", "marks": 1, "keywords": ["tiga", "3", "تيݢ"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [11]
+    },
+    {
+      "id": "tajwid_b1_mad_bahagian_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah bahagian mad?",
+      "question_jawi": "براڤاكه بهاݢين مد؟",
+      "reference_answer_rumi": "Dua bahagian",
+      "reference_answer_jawi": "دوا بهاݢين",
+      "rubric": [
+        {"criterion": "Menyatakan dua bahagian", "marks": 1, "keywords": ["dua", "2", "دوا"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [12]
+    },
+    {
+      "id": "tajwid_b1_mad_bahagian_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah baris huruf sebelum wau mati supaya ia menjadi huruf mad?",
+      "question_jawi": "اڤاكه باريس حروف سبلوم واو ماتي سوڤاي اي منجادي حروف مد؟",
+      "reference_answer_rumi": "Berbaris depan",
+      "reference_answer_jawi": "برباريس دڤن",
+      "rubric": [
+        {"criterion": "Menyatakan baris depan", "marks": 1, "keywords": ["depan", "baris depan", "دڤن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [11]
+    },
+    {
+      "id": "tajwid_b1_mad_bahagian_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti mad pada bahasa dan pada istilah?",
+      "question_jawi": "اڤاكه ارتي مد ڤد بهاس دان ڤد ايستيله؟",
+      "reference_answer_rumi": "Pada bahasa: memanjangkan suara. Pada istilah: memanjangkan bacaan atau suara pada huruf-huruf mad.",
+      "reference_answer_jawi": "ڤد بهاس: ممنجڠكن سوارا. ڤد ايستيله: ممنجڠكن باچاٴن اتاو سوارا ڤد حروف٢ مد.",
+      "rubric": [
+        {"criterion": "Erti bahasa: memanjangkan suara", "marks": 1, "keywords": ["memanjangkan suara", "ممنجڠكن سوارا"]},
+        {"criterion": "Erti istilah: memanjangkan bacaan atau suara", "marks": 1, "keywords": ["memanjangkan bacaan", "ممنجڠكن باچاٴن"]},
+        {"criterion": "Menyebut pada huruf-huruf mad", "marks": 1, "keywords": ["huruf mad", "huruf-huruf mad", "حروف٢ مد", "حروف مد"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [10, 12]
+    },
+    {
+      "id": "tajwid_b1_mad_bahagian_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan huruf-huruf mad.",
+      "question_jawi": "سنارايكن حروف٢ مد.",
+      "reference_answer_rumi": "Alif (ا), wau (و) dan ya (ي).",
+      "reference_answer_jawi": "اليف (ا)، واو (و) دان ياء (ي).",
+      "rubric": [
+        {"criterion": "Alif", "marks": 1, "keywords": ["alif", "ا", "اليف"]},
+        {"criterion": "Wau", "marks": 1, "keywords": ["wau", "و", "واو"]},
+        {"criterion": "Ya", "marks": 1, "keywords": ["ya", "ي", "ياء"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [11, 12]
+    },
+    {
+      "id": "tajwid_b1_mad_bahagian_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan bahagian-bahagian mad.",
+      "question_jawi": "سنارايكن بهاݢين٢ مد.",
+      "reference_answer_rumi": "Mad Asli dan Mad Far'i.",
+      "reference_answer_jawi": "مد اصلي دان مد فرعي.",
+      "rubric": [
+        {"criterion": "Mad Asli", "marks": 1, "keywords": ["mad asli", "مد اصلي"]},
+        {"criterion": "Mad Far'i", "marks": 1, "keywords": ["mad far'i", "far'i", "fari", "مد فرعي"]},
+        {"criterion": "Menyatakan mad terbahagi kepada dua", "marks": 1, "keywords": ["dua", "دوا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [12]
+    },
+    {
+      "id": "tajwid_b1_mad_bahagian_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan syarat bagi setiap huruf mad asli dan berikan satu contoh kalimah bagi setiap huruf.",
+      "question_jawi": "تراڠكن شرط باݢي ستياڤ حروف مد اصلي دان بريكن ساتو چونتوه كاليمه باݢي ستياڤ حروف.",
+      "reference_answer_rumi": "Alif yang mati, sebelumnya berbaris atas, contoh وَقَالَ. Wau yang mati, sebelumnya berbaris depan, contoh سَيَقُولُ. Ya yang mati, sebelumnya berbaris bawah, contoh قِيلَ.",
+      "reference_answer_jawi": "اليف يڠ ماتي سبلومڽ برباريس اتس، چونتوه وَقَالَ. واو يڠ ماتي سبلومڽ برباريس دڤن، چونتوه سَيَقُولُ. ياء يڠ ماتي سبلومڽ برباريس باوه، چونتوه قِيلَ.",
+      "rubric": [
+        {"criterion": "Syarat alif: mati, sebelumnya baris atas", "marks": 1, "keywords": ["alif", "baris atas", "برباريس اتس"]},
+        {"criterion": "Contoh alif", "marks": 1, "keywords": ["وَقَالَ", "وقال"]},
+        {"criterion": "Syarat wau: mati, sebelumnya baris depan", "marks": 1, "keywords": ["wau", "baris depan", "برباريس دڤن"]},
+        {"criterion": "Contoh wau", "marks": 1, "keywords": ["سَيَقُولُ", "سيقول"]},
+        {"criterion": "Syarat ya: mati, sebelumnya baris bawah", "marks": 1, "keywords": ["ya", "baris bawah", "برباريس باوه"]},
+        {"criterion": "Contoh ya", "marks": 1, "keywords": ["قِيلَ", "قيل"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [11]
+    }
+  ]
+}

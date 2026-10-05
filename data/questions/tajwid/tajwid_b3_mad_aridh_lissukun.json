@@ -1,0 +1,122 @@
+{
+  "topic_id": "tajwid_b3_mad_aridh_lissukun",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_aridh_lissukun_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad 'Aridh Lissukun?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد عارض للسكون؟",
+      "reference_answer_rumi": "Dua atau empat atau enam harakat",
+      "reference_answer_jawi": "دوا اتاو امڤت اتاو انم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan dua atau empat atau enam harakat", "marks": 2, "keywords": ["dua atau empat atau enam", "2, 4 atau 6", "2 atau 4 atau 6", "دوا اتاو امڤت اتاو انم"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [54, 55]
+    },
+    {
+      "id": "tajwid_b3_mad_aridh_lissukun_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Huruf mad dalam Mad 'Aridh Lissukun bertemu dengan huruf mati kerana apa?",
+      "question_jawi": "حروف مد دالم مد عارض للسكون برتمو دڠن حروف ماتي كران اڤ؟",
+      "reference_answer_rumi": "Kerana waqaf (berhenti bacaan)",
+      "reference_answer_jawi": "كران وقف (برهنتي باچاءن)",
+      "rubric": [
+        {"criterion": "Menyatakan waqaf / berhenti bacaan", "marks": 1, "keywords": ["waqaf", "wakaf", "berhenti", "وقف", "برهنتي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [54]
+    },
+    {
+      "id": "tajwid_b3_mad_aridh_lissukun_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan huruf mad bagi kalimah يُنفِقُونَ apabila diwaqafkan.",
+      "question_jawi": "ڽاتاكن حروف مد باݢي كليمه يُنفِقُونَ اڤابيلا دوقفكن.",
+      "reference_answer_rumi": "Huruf wau (و)",
+      "reference_answer_jawi": "حروف واو (و)",
+      "rubric": [
+        {"criterion": "Menyatakan huruf wau", "marks": 1, "keywords": ["wau", "و", "واو"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [54]
+    },
+    {
+      "id": "tajwid_b3_mad_aridh_lissukun_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Nyatakan pengertian Mad 'Aridh Lissukun.",
+      "question_jawi": "ڽاتاكن ڤڠرتين مد عارض للسكون.",
+      "reference_answer_rumi": "Mad 'Aridh Lissukun ialah apabila huruf mad bertemu dengan huruf mati kerana waqaf (berhenti bacaan).",
+      "reference_answer_jawi": "مد عارض للسكون اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن).",
+      "rubric": [
+        {"criterion": "Menyebut huruf mad", "marks": 1, "keywords": ["huruf mad", "حروف مد"]},
+        {"criterion": "Bertemu dengan huruf mati", "marks": 1, "keywords": ["huruf mati", "حروف ماتي"]},
+        {"criterion": "Kerana waqaf (berhenti bacaan)", "marks": 1, "keywords": ["waqaf", "berhenti", "وقف", "برهنتي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [54, 55]
+    },
+    {
+      "id": "tajwid_b3_mad_aridh_lissukun_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Mengapakah dinamakan Mad 'Aridh Lissukun?",
+      "question_jawi": "مڠاڤاكه دناماكن مد عارض للسكون؟",
+      "reference_answer_rumi": "Kerana bacaan mati pada huruf yang akhir itu adalah mati yang mendatang disebabkan bacaan yang diwaqafkan.",
+      "reference_answer_jawi": "كران باچاءن ماتي ڤد حروف يڠ اخير ايت اداله ماتي يڠ منداتڠ دسببكن باچاءن يڠ دوقفكن.",
+      "rubric": [
+        {"criterion": "Bacaan mati pada huruf akhir", "marks": 1, "keywords": ["huruf yang akhir", "huruf akhir", "حروف يڠ اخير"]},
+        {"criterion": "Mati yang mendatang", "marks": 1, "keywords": ["mendatang", "منداتڠ"]},
+        {"criterion": "Disebabkan bacaan diwaqafkan", "marks": 1, "keywords": ["diwaqafkan", "waqaf", "دوقفكن", "وقف"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [54, 55]
+    },
+    {
+      "id": "tajwid_b3_mad_aridh_lissukun_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan tiga misal Mad 'Aridh Lissukun.",
+      "question_jawi": "توليسكن تيݢ ميثل مد عارض للسكون.",
+      "reference_answer_rumi": "Contoh: بِحُسۡبَانٖ ، يَسۡطُرُونَ ، عَلِيمٌ (atau misal lain seperti وَٱلۡفُرۡقَانِ، لَدَا ٱلۡبَابِ، يُنفِقُونَ، تَشۡكُرُونَ، بِٱلۡمُهۡتَدِينَ، عَزِيزٌ حَكِيمٌ).",
+      "reference_answer_jawi": "چونتوه: بِحُسۡبَانٖ ، يَسۡطُرُونَ ، عَلِيمٌ",
+      "rubric": [
+        {"criterion": "Misal pertama yang betul", "marks": 1, "keywords": ["بِحُسۡبَانٖ", "وَٱلۡفُرۡقَانِ", "لَدَا ٱلۡبَابِ", "يَسۡطُرُونَ", "يُنفِقُونَ", "تَشۡكُرُونَ", "بِٱلۡمُهۡتَدِينَ", "عَلِيمٌ", "حَكِيمٌ", "يَرۡجِعُونَ", "ٱلرَّحِيمُ", "شَهِيدٌ", "يَعۡلَمُونَ"]},
+        {"criterion": "Misal kedua yang betul", "marks": 1, "keywords": ["بِحُسۡبَانٖ", "وَٱلۡفُرۡقَانِ", "لَدَا ٱلۡبَابِ", "يَسۡطُرُونَ", "يُنفِقُونَ", "تَشۡكُرُونَ", "بِٱلۡمُهۡتَدِينَ", "عَلِيمٌ", "حَكِيمٌ", "يَرۡجِعُونَ", "ٱلرَّحِيمُ", "شَهِيدٌ", "يَعۡلَمُونَ"]},
+        {"criterion": "Misal ketiga yang betul", "marks": 1, "keywords": ["بِحُسۡبَانٖ", "وَٱلۡفُرۡقَانِ", "لَدَا ٱلۡبَابِ", "يَسۡطُرُونَ", "يُنفِقُونَ", "تَشۡكُرُونَ", "بِٱلۡمُهۡتَدِينَ", "عَلِيمٌ", "حَكِيمٌ", "يَرۡجِعُونَ", "ٱلرَّحِيمُ", "شَهِيدٌ", "يَعۡلَمُونَ"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [54, 55]
+    },
+    {
+      "id": "tajwid_b3_mad_aridh_lissukun_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum Mad 'Aridh Lissukun meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu misal bagi setiap huruf mad (alif, wau dan ya).",
+      "question_jawi": "تراڠكن حكوم مد عارض للسكون مليڤوتي ڤڠرتين، قدر حركة دان سبب دناماكن، سرتا بريكن ساتو ميثل باݢي ستياڤ حروف مد (اليف، واو دان ياء).",
+      "reference_answer_rumi": "Mad 'Aridh Lissukun ialah apabila huruf mad bertemu dengan huruf mati kerana waqaf (berhenti bacaan). Kadarnya dua atau empat atau enam harakat. Dinamakan demikian kerana bacaan mati pada huruf akhir itu adalah mati yang mendatang disebabkan bacaan yang diwaqafkan. Misal alif: بِحُسۡبَانٖ; wau: يَسۡطُرُونَ; ya: عَلِيمٌ.",
+      "reference_answer_jawi": "مد عارض للسكون اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن). قدرڽ دوا اتاو امڤت اتاو انم حركة. دناماكن دمكين كران باچاءن ماتي ڤد حروف يڠ اخير ايت اداله ماتي يڠ منداتڠ دسببكن باچاءن يڠ دوقفكن. ميثل اليف: بِحُسۡبَانٖ؛ واو: يَسۡطُرُونَ؛ ياء: عَلِيمٌ.",
+      "rubric": [
+        {"criterion": "Pengertian: huruf mad bertemu huruf mati kerana waqaf", "marks": 1, "keywords": ["huruf mad", "huruf mati", "waqaf", "حروف مد", "وقف"]},
+        {"criterion": "Kadar dua atau empat atau enam harakat", "marks": 1, "keywords": ["dua atau empat atau enam", "2, 4 atau 6", "دوا اتاو امڤت اتاو انم"]},
+        {"criterion": "Sebab: mati mendatang kerana diwaqafkan", "marks": 1, "keywords": ["mendatang", "diwaqafkan", "منداتڠ", "دوقفكن"]},
+        {"criterion": "Misal huruf alif", "marks": 1, "keywords": ["بِحُسۡبَانٖ", "وَٱلۡفُرۡقَانِ", "لَدَا ٱلۡبَابِ"]},
+        {"criterion": "Misal huruf wau", "marks": 1, "keywords": ["يَسۡطُرُونَ", "يُنفِقُونَ", "تَشۡكُرُونَ", "يَرۡجِعُونَ", "يَعۡلَمُونَ"]},
+        {"criterion": "Misal huruf ya", "marks": 1, "keywords": ["بِٱلۡمُهۡتَدِينَ", "عَلِيمٌ", "حَكِيمٌ", "ٱلرَّحِيمُ", "شَهِيدٌ"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [54, 55]
+    }
+  ]
+}

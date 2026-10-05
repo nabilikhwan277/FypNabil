@@ -1,0 +1,168 @@
+{
+  "topic_id": "jawi_b1_imbuhan_an_hamzah_nun",
+  "subject": "jawi",
+  "questions": [
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'jutaan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'jutaan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "jutaan",
+      "reference_answer_jawi": "جوتاءن",
+      "rubric": [
+        {"criterion": "Mengeja 'jutaan' dengan betul (جوتاءن)", "marks": 1, "keywords": ["جوتاءن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [25]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'bacaan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'bacaan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "bacaan",
+      "reference_answer_jawi": "باچاءن",
+      "rubric": [
+        {"criterion": "Mengeja 'bacaan' dengan betul (باچاءن)", "marks": 1, "keywords": ["باچاءن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [26]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'penderitaan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'penderitaan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "penderitaan",
+      "reference_answer_jawi": "ڤندريتاءن",
+      "rubric": [
+        {"criterion": "Mengeja 'penderitaan' dengan betul (ڤندريتاءن)", "marks": 2, "keywords": ["ڤندريتاءن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [25]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Tulis perkataan 'kemerdekaan' dalam tulisan Jawi.",
+      "question_jawi": "توليس ڤركاتاءن 'kemerdekaan' دالم توليسن جاوي.",
+      "reference_answer_rumi": "kemerdekaan",
+      "reference_answer_jawi": "كمرديكاءن",
+      "rubric": [
+        {"criterion": "Mengeja 'kemerdekaan' dengan betul (كمرديكاءن)", "marks": 2, "keywords": ["كمرديكاءن"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [27]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Kenapakah ejaan 'sangkaan' ditulis سڠكاءن, iaitu dengan huruf 'ا' sebelum '-ءن'?",
+      "question_jawi": "كنڤاكه ايجاءن 'sangkaan' دتوليس سڠكاءن، ياءيت دڠن حروف 'ا' سبلوم '-ءن'؟",
+      "reference_answer_rumi": "Kerana kata dasar 'sangka' (سڠك) berakhir dengan bunyi vokal 'a' tetapi ditulis tanpa huruf 'ا'. Imbuhan '-an' pada kata dasar seperti ini hendaklah diletakkan huruf 'ا' terlebih dahulu diikuti dengan '-ءن'.",
+      "reference_answer_jawi": "كران كات داسر سڠك براخير دڠن بوڽي ۏوكل 'a' يڠ دتوليس تنڤا حروف 'ا'. ايمبوهن '-an' ڤد كات داسر اين هندقله دلتقكن حروف 'ا' ترلبيه دهولو دأيكوتي دڠن '-ءن'.",
+      "rubric": [
+        {"criterion": "Kata dasar سڠك berakhir dengan bunyi vokal 'a'", "marks": 1, "keywords": ["vokal a", "bunyi a", "ۏوكل 'a'"]},
+        {"criterion": "Kata dasar ditulis tanpa huruf 'ا'", "marks": 1, "keywords": ["tanpa alif", "tanpa huruf ا", "تنڤا حروف"]},
+        {"criterion": "Diletakkan huruf 'ا' terlebih dahulu diikuti '-ءن'", "marks": 1, "keywords": ["diletakkan alif", "terlebih dahulu", "diikuti", "ءن"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [26]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Kelaskan perkataan berikut mengikut imbuhan '-ن', '-ان' dan '-ءن': كݢمبيراءن، بوروان، اولسن، ڤرنياݢاءن، ݢوراوان، لارين.",
+      "question_jawi": "مڠلسكن ڤركاتاءن دباوه مڠيكوت بهاݢين ايمبوهن '-an': كݢمبيراءن، بوروان، اولسن، ڤرنياݢاءن، ݢوراوان، لارين.",
+      "reference_answer_rumi": "'-ن': ulasan, larian; '-ان': buruan, gurauan; '-ءن': kegembiraan, perniagaan",
+      "reference_answer_jawi": "'-ن': اولسن، لارين؛ '-ان': بوروان، ݢوراوان؛ '-ءن': كݢمبيراءن، ڤرنياݢاءن",
+      "rubric": [
+        {"criterion": "Imbuhan '-ن': اولسن dan لارين", "marks": 1, "keywords": ["اولسن", "لارين"]},
+        {"criterion": "Imbuhan '-ان': بوروان dan ݢوراوان", "marks": 1, "keywords": ["بوروان", "ݢوراوان"]},
+        {"criterion": "Imbuhan '-ءن': كݢمبيراءن dan ڤرنياݢاءن", "marks": 1, "keywords": ["كݢمبيراءن", "ڤرنياݢاءن"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [29]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Isi tempat kosong dengan perkataan yang sesuai (سماين، ڤرتاڽاءن، ڤرساتوان، ڤرمينتاءن، سمبوتن): (a) Sekolah saya telah mengadakan ____ Hari Guru pada setiap tahun. (b) Pegawai pertanian itu melawat tapak ____ kelapa sawit. (c) Danial telah dilantik menjadi pengerusi ____ Bahasa Arab.",
+      "question_jawi": "ايسي تمڤت كوسوڠ: (a) سكوله ساي تله مڠاداكن ____ هاري ݢورو ڤد ستياڤ تاهون. (b) ڤݢاواي ڤرتانين ايت ملاوت تاڤق ____ كلاڤ ساويت. (c) دانيال تله دلانتيق منجادي ڤڠروسي ____ بهاس عرب.",
+      "reference_answer_rumi": "(a) sambutan (b) semaian (c) persatuan",
+      "reference_answer_jawi": "(a) سمبوتن (b) سماين (c) ڤرساتوان",
+      "rubric": [
+        {"criterion": "(a) سمبوتن", "marks": 1, "keywords": ["سمبوتن", "sambutan"]},
+        {"criterion": "(b) سماين", "marks": 1, "keywords": ["سماين", "semaian"]},
+        {"criterion": "(c) ڤرساتوان", "marks": 1, "keywords": ["ڤرساتوان", "persatuan"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [29]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q8",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berdasarkan petikan, bilakah acara kemuncak sambutan Hari Kemerdekaan diadakan?",
+      "question_jawi": "بيلاكه سمبوتن هاري كمرديكاءن دأداكن؟",
+      "reference_answer_rumi": "Sambutan sepanjang bulan Ogos; acara kemuncak pada 1 September setiap tahun",
+      "reference_answer_jawi": "سڤنجڠ بولن اوݢوس؛ اچارا كمونچق ڤد 1 سيڤتيمبر ستياڤ تاهون",
+      "rubric": [
+        {"criterion": "Menyatakan sepanjang bulan Ogos atau 1 September", "marks": 1, "keywords": ["Ogos", "1 September", "اوݢوس", "سيڤتيمبر"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [27, 28]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q9",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Senaraikan aktiviti yang diadakan pada acara kemuncak sambutan Hari Kemerdekaan.",
+      "question_jawi": "سنارايكن اكتيۏيتي يڠ دأداكن ڤد اچارا كمونچق سمبوتن هاري كمرديكاءن.",
+      "reference_answer_rumi": "Larian kemerdekaan, nyanyian lagu patriotik, pertandingan pakaian patriotik, tayangan filem merdeka dan majlis penyampaian hadiah.",
+      "reference_answer_jawi": "لارين كمرديكاءن، ڽاڽين لاݢو ڤاتريوتيك، ڤرتنديڠن ڤاكاين ڤاتريوتيك، تايڠن فيلم مرديك دان مجليس ڤڽمڤاين هديه.",
+      "rubric": [
+        {"criterion": "Larian kemerdekaan", "marks": 1, "keywords": ["larian", "لارين"]},
+        {"criterion": "Nyanyian lagu patriotik", "marks": 1, "keywords": ["nyanyian", "lagu patriotik", "ڽاڽين"]},
+        {"criterion": "Pertandingan pakaian patriotik", "marks": 1, "keywords": ["pakaian patriotik", "ڤاكاين"]},
+        {"criterion": "Tayangan filem merdeka / penyampaian hadiah", "marks": 1, "keywords": ["tayangan", "filem", "hadiah", "تايڠن", "هديه"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [27, 28]
+    },
+    {
+      "id": "jawi_b1_imbuhan_an_hamzah_nun_q10",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan dua peraturan ejaan imbuhan '-an' dengan '-ءن'. Bagi setiap peraturan, berikan satu contoh kata dasar dan kata berimbuhan dalam tulisan Jawi.",
+      "question_jawi": "تراڠكن دوا ڤراتورن ايجاءن ايمبوهن '-an' دڠن '-ءن'. باݢي ستياڤ ڤراتورن، بريكن ساتو چونتوه كات داسر دان كات برايمبوهن دالم توليسن جاوي.",
+      "reference_answer_rumi": "(1) Kata dasar yang berakhir dengan huruf 'ا' (bunyi vokal 'a' ditulis dengan 'ا') - imbuhan '-an' dieja dengan '-ءن'. Contoh: juta جوتا -> jutaan جوتاءن. (2) Kata dasar yang berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا' - diletakkan huruf 'ا' terlebih dahulu diikuti dengan '-ءن'. Contoh: baca باچ -> bacaan باچاءن.",
+      "reference_answer_jawi": "(1) كات داسر يڠ براخير دڠن حروف 'ا' - ايمبوهن '-an' دأيجا دڠن '-ءن'. چونتوه: جوتا -> جوتاءن. (2) كات داسر يڠ براخير دڠن بوڽي ۏوكل 'a' يڠ دتوليس تنڤا حروف 'ا' - دلتقكن حروف 'ا' ترلبيه دهولو دأيكوتي دڠن '-ءن'. چونتوه: باچ -> باچاءن.",
+      "rubric": [
+        {"criterion": "Peraturan 1: kata dasar berakhir dengan huruf 'ا' dieja dengan '-ءن'", "marks": 1, "keywords": ["berakhir dengan huruf ا", "alif", "حروف 'ا'"]},
+        {"criterion": "Contoh peraturan 1 betul (cth. جوتاءن, ڤندريتاءن, دراءن, كلݢاءن)", "marks": 2, "keywords": ["جوتاءن", "ڤندريتاءن", "دراءن", "كلݢاءن"]},
+        {"criterion": "Peraturan 2: kata dasar tanpa 'ا', diletakkan 'ا' dahulu kemudian '-ءن'", "marks": 1, "keywords": ["tanpa huruf ا", "terlebih dahulu", "تنڤا حروف"]},
+        {"criterion": "Contoh peraturan 2 betul (cth. سڠكاءن, دوكاءن, باچاءن)", "marks": 2, "keywords": ["سڠكاءن", "دوكاءن", "باچاءن"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [24, 25, 26]
+    }
+  ]
+}

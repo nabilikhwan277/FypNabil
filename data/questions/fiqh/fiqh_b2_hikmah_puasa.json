@@ -1,0 +1,104 @@
+{
+  "topic_id": "fiqh_b2_hikmah_puasa",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b2_hikmah_puasa_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Puasa mengeratkan persaudaraan sesama siapa?",
+      "question_jawi": "ڤواسا مڠرتکن ڤرساوداراءن سسام سياڤ؟",
+      "reference_answer_rumi": "Sesama Muslim",
+      "reference_answer_jawi": "سسام مسلم",
+      "rubric": [
+        {"criterion": "Menyatakan sesama Muslim", "marks": 1, "keywords": ["Muslim", "Islam", "مسلم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [62]
+    },
+    {
+      "id": "fiqh_b2_hikmah_puasa_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Puasa membolehkan kita merasai kesusahan golongan apa?",
+      "question_jawi": "ڤواسا ممبوليهکن کيت مراساءي کسوسهن ݢولوڠن اڤ؟",
+      "reference_answer_rumi": "Orang fakir dan miskin",
+      "reference_answer_jawi": "اورڠ فقير دان ميسکين",
+      "rubric": [
+        {"criterion": "Menyatakan fakir dan miskin", "marks": 1, "keywords": ["fakir", "miskin", "فقير", "ميسکين"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [62]
+    },
+    {
+      "id": "fiqh_b2_hikmah_puasa_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan dua sifat yang dibentuk melalui puasa.",
+      "question_jawi": "ڽاتاکن دوا صيفت يڠ دبنتوق ملالوءي ڤواسا.",
+      "reference_answer_rumi": "Mana-mana dua: sabar, berdisiplin, bersyukur",
+      "reference_answer_jawi": "مان٢ دوا: صبر، برديسيڤلين، برشکور",
+      "rubric": [
+        {"criterion": "Sifat pertama", "marks": 1, "keywords": ["sabar", "berdisiplin", "disiplin", "bersyukur", "syukur", "صبر", "برديسيڤلين", "برشکور"]},
+        {"criterion": "Sifat kedua", "marks": 1, "keywords": ["sabar", "berdisiplin", "disiplin", "bersyukur", "syukur", "صبر", "برديسيڤلين", "برشکور"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [62]
+    },
+    {
+      "id": "fiqh_b2_hikmah_puasa_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga hikmah puasa.",
+      "question_jawi": "ڽاتاکن تيݢ حکمه ڤواسا.",
+      "reference_answer_rumi": "Mana-mana tiga: membentuk sifat sabar, berdisiplin dan bersyukur; menyihatkan tubuh badan dan mencerdaskan otak; merasai kesusahan orang fakir dan miskin; mengeratkan persaudaraan sesama Muslim; menjauhkan diri daripada dosa dan kejahatan; mendekatkan diri kepada Allah SWT dengan amalan-amalan mulia.",
+      "reference_answer_jawi": "مان٢ تيݢ: ممبنتوق صيفت صبر، برديسيڤلين دان برشکور؛ مڽيحتکن توبوه بادن دان منچردسکن اوتق؛ مراساءي کسوسهن اورڠ فقير دان ميسکين؛ مڠرتکن ڤرساوداراءن سسام مسلم؛ منجاءوهکن ديري درڤد دوسا دان کجاهتن؛ مندکتکن ديري کڤد الله دڠن عملن٢ موليا.",
+      "rubric": [
+        {"criterion": "Hikmah pertama", "marks": 1, "keywords": ["sabar", "disiplin", "syukur", "sihat", "otak", "صبر", "مڽيحتکن", "اوتق"]},
+        {"criterion": "Hikmah kedua", "marks": 1, "keywords": ["fakir", "miskin", "persaudaraan", "فقير", "ميسکين", "ڤرساوداراءن"]},
+        {"criterion": "Hikmah ketiga", "marks": 1, "keywords": ["dosa", "kejahatan", "mendekatkan diri", "amalan mulia", "دوسا", "کجاهتن", "مندکتکن ديري"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [62]
+    },
+    {
+      "id": "fiqh_b2_hikmah_puasa_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Terangkan hikmah puasa dari segi kesihatan dan hubungan dengan Allah SWT.",
+      "question_jawi": "تراڠکن حکمه ڤواسا دري سݢي کصيحتن دان هوبوڠن دڠن الله سبحانه وتعالى.",
+      "reference_answer_rumi": "Kesihatan: menyihatkan tubuh badan dan mencerdaskan otak. Hubungan dengan Allah: mendekatkan diri kepada Allah SWT dengan amalan-amalan mulia.",
+      "reference_answer_jawi": "کصيحتن: مڽيحتکن توبوه بادن دان منچردسکن اوتق. هوبوڠن دڠن الله: مندکتکن ديري کڤد الله سبحانه وتعالى دڠن عملن٢ موليا.",
+      "rubric": [
+        {"criterion": "Menyihatkan tubuh badan", "marks": 1, "keywords": ["sihat", "menyihatkan", "tubuh badan", "مڽيحتکن", "توبوه بادن"]},
+        {"criterion": "Mencerdaskan otak", "marks": 1, "keywords": ["cerdas", "otak", "منچردسکن", "اوتق"]},
+        {"criterion": "Mendekatkan diri kepada Allah dengan amalan mulia", "marks": 1, "keywords": ["mendekatkan diri", "amalan mulia", "مندکتکن ديري", "عملن٢ موليا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [62]
+    },
+    {
+      "id": "fiqh_b2_hikmah_puasa_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Semasa berpuasa, Aisyah berkongsi makanan dengan jirannya dan Hakim memilih untuk memberi makan kepada kucing, bukan menyakitinya. Huraikan hikmah puasa yang dapat dikaitkan dengan perbuatan mereka dan nyatakan dua hikmah puasa yang lain.",
+      "question_jawi": "سماس برڤواسا، عائشة برکوڠسي ماکنن دڠن جيرنڽ دان حکيم مميليه اونتوق ممبري ماکن کڤد کوچيڠ، بوکن مڽاکيتيڽ. هورايکن حکمه ڤواسا يڠ داڤت دکاءيتکن دڠن ڤربواتن مريک دان ڽاتاکن دوا حکمه ڤواسا يڠ لاءين.",
+      "reference_answer_rumi": "Perbuatan Aisyah berkaitan hikmah mengeratkan persaudaraan sesama Muslim (dan merasai kesusahan orang fakir dan miskin). Perbuatan Hakim berkaitan hikmah menjauhkan diri daripada dosa dan kejahatan. Hikmah lain (mana-mana dua): membentuk sifat sabar, berdisiplin dan bersyukur; menyihatkan tubuh badan dan mencerdaskan otak; mendekatkan diri kepada Allah SWT dengan amalan-amalan mulia.",
+      "reference_answer_jawi": "ڤربواتن عائشة برکاءيتن حکمه مڠرتکن ڤرساوداراءن سسام مسلم (دان مراساءي کسوسهن اورڠ فقير دان ميسکين). ڤربواتن حکيم برکاءيتن حکمه منجاءوهکن ديري درڤد دوسا دان کجاهتن. حکمه لاءين (مان٢ دوا): ممبنتوق صيفت صبر، برديسيڤلين دان برشکور؛ مڽيحتکن توبوه بادن دان منچردسکن اوتق؛ مندکتکن ديري کڤد الله دڠن عملن٢ موليا.",
+      "rubric": [
+        {"criterion": "Aisyah: mengeratkan persaudaraan / merasai kesusahan orang lain", "marks": 2, "keywords": ["persaudaraan", "sesama Muslim", "fakir", "miskin", "ڤرساوداراءن", "سسام مسلم", "فقير", "ميسکين"]},
+        {"criterion": "Hakim: menjauhkan diri daripada dosa dan kejahatan", "marks": 2, "keywords": ["dosa", "kejahatan", "menjauhkan diri", "دوسا", "کجاهتن", "منجاءوهکن ديري"]},
+        {"criterion": "Hikmah lain pertama", "marks": 1, "keywords": ["sabar", "disiplin", "syukur", "صبر", "برديسيڤلين", "برشکور"]},
+        {"criterion": "Hikmah lain kedua", "marks": 1, "keywords": ["sihat", "otak", "mendekatkan diri", "amalan mulia", "مڽيحتکن", "اوتق", "مندکتکن ديري"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [62]
+    }
+  ]
+}

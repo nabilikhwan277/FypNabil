@@ -1,0 +1,151 @@
+{
+  "topic_id": "tajwid_b3_mad_lazim_harfi_muthaqqal",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Bagaimanakah cara bacaan Mad Lazim Harfi Muthaqqal?",
+      "question_jawi": "باݢايماناكه چارا باچاءن مد لازم حرفي مثقل؟",
+      "reference_answer_rumi": "Dibaca dengan idgham beserta dengung",
+      "reference_answer_jawi": "دباچ دڠن إدغام برسرتا دڠوڠ",
+      "rubric": [
+        {"criterion": "Idgham", "marks": 1, "keywords": ["idgham", "إدغام"]},
+        {"criterion": "Beserta dengung", "marks": 1, "keywords": ["dengung", "دڠوڠ"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [45]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q9",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Lazim Harfi Muthaqqal?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لازم حرفي مثقل؟",
+      "reference_answer_rumi": "Enam harakat (kadar Mad Lazim)",
+      "reference_answer_jawi": "انم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan enam harakat", "marks": 1, "keywords": ["enam harakat", "6 harakat", "enam", "انم حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [40, 48]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud فَوَاتِحُ السُّوَرِ?",
+      "question_jawi": "اڤاكه مقصود فَوَاتِحُ السُّوَرِ؟",
+      "reference_answer_rumi": "Potongan huruf yang berada di pembukaan surah",
+      "reference_answer_jawi": "ڤوتوڠن حروف يڠ براد دڤمبوكاءن سورة",
+      "rubric": [
+        {"criterion": "Potongan huruf di pembukaan surah", "marks": 1, "keywords": ["potongan huruf", "pembukaan surah", "permulaan surah", "ڤوتوڠن حروف", "ڤمبوكاءن سورة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [45]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Huruf Mad Lazim Harfi terhimpun dalam rangkai kata apa?",
+      "question_jawi": "حروف مد لازم حرفي ترهيمڤون دالم راڠكاي كات اڤ؟",
+      "reference_answer_rumi": "نَقَصَ عَسَلُكُمۡ",
+      "reference_answer_jawi": "نَقَصَ عَسَلُكُمۡ",
+      "rubric": [
+        {"criterion": "Menyatakan نَقَصَ عَسَلُكُمۡ", "marks": 1, "keywords": ["نَقَصَ عَسَلُكُمۡ", "نقص عسلكم", "naqasa 'asalukum", "naqasa asalukum"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [47]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud perkataan 'muthaqqal'?",
+      "question_jawi": "اڤاكه مقصود ڤركاتاءن مثقل؟",
+      "reference_answer_rumi": "Diidghamkan (ditasydidkan)",
+      "reference_answer_jawi": "دأدغامكن (دتشديدكن)",
+      "rubric": [
+        {"criterion": "Diidghamkan / ditasydidkan", "marks": 1, "keywords": ["diidghamkan", "ditasydidkan", "idgham", "tasydid", "دأدغامكن", "دتشديدكن"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [47]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Lazim Harfi Muthaqqal?",
+      "question_jawi": "اڤاكه ارتي مد لازم حرفي مثقل؟",
+      "reference_answer_rumi": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya.",
+      "reference_answer_jawi": "مد لازم حرفي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف يڠ ترداڤت دڤرمولاءن سورة (فواتح السور) دان دأدغامكن كدالم حروف برايكوتڽ.",
+      "rubric": [
+        {"criterion": "Huruf mad bertemu huruf mati dalam satu huruf", "marks": 1, "keywords": ["huruf mad", "huruf mati", "satu huruf", "حروف مد", "حروف ماتي"]},
+        {"criterion": "Terdapat di permulaan surah (fawatih al-suwar)", "marks": 1, "keywords": ["permulaan surah", "fawatih", "فواتح السور", "ڤرمولاءن سورة"]},
+        {"criterion": "Diidghamkan ke dalam huruf berikutnya", "marks": 1, "keywords": ["diidghamkan", "idgham", "دأدغامكن"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [45, 48]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Namakan tiga surah yang mengandungi Mad Lazim Harfi Muthaqqal.",
+      "question_jawi": "ناماكن تيݢ سورة يڠ مڠاندوڠي مد لازم حرفي مثقل.",
+      "reference_answer_rumi": "Mana-mana tiga: al-Baqarah, Ali 'Imran, al-'Ankabut, Luqman, as-Sajdah, ar-Rum, ar-Ra'd, al-A'raf, asy-Syu'ara', al-Qasas.",
+      "reference_answer_jawi": "مان٢ تيݢ: البقرة، ال عمران، العنكبوت، لقمان، السجدة، الروم، الرعد، الأعراف، الشعراء، القصص.",
+      "rubric": [
+        {"criterion": "Surah pertama yang betul", "marks": 1, "keywords": ["Baqarah", "Imran", "Ankabut", "Luqman", "Sajdah", "Rum", "Ra'd", "A'raf", "Syu'ara", "Qasas", "البقرة", "عمران", "العنكبوت", "لقمان", "السجدة", "الروم", "الرعد", "الأعراف", "الشعراء", "القصص"]},
+        {"criterion": "Surah kedua yang betul", "marks": 1, "keywords": ["Baqarah", "Imran", "Ankabut", "Luqman", "Sajdah", "Rum", "Ra'd", "A'raf", "Syu'ara", "Qasas", "البقرة", "عمران", "العنكبوت", "لقمان", "السجدة", "الروم", "الرعد", "الأعراف", "الشعراء", "القصص"]},
+        {"criterion": "Surah ketiga yang betul", "marks": 1, "keywords": ["Baqarah", "Imran", "Ankabut", "Luqman", "Sajdah", "Rum", "Ra'd", "A'raf", "Syu'ara", "Qasas", "البقرة", "عمران", "العنكبوت", "لقمان", "السجدة", "الروم", "الرعد", "الأعراف", "الشعراء", "القصص"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [46, 48]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q7",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Terangkan cara membaca kalimah الٓمٓصٓ dan الٓمٓ.",
+      "question_jawi": "تراڠكن چارا ممباچ كليمه الٓمٓصٓ دان الٓمٓ.",
+      "reference_answer_rumi": "الٓمٓصٓ dibaca أَلِف لام ميم صاد dan الٓمٓ dibaca أَلِف لام ميم; Mad Lazim Harfi Muthaqqal dibaca dengan idgham beserta dengung.",
+      "reference_answer_jawi": "الٓمٓصٓ دباچ أَلِف لام ميم صاد دان الٓمٓ دباچ أَلِف لام ميم؛ مد لازم حرفي مثقل دباچ دڠن إدغام برسرتا دڠوڠ.",
+      "rubric": [
+        {"criterion": "الٓمٓصٓ dibaca alif lam mim sad", "marks": 1, "keywords": ["لام ميم صاد", "lam mim sad", "alif lam mim sad"]},
+        {"criterion": "الٓمٓ dibaca alif lam mim", "marks": 1, "keywords": ["لام ميم", "lam mim", "alif lam mim"]},
+        {"criterion": "Dibaca dengan idgham beserta dengung", "marks": 2, "keywords": ["idgham", "dengung", "إدغام", "دڠوڠ"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [45, 46, 48]
+    },
+    {
+      "id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q8",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan Mad Lazim Harfi Muthaqqal meliputi pengertian, cara bacaan dan maksud setiap perkataan pada namanya, serta berikan satu misal beserta nama surahnya.",
+      "question_jawi": "تراڠكن مد لازم حرفي مثقل ملیڤوتي ڤڠرتين، چارا باچاءن دان مقصود ستياڤ ڤركاتاءن ڤد نامڽ، سرتا بريكن ساتو ميثل بسرتا نام سورةڽ.",
+      "reference_answer_rumi": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya. Ia dibaca dengan idgham beserta dengung. Mad = memanjangkan bacaan, Lazim = mesti dibaca panjang, Harfi = satu huruf, Muthaqqal = diidghamkan (ditasydidkan). Contoh: طسٓمٓ (Surah asy-Syu'ara').",
+      "reference_answer_jawi": "مد لازم حرفي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف دڤرمولاءن سورة (فواتح السور) دان دأدغامكن كدالم حروف برايكوتڽ. اي دباچ دڠن إدغام برسرتا دڠوڠ. مد = ممنجڠكن باچاءن، لازم = مستي دباچ ڤنجڠ، حرفي = ساتو حروف، مثقل = دأدغامكن (دتشديدكن). چونتوه: طسٓمٓ (سورة الشعراء).",
+      "rubric": [
+        {"criterion": "Pengertian: huruf mad bertemu huruf mati di fawatih al-suwar dan diidghamkan", "marks": 2, "keywords": ["huruf mad", "huruf mati", "permulaan surah", "diidghamkan", "فواتح السور", "دأدغامكن"]},
+        {"criterion": "Cara bacaan: idgham beserta dengung", "marks": 1, "keywords": ["idgham", "dengung", "إدغام", "دڠوڠ"]},
+        {"criterion": "Maksud mad, lazim, harfi, muthaqqal", "marks": 1, "keywords": ["memanjangkan", "mesti dibaca panjang", "satu huruf", "ditasydidkan", "ممنجڠكن", "مستي", "ساتو حروف"]},
+        {"criterion": "Misal yang betul beserta surah", "marks": 2, "keywords": ["الٓمٓ", "الٓمٓر", "الٓمٓصٓ", "طسٓمٓ", "Baqarah", "Ra'd", "A'raf", "Syu'ara", "Qasas", "البقرة", "الرعد", "الأعراف", "الشعراء", "القصص"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [45, 46, 47]
+    }
+  ]
+}

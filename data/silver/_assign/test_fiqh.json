@@ -1,0 +1,683 @@
+[
+ {
+  "question_id": "fiqh_b1_latihan_q6",
+  "topic_id": "fiqh_b1_solat_tarawih",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/fiqh/fiqh_b1_solat_tarawih.md",
+  "question_rumi": "Latihan 2: Tulis Betul atau Salah tentang pernyataan yang berikut. Pada bulan Ramadan, solat tarawih didirikan selepas solat isyak hingga menjelang fajar sadiq.",
+  "question_jawi": "لاتيهن 2: توليس بتول اتاو ساله تنتڠ ڤڽاتاءن يڠ برايكوت. ڤد بولن رمضان، صلاة تراويح دديريكن سلڤس صلاة عشاء هيڠݢ منجلڠ فجر صادق.",
+  "reference_answer_rumi": "Betul",
+  "reference_answer_jawi": "بتول",
+  "rubric": [
+   {
+    "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+    "marks": 1,
+    "keywords": [
+     "betul",
+     "بتول"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q5",
+  "topic_id": "fiqh_b1_solat_dhuha",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/fiqh/fiqh_b1_solat_dhuha.md",
+  "question_rumi": "Baca dan hafal: Tuliskan lafaz niat solat dhuha dan nyatakan maksudnya.",
+  "question_jawi": "باچ دان حافل: توليسكن لفظ نية صلاة ضحى دان ڽاتاكن مقصودڽ.",
+  "reference_answer_rumi": "أُصَلِّي سُنَّةَ ٱلضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat dhuha dua rakaat kerana Allah Taala.",
+  "reference_answer_jawi": "أُصَلِّي سُنَّةَ ٱلضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة ضحى دوا ركعة كران الله تعالى.",
+  "rubric": [
+   {
+    "criterion": "Menulis lafaz niat dengan betul",
+    "marks": 2,
+    "keywords": [
+     "أُصَلِّي",
+     "ٱلضُّحَى",
+     "رَكْعَتَيْنِ",
+     "اصلي",
+     "الضحى"
+    ]
+   },
+   {
+    "criterion": "Menyatakan maksud niat",
+    "marks": 1,
+    "keywords": [
+     "sahaja aku solat sunat dhuha",
+     "dua rakaat kerana Allah",
+     "سهاج اكو صلاة سنة ضحى"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "fiqh_b1_solat_dhuha_q7",
+  "topic_id": "fiqh_b1_solat_dhuha",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/fiqh/fiqh_b1_solat_dhuha.md",
+  "question_rumi": "Encik Ahmad ingin menambah rezeki dan menjaga kesihatan badannya. Cadangkan satu solat sunat kepadanya, terangkan pengertian dan waktu solat tersebut, serta huraikan dua fadhilatnya.",
+  "question_jawi": "انچيق احمد ايڠين منمبه رزقي دان منجاݢ كصيحتن بادنڽ. چادڠكن ساتو صلاة سنة كڤداڽ، ترڠكن ڤڠرتين دان وقتو صلاة ترسبوت، سرتا هورايكن دوا فضيلتڽ.",
+  "reference_answer_rumi": "Solat dhuha. Solat dhuha ialah solat sunat yang didirikan sepanjang waktu dhuha. Waktunya bermula apabila matahari terbit sekadar satu galah tingginya, lebih kurang 28 minit selepas matahari terbit hingga gelincir matahari sebelum masuk waktu zohor. Fadhilat: jaminan rezeki, iaitu orang yang selalu mengamalkannya dikurniakan rezeki yang melimpah ruah; kekuatan jasmani, iaitu pergerakan solat seperti rukuk dan sujud merupakan senaman yang memberi kesihatan dan meregangkan otot.",
+  "reference_answer_jawi": "صلاة ضحى. صلاة ضحى برمقصود صلاة سنة يڠ دديريكن سڤنجڠ وقتو ضحى. وقتوڽ برمولا اڤابيلا ماتاهاري تله تربيت سقدر ساتو ڬاله تيڠڬيڽ، لبيه كورڠ 28 مينيت سلڤس ماتاهاري تربيت هيڠڬ ڬلينچير ماتاهاري سبلوم ماسوق وقتو ظهر. فضيلة: جامينن رزقي، اورڠ يڠ سلالو مڠعملكنڽ دكورنياكن رزقي يڠ مليمڤه روه؛ ككواتن جسماني، ڤرڬرقن صلاة سڤرتي ركوع دان سجود مروڤاكن سنمن يڠ ممبري كصيحتن دان مرڠڬڠكن اوتوت.",
+  "rubric": [
+   {
+    "criterion": "Mencadangkan solat dhuha",
+    "marks": 1,
+    "keywords": [
+     "dhuha",
+     "ضحى"
+    ]
+   },
+   {
+    "criterion": "Pengertian: solat sunat sepanjang waktu dhuha",
+    "marks": 1,
+    "keywords": [
+     "sepanjang waktu dhuha",
+     "سڤنجڠ وقتو ضحى"
+    ]
+   },
+   {
+    "criterion": "Waktu: 28 minit selepas matahari terbit hingga gelincir matahari sebelum zohor",
+    "marks": 2,
+    "keywords": [
+     "28 minit",
+     "satu galah",
+     "gelincir matahari",
+     "sebelum zohor",
+     "28 مينيت",
+     "ڬاله",
+     "ڬلينچير"
+    ]
+   },
+   {
+    "criterion": "Huraian fadhilat jaminan rezeki",
+    "marks": 1,
+    "keywords": [
+     "rezeki",
+     "melimpah ruah",
+     "رزقي",
+     "مليمڤه روه"
+    ]
+   },
+   {
+    "criterion": "Huraian fadhilat kekuatan jasmani",
+    "marks": 1,
+    "keywords": [
+     "jasmani",
+     "senaman",
+     "kesihatan",
+     "otot",
+     "جسماني",
+     "سنمن",
+     "كصيحتن",
+     "اوتوت"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "topic_id": "fiqh_b1_solat_istikharah",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/fiqh/fiqh_b1_solat_istikharah.md",
+  "question_rumi": "Nyatakan tiga fadhilat solat istikharah.",
+  "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة استخارة.",
+  "reference_answer_rumi": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+  "reference_answer_jawi": "1. داڤت ممبريكن كتنڠن كڤد هاتي مأنسي. 2. مڠهيلڠكن صيفت سومبوڠ دالم ديري كيت. 3. منجاݢ عقيدة سوڤاي سنتياس يقين دڠن كتنتوان يڠ تله دتقديركن اوليه الله ﷻ.",
+  "rubric": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "marks": 1,
+    "keywords": [
+     "ketenangan",
+     "tenang",
+     "hati",
+     "كتنڠن",
+     "هاتي"
+    ]
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "marks": 1,
+    "keywords": [
+     "sombong",
+     "سومبوڠ"
+    ]
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "marks": 1,
+    "keywords": [
+     "akidah",
+     "yakin",
+     "ketentuan",
+     "takdir",
+     "عقيدة",
+     "يقين",
+     "كتنتوان"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "fiqh_b1_solat_tahajud_q4",
+  "topic_id": "fiqh_b1_solat_tahajud",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/fiqh/fiqh_b1_solat_tahajud.md",
+  "question_rumi": "Nyatakan tiga fadhilat solat tahajud.",
+  "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة تهجد.",
+  "reference_answer_rumi": "1. Membersihkan hati daripada kebencian sesama manusia. 2. Mencintai Allah SWT dan menguatkan iman. 3. Mempunyai rasa takut kepada Allah SWT dan menyedari bahawa kehidupan di dunia hanya sementara dan singkat.",
+  "reference_answer_jawi": "1. ممبرسيهكن هاتي درڤد كبنچين سسام مأنسي. 2. منچينتاءي الله سبحانه وتعالى دان مڠواتكن ايمان. 3. مڤوڽاءي راس تاكوت كڤد الله سبحانه وتعالى دان مڽدري بهاوا كهيدوڤن ددنيا هاڽ سمنتارا دان سيڠكت.",
+  "rubric": [
+   {
+    "criterion": "Membersihkan hati daripada kebencian",
+    "marks": 1,
+    "keywords": [
+     "membersihkan hati",
+     "kebencian",
+     "ممبرسيهكن هاتي",
+     "كبنچين"
+    ]
+   },
+   {
+    "criterion": "Mencintai Allah dan menguatkan iman",
+    "marks": 1,
+    "keywords": [
+     "mencintai Allah",
+     "menguatkan iman",
+     "منچينتاءي الله",
+     "مڠواتكن ايمان"
+    ]
+   },
+   {
+    "criterion": "Rasa takut kepada Allah / dunia sementara",
+    "marks": 1,
+    "keywords": [
+     "takut kepada Allah",
+     "sementara",
+     "تاكوت",
+     "سمنتارا"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "fiqh_b1_solat_taubat_q3",
+  "topic_id": "fiqh_b1_solat_taubat",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/fiqh/fiqh_b1_solat_taubat.md",
+  "question_rumi": "Hadis tentang dalil solat taubat diriwayatkan oleh siapa?",
+  "question_jawi": "حديث تنتڠ دليل صلاة توبة دريوايتكن اوليه سياڤ؟",
+  "reference_answer_rumi": "Ahmad",
+  "reference_answer_jawi": "احمد",
+  "rubric": [
+   {
+    "criterion": "Menyatakan Ahmad",
+    "marks": 1,
+    "keywords": [
+     "Ahmad",
+     "احمد"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q2",
+  "topic_id": "fiqh_b1_solat_witir",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/fiqh/fiqh_b1_solat_witir.md",
+  "question_rumi": "Bilakah waktu solat witir?",
+  "question_jawi": "بيلاكه وقتو صلاة وتر؟",
+  "reference_answer_rumi": "Selepas solat isyak hingga terbit fajar",
+  "reference_answer_jawi": "سلڤس صلاة عشاء هيڠݢ تربيت فجر",
+  "rubric": [
+   {
+    "criterion": "Selepas solat isyak",
+    "marks": 1,
+    "keywords": [
+     "isyak",
+     "عشاء"
+    ]
+   },
+   {
+    "criterion": "Hingga terbit fajar",
+    "marks": 1,
+    "keywords": [
+     "terbit fajar",
+     "fajar",
+     "فجر"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q4",
+  "topic_id": "fiqh_b1_solat_witir",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/fiqh/fiqh_b1_solat_witir.md",
+  "question_rumi": "Nyatakan tiga fadhilat solat witir.",
+  "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة وتر.",
+  "reference_answer_rumi": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+  "reference_answer_jawi": "1. دسوكاءي اوليه الله. 2. مندكتكن ديري كڤد الله. 3. ممبريكن ككواتن روحاني دان منڠڠكن جيوا.",
+  "rubric": [
+   {
+    "criterion": "Disukai oleh Allah",
+    "marks": 1,
+    "keywords": [
+     "disukai",
+     "دسوكاءي"
+    ]
+   },
+   {
+    "criterion": "Mendekatkan diri kepada Allah",
+    "marks": 1,
+    "keywords": [
+     "mendekatkan diri",
+     "مندكتكن ديري"
+    ]
+   },
+   {
+    "criterion": "Kekuatan rohani / menenangkan jiwa",
+    "marks": 1,
+    "keywords": [
+     "kekuatan rohani",
+     "menenangkan jiwa",
+     "روحاني",
+     "جيوا"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q2",
+  "topic_id": "fiqh_b2_batal_puasa",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_batal_puasa.md",
+  "question_rumi": "Apakah maksud wiladah?",
+  "question_jawi": "اڤاکه مقصود ولادة؟",
+  "reference_answer_rumi": "Melahirkan anak",
+  "reference_answer_jawi": "ملاهيرکن انق",
+  "rubric": [
+   {
+    "criterion": "Menyatakan melahirkan anak",
+    "marks": 1,
+    "keywords": [
+     "melahirkan anak",
+     "bersalin",
+     "ملاهيرکن انق"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q5",
+  "topic_id": "fiqh_b2_batal_puasa",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_batal_puasa.md",
+  "question_rumi": "Nyatakan tiga perkara yang membatalkan puasa jika dilakukan dengan sengaja.",
+  "question_jawi": "ڽاتاکن تيݢ ڤرکارا يڠ ممبطلکن ڤواسا جک دلاکوکن دڠن سڠاج.",
+  "reference_answer_rumi": "Makan dan minum dengan sengaja walaupun sedikit; memasukkan sesuatu dengan sengaja melalui rongga yang terbuka; muntah dengan sengaja; mengeluarkan mani dengan sengaja (mana-mana tiga).",
+  "reference_answer_jawi": "ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت؛ مماسوقکن سسواتو دڠن سڠاج ملالوءي روڠݢ يڠ تربوک؛ مونتهه دڠن سڠاج؛ مڠلوارکن مني دڠن سڠاج (مان٢ تيݢ).",
+  "rubric": [
+   {
+    "criterion": "Perkara sengaja pertama",
+    "marks": 1,
+    "keywords": [
+     "makan",
+     "minum",
+     "ماکن",
+     "مينوم"
+    ]
+   },
+   {
+    "criterion": "Perkara sengaja kedua",
+    "marks": 1,
+    "keywords": [
+     "rongga",
+     "muntah",
+     "روڠݢ",
+     "مونتهه"
+    ]
+   },
+   {
+    "criterion": "Perkara sengaja ketiga",
+    "marks": 1,
+    "keywords": [
+     "mani",
+     "muntah",
+     "rongga",
+     "مني",
+     "مونتهه",
+     "روڠݢ"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q6",
+  "topic_id": "fiqh_b2_batal_puasa",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_batal_puasa.md",
+  "question_rumi": "Ali terminum air dengan sengaja walaupun sedikit ketika berpuasa, manakala Siti keluar haid pada siang hari Ramadan. Terangkan status puasa kedua-dua mereka berdasarkan perkara-perkara yang membatalkan puasa, dan nyatakan dua perkara lain yang turut membatalkan puasa.",
+  "question_jawi": "علي ترمينوم اءير دڠن سڠاج والاوڤون سديکيت کتيک برڤواسا، منکالا سيتي کلوار حيض ڤد سياڠ هاري رمضان. تراڠکن ستاتوس ڤواسا کدوا٢ مريک برداسرکن ڤرکارا٢ يڠ ممبطلکن ڤواسا، دان ڽاتاکن دوا ڤرکارا لاءين يڠ توروت ممبطلکن ڤواسا.",
+  "reference_answer_rumi": "Puasa Ali batal kerana makan dan minum dengan sengaja walaupun sedikit membatalkan puasa. Puasa Siti batal kerana keluar haid membatalkan puasa. Perkara lain (mana-mana dua): muntah dengan sengaja; hilang akal; murtad; bersetubuh di siang hari; wiladah; memasukkan sesuatu melalui rongga yang terbuka; mengeluarkan mani dengan sengaja.",
+  "reference_answer_jawi": "ڤواسا علي بطل کران ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت ممبطلکن ڤواسا. ڤواسا سيتي بطل کران کلوار حيض ممبطلکن ڤواسا. ڤرکارا لاءين (مان٢ دوا): مونتهه دڠن سڠاج؛ هيلڠ عقل؛ مرتد؛ برستوبوه دسياڠ هاري؛ ولادة؛ مماسوقکن سسواتو ملالوءي روڠݢ يڠ تربوک؛ مڠلوارکن مني دڠن سڠاج.",
+  "rubric": [
+   {
+    "criterion": "Puasa Ali batal",
+    "marks": 1,
+    "keywords": [
+     "batal",
+     "بطل"
+    ]
+   },
+   {
+    "criterion": "Alasan: minum dengan sengaja walaupun sedikit",
+    "marks": 1,
+    "keywords": [
+     "sengaja",
+     "walaupun sedikit",
+     "سڠاج",
+     "والاوڤون سديکيت"
+    ]
+   },
+   {
+    "criterion": "Puasa Siti batal",
+    "marks": 1,
+    "keywords": [
+     "batal",
+     "بطل"
+    ]
+   },
+   {
+    "criterion": "Alasan: keluar haid",
+    "marks": 1,
+    "keywords": [
+     "haid",
+     "حيض"
+    ]
+   },
+   {
+    "criterion": "Perkara lain pertama",
+    "marks": 1,
+    "keywords": [
+     "muntah",
+     "hilang akal",
+     "murtad",
+     "مونتهه",
+     "هيلڠ عقل",
+     "مرتد"
+    ]
+   },
+   {
+    "criterion": "Perkara lain kedua",
+    "marks": 1,
+    "keywords": [
+     "bersetubuh",
+     "wiladah",
+     "rongga",
+     "mani",
+     "برستوبوه",
+     "ولادة",
+     "روڠݢ",
+     "مني"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "fiqh_b2_fadhilat_puasa_q1",
+  "topic_id": "fiqh_b2_fadhilat_puasa",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_fadhilat_puasa.md",
+  "question_rumi": "Apakah nama pintu syurga yang dimasuki oleh orang yang berpuasa?",
+  "question_jawi": "اڤاکه نام ڤينتو شرݢ يڠ دماسوقي اوليه اورڠ يڠ برڤواسا؟",
+  "reference_answer_rumi": "Al-Rayyan",
+  "reference_answer_jawi": "الرَّيَّان",
+  "rubric": [
+   {
+    "criterion": "Menyatakan al-Rayyan",
+    "marks": 1,
+    "keywords": [
+     "Rayyan",
+     "al-Rayyan",
+     "ar-Rayyan",
+     "الريان",
+     "الرَّيَّان"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "fiqh_b2_hikmah_puasa_q6",
+  "topic_id": "fiqh_b2_hikmah_puasa",
+  "level": 3,
+  "type": "essay",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_hikmah_puasa.md",
+  "question_rumi": "Semasa berpuasa, Aisyah berkongsi makanan dengan jirannya dan Hakim memilih untuk memberi makan kepada kucing, bukan menyakitinya. Huraikan hikmah puasa yang dapat dikaitkan dengan perbuatan mereka dan nyatakan dua hikmah puasa yang lain.",
+  "question_jawi": "سماس برڤواسا، عائشة برکوڠسي ماکنن دڠن جيرنڽ دان حکيم مميليه اونتوق ممبري ماکن کڤد کوچيڠ، بوکن مڽاکيتيڽ. هورايکن حکمه ڤواسا يڠ داڤت دکاءيتکن دڠن ڤربواتن مريک دان ڽاتاکن دوا حکمه ڤواسا يڠ لاءين.",
+  "reference_answer_rumi": "Perbuatan Aisyah berkaitan hikmah mengeratkan persaudaraan sesama Muslim (dan merasai kesusahan orang fakir dan miskin). Perbuatan Hakim berkaitan hikmah menjauhkan diri daripada dosa dan kejahatan. Hikmah lain (mana-mana dua): membentuk sifat sabar, berdisiplin dan bersyukur; menyihatkan tubuh badan dan mencerdaskan otak; mendekatkan diri kepada Allah SWT dengan amalan-amalan mulia.",
+  "reference_answer_jawi": "ڤربواتن عائشة برکاءيتن حکمه مڠرتکن ڤرساوداراءن سسام مسلم (دان مراساءي کسوسهن اورڠ فقير دان ميسکين). ڤربواتن حکيم برکاءيتن حکمه منجاءوهکن ديري درڤد دوسا دان کجاهتن. حکمه لاءين (مان٢ دوا): ممبنتوق صيفت صبر، برديسيڤلين دان برشکور؛ مڽيحتکن توبوه بادن دان منچردسکن اوتق؛ مندکتکن ديري کڤد الله دڠن عملن٢ موليا.",
+  "rubric": [
+   {
+    "criterion": "Aisyah: mengeratkan persaudaraan / merasai kesusahan orang lain",
+    "marks": 2,
+    "keywords": [
+     "persaudaraan",
+     "sesama Muslim",
+     "fakir",
+     "miskin",
+     "ڤرساوداراءن",
+     "سسام مسلم",
+     "فقير",
+     "ميسکين"
+    ]
+   },
+   {
+    "criterion": "Hakim: menjauhkan diri daripada dosa dan kejahatan",
+    "marks": 2,
+    "keywords": [
+     "dosa",
+     "kejahatan",
+     "menjauhkan diri",
+     "دوسا",
+     "کجاهتن",
+     "منجاءوهکن ديري"
+    ]
+   },
+   {
+    "criterion": "Hikmah lain pertama",
+    "marks": 1,
+    "keywords": [
+     "sabar",
+     "disiplin",
+     "syukur",
+     "صبر",
+     "برديسيڤلين",
+     "برشکور"
+    ]
+   },
+   {
+    "criterion": "Hikmah lain kedua",
+    "marks": 1,
+    "keywords": [
+     "sihat",
+     "otak",
+     "mendekatkan diri",
+     "amalan mulia",
+     "مڽيحتکن",
+     "اوتق",
+     "مندکتکن ديري"
+    ]
+   }
+  ],
+  "max_marks": 6
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q3",
+  "topic_id": "fiqh_b2_puasa_wajib_sunat",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_puasa_wajib_sunat.md",
+  "question_rumi": "Latihan 1: Tulis Betul atau Salah bagi pernyataan berikut. Hari Tasu'a ialah hari yang kesembilan pada bulan Muharram.",
+  "question_jawi": "لاتيهن 1: توليس بتول اتاو ساله باݢي ڤڽاتاءن برايکوت. هاري تاسوعاء اياله هاري يڠ کسمبيلن ڤد بولن مُحَرَّم.",
+  "reference_answer_rumi": "Betul",
+  "reference_answer_jawi": "بتول",
+  "rubric": [
+   {
+    "criterion": "Menjawab Betul (Tasu'a = 9 Muharram)",
+    "marks": 1,
+    "keywords": [
+     "betul",
+     "بتول"
+    ]
+   }
+  ],
+  "max_marks": 1
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q8",
+  "topic_id": "fiqh_b2_puasa_wajib_sunat",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_puasa_wajib_sunat.md",
+  "question_rumi": "Latihan 2: Baca dan fahami situasi di bawah. Kemudian, nyatakan hukum beserta alasannya. Zainab telah bernazar untuk berpuasa pada hari putih bulan yang lepas. Namun, apabila tiba hari putih tersebut, dia sengaja meninggalkannya tanpa alasan yang kukuh. Apakah hukum perbuatan Zainab tersebut? Nyatakan alasan kamu.",
+  "question_jawi": "لاتيهن 2: باچ دان فهمي سيتواسي٢ دباوه. کمودين، ڽاتاکن حکوم برسرتا السنڽ. زينب تله برنذر اونتوق برڤواسا ڤد هاري ڤوتيه بولن يڠ لڤس. نامون، اڤابيلا تيبا هاري ڤوتيه ترسبوت، دي سڠاج منيڠݢلکنڽ تنڤا السن يڠ کوکوه. اڤاکه حکوم ڤربواتن زينب ترسبوت؟ ڽاتاکن السن کامو.",
+  "reference_answer_rumi": "Perbuatan Zainab salah / tidak dibenarkan (berdosa) kerana dia telah bernazar, dan puasa nazar termasuk dalam puasa wajib. Walaupun puasa hari putih asalnya sunat, apabila dinazarkan ia menjadi wajib ditunaikan.",
+  "reference_answer_jawi": "ڤربواتن زينب ساله / تيدق دبنرکن (بردوسا) کران دي تله برنذر، دان ڤواسا نذر ترماسوق دالم ڤواسا واجب. والاوڤون ڤواسا هاري ڤوتيه اصلڽ سنة، اڤابيلا دنذرکن اي منجادي واجب دتونايکن.",
+  "rubric": [
+   {
+    "criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan",
+    "marks": 1,
+    "keywords": [
+     "salah",
+     "berdosa",
+     "dosa",
+     "haram",
+     "tidak boleh",
+     "ساله",
+     "بردوسا",
+     "حرام"
+    ]
+   },
+   {
+    "criterion": "Alasan: puasa nazar ialah puasa wajib",
+    "marks": 1,
+    "keywords": [
+     "nazar",
+     "wajib",
+     "نذر",
+     "واجب"
+    ]
+   },
+   {
+    "criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan",
+    "marks": 1,
+    "keywords": [
+     "wajib ditunaikan",
+     "mesti berpuasa",
+     "hari putih",
+     "واجب",
+     "هاري ڤوتيه"
+    ]
+   }
+  ],
+  "max_marks": 3
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q3",
+  "topic_id": "fiqh_b2_pengertian_puasa",
+  "level": 1,
+  "type": "short",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_pengertian_puasa.md",
+  "question_rumi": "Nyatakan surah dan ayat dalil kewajipan puasa yang terdapat dalam buku teks.",
+  "question_jawi": "ڽاتاکن سورة دان ايت دليل کواجيڤن ڤواسا يڠ ترداڤت دالم بوکو تيکس.",
+  "reference_answer_rumi": "Surah al-Baqarah ayat 183",
+  "reference_answer_jawi": "سورة البقرة ايت 183",
+  "rubric": [
+   {
+    "criterion": "Menyatakan Surah al-Baqarah",
+    "marks": 1,
+    "keywords": [
+     "al-Baqarah",
+     "Baqarah",
+     "البقرة"
+    ]
+   },
+   {
+    "criterion": "Menyatakan ayat 183",
+    "marks": 1,
+    "keywords": [
+     "183",
+     "١٨٣"
+    ]
+   }
+  ],
+  "max_marks": 2
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q6",
+  "topic_id": "fiqh_b2_pengertian_puasa",
+  "level": 2,
+  "type": "structured",
+  "note_file": "data/knowledge/fiqh/fiqh_b2_pengertian_puasa.md",
+  "question_rumi": "Apakah hukum puasa? Jelaskan.",
+  "question_jawi": "اڤاکه حکوم ڤواسا؟ جلسکن.",
+  "reference_answer_rumi": "Hukum puasa wajib atau sunat, bergantung pada jenis puasa yang akan dilakukan.",
+  "reference_answer_jawi": "حکوم ڤواسا واجب اتاو سنة، برݢنتوڠ ڤد جنيس ڤواسا يڠ اکن دلاکوکن.",
+  "rubric": [
+   {
+    "criterion": "Menyatakan wajib",
+    "marks": 1,
+    "keywords": [
+     "wajib",
+     "واجب"
+    ]
+   },
+   {
+    "criterion": "Menyatakan sunat",
+    "marks": 1,
+    "keywords": [
+     "sunat",
+     "سنة"
+    ]
+   },
+   {
+    "criterion": "Bergantung pada jenis puasa",
+    "marks": 1,
+    "keywords": [
+     "bergantung",
+     "jenis puasa",
+     "برݢنتوڠ",
+     "جنيس ڤواسا"
+    ]
+   }
+  ],
+  "max_marks": 3
+ }
+]

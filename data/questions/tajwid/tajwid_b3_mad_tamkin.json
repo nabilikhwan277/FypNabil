@@ -1,0 +1,105 @@
+{
+  "topic_id": "tajwid_b3_mad_tamkin",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_tamkin_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Tamkin?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد تمكين؟",
+      "reference_answer_rumi": "Dua harakat",
+      "reference_answer_jawi": "دوا حركة",
+      "rubric": [
+        {"criterion": "Menyatakan dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [61, 62]
+    },
+    {
+      "id": "tajwid_b3_mad_tamkin_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah bilangan kalimah yang mengandungi hukum Mad Tamkin di dalam al-Quran?",
+      "question_jawi": "براڤاكه بيلڠن كليمه يڠ مڠاندوڠي حكوم مد تمكين د دالم القرءان؟",
+      "reference_answer_rumi": "Lima kalimah sahaja",
+      "reference_answer_jawi": "ليم كليمه سهاج",
+      "rubric": [
+        {"criterion": "Menyatakan lima kalimah", "marks": 1, "keywords": ["lima", "5", "ليم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [61]
+    },
+    {
+      "id": "tajwid_b3_mad_tamkin_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Mad Tamkin termasuk dalam bahagian mad apa?",
+      "question_jawi": "مد تمكين ترماسوق دالم بهاݢين مد اڤ؟",
+      "reference_answer_rumi": "Mad Asli",
+      "reference_answer_jawi": "مد اصلي",
+      "rubric": [
+        {"criterion": "Menyatakan Mad Asli", "marks": 1, "keywords": ["Mad Asli", "asli", "مد اصلي"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [61]
+    },
+    {
+      "id": "tajwid_b3_mad_tamkin_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Tamkin?",
+      "question_jawi": "اڤاكه ارتي مد تمكين؟",
+      "reference_answer_rumi": "Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati.",
+      "reference_answer_jawi": "مد تمكين اياله اڤابيلا برتمو دوا حروف ياء د دالم ساتو كليمه، ياء ڤرتام برباريس باوه دان برتشديد مناكالا ياء كدوا ماتي.",
+      "rubric": [
+        {"criterion": "Bertemu dua huruf ya dalam satu kalimah", "marks": 1, "keywords": ["dua huruf ya", "satu kalimah", "دوا حروف ياء", "ساتو كليمه"]},
+        {"criterion": "Ya pertama berbaris bawah dan bertasydid", "marks": 1, "keywords": ["baris bawah", "tasydid", "bertasydid", "برباريس باوه", "برتشديد"]},
+        {"criterion": "Ya kedua mati", "marks": 1, "keywords": ["ya kedua mati", "mati", "ياء كدوا ماتي", "ماتي"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [61, 62]
+    },
+    {
+      "id": "tajwid_b3_mad_tamkin_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan lima misal Mad Tamkin di dalam al-Quran.",
+      "question_jawi": "توليسكن ليم ميثل مد تمكين د دالم القرءان.",
+      "reference_answer_rumi": "حُيِّيتُم ، ٱلنَّبِيِّـۧنَ ، عِلِّيِّينَ ، وَٱلۡأُمِّيِّـۧنَ ، رَبَّٰنِيِّـۧنَ",
+      "reference_answer_jawi": "حُيِّيتُم ، ٱلنَّبِيِّـۧنَ ، عِلِّيِّينَ ، وَٱلۡأُمِّيِّـۧنَ ، رَبَّٰنِيِّـۧنَ",
+      "rubric": [
+        {"criterion": "حُيِّيتُم", "marks": 1, "keywords": ["حُيِّيتُم", "حييتم"]},
+        {"criterion": "ٱلنَّبِيِّـۧنَ", "marks": 1, "keywords": ["ٱلنَّبِيِّـۧنَ", "النبيين"]},
+        {"criterion": "عِلِّيِّينَ", "marks": 1, "keywords": ["عِلِّيِّينَ", "عليين"]},
+        {"criterion": "وَٱلۡأُمِّيِّـۧنَ dan رَبَّٰنِيِّـۧنَ", "marks": 1, "keywords": ["ٱلۡأُمِّيِّـۧنَ", "الأميين", "الاميين", "رَبَّٰنِيِّـۧنَ", "ربانيين"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [61, 62]
+    },
+    {
+      "id": "tajwid_b3_mad_tamkin_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum Mad Tamkin meliputi pengertian dan kadar harakatnya, serta nyatakan dua kalimah Mad Tamkin beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن حكوم مد تمكين مليڤوتي ڤڠرتين دان قدر حركةڽ، سرتا ڽاتاكن دوا كليمه مد تمكين بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati. Kadarnya dua harakat dan ia termasuk dalam bahagian Mad Asli. Contoh: حُيِّيتُم (Surah an-Nisa': 86) dan رَبَّٰنِيِّـۧنَ (Surah Ali 'Imran: 79).",
+      "reference_answer_jawi": "مد تمكين اياله اڤابيلا برتمو دوا حروف ياء د دالم ساتو كليمه، ياء ڤرتام برباريس باوه دان برتشديد مناكالا ياء كدوا ماتي. قدرڽ دوا حركة دان اي ترماسوق دالم بهاݢين مد اصلي. چونتوه: حُيِّيتُم (سورة النساء: 86) دان رَبَّٰنِيِّـۧنَ (سورة آل عمران: 79).",
+      "rubric": [
+        {"criterion": "Pengertian: dua ya dalam satu kalimah", "marks": 1, "keywords": ["dua huruf ya", "satu kalimah", "دوا حروف ياء"]},
+        {"criterion": "Ya pertama berbaris bawah bertasydid, ya kedua mati", "marks": 1, "keywords": ["tasydid", "baris bawah", "mati", "برتشديد", "ماتي"]},
+        {"criterion": "Kadar dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]},
+        {"criterion": "Kalimah pertama dengan surah dan ayat yang betul", "marks": 1, "keywords": ["حُيِّيتُم", "an-Nisa", "النساء", "86", "ٱلنَّبِيِّـۧنَ", "Maryam", "مريم", "58", "عِلِّيِّينَ", "Mutaffifin", "المطففين", "18"]},
+        {"criterion": "Kalimah kedua dengan surah dan ayat yang betul", "marks": 1, "keywords": ["وَٱلۡأُمِّيِّـۧنَ", "رَبَّٰنِيِّـۧنَ", "Ali 'Imran", "آل عمران", "20", "79"]}
+      ],
+      "max_marks": 5,
+      "source_pages": [61, 62]
+    }
+  ]
+}

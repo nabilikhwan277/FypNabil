@@ -1,0 +1,104 @@
+{
+  "topic_id": "fiqh_b1_solat_rawatib",
+  "subject": "fiqh",
+  "questions": [
+    {
+      "id": "fiqh_b1_solat_rawatib_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah maksud solat rawatib?",
+      "question_jawi": "اڤاكه مقصود صلاة رواتب؟",
+      "reference_answer_rumi": "Solat sunat yang mengiringi solat-solat fardu",
+      "reference_answer_jawi": "صلاة سنة يڠ مڠيريڠي صلاة٢ فرض",
+      "rubric": [
+        {"criterion": "Menyatakan solat sunat yang mengiringi solat fardu", "marks": 1, "keywords": ["mengiringi", "solat fardu", "مڠيريڠي", "فرض"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [10]
+    },
+    {
+      "id": "fiqh_b1_solat_rawatib_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah nama solat sunat yang dilakukan sebelum solat fardu?",
+      "question_jawi": "اڤاكه نام صلاة سنة يڠ دلاكوكن سبلوم صلاة فرض؟",
+      "reference_answer_rumi": "Solat sunat qabliyyah",
+      "reference_answer_jawi": "صلاة سنة قَبْلِيَّة",
+      "rubric": [
+        {"criterion": "Menyatakan qabliyyah", "marks": 1, "keywords": ["qabliyyah", "qabliah", "قبلية", "قَبْلِيَّة"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [10]
+    },
+    {
+      "id": "fiqh_b1_solat_rawatib_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Nyatakan dua hukum solat rawatib.",
+      "question_jawi": "ڽاتاكن دوا حكوم صلاة رواتب.",
+      "reference_answer_rumi": "Sunat muakkad dan sunat tidak muakkad",
+      "reference_answer_jawi": "سنة مُؤَكَّد دان سنة تيدق مُؤَكَّد",
+      "rubric": [
+        {"criterion": "Menyatakan sunat muakkad", "marks": 1, "keywords": ["sunat muakkad", "سنة مؤكد", "سنة مُؤَكَّد"]},
+        {"criterion": "Menyatakan sunat tidak muakkad", "marks": 1, "keywords": ["tidak muakkad", "تيدق مؤكد", "تيدق مُؤَكَّد"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [10]
+    },
+    {
+      "id": "fiqh_b1_solat_rawatib_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Nyatakan tiga fadhilat solat rawatib.",
+      "question_jawi": "ڽاتاكن تيݢ فضيلة صلاة رواتب.",
+      "reference_answer_rumi": "1. Menghindarkan diri daripada kemaksiatan dan dosa. 2. Mendapat ganjaran pahala yang lebih besar. 3. Memperolehi kesenangan di dunia dan akhirat.",
+      "reference_answer_jawi": "1. مڠهيندركن ديري درڤد كمعصيتن دان دوسا. 2. منداڤت ڬنجرن ڤهالا يڠ لبيه بسر. 3. ممڤراوليه كسنڠن ددنيا دان دأخرة.",
+      "rubric": [
+        {"criterion": "Menghindarkan diri daripada maksiat dan dosa", "marks": 1, "keywords": ["kemaksiatan", "maksiat", "dosa", "كمعصيتن", "دوسا"]},
+        {"criterion": "Mendapat ganjaran pahala yang lebih besar", "marks": 1, "keywords": ["ganjaran", "pahala", "ڬنجرن", "ڤهالا"]},
+        {"criterion": "Memperolehi kesenangan di dunia dan akhirat", "marks": 1, "keywords": ["kesenangan", "dunia dan akhirat", "كسنڠن", "دأخرة"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [12]
+    },
+    {
+      "id": "fiqh_b1_solat_rawatib_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Baca dan hafal: Tuliskan lafaz niat solat sunat qabliyyah Zohor dan nyatakan maksudnya.",
+      "question_jawi": "باچ دان حافل: توليسكن لفظ نية صلاة سنة قَبْلِيَّة ظهر دان ڽاتاكن مقصودڽ.",
+      "reference_answer_rumi": "أُصَلِّي سُنَّةَ ٱلظُّهْرِ قَبْلِيَّةً رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat sebelum Zohor dua rakaat kerana Allah Taala.",
+      "reference_answer_jawi": "أُصَلِّي سُنَّةَ ٱلظُّهْرِ قَبْلِيَّةً رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة سبلوم ظهر دوا ركعة كران الله تعالى.",
+      "rubric": [
+        {"criterion": "Menulis lafaz niat dengan betul", "marks": 2, "keywords": ["أُصَلِّي", "ٱلظُّهْرِ", "قَبْلِيَّةً", "رَكْعَتَيْنِ", "الظهر", "قبلية"]},
+        {"criterion": "Menyatakan maksud niat", "marks": 1, "keywords": ["sebelum Zohor", "dua rakaat kerana Allah", "سبلوم ظهر"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [11]
+    },
+    {
+      "id": "fiqh_b1_solat_rawatib_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Ali ingin menunaikan solat sunat selepas solat fardu Zohor. Terangkan pengertian solat rawatib, bezakan antara solat qabliyyah dan ba'diyyah, dan tuliskan lafaz niat yang sesuai untuk Ali.",
+      "question_jawi": "علي ايڠين منونايكن صلاة سنة سلڤس صلاة فرض ظهر. ترڠكن ڤڠرتين صلاة رواتب، بيذاكن انتارا صلاة قَبْلِيَّة دان بَعْدِيَّة، دان توليسكن لفظ نية يڠ سسواي اونتوق علي.",
+      "reference_answer_rumi": "Solat rawatib ialah solat sunat yang mengiringi solat-solat fardu. Solat sunat qabliyyah dilakukan sebelum solat fardu, manakala solat sunat ba'diyyah dilakukan selepas solat fardu. Ali perlu solat ba'diyyah Zohor dengan niat: أُصَلِّي سُنَّةَ ٱلظُّهْرِ بَعْدِيَّةً رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat selepas Zohor dua rakaat kerana Allah Taala.",
+      "reference_answer_jawi": "صلاة رواتب برمقصود صلاة سنة يڠ مڠيريڠي صلاة٢ فرض. صلاة سنة قَبْلِيَّة دلاكوكن سبلوم صلاة فرض، مناكالا صلاة سنة بَعْدِيَّة دلاكوكن سلڤس صلاة فرض. علي ڤرلو صلاة بَعْدِيَّة ظهر دڠن نية: أُصَلِّي سُنَّةَ ٱلظُّهْرِ بَعْدِيَّةً رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة سلڤس ظهر دوا ركعة كران الله تعالى.",
+      "rubric": [
+        {"criterion": "Pengertian solat rawatib (mengiringi solat fardu)", "marks": 1, "keywords": ["mengiringi", "solat fardu", "مڠيريڠي", "فرض"]},
+        {"criterion": "Qabliyyah dilakukan sebelum solat fardu", "marks": 1, "keywords": ["qabliyyah", "sebelum", "قبلية", "سبلوم"]},
+        {"criterion": "Ba'diyyah dilakukan selepas solat fardu", "marks": 1, "keywords": ["ba'diyyah", "badiyyah", "selepas", "بعدية", "سلڤس"]},
+        {"criterion": "Mengenal pasti solat ba'diyyah Zohor untuk Ali", "marks": 1, "keywords": ["ba'diyyah Zohor", "selepas Zohor", "بعدية ظهر", "سلڤس ظهر"]},
+        {"criterion": "Menulis lafaz niat ba'diyyah Zohor dengan betul", "marks": 2, "keywords": ["أُصَلِّي", "ٱلظُّهْرِ", "بَعْدِيَّةً", "رَكْعَتَيْنِ", "بعدية"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [10, 11]
+    }
+  ]
+}

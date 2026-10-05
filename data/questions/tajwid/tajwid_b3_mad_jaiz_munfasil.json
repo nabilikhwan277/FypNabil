@@ -1,0 +1,107 @@
+{
+  "topic_id": "tajwid_b3_mad_jaiz_munfasil",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_jaiz_munfasil_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Jaiz Munfasil?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد جائز منفصل؟",
+      "reference_answer_rumi": "Empat atau lima harakat",
+      "reference_answer_jawi": "امڤت اتاو ليم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [26, 27]
+    },
+    {
+      "id": "tajwid_b3_mad_jaiz_munfasil_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Jaiz Munfasil?",
+      "question_jawi": "اڤاكه ارتي مد جائز منفصل؟",
+      "reference_answer_rumi": "Apabila bertemu huruf mad dan hamzah dalam dua kalimah.",
+      "reference_answer_jawi": "اڤابيلا برتمو حروف مد دان همزة دالم دوا كليمه.",
+      "rubric": [
+        {"criterion": "Menyatakan huruf mad bertemu hamzah", "marks": 1, "keywords": ["huruf mad", "hamzah", "حروف مد", "همزة"]},
+        {"criterion": "Menyatakan dalam dua kalimah", "marks": 1, "keywords": ["dua kalimah", "دوا كليمه"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [26, 27]
+    },
+    {
+      "id": "tajwid_b3_mad_jaiz_munfasil_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apabila kalimah pertama diwaqafkan, hukum Mad Jaiz Munfasil akan menjadi hukum apa?",
+      "question_jawi": "اڤابيلا كليمه ڤرتام دواقفكن، حكوم مد جائز منفصل اكن منجادي حكوم اڤ؟",
+      "reference_answer_rumi": "Mad Asli Kalimi (dua harakat)",
+      "reference_answer_jawi": "مد اصلي كلمي (دوا حركة)",
+      "rubric": [
+        {"criterion": "Menyatakan Mad Asli Kalimi", "marks": 1, "keywords": ["Mad Asli Kalimi", "Mad Asli", "مد اصلي كلمي", "مد اصلي"]},
+        {"criterion": "Menyatakan dua harakat", "marks": 1, "keywords": ["dua harakat", "2 harakat", "دوا حركة"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [26]
+    },
+    {
+      "id": "tajwid_b3_mad_jaiz_munfasil_q4",
+      "level": 2,
+      "type": "structured",
+      "origin": "generated",
+      "question_rumi": "Terangkan mengapa dinamakan Mad Jaiz dan apakah erti munfasil.",
+      "question_jawi": "تراڠكن مڠاڤ دناماكن مد جائز دان اڤاكه ارتي منفصل.",
+      "reference_answer_rumi": "Dinamakan Mad Jaiz kerana ulama qiraat mengharuskan mad itu dibaca dua harakat atau lebih; mengikut riwayat Hafs dibaca empat atau lima harakat. Erti munfasil ialah berpisah antara huruf mad pada akhir kalimah pertama dan hamzah pada awal kalimah yang lain.",
+      "reference_answer_jawi": "دناماكن مد جائز كران علماء قراءة مڠهاروسكن مد ايت دباچ دوا حركة اتاو لبيه؛ مڠيكوت رواية حفص دباچ امڤت اتاو ليم حركة. ارتي منفصل اياله برڤيسه انتارا حروف مد ڤد اخير كليمه ڤرتام دان همزة ڤد اول كليمه يڠ لاٴين.",
+      "rubric": [
+        {"criterion": "Ulama qiraat mengharuskan dibaca dua harakat atau lebih", "marks": 1, "keywords": ["mengharuskan", "harus", "مڠهاروسكن", "dua harakat atau lebih"]},
+        {"criterion": "Riwayat Hafs: empat atau lima harakat", "marks": 1, "keywords": ["Hafs", "حفص", "empat atau lima"]},
+        {"criterion": "Munfasil: berpisah", "marks": 1, "keywords": ["berpisah", "برڤيسه"]},
+        {"criterion": "Huruf mad di akhir kalimah pertama, hamzah di awal kalimah lain", "marks": 1, "keywords": ["akhir kalimah", "awal kalimah", "اخير كليمه", "اول كليمه"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [26]
+    },
+    {
+      "id": "tajwid_b3_mad_jaiz_munfasil_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan tiga misal Mad Jaiz Munfasil.",
+      "question_jawi": "توليسكن تيݢ ميثل مد جائز منفصل.",
+      "reference_answer_rumi": "Contoh: مَآ أَصَابَهُمۡ ، قُوٓاْ أَنفُسَكُمۡ ، إِنِّيٓ أَعۡلَمُ (atau misal lain dalam buku: إِنَّآ أَوۡحَيۡنَآ ، إِلَّآ أَن يُؤۡمِنُواْ ، كَفَرُوٓاْ إِلَىٰ ، وَٱكۡفُرُوٓاْ ءَاخِرَهُۥ ، فِيٓ أَمۡرِي ، مِنِّيٓ إِلَّا).",
+      "reference_answer_jawi": "چونتوه: مَآ أَصَابَهُمۡ ، قُوٓاْ أَنفُسَكُمۡ ، إِنِّيٓ أَعۡلَمُ",
+      "rubric": [
+        {"criterion": "Misal pertama yang betul", "marks": 1, "keywords": ["مَآ أَصَابَهُمۡ", "إِنَّآ أَوۡحَيۡنَآ", "إِلَّآ أَن", "ما اصابهم", "انا اوحينا"]},
+        {"criterion": "Misal kedua yang betul", "marks": 1, "keywords": ["قُوٓاْ أَنفُسَكُمۡ", "كَفَرُوٓاْ إِلَىٰ", "وَٱكۡفُرُوٓاْ ءَاخِرَهُۥ", "قوا انفسكم"]},
+        {"criterion": "Misal ketiga yang betul", "marks": 1, "keywords": ["إِنِّيٓ أَعۡلَمُ", "فِيٓ أَمۡرِي", "مِنِّيٓ إِلَّا", "اني اعلم", "في امري"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [26, 27]
+    },
+    {
+      "id": "tajwid_b3_mad_jaiz_munfasil_q6",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum Mad Jaiz Munfasil meliputi pengertian, kadar harakat, sebab dinamakan dan keadaan ketika waqaf, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن حكوم مد جائز منفصل مليڤوتي ڤڠرتين، قدر حركة، سبب دناماكن دان كأداٴن كتيک وقف، سرتا بريكن ساتو چونتوه ايات القرءان بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "Mad Jaiz Munfasil ialah apabila bertemu huruf mad dan hamzah dalam dua kalimah. Kadarnya empat atau lima harakat. Dinamakan Mad Jaiz kerana ulama qiraat mengharuskan dibaca dua harakat atau lebih. Ia hanya berlaku ketika wasal; jika kalimah pertama diwaqafkan, ia menjadi Mad Asli Kalimi (dua harakat). Contoh: وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ (Surah al-Buruj: 8).",
+      "reference_answer_jawi": "مد جائز منفصل اياله اڤابيلا برتمو حروف مد دان همزة دالم دوا كليمه. قدرڽ امڤت اتاو ليم حركة. دناماكن مد جائز كران علماء قراءة مڠهاروسكن دباچ دوا حركة اتاو لبيه. اي هاڽ برلاكو كتيک وصل؛ جک كليمه ڤرتام دواقفكن، اي منجادي مد اصلي كلمي (دوا حركة). چونتوه: وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ (سورة البروج: 8).",
+      "rubric": [
+        {"criterion": "Pengertian: huruf mad bertemu hamzah dalam dua kalimah", "marks": 1, "keywords": ["dua kalimah", "دوا كليمه"]},
+        {"criterion": "Kadar empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]},
+        {"criterion": "Sebab dinamakan: ulama qiraat mengharuskan", "marks": 1, "keywords": ["mengharuskan", "مڠهاروسكن", "harus"]},
+        {"criterion": "Waqaf pada kalimah pertama menjadi Mad Asli Kalimi", "marks": 1, "keywords": ["Mad Asli Kalimi", "wasal sahaja", "مد اصلي كلمي", "وصل"]},
+        {"criterion": "Contoh ayat yang betul beserta surah dan ayat", "marks": 2, "keywords": ["al-Buruj", "البروج", "al-Bayyinah", "البينة", "al-Baqarah", "البقرة"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [26, 27]
+    }
+  ]
+}

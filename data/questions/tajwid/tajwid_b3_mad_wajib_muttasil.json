@@ -1,0 +1,122 @@
+{
+  "topic_id": "tajwid_b3_mad_wajib_muttasil",
+  "subject": "tajwid",
+  "questions": [
+    {
+      "id": "tajwid_b3_mad_wajib_muttasil_q1",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Apakah erti muttasil?",
+      "question_jawi": "اڤاكه ارتي متصل؟",
+      "reference_answer_rumi": "Berhimpun huruf mad dan hamzah dalam satu kalimah",
+      "reference_answer_jawi": "برهيمڤون حروف مد دان همزة دالم ساتو كليمه",
+      "rubric": [
+        {"criterion": "Menyatakan berhimpun huruf mad dan hamzah dalam satu kalimah", "marks": 2, "keywords": ["berhimpun", "satu kalimah", "برهيمڤون", "ساتو كليمه"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [24]
+    },
+    {
+      "id": "tajwid_b3_mad_wajib_muttasil_q2",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Berapakah kadar panjang bacaan Mad Wajib Muttasil apabila hamzah berada di tengah kalimah?",
+      "question_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد واجب متصل اڤابيلا همزة براد دتڠه كليمه؟",
+      "reference_answer_rumi": "Empat atau lima harakat",
+      "reference_answer_jawi": "امڤت اتاو ليم حركة",
+      "rubric": [
+        {"criterion": "Menyatakan empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]}
+      ],
+      "max_marks": 1,
+      "source_pages": [23]
+    },
+    {
+      "id": "tajwid_b3_mad_wajib_muttasil_q3",
+      "level": 1,
+      "type": "short",
+      "origin": "generated",
+      "question_rumi": "Mengapakah dinamakan Mad Wajib Muttasil?",
+      "question_jawi": "مڠاڤاكه دناماكن مد واجب متصل؟",
+      "reference_answer_rumi": "Kerana ulama qiraat mewajibkan mad ini dibaca lebih daripada dua harakat",
+      "reference_answer_jawi": "كران علماء قراءة مواجبكن مد اين دباچ لبيه درڤد دوا حركة",
+      "rubric": [
+        {"criterion": "Menyatakan ulama qiraat mewajibkan", "marks": 1, "keywords": ["ulama qiraat", "mewajibkan", "علماء قراءة", "مواجبكن"]},
+        {"criterion": "Menyatakan dibaca lebih daripada dua harakat", "marks": 1, "keywords": ["lebih daripada dua harakat", "lebih dua harakat", "لبيه درڤد دوا حركة"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [24]
+    },
+    {
+      "id": "tajwid_b3_mad_wajib_muttasil_q4",
+      "level": 1,
+      "type": "short",
+      "origin": "textbook",
+      "question_rumi": "Apakah erti Mad Wajib Muttasil?",
+      "question_jawi": "اڤاكه ارتي مد واجب متصل؟",
+      "reference_answer_rumi": "Apabila bertemu huruf mad dan hamzah dalam satu kalimah.",
+      "reference_answer_jawi": "اڤابيلا برتمو حروف مد دان همزة دالم ساتو كليمه.",
+      "rubric": [
+        {"criterion": "Menyatakan huruf mad bertemu hamzah", "marks": 1, "keywords": ["huruf mad", "hamzah", "حروف مد", "همزة"]},
+        {"criterion": "Menyatakan dalam satu kalimah", "marks": 1, "keywords": ["satu kalimah", "ساتو كليمه"]}
+      ],
+      "max_marks": 2,
+      "source_pages": [23, 25]
+    },
+    {
+      "id": "tajwid_b3_mad_wajib_muttasil_q5",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Nyatakan kadar panjang bacaan Mad Wajib Muttasil.",
+      "question_jawi": "نياتاكن قدر ڤنجڠ باچاٴن مد واجب متصل.",
+      "reference_answer_rumi": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+      "reference_answer_jawi": "a. امڤت اتاو ليم حركة اڤابيلا همزه براد دتڠه كليمه اتاو دهوجوڠ كليمه كتيک دباچ دڠن وصل اتاو وقف. b. امڤت اتاو ليم اتاو انم حركة اڤابيلا همزه براد دهوجوڠ كليمه كتيک دباچ دڠن وقف سهاج.",
+      "rubric": [
+        {"criterion": "Empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]},
+        {"criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf", "marks": 1, "keywords": ["tengah kalimah", "wasal", "وصل", "دتڠه كليمه"]},
+        {"criterion": "Empat atau lima atau enam harakat", "marks": 1, "keywords": ["enam", "6", "انم"]},
+        {"criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja", "marks": 1, "keywords": ["waqaf sahaja", "hujung kalimah", "وقف", "سهاج"]}
+      ],
+      "max_marks": 4,
+      "source_pages": [23, 25]
+    },
+    {
+      "id": "tajwid_b3_mad_wajib_muttasil_q6",
+      "level": 2,
+      "type": "structured",
+      "origin": "textbook",
+      "question_rumi": "Tuliskan tiga misal Mad Wajib Muttasil.",
+      "question_jawi": "توليسكن تيݢ ميثل مد واجب متصل.",
+      "reference_answer_rumi": "Contoh: مِّنَ ٱلسَّمَآءِ ، بِٱلسُّوٓءِ ، هَنِيٓـٔٗا (atau misal lain dalam buku: أَبۡنَآءَكُمۡ ، أُوْلَٰٓئِكَ ، قُرُوٓءٖ ، تَبُوٓأَ ، وَجِاْيٓءَ ، مَّرِيٓـٔٗا ، نِسَآءَكُمۡ ، سُوٓءَ).",
+      "reference_answer_jawi": "چونتوه: مِّنَ ٱلسَّمَآءِ ، بِٱلسُّوٓءِ ، هَنِيٓـٔٗا",
+      "rubric": [
+        {"criterion": "Misal pertama yang betul", "marks": 1, "keywords": ["ٱلسَّمَآءِ", "أَبۡنَآءَكُمۡ", "أُوْلَٰٓئِكَ", "نِسَآءَكُمۡ", "السماء", "ابناءكم"]},
+        {"criterion": "Misal kedua yang betul", "marks": 1, "keywords": ["بِٱلسُّوٓءِ", "قُرُوٓءٖ", "تَبُوٓأَ", "سُوٓءَ", "بالسوء", "قروء"]},
+        {"criterion": "Misal ketiga yang betul", "marks": 1, "keywords": ["وَجِاْيٓءَ", "هَنِيٓـٔٗا", "مَّرِيٓـٔٗا", "هنيئا", "مريئا"]}
+      ],
+      "max_marks": 3,
+      "source_pages": [24, 25]
+    },
+    {
+      "id": "tajwid_b3_mad_wajib_muttasil_q7",
+      "level": 3,
+      "type": "essay",
+      "origin": "generated",
+      "question_rumi": "Terangkan hukum Mad Wajib Muttasil meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+      "question_jawi": "تراڠكن حكوم مد واجب متصل مليڤوتي ڤڠرتين، قدر حركة دان سبب دناماكن، سرتا بريكن ساتو چونتوه ايات القرءان بسرتا نام سورة دان نومبور اياتڽ.",
+      "reference_answer_rumi": "Mad Wajib Muttasil ialah apabila bertemu huruf mad dan hamzah dalam satu kalimah. Kadarnya empat atau lima harakat (hamzah di tengah/hujung kalimah, wasal atau waqaf), atau empat, lima atau enam harakat (hamzah di hujung kalimah ketika waqaf sahaja). Dinamakan demikian kerana ulama qiraat mewajibkan mad ini dibaca lebih daripada dua harakat. Contoh: قَدۡ نَرَىٰ تَقَلُّبَ وَجۡهِكَ فِي ٱلسَّمَآءِۖ (Surah al-Baqarah: 144).",
+      "reference_answer_jawi": "مد واجب متصل اياله اڤابيلا برتمو حروف مد دان همزة دالم ساتو كليمه. قدرڽ امڤت اتاو ليم حركة، اتاو امڤت اتاو ليم اتاو انم حركة كتيک وقف دهوجوڠ كليمه. دناماكن دمكين كران علماء قراءة مواجبكن مد اين دباچ لبيه درڤد دوا حركة. چونتوه: قَدۡ نَرَىٰ تَقَلُّبَ وَجۡهِكَ فِي ٱلسَّمَآءِۖ (سورة البقرة: 144).",
+      "rubric": [
+        {"criterion": "Pengertian: huruf mad bertemu hamzah dalam satu kalimah", "marks": 1, "keywords": ["satu kalimah", "hamzah", "ساتو كليمه", "همزة"]},
+        {"criterion": "Kadar empat atau lima harakat", "marks": 1, "keywords": ["empat atau lima", "4 atau 5", "امڤت اتاو ليم"]},
+        {"criterion": "Kadar hingga enam harakat ketika waqaf", "marks": 1, "keywords": ["enam", "6", "انم", "waqaf"]},
+        {"criterion": "Sebab dinamakan: ulama qiraat mewajibkan lebih dua harakat", "marks": 1, "keywords": ["mewajibkan", "ulama qiraat", "مواجبكن"]},
+        {"criterion": "Contoh ayat yang betul beserta surah dan ayat", "marks": 2, "keywords": ["al-Baqarah", "البقرة", "Ibrahim", "إبراهيم", "an-Nisa", "النساء", "an-Naml", "النمل"]}
+      ],
+      "max_marks": 6,
+      "source_pages": [23, 24, 25]
+    }
+  ]
+}
