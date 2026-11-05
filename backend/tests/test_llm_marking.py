@@ -133,3 +133,14 @@ def test_fleiss_kappa_textbook_example():
               [7, 7, 0, 0, 0], [3, 2, 6, 3, 0], [2, 5, 3, 2, 2], [6, 5, 2, 1, 0], [0, 2, 2, 3, 7]]
     grid = [[c for c, n in enumerate(row) for _ in range(n)] for row in counts]
     assert round(teacher_sheet._fleiss_kappa(grid, categories=5), 3) == 0.210
+
+
+def test_a_cached_call_pays_nothing_but_keeps_its_list_price(monkeypatch):
+    """Cost tables must show what a system costs, not what a rerun from the cache paid."""
+    reply = json.dumps({"criteria": [{"no": 1, "verdict": "ya", "reason": "x"}, {"no": 2, "verdict": "ya", "reason": "y"}],
+                        "feedback": "Bagus."})
+    monkeypatch.setattr(lm, "complete", lambda model, messages, **kw: llm_api.Completion(
+        reply, llm_api.parse_json(reply), model, 100, 20, 0.0003, 5, cached=True))
+    r = mark(Q, "Tiga kalimah dalam enam tempat.", MarkConfig.parse("b1:luna"))
+    assert r.usage["cost"] == 0.0 and r.usage["cached"] == 1
+    assert r.usage["list_cost"] == pytest.approx(0.0003)

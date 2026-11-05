@@ -4,29 +4,29 @@ QWK with a 95% bootstrap interval; * = significantly different from the final sy
 
 ## Step 1 · LLM models (R1, A2, memory off)
 
-| Configuration | QWK | 95% CI | Exact | Within 1 mark | vs final system (p) | API cost / 100 answers | Time / answer |
+| Configuration | QWK | 95% CI | Exact | Within 1 mark (2+ marks) | vs final system (p) | API cost / 100 answers | Time / answer |
 |---|---|---|---|---|---|---|---|
-| Claude Haiku 5.5 · R1 · A2 | 0.723 | 0.525–0.882 | 62% | 90% | -0.032 (p=0.492) | $0.034 | 9.0 s |
-| GPT-6 Luna · R1 · A2 | 0.7 | 0.494–0.866 | 60% | 90% | -0.055 (p=0.265) | $0.023 | 3.3 s |
-| Llama 3.1 8B · R1 · A2 | 0.538 | 0.334–0.728 | 54% | 82% | -0.217 (p=0.025) * | $0.028 | 2.3 s |
+| Claude Haiku 5.5 · R1 · A2 | 0.723 | 0.525–0.882 | 62% | 85% | -0.032 (p=0.492) | $0.050 | 9.0 s |
+| GPT-6 Luna · R1 · A2 | 0.7 | 0.494–0.866 | 60% | 85% | -0.055 (p=0.265) | $0.029 | 3.3 s |
+| Llama 3.1 8B · R1 · A2 | 0.538 | 0.334–0.728 | 54% | 74% | -0.217 (p=0.025) * | $0.036 | 2.3 s |
 
 ## Step 0 · Baselines (GPT-6 Luna) vs the proposed system
 
-| Configuration | QWK | 95% CI | Exact | Within 1 mark | vs final system (p) | API cost / 100 answers |
+| Configuration | QWK | 95% CI | Exact | Within 1 mark (2+ marks) | vs final system (p) | API cost / 100 answers |
 |---|---|---|---|---|---|---|
-| B2 Rules + bge-m3 | 0.476 | 0.217–0.698 | 48% | 74% | -0.279 (p=0.001) * | $0.000 |
-| B1 Zero-shot | 0.683 | 0.474–0.851 | 60% | 90% | -0.072 (p=0.061) | $0.018 |
-| B3 RAG + rubric | 0.681 | 0.467–0.85 | 58% | 90% | -0.074 (p=0.096) | $0.006 |
-| B4 RAG + verifier | 0.681 | 0.467–0.85 | 58% | 90% | -0.074 (p=0.096) | $0.025 |
-| GPT-6 Luna · R3 · A2 | 0.755 | 0.576–0.895 | 62% | 90% | final system | $0.026 |
+| B2 Rules + bge-m3 | 0.476 | 0.217–0.698 | 48% | 62% | -0.279 (p=0.001) * | $0.000 |
+| B1 Zero-shot | 0.683 | 0.474–0.851 | 60% | 85% | -0.072 (p=0.061) | $0.019 |
+| B3 RAG + rubric | 0.681 | 0.467–0.85 | 58% | 85% | -0.074 (p=0.096) | $0.023 |
+| B4 RAG + verifier | 0.681 | 0.467–0.85 | 58% | 85% | -0.074 (p=0.096) | $0.043 |
+| GPT-6 Luna · R3 · A2 | 0.755 | 0.576–0.895 | 62% | 85% | final system | $0.030 |
 
 ## Step 2 · RAG types (GPT-6 Luna, A2)
 
-| Configuration | QWK | 95% CI | Exact | Within 1 mark | vs final system (p) | API cost / 100 answers |
+| Configuration | QWK | 95% CI | Exact | Within 1 mark (2+ marks) | vs final system (p) | API cost / 100 answers |
 |---|---|---|---|---|---|---|
-| GPT-6 Luna · R1 · A2 | 0.7 | 0.494–0.866 | 60% | 90% | -0.055 (p=0.265) | $0.023 |
-| GPT-6 Luna · R2 · A2 | 0.7 | 0.494–0.866 | 60% | 90% | -0.055 (p=0.265) | $0.022 |
-| GPT-6 Luna · R3 · A2 | 0.755 | 0.576–0.895 | 62% | 90% | final system | $0.026 |
+| GPT-6 Luna · R1 · A2 | 0.7 | 0.494–0.866 | 60% | 85% | -0.055 (p=0.265) | $0.029 |
+| GPT-6 Luna · R2 · A2 | 0.7 | 0.494–0.866 | 60% | 85% | -0.055 (p=0.265) | $0.026 |
+| GPT-6 Luna · R3 · A2 | 0.755 | 0.576–0.895 | 62% | 85% | final system | $0.030 |
 
 ## RAG evaluation (RAGAS, 45 questions + 24 out-of-syllabus)
 
@@ -56,18 +56,18 @@ QWK with a 95% bootstrap interval; * = significantly different from the final sy
 
 ## Step 3 · ReAct types (GPT-6 Luna, R3)
 
-| Configuration | QWK | 95% CI | Exact | Within 1 mark | vs final system (p) | AI calls / answer | API cost / 100 answers | Time / answer |
+| Configuration | QWK | 95% CI | Exact | Within 1 mark (2+ marks) | vs final system (p) | AI calls / answer | API cost / 100 answers | Time / answer |
 |---|---|---|---|---|---|---|---|---|
-| GPT-6 Luna · R3 · A1 | 0.7 | 0.494–0.866 | 62% | 90% | -0.055 (p=0.265) | 3.0 | $0.080 | 14.1 s |
-| GPT-6 Luna · R3 · A2 | 0.755 | 0.576–0.895 | 62% | 90% | final system | 1.0 | $0.026 | 3.5 s |
-| GPT-6 Luna · R3 · A3 | 0.722 | 0.524–0.885 | 64% | 90% | -0.033 (p=0.728) | 2.0 | $0.037 | 4.7 s |
+| GPT-6 Luna · R3 · A1 | 0.7 | 0.494–0.866 | 62% | 85% | -0.055 (p=0.265) | 3.0 | $0.080 | 14.1 s |
+| GPT-6 Luna · R3 · A2 | 0.755 | 0.576–0.895 | 62% | 85% | final system | 1.0 | $0.030 | 3.5 s |
+| GPT-6 Luna · R3 · A3 | 0.722 | 0.524–0.885 | 64% | 85% | -0.033 (p=0.728) | 2.0 | $0.053 | 4.7 s |
 
 ## Step 4 · Memory (GPT-6 Luna, R3, A2; 3 repeats)
 
-| Configuration | QWK | 95% CI | Exact | Within 1 mark | vs final system (p) | Same score in 3 runs | CoV |
+| Configuration | QWK | 95% CI | Exact | Within 1 mark (2+ marks) | vs final system (p) | Same score in 3 runs | CoV |
 |---|---|---|---|---|---|---|---|
-| GPT-6 Luna · R3 · A2 | 0.755 | 0.576–0.895 | 62% | 90% | final system | 94% | 7.66% |
-| GPT-6 Luna · R3 · A2 · memory on | 0.736 | 0.547–0.88 | 60% | 90% | -0.019 (p=0.291) | 98% | 0.59% |
+| GPT-6 Luna · R3 · A2 | 0.755 | 0.576–0.895 | 62% | 85% | final system | 94% | 7.66% |
+| GPT-6 Luna · R3 · A2 · memory on | 0.736 | 0.547–0.88 | 60% | 85% | -0.019 (p=0.291) | 98% | 0.59% |
 
 ## E1 · Agreement with each teacher (human baseline 0.449, 95% CI 0.267–0.618)
 

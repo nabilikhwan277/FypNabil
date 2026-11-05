@@ -154,7 +154,7 @@ def _markdown(res: dict) -> None:
            " | Mean QWK | Exact (mean) | Agreed criteria correct | Human level? |"
     md = ["# E1: system vs each teacher", "",
           f"Answers: {res['answers']} · fully agreed answers: {res['agreed_answers']} · agreed criteria: {res['agreed_criteria']}", "",
-          "## Human baseline (teacher vs teacher)", "", "| Pair | QWK | Exact | Within 1 mark | MAE |", "|---|---|---|---|---|"]
+          "## Human baseline (teacher vs teacher)", "", "| Pair | QWK | Exact | Within 1 mark (2+ marks) | MAE |", "|---|---|---|---|---|"]
     md += [f"| {k} | {v['qwk_band']:.3f} | {v['item_exact']:.1%} | {v['within_1']:.1%} | {v['mae_marks']:.2f} |" for k, v in res["human"].items()]
     md += ["", "## System vs teachers", "", head, "|" + "---|" * (len(gurus) + 5)]
     for r in res["runs"]:

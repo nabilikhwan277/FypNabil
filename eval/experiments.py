@@ -223,7 +223,8 @@ def summarise(records: list[dict], qs: dict) -> dict:
                        "criteria": crits, "pred_mets": [c["met"] for c in r["criteria"]],
                        "pred": float(r["score"]), "gold": float(sum(award(c["marks"], c["label"]) for c in crits))})
     lat = sorted(r["wall_ms"] for r in records)
-    cost = sum(r["usage"].get("cost", 0) for r in records)
+    cost = sum(r["usage"].get("list_cost", r["usage"].get("cost", 0)) for r in records)   # list price, cache or not
+    paid = sum(r["usage"].get("cost", 0) for r in records)
     reps = max(r["rep"] for r in records) + 1
     cov = None
     if reps > 1:
@@ -242,7 +243,7 @@ def summarise(records: list[dict], qs: dict) -> dict:
         "success_rate": round(sum(r["ok"] for r in records) / len(records), 3),
         "errors": [r["error"] for r in records if r["error"]][:10],
         "latency_ms": {"mean": int(statistics.mean(lat)), "p95": lat[min(len(lat) - 1, int(0.95 * len(lat)))]},
-        "cost_total": round(cost, 6),
+        "cost_total": round(cost, 6), "cost_paid": round(paid, 6),
         "cost_per_100": round(cost / len(records) * 100, 4),
         "calls_per_answer": round(sum(r["usage"].get("calls", 0) for r in records) / len(records), 2),
         "tokens_per_answer": int(sum(r["usage"].get("tokens_in", 0) + r["usage"].get("tokens_out", 0) for r in records) / len(records)),

@@ -218,7 +218,7 @@ def hybrid_run(local: dict, luna: dict, rule: dict, router: str, qs: dict) -> di
         own = not (up and router == "level")      # Router A decides from the question alone: no open-model call
         out = dict(lun[aid] if up else rec)
         out["usage"] = {k: (rec["usage"].get(k, 0) if own else 0) + (lun[aid]["usage"].get(k, 0) if up else 0)
-                        for k in ("calls", "tokens_in", "tokens_out", "cost", "ms", "cached")}
+                        for k in ("calls", "tokens_in", "tokens_out", "cost", "list_cost", "ms", "cached")}
         out["wall_ms"] = (rec["wall_ms"] if own else 0) + (lun[aid]["wall_ms"] if up else 0)
         records.append(out | {"config": name, "route": "luna" if up else local["model"]})
     return {"step": "phase4", "config": name, "system": "hybrid", "model": f"{local['model']}+luna",

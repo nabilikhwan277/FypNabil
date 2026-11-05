@@ -142,7 +142,7 @@ function BarChart({
 function metricRow(name: string, m: EvalMetrics): ReactNode[] {
   return [name, m.items ?? '–', num(m.qwk_band), pct(m.item_exact), pct(m.within_1), num(m.mae_marks, 2), pct(m.over_marked), pct(m.under_marked)]
 }
-const METRIC_HEAD = ['Group', 'n', 'QWK', 'Exact', 'Within 1 mark', 'MAE', 'Over-marked', 'Under-marked']
+const METRIC_HEAD = ['Group', 'n', 'QWK', 'Exact', 'Within 1 mark (2+ marks)', 'MAE', 'Over-marked', 'Under-marked']
 
 function DataBadge({ labels }: { labels: string }) {
   if (labels.startsWith('teacher:') || labels === 'teacher-provisional')
@@ -175,7 +175,7 @@ function Summary({ d }: { d: EvalSummary }) {
             />
           )}
           <TargetTile title="E1 · QWK with reference marks" t={t.qwk} fmt={(v) => num(v)} hint="Agreement with the markers (1 = perfect)" />
-          <TargetTile title="E1 · Within 1 mark" t={t.within_1} fmt={(v) => pct(v)} hint="Answers that differ by at most 1 mark" />
+          <TargetTile title="E1 · Within 1 mark" t={t.within_1} fmt={(v) => pct(v)} hint="Answers worth 2+ marks that differ by at most 1 mark (1-mark answers cannot miss by more)" />
           <TargetTile title="E2 · Faithfulness" t={t.faithfulness} fmt={(v) => num(v, 2)} hint="Feedback facts supported by the textbook" />
           <TargetTile title="E2 · Context recall" t={t.context_recall} fmt={(v) => num(v, 2)} hint="Retrieved text contains the answer" />
           <TargetTile title="E3 · Memory win-rate" t={t.win_rate} fmt={(v) => pct(v)} hint="Teachers prefer feedback with memory" />
@@ -277,7 +277,7 @@ function PerTeacher({ c }: { c: TeacherCompare }) {
         note={`${c.answers} answers · ${c.agreed_answers} answers and ${c.agreed_criteria} criteria where every teacher agreed`}
       >
         <Table
-          head={['Pair', 'QWK', 'Exact', 'Within 1 mark', 'MAE']}
+          head={['Pair', 'QWK', 'Exact', 'Within 1 mark (2+ marks)', 'MAE']}
           rows={Object.entries(c.human).map(([k, m]) => [
             k.replace(/guru_\d+/g, (g) => c.teachers[g] ?? g),
             num(m.qwk_band),

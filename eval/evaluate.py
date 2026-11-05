@@ -129,7 +129,7 @@ def main(sample: int, split: str = "test") -> None:
     (RES / f"evaluation_{split}.json").write_text(json.dumps({"part_a": a, "part_b": b}, indent=1, ensure_ascii=False),
                                               encoding="utf-8")
 
-    head = ("| Group | n | Exact | Within 1 mark | MAE (marks) | MAE % | QWK | Criterion acc | Over-marked | Under-marked |\n"
+    head = ("| Group | n | Exact | Within 1 mark (2+ marks) | MAE (marks) | MAE % | QWK | Criterion acc | Over-marked | Under-marked |\n"
             "|---|---|---|---|---|---|---|---|---|---|")
     chosen = a["chosen"]["name"]
     label_note = ("> Labels are **teacher marks**: two KAFA teachers marked each answer independently and settled "

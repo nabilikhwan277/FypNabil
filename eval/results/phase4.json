@@ -368,7 +368,7 @@
    ],
    "vs": null,
    "exact": 0.6,
-   "within_1": 0.86,
+   "within_1": 0.794,
    "by_subject": {
     "fiqh": 0.553,
     "jawi": 0.519,
@@ -399,7 +399,7 @@
     "significant": false
    },
    "exact": 0.68,
-   "within_1": 0.86,
+   "within_1": 0.794,
    "by_subject": {
     "fiqh": 0.683,
     "jawi": 0.572,
@@ -430,7 +430,7 @@
     "significant": false
    },
    "exact": 0.64,
-   "within_1": 0.88,
+   "within_1": 0.824,
    "by_subject": {
     "fiqh": 0.687,
     "jawi": 0.439,
@@ -461,7 +461,7 @@
     "significant": false
    },
    "exact": 0.62,
-   "within_1": 0.86,
+   "within_1": 0.794,
    "by_subject": {
     "fiqh": 0.615,
     "jawi": 0.503,
@@ -492,7 +492,7 @@
     "significant": false
    },
    "exact": 0.66,
-   "within_1": 0.9,
+   "within_1": 0.853,
    "by_subject": {
     "fiqh": 0.703,
     "jawi": 0.533,
@@ -523,7 +523,7 @@
     "significant": false
    },
    "exact": 0.62,
-   "within_1": 0.9,
+   "within_1": 0.853,
    "by_subject": {
     "fiqh": 0.742,
     "jawi": 0.527,
@@ -533,7 +533,7 @@
    "separa_teachers": 0.167,
    "valid": 1.0,
    "seconds": 3.5,
-   "cost_per_100": 0.0265,
+   "cost_per_100": 0.0305,
    "to_luna": null,
    "jawi": 0.7
   }
@@ -549,7 +549,7 @@
    ],
    "vs": null,
    "exact": 0.62,
-   "within_1": 0.9,
+   "within_1": 0.853,
    "by_subject": {
     "fiqh": 0.742,
     "jawi": 0.527,
@@ -559,7 +559,7 @@
    "separa_teachers": 0.167,
    "valid": 1.0,
    "seconds": 3.5,
-   "cost_per_100": 0.0265,
+   "cost_per_100": 0.0305,
    "to_luna": null,
    "jawi": 0.7
   },
@@ -580,7 +580,7 @@
     "significant": false
    },
    "exact": 0.6,
-   "within_1": 0.86,
+   "within_1": 0.794,
    "by_subject": {
     "fiqh": 0.553,
     "jawi": 0.519,
@@ -611,7 +611,7 @@
     "significant": false
    },
    "exact": 0.64,
-   "within_1": 0.88,
+   "within_1": 0.824,
    "by_subject": {
     "fiqh": 0.687,
     "jawi": 0.439,
@@ -642,7 +642,7 @@
     "significant": false
    },
    "exact": 0.68,
-   "within_1": 0.9,
+   "within_1": 0.853,
    "by_subject": {
     "fiqh": 0.791,
     "jawi": 0.542,
@@ -652,7 +652,7 @@
    "separa_teachers": 0.167,
    "valid": 0.96,
    "seconds": 8.2,
-   "cost_per_100": 0.0133,
+   "cost_per_100": 0.0165,
    "to_luna": 0.48,
    "jawi": null
   },
@@ -673,7 +673,7 @@
     "significant": false
    },
    "exact": 0.64,
-   "within_1": 0.9,
+   "within_1": 0.853,
    "by_subject": {
     "fiqh": 0.806,
     "jawi": 0.527,
@@ -683,7 +683,7 @@
    "separa_teachers": 0.167,
    "valid": 1.0,
    "seconds": 19.5,
-   "cost_per_100": 0.0093,
+   "cost_per_100": 0.0106,
    "to_luna": 0.32,
    "jawi": null
   },
@@ -704,7 +704,7 @@
     "significant": false
    },
    "exact": 0.6,
-   "within_1": 0.88,
+   "within_1": 0.824,
    "by_subject": {
     "fiqh": 0.742,
     "jawi": 0.455,
@@ -714,7 +714,7 @@
    "separa_teachers": 0.167,
    "valid": 1.0,
    "seconds": 20.2,
-   "cost_per_100": 0.0145,
+   "cost_per_100": 0.0173,
    "to_luna": 0.54,
    "jawi": null
   },
@@ -735,7 +735,7 @@
     "significant": false
    },
    "exact": 0.64,
-   "within_1": 0.9,
+   "within_1": 0.853,
    "by_subject": {
     "fiqh": 0.666,
     "jawi": 0.527,
@@ -745,7 +745,7 @@
    "separa_teachers": 0.167,
    "valid": 1.0,
    "seconds": 10.4,
-   "cost_per_100": 0.0133,
+   "cost_per_100": 0.0165,
    "to_luna": 0.48,
    "jawi": null
   },
@@ -766,7 +766,7 @@
     "significant": false
    },
    "exact": 0.64,
-   "within_1": 0.88,
+   "within_1": 0.824,
    "by_subject": {
     "fiqh": 0.687,
     "jawi": 0.455,
@@ -797,7 +797,7 @@
     "significant": false
    },
    "exact": 0.6,
-   "within_1": 0.9,
+   "within_1": 0.853,
    "by_subject": {
     "fiqh": 0.64,
     "jawi": 0.455,
@@ -807,7 +807,7 @@
    "separa_teachers": 0.167,
    "valid": 1.0,
    "seconds": 28.6,
-   "cost_per_100": 0.0086,
+   "cost_per_100": 0.0105,
    "to_luna": 0.34,
    "jawi": null
   }

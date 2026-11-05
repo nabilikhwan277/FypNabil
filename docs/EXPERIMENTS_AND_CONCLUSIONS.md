@@ -62,7 +62,7 @@ Notes from three Year 5 textbooks (Ibadah KAFA JAKIM, JAIS Tajwid, JAIS Jawi): 4
 ### Measures
 
 - **QWK** (quadratic weighted kappa) on the 0–4 score band. How to read it: below 0.40 is weak, 0.41–0.60 moderate, 0.61–0.80 substantial, and above 0.80 almost perfect.
-- **Exact agreement** and **within 1 mark**.
+- **Exact agreement** and **within 1 mark**. Within 1 mark is counted only on answers worth more than 1 mark (34 of the 50), because a 1-mark answer can never be more than 1 mark out and would always count. Counted on all 50 answers the final system reaches 90%, but that figure is inflated by the 16 one-mark answers.
 - **95% bootstrap confidence intervals** (2,000 resamples) on every number.
 - **Paired comparisons** on the same answers. A difference is **significant** only when its 95% interval leaves out 0; tables mark significant differences with \*.
 - **RAG quality:** RAGAS metrics (context precision, context recall, faithfulness, answer relevancy, factual correctness).
@@ -74,7 +74,7 @@ Notes from three Year 5 textbooks (Ibadah KAFA JAKIM, JAIS Tajwid, JAIS Jawi): 4
 - **Through the OpenRouter API:** GPT-6 Luna, Claude Haiku 5.5 and Llama 3.1 8B.
 - **Open-weight, on Google Colab (NVIDIA L4):** Qwen3-4B (4-bit), Fanar 9B and SEA-LION v3 9B (16-bit).
 
-The whole project spent **$2.00 of the $4 API budget**.
+The whole project spent **$2.00 of the $4 API budget** (money actually paid). The cost columns below are different: they are the **list price** of a run, counted even when a rerun was served from the cache, so they do not add up to the $2.00. For runs that were partly cached, the list price is estimated from token counts (within 0.1% for Luna, 0% for Haiku and Llama on answers the estimate had not seen; `eval/recost.py`).
 
 ### Names used below
 
@@ -108,9 +108,9 @@ The whole project spent **$2.00 of the $4 API budget**.
 
 | Pair | QWK | Exact | Within 1 mark |
 |---|---|---|---|
-| Teacher 1 vs Teacher 2 | 0.497 | 48% | 76% |
-| Teacher 1 vs Teacher 3 | 0.516 | 54% | 76% |
-| Teacher 2 vs Teacher 3 | 0.334 | 44% | 78% |
+| Teacher 1 vs Teacher 2 | 0.497 | 48% | 65% |
+| Teacher 1 vs Teacher 3 | 0.516 | 54% | 65% |
+| Teacher 2 vs Teacher 3 | 0.334 | 44% | 68% |
 | **Mean (the human baseline)** | **0.449** (95% CI 0.267–0.618) | | |
 
 - At criterion level, all three teachers gave the same verdict on only 35% of criteria (Fleiss' kappa 0.264).
@@ -140,14 +140,14 @@ All rows use the 50 teacher answers and give QWK against the final teacher marks
 | 4 Memory (Luna, R3, A2) | **off** | **0.755** | final system |
 | | on | 0.736 [0.55, 0.88] | −0.019 (p = 0.291) |
 
-**Why Luna over Haiku.** Haiku was slightly ahead at R1, and Luna was ahead at R3 (0.755 vs 0.729). Neither gap is significant. Luna is the cheaper and faster of the two ($0.026 vs $0.039 per 100 answers; 3.5 s vs 8.1 s per answer), and it reads Jawi best (Section 7).
+**Why Luna over Haiku.** Haiku was slightly ahead at R1, and Luna was ahead at R3 (0.755 vs 0.729). Neither gap is significant. Luna is the cheaper and faster of the two ($0.030 vs $0.046 per 100 answers; 3.5 s vs 8.1 s per answer), and it reads Jawi best (Section 7).
 
 **Why A2 (constrained ReAct), from the saved reasoning traces:**
 
 | | A1 vanilla | A2 constrained | A3 Reflexion |
 |---|---|---|---|
 | Model calls per answer | 3.0 | 1.0 | 2.0 |
-| API cost per 100 answers | $0.080 | $0.026 | $0.037 |
+| API cost per 100 answers | $0.080 | $0.030 | $0.053 |
 | Time per answer | 14.1 s | 3.5 s | 4.7 s |
 | Criterion verdicts = final teacher mark | 71% | 71% | 71% |
 
@@ -187,6 +187,8 @@ Of the 19 criteria the teachers marked *separa*, the system gave *ya* to 10, *ti
 - Overall, and in Ibadah and Tajwid, the system agrees with each teacher more than the teachers agree with each other. These are point estimates, not a significance test.
 - **Jawi is the exception.** There the system (0.461) is below the teachers' own agreement (0.645), and its interval against the final marks is very wide (0.06–0.91). Half of its Jawi disagreements come from the strict spelling rule.
 - **The AI almost never gives partial marks** (3% against the teachers' 17%). This is its main systematic difference from teachers.
+- **Where the reference marks are weakest.** The teachers agree least on Ibadah (0.276) and moderately on Tajwid (0.456), and most on Jawi (0.645). The three teachers were not all specialists in the subject they marked, so on Ibadah and Tajwid some verdicts may be guesses; this is a likely cause, but the data cannot prove it (strictness about partial marks would give the same pattern). A noisy reference lowers every QWK, so the system's Ibadah figure may understate it. In Jawi the opposite holds: the teachers agree well and the system is the weaker party, so Jawi is the system's real weak spot.
+- **How to improve the reference honestly.** Ask a specialist teacher to re-mark only the criteria the teachers disagreed on in their own subject. Replacing the teachers' marks with the researcher's own would make the answer key come from the person who built the system, and is not acceptable.
 
 ### 4.4 Feedback grounding (E2)
 
@@ -316,9 +318,9 @@ Same setup for every model (proposed system, R3, A2, memory off) on the 50 teach
 
 | Model | Runs on | QWK [95% CI] | vs Luna | Valid marks | s / answer | $ / 100 answers | Jawi reading test |
 |---|---|---|---|---|---|---|---|
-| **GPT-6 Luna** | API | **0.755 [0.58, 0.90]** | – | 100% | 3.5 | $0.026 | **70%** |
-| Claude Haiku 5.5 | API | 0.729 [0.53, 0.89] | −0.026 | 98% | 8.1 | $0.039 | 57% |
-| Llama 3.1 8B | API | 0.546 [0.33, 0.73] | −0.209 \* | 98% | 5.0 | $0.035 | 17% |
+| **GPT-6 Luna** | API | **0.755 [0.58, 0.90]** | – | 100% | 3.5 | $0.030 | **70%** |
+| Claude Haiku 5.5 | API | 0.729 [0.53, 0.89] | −0.026 | 98% | 8.1 | $0.046 | 57% |
+| Llama 3.1 8B | API | 0.546 [0.33, 0.73] | −0.209 \* | 98% | 5.0 | $0.041 | 17% |
 | Qwen3-4B | Colab L4, 4-bit | 0.694 [0.50, 0.84] | −0.061 | 94% | 18.4 | free | 7% |
 | SEA-LION v3 9B (Malay) | Colab L4, 16-bit | 0.685 [0.50, 0.83] | −0.070 | 100% | 24.8 | free | 10% |
 | Fanar 9B (Arabic, Islamic) | Colab L4, 16-bit | 0.624 [0.42, 0.79] | −0.131 \* | 96% | 24.2 | free | 17% |
@@ -360,14 +362,14 @@ These hybrids were built from saved runs (simulated), not run live.
 
 | Hybrid | QWK [95% CI] | vs Luna alone | Answers sent to Luna | $ / 100 answers |
 |---|---|---|---|---|
-| GPT-6 Luna alone | 0.755 [0.58, 0.90] | – | 100% | $0.026 |
-| **Router A: Tahap 1 → Qwen, Tahap 2–3 → Luna** | **0.785 [0.60, 0.92]** | +0.030 (p = 0.103) | 48% | $0.013 |
-| Router B: Qwen first; Luna if invalid or *separa* | 0.764 [0.58, 0.90] | +0.009 | 32% | $0.009 |
-| Router C: Qwen first; Luna if invalid or it differs from B2 | 0.737 [0.55, 0.88] | −0.018 | 54% | $0.015 |
-| Router A with fine-tuned Qwen (r8e2) | 0.733 [0.54, 0.89] | −0.022 | 48% | $0.013 |
+| GPT-6 Luna alone | 0.755 [0.58, 0.90] | – | 100% | $0.030 |
+| **Router A: Tahap 1 → Qwen, Tahap 2–3 → Luna** | **0.785 [0.60, 0.92]** | +0.030 (p = 0.103) | 48% | $0.017 |
+| Router B: Qwen first; Luna if invalid or *separa* | 0.764 [0.58, 0.90] | +0.009 | 32% | $0.011 |
+| Router C: Qwen first; Luna if invalid or it differs from B2 | 0.737 [0.55, 0.88] | −0.018 | 54% | $0.017 |
+| Router A with fine-tuned Qwen (r8e2) | 0.733 [0.54, 0.89] | −0.022 | 48% | $0.017 |
 
 **Conclusion:**
-- Router A has the highest QWK of all runs at half Luna's API cost. The gain is not significant, and it still needs a live run.
+- Router A has the highest QWK of all runs at about 57% of Luna's API cost ($0.017 vs $0.030 per 100 answers). The gain is not significant, and it still needs a live run.
 - Fine-tuned Qwen did not make a better hybrid.
 
 ---
@@ -402,7 +404,7 @@ These hybrids were built from saved runs (simulated), not run live.
 | Measure | Result | Target | Met? |
 |---|---|---|---|
 | QWK against the final teacher marks | 0.755 [0.58, 0.90] | ≥ 0.70 | Yes on the point estimate (the interval goes down to 0.58) |
-| Within 1 mark | 90% | ≥ 85% | Yes |
+| Within 1 mark (answers worth 2+ marks: 29 of 34) | 85% [72%, 97%] | ≥ 85% | Only just, on the point estimate (the interval goes down to 72%). The teachers agree with each other on 65–68% of these answers |
 | Feedback faithfulness (E2) | 0.976 | ≥ 0.85 | Yes |
 | Context recall (RAG, R3) | 0.930 | ≥ 0.80 | Yes |
 | Teachers prefer the feedback with memory (E3) | – | ≥ 65% | Not measured yet |
@@ -412,7 +414,7 @@ These hybrids were built from saved runs (simulated), not run live.
 **Other figures for the final system:**
 - Exact agreement 62%.
 - Mean QWK with each teacher 0.593, against 0.449 between teachers.
-- $0.026 API cost per 100 answers, 3.5 seconds per answer.
+- $0.030 API cost per 100 answers, 3.5 seconds per answer.
 
 ---
 
@@ -440,7 +442,7 @@ These hybrids were built from saved runs (simulated), not run live.
 8. **Open models come close in marking but cannot yet replace the API model.**
    - Qwen3-4B (0.694) is not significantly below Luna, but it is slower, sometimes breaks the format, and cannot handle Jawi.
    - Fine-tuning fixed the format but did not raise accuracy significantly.
-   - The most promising use is a hybrid (Qwen for Tahap 1, Luna for Tahap 2–3: 0.785 at half the cost), which still has to be confirmed live.
+   - The most promising use is a hybrid (Qwen for Tahap 1, Luna for Tahap 2–3: 0.785 at about 57% of the cost), which still has to be confirmed live.
 9. **Development data can mislead.**
    - Silver answers rated the rule-based scorer 0.920 (teachers: 0.476).
    - They could not separate R3 settings that the teacher set showed to matter (0.755 → 0.695).
@@ -449,6 +451,9 @@ These hybrids were built from saved runs (simulated), not run live.
 
 ## 12. Limitations
 
+- **Chosen and reported on the same 50 answers.** 21 configurations were run on the 50 teacher answers (the 6 simulated hybrids not counted), and the final system is the highest of the 20 that use a language model (QWK 0.755; the median was 0.700, and the top five lie within 0.026 of each other with overlapping intervals). Its QWK is therefore somewhat optimistic: picking the best of many on the data it is reported on favours chance. The step-by-step design (models, then retrieval, then the ReAct loop) and the paired tests limit this, but do not remove it. A fresh set that was never used to choose the settings (planned: UPKK exam questions with model answers) would settle it.
+- **Teachers not all specialists.** The three teachers were not all specialists in the subject they marked. Agreement is lowest in Ibadah (0.276) and Tajwid (0.456), so those reference marks are the least certain (Section 4.3).
+- **"Within 1 mark" excludes 1-mark answers.** It is counted on the 34 answers worth more than 1 mark; the 16 one-mark answers cannot miss by more than 1 mark. On all 50 the figure would be 90% instead of 85%.
 - **Small test set.** 50 answers (14–18 per subject) give intervals of about ±0.15 QWK overall, and much wider by subject (Jawi 0.06–0.91). Most differences between the good configurations cannot be confirmed.
 - **Constructed answers.** They are not from real pupils; real answers may be messier.
 - **Uncertain reference.** The teachers agree only moderately (QWK 0.449, Fleiss' kappa 0.264), especially on partial marks.
@@ -465,6 +470,8 @@ These hybrids were built from saved runs (simulated), not run live.
   - SUS questionnaire (`docs/SUS_soal_selidik.md`).
 - **OCR notes:** a teacher checks the 7 notes in `data/semakan_nota_ocr.xlsx`; then rerun `eval/ocr_eval.py` (free).
 - **Tanya Bulan:** run `eval/chat_gate_eval.py` with Qwen running on Colab, to measure how often the real chat model declines.
+- **Specialist re-marking:** a specialist teacher re-marks the criteria the teachers disagreed on in Ibadah and Tajwid (about 15 minutes each); then rerun `eval/final_stats.py` (free).
+- **Fresh test set:** UPKK exam questions with model answers and marks, never used to choose settings, to confirm the final QWK.
 - **Live marker:** decide whether the website's marker for pupils switches from B2 to the final system.
 - **Optional:**
   - Run Router A live.

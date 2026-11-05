@@ -73,13 +73,18 @@ def metrics(scored: list[dict]) -> dict:
     unres = [c for c in crit if c[3] is None]
     err_marks = sum(abs(award(mk, p) - award(mk, g)) for g, p, mk, _ in crit)
     tot_marks = sum(mk for _, _, mk, _ in crit)
+    # A 1-mark answer can never be more than 1 mark out, so it would always count as "within 1 mark" and inflate the
+    # rate: within_1 counts only answers worth more than 1 mark; within_1_all keeps the old all-answers value.
+    multi = [it for it in scored if it["max_marks"] > 1]
     return {
         "items": n, "criteria": len(crit), "unresolved_criteria": len(unres),
         "crit_acc": round(sum(g == p for g, p, _, _ in crit) / len(crit), 3),
         "unres_acc": round(sum(g == p for g, p, _, _ in unres) / len(unres), 3) if unres else None,
         "mark_err_rate": round(err_marks / tot_marks, 3),
         "item_exact": round(sum(abs(it["pred"] - it["gold"]) < 1e-9 for it in scored) / n, 3),
-        "within_1": round(sum(abs(it["pred"] - it["gold"]) <= 1 + 1e-9 for it in scored) / n, 3),
+        "within_1": round(sum(abs(it["pred"] - it["gold"]) <= 1 + 1e-9 for it in multi) / len(multi), 3) if multi else None,
+        "n_within_1": len(multi),
+        "within_1_all": round(sum(abs(it["pred"] - it["gold"]) <= 1 + 1e-9 for it in scored) / n, 3),
         "mae_marks": round(sum(abs(it["pred"] - it["gold"]) for it in scored) / n, 3),
         "mae_pct": round(sum(abs(it["pred"] - it["gold"]) / it["max_marks"] for it in scored) / n * 100, 1),
         "qwk_units": round(qwk([round(it["gold"] * 2) for it in scored], [round(it["pred"] * 2) for it in scored]), 3),

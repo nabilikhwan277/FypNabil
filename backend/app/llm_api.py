@@ -93,8 +93,11 @@ class Completion:
     raw: dict = field(default_factory=dict, repr=False)
 
     def usage(self) -> dict:
+        # "cost" = money paid now (a cache hit is free); "list_cost" = what the call costs at list price, which is
+        # what a cost table must report (a cached rerun of the same system must not look free)
         return {"calls": 1, "tokens_in": self.tokens_in, "tokens_out": self.tokens_out,
-                "cost": self.cost if not self.cached else 0.0, "ms": self.ms, "cached": int(self.cached)}
+                "cost": self.cost if not self.cached else 0.0, "list_cost": self.cost, "ms": self.ms,
+                "cached": int(self.cached)}
 
 
 _log_lock = threading.Lock()

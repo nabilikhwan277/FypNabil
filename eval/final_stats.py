@@ -71,11 +71,14 @@ def group_stats(items: list[dict]) -> dict:
     gold, pred = _bands(items)
     exact = np.array([abs(i["pred"] - i["gold"]) < 1e-9 for i in items], dtype=float)
     within = np.array([abs(i["pred"] - i["gold"]) <= 1 + 1e-9 for i in items], dtype=float)
+    multi = np.array([i["max_marks"] > 1 for i in items], dtype=float)   # 1-mark answers cannot miss by more than 1
     idx = _boot_idx(len(items))
-    return {"n": len(items),
+    w_ci = (within * multi)[idx].sum(axis=1) / np.maximum(multi[idx].sum(axis=1), 1)
+    return {"n": len(items), "n_within_1": int(multi.sum()),
             "qwk": [round(qwk(gold, pred), 3)] + _ci([_qwk_of(i, gold, pred) for i in idx]),
             "exact": [round(float(exact.mean()), 3)] + _ci(exact[idx].mean(axis=1)),
-            "within_1": [round(float(within.mean()), 3)] + _ci(within[idx].mean(axis=1))}
+            "within_1": [round(float((within * multi).sum() / max(multi.sum(), 1)), 3)] + _ci(w_ci),
+            "within_1_all": [round(float(within.mean()), 3)] + _ci(within[idx].mean(axis=1))}
 
 
 def runs() -> list[dict]:
@@ -167,7 +170,7 @@ def markdown(res: dict) -> str:
         md.append(f"| {x['config']}{mark} | {x['qwk']} | {x['ci'][0]}–{x['ci'][1]} | {vs_txt} | "
                   + " | ".join(str(x["per_teacher"][k]) for k in t)
                   + f" | {x['mean_teachers']}{' ↑' if x['above_human'] else ''} | {x['criterion_kappa']} | {x['criterion_acc']} |")
-    for key, label in (("qwk", "QWK"), ("exact", "Exact agreement"), ("within_1", "Within 1 mark")):
+    for key, label in (("qwk", "QWK"), ("exact", "Exact agreement"), ("within_1", "Within 1 mark (answers worth 2+ marks)")):
         n = res["runs"][0]["by_subject"]
         md += ["", f"## {label} by subject, with 95% CI", "",
                "| Configuration | " + " | ".join(f"{SUBJECTS[g]} (n={n[g]['n']})" for g in SUBJECTS) + " |",

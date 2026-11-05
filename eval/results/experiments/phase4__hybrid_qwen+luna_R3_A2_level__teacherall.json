@@ -12,7 +12,7 @@
  "n": 50,
  "repeats": 1,
  "labels": "teacher",
- "date": "2026-11-02T07:37:05+00:00",
+ "date": "2026-11-05T03:16:48+00:00",
  "complete": true,
  "router": "Router A: Tahap 1 to the open model, Tahap 2-3 to GPT-6 Luna",
  "to_luna": 0.48,
@@ -30,7 +30,9 @@
    "unres_acc": 0.747,
    "mark_err_rate": 0.168,
    "item_exact": 0.68,
-   "within_1": 0.9,
+   "within_1": 0.853,
+   "n_within_1": 34,
+   "within_1_all": 0.9,
    "mae_marks": 0.41,
    "mae_pct": 13.4,
    "qwk_units": 0.785,
@@ -47,7 +49,9 @@
     "unres_acc": 0.698,
     "mark_err_rate": 0.189,
     "item_exact": 0.556,
-    "within_1": 0.833,
+    "within_1": 0.769,
+    "n_within_1": 13,
+    "within_1_all": 0.833,
     "mae_marks": 0.472,
     "mae_pct": 16.7,
     "qwk_units": 0.752,
@@ -63,7 +67,9 @@
     "unres_acc": 0.615,
     "mark_err_rate": 0.271,
     "item_exact": 0.643,
-    "within_1": 0.929,
+    "within_1": 0.909,
+    "n_within_1": 11,
+    "within_1_all": 0.929,
     "mae_marks": 0.679,
     "mae_pct": 22.6,
     "qwk_units": 0.604,
@@ -79,7 +85,9 @@
     "unres_acc": 0.846,
     "mark_err_rate": 0.073,
     "item_exact": 0.833,
-    "within_1": 0.944,
+    "within_1": 0.9,
+    "n_within_1": 10,
+    "within_1_all": 0.944,
     "mae_marks": 0.139,
     "mae_pct": 3.0,
     "qwk_units": 0.973,
@@ -98,6 +106,8 @@
     "mark_err_rate": 0.097,
     "item_exact": 0.846,
     "within_1": 1.0,
+    "n_within_1": 10,
+    "within_1_all": 1.0,
     "mae_marks": 0.135,
     "mae_pct": 9.6,
     "qwk_units": 0.815,
@@ -114,6 +124,8 @@
     "mark_err_rate": 0.153,
     "item_exact": 0.526,
     "within_1": 0.842,
+    "n_within_1": 19,
+    "within_1_all": 0.842,
     "mae_marks": 0.447,
     "mae_pct": 14.7,
     "qwk_units": 0.837,
@@ -130,6 +142,8 @@
     "mark_err_rate": 0.283,
     "item_exact": 0.4,
     "within_1": 0.6,
+    "n_within_1": 5,
+    "within_1_all": 0.6,
     "mae_marks": 1.7,
     "mae_pct": 28.3,
     "qwk_units": 0.302,
@@ -147,7 +161,9 @@
     "unres_acc": 1.0,
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -163,7 +179,9 @@
     "unres_acc": 1.0,
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -180,6 +198,8 @@
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
     "within_1": 1.0,
+    "n_within_1": 1,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -195,7 +215,9 @@
     "unres_acc": 0.846,
     "mark_err_rate": 0.117,
     "item_exact": 0.7,
-    "within_1": 0.9,
+    "within_1": 0.875,
+    "n_within_1": 8,
+    "within_1_all": 0.9,
     "mae_marks": 0.35,
     "mae_pct": 7.5,
     "qwk_units": 0.847,
@@ -212,6 +234,8 @@
     "mark_err_rate": 0.405,
     "item_exact": 0.5,
     "within_1": 0.667,
+    "n_within_1": 6,
+    "within_1_all": 0.667,
     "mae_marks": 1.417,
     "mae_pct": 33.3,
     "qwk_units": 0.0,
@@ -227,7 +251,9 @@
     "unres_acc": 1.0,
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -243,7 +269,9 @@
     "unres_acc": 0.75,
     "mark_err_rate": 0.086,
     "item_exact": 0.778,
-    "within_1": 0.889,
+    "within_1": 0.857,
+    "n_within_1": 7,
+    "within_1_all": 0.889,
     "mae_marks": 0.278,
     "mae_pct": 11.1,
     "qwk_units": 0.95,
@@ -260,6 +288,8 @@
     "mark_err_rate": 0.152,
     "item_exact": 0.444,
     "within_1": 1.0,
+    "n_within_1": 7,
+    "within_1_all": 1.0,
     "mae_marks": 0.278,
     "mae_pct": 12.5,
     "qwk_units": 0.905,
@@ -275,7 +305,9 @@
     "unres_acc": 0.769,
     "mark_err_rate": 0.139,
     "item_exact": 0.8,
-    "within_1": 0.9,
+    "within_1": 0.8,
+    "n_within_1": 5,
+    "within_1_all": 0.9,
     "mae_marks": 0.25,
     "mae_pct": 8.3,
     "qwk_units": 0.786,
@@ -291,7 +323,9 @@
     "unres_acc": null,
     "mark_err_rate": 1.0,
     "item_exact": 0.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 1.0,
     "mae_pct": 100.0,
     "qwk_units": 0.0,
@@ -307,7 +341,9 @@
     "unres_acc": null,
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -325,8 +361,9 @@
    "mean": 8248,
    "p95": 15917
   },
-  "cost_total": 0.006659,
-  "cost_per_100": 0.0133,
+  "cost_total": 0.008264,
+  "cost_paid": 0.006659,
+  "cost_per_100": 0.0165,
   "calls_per_answer": 1.0,
   "tokens_per_answer": 1822,
   "cov_pct": null,
@@ -570,6 +607,7 @@
     "tokens_in": 1623,
     "tokens_out": 269,
     "cost": 0.0003373,
+    "list_cost": 0.000337,
     "ms": 5799,
     "cached": 0
    },
@@ -677,6 +715,7 @@
     "tokens_in": 1823,
     "tokens_out": 133,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 11803,
     "cached": 0
    },
@@ -786,6 +825,7 @@
     "tokens_in": 1566,
     "tokens_out": 122,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 10636,
     "cached": 0
    },
@@ -972,6 +1012,7 @@
     "tokens_in": 2499,
     "tokens_out": 359,
     "cost": 0.0004918,
+    "list_cost": 0.000492,
     "ms": 5327,
     "cached": 0
    },
@@ -1053,6 +1094,7 @@
     "tokens_in": 2121,
     "tokens_out": 176,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 15152,
     "cached": 0
    },
@@ -1160,6 +1202,7 @@
     "tokens_in": 902,
     "tokens_out": 93,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 8596,
     "cached": 0
    },
@@ -1269,6 +1312,7 @@
     "tokens_in": 1212,
     "tokens_out": 120,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 10639,
     "cached": 0
    },
@@ -1406,6 +1450,7 @@
     "tokens_in": 1484,
     "tokens_out": 216,
     "cost": 0.000293425,
+    "list_cost": 0.000293,
     "ms": 3486,
     "cached": 0
    },
@@ -1558,6 +1603,7 @@
     "tokens_in": 1507,
     "tokens_out": 294,
     "cost": 0.0,
+    "list_cost": 0.000261,
     "ms": 3490,
     "cached": 1
    },
@@ -1665,6 +1711,7 @@
     "tokens_in": 1564,
     "tokens_out": 124,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 10989,
     "cached": 0
    },
@@ -1764,6 +1811,7 @@
     "tokens_in": 1947,
     "tokens_out": 113,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 10077,
     "cached": 0
    },
@@ -1886,6 +1934,7 @@
     "tokens_in": 1668,
     "tokens_out": 179,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 15609,
     "cached": 0
    },
@@ -2023,6 +2072,7 @@
     "tokens_in": 1262,
     "tokens_out": 323,
     "cost": 0.0,
+    "list_cost": 0.000262,
     "ms": 4606,
     "cached": 1
    },
@@ -2160,6 +2210,7 @@
     "tokens_in": 1316,
     "tokens_out": 248,
     "cost": 0.0,
+    "list_cost": 0.000223,
     "ms": 4032,
     "cached": 1
    },
@@ -2287,6 +2338,7 @@
     "tokens_in": 1436,
     "tokens_out": 276,
     "cost": 0.0,
+    "list_cost": 0.000247,
     "ms": 5811,
     "cached": 1
    },
@@ -2409,6 +2461,7 @@
     "tokens_in": 1193,
     "tokens_out": 207,
     "cost": 0.00025255,
+    "list_cost": 0.000253,
     "ms": 3049,
     "cached": 0
    },
@@ -2518,6 +2571,7 @@
     "tokens_in": 1997,
     "tokens_out": 147,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 13004,
     "cached": 0
    },
@@ -2655,6 +2709,7 @@
     "tokens_in": 1328,
     "tokens_out": 191,
     "cost": 0.0,
+    "list_cost": 0.000192,
     "ms": 2855,
     "cached": 1
    },
@@ -2807,6 +2862,7 @@
     "tokens_in": 2282,
     "tokens_out": 329,
     "cost": 0.000449675,
+    "list_cost": 0.00045,
     "ms": 4376,
     "cached": 0
    },
@@ -2914,6 +2970,7 @@
     "tokens_in": 1367,
     "tokens_out": 137,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 11906,
     "cached": 0
    },
@@ -3036,6 +3093,7 @@
     "tokens_in": 1763,
     "tokens_out": 160,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 13932,
     "cached": 0
    },
@@ -3188,6 +3246,7 @@
     "tokens_in": 1556,
     "tokens_out": 374,
     "cost": 0.000381425,
+    "list_cost": 0.000381,
     "ms": 4715,
     "cached": 0
    },
@@ -3297,6 +3356,7 @@
     "tokens_in": 1487,
     "tokens_out": 123,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 10804,
     "cached": 0
    },
@@ -3404,6 +3464,7 @@
     "tokens_in": 1148,
     "tokens_out": 165,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 15005,
     "cached": 0
    },
@@ -3513,6 +3574,7 @@
     "tokens_in": 1768,
     "tokens_out": 129,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 11588,
     "cached": 0
    },
@@ -3635,6 +3697,7 @@
     "tokens_in": 1178,
     "tokens_out": 220,
     "cost": 0.000257175,
+    "list_cost": 0.000257,
     "ms": 3614,
     "cached": 0
    },
@@ -3737,6 +3800,7 @@
     "tokens_in": 2166,
     "tokens_out": 178,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 15762,
     "cached": 0
    },
@@ -3874,6 +3938,7 @@
     "tokens_in": 1085,
     "tokens_out": 393,
     "cost": 0.00033205,
+    "list_cost": 0.000332,
     "ms": 5188,
     "cached": 0
    },
@@ -4011,6 +4076,7 @@
     "tokens_in": 1312,
     "tokens_out": 213,
     "cost": 0.0,
+    "list_cost": 0.000204,
     "ms": 3106,
     "cached": 1
    },
@@ -4118,6 +4184,7 @@
     "tokens_in": 1188,
     "tokens_out": 116,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 10410,
     "cached": 0
    },
@@ -4258,6 +4325,7 @@
     "tokens_in": 1744,
     "tokens_out": 521,
     "cost": 0.000478425,
+    "list_cost": 0.000478,
     "ms": 6877,
     "cached": 0
    },
@@ -4367,6 +4435,7 @@
     "tokens_in": 1571,
     "tokens_out": 103,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 9406,
     "cached": 0
    },
@@ -4474,6 +4543,7 @@
     "tokens_in": 1131,
     "tokens_out": 150,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 13063,
     "cached": 0
    },
@@ -4656,6 +4726,7 @@
     "tokens_in": 1747,
     "tokens_out": 350,
     "cost": 0.0003933,
+    "list_cost": 0.000393,
     "ms": 4265,
     "cached": 0
    },
@@ -4793,6 +4864,7 @@
     "tokens_in": 2223,
     "tokens_out": 488,
     "cost": 0.0005218,
+    "list_cost": 0.000522,
     "ms": 5993,
     "cached": 0
    },
@@ -4902,6 +4974,7 @@
     "tokens_in": 1486,
     "tokens_out": 168,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 14811,
     "cached": 0
    },
@@ -5039,6 +5112,7 @@
     "tokens_in": 1728,
     "tokens_out": 275,
     "cost": 0.000353425,
+    "list_cost": 0.000353,
     "ms": 3650,
     "cached": 0
    },
@@ -5146,6 +5220,7 @@
     "tokens_in": 1071,
     "tokens_out": 96,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 8417,
     "cached": 0
    },
@@ -5283,6 +5358,7 @@
     "tokens_in": 1467,
     "tokens_out": 330,
     "cost": 0.0003483,
+    "list_cost": 0.000348,
     "ms": 4440,
     "cached": 0
    },
@@ -5420,6 +5496,7 @@
     "tokens_in": 1521,
     "tokens_out": 515,
     "cost": 0.00044755,
+    "list_cost": 0.000448,
     "ms": 6495,
     "cached": 0
    },
@@ -5607,6 +5684,7 @@
     "tokens_in": 1768,
     "tokens_out": 427,
     "cost": 0.000434425,
+    "list_cost": 0.000434,
     "ms": 4336,
     "cached": 0
    },
@@ -5714,6 +5792,7 @@
     "tokens_in": 1613,
     "tokens_out": 137,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 12104,
     "cached": 0
    },
@@ -5851,6 +5930,7 @@
     "tokens_in": 1320,
     "tokens_out": 238,
     "cost": 0.0,
+    "list_cost": 0.000218,
     "ms": 3703,
     "cached": 1
    },
@@ -5953,6 +6033,7 @@
     "tokens_in": 2159,
     "tokens_out": 196,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 16723,
     "cached": 0
    },
@@ -6060,6 +6141,7 @@
     "tokens_in": 953,
     "tokens_out": 118,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 10310,
     "cached": 0
    },
@@ -6197,6 +6279,7 @@
     "tokens_in": 1855,
     "tokens_out": 475,
     "cost": 0.0004693,
+    "list_cost": 0.000469,
     "ms": 5855,
     "cached": 0
    },
@@ -6298,6 +6381,7 @@
     "tokens_in": 1924,
     "tokens_out": 176,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 15256,
     "cached": 0
    },
@@ -6397,6 +6481,7 @@
     "tokens_in": 1947,
     "tokens_out": 106,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 9589,
     "cached": 0
    },
@@ -6549,6 +6634,7 @@
     "tokens_in": 2312,
     "tokens_out": 257,
     "cost": 0.000417425,
+    "list_cost": 0.000417,
     "ms": 3509,
     "cached": 0
    },
@@ -6671,6 +6757,7 @@
     "tokens_in": 1406,
     "tokens_out": 201,
     "cost": 0.0,
+    "list_cost": 0,
     "ms": 17736,
     "cached": 0
    },

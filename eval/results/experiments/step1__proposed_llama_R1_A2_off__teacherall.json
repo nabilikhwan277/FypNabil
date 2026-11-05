@@ -23,7 +23,9 @@
    "unres_acc": 0.611,
    "mark_err_rate": 0.281,
    "item_exact": 0.54,
-   "within_1": 0.82,
+   "within_1": 0.735,
+   "n_within_1": 34,
+   "within_1_all": 0.82,
    "mae_marks": 0.68,
    "mae_pct": 23.0,
    "qwk_units": 0.632,
@@ -40,7 +42,9 @@
     "unres_acc": 0.651,
     "mark_err_rate": 0.244,
     "item_exact": 0.556,
-    "within_1": 0.833,
+    "within_1": 0.769,
+    "n_within_1": 13,
+    "within_1_all": 0.833,
     "mae_marks": 0.556,
     "mae_pct": 21.3,
     "qwk_units": 0.609,
@@ -56,7 +60,9 @@
     "unres_acc": 0.308,
     "mark_err_rate": 0.371,
     "item_exact": 0.5,
-    "within_1": 0.786,
+    "within_1": 0.727,
+    "n_within_1": 11,
+    "within_1_all": 0.786,
     "mae_marks": 0.857,
     "mae_pct": 26.8,
     "qwk_units": 0.594,
@@ -72,7 +78,9 @@
     "unres_acc": 0.667,
     "mark_err_rate": 0.25,
     "item_exact": 0.556,
-    "within_1": 0.833,
+    "within_1": 0.7,
+    "n_within_1": 10,
+    "within_1_all": 0.833,
     "mae_marks": 0.667,
     "mae_pct": 21.8,
     "qwk_units": 0.671,
@@ -91,6 +99,8 @@
     "mark_err_rate": 0.167,
     "item_exact": 0.769,
     "within_1": 1.0,
+    "n_within_1": 10,
+    "within_1_all": 1.0,
     "mae_marks": 0.192,
     "mae_pct": 16.3,
     "qwk_units": 0.719,
@@ -107,6 +117,8 @@
     "mark_err_rate": 0.298,
     "item_exact": 0.368,
     "within_1": 0.684,
+    "n_within_1": 19,
+    "within_1_all": 0.684,
     "mae_marks": 0.921,
     "mae_pct": 28.1,
     "qwk_units": 0.498,
@@ -123,6 +135,8 @@
     "mark_err_rate": 0.383,
     "item_exact": 0.0,
     "within_1": 0.4,
+    "n_within_1": 5,
+    "within_1_all": 0.4,
     "mae_marks": 2.3,
     "mae_pct": 38.3,
     "qwk_units": 0.349,
@@ -140,7 +154,9 @@
     "unres_acc": 1.0,
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -156,7 +172,9 @@
     "unres_acc": 1.0,
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -173,6 +191,8 @@
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
     "within_1": 1.0,
+    "n_within_1": 1,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -189,6 +209,8 @@
     "mark_err_rate": 0.05,
     "item_exact": 0.8,
     "within_1": 1.0,
+    "n_within_1": 8,
+    "within_1_all": 1.0,
     "mae_marks": 0.15,
     "mae_pct": 2.5,
     "qwk_units": 0.953,
@@ -205,6 +227,8 @@
     "mark_err_rate": 0.357,
     "item_exact": 0.5,
     "within_1": 0.667,
+    "n_within_1": 6,
+    "within_1_all": 0.667,
     "mae_marks": 1.25,
     "mae_pct": 30.6,
     "qwk_units": 0.245,
@@ -220,7 +244,9 @@
     "unres_acc": 1.0,
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -236,7 +262,9 @@
     "unres_acc": 0.35,
     "mark_err_rate": 0.431,
     "item_exact": 0.333,
-    "within_1": 0.667,
+    "within_1": 0.571,
+    "n_within_1": 7,
+    "within_1_all": 0.667,
     "mae_marks": 1.167,
     "mae_pct": 33.3,
     "qwk_units": 0.583,
@@ -252,7 +280,9 @@
     "unres_acc": 0.45,
     "mark_err_rate": 0.326,
     "item_exact": 0.222,
-    "within_1": 0.778,
+    "within_1": 0.714,
+    "n_within_1": 7,
+    "within_1_all": 0.778,
     "mae_marks": 0.833,
     "mae_pct": 26.9,
     "qwk_units": 0.444,
@@ -268,7 +298,9 @@
     "unres_acc": 0.462,
     "mark_err_rate": 0.333,
     "item_exact": 0.6,
-    "within_1": 0.8,
+    "within_1": 0.6,
+    "n_within_1": 5,
+    "within_1_all": 0.8,
     "mae_marks": 0.6,
     "mae_pct": 30.0,
     "qwk_units": 0.286,
@@ -284,7 +316,9 @@
     "unres_acc": null,
     "mark_err_rate": 1.0,
     "item_exact": 0.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 1.0,
     "mae_pct": 100.0,
     "qwk_units": 0.0,
@@ -300,7 +334,9 @@
     "unres_acc": null,
     "mark_err_rate": 0.0,
     "item_exact": 1.0,
-    "within_1": 1.0,
+    "within_1": null,
+    "n_within_1": 0,
+    "within_1_all": 1.0,
     "mae_marks": 0.0,
     "mae_pct": 0.0,
     "qwk_units": 1.0,
@@ -317,8 +353,9 @@
    "mean": 2283,
    "p95": 3255
   },
-  "cost_total": 0.01421,
-  "cost_per_100": 0.0284,
+  "cost_total": 0.016732,
+  "cost_paid": 0.01421,
+  "cost_per_100": 0.0335,
   "calls_per_answer": 1.0,
   "tokens_per_answer": 1520,
   "cov_pct": null,
@@ -429,7 +466,8 @@
     "max": 3.0,
     "kind": "partial"
    }
-  ]
+  ],
+  "cost_basis": "list price: billed where every call was fresh, else estimated from tokens (eval/recost.py)"
  },
  "items": [
   {
@@ -573,7 +611,8 @@
     "tokens_out": 206,
     "cost": 0.00029062,
     "ms": 2104,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000291
    },
    "ok": true,
    "error": "",
@@ -689,7 +728,8 @@
     "tokens_out": 86,
     "cost": 0.00035002,
     "ms": 1280,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.00035
    },
    "ok": true,
    "error": "",
@@ -807,7 +847,8 @@
     "tokens_out": 96,
     "cost": 0.00022682,
     "ms": 1477,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000227
    },
    "ok": true,
    "error": "",
@@ -1002,7 +1043,8 @@
     "tokens_out": 309,
     "cost": 0.0,
     "ms": 3008,
-    "cached": 1
+    "cached": 1,
+    "list_cost": 0.000482
    },
    "ok": true,
    "error": "",
@@ -1118,7 +1160,8 @@
     "tokens_out": 110,
     "cost": 0.00028952,
     "ms": 1683,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.00029
    },
    "ok": true,
    "error": "",
@@ -1244,7 +1287,8 @@
     "tokens_out": 135,
     "cost": 0.00022132,
     "ms": 1631,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000221
    },
    "ok": true,
    "error": "",
@@ -1362,7 +1406,8 @@
     "tokens_out": 84,
     "cost": 0.00031724,
     "ms": 1332,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000317
    },
    "ok": true,
    "error": "",
@@ -1508,7 +1553,8 @@
     "tokens_out": 159,
     "cost": 0.00034122,
     "ms": 1789,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000341
    },
    "ok": true,
    "error": "",
@@ -1669,7 +1715,8 @@
     "tokens_out": 209,
     "cost": 0.00039226,
     "ms": 1934,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000392
    },
    "ok": true,
    "error": "",
@@ -1790,7 +1837,8 @@
     "tokens_out": 130,
     "cost": 0.00032956,
     "ms": 1412,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.00033
    },
    "ok": true,
    "error": "",
@@ -1913,7 +1961,8 @@
     "tokens_out": 116,
     "cost": 0.00024772,
     "ms": 1328,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000248
    },
    "ok": true,
    "error": "",
@@ -2044,7 +2093,8 @@
     "tokens_out": 147,
     "cost": 0.00033396,
     "ms": 2180,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000334
    },
    "ok": true,
    "error": "",
@@ -2190,7 +2240,8 @@
     "tokens_out": 176,
     "cost": 0.00033374,
     "ms": 2378,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000334
    },
    "ok": true,
    "error": "",
@@ -2336,7 +2387,8 @@
     "tokens_out": 160,
     "cost": 0.00033418,
     "ms": 1892,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000334
    },
    "ok": true,
    "error": "",
@@ -2462,7 +2514,8 @@
     "tokens_out": 164,
     "cost": 0.00037136,
     "ms": 3026,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000371
    },
    "ok": true,
    "error": "",
@@ -2593,7 +2646,8 @@
     "tokens_out": 132,
     "cost": 0.00033198,
     "ms": 2932,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000332
    },
    "ok": true,
    "error": "",
@@ -2711,7 +2765,8 @@
     "tokens_out": 98,
     "cost": 0.00022704,
     "ms": 1410,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000227
    },
    "ok": true,
    "error": "",
@@ -2857,7 +2912,8 @@
     "tokens_out": 206,
     "cost": 0.0,
     "ms": 2513,
-    "cached": 1
+    "cached": 1,
+    "list_cost": 0.000347
    },
    "ok": true,
    "error": "",
@@ -3018,7 +3074,8 @@
     "tokens_out": 245,
     "cost": 0.0003685,
     "ms": 2276,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000369
    },
    "ok": true,
    "error": "",
@@ -3144,7 +3201,8 @@
     "tokens_out": 166,
     "cost": 0.00032296,
     "ms": 2126,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000323
    },
    "ok": true,
    "error": "",
@@ -3280,7 +3338,8 @@
     "tokens_out": 178,
     "cost": 0.00023518,
     "ms": 1772,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000235
    },
    "ok": true,
    "error": "",
@@ -3441,7 +3500,8 @@
     "tokens_out": 266,
     "cost": 0.00041558,
     "ms": 2381,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000416
    },
    "ok": true,
    "error": "",
@@ -3564,7 +3624,8 @@
     "tokens_out": 146,
     "cost": 0.00028116,
     "ms": 1664,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000281
    },
    "ok": true,
    "error": "",
@@ -3700,7 +3761,8 @@
     "tokens_out": 298,
     "cost": 0.00035926,
     "ms": 2799,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000359
    },
    "ok": true,
    "error": "",
@@ -3818,7 +3880,8 @@
     "tokens_out": 113,
     "cost": 0.00031922,
     "ms": 1661,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000319
    },
    "ok": true,
    "error": "",
@@ -3949,7 +4012,8 @@
     "tokens_out": 166,
     "cost": 0.00033572,
     "ms": 1915,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000336
    },
    "ok": true,
    "error": "",
@@ -4085,7 +4149,8 @@
     "tokens_out": 172,
     "cost": 0.00031482,
     "ms": 2071,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000315
    },
    "ok": true,
    "error": "",
@@ -4231,7 +4296,8 @@
     "tokens_out": 173,
     "cost": 0.00029854,
     "ms": 2354,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000299
    },
    "ok": true,
    "error": "",
@@ -4377,7 +4443,8 @@
     "tokens_out": 215,
     "cost": 0.00034518,
     "ms": 2740,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000345
    },
    "ok": true,
    "error": "",
@@ -4503,7 +4570,8 @@
     "tokens_out": 174,
     "cost": 0.00033044,
     "ms": 1950,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.00033
    },
    "ok": true,
    "error": "",
@@ -4652,7 +4720,8 @@
     "tokens_out": 154,
     "cost": 0.0,
     "ms": 1767,
-    "cached": 1
+    "cached": 1,
+    "list_cost": 0.000355
    },
    "ok": true,
    "error": "",
@@ -4775,7 +4844,8 @@
     "tokens_out": 129,
     "cost": 0.00023518,
     "ms": 2116,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000235
    },
    "ok": true,
    "error": "",
@@ -4885,7 +4955,8 @@
     "tokens_out": 2000,
     "cost": 0.0007139,
     "ms": 14091,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000714
    },
    "ok": false,
    "error": "model reply missing or incomplete",
@@ -5076,7 +5147,8 @@
     "tokens_out": 283,
     "cost": 0.000429,
     "ms": 2546,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000429
    },
    "ok": true,
    "error": "",
@@ -5222,7 +5294,8 @@
     "tokens_out": 209,
     "cost": 0.00035794,
     "ms": 2628,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000358
    },
    "ok": true,
    "error": "",
@@ -5340,7 +5413,8 @@
     "tokens_out": 93,
     "cost": 0.0,
     "ms": 1005,
-    "cached": 1
+    "cached": 1,
+    "list_cost": 0.000269
    },
    "ok": true,
    "error": "",
@@ -5486,7 +5560,8 @@
     "tokens_out": 259,
     "cost": 0.00038192,
     "ms": 3104,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000382
    },
    "ok": true,
    "error": "",
@@ -5612,7 +5687,8 @@
     "tokens_out": 158,
     "cost": 0.0003146,
     "ms": 2129,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000315
    },
    "ok": true,
    "error": "",
@@ -5758,7 +5834,8 @@
     "tokens_out": 256,
     "cost": 0.0003575,
     "ms": 3077,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000358
    },
    "ok": true,
    "error": "",
@@ -5904,7 +5981,8 @@
     "tokens_out": 208,
     "cost": 0.00035288,
     "ms": 2517,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000353
    },
    "ok": true,
    "error": "",
@@ -6100,7 +6178,8 @@
     "tokens_out": 272,
     "cost": 0.0004026,
     "ms": 2944,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000403
    },
    "ok": true,
    "error": "",
@@ -6216,7 +6295,8 @@
     "tokens_out": 153,
     "cost": 0.0002277,
     "ms": 1915,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000228
    },
    "ok": true,
    "error": "",
@@ -6362,7 +6442,8 @@
     "tokens_out": 217,
     "cost": 0.00034694,
     "ms": 2406,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000347
    },
    "ok": true,
    "error": "",
@@ -6498,7 +6579,8 @@
     "tokens_out": 159,
     "cost": 0.0,
     "ms": 1700,
-    "cached": 1
+    "cached": 1,
+    "list_cost": 0.000268
    },
    "ok": true,
    "error": "",
@@ -6619,7 +6701,8 @@
     "tokens_out": 125,
     "cost": 0.00028446,
     "ms": 1739,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000284
    },
    "ok": true,
    "error": "",
@@ -6765,7 +6848,8 @@
     "tokens_out": 153,
     "cost": 0.0,
     "ms": 2437,
-    "cached": 1
+    "cached": 1,
+    "list_cost": 0.000412
    },
    "ok": true,
    "error": "",
@@ -6901,7 +6985,8 @@
     "tokens_out": 326,
     "cost": 0.00032626,
     "ms": 4068,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000326
    },
    "ok": true,
    "error": "",
@@ -7024,7 +7109,8 @@
     "tokens_out": 122,
     "cost": 0.00024882,
     "ms": 2402,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000249
    },
    "ok": true,
    "error": "",
@@ -7185,7 +7271,8 @@
     "tokens_out": 286,
     "cost": 0.0,
     "ms": 9200,
-    "cached": 1
+    "cached": 1,
+    "list_cost": 0.000387
    },
    "ok": true,
    "error": "",
@@ -7321,7 +7408,8 @@
     "tokens_out": 178,
     "cost": 0.00036542,
     "ms": 2713,
-    "cached": 0
+    "cached": 0,
+    "list_cost": 0.000365
    },
    "ok": true,
    "error": "",

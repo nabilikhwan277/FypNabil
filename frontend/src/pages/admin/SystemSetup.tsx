@@ -242,7 +242,7 @@ function Setup({ d, c, onResults, reloadConfig }: { d: EvalSummary; c: AdminConf
       <Section title="Results of this configuration" note={runLabel({ system: choice.system, model_label: model?.label ?? '', rag: uses.rag ? choice.rag : '', react: uses.react ? choice.react : '', memory: choice.memory })}>
         {mine.length ? (
           <Table
-            head={['Data set', 'Answers', 'QWK', 'Exact', 'Within 1 mark', 'MAE', 'Faithfulness (E2)', 'Success', 'API spend / 100', 'Time / answer', 'Date']}
+            head={['Data set', 'Answers', 'QWK', 'Exact', 'Within 1 mark (2+ marks)', 'MAE', 'Faithfulness (E2)', 'Success', 'API spend / 100', 'Time / answer', 'Date']}
             rows={mine.map((r) => [
               dataLabel(r),
               r.n,
@@ -304,7 +304,7 @@ function Setup({ d, c, onResults, reloadConfig }: { d: EvalSummary; c: AdminConf
 
       <Section title="All evaluated configurations" note={`Best first by QWK with the teachers' marks${ranked[0]?.data === 'silver' ? ' (silver set: no teacher runs yet)' : ''}. API spend is what the run cost; answers repeated from the cache are free, so a rerun shows $0. Select one to see it above.`}>
         <Table
-          head={['Configuration', 'Data set', 'QWK', 'Exact', 'Within 1 mark', 'API spend / 100', '']}
+          head={['Configuration', 'Data set', 'QWK', 'Exact', 'Within 1 mark (2+ marks)', 'API spend / 100', '']}
           rows={ranked.map((r) => [
             <span className="font-bold text-ink">
               {runLabel(r)}

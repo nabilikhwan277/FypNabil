@@ -74,7 +74,7 @@ def _pct(v) -> str:
 def markdown(o: dict) -> str:
     md = ["# Open-weight vs API models (Phase 3)", "", f"Same setup for every model: {o['setup']}. QWK [95% bootstrap CI]; "
           "change = paired difference from the best run of all experiments (**bold** = significant).", "",
-          "## Marking", "", "| Model | Where it ran | QWK [95% CI] | Change from best | Exact | Within 1 mark | "
+          "## Marking", "", "| Model | Where it ran | QWK [95% CI] | Change from best | Exact | Within 1 mark (2+ marks) | "
           + " | ".join(f"QWK {v}" for v in SUBJ.values()) + " |", "|---|---|---|---|---|---|" + "---|" * len(SUBJ)]
     for x in o["rows"]:
         c = x["colab"] or {}

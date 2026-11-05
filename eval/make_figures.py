@@ -98,7 +98,7 @@ def main() -> None:
                          f"QWK with a 95% bootstrap interval; * = significantly different from the final system ({st['best']}).", ""]
 
     def table(title, cfgs, extra=()):
-        tables.extend([f"## {title}", "", "| Configuration | QWK | 95% CI | Exact | Within 1 mark | vs final system (p) |"
+        tables.extend([f"## {title}", "", "| Configuration | QWK | 95% CI | Exact | Within 1 mark (2+ marks) | vs final system (p) |"
                        + "".join(f" {h} |" for h, _ in extra), "|---|---|---|---|---|---|" + "---|" * len(extra)])
         for c in cfgs:
             r = runs[c]

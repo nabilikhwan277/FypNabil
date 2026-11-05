@@ -507,7 +507,7 @@ def report() -> None:
     chosen = res["chosen"]["name"]
     c = res["configs"][chosen]
     o = c["overall"]
-    head = ("| Group | n | Exact | Within 1 mark | MAE (marks) | MAE % | QWK | Criterion acc | Over-marked | Under-marked |\n"
+    head = ("| Group | n | Exact | Within 1 mark (2+ marks) | MAE (marks) | MAE % | QWK | Criterion acc | Over-marked | Under-marked |\n"
             "|---|---|---|---|---|---|---|---|---|---|")
     by_kind: dict[str, int] = defaultdict(int)
     by_subject: dict[str, int] = defaultdict(int)
@@ -549,7 +549,7 @@ def report() -> None:
     agr_target = f"{agr['qwk']:.3f}" if agr else "n/a"
     md += ["## 5. Blueprint targets", "", "| Measure | Target | Result | Met? |", "|---|---|---|---|",
            f"| QWK with teacher marks | at least 0.70 | {o['qwk_band']:.3f} | {'yes' if o['qwk_band'] >= 0.70 else 'no'} |",
-           f"| Adjacent agreement (within 1 mark) | at least 85% | {o['within_1']:.1%} | {'yes' if o['within_1'] >= 0.85 else 'no'} |",
+           f"| Adjacent agreement (within 1 mark, answers worth 2+ marks) | at least 85% | {o['within_1']:.1%} | {'yes' if o['within_1'] >= 0.85 else 'no'} |",
            f"| MAE | low | {o['mae_marks']:.2f} marks ({o['mae_pct']}%) | - |",
            f"| Teacher vs teacher QWK, mean of pairs (for comparison) | - | {agr_target} | - |", ""]
     md += ["## 6. Largest disagreements", "", "| ID | Type | Answer | Teachers | System | Max |", "|---|---|---|---|---|---|"]

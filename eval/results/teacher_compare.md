@@ -4,11 +4,11 @@ Answers: 50 · fully agreed answers: 16 · agreed criteria: 40
 
 ## Human baseline (teacher vs teacher)
 
-| Pair | QWK | Exact | Within 1 mark | MAE |
+| Pair | QWK | Exact | Within 1 mark (2+ marks) | MAE |
 |---|---|---|---|---|
-| guru_1 vs guru_2 | 0.497 | 48.0% | 76.0% | 0.82 |
-| guru_1 vs guru_3 | 0.516 | 54.0% | 76.0% | 0.69 |
-| guru_2 vs guru_3 | 0.334 | 44.0% | 78.0% | 0.83 |
+| guru_1 vs guru_2 | 0.497 | 48.0% | 64.7% | 0.82 |
+| guru_1 vs guru_3 | 0.516 | 54.0% | 64.7% | 0.69 |
+| guru_2 vs guru_3 | 0.334 | 44.0% | 67.6% | 0.83 |
 
 ## System vs teachers
 
