@@ -132,10 +132,12 @@ def main(sample: int, split: str = "test") -> None:
     head = ("| Group | n | Exact | Within 1 mark | MAE (marks) | MAE % | QWK | Criterion acc | Over-marked | Under-marked |\n"
             "|---|---|---|---|---|---|---|---|---|---|")
     chosen = a["chosen"]["name"]
-    md = [f"# Phase 7 evaluation ({split} split)", "",
-          "> Labels are **silver**: AI-written answers marked by an AI 'strict teacher', plus rule-built "
-          "answers whose mark is known by construction. They are NOT teacher marks. Treat these as a "
-          "development estimate; the thesis figures must come from teacher-marked answers.", "",
+    label_note = ("> Labels are **teacher marks**: two KAFA teachers marked each answer independently and settled "
+                  "disagreements together (see data/teacher/agreement.md)." if split == "teacher" else
+                  "> Labels are **silver**: AI-written answers marked by an AI 'strict teacher', plus rule-built "
+                  "answers whose mark is known by construction. They are NOT teacher marks. Treat these as a "
+                  "development estimate; the thesis figures must come from teacher-marked answers.")
+    md = [f"# Phase 7 evaluation ({split} split)", "", label_note, "",
           f"Chosen configuration: `{chosen}` (Tahap 1 `{a['chosen']['l1']['method']}`, "
           f"Tahap 2/3 `{a['chosen']['l23']['method']}`), tuned on train only.", "",
           "## Overall", "", head]

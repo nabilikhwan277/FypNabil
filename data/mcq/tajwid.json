@@ -1,0 +1,3221 @@
+{
+ "tajwid_b1_mad_bahagian_q1": {
+  "stem_rumi": "Apakah erti mad pada bahasa?",
+  "stem_jawi": "اڤاكه ارتي مد ڤد بهاس؟",
+  "options": [
+   {
+    "rumi": "Menyebut huruf dengan betul",
+    "jawi": "مڽبوت حروف دڠن بتول"
+   },
+   {
+    "rumi": "Menyambungkan dua huruf",
+    "jawi": "مڽامبوڠكن دوا حروف"
+   },
+   {
+    "rumi": "Memendekkan suara",
+    "jawi": "ممندككن سوارا"
+   },
+   {
+    "rumi": "Memanjangkan suara",
+    "jawi": "ممنجڠكن سوارا"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut buku teks, erti mad pada bahasa ialah memanjangkan suara.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b1_mad_bahagian_q2": {
+  "stem_rumi": "Berapakah bilangan huruf mad?",
+  "stem_jawi": "براڤاكه بيلڠن حروف مد؟",
+  "options": [
+   {
+    "rumi": "Tiga",
+    "jawi": "تيݢ"
+   },
+   {
+    "rumi": "Empat",
+    "jawi": "امڤت"
+   },
+   {
+    "rumi": "Dua",
+    "jawi": "دوا"
+   },
+   {
+    "rumi": "Lima",
+    "jawi": "ليما"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Huruf mad ada tiga, iaitu alif, wau dan ya yang memenuhi syarat tertentu.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b1_mad_bahagian_q3": {
+  "stem_rumi": "Berapakah bahagian mad?",
+  "stem_jawi": "براڤاكه بهاݢين مد؟",
+  "options": [
+   {
+    "rumi": "Empat bahagian",
+    "jawi": "امڤت بهاݢين"
+   },
+   {
+    "rumi": "Dua bahagian",
+    "jawi": "دوا بهاݢين"
+   },
+   {
+    "rumi": "Satu bahagian",
+    "jawi": "ساتو بهاݢين"
+   },
+   {
+    "rumi": "Tiga bahagian",
+    "jawi": "تيݢ بهاݢين"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad terbahagi kepada dua bahagian, iaitu mad asli dan mad far'i.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b1_mad_bahagian_q4": {
+  "stem_rumi": "Apakah baris huruf sebelum wau mati supaya ia menjadi huruf mad?",
+  "stem_jawi": "اڤاكه باريس حروف سبلوم واو ماتي سوڤاي اي منجادي حروف مد؟",
+  "options": [
+   {
+    "rumi": "Berbaris atas",
+    "jawi": "برباريس اتس"
+   },
+   {
+    "rumi": "Berbaris bawah",
+    "jawi": "برباريس باوه"
+   },
+   {
+    "rumi": "Berbaris depan",
+    "jawi": "برباريس دڤن"
+   },
+   {
+    "rumi": "Berbaris dua depan",
+    "jawi": "برباريس دوا دڤن"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Wau yang mati menjadi huruf mad asli apabila huruf sebelumnya berbaris depan (dhammah).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b1_mad_bahagian_q5": {
+  "stem_rumi": "Antara berikut, yang manakah erti mad pada bahasa dan pada istilah yang betul?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه ارتي مد ڤد بهاس دان ڤد ايستيله يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Pada bahasa: menyebut huruf dengan betul. Pada istilah: membaca Al-Quran dengan tartil.",
+    "jawi": "ڤد بهاس: مڽبوت حروف دڠن بتول. ڤد ايستيله: ممباچ القرآن دڠن ترتيل."
+   },
+   {
+    "rumi": "Pada bahasa: memendekkan suara. Pada istilah: memendekkan bacaan pada huruf-huruf mad.",
+    "jawi": "ڤد بهاس: ممندقكن سوارا. ڤد ايستيله: ممندقكن باچاٴن ڤد حروف٢ مد."
+   },
+   {
+    "rumi": "Pada bahasa: berhenti sebentar. Pada istilah: menyambung dua huruf dengan baris.",
+    "jawi": "ڤد بهاس: برهنتي سبنتر. ڤد ايستيله: مڽمبوڠ دوا حروف دڠن باريس."
+   },
+   {
+    "rumi": "Pada bahasa: memanjangkan suara. Pada istilah: memanjangkan bacaan atau suara pada huruf-huruf mad.",
+    "jawi": "ڤد بهاس: ممنجڠكن سوارا. ڤد ايستيله: ممنجڠكن باچاٴن اتاو سوارا ڤد حروف٢ مد."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan erti mad pada bahasa ialah memanjangkan suara, dan pada istilah ialah memanjangkan bacaan atau suara pada huruf-huruf mad.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b1_mad_bahagian_q6": {
+  "stem_rumi": "Antara berikut, yang manakah senarai huruf-huruf mad yang betul?",
+  "stem_jawi": "أنتارا بريكوت، يڠ ماناكه سناراي حروف٢ مد يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Alif (ا), wau (و) dan ya (ي).",
+    "jawi": "اليف (ا)، واو (و) دان ياء (ي)."
+   },
+   {
+    "rumi": "Ta (ت), ha (ه) dan mim (م).",
+    "jawi": "تا (ت)، ها (ه) دان ميم (م)."
+   },
+   {
+    "rumi": "Nun (ن), lam (ل) dan dal (د).",
+    "jawi": "نون (ن)، لام (ل) دان دال (د)."
+   },
+   {
+    "rumi": "Alif (ا), ba (ب) dan ya (ي).",
+    "jawi": "اليف (ا)، با (ب) دان ياء (ي)."
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Huruf mad ada tiga, iaitu alif, wau dan ya yang mati dan didahului baris yang sesuai.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_harfi_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan mad asli harfi?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد اصلي حرفي؟",
+  "options": [
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut nota buku teks, kadar panjang bacaan mad asli harfi ialah dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_harfi_q2": {
+  "stem_rumi": "Berapakah bilangan huruf mad tabi'i harfi?",
+  "stem_jawi": "براڤاكه بيلڠن حروف مد طبيعي حرفي؟",
+  "options": [
+   {
+    "rumi": "Lima",
+    "jawi": "ليم"
+   },
+   {
+    "rumi": "Enam",
+    "jawi": "انم"
+   },
+   {
+    "rumi": "Empat",
+    "jawi": "امڤت"
+   },
+   {
+    "rumi": "Tiga",
+    "jawi": "تيݢ"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Huruf mad tabi'i harfi ada lima, iaitu ح, ي, ط, ه dan ر, yang boleh diingat melalui (حَيٌّ طَهُرَ).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_harfi_q3": {
+  "stem_rumi": "Dalam surah apakah terdapat pembuka surah كٓهيعٓصٓ?",
+  "stem_jawi": "دالم سورة اڤاكه ترداڤت ڤمبوك سورة كٓهيعٓصٓ؟",
+  "options": [
+   {
+    "rumi": "Surah Taha",
+    "jawi": "سورة طه"
+   },
+   {
+    "rumi": "Surah Maryam",
+    "jawi": "سورة مريم"
+   },
+   {
+    "rumi": "Surah Yasin",
+    "jawi": "سورة يس"
+   },
+   {
+    "rumi": "Surah Fussilat",
+    "jawi": "سورة فصلت"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Pembuka surah كٓهيعٓصٓ terdapat dalam Surah Maryam, seperti yang dinyatakan dalam nota mithal mad asli harfi.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_harfi_q4": {
+  "stem_rumi": "Apakah erti mad asli harfi?",
+  "stem_jawi": "اڤاكه ارتي مد اصلي حرفي؟",
+  "options": [
+   {
+    "rumi": "Huruf di tengah ayat yang dibaca satu harakat.",
+    "jawi": "حروف دتڠه ايات يڠ دباچ ساتو حركة."
+   },
+   {
+    "rumi": "Bacaan mad yang bersambung dengan hamzah dalam satu kalimah.",
+    "jawi": "باچاٴن مد يڠ بريسمبوڠ دڠن همزه دالم ساتو كلمه."
+   },
+   {
+    "rumi": "Huruf di awal surah yang dieja dua huruf.",
+    "jawi": "حروف دأول سورة يڠ دأيجا دوا حروف."
+   },
+   {
+    "rumi": "Huruf yang tidak dibaca ketika berhenti di hujung ayat.",
+    "jawi": "حروف يڠ تيدق دباچ ڤد حجوڠ ايات."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mad asli harfi ialah huruf di awal surah yang dieja dua huruf, contohnya حمٓ dibaca Ha, Mim (حا، ميم).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_harfi_q5": {
+  "stem_rumi": "Antara berikut, yang manakah senarai lima huruf mad asli harfi?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه سناراي ليم حروف مد اصلي حرفي؟",
+  "options": [
+   {
+    "rumi": "ل، م، ن، ق، ص",
+    "jawi": "ل، م، ن، ق، ص"
+   },
+   {
+    "rumi": "ا، ب، ت، ث، ج",
+    "jawi": "ا، ب، ت، ث، ج"
+   },
+   {
+    "rumi": "س، ع، ك، ف، ق",
+    "jawi": "س، ع، ك، ف، ق"
+   },
+   {
+    "rumi": "ح، ي، ط، ه، ر",
+    "jawi": "ح، ي، ط، ه، ر"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Huruf mad asli harfi ialah ح، ي، ط، ه، ر yang dihimpunkan dalam حَيٌّ طَهُرَ.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_kalimi_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan mad asli kalimi?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد اصلي كلمي؟",
+  "options": [
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   },
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Buku teks menyatakan bahawa kadar panjang bacaan mad asli kalimi ialah dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_kalimi_q2": {
+  "stem_rumi": "Nyatakan satu nama lain bagi mad asli.",
+  "stem_jawi": "ڽاتاكن ساتو نام لاٴين باݢي مد اصلي.",
+  "options": [
+   {
+    "rumi": "Mad jaiz munfasil",
+    "jawi": "مد جائز منفصل"
+   },
+   {
+    "rumi": "Mad tabi'i atau mad zati",
+    "jawi": "مد طبيعي اتاو مد ذاتي"
+   },
+   {
+    "rumi": "Mad wajib muttasil",
+    "jawi": "مد واجب متصل"
+   },
+   {
+    "rumi": "Mad 'arid lis-sukun",
+    "jawi": "مد عارض للسكون"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Buku teks menyatakan bahawa nama lain bagi mad asli ialah mad tabi'i atau mad zati.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_kalimi_q3": {
+  "stem_rumi": "Adakah mad asli dimadkan apabila bertemu hamzah wasal ketika dibaca wasal?",
+  "stem_jawi": "اداكه مد اصلي دمدكن اڤابيلا برتمو همزة وصل كتيک دباچ وصل؟",
+  "options": [
+   {
+    "rumi": "Ya, dimadkan selama enam harakat",
+    "jawi": "يا، دمدكن سلام انم حركة"
+   },
+   {
+    "rumi": "Ya, dimadkan selama dua harakat",
+    "jawi": "يا، دمدكن سلام دوا حركة"
+   },
+   {
+    "rumi": "Tidak dimadkan",
+    "jawi": "تيدق دمدكن"
+   },
+   {
+    "rumi": "Ya, dimadkan selama empat harakat",
+    "jawi": "يا، دمدكن سلام امڤت حركة"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mad asli yang bertemu hamzah wasal tidak dimadkan ketika dibaca wasal, seperti dalam ayat رَبَّنَا ٱغْفِرْ لَنَا.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b2_mad_asli_kalimi_q4": {
+  "stem_rumi": "Apakah erti mad asli kalimi?",
+  "stem_jawi": "اڤاكه ارتي مد اصلي كلمي؟",
+  "options": [
+   {
+    "rumi": "Huruf mad yang hanya berada di hujung ayat.",
+    "jawi": "حروف مد يڠ هانيا برادا دهوجوڠ اية."
+   },
+   {
+    "rumi": "Mad yang berlaku apabila huruf mad bertemu huruf hamzah selepasnya dalam satu kalimah.",
+    "jawi": "مد يڠ برلاكو اڤابيلا حروف مد برتمو حروف همزة سلڤسڽ دالم ساتو كليمه."
+   },
+   {
+    "rumi": "Mad yang dibaca sepanjang enam harakat.",
+    "jawi": "مد يڠ دباچ سڤنجڠ انم حركة."
+   },
+   {
+    "rumi": "Pertemuan huruf mad dengan salah satu daripada huruf hijaiyah dalam satu kalimah, dan selepas huruf mad itu bukan huruf hamzah atau huruf yang mati.",
+    "jawi": "ڤرتموان حروف مد دڠن ساله ساتو درڤد حروف هجائية دالم ساتو كليمه دان سلڤس حروف مد ايت بوكن حروف همزة اتاو حروف يڠ ماتي."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad asli kalimi ialah huruf mad yang bertemu dengan huruf hijaiyah dalam satu kalimah tanpa diikuti hamzah atau huruf mati, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_aridh_lissukun_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad 'Aridh Lissukun?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد عارض للسكون؟",
+  "options": [
+   {
+    "rumi": "Dua atau empat atau enam harakat",
+    "jawi": "دوا اتاو امڤت اتاو انم حركة"
+   },
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   },
+   {
+    "rumi": "Lapan harakat",
+    "jawi": "لڤن حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Buku teks menyatakan kadar panjang bacaan Mad 'Aridh Lissukun ialah dua, empat atau enam harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_aridh_lissukun_q2": {
+  "stem_rumi": "Huruf mad dalam Mad 'Aridh Lissukun bertemu dengan huruf mati kerana apa?",
+  "stem_jawi": "حروف مد دالم مد عارض للسكون برتمو دڠن حروف ماتي كران اڤ؟",
+  "options": [
+   {
+    "rumi": "Kerana idgham (lebur bacaan)",
+    "jawi": "كران إدݢام (لبور باچاءن)"
+   },
+   {
+    "rumi": "Kerana waqaf (berhenti bacaan)",
+    "jawi": "كران وقف (برهنتي باچاءن)"
+   },
+   {
+    "rumi": "Kerana tajwid (bacaan yang betul)",
+    "jawi": "كران تجويد (باچاءن يڠ بتول)"
+   },
+   {
+    "rumi": "Kerana washal (sambung bacaan)",
+    "jawi": "كران وصل (سمبوڠ باچاءن)"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad 'Aridh Lissukun ialah apabila huruf mad bertemu huruf mati kerana waqaf (berhenti bacaan).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_aridh_lissukun_q3": {
+  "stem_rumi": "Nyatakan huruf mad bagi kalimah يُنفِقُونَ apabila diwaqafkan.",
+  "stem_jawi": "ڽاتاكن حروف مد باݢي كليمه يُنفِقُونَ اڤابيلا دوقفكن.",
+  "options": [
+   {
+    "rumi": "Huruf alif (ا)",
+    "jawi": "حروف اليف (ا)"
+   },
+   {
+    "rumi": "Huruf ya (ي)",
+    "jawi": "حروف ياء (ي)"
+   },
+   {
+    "rumi": "Huruf wau (و)",
+    "jawi": "حروف واو (و)"
+   },
+   {
+    "rumi": "Huruf ha (ه)",
+    "jawi": "حروف ها (ه)"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Huruf wau (و) dalam kalimah يُنفِقُونَ ialah huruf mad yang bertemu dengan huruf mati kerana waqaf, maka ia dinamakan Mad 'Aridh Lissukun.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_aridh_lissukun_q4": {
+  "stem_rumi": "Nyatakan pengertian Mad 'Aridh Lissukun.",
+  "stem_jawi": "ڽاتاكن ڤڠرتين مد عارض للسكون.",
+  "options": [
+   {
+    "rumi": "Apabila huruf mad bertemu dengan huruf hamzah dalam satu kata.",
+    "jawi": "اڤابيلا حروف مد برتمو دڠن حمزه دالم ساتو كات."
+   },
+   {
+    "rumi": "Bacaan mendengung pada huruf nun atau mim bertasydid.",
+    "jawi": "باچاءن معندوڠ ڤد حروف نون أتاو ميم برتشديد."
+   },
+   {
+    "rumi": "Huruf mad yang dibaca pendek sahaja tanpa sebarang panjang bacaan.",
+    "jawi": "حروف مد يڠ دباچ ڤندق سهاج تنڤ سباراڠ ڤنجڠ باچاءن."
+   },
+   {
+    "rumi": "Apabila huruf mad bertemu dengan huruf mati kerana waqaf (berhenti bacaan).",
+    "jawi": "اڤابيلا حروف مد برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن)."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad 'Aridh Lissukun ialah apabila huruf mad bertemu dengan huruf mati kerana waqaf, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_aridh_lissukun_q5": {
+  "stem_rumi": "Mengapakah dinamakan Mad 'Aridh Lissukun?",
+  "stem_jawi": "مڠاڤاكه دناماكن مد عارض للسكون؟",
+  "options": [
+   {
+    "rumi": "Kerana huruf mad bertemu huruf berbaris ketika bacaan disambungkan.",
+    "jawi": "كران حروف مد برتمو حروف برحرکت كتيك باچاءن دسمبوڠكن."
+   },
+   {
+    "rumi": "Kerana huruf akhir dibaca mati secara asal sebelum waqaf.",
+    "jawi": "كران حروف اخير دباچ ماتي سچارا اصل سبلوم وقف."
+   },
+   {
+    "rumi": "Kerana bacaan mati pada huruf yang akhir itu adalah mati yang mendatang disebabkan bacaan yang diwaqafkan.",
+    "jawi": "كران باچاءن ماتي ڤد حروف يڠ اخير ايت اداله ماتي يڠ منداتڠ دسببكن باچاءن يڠ دوقفكن."
+   },
+   {
+    "rumi": "Kerana bacaan mati pada huruf yang akhir itu ialah mati asal sejak awal.",
+    "jawi": "كران باچاءن ماتي ڤد حروف يڠ اخير ايت اياله ماتي اصل سجق اول."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Bacaan mati pada huruf akhir itu ialah mati yang mendatang kerana bacaan diwaqafkan.",
+  "spelling": false,
+  "generated_by": "openai/gpt-6-luna",
+  "checked_by": "anthropic/claude-haiku-5.5",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_badal_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Badal?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد بدل؟",
+  "options": [
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Nota buku menyatakan kadar panjang bacaan Mad Badal ialah dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_badal_q2": {
+  "stem_rumi": "Jika hamzah pertama berbaris atas, hamzah kedua digantikan dengan huruf apa?",
+  "stem_jawi": "جک همزة ڤرتام برباريس اتس، همزة كدوا دݢنتيكن دڠن حروف اڤ؟",
+  "options": [
+   {
+    "rumi": "Huruf wau",
+    "jawi": "حروف واو"
+   },
+   {
+    "rumi": "Huruf ya",
+    "jawi": "حروف ياء"
+   },
+   {
+    "rumi": "Huruf alif",
+    "jawi": "حروف اليف"
+   },
+   {
+    "rumi": "Huruf ta",
+    "jawi": "حروف تاء"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mengikut nota buku, jika hamzah pertama berbaris atas, hamzah kedua digantikan dengan huruf alif.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_badal_q3": {
+  "stem_rumi": "Jika hamzah pertama berbaris depan, hamzah kedua digantikan dengan huruf apa?",
+  "stem_jawi": "جک همزة ڤرتام برباريس دڤن، همزة كدوا دݢنتيكن دڠن حروف اڤ؟",
+  "options": [
+   {
+    "rumi": "Huruf alif",
+    "jawi": "حروف اليف"
+   },
+   {
+    "rumi": "Huruf nun",
+    "jawi": "حروف نون"
+   },
+   {
+    "rumi": "Huruf ya",
+    "jawi": "حروف ياء"
+   },
+   {
+    "rumi": "Huruf wau",
+    "jawi": "حروف واو"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mengikut nota buku teks, jika hamzah pertama berbaris depan, hamzah kedua digantikan dengan huruf wau.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_badal_q4": {
+  "stem_rumi": "Apakah erti Mad Badal?",
+  "stem_jawi": "اڤاكه ارتي مد بدل؟",
+  "options": [
+   {
+    "rumi": "Dua hamzah berhimpun dalam satu kalimah dan hamzah kedua diganti dengan huruf mad mengikut baris hamzah pertama.",
+    "jawi": "دوا همزة برهيمڤون دالم ساتو كليمه دان همزة كدوا دݢنتي دڠن حروف مد مڠيكوت باريس همزة ڤرتام."
+   },
+   {
+    "rumi": "Huruf mad yang bertemu hamzah di hujung kalimah dan dibaca pendek.",
+    "jawi": "حروف مد يڠ برتمو همزة دحوجوڠ كليمه دان دباچ ڤندق."
+   },
+   {
+    "rumi": "Huruf mad yang dibaca sebanyak enam harakat apabila bertemu hamzah.",
+    "jawi": "حروف مد يڠ دباچ سباڽق انم حركة اڤابيلا برتمو همزة."
+   },
+   {
+    "rumi": "Dua huruf mad yang berhimpun dalam satu kalimah tanpa sebarang hamzah.",
+    "jawi": "دوا حروف مد يڠ برهيمڤون دالم ساتو كليمه تانڤا سباڠ همزة."
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad Badal berlaku apabila dua hamzah berhimpun dalam satu kalimah, dan hamzah kedua diganti dengan huruf mad mengikut baris hamzah pertama.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_fari_pengenalan_q1": {
+  "stem_rumi": "Berapakah bahagian mad far'i?",
+  "stem_jawi": "براڤاكه بهاݢين مد فرعي؟",
+  "options": [
+   {
+    "rumi": "Tiga bahagian",
+    "jawi": "تيݢ بهاݢين"
+   },
+   {
+    "rumi": "Dua bahagian",
+    "jawi": "دوا بهاݢين"
+   },
+   {
+    "rumi": "Empat bahagian",
+    "jawi": "امڤت بهاݢين"
+   },
+   {
+    "rumi": "Enam bahagian",
+    "jawi": "انم بهاݢين"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad far'i mempunyai dua bahagian, iaitu bahagian yang disebabkan huruf hamzah dan bahagian yang disebabkan huruf mati selepas huruf mad.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_fari_pengenalan_q2": {
+  "stem_rumi": "Bagaimanakah kadar panjang bacaan mad far'i ditentukan?",
+  "stem_jawi": "باݢايماناكه قدر ڤنجڠ باچاٴن مد فرعي دتنتوكن؟",
+  "options": [
+   {
+    "rumi": "Mengikut bilangan ayat dalam surah",
+    "jawi": "مڠيكوت بيلڠن ايت دالم سورة"
+   },
+   {
+    "rumi": "Mengikut panjang nama surah",
+    "jawi": "مڠيكوت ڤنجڠ نام سورة"
+   },
+   {
+    "rumi": "Mengikut jenis mad yang terbentuk",
+    "jawi": "مڠيكوت جنيس مد يڠ تربنتوق"
+   },
+   {
+    "rumi": "Mengikut bunyi harakat pada huruf",
+    "jawi": "مڠيكوت بوڽي هركة ڤد حروف"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Kadar panjang bacaan mad far'i adalah mengikut jenis mad yang terbentuk, seperti mad wajib muttasil atau mad jaiz munfasil.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_fari_pengenalan_q3": {
+  "stem_rumi": "Apakah sebab terbentuknya mad far'i bahagian kedua?",
+  "stem_jawi": "اڤاكه سبب تربنتوقڽ مد فرعي بهاݢين كدوا؟",
+  "options": [
+   {
+    "rumi": "Terdapat huruf hamzah sebelum huruf mad",
+    "jawi": "ترداڤت حروف همزة سبلوم حروف مد"
+   },
+   {
+    "rumi": "Tiada huruf selepas huruf mad",
+    "jawi": "تياد حروف سلڤس حروف مد"
+   },
+   {
+    "rumi": "Terdapat huruf hamzah selepas huruf mad",
+    "jawi": "ترداڤت حروف همزة سلڤس حروف مد"
+   },
+   {
+    "rumi": "Terdapat huruf mati selepas huruf mad",
+    "jawi": "ترداڤت حروف ماتي سلڤس حروف مد"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad far'i bahagian kedua terbentuk apabila terdapat huruf mati selepas huruf mad, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_fari_pengenalan_q4": {
+  "stem_rumi": "Nyatakan pengertian mad far'i.",
+  "stem_jawi": "نياتاكن ڤڠرتين مد فرعي.",
+  "options": [
+   {
+    "rumi": "Bacaan huruf yang didengungkan melalui hidung.",
+    "jawi": "باچاءن حروف يڠ دڠوڠكن ملالوي هيدوڠ."
+   },
+   {
+    "rumi": "Mad yang terjadi disebabkan terdapat huruf mati sebelum huruf mad sahaja.",
+    "jawi": "مد يڠ ترجادي دسببكن ترداڤت حروف ماتي سبلوم حروف مد سهاج."
+   },
+   {
+    "rumi": "Mad yang terjadi tanpa sebab apa-apa dan panjangnya dua harakat.",
+    "jawi": "مد يڠ ترجادي تنڤ سبب اڤ-اڤ دان ڤنجڠڽ دوا هركة."
+   },
+   {
+    "rumi": "Mad yang terjadi disebabkan terdapat huruf hamzah sebelum atau selepas huruf mad, atau terdapat huruf mati selepas huruf mad.",
+    "jawi": "مد يڠ ترجادي دسببكن ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد، اتاو ترداڤت حروف ماتي سلڤس حروف مد."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad far'i terbentuk apabila terdapat huruf hamzah sebelum atau selepas huruf mad, atau huruf mati selepas huruf mad.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_fari_pengenalan_q5": {
+  "stem_rumi": "Antara berikut, yang manakah hukum mad yang terbentuk dengan sebab terdapat huruf hamzah sebelum atau selepas huruf mad?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان٢كه حكوم مد يڠ تربنتوق دڠن سبب ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد؟",
+  "options": [
+   {
+    "rumi": "Mad Lazim Kalimi Muthaqqal",
+    "jawi": "مد لازم كلمي مثقل"
+   },
+   {
+    "rumi": "Mad Badal",
+    "jawi": "مد بدل"
+   },
+   {
+    "rumi": "Mad 'Arid Lissukun",
+    "jawi": "مد عارض للسكون"
+   },
+   {
+    "rumi": "Mad Lin",
+    "jawi": "مد لين"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad Badal termasuk dalam Bahagian Pertama mad far'i kerana ia terbentuk apabila terdapat huruf hamzah sebelum atau selepas huruf mad.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_farq_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Farq?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد فرق؟",
+  "options": [
+   {
+    "rumi": "Lima harakat",
+    "jawi": "ليما حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   },
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Buku teks menyatakan bahawa kadar panjang bacaan Mad Farq ialah enam harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_farq_q2": {
+  "stem_rumi": "Mad Farq termasuk dalam bahagian mad apa?",
+  "stem_jawi": "مد فرق ترماسوق دالم بهاݢين مد اڤ؟",
+  "options": [
+   {
+    "rumi": "Mad Wajib Muttasil",
+    "jawi": "مد واجب متصل"
+   },
+   {
+    "rumi": "Mad Asli",
+    "jawi": "مد اصلي"
+   },
+   {
+    "rumi": "Mad Jaiz Munfasil",
+    "jawi": "مد جائز منفصل"
+   },
+   {
+    "rumi": "Mad Lazim Kalimi",
+    "jawi": "مد لازم كلمي"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan bahawa Mad Farq termasuk dalam bahagian Mad Lazim Kalimi.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_farq_q3": {
+  "stem_rumi": "Berapakah bilangan kalimah Mad Farq dalam al-Quran dan di berapa tempat?",
+  "stem_jawi": "براڤاكه بيلڠن كليمه مد فرق دالم القرءان دان د براڤ تمڤت؟",
+  "options": [
+   {
+    "rumi": "Tiga kalimah dalam enam tempat",
+    "jawi": "تيݢ كليمه دالم انم تمڤت"
+   },
+   {
+    "rumi": "Lima kalimah dalam sepuluh tempat",
+    "jawi": "ليما كليمه دالم سڤولوه تمڤت"
+   },
+   {
+    "rumi": "Dua kalimah dalam empat tempat",
+    "jawi": "دوا كليمه دالم امڤت تمڤت"
+   },
+   {
+    "rumi": "Empat kalimah dalam lapan tempat",
+    "jawi": "امڤت كليمه دالم لاڤن تمڤت"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Buku teks menyatakan terdapat tiga kalimah sahaja dalam enam tempat yang berbeza dalam al-Quran.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_farq_q4": {
+  "stem_rumi": "Apakah erti Mad Farq?",
+  "stem_jawi": "اڤاكه ارتي مد فرق؟",
+  "options": [
+   {
+    "rumi": "Mad yang dibaca selama empat harakat kerana bertemu huruf hamzah",
+    "jawi": "مد يڠ دباچ سلاما امڤت حركة كران برتمو حروف همزة"
+   },
+   {
+    "rumi": "Mad yang berlaku apabila selepas hamzah qata' di permulaan kalimah terdapat hamzah wasal",
+    "jawi": "مد يڠ بربوات اڤابيلا سلڤس همزة قطع دڤرمولاءن كليمه ترداڤت همزة وصل"
+   },
+   {
+    "rumi": "Mad yang berlaku apabila huruf mim bertemu dengan ba' sukun",
+    "jawi": "مد يڠ بربوات اڤابيلا حروف ميم برتمو دڠن با سكون"
+   },
+   {
+    "rumi": "Mad yang berlaku apabila selepas hamzah wasal di permulaan kalimah terdapat hamzah qata'",
+    "jawi": "مد يڠ بربوات اڤابيلا سلڤس همزة وصل دڤرمولاءن كليمه ترداڤت همزة قطع"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad Farq ialah apabila selepas hamzah qata' di permulaan kalimah terdapat hamzah wasal, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_farq_q5": {
+  "stem_rumi": "Antara berikut, yang manakah cara membaca Mad Farq dengan tashil?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه چارا ممباچ مد فرق دڠن تسهيل؟",
+  "options": [
+   {
+    "rumi": "Membunyikan hamzah kedua dengan jelas seperti hamzah qata' tanpa sebarang bacaan mad.",
+    "jawi": "ممبوڤيکن همزة کدوا دڠن جلس سڤرتي همزة قطع تانڤ سباڠ باچاءن مد."
+   },
+   {
+    "rumi": "Membaca hamzah wasal dengan panjang dua harakat sahaja tanpa tashil.",
+    "jawi": "ممباچ همزة وصل دڠن ڤنجڠ دوا حركة ساهاج تانڤ تسهيل."
+   },
+   {
+    "rumi": "Membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama.",
+    "jawi": "ممبوڤيکن همزة کدوا انتارا بوڤي همزة دان اليف، تتاڤي باچاءن مد لبيه اوتام."
+   },
+   {
+    "rumi": "Menggugurkan hamzah kedua dan hanya membunyikan alif tanpa bacaan mad.",
+    "jawi": "مڠڬوگورکن همزة کدوا دان هاڽ ممبوڤيکن اليف تانڤ باچاءن مد."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menurut buku teks, tashil ialah membunyikan hamzah kedua antara bunyi hamzah dan alif, dengan bacaan mad tetap lebih diutamakan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_iwadh_q1": {
+  "stem_rumi": "Berapakah kadar bacaan Mad 'Iwadh?",
+  "stem_jawi": "براڤاكه قدر باچاءن مد عوض؟",
+  "options": [
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut buku teks, kadar panjang bacaan Mad 'Iwadh ialah dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_iwadh_q2": {
+  "stem_rumi": "Pada huruf apakah tanwin di atas tidak dibaca sebagai Mad 'Iwadh?",
+  "stem_jawi": "ڤد حروف اڤاكه تنوين دأتس تيدق دباچ سباݢاي مد عوض؟",
+  "options": [
+   {
+    "rumi": "Huruf ta marbutah",
+    "jawi": "حروف تاء مربوطة"
+   },
+   {
+    "rumi": "Huruf ha",
+    "jawi": "حروف ها"
+   },
+   {
+    "rumi": "Huruf alif",
+    "jawi": "حروف اليف"
+   },
+   {
+    "rumi": "Huruf nun",
+    "jawi": "حروف نون"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad 'Iwadh berlaku pada tanwin di atas kecuali pada huruf ta marbutah, menurut nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_iwadh_q3": {
+  "stem_rumi": "Mad 'Iwadh termasuk dalam bahagian mad apa?",
+  "stem_jawi": "مد عوض ترماسوق دالم بهاݢين مد اڤ؟",
+  "options": [
+   {
+    "rumi": "Mad Wajib Muttasil",
+    "jawi": "مد واجب متصل"
+   },
+   {
+    "rumi": "Mad Asli",
+    "jawi": "مد اصلي"
+   },
+   {
+    "rumi": "Mad Jaiz Munfasil",
+    "jawi": "مد جائز منفصل"
+   },
+   {
+    "rumi": "Mad Lazim Harfi",
+    "jawi": "مد لازم حرفي"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Tahukah Anda menyatakan bahawa Mad 'Iwadh hanya berlaku ketika waqaf dan termasuk dalam bahagian Mad Asli.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_iwadh_q4": {
+  "stem_rumi": "Berikan pengertian Mad 'Iwadh.",
+  "stem_jawi": "بريكن ڤڠرتين مد عوض.",
+  "options": [
+   {
+    "rumi": "Memanjangkan bacaan dua harakat apabila bertemu huruf mad dan sukun.",
+    "jawi": "ممڤنجڠكن باچاءن دوا حركة اڤابيلا برتمو حروف مد دان سكون."
+   },
+   {
+    "rumi": "Membaca dua huruf sukun berturut-turut dengan dengung yang panjang.",
+    "jawi": "ممباچ دوا حروف سكون برتوروت٢ دڠن دڠوڠ يڠ ڤنجڠ."
+   },
+   {
+    "rumi": "Mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas, kecuali pada huruf ta marbutah.",
+    "jawi": "مەوقفكن باچاءن ڤد اخير كليمه يڠ برباريس تنوين دأتس، كچوالي ڤد حروف تاء مربوطة."
+   },
+   {
+    "rumi": "Memanjangkan bacaan enam harakat apabila bertemu huruf hamzah dalam satu kalimah.",
+    "jawi": "ممڤنجڠكن باچاءن انم حركة اڤابيلا برتمو حروف همزه دالم ساتو كليمه."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mad 'Iwadh ialah apabila bacaan diwaqafkan pada akhir kalimah yang berbaris tanwin di atas, kecuali huruf ta marbutah, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_jaiz_munfasil_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Jaiz Munfasil?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد جائز منفصل؟",
+  "options": [
+   {
+    "rumi": "Enam atau tujuh harakat",
+    "jawi": "انم اتاو توجوه حركة"
+   },
+   {
+    "rumi": "Dua atau tiga harakat",
+    "jawi": "دوا اتاو تيݢ حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Empat atau lima harakat",
+    "jawi": "امڤت اتاو ليم حركة"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Nota buku teks menyatakan kadar panjang bacaan Mad Jaiz Munfasil ialah empat atau lima harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_jaiz_munfasil_q2": {
+  "stem_rumi": "Apakah erti Mad Jaiz Munfasil?",
+  "stem_jawi": "اڤاكه ارتي مد جائز منفصل؟",
+  "options": [
+   {
+    "rumi": "Apabila bertemu huruf mad dan hamzah dalam dua kalimah.",
+    "jawi": "اڤابيلا برتمو حروف مد دان همزة دالم دوا كليمه."
+   },
+   {
+    "rumi": "Apabila huruf mad bertemu huruf hidup dalam dua kalimah.",
+    "jawi": "اڤابيلا حروف مد برتمو حروف حيدوڤ دالم دوا كليمه."
+   },
+   {
+    "rumi": "Apabila bertemu huruf mad dan hamzah dalam satu kalimah.",
+    "jawi": "اڤابيلا برتمو حروف مد دان همزة دالم ساتو كليمه."
+   },
+   {
+    "rumi": "Apabila bertemu huruf mad dan huruf sukun dalam dua kalimah.",
+    "jawi": "اڤابيلا برتمو حروف مد دان حروف سكون دالم دوا كليمه."
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad Jaiz Munfasil berlaku apabila huruf mad di akhir kalimah pertama bertemu hamzah di awal kalimah berikutnya.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_jaiz_munfasil_q3": {
+  "stem_rumi": "Apabila kalimah pertama diwaqafkan, hukum Mad Jaiz Munfasil akan menjadi hukum apa?",
+  "stem_jawi": "اڤابيلا كليمه ڤرتام دواقفكن، حكوم مد جائز منفصل اكن منجادي حكوم اڤ؟",
+  "options": [
+   {
+    "rumi": "Mad Lazim Kalimi (enam harakat)",
+    "jawi": "مد لازم كلمي (انم حركة)"
+   },
+   {
+    "rumi": "Mad Asli Kalimi (dua harakat)",
+    "jawi": "مد اصلي كلمي (دوا حركة)"
+   },
+   {
+    "rumi": "Mad Jaiz Munfasil (empat atau lima harakat)",
+    "jawi": "مد جائز منفصل (امڤت اتاو ليم حركة)"
+   },
+   {
+    "rumi": "Mad Wajib Muttasil (empat atau lima harakat)",
+    "jawi": "مد واجب متصل (امڤت اتاو ليم حركة)"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Apabila kalimah pertama diwaqafkan, bacaan Mad Jaiz Munfasil menjadi Mad Asli Kalimi yang dibaca dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_jaiz_munfasil_q4": {
+  "stem_rumi": "Antara berikut, yang manakah erti munfasil?",
+  "stem_jawi": "انتارا بريكوت، يڠ ماناكه ارتي منفصل؟",
+  "options": [
+   {
+    "rumi": "Berhenti sebentar ketika membaca huruf mad",
+    "jawi": "برهنتي سبنتر كتيک ممباچ حروف مد"
+   },
+   {
+    "rumi": "Panjang bacaan dua harakat sahaja",
+    "jawi": "ڤنجڠ باچاٴن دوا حركة سهاج"
+   },
+   {
+    "rumi": "Berpisah antara huruf mad dan hamzah pada kalimah lain",
+    "jawi": "برڤيسه انتارا حروف مد دان همزة ڤد كليمه لاٴين"
+   },
+   {
+    "rumi": "Bersambung antara huruf mad dan hamzah dalam satu kalimah",
+    "jawi": "برسمبوڠ انتارا حروف مد دان همزة دالم ساتو كليمه"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Munfasil bermaksud berpisah antara huruf mad di akhir kalimah pertama dengan hamzah di awal kalimah yang lain.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_mukhaffaf_q1": {
+  "stem_rumi": "Bagaimanakah cara bacaan Mad Lazim Harfi Mukhaffaf?",
+  "stem_jawi": "باݢايماناكه چارا باچاءن مد لازم حرفي مخفف؟",
+  "options": [
+   {
+    "rumi": "Dibaca dengan dengung tanpa idgham",
+    "jawi": "دباچ دڠن دڠوڠ تنڤا إدغام"
+   },
+   {
+    "rumi": "Dibaca dengan empat harakat dan idgham",
+    "jawi": "دباچ دڠن امڤت حركة دان إدغام"
+   },
+   {
+    "rumi": "Dibaca dengan idgham dan dengung",
+    "jawi": "دباچ دڠن إدغام دان دڠن دڠوڠ"
+   },
+   {
+    "rumi": "Dibaca tanpa idgham dan tanpa dengung",
+    "jawi": "دباچ دڠن تنڤا إدغام دان تنڤا دڠوڠ"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan cara bacaannya ialah dibaca tanpa idgham dan tanpa dengung.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_mukhaffaf_q2": {
+  "stem_rumi": "Berapakah kadar bacaan Mad Lazim Harfi Mukhaffaf?",
+  "stem_jawi": "براڤاكه قدر باچاءن مد لازم حرفي مخفف؟",
+  "options": [
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   },
+   {
+    "rumi": "Lapan harakat",
+    "jawi": "لڤن حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   },
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad Lazim Harfi Mukhaffaf mesti dibaca enam harakat, kerana lazim bermaksud mesti dibaca enam harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_mukhaffaf_q3": {
+  "stem_rumi": "Berapakah bilangan huruf di permulaan surah?",
+  "stem_jawi": "براڤاكه بيلڠن حروف دڤرمولاءن سورة؟",
+  "options": [
+   {
+    "rumi": "8 huruf",
+    "jawi": "8 حروف"
+   },
+   {
+    "rumi": "14 huruf",
+    "jawi": "14 حروف"
+   },
+   {
+    "rumi": "6 huruf",
+    "jawi": "6 حروف"
+   },
+   {
+    "rumi": "12 huruf",
+    "jawi": "12 حروف"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Nota buku menyatakan bahawa huruf-huruf di permulaan surah ada 14 huruf, manakala lapan daripadanya ialah huruf Mad Lazim Harfi.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_mukhaffaf_q4": {
+  "stem_rumi": "Antara berikut, yang manakah jawapan yang betul bagi kadar harakat huruf 'Ain pada كٓهيعٓصٓ dan عٓسٓقٓ, dan yang lebih afdal?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان٢كه جواب يڠ بتول بڬي قدر حركة حروف عين ڤد كٓهيعٓصٓ دان عٓسٓقٓ، دان يڠ لبيه افضل؟",
+  "options": [
+   {
+    "rumi": "Harus dua harakat; empat harakat lebih afdal",
+    "jawi": "هاروس دوا حركة؛ امڤت حركة لبيه افضل"
+   },
+   {
+    "rumi": "Harus enam harakat; empat harakat lebih afdal",
+    "jawi": "هاروس انم حركة؛ امڤت حركة لبيه افضل"
+   },
+   {
+    "rumi": "Harus empat harakat; enam harakat lebih afdal",
+    "jawi": "هاروس امڤت حركة؛ انم حركة لبيه افضل"
+   },
+   {
+    "rumi": "Harus empat harakat; dua harakat lebih afdal",
+    "jawi": "هاروس امڤت حركة؛ دوا حركة لبيه افضل"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Huruf 'Ain pada kedua-dua ayat wajib dibaca empat harakat, tetapi memanjangkannya enam harakat adalah lebih afdal.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_mukhaffaf_q5": {
+  "stem_rumi": "Apakah erti Mad Lazim Harfi Mukhaffaf?",
+  "stem_jawi": "اڤاكه ارتي مد لازم حرفي مخفف؟",
+  "options": [
+   {
+    "rumi": "Mad yang dibaca dengan idgham ke dalam huruf berikutnya",
+    "jawi": "مد يڠ دباچ دڠن إدغام كدالم حروف برايكوتڽ"
+   },
+   {
+    "rumi": "Mad yang dibaca dua harakat apabila huruf mad bertemu hamzah dalam satu perkataan",
+    "jawi": "مد يڠ دباچ دوا حركة اڤابيلا حروف مد برتمو همزة دالم ساتو ڤركاتاءن"
+   },
+   {
+    "rumi": "Mad yang dibaca empat harakat apabila huruf mad bertemu huruf mati di tengah ayat",
+    "jawi": "مد يڠ دباچ امڤت حركة اڤابيلا حروف مد برتمو حروف ماتي دتڠه ايات"
+   },
+   {
+    "rumi": "Huruf mad bertemu huruf mati dalam huruf permulaan surah, dan tidak diidghamkan",
+    "jawi": "حروف مد برتمو حروف ماتي دالم حروف ڤرمولاءن سورة، دان تيدق دأدغامكن"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad Lazim Harfi Mukhaffaf ialah apabila huruf mad bertemu huruf mati dalam huruf permulaan surah dan tidak diidghamkan ke dalam huruf berikutnya.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_mukhaffaf_q6": {
+  "stem_rumi": "Antara berikut, yang manakah surah yang mengandungi hukum Mad Lazim Harfi Mukhaffaf?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان٢كه سورة يڠ مڠاندوڠي حكوم مد لازم حرفي مخفف؟",
+  "options": [
+   {
+    "rumi": "Surah al-Baqarah",
+    "jawi": "سورة البقرة"
+   },
+   {
+    "rumi": "Surah al-Ikhlas",
+    "jawi": "سورة الإخلاص"
+   },
+   {
+    "rumi": "Surah an-Nas",
+    "jawi": "سورة الناس"
+   },
+   {
+    "rumi": "Surah al-Fatihah",
+    "jawi": "سورة الفاتحة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Surah al-Baqarah bermula dengan huruf مد لازم حرفي مخفف الٓمٓ, manakala surah al-Ikhlas, al-Fatihah dan an-Nas tidak bermula dengan huruf-huruf fawatih al-suwar.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q1": {
+  "stem_rumi": "Bagaimanakah cara bacaan Mad Lazim Harfi Muthaqqal?",
+  "stem_jawi": "باݢايماناكه چارا باچاءن مد لازم حرفي مثقل؟",
+  "options": [
+   {
+    "rumi": "Dibaca dengan qalqalah sughra",
+    "jawi": "دباچ دڠن قلقلة صغرى"
+   },
+   {
+    "rumi": "Dibaca dengan idgham beserta dengung",
+    "jawi": "دباچ دڠن إدغام برسرتا دڠوڠ"
+   },
+   {
+    "rumi": "Dibaca dengan izhar halqi tanpa dengung",
+    "jawi": "دباچ دڠن إظهار حلقي تانڤا دڠوڠ"
+   },
+   {
+    "rumi": "Dibaca panjang dua harakat sahaja",
+    "jawi": "دباچ ڤنجڠ دوا حركة سهاج"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Menurut buku teks, cara bacaan Mad Lazim Harfi Muthaqqal ialah dibaca dengan idgham beserta dengung.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q2": {
+  "stem_rumi": "Apakah maksud فَوَاتِحُ السُّوَرِ?",
+  "stem_jawi": "اڤاكه مقصود فَوَاتِحُ السُّوَرِ؟",
+  "options": [
+   {
+    "rumi": "Ayat pertama dalam setiap surah",
+    "jawi": "ايات ڤرتام دالم ستياڤ سورة"
+   },
+   {
+    "rumi": "Bacaan panjang enam harakat",
+    "jawi": "باچاءن ڤنجڠ انم حركة"
+   },
+   {
+    "rumi": "Potongan huruf yang berada di pembukaan surah",
+    "jawi": "ڤوتوڠن حروف يڠ براد دڤمبوكاءن سورة"
+   },
+   {
+    "rumi": "Hukum idgham dengan dengung",
+    "jawi": "حكوم إدغام دڠن دڠوڠ"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Fawatih al-suwar ialah potongan huruf yang terdapat di permulaan surah, seperti الٓمٓ.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q3": {
+  "stem_rumi": "Huruf Mad Lazim Harfi terhimpun dalam rangkai kata apa?",
+  "stem_jawi": "حروف مد لازم حرفي ترهيمڤون دالم راڠكاي كات اڤ؟",
+  "options": [
+   {
+    "rumi": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ",
+    "jawi": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ"
+   },
+   {
+    "rumi": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+    "jawi": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ"
+   },
+   {
+    "rumi": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "jawi": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ"
+   },
+   {
+    "rumi": "نَقَصَ عَسَلُكُمۡ",
+    "jawi": "نَقَصَ عَسَلُكُمۡ"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut buku teks, Huruf Mad Lazim Harfi terhimpun dalam rangkai kata نَقَصَ عَسَلُكُمۡ.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q4": {
+  "stem_rumi": "Apakah maksud perkataan 'muthaqqal'?",
+  "stem_jawi": "اڤاكه مقصود ڤركاتاءن مثقل؟",
+  "options": [
+   {
+    "rumi": "Diidghamkan (ditasydidkan)",
+    "jawi": "دأدغامكن (دتشديدكن)"
+   },
+   {
+    "rumi": "Dipanjangkan enam harakat",
+    "jawi": "دڤنجڠكن انم حركة"
+   },
+   {
+    "rumi": "Dibunyikan tanpa dengung",
+    "jawi": "دبونيكن تانڤ دڠوڠ"
+   },
+   {
+    "rumi": "Dihilangkan bunyinya (disukunkan)",
+    "jawi": "دحيلڠكن بونيڽ (دسكونكن)"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Muthaqqal bermaksud diidghamkan atau ditasydidkan, iaitu huruf mad bertemu huruf mati yang diidghamkan ke huruf berikutnya dalam Mad Lazim Harfi Muthaqqal.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+  "stem_rumi": "Apakah erti Mad Lazim Harfi Muthaqqal?",
+  "stem_jawi": "اڤاكه ارتي مد لازم حرفي مثقل؟",
+  "options": [
+   {
+    "rumi": "Bacaan memanjangkan huruf hidup pada akhir ayat sahaja.",
+    "jawi": "باچاءن ممنجڠكن حروف هيدوڤ ڤد اخير ايات سهاج."
+   },
+   {
+    "rumi": "Mad yang dibaca dua harakat kerana huruf mad bertemu huruf hidup.",
+    "jawi": "مد يڠ دباچ دوا حركة كرانا حروف مد برتمو حروف هيدوڤ."
+   },
+   {
+    "rumi": "Mad yang dibaca pendek tanpa dengung pada surah-surah pendek.",
+    "jawi": "مد يڠ دباچ ڤندق تانڤ دڠوڠ ڤد سورة٢ ڤندق."
+   },
+   {
+    "rumi": "Huruf mad bertemu huruf mati dalam satu huruf di permulaan surah, dan diidghamkan ke huruf berikutnya.",
+    "jawi": "حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف دڤرمولاءن سورة، دان دأدغامكن ke حروف برايكوتڽ."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut buku teks, Mad Lazim Harfi Muthaqqal ialah huruf mad bertemu huruf mati dalam satu huruf di permulaan surah dan diidghamkan ke huruf berikutnya.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q6": {
+  "stem_rumi": "Antara berikut, yang manakah surah yang mengandungi Mad Lazim Harfi Muthaqqal?",
+  "stem_jawi": "انتارا بريكوت، يڠ مانه سورة يڠ مڠاندوڠي مد لازم حرفي مثقل؟",
+  "options": [
+   {
+    "rumi": "Surah al-Ikhlas",
+    "jawi": "سورة الإخلاص"
+   },
+   {
+    "rumi": "Surah an-Nas",
+    "jawi": "سورة الناس"
+   },
+   {
+    "rumi": "Surah al-Baqarah",
+    "jawi": "سورة البقرة"
+   },
+   {
+    "rumi": "Surah al-Fatihah",
+    "jawi": "سورة الفاتحة"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Surah al-Baqarah bermula dengan huruf potongan الٓمٓ, yang dibaca dengan Mad Lazim Harfi Muthaqqal.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q9": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Lazim Harfi Muthaqqal?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لازم حرفي مثقل؟",
+  "options": [
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   },
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   },
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Kadar panjang bacaan Mad Lazim, termasuk Mad Lazim Harfi Muthaqqal, ialah enam harakat menurut buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Lazim Kalimi Mukhaffaf?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لازم كلمي مخفف؟",
+  "options": [
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   },
+   {
+    "rumi": "Lapan harakat",
+    "jawi": "لاڤن حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad Lazim Kalimi Mukhaffaf mesti dibaca dengan kadar enam harakat, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q2": {
+  "stem_rumi": "Apakah hukum bacaan Mad Lazim Kalimi Mukhaffaf?",
+  "stem_jawi": "اڤاكه حكوم باچاءن مد لازم كلمي مخفف؟",
+  "options": [
+   {
+    "rumi": "Dibaca dengan idgham",
+    "jawi": "دباچ دڠن إدغام"
+   },
+   {
+    "rumi": "Dibaca dengan tanpa idgham",
+    "jawi": "دباچ دڠن تنڤا إدغام"
+   },
+   {
+    "rumi": "Dibaca dengan idgham bighunnah",
+    "jawi": "دباچ دڠن إدغام بغنة"
+   },
+   {
+    "rumi": "Dibaca dengan dua harakat",
+    "jawi": "دباچ دڠن دوا حركة"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mengikut buku teks, hukum bacaan Mad Lazim Kalimi Mukhaffaf ialah dibaca dengan tanpa idgham.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3": {
+  "stem_rumi": "Apakah kalimah yang mengandungi hukum Mad Lazim Kalimi Mukhaffaf dalam al-Quran?",
+  "stem_jawi": "اڤاكه كليمه يڠ مڠاندوڠي حكوم مد لازم كلمي مخفف دالم القرءان؟",
+  "options": [
+   {
+    "rumi": "ٱلضَّآلِّينَ",
+    "jawi": "ٱلضَّآلِّينَ"
+   },
+   {
+    "rumi": "ٱلرَّحِيمِ",
+    "jawi": "ٱلرَّحِيمِ"
+   },
+   {
+    "rumi": "ءَآلۡـَٰٔنَ",
+    "jawi": "ءَآلۡـَٰٔنَ"
+   },
+   {
+    "rumi": "ٱلۡعَٰلَمِينَ",
+    "jawi": "ٱلۡعَٰلَمِينَ"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Kalimah ءَآلۡـَٰٔنَ mengandungi Mad Lazim Kalimi Mukhaffaf kerana huruf mad bertemu huruf mati dalam satu kalimah, terdapat dalam Surah Yunus ayat 51 dan 91.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q4": {
+  "stem_rumi": "Apakah maksud perkataan 'mukhaffaf'?",
+  "stem_jawi": "اڤاكه مقصود ڤركاتاءن مخفف؟",
+  "options": [
+   {
+    "rumi": "Huruf mad bertemu huruf mati",
+    "jawi": "حروف مد برتمو حروف ماتي"
+   },
+   {
+    "rumi": "Dibaca enam harakat",
+    "jawi": "دباچ انم حركة"
+   },
+   {
+    "rumi": "Diidghamkan dengan huruf lain",
+    "jawi": "دإدغامكن دڠن حروف لاءين"
+   },
+   {
+    "rumi": "Tidak diidghamkan",
+    "jawi": "تيدق دإدغامكن"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mukhaffaf bermaksud tidak diidghamkan, iaitu hukum bacaannya dibaca tanpa idgham.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5": {
+  "stem_rumi": "Antara berikut, yang manakah pengertian dan tempat Mad Lazim Kalimi Mukhaffaf dalam al-Quran yang betul?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه ڤڠرتين دان تمڤت مد لازم كلمي مخفف دالم القرءان يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Huruf mad bertemu huruf mati dalam satu kalimah; Surah Yunus ayat 51 dan 91.",
+    "jawi": "حروف مد برتمو دڠن حروف ماتي دالم ساتو كليمه؛ سورة يونس ايات 51 دان 91."
+   },
+   {
+    "rumi": "Huruf mad bertemu huruf hidup dalam satu kalimah; Surah Yunus ayat 51 dan 91.",
+    "jawi": "حروف مد برتمو دڠن حروف هيدوڤ دالم ساتو كليمه؛ سورة يونس ايات 51 دان 91."
+   },
+   {
+    "rumi": "Huruf mad bertemu huruf mati dalam dua kalimah; Surah Yunus ayat 51 dan 91.",
+    "jawi": "حروف مد برتمو دڠن حروف ماتي دالم دوا كليمه؛ سورة يونس ايات 51 دان 91."
+   },
+   {
+    "rumi": "Huruf mad bertemu huruf mati dalam satu kalimah; Surah Al-Fatihah ayat 1 dan 7.",
+    "jawi": "حروف مد برتمو دڠن حروف ماتي دالم ساتو كليمه؛ سورة الفاتحة ايات 1 دان 7."
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad Lazim Kalimi Mukhaffaf ialah huruf mad bertemu huruf mati dalam satu kalimah, dan ia terdapat dalam Surah Yunus ayat 51 dan 91.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q6": {
+  "stem_rumi": "Terangkan asal kalimah ءَآلۡـَٰٔنَ.",
+  "stem_jawi": "تراڠكن اصل كليمه ءَآلۡـَٰٔنَ.",
+  "options": [
+   {
+    "rumi": "Asalnya huruf alif bertemu huruf nun, dibaca dengan empat harakat.",
+    "jawi": "اصلڽ حروف اليف برتمو حروف نون، دباچ دڠن امڤت حركة."
+   },
+   {
+    "rumi": "Asalnya hamzah istifham bertemu hamzah wasal, hamzah wasal ditukar kepada huruf alif dan dipanjangkan enam harakat.",
+    "jawi": "اصلڽ همزة إِسْتِفْهَام برتمو همزة وصل، همزة وصل دتوكر كڤد حروف اليف دان دڤنجڠكن انم حركة."
+   },
+   {
+    "rumi": "Asalnya hamzah istifham bertemu hamzah qatha, dibaca dengan dua harakat.",
+    "jawi": "اصلڽ همزة إِسْتِفْهَام برتمو همزة قطع، دباچ دڠن دوا حركة."
+   },
+   {
+    "rumi": "Asalnya hamzah qatha bertemu hamzah wasal, dibaca dengan lapan harakat.",
+    "jawi": "اصلڽ همزة قطع برتمو همزة وصل، دباچ دڠن لاڤن حركة."
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Kalimah ini asalnya hamzah istifham bertemu hamzah wasal, dan hamzah wasal itu ditukar kepada alif lalu dipanjangkan enam harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_muthaqqal_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Lazim Kalimi Muthaqqal?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لازم كلمي مثقل؟",
+  "options": [
+   {
+    "rumi": "Lapan harakat",
+    "jawi": "لاڤن حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   },
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mengikut buku teks, kadar panjang bacaan Mad Lazim ialah enam harakat, termasuk Mad Lazim Kalimi Muthaqqal.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_muthaqqal_q2": {
+  "stem_rumi": "Apakah hukum bacaan Mad Lazim Kalimi Muthaqqal?",
+  "stem_jawi": "اڤاكه حكوم باچاءن مد لازم كلمي مثقل؟",
+  "options": [
+   {
+    "rumi": "Dibaca dengan izhar",
+    "jawi": "دباچ دڠن إظهار"
+   },
+   {
+    "rumi": "Dibaca dengan iqlab",
+    "jawi": "دباچ دڠن إقلاب"
+   },
+   {
+    "rumi": "Dibaca dengan ikhfa",
+    "jawi": "دباچ دڠن إخفاء"
+   },
+   {
+    "rumi": "Dibaca dengan idgham",
+    "jawi": "دباچ دڠن إدغام"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan bahawa hukum bacaan Mad Lazim Kalimi Muthaqqal ialah dibaca dengan idgham.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_muthaqqal_q3": {
+  "stem_rumi": "Apakah maksud perkataan 'kalimi'?",
+  "stem_jawi": "اڤاكه مقصود ڤركاتاءن كلمي؟",
+  "options": [
+   {
+    "rumi": "Satu kalimah",
+    "jawi": "ساتو كليمه"
+   },
+   {
+    "rumi": "Dua kalimah",
+    "jawi": "دوا كليمه"
+   },
+   {
+    "rumi": "Huruf mati asli",
+    "jawi": "حروف ماتي اصلي"
+   },
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Kalimi bermaksud satu kalimah, iaitu huruf mad dan huruf bertasydid berada dalam satu perkataan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_muthaqqal_q4": {
+  "stem_rumi": "Apakah asal kalimah ٱلطَّآمَّةُ?",
+  "stem_jawi": "اڤاكه اصل كليمه ٱلطَّآمَّةُ؟",
+  "options": [
+   {
+    "rumi": "الطَّامِمَةُ",
+    "jawi": "الطَّامِمَةُ"
+   },
+   {
+    "rumi": "الطَّامْـمَةُ",
+    "jawi": "الطَّامْـمَةُ"
+   },
+   {
+    "rumi": "الطَّامَةُ",
+    "jawi": "الطَّامَةُ"
+   },
+   {
+    "rumi": "الضَّالْلِيْن",
+    "jawi": "الضَّالْلِيْن"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Menurut buku, ٱلطَّآمَّةُ asalnya الطَّامْـمَةُ, iaitu huruf mim mati yang diidghamkan kepada mim selepasnya.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_muthaqqal_q5": {
+  "stem_rumi": "Antara berikut, yang manakah erti Mad Lazim Kalimi Muthaqqal dan hukum bacaannya yang betul?",
+  "stem_jawi": "أنتارا بريكوت، يڠ مناكه ارتي مد لازم كلمي مثقل دان حكوم باچاءنڽ يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Huruf mad bertemu huruf bertasydid dalam dua kalimah; dibaca dengan ikhfa.",
+    "jawi": "حروف مد برتمو دڠن حروف يڠ برتشديد دالم دوا كليمه؛ دباچ دڠن إخفاء."
+   },
+   {
+    "rumi": "Huruf mad bertemu huruf hidup dalam satu kalimah; dibaca dengan qalqalah.",
+    "jawi": "حروف مد برتمو دڠن حروف هيدوڤ دالم ساتو كليمه؛ دباچ دڠن قلقله."
+   },
+   {
+    "rumi": "Huruf mad bertemu huruf bertasydid dalam satu kalimah; dibaca dengan idgham.",
+    "jawi": "حروف مد برتمو دڠن حروف يڠ برتشديد دالم ساتو كليمه؛ دباچ دڠن إدغام."
+   },
+   {
+    "rumi": "Huruf mad bertemu huruf mati asli dalam satu kalimah; dibaca dengan izhar.",
+    "jawi": "حروف مد برتمو دڠن حروف ماتي اصلي دالم ساتو كليمه؛ دباچ دڠن إظهار."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mad Lazim Kalimi Muthaqqal ialah huruf mad bertemu huruf bertasydid dalam satu kalimah dan hukum bacaannya ialah idgham, seperti yang terdapat dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lazim_kalimi_muthaqqal_q6": {
+  "stem_rumi": "Antara berikut, yang manakah maksud yang betul bagi setiap perkataan dalam nama Mad Lazim Kalimi Muthaqqal?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان٢ مقصود يڠ بتول باݢي ستياڤ ڤركاتاءن دالم نام مد لازم كلمي مثقل؟",
+  "options": [
+   {
+    "rumi": "Mad = memanjangkan bacaan; Lazim = mesti dibaca enam harakat; Kalimi = satu kalimah; Muthaqqal = diidghamkan (bertasydid)",
+    "jawi": "مد = ممنجڠكن باچاءن؛ لازم = مستي دباچ انم حركة؛ كلمي = ساتو كليمه؛ مثقل = دإدغامكن (برتشديد)"
+   },
+   {
+    "rumi": "Mad = memanjangkan bacaan; Lazim = mesti dibaca enam harakat; Kalimi = satu kalimah; Muthaqqal = dibaca dengan izhar",
+    "jawi": "مد = ممنجڠكن باچاءن؛ لازم = مستي دباچ انم حركة؛ كلمي = ساتو كليمه؛ مثقل = دإظهارکن"
+   },
+   {
+    "rumi": "Mad = memendekkan bacaan; Lazim = mesti dibaca enam harakat; Kalimi = satu kalimah; Muthaqqal = diidghamkan (bertasydid)",
+    "jawi": "مد = ممندقكن باچاءن؛ لازم = مستي دباچ انم حركة؛ كلمي = ساتو كليمه؛ مثقل = دإدغامكن (برتشديد)"
+   },
+   {
+    "rumi": "Mad = memanjangkan bacaan; Lazim = mesti dibaca dua harakat; Kalimi = satu kalimah; Muthaqqal = diidghamkan (bertasydid)",
+    "jawi": "مد = ممنجڠكن باچاءن؛ لازم = مستي دباچ دوا حركة؛ كلمي = ساتو كليمه؛ مثقل = دإدغامكن (برتشديد)"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad bermaksud memanjangkan bacaan, Lazim bermaksud mesti dibaca enam harakat, Kalimi bermaksud satu kalimah, dan Muthaqqal bermaksud diidghamkan (bertasydid).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lin_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Lin?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد لين؟",
+  "options": [
+   {
+    "rumi": "Dua atau empat atau enam harakat",
+    "jawi": "دوا اتاو امڤت اتاو انم حركة"
+   },
+   {
+    "rumi": "Satu atau dua harakat",
+    "jawi": "ساتو اتاو دوا حركة"
+   },
+   {
+    "rumi": "Tiga atau lima harakat",
+    "jawi": "تيݢ اتاو ليما حركة"
+   },
+   {
+    "rumi": "Lapan atau sepuluh harakat",
+    "jawi": "لاڤن اتاو سڤولوه حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Nota buku teks menyatakan kadar panjang bacaan Mad Lin ialah dua atau empat atau enam harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lin_q2": {
+  "stem_rumi": "Bilakah berlakunya hukum Mad Lin?",
+  "stem_jawi": "بيلاكه برلاكوڽ حكوم مد لين؟",
+  "options": [
+   {
+    "rumi": "Ketika memanjangkan bacaan huruf hidup",
+    "jawi": "كتيك ممنجڠكن باچاءن حروف هيدوڤ"
+   },
+   {
+    "rumi": "Hanya ketika mewaqafkan ayat",
+    "jawi": "هاڽ كتيك مووقفكن ايات"
+   },
+   {
+    "rumi": "Ketika membaca huruf mati sahaja",
+    "jawi": "كتيك ممباچ حروف ماتي سهاج"
+   },
+   {
+    "rumi": "Ketika membaca dengan wasal (sambung)",
+    "jawi": "كتيك ممباچ دڠن وصل (سامبوڠ)"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Hukum Mad Lin hanya berlaku apabila ayat diwaqafkan (berhenti bacaan), bukan ketika bersambung.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lin_q3": {
+  "stem_rumi": "Adakah berlaku hukum Mad Lin jika dibaca dengan wasal (sambung)?",
+  "stem_jawi": "اداكه برلاكو حكوم مد لين جك دباچ دڠن وصل (سامبوڠ)؟",
+  "options": [
+   {
+    "rumi": "Ya, dengan dua harakat",
+    "jawi": "يا، دڠن دوا حركة"
+   },
+   {
+    "rumi": "Ya, dengan enam harakat",
+    "jawi": "يا، دڠن انم حركة"
+   },
+   {
+    "rumi": "Tidak berlaku",
+    "jawi": "تيدق برلاكو"
+   },
+   {
+    "rumi": "Ya, berlaku",
+    "jawi": "يا، برلاكو"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menurut buku teks, hukum Mad Lin hanya berlaku apabila ayat diwaqafkan, jadi ia tidak berlaku jika dibaca dengan wasal (sambung).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_lin_q4": {
+  "stem_rumi": "Apakah erti Mad Lin?",
+  "stem_jawi": "اڤاكه ارتي مد لين؟",
+  "options": [
+   {
+    "rumi": "Bacaan panjang enam harakat bagi huruf alif.",
+    "jawi": "باچاءن ڤنجڠ انم حركة باڬي حروف الف."
+   },
+   {
+    "rumi": "Huruf mim mati bertemu huruf ba.",
+    "jawi": "حروف ميم ماتي برتمو دڠن حروف با."
+   },
+   {
+    "rumi": "Huruf lin bertemu huruf mati kerana waqaf (berhenti bacaan).",
+    "jawi": "حروف لين برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن)."
+   },
+   {
+    "rumi": "Huruf lin bertemu huruf hidup kerana wasal (sambung).",
+    "jawi": "حروف لين برتمو دڠن حروف حيدوڤ كران وصل (سامبوڠ)."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mad Lin berlaku apabila huruf lin bertemu huruf mati kerana waqaf, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_qasirah_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Silah Qasirah?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد صلة قصيرة؟",
+  "options": [
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "ۤاڤت حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "साتو حركة"
+   },
+   {
+    "rumi": "Enam harakat",
+    "jawi": "ۤانم حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Kadar panjang bacaan Mad Silah Qasirah ialah dua harakat, seperti yang dinyatakan dalam nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_qasirah_q2": {
+  "stem_rumi": "Huruf apakah yang menjadi asas hukum Mad Silah Qasirah?",
+  "stem_jawi": "حروف اڤاكه يڠ منجادي اساس حكوم مد صلة قصيرة؟",
+  "options": [
+   {
+    "rumi": "Lam",
+    "jawi": "لام"
+   },
+   {
+    "rumi": "Ha dhamir",
+    "jawi": "هاء ضمير"
+   },
+   {
+    "rumi": "Hamzah",
+    "jawi": "همزه"
+   },
+   {
+    "rumi": "Mim",
+    "jawi": "ميم"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad Silah Qasirah berlaku apabila ha dhamir berbaris bawah atau depan bertemu dengan huruf selain hamzah qata', jadi asasnya ialah ha dhamir.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_qasirah_q3": {
+  "stem_rumi": "Ha dhamir dalam Mad Silah Qasirah bertemu dengan huruf selain apa?",
+  "stem_jawi": "هاء ضمير دالم مد صلة قصيرة برتمو دڠن حروف سلاءين اڤ؟",
+  "options": [
+   {
+    "rumi": "Selain huruf mad",
+    "jawi": "سلاءين حروف مد"
+   },
+   {
+    "rumi": "Hamzah qata' sahaja",
+    "jawi": "همزة قطع سهاج"
+   },
+   {
+    "rumi": "Selain hamzah qata'",
+    "jawi": "سلاءين همزة قطع"
+   },
+   {
+    "rumi": "Huruf sukun",
+    "jawi": "حروف سكون"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mad Silah Qasirah berlaku apabila ha dhamir berbaris bawah atau depan bertemu dengan huruf selain hamzah qata'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_qasirah_q4": {
+  "stem_rumi": "Nyatakan pengertian Mad Silah Qasirah.",
+  "stem_jawi": "ڽاتاكن ڤڠرتين مد صلة قصيرة.",
+  "options": [
+   {
+    "rumi": "Ha dhamir berbaris bawah atau depan bertemu dengan huruf hamzah qata'.",
+    "jawi": "هاء ضمير برباريس باوه اتاو دڤن برتمو دڠن همزة قطع."
+   },
+   {
+    "rumi": "Mad yang dibaca dua harakat apabila bertemu huruf mati di hujung ayat.",
+    "jawi": "مد يڠ دباچ دوا حركة اڤابيلا برتمو حروف ماتي د هوجوڠ ايات."
+   },
+   {
+    "rumi": "Ha dhamir berbaris atas bertemu dengan huruf selain hamzah qata'.",
+    "jawi": "هاء ضمير برباريس اتس برتمو دڠن حروف سلاءين همزة قطع."
+   },
+   {
+    "rumi": "Ha dhamir berbaris bawah atau depan bertemu dengan huruf selain hamzah qata'.",
+    "jawi": "هاء ضمير برباريس باوه اتاو دڤن برتمو دڠن حروف سلاءين همزة قطع."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad Silah Qasirah berlaku apabila ha dhamir berbaris bawah atau depan bertemu dengan huruf selain hamzah qata', seperti ha dhamir pada ayat Surah at-Tur ayat 30.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_tawilah_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Silah Tawilah?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد صلة طويلة؟",
+  "options": [
+   {
+    "rumi": "Empat atau lima harakat",
+    "jawi": "امڤت اتاو ليم حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Enam atau tujuh harakat",
+    "jawi": "انم اتاو توجه حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Kadar panjang bacaan Mad Silah Tawilah ialah empat atau lima harakat, menurut nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_tawilah_q2": {
+  "stem_rumi": "Ha' dhamir bertemu dengan huruf apakah dalam Mad Silah Tawilah?",
+  "stem_jawi": "هاء ضمير برتمو دڠن حروف اڤاكه دالم مد صلة طويلة؟",
+  "options": [
+   {
+    "rumi": "Hamzah wasl",
+    "jawi": "همزة وصل"
+   },
+   {
+    "rumi": "Hamzah qata'",
+    "jawi": "همزة قطع"
+   },
+   {
+    "rumi": "Alif lin",
+    "jawi": "ألف لين"
+   },
+   {
+    "rumi": "Lam ta'rif",
+    "jawi": "لام تعريف"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad Silah Tawilah ialah apabila ha' dhamir bertemu dengan hamzah qata'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_tawilah_q3": {
+  "stem_rumi": "Apakah nama lain bagi Mad Silah Tawilah?",
+  "stem_jawi": "اڤاكه نام لاين باݢي مد صلة طويلة؟",
+  "options": [
+   {
+    "rumi": "Mad Jaiz Munfasil",
+    "jawi": "مد جائز منفصل"
+   },
+   {
+    "rumi": "Mad Silah Qasirah",
+    "jawi": "مد صلة قصيرة"
+   },
+   {
+    "rumi": "Mad Silah Kubra",
+    "jawi": "مد صلة كبرى"
+   },
+   {
+    "rumi": "Mad Silah Wusta",
+    "jawi": "مد صلة وسطى"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Buku teks menyatakan bahawa Mad Silah Tawilah juga dikenali sebagai Mad Silah Kubra.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_tawilah_q4": {
+  "stem_rumi": "Mad Silah Tawilah termasuk dalam bahagian mad apa?",
+  "stem_jawi": "مد صلة طويلة ترماسوق دالم بهاݢين مد اڤ؟",
+  "options": [
+   {
+    "rumi": "Mad Lazim Kalimi",
+    "jawi": "مد لازم كلمي"
+   },
+   {
+    "rumi": "Mad Asli",
+    "jawi": "مد أصلي"
+   },
+   {
+    "rumi": "Mad Jaiz Muttasil",
+    "jawi": "مد جائز متصل"
+   },
+   {
+    "rumi": "Mad Jaiz Munfasil",
+    "jawi": "مد جائز منفصل"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan Mad Silah Tawilah termasuk dalam bahagian Mad Jaiz Munfasil.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_tawilah_q5": {
+  "stem_rumi": "Antara berikut, yang manakah pernyataan yang betul mengenai Mad Silah?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه ڤرنياتاءن يڠ بتول مڠناءي مد صلة؟",
+  "options": [
+   {
+    "rumi": "Ha' dhamir berbaris bertemu huruf hijaiyah; terbahagi kepada dua: Qasirah dan Tawilah",
+    "jawi": "هاء ضمير برباريس برتمو حروف هجائية؛ تربهاݢي كڤد دوا: قصيرة دان طويلة"
+   },
+   {
+    "rumi": "Ha' dhamir berbaris bertemu huruf hijaiyah; terbahagi kepada tiga: Qasirah, Tawilah dan Jaiz",
+    "jawi": "هاء ضمير برباريس برتمو حروف هجائية؛ تربهاݢي كڤد تيݢ: قصيرة، طويلة دان جائز"
+   },
+   {
+    "rumi": "Hamzah bertemu mim sukun; terbahagi kepada dua: Asli dan Far'i",
+    "jawi": "همزة برتمو ميم سكون؛ تربهاݢي كڤد دوا: اصلي دان فرعي"
+   },
+   {
+    "rumi": "Ha' dhamir tidak berbaris bertemu huruf hijaiyah; terbahagi kepada dua: Qasirah dan Tawilah",
+    "jawi": "هاء ضمير تيدق برباريس برتمو حروف هجائية؛ تربهاݢي كڤد دوا: قصيرة دان طويلة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad Silah ialah ha' dhamir berbaris yang bertemu huruf hijaiyah dan ia terbahagi kepada Mad Silah Qasirah dan Mad Silah Tawilah.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_silah_tawilah_q6": {
+  "stem_rumi": "Antara berikut, yang manakah kadar panjang bacaan Mad Silah Tawilah?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه قدر ڤنجڠ باچاءن مد صلة طويلة؟",
+  "options": [
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Empat atau lima harakat",
+    "jawi": "امڤت اتاو ليم حركة"
+   },
+   {
+    "rumi": "Enam atau tujuh harakat",
+    "jawi": "انم اتاو توجوه حركة"
+   },
+   {
+    "rumi": "Dua atau tiga harakat",
+    "jawi": "دوا اتاو تيݢ حركة"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Buku teks menyatakan kadar panjang bacaan Mad Silah Tawilah ialah empat atau lima harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tamkin_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Tamkin?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد تمكين؟",
+  "options": [
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Buku teks menyatakan kadar panjang bacaan Mad Tamkin ialah dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tamkin_q2": {
+  "stem_rumi": "Berapakah bilangan kalimah yang mengandungi hukum Mad Tamkin di dalam al-Quran?",
+  "stem_jawi": "براڤاكه بيلڠن كليمه يڠ مڠاندوڠي حكوم مد تمكين د دالم القرءان؟",
+  "options": [
+   {
+    "rumi": "Dua kalimah sahaja",
+    "jawi": "دوا كليمه سهاج"
+   },
+   {
+    "rumi": "Enam kalimah sahaja",
+    "jawi": "انم كليمه سهاج"
+   },
+   {
+    "rumi": "Tiga kalimah sahaja",
+    "jawi": "تيݢ كليمه سهاج"
+   },
+   {
+    "rumi": "Lima kalimah sahaja",
+    "jawi": "ليم كليمه سهاج"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan hukum Mad Tamkin hanya terdapat pada lima kalimah sahaja di dalam al-Quran.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tamkin_q3": {
+  "stem_rumi": "Mad Tamkin termasuk dalam bahagian mad apa?",
+  "stem_jawi": "مد تمكين ترماسوق دالم بهاݢين مد اڤ؟",
+  "options": [
+   {
+    "rumi": "Mad Asli",
+    "jawi": "مد اصلي"
+   },
+   {
+    "rumi": "Mad Wajib Muttasil",
+    "jawi": "مد واجب متصل"
+   },
+   {
+    "rumi": "Mad Jaiz Munfasil",
+    "jawi": "مد جائز منفصل"
+   },
+   {
+    "rumi": "Mad Lazim Kalimi",
+    "jawi": "مد لازم كلمي"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Buku teks menyatakan bahawa Mad Tamkin termasuk dalam bahagian Mad Asli dan dibaca dengan dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tamkin_q4": {
+  "stem_rumi": "Apakah erti Mad Tamkin?",
+  "stem_jawi": "اڤاكه ارتي مد تمكين؟",
+  "options": [
+   {
+    "rumi": "Huruf wau mati bertemu dengan huruf ya yang berbaris atas.",
+    "jawi": "حروف واو ماتي برتمو دڠن حروف ياء يڠ برباريس اتس."
+   },
+   {
+    "rumi": "Dua huruf ya bertemu dalam satu kalimah; ya pertama berbaris bawah dan bertasydid, ya kedua mati.",
+    "jawi": "دوا حروف ياء برتمو د دالم ساتو كليمه، ياء ڤرتام برباريس باوه دان برتشديد، ياء كدوا ماتي."
+   },
+   {
+    "rumi": "Dua huruf alif bertemu dalam satu kalimah dan dibaca dengan enam harakat.",
+    "jawi": "دوا حروف الف برتمو د دالم ساتو كليمه دان دباچ دڠن انم حركة."
+   },
+   {
+    "rumi": "Mad yang dibaca dengan empat harakat apabila bertemu huruf hamzah selepas mad.",
+    "jawi": "مد يڠ دباچ دڠن امڤت حركة اڤابيلا برتمو حمزه سلڤس مد."
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad Tamkin ialah apabila dua huruf ya bertemu dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tazim_q1": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Ta'zim?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد تعظيم؟",
+  "options": [
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انام حركة"
+   },
+   {
+    "rumi": "Tujuh harakat",
+    "jawi": "توجوه حركة"
+   },
+   {
+    "rumi": "Empat atau lima harakat",
+    "jawi": "امڤت اتاو ليم حركة"
+   },
+   {
+    "rumi": "Dua atau tiga harakat",
+    "jawi": "دوا اتاو تيݢ حركة"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Nota buku teks menyatakan bahawa kadar panjang bacaan Mad Ta'zim ialah empat atau lima harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tazim_q2": {
+  "stem_rumi": "Kalimah لَآ dalam Mad Ta'zim bertemu dengan kalimah apa?",
+  "stem_jawi": "كليمه لَآ دالم مد تعظيم برتمو دڠن كليمه اڤ؟",
+  "options": [
+   {
+    "rumi": "Kalimah ٱللَّهُ",
+    "jawi": "كليمه ٱللَّهُ"
+   },
+   {
+    "rumi": "Kalimah رَبُّ",
+    "jawi": "كليمه رَبُّ"
+   },
+   {
+    "rumi": "Kalimah هُوَ",
+    "jawi": "كليمه هُوَ"
+   },
+   {
+    "rumi": "Kalimah إِلَٰهَ",
+    "jawi": "كليمه إِلَٰهَ"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad Ta'zim berlaku apabila kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ, seperti dalam ayat لَآ إِلَٰهَ إِلَّا ٱللَّهُ.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tazim_q3": {
+  "stem_rumi": "Mengapakah dinamakan Mad Ta'zim?",
+  "stem_jawi": "مڠاڤاكه دناماكن مد تعظيم؟",
+  "options": [
+   {
+    "rumi": "Kerana membesar dan memuliakan Allah",
+    "jawi": "كران ممبسر دان ممولياكن الله"
+   },
+   {
+    "rumi": "Kerana bertemu huruf mati selepas mad",
+    "jawi": "كران برتمو حروف ماتي سلڤس مد"
+   },
+   {
+    "rumi": "Kerana memanjangkan bacaan huruf mad",
+    "jawi": "كران ممنجڠكن باچاءن حروف مد"
+   },
+   {
+    "rumi": "Kerana membaca al-Quran dengan laju",
+    "jawi": "كران ممباچ القرءان دڠن لاجو"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Dinamakan Mad Ta'zim kerana ia membesarkan dan memuliakan Allah, sebagaimana yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tazim_q4": {
+  "stem_rumi": "Apakah erti Mad Ta'zim?",
+  "stem_jawi": "اڤاكه ارتي مد تعظيم؟",
+  "options": [
+   {
+    "rumi": "Mad Ta'zim ialah apabila huruf mad bertemu dengan huruf hamzah dalam satu kalimah.",
+    "jawi": "مد تعظيم اياله اڤابيلا حروف مد برتمو دڠن حروف همزه دالم ساتو كليمه."
+   },
+   {
+    "rumi": "Mad Ta'zim ialah apabila terdapat huruf mati selepas huruf mad.",
+    "jawi": "مد تعظيم اياله اڤابيلا ترداڤت حروف ماتي سلڤس حروف مد."
+   },
+   {
+    "rumi": "Mad Ta'zim ialah bacaan panjang yang hanya dibaca dua harakat.",
+    "jawi": "مد تعظيم اياله باچاءن ڤنجڠ يڠ هاڽا ددباچ دوا حركة."
+   },
+   {
+    "rumi": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ.",
+    "jawi": "مد تعظيم اياله اڤابيلا ترداڤت كليمه لَآ يڠ منونجوقكن ڤنافين برتمو دڠن كليمه إِلَٰهَ."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad Ta'zim berlaku apabila kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ, seperti dalam ayat لَآ إِلَٰهَ إِلَّا ٱللَّهُ.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_tazim_q6": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Ta'zim?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاءن مد تعظيم؟",
+  "options": [
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   },
+   {
+    "rumi": "Empat atau lima harakat",
+    "jawi": "امڤت اتاو ليم حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Nota buku teks menyatakan kadar panjang bacaan Mad Ta'zim ialah empat atau lima harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_wajib_muttasil_q1": {
+  "stem_rumi": "Apakah erti muttasil?",
+  "stem_jawi": "اڤاكه ارتي متصل؟",
+  "options": [
+   {
+    "rumi": "Huruf mad dibaca dengan dua harakat sahaja",
+    "jawi": "حروف مد دباچ دڠن دوا حركة سهاج"
+   },
+   {
+    "rumi": "Huruf nun sakinah bertemu huruf ba dalam satu kalimah",
+    "jawi": "حروف نون ساكنة برتمو حروف با دالم ساتو كليمه"
+   },
+   {
+    "rumi": "Huruf mad bertemu hamzah dalam dua kalimah",
+    "jawi": "حروف مد برتمو همزة دالم دوا كليمه"
+   },
+   {
+    "rumi": "Berhimpun huruf mad dan hamzah dalam satu kalimah",
+    "jawi": "برهيمڤون حروف مد دان همزة دالم ساتو كليمه"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Muttasil bermaksud berhimpunnya huruf mad dan hamzah dalam satu kalimah, seperti yang dinyatakan dalam nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_wajib_muttasil_q2": {
+  "stem_rumi": "Berapakah kadar panjang bacaan Mad Wajib Muttasil apabila hamzah berada di tengah kalimah?",
+  "stem_jawi": "براڤاكه قدر ڤنجڠ باچاٴن مد واجب متصل اڤابيلا همزة براد دتڠه كليمه؟",
+  "options": [
+   {
+    "rumi": "Empat atau lima harakat",
+    "jawi": "امڤت اتاو ليم حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   },
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   },
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad Wajib Muttasil dibaca empat atau lima harakat apabila hamzah berada di tengah kalimah.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_wajib_muttasil_q3": {
+  "stem_rumi": "Mengapakah dinamakan Mad Wajib Muttasil?",
+  "stem_jawi": "مڠاڤاكه دناماكن مد واجب متصل؟",
+  "options": [
+   {
+    "rumi": "Kerana mad ini hanya dibaca dua harakat sahaja",
+    "jawi": "كران مد اين دباچ دوا حركة سهاج"
+   },
+   {
+    "rumi": "Kerana ulama qiraat mewajibkan mad ini dibaca lebih daripada dua harakat",
+    "jawi": "كران علماء قراءة مواجبكن مد اين دباچ لبيه درڤد دوا حركة"
+   },
+   {
+    "rumi": "Kerana huruf mad bertemu hamzah dalam dua kalimah",
+    "jawi": "كران حروف مد برتمو همزة دالم دوا كليمه"
+   },
+   {
+    "rumi": "Kerana hamzah sentiasa berada di awal kalimah",
+    "jawi": "كران همزة سنتياس براد دأول كليمه"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Dinamakan Mad Wajib Muttasil kerana ulama qiraat mewajibkan mad ini dibaca lebih daripada dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_wajib_muttasil_q4": {
+  "stem_rumi": "Apakah erti Mad Wajib Muttasil?",
+  "stem_jawi": "اڤاكه ارتي مد واجب متصل؟",
+  "options": [
+   {
+    "rumi": "Apabila bertemu huruf ya dan wau sahaja dalam satu kalimah.",
+    "jawi": "اڤابيلا برتمو حروف ي دان و سهاج دالم ساتو كليمه."
+   },
+   {
+    "rumi": "Apabila huruf mad bertemu hamzah dalam dua kalimah.",
+    "jawi": "اڤابيلا حروف مد برتمو همزة دالم دوا كليمه."
+   },
+   {
+    "rumi": "Apabila bertemu huruf mad dan hamzah dalam satu kalimah.",
+    "jawi": "اڤابيلا برتمو حروف مد دان همزة دالم ساتو كليمه."
+   },
+   {
+    "rumi": "Apabila bertemu huruf mad dan sukun dalam satu kalimah.",
+    "jawi": "اڤابيلا برتمو حروف مد دان سكون دالم ساتو كليمه."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mad Wajib Muttasil ialah apabila huruf mad bertemu hamzah dalam satu kalimah, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b3_mad_wajib_muttasil_q5": {
+  "stem_rumi": "Antara berikut, yang manakah kadar panjang bacaan Mad Wajib Muttasil yang betul?",
+  "stem_jawi": "انتارا برايكوت، يڠ مناكه قدر ڤنجڠ باچاٴن مد واجب متصل يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Satu harakat",
+    "jawi": "ساتو حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   },
+   {
+    "rumi": "Tiga harakat",
+    "jawi": "تيݢ حركة"
+   },
+   {
+    "rumi": "Empat atau lima harakat",
+    "jawi": "امڤت اتاو ليم حركة"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Mad Wajib Muttasil dibaca empat atau lima harakat, kerana ulama qiraat mewajibkan mad ini dibaca lebih daripada dua harakat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b4_tingkatan_mad_q1": {
+  "stem_rumi": "Berapakah kadar harakat bacaan Mad Lazim?",
+  "stem_jawi": "براڤاكه قدر حركة باچاءن مد لازم؟",
+  "options": [
+   {
+    "rumi": "Enam harakat",
+    "jawi": "انم حركة"
+   },
+   {
+    "rumi": "Lima harakat",
+    "jawi": "ليم حركة"
+   },
+   {
+    "rumi": "Empat harakat",
+    "jawi": "امڤت حركة"
+   },
+   {
+    "rumi": "Dua harakat",
+    "jawi": "دوا حركة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mad Lazim dibaca dengan kadar enam harakat mengikut jadual tingkatan mad dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b4_tingkatan_mad_q2": {
+  "stem_rumi": "Apakah tingkatan mad yang paling kuat?",
+  "stem_jawi": "اڤاكه تيڠكتن مد يڠ ڤاليڠ قوات؟",
+  "options": [
+   {
+    "rumi": "Mad Wajib Muttasil",
+    "jawi": "مد واجب متصل"
+   },
+   {
+    "rumi": "Mad Lazim",
+    "jawi": "مد لازم"
+   },
+   {
+    "rumi": "Mad Jaiz Munfasil",
+    "jawi": "مد جائز منفصل"
+   },
+   {
+    "rumi": "Mad Badal",
+    "jawi": "مد بدل"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mad Lazim ialah tingkatan pertama dalam jadual martabat mad far'i dan dibaca dengan kadar enam harakat, iaitu yang paling kuat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b4_tingkatan_mad_q3": {
+  "stem_rumi": "Apakah tingkatan mad yang paling lemah?",
+  "stem_jawi": "اڤاكه تيڠكتن مد يڠ ڤاليڠ لمه؟",
+  "options": [
+   {
+    "rumi": "Mad Lazim",
+    "jawi": "مد لازم"
+   },
+   {
+    "rumi": "Mad Jaiz Munfasil",
+    "jawi": "مد جائز منفصل"
+   },
+   {
+    "rumi": "Mad Badal",
+    "jawi": "مد بدل"
+   },
+   {
+    "rumi": "Mad Wajib Muttasil",
+    "jawi": "مد واجب متصل"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mad Badal ialah tingkatan terakhir (v) dalam jadual martabat mad far'i dan dibaca dengan kadar dua harakat, paling pendek sekali.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b4_tingkatan_mad_q4": {
+  "stem_rumi": "Berapakah tingkatan mad?",
+  "stem_jawi": "براڤاكه تيڠكتن مد؟",
+  "options": [
+   {
+    "rumi": "Enam tingkatan",
+    "jawi": "انم تيڠكتن"
+   },
+   {
+    "rumi": "Tiga tingkatan",
+    "jawi": "تيݢ تيڠكتن"
+   },
+   {
+    "rumi": "Empat tingkatan",
+    "jawi": "امڤت تيڠكتن"
+   },
+   {
+    "rumi": "Lima tingkatan",
+    "jawi": "ليم تيڠكتن"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyenaraikan lima tingkatan mad mengikut susunan i hingga v, iaitu Mad Lazim, Mad Wajib Muttasil, Mad 'Aridh Lissukun, Mad Jaiz Munfasil dan Mad Badal.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b4_tingkatan_mad_q5": {
+  "stem_rumi": "Antara berikut, yang manakah tingkatan mad mengikut susunan yang betul?",
+  "stem_jawi": "انتارا بريكوت، يڠ مانكه تيڠكتن مد مڠيكوت سوسونن يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Mad Lazim, Mad Wajib Muttasil, Mad 'Aridh Lissukun, Mad Jaiz Munfasil, Mad Badal",
+    "jawi": "مد لازم، مد واجب متصل، مد عارض للسكون، مد جائز منفصل، مد بدل"
+   },
+   {
+    "rumi": "Mad Wajib Muttasil, Mad Lazim, Mad 'Aridh Lissukun, Mad Jaiz Munfasil, Mad Badal",
+    "jawi": "مد واجب متصل، مد لازم، مد عارض للسكون، مد جائز منفصل، مد بدل"
+   },
+   {
+    "rumi": "Mad Badal, Mad Jaiz Munfasil, Mad 'Aridh Lissukun, Mad Wajib Muttasil, Mad Lazim",
+    "jawi": "مد بدل، مد جائز منفصل، مد عارض للسكون، مد واجب متصل، مد لازم"
+   },
+   {
+    "rumi": "Mad Lazim, Mad Jaiz Munfasil, Mad 'Aridh Lissukun, Mad Wajib Muttasil, Mad Badal",
+    "jawi": "مد لازم، مد جائز منفصل، مد عارض للسكون، مد واجب متصل، مد بدل"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Menurut buku teks, tingkatan mad mengikut susunan i hingga v ialah Mad Lazim, Mad Wajib Muttasil, Mad 'Aridh Lissukun, Mad Jaiz Munfasil dan Mad Badal.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b5_waqaf_q1": {
+  "stem_rumi": "Berapakah bahagian waqaf?",
+  "stem_jawi": "براڤاكه بهاڬين وقف؟",
+  "options": [
+   {
+    "rumi": "Dua",
+    "jawi": "دوا"
+   },
+   {
+    "rumi": "Empat",
+    "jawi": "امڤت"
+   },
+   {
+    "rumi": "Lima",
+    "jawi": "ليما"
+   },
+   {
+    "rumi": "Tiga",
+    "jawi": "تيݢ"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Buku teks menyatakan bahawa waqaf terbahagi kepada empat bahagian, iaitu ikhtibari, idhtirari, ikhtiyari dan intizari.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b5_waqaf_q2": {
+  "stem_rumi": "Apakah maksud tanda waqaf لا?",
+  "stem_jawi": "اڤاكه مقصود تندا وقف لا؟",
+  "options": [
+   {
+    "rumi": "Waqaf lebih utama",
+    "jawi": "وقف لبيه اوتام"
+   },
+   {
+    "rumi": "Waqaf jaiz",
+    "jawi": "وقف جائز"
+   },
+   {
+    "rumi": "Dilarang waqaf",
+    "jawi": "دلارڠ وقف"
+   },
+   {
+    "rumi": "Waqaf lazim",
+    "jawi": "وقف لازم"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Tanda لا bermaksud dilarang berhenti (waqaf) di tempat itu kerana boleh membawa kefahaman yang salah, jadi bacaan mesti terus disambung.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b5_waqaf_q3": {
+  "stem_rumi": "Tanda waqaf مـ dinamakan apa?",
+  "stem_jawi": "تندا وقف مـ دناماكن اڤ؟",
+  "options": [
+   {
+    "rumi": "Waqaf Jaiz",
+    "jawi": "وقف جائز"
+   },
+   {
+    "rumi": "Waqaf Lebih Utama daripada Wasal",
+    "jawi": "وقف لبيه اوتام درڤد وصل"
+   },
+   {
+    "rumi": "Waqaf Mu'anaqah",
+    "jawi": "وقف معانقه"
+   },
+   {
+    "rumi": "Waqaf Lazim",
+    "jawi": "وقف لازم"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Tanda مـ ialah Waqaf Lazim, iaitu waqaf yang wajib dilakukan kerana jika dibaca wasal boleh membawa salah makna.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b5_waqaf_q4": {
+  "stem_rumi": "Apakah erti waqaf?",
+  "stem_jawi": "اڤاكه ارتي وقف؟",
+  "options": [
+   {
+    "rumi": "Memulakan bacaan al-Quran dengan membaca basmalah.",
+    "jawi": "ممولاكن باچاءن القرءان دڠن ممباچ بسمله."
+   },
+   {
+    "rumi": "Menghafal ayat al-Quran mengikut hukum tajwid.",
+    "jawi": "مڠهافل ايات القرءان مڠيكوت هوكوم تجويد."
+   },
+   {
+    "rumi": "Membaca ayat al-Quran dengan suara yang kuat tanpa henti.",
+    "jawi": "ممباچ ايات القرءان دڠن سوارا يڠ كوات تنڤ هنتي."
+   },
+   {
+    "rumi": "Memberhentikan bacaan dengan mengambil nafas yang baru dengan niat untuk menyambung semula bacaan.",
+    "jawi": "ممبرهنتيكن باچاءن دڠن مڠمبيل نفس يڠ بارو دڠن نية اونتوق مڽامبوڠ سمولا باچاءن."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Nota buku teks menyatakan waqaf ialah memberhentikan bacaan dengan mengambil nafas yang baru dengan niat untuk menyambung semula bacaan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b5_waqaf_q5": {
+  "stem_rumi": "Antara berikut, yang manakah senarai bahagian waqaf yang betul?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان٣ساراي بهاڬين وقف يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Tam, Kafi, Hasan dan Qabih",
+    "jawi": "تام، كافي، حسن دان قبيح"
+   },
+   {
+    "rumi": "Ikhtibari, Idhtirari, Ikhtiyari dan Intizari",
+    "jawi": "إِختِبَارِي، إِضْطِرَارِي، إِختِيَارِي دان إِنْتِظَارِي"
+   },
+   {
+    "rumi": "Lazim, Jaiz, Harus dan Awla",
+    "jawi": "لازم، جائز، هاروس دان اولى"
+   },
+   {
+    "rumi": "Ikhtibari, Idhtirari, Ikhtiyari dan Tamam",
+    "jawi": "إِختِبَارِي، إِضْطِرَارِي، إِختِيَارِي دان تَامّ"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Bahagian waqaf ada empat, iaitu Ikhtibari, Idhtirari, Ikhtiyari dan Intizari.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b5_waqaf_q6": {
+  "stem_rumi": "Antara berikut, yang manakah waqaf yang dilakukan terpaksa kerana sesuatu sebab seperti terbatuk, bersin dan pendek nafas?",
+  "stem_jawi": "أنتارا بريكوت، يڠ مان‌كه وقف يڠ دلاكوكن ترڤقسا كراڽ سسواتو سبب سڤرتي ترباتوق، برسين دان ڤنديق نفس؟",
+  "options": [
+   {
+    "rumi": "Ikhtiyari",
+    "jawi": "إِخْتِيَارِي"
+   },
+   {
+    "rumi": "Ikhtibari",
+    "jawi": "إِخْتِبَارِي"
+   },
+   {
+    "rumi": "Idhtirari",
+    "jawi": "إِضْطِرَارِي"
+   },
+   {
+    "rumi": "Intizari",
+    "jawi": "إِنْتِظَارِي"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Waqaf terpaksa kerana sebab seperti terbatuk, bersin dan pendek nafas dinamakan idhtirari.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b6_ibtida_q1": {
+  "stem_rumi": "Apakah maksud Ibtida'?",
+  "stem_jawi": "اڤاكه مقصود إبتداء؟",
+  "options": [
+   {
+    "rumi": "Berhenti membaca seketika untuk bernafas.",
+    "jawi": "برهنتي ماچ سمنتارا اونتوق برناڤس."
+   },
+   {
+    "rumi": "Membaca al-Quran dengan irama yang sangat perlahan.",
+    "jawi": "ماچ القرءان دڠن إيراما ڽڠ ساڠت ڤرلاهن."
+   },
+   {
+    "rumi": "Menghafal ayat al-Quran tanpa melihat mushaf.",
+    "jawi": "مڠهافل ايات القرءان تانڤ ملیهت مصحف."
+   },
+   {
+    "rumi": "Memulakan atau menyambung bacaan setelah waqaf.",
+    "jawi": "ممولاكن اتاو مڽامبوڠ باچاءن ستله وقف."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Ibtida' ialah memulakan atau menyambung bacaan selepas waqaf, seperti yang dinyatakan dalam pengertian Ibtida' di dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b6_ibtida_q2": {
+  "stem_rumi": "Surah manakah yang tidak dibaca basmalah apabila memulakan bacaan pada awal surah?",
+  "stem_jawi": "سورة مناكه يڠ تيدق دباچ بسمله اڤابيلا ممولاكن باچاءن ڤد اول سورة؟",
+  "options": [
+   {
+    "rumi": "Surah at-Taubah (Bara'ah)",
+    "jawi": "سورة التوبة (براءة)"
+   },
+   {
+    "rumi": "Surah al-Fatihah",
+    "jawi": "سورة الفاتحة"
+   },
+   {
+    "rumi": "Surah al-Baqarah",
+    "jawi": "سورة البقرة"
+   },
+   {
+    "rumi": "Surah an-Nas",
+    "jawi": "سورة الناس"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Apabila memulakan bacaan pada awal surah, basmalah dibaca kecuali pada Surah at-Taubah (Bara'ah).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b6_ibtida_q3": {
+  "stem_rumi": "Apakah yang perlu dibaca apabila memulakan bacaan pada pertengahan surah atau ayat?",
+  "stem_jawi": "اڤاكه يڠ ڤرلو دباچ اڤابيلا ممولاكن باچاءن ڤد ڤرتڠهن سورة اتاو ايات؟",
+  "options": [
+   {
+    "rumi": "Basmalah",
+    "jawi": "بسملة"
+   },
+   {
+    "rumi": "Isti'azah",
+    "jawi": "استعاذة"
+   },
+   {
+    "rumi": "Takbir",
+    "jawi": "تكبير"
+   },
+   {
+    "rumi": "Tahmid",
+    "jawi": "تحميد"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Apabila memulakan bacaan di pertengahan surah atau ayat, murid hendaklah membaca isti'azah terlebih dahulu.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b6_ibtida_q4": {
+  "stem_rumi": "Antara berikut, yang manakah senarai bahagian Ibtida' yang betul?",
+  "stem_jawi": "أنتارا بركوت، يڠ مناكه سناراي بهاڬين إبتداء يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Ibtida' Jaiz, Ibtida' Sunat dan Ibtida' Haram.",
+    "jawi": "إبتداء جائز، إبتداء سنة دان إبتداء حرام."
+   },
+   {
+    "rumi": "Ibtida' Jaiz, Ibtida' Wajib dan Ibtida' Haram.",
+    "jawi": "إبتداء جائز، إبتداء واجب دان إبتداء حرام."
+   },
+   {
+    "rumi": "Ibtida' Jaiz, Ibtida' Qabih dan Ibtida' Aqbah.",
+    "jawi": "إِبْتِدَاء جَائِزْ، إِبْتِدَاء قَبِيح دان إِبْتِدَاء أَقْبَح."
+   },
+   {
+    "rumi": "Ibtida' Awal, Ibtida' Tengah dan Ibtida' Akhir.",
+    "jawi": "إبتداء اول، إبتداء تڠه دان إبتداء اخير."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Nota menyatakan tiga jenis Ibtida' ialah Ibtida' Jaiz, Ibtida' Qabih dan Ibtida' Aqbah.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "tajwid_b6_ibtida_q5": {
+  "stem_rumi": "Apakah maksud Ibtida' Qabih?",
+  "stem_jawi": "اڤاكه مقصود إبتداء قبيح؟",
+  "options": [
+   {
+    "rumi": "Memulakan atau menyambung ayat yang berasingan dan difahami maknanya.",
+    "jawi": "ممولاكن اتاو مڽامبوڠ ايات يڠ براسيڠن دان دفهمي معناڽ."
+   },
+   {
+    "rumi": "Berhenti membaca pada hujung setiap ayat tanpa sebab.",
+    "jawi": "برهنتي ممباچ ڤد هوجوڠ ستياڤ ايات تنڤ سبب."
+   },
+   {
+    "rumi": "Membaca isti'azah dan basmalah sebelum memulakan surah.",
+    "jawi": "ممباچ استعاذه دان بسمله سبلوم ممولاكن سورة."
+   },
+   {
+    "rumi": "Memulakan atau menyambung bacaan pada suatu tempat yang boleh menghilangkan maksud atau mengubah atau merosakkan makna.",
+    "jawi": "ممولاكن اتاو مڽامبوڠ باچاءن ڤد سواتو تمڤت يڠ بوليه مڠهيلڠكن مقصود اتاو مڠوبه اتاو مروسقكن معنا."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Ibtida' Qabih ialah memulakan atau menyambung bacaan di tempat yang boleh menghilangkan, mengubah atau merosakkan makna, menurut nota buku.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ }
+}

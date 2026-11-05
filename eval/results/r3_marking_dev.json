@@ -1,0 +1,148 @@
+{
+ "date": "2026-11-02T07:34:11+00:00",
+ "answers": 171,
+ "kinds": {
+  "paraphrase_full": 56,
+  "misconception": 56,
+  "partial": 51,
+  "number_swap": 8
+ },
+ "settings": {
+  "earlier": {
+   "chunks": 4,
+   "sections": 3,
+   "min_sim": 0.0,
+   "qwk": 0.96,
+   "ci": [
+    0.936,
+    0.98
+   ],
+   "criterion_accuracy": 0.941,
+   "valid": 1.0,
+   "cost": 0.0
+  },
+  "study": {
+   "chunks": 6,
+   "sections": 5,
+   "min_sim": 0.35,
+   "qwk": 0.964,
+   "ci": [
+    0.941,
+    0.982
+   ],
+   "criterion_accuracy": 0.946,
+   "valid": 1.0,
+   "cost": 0.0,
+   "vs_earlier": {
+    "diff": 0.004,
+    "ci": [
+     -0.014,
+     0.021
+    ],
+    "significant": false
+   }
+  },
+  "sections": {
+   "chunks": 6,
+   "sections": 5,
+   "min_sim": 0.0,
+   "qwk": 0.964,
+   "ci": [
+    0.941,
+    0.982
+   ],
+   "criterion_accuracy": 0.946,
+   "valid": 1.0,
+   "cost": 0.0,
+   "vs_earlier": {
+    "diff": 0.004,
+    "ci": [
+     -0.014,
+     0.021
+    ],
+    "significant": false
+   }
+  },
+  "minimum": {
+   "chunks": 4,
+   "sections": 3,
+   "min_sim": 0.35,
+   "qwk": 0.96,
+   "ci": [
+    0.936,
+    0.98
+   ],
+   "criterion_accuracy": 0.941,
+   "valid": 1.0,
+   "cost": 0.0,
+   "vs_earlier": {
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "significant": false
+   }
+  }
+ },
+ "decision": "study",
+ "teacher": [
+  {
+   "config": "proposed:luna:R3:A2:off",
+   "earlier": 0.755,
+   "study": 0.695,
+   "diff": -0.06,
+   "ci": [
+    -0.152,
+    -0.002
+   ],
+   "significant": true
+  },
+  {
+   "config": "proposed:luna:R3:A2:on",
+   "earlier": 0.736,
+   "study": 0.697,
+   "diff": -0.039,
+   "ci": [
+    -0.126,
+    0.0
+   ],
+   "significant": false
+  },
+  {
+   "config": "proposed:luna:R3:A1:off",
+   "earlier": 0.7,
+   "study": 0.714,
+   "diff": 0.013,
+   "ci": [
+    -0.008,
+    0.053
+   ],
+   "significant": false
+  },
+  {
+   "config": "proposed:luna:R3:A3:off",
+   "earlier": 0.722,
+   "study": 0.714,
+   "diff": -0.009,
+   "ci": [
+    -0.024,
+    0.0
+   ],
+   "significant": false
+  },
+  {
+   "config": "proposed:haiku:R3:A2:off",
+   "earlier": 0.729,
+   "study": 0.636,
+   "diff": -0.094,
+   "ci": [
+    -0.232,
+    -0.004
+   ],
+   "significant": true
+  }
+ ],
+ "final_decision": "earlier",
+ "cost": 0.0
+}

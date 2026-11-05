@@ -1,0 +1,1108 @@
+[
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q6",
+  "answer_id": "T001",
+  "kind": "partial",
+  "script": "rumi",
+  "source": "jawi_b1_imbuhan_an_nun_q6::partial",
+  "answer": "Sebab pakai habis dengan huruf ya. Ejaan ڤاكاءين",
+  "criteria": [
+   {
+    "criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+    "met": "separa"
+   },
+   {
+    "criterion": "Mengeja ڤاكاين dengan betul",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2.5,
+  "label_source": "teacher:Guru 1",
+  "comment": "T001 K2"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q1",
+  "answer_id": "T002",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::18",
+  "answer": "6",
+  "criteria": [
+   {
+    "criterion": "Menyatakan enam harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "teacher:Guru 1",
+  "comment": "wajib tulis harakat, tidak tulis jwpan tidak diterima"
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "answer_id": "T003",
+  "kind": "misconception",
+  "script": "jawi",
+  "source": "jawi_b1_imbuhan_an_alif_nun_q2::misconception",
+  "answer": "كسيلاون",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b3_pinjaman_arab_q9",
+  "answer_id": "T004",
+  "kind": "paraphrase_full",
+  "script": "jawi",
+  "source": "jawi_b3_pinjaman_arab_q9::paraphrase_full",
+  "answer": "ايستيله كأݢاماٴن تو ڤركاتاٴن يڠ اد كاٴيتن دڠن عبادة اݢام إسلام، ايجاٴنڽ تق توكر، ايكوت اصل عرب. چونتوه صلاة دان زكاة. كات عموم ڤولق ڤركاتاٴن بياسا، دتوليس ايكوت چارا اورڠ ملايو سبوت. چونتوه سابون.",
+  "criteria": [
+   {
+    "criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam",
+    "met": "ya"
+   },
+   {
+    "criterion": "Istilah keagamaan dikekalkan ejaan asalnya",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja solat: صلاة",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja sabun: سابون (bukan صابون)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q8",
+  "answer_id": "T005",
+  "kind": "number_swap",
+  "script": "rumi",
+  "source": "jawi_b1_imbuhan_an_nun_q8::number_swap",
+  "answer": "Pada empat April 2018",
+  "criteria": [
+   {
+    "criterion": "Menyatakan 1 April 2018",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q1",
+  "answer_id": "T006",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::33",
+  "answer": "دوا harakat",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "teacher:Guru 1",
+  "comment": "betul dalam skema"
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q6",
+  "answer_id": "T007",
+  "kind": "paraphrase_full",
+  "script": "rumi",
+  "source": "fiqh_b1_latihan_q6::paraphrase_full",
+  "answer": "Betul, sebab tarawih dibuat lepas isyak sampai sebelum subuh masuk.",
+  "criteria": [
+   {
+    "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "teacher:Guru 1",
+  "comment": "jika murid tidak salin kepala soalan mungkin markah boleh dikurangkan"
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "answer_id": "T008",
+  "kind": "paraphrase_full",
+  "script": "rumi",
+  "source": "fiqh_b1_solat_istikharah_q4::paraphrase_full",
+  "answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+  "criteria": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "met": "separa"
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1.5,
+  "label_source": "teacher:Guru 1",
+  "comment": "boleh diterima, tapi seeloknya jawapan sebijik didalam buku | Setiap jawapan mesti sama dengan buku teks/skema jawapan"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+  "answer_id": "T009",
+  "kind": "paraphrase_full",
+  "script": "rumi",
+  "source": "tajwid_b3_mad_wajib_muttasil_q5::paraphrase_full",
+  "answer": "Kalau hamzah kat tengah perkataan, atau kat hujung tapi kita sambung atau berhenti, baca 4 atau 5 harakat. Kalau hamzah kat hujung perkataan dan kita berhenti je, boleh baca 4, 5 atau 6 harakat.",
+  "criteria": [
+   {
+    "criterion": "Empat atau lima harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Empat atau lima atau enam harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "teacher:Guru 1",
+  "comment": "ada point ii sikit pun bole diterima, tetapi kalau berkaitan pengertian pastikan jelas dan sama tidak boleh sama sekali lari"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q2",
+  "answer_id": "T010",
+  "kind": "partial",
+  "script": "rumi",
+  "source": "fiqh_b2_batal_puasa_q2::partial",
+  "answer": "Darah yang keluar dari perempuan lepas ada anak.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan melahirkan anak",
+    "met": "separa"
+   }
+  ],
+  "expected_score": 0.5,
+  "label_source": "teacher:Guru 1",
+  "comment": "betul dan sama maksud"
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q13",
+  "answer_id": "T011",
+  "kind": "rumi_for_jawi",
+  "script": "rumi",
+  "source": "jawi_b4_akronim_melayu_q13::rumi_for_jawi",
+  "answer": "Doktor",
+  "criteria": [
+   {
+    "criterion": "Mengeja دوكتور dalam ejaan penuh",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "teacher:Guru 1",
+  "comment": "betui. Murid kena pastikan perkataan itu dalam pinjaman bahasa inggeris / arab"
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q2",
+  "answer_id": "T012",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::4",
+  "answer": "Sebelum solat isyak sampai terbit fajar.",
+  "criteria": [
+   {
+    "criterion": "Selepas solat isyak",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Hingga terbit fajar",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b2_pengertian_puasa_q6",
+  "answer_id": "T013",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::5",
+  "answer": "Hukum puasa semuanya wajib, tiada puasa yang sunat.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan wajib",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menyatakan sunat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Bergantung pada jenis puasa",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "kena sertakan lebih perinci akan puasa apa yg hendak ditanya. contoh apakah contoh puasa sunat?"
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "answer_id": "T014",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::30",
+  "answer": "hati tenang, tak sombong, yakin dgn ketentuan Allah",
+  "criteria": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b2_latihan_q8",
+  "answer_id": "T015",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::12",
+  "answer": "Tidak berdosa, sebab puasa hari putih hukumnya sunat sahaja walaupun dia sudah bernazar.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Alasan: puasa nazar ialah puasa wajib",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+  "answer_id": "T016",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::10",
+  "answer": "Huruf mad bertemu huruf mati dalam dua kalimah. Tempatnya di Surah Yunus ayat 51 dan 91.",
+  "criteria": [
+   {
+    "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah Yunus ayat 51 dan 91",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "answer_id": "T017",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::27",
+  "answer": "كسيلوان",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "answer_id": "T018",
+  "kind": "misconception",
+  "script": "rumi",
+  "source": "fiqh_b1_solat_istikharah_q4::misconception",
+  "answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+  "criteria": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q7",
+  "answer_id": "T019",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::13",
+  "answer": "Kita kena ikut tingkatan yang paling rendah. Contohnya مِمَّا يَشَآءُ ketika waqaf ada Mad 'Aridh Lissukun dan Mad Wajib Muttasil, jadi kita baca ikut Mad 'Aridh Lissukun.",
+  "criteria": [
+   {
+    "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+    "met": "separa"
+   },
+   {
+    "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 3.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b1_solat_rawatib_q2",
+  "answer_id": "T020",
+  "kind": "confusion",
+  "script": "",
+  "source": "researcher::16",
+  "answer": "Solat sunat ba'diyyah.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan qabliyyah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "salah istilah tidak kira jawapannya"
+ },
+ {
+  "question_id": "fiqh_b1_solat_hari_raya_q3",
+  "answer_id": "T021",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::3",
+  "answer": "Rakaat pertama lima kali takbir, rakaat kedua tujuh kali takbir.",
+  "criteria": [
+   {
+    "criterion": "Rakaat pertama: tujuh kali",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Rakaat kedua: lima kali",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "istilah salah semue tidak diterima"
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+  "answer_id": "T022",
+  "kind": "partial",
+  "script": "rumi",
+  "source": "tajwid_b3_mad_wajib_muttasil_q5::partial",
+  "answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+  "criteria": [
+   {
+    "criterion": "Empat atau lima harakat",
+    "met": "ya"
+   },
+   {
+    "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Empat atau lima atau enam harakat",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 1.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q3",
+  "answer_id": "T023",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::26",
+  "answer": "منصيحاتي",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "jawi ada tambahan or kurang perkataan auto salah"
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+  "answer_id": "T024",
+  "kind": "partial",
+  "script": "rumi",
+  "source": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3::partial",
+  "answer": "Kalimah yang ada dalam Surah Yunus, yang ada dua hamzah tu.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan ءَآلۡـَٰٔنَ",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b1_latihan_q8",
+  "answer_id": "T025",
+  "kind": "tf_flip",
+  "script": "rumi",
+  "source": "fiqh_b1_latihan_q8::tf_flip",
+  "answer": "Betul",
+  "criteria": [
+   {
+    "criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+  "answer_id": "T026",
+  "kind": "misconception",
+  "script": "rumi",
+  "source": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5::misconception",
+  "answer": "Bila huruf mad jumpa hamzah dalam dua perkataan. Tempatnya dalam Surah al-Baqarah.",
+  "criteria": [
+   {
+    "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Surah Yunus ayat 51 dan 91",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q11",
+  "answer_id": "T027",
+  "kind": "paraphrase_full",
+  "script": "rumi",
+  "source": "jawi_b1_imbuhan_an_nun_q11::paraphrase_full",
+  "answer": "Kat situ ada banyak jenis bunga ros, buah strawberi dan macam-macam buah lain.",
+  "criteria": [
+   {
+    "criterion": "Menyebut bunga ros",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut strawberi / buah-buahan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b3_mad_iwadh_q4",
+  "answer_id": "T028",
+  "kind": "partial",
+  "script": "jawi",
+  "source": "tajwid_b3_mad_iwadh_q4::partial",
+  "answer": "برهنتي ڤد ڤركاتاٴن يڠ اد تنوين.",
+  "criteria": [
+   {
+    "criterion": "Mewaqafkan bacaan pada akhir kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Berbaris tanwin di atas",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Kecuali ta marbutah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q4",
+  "answer_id": "T029",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::34",
+  "answer": "Allah suka dan dapat dekat dengan Allah",
+  "criteria": [
+   {
+    "criterion": "Disukai oleh Allah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mendekatkan diri kepada Allah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kekuatan rohani / menenangkan jiwa",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 2.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q3",
+  "answer_id": "T030",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::6",
+  "answer": "Ya, dimadkan dua harakat apabila bertemu hamzah wasal.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan tidak dimadkan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+  "answer_id": "T031",
+  "kind": "partial",
+  "script": "jawi",
+  "source": "jawi_b1_imbuhan_an_alif_nun_q8::partial",
+  "answer": "ڤالو -> ڤالوان، درو -> دروءن",
+  "criteria": [
+   {
+    "criterion": "Contoh pertama kata '-ان' dieja betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh kedua kata '-ان' dieja betul",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+  "answer_id": "T032",
+  "kind": "paraphrase_full",
+  "script": "jawi",
+  "source": "jawi_b1_imbuhan_an_alif_nun_q2::paraphrase_full",
+  "answer": "كسيلاوان",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+  "answer_id": "T033",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::25",
+  "answer": "mad tobii",
+  "criteria": [
+   {
+    "criterion": "Menyatakan mad tabi'i atau mad zati",
+    "met": "separa"
+   }
+  ],
+  "expected_score": 0.5,
+  "label_source": "teacher:Guru 1",
+  "comment": "atas belas ihsan"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q6",
+  "answer_id": "T034",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::7",
+  "answer": "Puasa Ali tidak batal sebab dia minum sedikit sahaja. Puasa Siti batal sebab keluar haid. Perkara lain yang membatalkan puasa ialah muntah dengan sengaja dan makan dengan sengaja.",
+  "criteria": [
+   {
+    "criterion": "Puasa Ali batal",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Alasan: minum dengan sengaja walaupun sedikit",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Puasa Siti batal",
+    "met": "ya"
+   },
+   {
+    "criterion": "Alasan: keluar haid",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara lain pertama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara lain kedua",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "berkaitan hukum tetap sama tidak boleh diubah"
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q6",
+  "answer_id": "T035",
+  "kind": "paraphrase_full",
+  "script": "jawi",
+  "source": "tajwid_b3_mad_farq_q6::paraphrase_full",
+  "answer": "سورة يونس ايات 51، 59 دان 91. سورة النمل ايات 59. سورة الأنعام ايات 143 دان 144.",
+  "criteria": [
+   {
+    "criterion": "Surah Yunus (59, 91, 51)",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah an-Naml 59",
+    "met": "ya"
+   },
+   {
+    "criterion": "Surah al-An'am 143 dan 144",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 4,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q3",
+  "answer_id": "T036",
+  "kind": "jawi_typo",
+  "script": "jawi",
+  "source": "jawi_b2_imbuhan_i_ya_q3::jawi_typo",
+  "answer": "منسيحتي",
+  "criteria": [
+   {
+    "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b1_solat_tahajud_q4",
+  "answer_id": "T037",
+  "kind": "misconception",
+  "script": "jawi",
+  "source": "fiqh_b1_solat_tahajud_q4::misconception",
+  "answer": "1. داڤت رزقي باڽق. 2. بادن سيحت. 3. داڤت ڤيليه ڤيليهن يڠ بايق.",
+  "criteria": [
+   {
+    "criterion": "Membersihkan hati daripada kebencian",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Mencintai Allah dan menguatkan iman",
+    "met": "ya"
+   },
+   {
+    "criterion": "Rasa takut kepada Allah / dunia sementara",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 1.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "tidak kena pada skema jawapan"
+ },
+ {
+  "question_id": "tajwid_b1_mad_bahagian_q3",
+  "answer_id": "T038",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::19",
+  "answer": "2 bhgn",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua bahagian",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b1_solat_istikharah_q4",
+  "answer_id": "T039",
+  "kind": "partial",
+  "script": "jawi",
+  "source": "fiqh_b1_solat_istikharah_q4::partial",
+  "answer": "1. هاتي جادي تنڠ. 2. داڤت ڤاهالا باڽق.",
+  "criteria": [
+   {
+    "criterion": "Memberi ketenangan kepada hati",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menghilangkan sifat sombong",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 2.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "jawapan mestilah sama & sebijik"
+ },
+ {
+  "question_id": "fiqh_b2_batal_puasa_q5",
+  "answer_id": "T040",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::24",
+  "answer": "makan, minum, muntah",
+  "criteria": [
+   {
+    "criterion": "Perkara sengaja pertama",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara sengaja kedua",
+    "met": "ya"
+   },
+   {
+    "criterion": "Perkara sengaja ketiga",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 3,
+  "label_source": "teacher:Guru 1",
+  "comment": "kira salah kerana tidak meletakkan perkataan dengan sengaja"
+ },
+ {
+  "question_id": "jawi_b2_imbuhan_i_ya_q8",
+  "answer_id": "T041",
+  "kind": "misconception",
+  "script": "jawi",
+  "source": "jawi_b2_imbuhan_i_ya_q8::misconception",
+  "answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+  "criteria": [
+   {
+    "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+    "met": "ya"
+   },
+   {
+    "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja dimarahi: دمارهي",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mengeja dibayangi: دبايڠي",
+    "met": "separa"
+   },
+   {
+    "criterion": "Mengeja ubati: اوبتي",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 4.5,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b2_fadhilat_puasa_q1",
+  "answer_id": "T042",
+  "kind": "paraphrase_full",
+  "script": "rumi",
+  "source": "fiqh_b2_fadhilat_puasa_q1::paraphrase_full",
+  "answer": "Pintu Ar-Rayyan.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan al-Rayyan",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 1,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "fiqh_b1_solat_witir_q4",
+  "answer_id": "T043",
+  "kind": "partial",
+  "script": "rumi",
+  "source": "fiqh_b1_solat_witir_q4::partial",
+  "answer": "1. Rapat dengan Allah. 2. Dapat pahala banyak.",
+  "criteria": [
+   {
+    "criterion": "Disukai oleh Allah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Mendekatkan diri kepada Allah",
+    "met": "ya"
+   },
+   {
+    "criterion": "Kekuatan rohani / menenangkan jiwa",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 2.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "jawi_b1_imbuhan_an_nun_q11",
+  "answer_id": "T044",
+  "kind": "partial",
+  "script": "jawi",
+  "source": "jawi_b1_imbuhan_an_nun_q11::partial",
+  "answer": "اد باڽق بوڠا روس يڠ چنتيق.",
+  "criteria": [
+   {
+    "criterion": "Menyebut bunga ros",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut strawberi / buah-buahan",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 1.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b3_mad_badal_q1",
+  "answer_id": "T045",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::1",
+  "answer": "Mad badal dibaca enam harakat sebab hamzah ganti huruf mad.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan dua harakat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+  "answer_id": "T046",
+  "kind": "misconception",
+  "script": "rumi",
+  "source": "tajwid_b3_mad_wajib_muttasil_q6::misconception",
+  "answer": "إِنَّآ أَنزَلۡنَٰهُ ، قُوٓاْ أَنفُسَكُمۡ ، فِيٓ أَنفُسِكُمۡ",
+  "criteria": [
+   {
+    "criterion": "Misal pertama yang betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal kedua yang betul",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Misal ketiga yang betul",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b3_mad_tamkin_q2",
+  "answer_id": "T047",
+  "kind": "fluent_no_answer",
+  "script": "",
+  "source": "researcher::17",
+  "answer": "Mad tamkin ialah mad yang sangat penting dalam bacaan al-Quran dan mesti dibaca dengan betul supaya tidak salah makna.",
+  "criteria": [
+   {
+    "criterion": "Menyatakan lima kalimah",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "jawab tidak merujuk pada soalan"
+ },
+ {
+  "question_id": "jawi_b4_akronim_melayu_q13",
+  "answer_id": "T048",
+  "kind": "pupil_style",
+  "script": "",
+  "source": "researcher::29",
+  "answer": "دكتور",
+  "criteria": [
+   {
+    "criterion": "Mengeja دوكتور dalam ejaan penuh",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b4_tingkatan_mad_q7",
+  "answer_id": "T049",
+  "kind": "paraphrase_full",
+  "script": "rumi",
+  "source": "tajwid_b4_tingkatan_mad_q7::paraphrase_full",
+  "answer": "Kita kena tahu tingkatan mad sebab kadang-kadang satu perkataan ada dua hukum mad, jadi kita ikut yang paling kuat. Contoh مِمَّا يَشَآءُ, bila kita berhenti kat situ ada mad aridh lissukun dan ada mad wajib muttasil. Yang kita pakai ialah mad wajib muttasil sebab darjatnya lagi atas dari mad aridh lissukun.",
+  "criteria": [
+   {
+    "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+    "met": "ya"
+   },
+   {
+    "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+    "met": "ya"
+   },
+   {
+    "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+    "met": "ya"
+   },
+   {
+    "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+    "met": "ya"
+   }
+  ],
+  "expected_score": 6,
+  "label_source": "teacher:Guru 1",
+  "comment": ""
+ },
+ {
+  "question_id": "tajwid_b3_mad_farq_q3",
+  "answer_id": "T050",
+  "kind": "keyword_illusion",
+  "script": "",
+  "source": "researcher::2",
+  "answer": "Enam kalimah dalam tiga tempat.",
+  "criteria": [
+   {
+    "criterion": "Tiga kalimah",
+    "met": "tidak"
+   },
+   {
+    "criterion": "Enam tempat",
+    "met": "tidak"
+   }
+  ],
+  "expected_score": 0.0,
+  "label_source": "teacher:Guru 1",
+  "comment": "jawapan nya harus sama walaupun disalah letak maka jawapan tetap salah"
+ }
+]

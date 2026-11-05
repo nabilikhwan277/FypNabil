@@ -1,0 +1,363 @@
+{
+ "fail_rule": "declined, or factual correctness < 0.5",
+ "rags": {
+  "R1": {
+   "failed": {
+    "all": 8,
+    "fiqh": 3,
+    "jawi": 2,
+    "tajwid": 3
+   },
+   "questions": {
+    "all": 45,
+    "fiqh": 15,
+    "jawi": 15,
+    "tajwid": 15
+   },
+   "causes": {
+    "all": {
+     "partly found": 4,
+     "limit cut": 4
+    },
+    "fiqh": {
+     "partly found": 3
+    },
+    "jawi": {
+     "limit cut": 2
+    },
+    "tajwid": {
+     "partly found": 1,
+     "limit cut": 2
+    }
+   },
+   "examples": [
+    {
+     "question_id": "fiqh_b1_solat_witir_q6",
+     "subject": "fiqh",
+     "question": "Aminah ingin mendirikan solat witir tiga rakaat iaitu dua rakaat dan diikuti satu rakaat. Terangkan pengertian solat witir, tuliskan kedua-dua lafaz niat yang perlu digunakannya beserta maksud, dan nyatakan satu fadhilat solat witir.",
+     "cause": "partly found",
+     "evidence_read": 0.7,
+     "declined": true,
+     "passages": "4 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Solat witir didirikan selepas solat isyak hingga terbit fajar; witir ertinya ganjil; bilangannya 1, 3, 5, 7, 9 atau 11 rakaat. Niat dua rakaat: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى"
+    },
+    {
+     "question_id": "fiqh_b1_solat_gerhana_q7",
+     "subject": "fiqh",
+     "question": "Pada suatu malam berlaku gerhana bulan. Terangkan solat yang disunatkan pada ketika itu dari segi pengertian, lafaz niat, dan cara pelaksanaan rakaat pertamanya yang membezakannya daripada solat sunat biasa.",
+     "cause": "partly found",
+     "evidence_read": 0.05555555555555555,
+     "declined": true,
+     "passages": "2 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Solat gerhana bulan (khusuf) ialah solat yang didirikan kerana terjadinya gerhana, sebanyak dua rakaat dengan empat rukuk dan empat sujud, secara berjemaah atau bersendirian. Niat: أُصَلِّي سُنَّةَ ٱل"
+    },
+    {
+     "question_id": "fiqh_b2_puasa_wajib_sunat_q6",
+     "subject": "fiqh",
+     "question": "Bezakan puasa wajib dan puasa sunat dengan memberikan dua contoh bagi setiap satu. Kemudian terangkan siapakah yang disunatkan berpuasa pada 9 Zulhijjah.",
+     "cause": "partly found",
+     "evidence_read": 0.6666666666666666,
+     "declined": true,
+     "passages": "2 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Hukum puasa wajib atau sunat bergantung pada jenis puasa. Contoh puasa wajib: puasa Ramadan, qada, kafarah, nazar. Contoh puasa sunat: enam hari Syawal, Isnin dan Khamis, Tasu'a dan Asyura, Nisfu Syaa"
+    },
+    {
+     "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q5",
+     "subject": "jawi",
+     "question": "Huruf apakah digunakan untuk mengeja imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u'?",
+     "cause": "limit cut",
+     "evidence_read": 0.0,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Huruf '-ءي' (hamzah ya)"
+    },
+    {
+     "question_id": "jawi_b1_imbuhan_an_nun_q11",
+     "subject": "jawi",
+     "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+     "cause": "limit cut",
+     "evidence_read": 0.0,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan"
+    },
+    {
+     "question_id": "tajwid_b3_mad_tazim_q7",
+     "subject": "tajwid",
+     "question": "Terangkan hukum Mad Ta'zim meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+     "cause": "partly found",
+     "evidence_read": 0.16666666666666666,
+     "declined": true,
+     "passages": "3 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ. Kadarnya empat atau lima harakat. Dinamakan Mad Ta'zim kerana membesar dan memuliakan Allah. Con"
+    },
+    {
+     "question_id": "tajwid_b3_mad_lin_q2",
+     "subject": "tajwid",
+     "question": "Bilakah berlakunya hukum Mad Lin?",
+     "cause": "limit cut",
+     "evidence_read": 0.0,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Hanya ketika mewaqafkan ayat"
+    },
+    {
+     "question_id": "tajwid_b5_waqaf_q7",
+     "subject": "tajwid",
+     "question": "Apakah maksud waqaf berikut: Hasan, Qabih, Kafi?",
+     "cause": "limit cut",
+     "evidence_read": 0.0,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Waqaf Hasan: menghentikan bacaan pada tempat yang masih tergantung dari segi lafaz dan makna tetapi boleh difahami. Waqaf Qabih: menghentikan bacaan pada tempat yang tidak difahami ertinya atau boleh "
+    }
+   ]
+  },
+  "R2": {
+   "failed": {
+    "all": 10,
+    "fiqh": 4,
+    "jawi": 2,
+    "tajwid": 4
+   },
+   "questions": {
+    "all": 45,
+    "fiqh": 15,
+    "jawi": 15,
+    "tajwid": 15
+   },
+   "causes": {
+    "all": {
+     "partly found": 7,
+     "limit cut": 3
+    },
+    "fiqh": {
+     "partly found": 4
+    },
+    "jawi": {
+     "limit cut": 2
+    },
+    "tajwid": {
+     "partly found": 3,
+     "limit cut": 1
+    }
+   },
+   "examples": [
+    {
+     "question_id": "fiqh_b1_solat_witir_q6",
+     "subject": "fiqh",
+     "question": "Aminah ingin mendirikan solat witir tiga rakaat iaitu dua rakaat dan diikuti satu rakaat. Terangkan pengertian solat witir, tuliskan kedua-dua lafaz niat yang perlu digunakannya beserta maksud, dan nyatakan satu fadhilat solat witir.",
+     "cause": "partly found",
+     "evidence_read": 0.7,
+     "declined": true,
+     "passages": "3 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Solat witir didirikan selepas solat isyak hingga terbit fajar; witir ertinya ganjil; bilangannya 1, 3, 5, 7, 9 atau 11 rakaat. Niat dua rakaat: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى"
+    },
+    {
+     "question_id": "fiqh_b1_solat_taubat_q6",
+     "subject": "fiqh",
+     "question": "Seorang rakan anda menyesal atas dosa yang telah dilakukannya. Terangkan kepadanya pengertian solat taubat, waktu yang digalakkan untuk mendirikannya, lafaz niatnya dan dua fadhilatnya.",
+     "cause": "partly found",
+     "evidence_read": 0.4444444444444444,
+     "declined": true,
+     "passages": "2 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Solat taubat didirikan dua rakaat ketika seseorang ingin bertaubat kepada Allah SWT atas segala dosa. Digalakkan apabila telah berazam untuk bertaubat, sebaik-baiknya sebelum bertaubat kepada Allah SW"
+    },
+    {
+     "question_id": "fiqh_b1_solat_gerhana_q7",
+     "subject": "fiqh",
+     "question": "Pada suatu malam berlaku gerhana bulan. Terangkan solat yang disunatkan pada ketika itu dari segi pengertian, lafaz niat, dan cara pelaksanaan rakaat pertamanya yang membezakannya daripada solat sunat biasa.",
+     "cause": "partly found",
+     "evidence_read": 0.7222222222222222,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Solat gerhana bulan (khusuf) ialah solat yang didirikan kerana terjadinya gerhana, sebanyak dua rakaat dengan empat rukuk dan empat sujud, secara berjemaah atau bersendirian. Niat: أُصَلِّي سُنَّةَ ٱل"
+    },
+    {
+     "question_id": "fiqh_b2_puasa_wajib_sunat_q6",
+     "subject": "fiqh",
+     "question": "Bezakan puasa wajib dan puasa sunat dengan memberikan dua contoh bagi setiap satu. Kemudian terangkan siapakah yang disunatkan berpuasa pada 9 Zulhijjah.",
+     "cause": "partly found",
+     "evidence_read": 0.5833333333333334,
+     "declined": true,
+     "passages": "2 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Hukum puasa wajib atau sunat bergantung pada jenis puasa. Contoh puasa wajib: puasa Ramadan, qada, kafarah, nazar. Contoh puasa sunat: enam hari Syawal, Isnin dan Khamis, Tasu'a dan Asyura, Nisfu Syaa"
+    },
+    {
+     "question_id": "jawi_b2_imbuhan_i_hamzah_ya_q10",
+     "subject": "jawi",
+     "question": "Apakah jenis roket yang digunakan oleh angkasawan negara?",
+     "cause": "limit cut",
+     "evidence_read": 0.0,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Roket Soyuz TMA-11"
+    },
+    {
+     "question_id": "jawi_b1_imbuhan_an_nun_q11",
+     "subject": "jawi",
+     "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+     "cause": "limit cut",
+     "evidence_read": 0.0,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan"
+    },
+    {
+     "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q8",
+     "subject": "tajwid",
+     "question": "Terangkan Mad Lazim Harfi Muthaqqal meliputi pengertian, cara bacaan dan maksud setiap perkataan pada namanya, serta berikan satu misal beserta nama surahnya.",
+     "cause": "partly found",
+     "evidence_read": 0.2222222222222222,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya. Ia dibaca dengan idgham be"
+    },
+    {
+     "question_id": "tajwid_b3_mad_tazim_q7",
+     "subject": "tajwid",
+     "question": "Terangkan hukum Mad Ta'zim meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+     "cause": "partly found",
+     "evidence_read": 0.6666666666666666,
+     "declined": true,
+     "passages": "3 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ. Kadarnya empat atau lima harakat. Dinamakan Mad Ta'zim kerana membesar dan memuliakan Allah. Con"
+    },
+    {
+     "question_id": "tajwid_b5_waqaf_q7",
+     "subject": "tajwid",
+     "question": "Apakah maksud waqaf berikut: Hasan, Qabih, Kafi?",
+     "cause": "limit cut",
+     "evidence_read": 0.0,
+     "declined": true,
+     "passages": "1 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Waqaf Hasan: menghentikan bacaan pada tempat yang masih tergantung dari segi lafaz dan makna tetapi boleh difahami. Waqaf Qabih: menghentikan bacaan pada tempat yang tidak difahami ertinya atau boleh "
+    },
+    {
+     "question_id": "tajwid_b3_mad_tamkin_q6",
+     "subject": "tajwid",
+     "question": "Terangkan hukum Mad Tamkin meliputi pengertian dan kadar harakatnya, serta nyatakan dua kalimah Mad Tamkin beserta nama surah dan nombor ayatnya.",
+     "cause": "partly found",
+     "evidence_read": 0.7142857142857143,
+     "declined": true,
+     "passages": "3 of 4 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati. Kadarnya dua harakat dan ia termasuk dalam bahagian Mad Asli. Cont"
+    }
+   ]
+  },
+  "R3": {
+   "failed": {
+    "all": 6,
+    "fiqh": 3,
+    "jawi": 0,
+    "tajwid": 3
+   },
+   "questions": {
+    "all": 45,
+    "fiqh": 15,
+    "jawi": 15,
+    "tajwid": 15
+   },
+   "causes": {
+    "all": {
+     "partly found": 5,
+     "limit cut": 1
+    },
+    "fiqh": {
+     "partly found": 3
+    },
+    "jawi": {},
+    "tajwid": {
+     "partly found": 2,
+     "limit cut": 1
+    }
+   },
+   "examples": [
+    {
+     "question_id": "fiqh_b1_solat_witir_q6",
+     "subject": "fiqh",
+     "question": "Aminah ingin mendirikan solat witir tiga rakaat iaitu dua rakaat dan diikuti satu rakaat. Terangkan pengertian solat witir, tuliskan kedua-dua lafaz niat yang perlu digunakannya beserta maksud, dan nyatakan satu fadhilat solat witir.",
+     "cause": "partly found",
+     "evidence_read": 0.7,
+     "declined": true,
+     "passages": "3 of 3 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Solat witir didirikan selepas solat isyak hingga terbit fajar; witir ertinya ganjil; bilangannya 1, 3, 5, 7, 9 atau 11 rakaat. Niat dua rakaat: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى"
+    },
+    {
+     "question_id": "fiqh_b1_solat_taubat_q6",
+     "subject": "fiqh",
+     "question": "Seorang rakan anda menyesal atas dosa yang telah dilakukannya. Terangkan kepadanya pengertian solat taubat, waktu yang digalakkan untuk mendirikannya, lafaz niatnya dan dua fadhilatnya.",
+     "cause": "partly found",
+     "evidence_read": 0.5555555555555556,
+     "declined": true,
+     "passages": "3 of 3 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Solat taubat didirikan dua rakaat ketika seseorang ingin bertaubat kepada Allah SWT atas segala dosa. Digalakkan apabila telah berazam untuk bertaubat, sebaik-baiknya sebelum bertaubat kepada Allah SW"
+    },
+    {
+     "question_id": "fiqh_b1_solat_gerhana_q7",
+     "subject": "fiqh",
+     "question": "Pada suatu malam berlaku gerhana bulan. Terangkan solat yang disunatkan pada ketika itu dari segi pengertian, lafaz niat, dan cara pelaksanaan rakaat pertamanya yang membezakannya daripada solat sunat biasa.",
+     "cause": "partly found",
+     "evidence_read": 0.2777777777777778,
+     "declined": true,
+     "passages": "3 of 3 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Solat gerhana bulan (khusuf) ialah solat yang didirikan kerana terjadinya gerhana, sebanyak dua rakaat dengan empat rukuk dan empat sujud, secara berjemaah atau bersendirian. Niat: أُصَلِّي سُنَّةَ ٱل"
+    },
+    {
+     "question_id": "tajwid_b3_mad_lazim_harfi_muthaqqal_q8",
+     "subject": "tajwid",
+     "question": "Terangkan Mad Lazim Harfi Muthaqqal meliputi pengertian, cara bacaan dan maksud setiap perkataan pada namanya, serta berikan satu misal beserta nama surahnya.",
+     "cause": "partly found",
+     "evidence_read": 0.5555555555555556,
+     "declined": true,
+     "passages": "3 of 3 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya. Ia dibaca dengan idgham be"
+    },
+    {
+     "question_id": "tajwid_b3_mad_tazim_q7",
+     "subject": "tajwid",
+     "question": "Terangkan hukum Mad Ta'zim meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+     "cause": "partly found",
+     "evidence_read": 0.3333333333333333,
+     "declined": false,
+     "passages": "3 of 3 read",
+     "answer": "Mad Ta'zim ialah bacaan yang membesar dan memuliakan Allah, dengan kadar empat atau lima harakat. Dinamakan Mad Ta'zim kerana membesar dan memuliakan Allah; contohnya dalam Surah as-Saffat ayat 35.",
+     "reference": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ. Kadarnya empat atau lima harakat. Dinamakan Mad Ta'zim kerana membesar dan memuliakan Allah. Con"
+    },
+    {
+     "question_id": "tajwid_b5_waqaf_q7",
+     "subject": "tajwid",
+     "question": "Apakah maksud waqaf berikut: Hasan, Qabih, Kafi?",
+     "cause": "limit cut",
+     "evidence_read": 0.0,
+     "declined": true,
+     "passages": "2 of 3 read",
+     "answer": "Data ini tiada dalam pangkalan data saya.",
+     "reference": "Waqaf Hasan: menghentikan bacaan pada tempat yang masih tergantung dari segi lafaz dan makna tetapi boleh difahami. Waqaf Qabih: menghentikan bacaan pada tempat yang tidak difahami ertinya atau boleh "
+    }
+   ]
+  }
+ }
+}

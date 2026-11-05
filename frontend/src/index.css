@@ -1,146 +1,352 @@
-@import 'tailwindcss';
+﻿@import 'tailwindcss';
 
-/* Kid-friendly theme: rounded, bright, chunky, high contrast. */
+/* ═══════════════════════════════════════════════════════════════
+   KafAI UPKK design system
+   Deep emerald brand, warm cream surfaces, gold accent (docs/uiux).
+   Two themes share one set of tokens: light (default) and dark.
+   ThemeContext sets <html data-theme>. Colours are used through
+   Tailwind names (bg-surface, text-ink-2, bg-brand, bg-gold …) and
+   never hard-coded.
+   Contrast: ink / ink-2 / ink-3 on bg and surface ≥ 4.5:1 in both themes;
+   on-primary on primary, on-gold on gold, on-brand on brand ≥ 4.5:1.
+═══════════════════════════════════════════════════════════════ */
+:root {
+  color-scheme: light;
+  --bg: #fbf6ec;
+  --surface: #ffffff;
+  --surface-2: #f8f2e6;
+  --surface-3: #eee5d3;
+  --line: #ece2cf;
+  --line-strong: #d8cab0;
+  --ink: #17241d;
+  --ink-2: #435047;
+  --ink-3: #5d6a62;
+
+  --primary: #0b6b45;
+  --primary-hover: #08593a;
+  --primary-edge: #064a30;
+  --primary-soft: #e2f2e8;
+  --primary-ink: #0a6541;
+  --on-primary: #ffffff;
+
+  /* Sidebar and hero cards */
+  --brand: #0a4a32;
+  --brand-2: #0f6040;
+  --on-brand: #ffffff;
+  --on-brand-2: rgba(255, 255, 255, 0.78);
+  --brand-line: rgba(255, 255, 255, 0.14);
+  /* Active sidebar item: a cream pill with deep green text, the same in both themes. */
+  --nav-active: #fbf3df;
+  --on-nav-active: #0a4a32;
+
+  --gold: #f3b641;
+  --gold-hover: #e9a722;
+  --on-gold: #3a2905;
+  --gold-soft: #fdf1d6;
+  --gold-ink: #a36a05;
+
+  --accent: #f59e0b;
+  --accent-soft: #fdf0c8;
+  --accent-ink: #8a4b06;
+  --danger: #dc2626;
+  --danger-soft: #fde4e4;
+  --danger-ink: #a81c1c;
+  --info-soft: #ddf0fc;
+  --info-ink: #075985;
+
+  --fiqh: #16a34a;
+  --fiqh-soft: #e3f4e8;
+  --fiqh-ink: #15633a;
+  --jawi: #d48806;
+  --jawi-soft: #fcefd3;
+  --jawi-ink: #8a4a05;
+  --tajwid: #7c3aed;
+  --tajwid-soft: #eee8fc;
+  --tajwid-ink: #5b21b6;
+
+  --shadow-sm: 0 1px 2px rgba(23, 36, 29, 0.05);
+  --shadow: 0 1px 2px rgba(23, 36, 29, 0.04), 0 4px 16px rgba(23, 36, 29, 0.06);
+  --shadow-lg: 0 10px 24px rgba(23, 36, 29, 0.08), 0 24px 56px rgba(23, 36, 29, 0.12);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0f1412;
+  --surface: #171d1a;
+  --surface-2: #1d2420;
+  --surface-3: #27302b;
+  --line: #29322d;
+  --line-strong: #3a453f;
+  --ink: #eef3f0;
+  --ink-2: #c3ccc7;
+  --ink-3: #99a49e;
+
+  --primary: #22b07a;
+  --primary-hover: #3cc48e;
+  --primary-edge: #0b6b45;
+  --primary-soft: rgba(34, 176, 122, 0.16);
+  --primary-ink: #5ad3a2;
+  --on-primary: #04241a;
+
+  --brand: #0b2e22;
+  --brand-2: #0f3d2c;
+  --on-brand: #ffffff;
+  --on-brand-2: rgba(255, 255, 255, 0.75);
+  --brand-line: rgba(255, 255, 255, 0.1);
+
+  --gold: #f3b641;
+  --gold-hover: #f7c662;
+  --on-gold: #2d1f03;
+  --gold-soft: rgba(243, 182, 65, 0.14);
+  --gold-ink: #f3b641;
+
+  --accent: #fbbf24;
+  --accent-soft: rgba(251, 191, 36, 0.15);
+  --accent-ink: #fcd34d;
+  --danger: #f87171;
+  --danger-soft: rgba(248, 113, 113, 0.15);
+  --danger-ink: #fca5a5;
+  --info-soft: rgba(56, 189, 248, 0.15);
+  --info-ink: #7dd3fc;
+
+  --fiqh: #34d399;
+  --fiqh-soft: rgba(52, 211, 153, 0.15);
+  --fiqh-ink: #6ee7b7;
+  --jawi: #fbbf24;
+  --jawi-soft: rgba(251, 191, 36, 0.14);
+  --jawi-ink: #fcd34d;
+  --tajwid: #a78bfa;
+  --tajwid-soft: rgba(167, 139, 250, 0.16);
+  --tajwid-ink: #c4b5fd;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 8px 24px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.3), 0 24px 48px rgba(0, 0, 0, 0.45);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-edge: var(--primary-edge);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-ink: var(--primary-ink);
+  --color-on-primary: var(--on-primary);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-on-brand: var(--on-brand);
+  --color-on-brand-2: var(--on-brand-2);
+  --color-brand-line: var(--brand-line);
+  --color-nav-active: var(--nav-active);
+  --color-on-nav-active: var(--on-nav-active);
+  --color-gold: var(--gold);
+  --color-gold-hover: var(--gold-hover);
+  --color-on-gold: var(--on-gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-gold-ink: var(--gold-ink);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-danger-ink: var(--danger-ink);
+  --color-info-soft: var(--info-soft);
+  --color-info-ink: var(--info-ink);
+  --color-fiqh: var(--fiqh);
+  --color-fiqh-soft: var(--fiqh-soft);
+  --color-fiqh-ink: var(--fiqh-ink);
+  --color-jawi: var(--jawi);
+  --color-jawi-soft: var(--jawi-soft);
+  --color-jawi-ink: var(--jawi-ink);
+  --color-tajwid: var(--tajwid);
+  --color-tajwid-soft: var(--tajwid-soft);
+  --color-tajwid-ink: var(--tajwid-ink);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow);
+  --shadow-lg: var(--shadow-lg);
+}
+
 @theme {
-  /* Nunito has no Arabic glyphs, so Jawi text anywhere falls back to Naskh. */
-  --font-sans: 'Nunito', 'Noto Naskh Arabic', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans Variable', 'Noto Naskh Arabic', ui-sans-serif, system-ui, sans-serif;
   --font-jawi: 'Noto Naskh Arabic', 'Traditional Arabic', serif;
-
-  --color-ink: #1e293b; /* slate-800, body text */
 
   --animate-twinkle: twinkle 3.2s ease-in-out infinite;
   --animate-floaty: floaty 3s ease-in-out infinite;
   --animate-wiggle: wiggle 1.2s ease-in-out infinite;
   --animate-pop: pop 0.35s ease-out both;
+  --animate-slideup: slideup 0.4s ease-out both;
+  --animate-indeterminate: indeterminate 1.6s ease-in-out infinite;
 
   @keyframes twinkle {
-    0%,
-    100% {
-      opacity: 0.25;
-      transform: scale(0.8);
-    }
-    50% {
-      opacity: 0.95;
-      transform: scale(1.1);
-    }
+    0%, 100% { opacity: 0.25; transform: scale(0.8); }
+    50% { opacity: 0.9; transform: scale(1.15); }
   }
   @keyframes floaty {
-    0%,
-    100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-8px);
-    }
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
   }
   @keyframes wiggle {
-    0%,
-    100% {
-      transform: rotate(-4deg);
-    }
-    50% {
-      transform: rotate(4deg);
-    }
+    0%, 100% { transform: rotate(-4deg); }
+    50% { transform: rotate(4deg); }
   }
   @keyframes pop {
-    0% {
-      transform: scale(0.6);
-      opacity: 0;
-    }
-    80% {
-      transform: scale(1.08);
-      opacity: 1;
-    }
-    100% {
-      transform: scale(1);
-    }
+    0% { transform: scale(0.6); opacity: 0; }
+    80% { transform: scale(1.08); opacity: 1; }
+    100% { transform: scale(1); }
+  }
+  @keyframes slideup {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  @keyframes indeterminate {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(250%); }
   }
 }
 
-html,
-body,
-#root {
-  min-height: 100%;
-}
+html, body, #root { min-height: 100%; }
 
-/* Sky-to-sunshine background with a soft dotted pattern. */
 body {
-  @apply font-sans text-ink antialiased;
-  background-color: #e0f2fe;
-  background-image:
-    radial-gradient(circle at 1px 1px, rgb(2 132 199 / 0.1) 1.5px, transparent 0),
-    linear-gradient(180deg, #dbeafe 0%, #e0f2fe 35%, #fef9c3 100%);
-  background-size:
-    22px 22px,
-    100% 100%;
+  @apply font-sans antialiased;
+  color: var(--ink);
+  background-color: var(--bg);
+  font-size: 1rem;
+  line-height: 1.6;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
+[dir='rtl'] body { font-size: 1.15rem; }
 
-/* Jawi text: right-to-left Naskh font. In the components layer so Tailwind
-   size utilities (text-3xl etc.) still apply. */
-@layer components {
-  .jawi {
-    font-family: var(--font-jawi);
-    direction: rtl;
-    line-height: 1.9;
-  }
-}
+h1, h2, h3 { letter-spacing: -0.015em; }
 
-/* Naskh looks smaller than Nunito at the same size; nudge body-level Jawi up. */
-[dir='rtl'] body {
-  font-size: 1.1rem;
+@layer base {
+  /* A long topic title in a grid card truncates instead of pushing the grid wider than the phone screen. */
+  .grid > * { min-width: 0; }
 }
 
 @layer components {
-  /* Chunky "3D" buttons: a darker bottom edge that presses down on click.
-     Text is >= 20px bold, so white on emerald-600 meets WCAG AA for large text. */
-  .btn-primary {
-    @apply inline-flex min-h-14 cursor-pointer items-center justify-center gap-2 rounded-2xl border-b-4 border-emerald-800 bg-emerald-600 px-6 py-3 text-xl font-black text-white shadow-md transition select-none hover:-translate-y-0.5 hover:bg-emerald-700 active:translate-y-0.5 active:border-b-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0;
-  }
+  .jawi { font-family: var(--font-jawi); direction: rtl; line-height: 1.9; }
+
+  .btn-primary,
+  .btn-gold,
   .btn-secondary {
-    @apply inline-flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-2xl border-2 border-b-4 border-slate-200 bg-white px-5 py-2 font-bold text-ink shadow-sm transition select-none hover:-translate-y-0.5 hover:border-sky-300 active:translate-y-0.5 active:border-b-2 disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-xl px-5 py-2.5 font-bold transition select-none active:translate-y-px disabled:cursor-not-allowed;
   }
+  .btn-primary {
+    background: var(--primary);
+    color: var(--on-primary);
+    box-shadow: var(--shadow-sm);
+  }
+  .btn-primary:hover { background: var(--primary-hover); box-shadow: var(--shadow); }
+  .btn-primary:disabled,
+  .btn-gold:disabled {
+    background: var(--surface-3);
+    color: var(--ink-3);
+    box-shadow: none;
+  }
+
+  /* The one warm call to action on a page ("Sambung", "Latih topik ini"). */
+  .btn-gold {
+    background: var(--gold);
+    color: var(--on-gold);
+    box-shadow: var(--shadow-sm);
+  }
+  .btn-gold:hover { background: var(--gold-hover); }
+
+  .btn-secondary {
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    color: var(--ink);
+  }
+  .btn-secondary:hover { border-color: var(--primary); color: var(--primary-ink); background: var(--primary-soft); }
+  .btn-secondary:disabled { opacity: 0.5; }
+
+  /* Flat icon / text button for toolbars. */
+  .btn-ghost {
+    @apply inline-flex min-h-11 min-w-11 cursor-pointer items-center justify-center gap-2 rounded-xl px-3 font-semibold transition select-none disabled:cursor-not-allowed disabled:opacity-50;
+    color: var(--ink-2);
+  }
+  .btn-ghost:hover { background: var(--surface-2); color: var(--ink); }
+
   .btn-choice {
-    @apply inline-flex min-h-14 cursor-pointer items-center justify-center gap-2 rounded-2xl border-2 border-b-4 border-slate-200 bg-white px-5 py-3 text-xl font-black text-ink shadow-sm transition select-none hover:-translate-y-0.5 hover:border-sky-400 active:translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:translate-y-0 aria-pressed:border-emerald-600 aria-pressed:bg-emerald-50 aria-pressed:text-emerald-900;
+    @apply inline-flex min-h-14 cursor-pointer items-center justify-center gap-2 rounded-xl border-2 px-5 py-3 text-lg font-bold transition select-none disabled:cursor-not-allowed disabled:opacity-50;
+    background: var(--surface);
+    border-color: var(--line);
+    color: var(--ink);
   }
+  .btn-choice:hover { border-color: var(--primary); }
+  .btn-choice[aria-pressed='true'] {
+    background: var(--primary-soft);
+    border-color: var(--primary);
+    color: var(--primary-ink);
+  }
+
   .card {
-    @apply rounded-3xl border-2 border-white bg-white/95 p-5 shadow-[0_6px_0_0_rgb(15_23_42_/_0.07)];
+    @apply rounded-2xl p-5 sm:p-6;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
   }
+
+  /* Deep emerald hero card (continue learning, score, overall progress). */
+  .card-brand {
+    @apply relative overflow-hidden rounded-2xl p-5 sm:p-6;
+    background: linear-gradient(135deg, var(--brand-2), var(--brand));
+    color: var(--on-brand);
+    box-shadow: var(--shadow);
+  }
+
   .field {
-    @apply w-full rounded-2xl border-2 border-b-4 border-slate-200 bg-white px-4 py-3 text-lg outline-none focus:border-emerald-500;
+    @apply w-full rounded-xl border px-4 py-3 text-base outline-none;
+    background: var(--surface);
+    color: var(--ink);
+    border-color: var(--line-strong);
+    transition: border-color 0.2s, box-shadow 0.2s;
   }
+  .field::placeholder { color: var(--ink-3); opacity: 0.8; }
+  .field:focus { border-color: var(--primary); box-shadow: 0 0 0 4px var(--primary-soft); }
+  .field:disabled { background: var(--surface-2); }
+
   .chip {
-    @apply inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-sm font-black text-ink shadow-sm ring-2 ring-white;
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-sm font-semibold;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    color: var(--ink-2);
   }
+
+  /* Small uppercase label above a group (sidebar sections, form labels). */
+  .eyebrow { @apply text-xs font-bold tracking-wider uppercase; color: var(--ink-3); }
+
+  /* Card heading with a small coloured icon in front. */
+  .section-title { @apply flex items-center gap-2 text-lg font-extrabold; color: var(--ink); }
 }
 
-.font-jawi {
-  font-family: var(--font-jawi);
-}
-/* Answer box: Latin text in Nunito, Arabic-script glyphs fall back to Naskh. */
-.font-jawi-mix {
-  font-family: 'Nunito', var(--font-jawi), sans-serif;
-}
+.font-jawi { font-family: var(--font-jawi); }
+.font-jawi-mix { font-family: 'Plus Jakarta Sans Variable', var(--font-jawi), sans-serif; }
 
-/* Any Arabic-script block inside notes uses the Naskh font. */
 .note-body :is(p, li, td, th, h2, h3, h4, blockquote)[dir='auto']:dir(rtl) {
   font-family: var(--font-jawi);
   line-height: 2;
 }
 
-/* Visible keyboard focus for accessibility. */
-:focus-visible {
-  outline: 3px solid #2563eb;
-  outline-offset: 2px;
-}
-/* Headings / main that only receive focus from code (tabindex=-1) need no ring. */
-[tabindex='-1']:focus {
-  outline: none;
-}
+:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; border-radius: 0.5rem; }
+/* On the deep green sidebar and hero cards the green ring would be invisible. */
+.on-brand :focus-visible { outline-color: var(--gold); }
+[tabindex='-1']:focus { outline: none; }
+
+/* Thin, quiet scrollbars inside panels (sidebar, chat). */
+.scroll-thin { scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent; }
+.on-brand .scroll-thin, .scroll-thin.on-brand { scrollbar-color: var(--brand-line) transparent; }
 
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
+  *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;

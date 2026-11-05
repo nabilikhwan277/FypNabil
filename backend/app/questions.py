@@ -28,6 +28,14 @@ def load_questions() -> dict[str, dict]:
                 "subject": data["subject"],
                 "source_file": data["topic_id"],
             }
+    # Objective (A-D) versions made by scripts/make_mcq.py live next to the bank in data/mcq/<subject>.json.
+    # The open question, rubric and reference answer stay unchanged (experiments and teacher marking use them).
+    for path in sorted((root.parent / "mcq").glob("*.json")):
+        for qid, mcq in json.loads(path.read_text(encoding="utf-8")).items():
+            # only items that passed the second-model check or that a teacher approved (verified=true);
+            # the rest stay open questions until reviewed
+            if qid in out and (mcq.get("check") == "ok" or mcq.get("verified") is True):
+                out[qid]["mcq"] = mcq
     return out
 
 

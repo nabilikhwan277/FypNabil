@@ -42,7 +42,6 @@ verified: false
 **Rumi:** Apakah kepentingan mempelajari tingkatan mad? Apabila terdapat dua hukum mad dalam satu kalimah, maka hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Misalnya kalimah {مِمَّا يَشَآءُ} ketika bacaan waqaf, terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Maka hukum sebenarnya adalah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.
 **Jawi:** اڤاكه كڤنتيڠن ممڤلاجري تيڠكتن مد؟ اڤابيلا ترداڤت دوا حكوم مد دالم ساتو كليمه، مک حكومڽ هندقله برڤندوکن كڤد تيڠكتن يڠ ترتيڠڬي. ميثل كليمه {مِمَّا يَشَآءُ} كتيک باچاءن وقف، ترداڤت دوا حكوم ياءيت مد عارض للسكون دان مد واجب متصل. مک حكوم سبنرڽ اداله مد واجب متصل كران تيڠكتنڽ لبيه تيڠڬي درڤد مد عارض للسكون.
 
-(Nota: dalam buku kalimah dicetak rapat "مِمَّايَشَآءُ" dengan satu tanda kecil di atas hujungnya [TIDAK JELAS].)
 
 ## Aktiviti
 **Rumi:** Murid-murid dalam kumpulan membincangkan misal-misal hukum merujuk tingkatan mad di dalam al-Quran al-Karim.

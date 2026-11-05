@@ -35,16 +35,34 @@ class LLM:
         s = get_settings()
         self.model_id = s.llm_model_id
         self.device = resolve_device(s.device)
-        dtype = _DTYPES[s.llm_dtype] if self.device == "cuda" else torch.float32
+        dtype = _DTYPES.get(s.llm_dtype, torch.float16) if self.device == "cuda" else torch.float32
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, cache_dir=s.hf_cache_dir)
-        self.model = AutoModelForCausalLM.from_pretrained(
-            self.model_id, torch_dtype=dtype, cache_dir=s.hf_cache_dir
-        ).to(self.device)
+
+        load_kwargs: dict = {"cache_dir": s.hf_cache_dir}
+        is_4bit = "4bit" in self.model_id.lower() or getattr(s, "llm_load_in_4bit", False)
+
+        if self.device == "cuda":
+            if is_4bit:
+                load_kwargs["device_map"] = "auto"
+            else:
+                load_kwargs["torch_dtype"] = dtype
+                load_kwargs["device_map"] = "auto"
+        else:
+            load_kwargs["torch_dtype"] = torch.float32
+
+        self.model = AutoModelForCausalLM.from_pretrained(self.model_id, **load_kwargs)
+        if self.device != "cuda" or not hasattr(self.model, "hf_device_map"):
+            if not is_4bit:
+                self.model = self.model.to(self.device)
         self.model.eval()
         if self.tokenizer.pad_token_id is None:
             self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
         self._lock = threading.Lock()
         self._label_ids: dict = {}
+
+    @property
+    def model_device(self) -> torch.device | str:
+        return getattr(self.model, "device", self.device)
 
     @torch.inference_mode()
     def generate(
@@ -61,7 +79,7 @@ class LLM:
         free-text output (feedback) where the 1B model can loop."""
         inputs = self.tokenizer.apply_chat_template(
             messages, add_generation_prompt=True, return_tensors="pt", return_dict=True
-        ).to(self.device)
+        ).to(self.model_device)
         kwargs = dict(
             max_new_tokens=max_new_tokens,
             pad_token_id=self.tokenizer.pad_token_id,
@@ -104,7 +122,7 @@ class LLM:
             self._label_ids[key] = ids
         inputs = self.tokenizer.apply_chat_template(
             messages, add_generation_prompt=True, return_tensors="pt", return_dict=True
-        ).to(self.device)
+        ).to(self.model_device)
         with self._lock:
             logits = self.model(**inputs).logits[0, -1].float()
         logp = torch.log_softmax(logits, dim=-1)
@@ -128,3 +146,20 @@ def get_llm() -> LLM:
 
 def llm_loaded() -> bool:
     return _llm is not None
+
+
+def generate_text(messages: list[dict[str, str]], max_new_tokens: int = 200, temperature: float = 0.0,
+                  **local_kwargs) -> Generation:
+    """Chat generation for the app (Tanya Bulan) and the experiment model "qwen".
+
+    Uses the Qwen server on Google Colab when its link is saved (remote_llm); otherwise the
+    local model, unless KAFA_LOCAL_LLM=false, in which case RemoteUnavailable is raised.
+    """
+    from . import remote_llm
+
+    if remote_llm.endpoint() is not None:
+        r = remote_llm.chat(messages, max_tokens=max_new_tokens, temperature=temperature)
+        return Generation(text=r["text"], latency_ms=r["ms"], prompt_tokens=r["tokens_in"], new_tokens=r["tokens_out"])
+    if not get_settings().local_llm:
+        raise remote_llm.RemoteUnavailable("Qwen is set to run on Google Colab, but no Colab link is saved")
+    return get_llm().generate(messages, max_new_tokens=max_new_tokens, temperature=temperature, **local_kwargs)

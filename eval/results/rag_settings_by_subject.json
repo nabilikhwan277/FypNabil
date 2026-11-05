@@ -1,0 +1,1287 @@
+{
+ "settings": [
+  {
+   "key": "chunk",
+   "setting": "Chunk size",
+   "metric": "factual_correctness",
+   "current": "1,500",
+   "subjects": {
+    "fiqh": {
+     "label": "Ibadah",
+     "n": 15,
+     "options": [
+      {
+       "option": "300",
+       "mean": 0.67,
+       "current": false,
+       "vs_current": {
+        "diff": -0.041,
+        "ci": [
+         -0.122,
+         0.01
+        ],
+        "p": 0.333,
+        "clear": false
+       }
+      },
+      {
+       "option": "600",
+       "mean": 0.71,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "1,000",
+       "mean": 0.71,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "1,500",
+       "mean": 0.71,
+       "current": true
+      },
+      {
+       "option": "whole section",
+       "mean": 0.71,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "1,500",
+     "own_setting": false
+    },
+    "jawi": {
+     "label": "Jawi",
+     "n": 15,
+     "options": [
+      {
+       "option": "300",
+       "mean": 0.993,
+       "current": false,
+       "vs_current": {
+        "diff": 0.036,
+        "ci": [
+         0.0,
+         0.089
+        ],
+        "p": 0.235,
+        "clear": false
+       },
+       "faithfulness_vs_current": {
+        "diff": -0.039,
+        "ci": [
+         -0.117,
+         0.022
+        ],
+        "p": 0.317,
+        "clear": false
+       }
+      },
+      {
+       "option": "600",
+       "mean": 0.846,
+       "current": false,
+       "vs_current": {
+        "diff": -0.111,
+        "ci": [
+         -0.333,
+         0.044
+        ],
+        "p": 0.264,
+        "clear": false
+       }
+      },
+      {
+       "option": "1,000",
+       "mean": 0.957,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       },
+       "faithfulness_vs_current": {
+        "diff": -0.011,
+        "ci": [
+         -0.067,
+         0.033
+        ],
+        "p": 0.795,
+        "clear": false
+       }
+      },
+      {
+       "option": "1,500",
+       "mean": 0.957,
+       "current": true
+      },
+      {
+       "option": "whole section",
+       "mean": 0.957,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       },
+       "faithfulness_vs_current": {
+        "diff": -0.028,
+        "ci": [
+         -0.083,
+         0.0
+        ],
+        "p": 0.679,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "1,500",
+     "own_setting": false
+    },
+    "tajwid": {
+     "label": "Tajwid",
+     "n": 15,
+     "options": [
+      {
+       "option": "300",
+       "mean": 0.699,
+       "current": false,
+       "vs_current": {
+        "diff": -0.102,
+        "ci": [
+         -0.249,
+         -0.013
+        ],
+        "p": 0.014,
+        "clear": true
+       }
+      },
+      {
+       "option": "600",
+       "mean": 0.738,
+       "current": false,
+       "vs_current": {
+        "diff": -0.063,
+        "ci": [
+         -0.2,
+         0.011
+        ],
+        "p": 0.687,
+        "clear": false
+       }
+      },
+      {
+       "option": "1,000",
+       "mean": 0.738,
+       "current": false,
+       "vs_current": {
+        "diff": -0.063,
+        "ci": [
+         -0.2,
+         0.011
+        ],
+        "p": 0.74,
+        "clear": false
+       }
+      },
+      {
+       "option": "1,500",
+       "mean": 0.801,
+       "current": true
+      },
+      {
+       "option": "whole section",
+       "mean": 0.801,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "1,500",
+     "own_setting": false
+    }
+   }
+  },
+  {
+   "key": "sections",
+   "setting": "Number of sections (k)",
+   "metric": "factual_correctness",
+   "current": "3",
+   "subjects": {
+    "fiqh": {
+     "label": "Ibadah",
+     "n": 15,
+     "options": [
+      {
+       "option": "1",
+       "mean": 0.486,
+       "current": false,
+       "vs_current": {
+        "diff": -0.224,
+        "ci": [
+         -0.433,
+         -0.031
+        ],
+        "p": 0.016,
+        "clear": true
+       }
+      },
+      {
+       "option": "2",
+       "mean": 0.692,
+       "current": false,
+       "vs_current": {
+        "diff": -0.018,
+        "ci": [
+         -0.116,
+         0.06
+        ],
+        "p": 0.708,
+        "clear": false
+       }
+      },
+      {
+       "option": "3",
+       "mean": 0.71,
+       "current": true
+      },
+      {
+       "option": "5",
+       "mean": 0.759,
+       "current": false,
+       "vs_current": {
+        "diff": 0.048,
+        "ci": [
+         -0.017,
+         0.142
+        ],
+        "p": 0.206,
+        "clear": false
+       }
+      },
+      {
+       "option": "10",
+       "mean": 0.78,
+       "current": false,
+       "vs_current": {
+        "diff": 0.07,
+        "ci": [
+         0.0,
+         0.184
+        ],
+        "p": 0.07,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "3",
+     "own_setting": false
+    },
+    "jawi": {
+     "label": "Jawi",
+     "n": 15,
+     "options": [
+      {
+       "option": "1",
+       "mean": 0.913,
+       "current": false,
+       "vs_current": {
+        "diff": -0.044,
+        "ci": [
+         -0.133,
+         0.0
+        ],
+        "p": 0.743,
+        "clear": false
+       }
+      },
+      {
+       "option": "2",
+       "mean": 0.957,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       },
+       "faithfulness_vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "3",
+       "mean": 0.957,
+       "current": true
+      },
+      {
+       "option": "5",
+       "mean": 0.957,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       },
+       "faithfulness_vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "10",
+       "mean": 0.957,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       },
+       "faithfulness_vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "3",
+     "own_setting": false
+    },
+    "tajwid": {
+     "label": "Tajwid",
+     "n": 15,
+     "options": [
+      {
+       "option": "1",
+       "mean": 0.427,
+       "current": false,
+       "vs_current": {
+        "diff": -0.374,
+        "ci": [
+         -0.601,
+         -0.173
+        ],
+        "p": 0.0,
+        "clear": true
+       }
+      },
+      {
+       "option": "2",
+       "mean": 0.678,
+       "current": false,
+       "vs_current": {
+        "diff": -0.123,
+        "ci": [
+         -0.256,
+         -0.004
+        ],
+        "p": 0.019,
+        "clear": true
+       }
+      },
+      {
+       "option": "3",
+       "mean": 0.801,
+       "current": true
+      },
+      {
+       "option": "5",
+       "mean": 0.873,
+       "current": false,
+       "vs_current": {
+        "diff": 0.072,
+        "ci": [
+         -0.008,
+         0.197
+        ],
+        "p": 0.225,
+        "clear": false
+       }
+      },
+      {
+       "option": "10",
+       "mean": 0.87,
+       "current": false,
+       "vs_current": {
+        "diff": 0.069,
+        "ci": [
+         -0.025,
+         0.21
+        ],
+        "p": 0.241,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "3",
+     "own_setting": false
+    }
+   }
+  },
+  {
+   "key": "limit",
+   "setting": "Context limit",
+   "metric": "factual_correctness",
+   "current": "3,600",
+   "subjects": {
+    "fiqh": {
+     "label": "Ibadah",
+     "n": 15,
+     "options": [
+      {
+       "option": "1,800",
+       "mean": 0.704,
+       "current": false,
+       "vs_current": {
+        "diff": -0.007,
+        "ci": [
+         -0.082,
+         0.062
+        ],
+        "p": 0.755,
+        "clear": false
+       }
+      },
+      {
+       "option": "3,600",
+       "mean": 0.71,
+       "current": true
+      },
+      {
+       "option": "7,200",
+       "mean": 0.71,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "no limit",
+       "mean": 0.71,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "3,600",
+     "own_setting": false
+    },
+    "jawi": {
+     "label": "Jawi",
+     "n": 15,
+     "options": [
+      {
+       "option": "1,800",
+       "mean": 0.713,
+       "current": false,
+       "vs_current": {
+        "diff": -0.244,
+        "ci": [
+         -0.467,
+         -0.044
+        ],
+        "p": 0.025,
+        "clear": true
+       }
+      },
+      {
+       "option": "3,600",
+       "mean": 0.957,
+       "current": true
+      },
+      {
+       "option": "7,200",
+       "mean": 0.957,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       },
+       "faithfulness_vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "no limit",
+       "mean": 0.957,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       },
+       "faithfulness_vs_current": {
+        "diff": 0.011,
+        "ci": [
+         0.0,
+         0.033
+        ],
+        "p": 0.714,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "3,600",
+     "own_setting": false
+    },
+    "tajwid": {
+     "label": "Tajwid",
+     "n": 15,
+     "options": [
+      {
+       "option": "1,800",
+       "mean": 0.626,
+       "current": false,
+       "vs_current": {
+        "diff": -0.175,
+        "ci": [
+         -0.375,
+         -0.002
+        ],
+        "p": 0.019,
+        "clear": true
+       }
+      },
+      {
+       "option": "3,600",
+       "mean": 0.801,
+       "current": true
+      },
+      {
+       "option": "7,200",
+       "mean": 0.801,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "no limit",
+       "mean": 0.801,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "3,600",
+     "own_setting": false
+    }
+   }
+  },
+  {
+   "key": "variants",
+   "setting": "Query variants",
+   "metric": "evidence_recall",
+   "current": "none",
+   "subjects": {
+    "fiqh": {
+     "label": "Ibadah",
+     "n": 15,
+     "options": [
+      {
+       "option": "none",
+       "mean": 0.902,
+       "current": true
+      },
+      {
+       "option": "2 rewrites + RRF fusion",
+       "mean": 0.887,
+       "current": false,
+       "vs_current": {
+        "diff": -0.015,
+        "ci": [
+         -0.044,
+         0.0
+        ],
+        "p": 0.727,
+        "clear": false
+       }
+      },
+      {
+       "option": "2 rewrites + round-robin",
+       "mean": 0.902,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "none",
+     "own_setting": false
+    },
+    "jawi": {
+     "label": "Jawi",
+     "n": 15,
+     "options": [
+      {
+       "option": "none",
+       "mean": 1.0,
+       "current": true
+      },
+      {
+       "option": "2 rewrites + RRF fusion",
+       "mean": 0.956,
+       "current": false,
+       "vs_current": {
+        "diff": -0.044,
+        "ci": [
+         -0.133,
+         0.0
+        ],
+        "p": 0.698,
+        "clear": false
+       }
+      },
+      {
+       "option": "2 rewrites + round-robin",
+       "mean": 1.0,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "none",
+     "own_setting": false
+    },
+    "tajwid": {
+     "label": "Tajwid",
+     "n": 15,
+     "options": [
+      {
+       "option": "none",
+       "mean": 0.859,
+       "current": true
+      },
+      {
+       "option": "2 rewrites + RRF fusion",
+       "mean": 0.846,
+       "current": false,
+       "vs_current": {
+        "diff": -0.014,
+        "ci": [
+         -0.085,
+         0.044
+        ],
+        "p": 0.907,
+        "clear": false
+       }
+      },
+      {
+       "option": "2 rewrites + round-robin",
+       "mean": 0.826,
+       "current": false,
+       "vs_current": {
+        "diff": -0.033,
+        "ci": [
+         -0.1,
+         0.0
+        ],
+        "p": 0.74,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "none",
+     "own_setting": false
+    }
+   }
+  },
+  {
+   "key": "scope",
+   "setting": "Search scope",
+   "metric": "evidence_recall",
+   "current": "subject",
+   "subjects": {
+    "fiqh": {
+     "label": "Ibadah",
+     "n": 15,
+     "options": [
+      {
+       "option": "all notes",
+       "mean": 0.902,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "subject",
+       "mean": 0.902,
+       "current": true
+      },
+      {
+       "option": "topic first",
+       "mean": 0.917,
+       "current": false,
+       "vs_current": {
+        "diff": 0.014,
+        "ci": [
+         -0.017,
+         0.06
+        ],
+        "p": 0.707,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "subject",
+     "own_setting": false
+    },
+    "jawi": {
+     "label": "Jawi",
+     "n": 15,
+     "options": [
+      {
+       "option": "all notes",
+       "mean": 1.0,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "subject",
+       "mean": 1.0,
+       "current": true
+      },
+      {
+       "option": "topic first",
+       "mean": 1.0,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "subject",
+     "own_setting": false
+    },
+    "tajwid": {
+     "label": "Tajwid",
+     "n": 15,
+     "options": [
+      {
+       "option": "all notes",
+       "mean": 0.859,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "subject",
+       "mean": 0.859,
+       "current": true
+      },
+      {
+       "option": "topic first",
+       "mean": 0.874,
+       "current": false,
+       "vs_current": {
+        "diff": 0.015,
+        "ci": [
+         0.0,
+         0.044
+        ],
+        "p": 0.679,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "subject",
+     "own_setting": false
+    }
+   }
+  },
+  {
+   "key": "matching",
+   "setting": "Matching method",
+   "metric": "evidence_recall",
+   "current": "hybrid bge-m3 + BM25",
+   "subjects": {
+    "fiqh": {
+     "label": "Ibadah",
+     "n": 15,
+     "options": [
+      {
+       "option": "bge-m3 only",
+       "mean": 0.913,
+       "current": false,
+       "vs_current": {
+        "diff": 0.011,
+        "ci": [
+         -0.067,
+         0.1
+        ],
+        "p": 0.934,
+        "clear": false
+       }
+      },
+      {
+       "option": "BM25 only",
+       "mean": 0.895,
+       "current": false,
+       "vs_current": {
+        "diff": -0.007,
+        "ci": [
+         -0.022,
+         0.0
+        ],
+        "p": 0.679,
+        "clear": false
+       }
+      },
+      {
+       "option": "hybrid bge-m3 + BM25",
+       "mean": 0.902,
+       "current": true
+      }
+     ],
+     "selected": "hybrid bge-m3 + BM25",
+     "own_setting": false
+    },
+    "jawi": {
+     "label": "Jawi",
+     "n": 15,
+     "options": [
+      {
+       "option": "bge-m3 only",
+       "mean": 1.0,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "BM25 only",
+       "mean": 1.0,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "hybrid bge-m3 + BM25",
+       "mean": 1.0,
+       "current": true
+      }
+     ],
+     "selected": "hybrid bge-m3 + BM25",
+     "own_setting": false
+    },
+    "tajwid": {
+     "label": "Tajwid",
+     "n": 15,
+     "options": [
+      {
+       "option": "bge-m3 only",
+       "mean": 0.863,
+       "current": false,
+       "vs_current": {
+        "diff": 0.004,
+        "ci": [
+         -0.033,
+         0.044
+        ],
+        "p": 0.915,
+        "clear": false
+       }
+      },
+      {
+       "option": "BM25 only",
+       "mean": 0.649,
+       "current": false,
+       "vs_current": {
+        "diff": -0.21,
+        "ci": [
+         -0.4,
+         -0.048
+        ],
+        "p": 0.006,
+        "clear": true
+       }
+      },
+      {
+       "option": "hybrid bge-m3 + BM25",
+       "mean": 0.859,
+       "current": true
+      }
+     ],
+     "selected": "hybrid bge-m3 + BM25",
+     "own_setting": false
+    }
+   }
+  },
+  {
+   "key": "jawi_weight",
+   "setting": "Jawi-script questions",
+   "metric": "evidence_recall",
+   "current": "weight 0.25",
+   "subjects": {
+    "fiqh": {
+     "label": "Ibadah",
+     "n": 15,
+     "options": [
+      {
+       "option": "Rumi (same questions)",
+       "mean": 0.902,
+       "current": false,
+       "vs_current": {
+        "diff": 0.255,
+        "ci": [
+         0.067,
+         0.47
+        ],
+        "p": 0.008,
+        "clear": true
+       }
+      },
+      {
+       "option": "weight 0",
+       "mean": 0.724,
+       "current": false,
+       "vs_current": {
+        "diff": 0.077,
+        "ci": [
+         -0.089,
+         0.255
+        ],
+        "p": 0.401,
+        "clear": false
+       }
+      },
+      {
+       "option": "weight 0.25",
+       "mean": 0.647,
+       "current": true
+      },
+      {
+       "option": "weight 0.5",
+       "mean": 0.647,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "weight 1",
+       "mean": 0.667,
+       "current": false,
+       "vs_current": {
+        "diff": 0.02,
+        "ci": [
+         0.0,
+         0.06
+        ],
+        "p": 0.698,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "weight 0.25",
+     "own_setting": false
+    },
+    "jawi": {
+     "label": "Jawi",
+     "n": 15,
+     "options": [
+      {
+       "option": "Rumi (same questions)",
+       "mean": 1.0,
+       "current": false,
+       "vs_current": {
+        "diff": 0.044,
+        "ci": [
+         0.0,
+         0.133
+        ],
+        "p": 0.698,
+        "clear": false
+       }
+      },
+      {
+       "option": "weight 0",
+       "mean": 0.956,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "weight 0.25",
+       "mean": 0.956,
+       "current": true
+      },
+      {
+       "option": "weight 0.5",
+       "mean": 0.856,
+       "current": false,
+       "vs_current": {
+        "diff": -0.1,
+        "ci": [
+         -0.267,
+         0.0
+        ],
+        "p": 0.25,
+        "clear": false
+       }
+      },
+      {
+       "option": "weight 1",
+       "mean": 0.9,
+       "current": false,
+       "vs_current": {
+        "diff": -0.056,
+        "ci": [
+         -0.133,
+         0.0
+        ],
+        "p": 0.231,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "weight 0.25",
+     "own_setting": false
+    },
+    "tajwid": {
+     "label": "Tajwid",
+     "n": 15,
+     "options": [
+      {
+       "option": "Rumi (same questions)",
+       "mean": 0.859,
+       "current": false,
+       "vs_current": {
+        "diff": 0.08,
+        "ci": [
+         -0.127,
+         0.28
+        ],
+        "p": 0.452,
+        "clear": false
+       }
+      },
+      {
+       "option": "weight 0",
+       "mean": 0.779,
+       "current": false,
+       "vs_current": {
+        "diff": 0.0,
+        "ci": [
+         0.0,
+         0.0
+        ],
+        "p": 1.0,
+        "clear": false
+       }
+      },
+      {
+       "option": "weight 0.25",
+       "mean": 0.779,
+       "current": true
+      },
+      {
+       "option": "weight 0.5",
+       "mean": 0.757,
+       "current": false,
+       "vs_current": {
+        "diff": -0.022,
+        "ci": [
+         -0.067,
+         0.0
+        ],
+        "p": 0.687,
+        "clear": false
+       }
+      },
+      {
+       "option": "weight 1",
+       "mean": 0.757,
+       "current": false,
+       "vs_current": {
+        "diff": -0.022,
+        "ci": [
+         -0.067,
+         0.0
+        ],
+        "p": 0.687,
+        "clear": false
+       }
+      }
+     ],
+     "selected": "weight 0.25",
+     "own_setting": false
+    }
+   }
+  }
+ ]
+}

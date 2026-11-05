@@ -1,0 +1,820 @@
+{
+ "chosen_adapter": "qwen_ft_r8e2",
+ "data": {
+  "teacher_model": "GPT-6 Luna, proposed system R3 + A2, memory off",
+  "groups": {
+   "train": {
+    "all": {
+     "answers": 532,
+     "luna_replied": 532,
+     "criteria_agree": 0.96,
+     "kept": 490
+    },
+    "family:paraphrase": {
+     "answers": 263,
+     "luna_replied": 263,
+     "criteria_agree": 0.942,
+     "kept": 226
+    },
+    "family:programmatic": {
+     "answers": 269,
+     "luna_replied": 269,
+     "criteria_agree": 0.988,
+     "kept": 264
+    },
+    "subject:fiqh": {
+     "answers": 159,
+     "luna_replied": 159,
+     "criteria_agree": 0.955,
+     "kept": 143
+    },
+    "subject:jawi": {
+     "answers": 194,
+     "luna_replied": 194,
+     "criteria_agree": 0.946,
+     "kept": 177
+    },
+    "subject:tajwid": {
+     "answers": 179,
+     "luna_replied": 179,
+     "criteria_agree": 0.979,
+     "kept": 170
+    }
+   },
+   "val": {
+    "all": {
+     "answers": 99,
+     "luna_replied": 99,
+     "criteria_agree": 0.951,
+     "kept": 88
+    },
+    "family:paraphrase": {
+     "answers": 60,
+     "luna_replied": 60,
+     "criteria_agree": 0.928,
+     "kept": 49
+    },
+    "family:programmatic": {
+     "answers": 39,
+     "luna_replied": 39,
+     "criteria_agree": 1.0,
+     "kept": 39
+    },
+    "subject:fiqh": {
+     "answers": 32,
+     "luna_replied": 32,
+     "criteria_agree": 0.986,
+     "kept": 31
+    },
+    "subject:jawi": {
+     "answers": 33,
+     "luna_replied": 33,
+     "criteria_agree": 0.952,
+     "kept": 29
+    },
+    "subject:tajwid": {
+     "answers": 34,
+     "luna_replied": 34,
+     "criteria_agree": 0.923,
+     "kept": 28
+    }
+   }
+  },
+  "kept_verdicts": {
+   "train": {
+    "ya": 494,
+    "tidak": 584,
+    "separa": 40
+   },
+   "val": {
+    "tidak": 99,
+    "ya": 104,
+    "separa": 8
+   }
+  },
+  "dropped_kinds": {
+   "partial": 34,
+   "misconception": 10,
+   "paraphrase_full": 4,
+   "number_swap": 3,
+   "ref_rumi": 2
+  }
+ },
+ "training": {
+  "base": "unsloth/Qwen3-4B-Instruct-2507-bnb-4bit",
+  "learning_rate": 0.0002,
+  "schedule": "constant, 5 warm-up steps",
+  "epochs": 2,
+  "answers_per_update": 8,
+  "lora": "alpha = 2 x rank, dropout 0.05, all attention and MLP projections",
+  "train_examples": 490,
+  "val_examples": 88,
+  "train_tokens": 909474,
+  "runs": {
+   "r8": {
+    "minutes": 47.0,
+    "train_loss": [
+     [
+      0.08,
+      0.9431
+     ],
+     [
+      0.16,
+      0.5525
+     ],
+     [
+      0.24,
+      0.4401
+     ],
+     [
+      0.33,
+      0.3788
+     ],
+     [
+      0.41,
+      0.3836
+     ],
+     [
+      0.49,
+      0.3313
+     ],
+     [
+      0.57,
+      0.3232
+     ],
+     [
+      0.65,
+      0.3333
+     ],
+     [
+      0.73,
+      0.3017
+     ],
+     [
+      0.82,
+      0.3175
+     ],
+     [
+      0.9,
+      0.3074
+     ],
+     [
+      0.98,
+      0.294
+     ],
+     [
+      1.05,
+      0.2825
+     ],
+     [
+      1.13,
+      0.2384
+     ],
+     [
+      1.21,
+      0.2399
+     ],
+     [
+      1.29,
+      0.2116
+     ],
+     [
+      1.38,
+      0.234
+     ],
+     [
+      1.46,
+      0.2199
+     ],
+     [
+      1.54,
+      0.2201
+     ],
+     [
+      1.62,
+      0.2069
+     ],
+     [
+      1.7,
+      0.2207
+     ],
+     [
+      1.78,
+      0.1767
+     ],
+     [
+      1.87,
+      0.225
+     ],
+     [
+      1.95,
+      0.2059
+     ]
+    ],
+    "eval_loss": [
+     [
+      1.0,
+      0.3117
+     ],
+     [
+      2.0,
+      0.2904
+     ]
+    ]
+   },
+   "r16": {
+    "minutes": 47.2,
+    "train_loss": [
+     [
+      0.08,
+      0.9068
+     ],
+     [
+      0.16,
+      0.491
+     ],
+     [
+      0.24,
+      0.4057
+     ],
+     [
+      0.33,
+      0.3441
+     ],
+     [
+      0.41,
+      0.3738
+     ],
+     [
+      0.49,
+      0.3212
+     ],
+     [
+      0.57,
+      0.318
+     ],
+     [
+      0.65,
+      0.3233
+     ],
+     [
+      0.73,
+      0.295
+     ],
+     [
+      0.82,
+      0.3106
+     ],
+     [
+      0.9,
+      0.2989
+     ],
+     [
+      0.98,
+      0.2927
+     ],
+     [
+      1.05,
+      0.2683
+     ],
+     [
+      1.13,
+      0.2204
+     ],
+     [
+      1.21,
+      0.2236
+     ],
+     [
+      1.29,
+      0.1963
+     ],
+     [
+      1.38,
+      0.207
+     ],
+     [
+      1.46,
+      0.1991
+     ],
+     [
+      1.54,
+      0.2031
+     ],
+     [
+      1.62,
+      0.1921
+     ],
+     [
+      1.7,
+      0.2044
+     ],
+     [
+      1.78,
+      0.1618
+     ],
+     [
+      1.87,
+      0.2061
+     ],
+     [
+      1.95,
+      0.1933
+     ]
+    ],
+    "eval_loss": [
+     [
+      1.0,
+      0.3006
+     ],
+     [
+      2.0,
+      0.292
+     ]
+    ]
+   }
+  },
+  "adapters": {
+   "r8e1": {
+    "rank": 8,
+    "epoch": 1,
+    "eval_loss": 0.3117
+   },
+   "r8e2": {
+    "rank": 8,
+    "epoch": 2,
+    "eval_loss": 0.2904
+   },
+   "r16e1": {
+    "rank": 16,
+    "epoch": 1,
+    "eval_loss": 0.3006
+   },
+   "r16e2": {
+    "rank": 16,
+    "epoch": 2,
+    "eval_loss": 0.292
+   }
+  }
+ },
+ "finetune": [
+  {
+   "config": "proposed:qwen:R3:A2:off",
+   "label": "Qwen3-4B (open-weight)",
+   "qwk": 0.694,
+   "ci": [
+    0.501,
+    0.845
+   ],
+   "vs": null,
+   "exact": 0.6,
+   "within_1": 0.86,
+   "by_subject": {
+    "fiqh": 0.553,
+    "jawi": 0.519,
+    "tajwid": 0.937
+   },
+   "separa_given": 0.132,
+   "separa_teachers": 0.167,
+   "valid": 0.94,
+   "seconds": 18.4,
+   "cost_per_100": 0.0,
+   "to_luna": null,
+   "jawi": 0.06666666666666667
+  },
+  {
+   "config": "proposed:qwen_ft_r8e1:R3:A2:off",
+   "label": "Qwen3-4B fine-tuned (LoRA r8, 1 epoch)",
+   "qwk": 0.741,
+   "ci": [
+    0.554,
+    0.882
+   ],
+   "vs": {
+    "diff": 0.047,
+    "ci": [
+     -0.101,
+     0.203
+    ],
+    "significant": false
+   },
+   "exact": 0.68,
+   "within_1": 0.86,
+   "by_subject": {
+    "fiqh": 0.683,
+    "jawi": 0.572,
+    "tajwid": 0.914
+   },
+   "separa_given": 0.009,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 25.6,
+   "cost_per_100": 0.0,
+   "to_luna": null,
+   "jawi": 0.13333333333333333
+  },
+  {
+   "config": "proposed:qwen_ft_r8e2:R3:A2:off",
+   "label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs)",
+   "qwk": 0.701,
+   "ci": [
+    0.504,
+    0.859
+   ],
+   "vs": {
+    "diff": 0.007,
+    "ci": [
+     -0.15,
+     0.18
+    ],
+    "significant": false
+   },
+   "exact": 0.64,
+   "within_1": 0.88,
+   "by_subject": {
+    "fiqh": 0.687,
+    "jawi": 0.439,
+    "tajwid": 0.914
+   },
+   "separa_given": 0.009,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 27.4,
+   "cost_per_100": 0.0,
+   "to_luna": null,
+   "jawi": 0.13333333333333333
+  },
+  {
+   "config": "proposed:qwen_ft_r16e1:R3:A2:off",
+   "label": "Qwen3-4B fine-tuned (LoRA r16, 1 epoch)",
+   "qwk": 0.701,
+   "ci": [
+    0.511,
+    0.852
+   ],
+   "vs": {
+    "diff": 0.007,
+    "ci": [
+     -0.151,
+     0.17
+    ],
+    "significant": false
+   },
+   "exact": 0.62,
+   "within_1": 0.86,
+   "by_subject": {
+    "fiqh": 0.615,
+    "jawi": 0.503,
+    "tajwid": 0.914
+   },
+   "separa_given": 0.0,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 25.5,
+   "cost_per_100": 0.0,
+   "to_luna": null,
+   "jawi": 0.13333333333333333
+  },
+  {
+   "config": "proposed:qwen_ft_r16e2:R3:A2:off",
+   "label": "Qwen3-4B fine-tuned (LoRA r16, 2 epochs)",
+   "qwk": 0.743,
+   "ci": [
+    0.548,
+    0.901
+   ],
+   "vs": {
+    "diff": 0.049,
+    "ci": [
+     -0.107,
+     0.214
+    ],
+    "significant": false
+   },
+   "exact": 0.66,
+   "within_1": 0.9,
+   "by_subject": {
+    "fiqh": 0.703,
+    "jawi": 0.533,
+    "tajwid": 0.938
+   },
+   "separa_given": 0.035,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 25.1,
+   "cost_per_100": 0.0,
+   "to_luna": null,
+   "jawi": 0.13333333333333333
+  },
+  {
+   "config": "proposed:luna:R3:A2:off",
+   "label": "GPT-6 Luna",
+   "qwk": 0.755,
+   "ci": [
+    0.576,
+    0.895
+   ],
+   "vs": {
+    "diff": 0.062,
+    "ci": [
+     -0.076,
+     0.216
+    ],
+    "significant": false
+   },
+   "exact": 0.62,
+   "within_1": 0.9,
+   "by_subject": {
+    "fiqh": 0.742,
+    "jawi": 0.527,
+    "tajwid": 0.947
+   },
+   "separa_given": 0.026,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 3.5,
+   "cost_per_100": 0.0265,
+   "to_luna": null,
+   "jawi": 0.7
+  }
+ ],
+ "hybrid": [
+  {
+   "config": "proposed:luna:R3:A2:off",
+   "label": "GPT-6 Luna",
+   "qwk": 0.755,
+   "ci": [
+    0.576,
+    0.895
+   ],
+   "vs": null,
+   "exact": 0.62,
+   "within_1": 0.9,
+   "by_subject": {
+    "fiqh": 0.742,
+    "jawi": 0.527,
+    "tajwid": 0.947
+   },
+   "separa_given": 0.026,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 3.5,
+   "cost_per_100": 0.0265,
+   "to_luna": null,
+   "jawi": 0.7
+  },
+  {
+   "config": "proposed:qwen:R3:A2:off",
+   "label": "Qwen3-4B (open-weight)",
+   "qwk": 0.694,
+   "ci": [
+    0.501,
+    0.845
+   ],
+   "vs": {
+    "diff": -0.062,
+    "ci": [
+     -0.216,
+     0.076
+    ],
+    "significant": false
+   },
+   "exact": 0.6,
+   "within_1": 0.86,
+   "by_subject": {
+    "fiqh": 0.553,
+    "jawi": 0.519,
+    "tajwid": 0.937
+   },
+   "separa_given": 0.132,
+   "separa_teachers": 0.167,
+   "valid": 0.94,
+   "seconds": 18.4,
+   "cost_per_100": 0.0,
+   "to_luna": null,
+   "jawi": 0.06666666666666667
+  },
+  {
+   "config": "proposed:qwen_ft_r8e2:R3:A2:off",
+   "label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs)",
+   "qwk": 0.701,
+   "ci": [
+    0.504,
+    0.859
+   ],
+   "vs": {
+    "diff": -0.054,
+    "ci": [
+     -0.152,
+     0.025
+    ],
+    "significant": false
+   },
+   "exact": 0.64,
+   "within_1": 0.88,
+   "by_subject": {
+    "fiqh": 0.687,
+    "jawi": 0.439,
+    "tajwid": 0.914
+   },
+   "separa_given": 0.009,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 27.4,
+   "cost_per_100": 0.0,
+   "to_luna": null,
+   "jawi": 0.13333333333333333
+  },
+  {
+   "config": "hybrid:qwen+luna:R3:A2:level",
+   "label": "Qwen3-4B (open-weight) + GPT-6 Luna (Router A)",
+   "qwk": 0.785,
+   "ci": [
+    0.602,
+    0.923
+   ],
+   "vs": {
+    "diff": 0.03,
+    "ci": [
+     0.0,
+     0.073
+    ],
+    "significant": false
+   },
+   "exact": 0.68,
+   "within_1": 0.9,
+   "by_subject": {
+    "fiqh": 0.791,
+    "jawi": 0.542,
+    "tajwid": 0.982
+   },
+   "separa_given": 0.044,
+   "separa_teachers": 0.167,
+   "valid": 0.96,
+   "seconds": 8.2,
+   "cost_per_100": 0.0133,
+   "to_luna": 0.48,
+   "jawi": null
+  },
+  {
+   "config": "hybrid:qwen+luna:R3:A2:separa",
+   "label": "Qwen3-4B (open-weight) + GPT-6 Luna (Router B)",
+   "qwk": 0.764,
+   "ci": [
+    0.582,
+    0.9
+   ],
+   "vs": {
+    "diff": 0.009,
+    "ci": [
+     -0.032,
+     0.057
+    ],
+    "significant": false
+   },
+   "exact": 0.64,
+   "within_1": 0.9,
+   "by_subject": {
+    "fiqh": 0.806,
+    "jawi": 0.527,
+    "tajwid": 0.913
+   },
+   "separa_given": 0.018,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 19.5,
+   "cost_per_100": 0.0093,
+   "to_luna": 0.32,
+   "jawi": null
+  },
+  {
+   "config": "hybrid:qwen+luna:R3:A2:rules",
+   "label": "Qwen3-4B (open-weight) + GPT-6 Luna (Router C)",
+   "qwk": 0.737,
+   "ci": [
+    0.545,
+    0.88
+   ],
+   "vs": {
+    "diff": -0.018,
+    "ci": [
+     -0.064,
+     0.0
+    ],
+    "significant": false
+   },
+   "exact": 0.6,
+   "within_1": 0.88,
+   "by_subject": {
+    "fiqh": 0.742,
+    "jawi": 0.455,
+    "tajwid": 0.947
+   },
+   "separa_given": 0.044,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 20.2,
+   "cost_per_100": 0.0145,
+   "to_luna": 0.54,
+   "jawi": null
+  },
+  {
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:level",
+   "label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router A)",
+   "qwk": 0.733,
+   "ci": [
+    0.535,
+    0.894
+   ],
+   "vs": {
+    "diff": -0.022,
+    "ci": [
+     -0.112,
+     0.046
+    ],
+    "significant": false
+   },
+   "exact": 0.64,
+   "within_1": 0.9,
+   "by_subject": {
+    "fiqh": 0.666,
+    "jawi": 0.527,
+    "tajwid": 0.947
+   },
+   "separa_given": 0.018,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 10.4,
+   "cost_per_100": 0.0133,
+   "to_luna": 0.48,
+   "jawi": null
+  },
+  {
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:separa",
+   "label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router B)",
+   "qwk": 0.709,
+   "ci": [
+    0.51,
+    0.87
+   ],
+   "vs": {
+    "diff": -0.047,
+    "ci": [
+     -0.145,
+     0.033
+    ],
+    "significant": false
+   },
+   "exact": 0.64,
+   "within_1": 0.88,
+   "by_subject": {
+    "fiqh": 0.687,
+    "jawi": 0.455,
+    "tajwid": 0.914
+   },
+   "separa_given": 0.0,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 27.5,
+   "cost_per_100": 0.0007,
+   "to_luna": 0.02,
+   "jawi": null
+  },
+  {
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:rules",
+   "label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router C)",
+   "qwk": 0.703,
+   "ci": [
+    0.498,
+    0.865
+   ],
+   "vs": {
+    "diff": -0.052,
+    "ci": [
+     -0.145,
+     0.009
+    ],
+    "significant": false
+   },
+   "exact": 0.6,
+   "within_1": 0.9,
+   "by_subject": {
+    "fiqh": 0.64,
+    "jawi": 0.455,
+    "tajwid": 0.947
+   },
+   "separa_given": 0.018,
+   "separa_teachers": 0.167,
+   "valid": 1.0,
+   "seconds": 28.6,
+   "cost_per_100": 0.0086,
+   "to_luna": 0.34,
+   "jawi": null
+  }
+ ],
+ "routers": {
+  "level": "Router A: Tahap 1 to the open model, Tahap 2-3 to GPT-6 Luna",
+  "separa": "Router B: open model first; GPT-6 Luna when its reply is invalid or has a 'separa' verdict",
+  "rules": "Router C: open model first; GPT-6 Luna when its reply is invalid or its score differs from the rule-based scorer (B2)"
+ }
+}

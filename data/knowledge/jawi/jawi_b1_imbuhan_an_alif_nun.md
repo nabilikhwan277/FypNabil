@@ -27,8 +27,8 @@ Gambar tangga dengan papan tanda:
 ## Contoh Ayat (seperti dicetak) | چونتوه
 1. **Rumi:** Ketibaan perasmi Majlis Anugerah Murid Cemerlang disambut dengan **paluan** kompang dan selawat. | **Jawi:** كتيباءن ڤراسمي مجليس انوݢره موريد چمرلڠ دسمبوت دڠن **ڤالوان** كومڠ دان صلوات. (gambar majlis anugerah)
 2. **Rumi:** **Deruan** ombak di tepi Pantai Morib sungguh mengasyikkan. | **Jawi:** **دروان** اومبق دتڤي ڤنتاي موريب سوڠݢوه مڠاشيقكن. (gambar ombak laut)
-3. **Rumi:** Profesion **perguruan** merupakan pekerjaan yang penting dalam proses pembangunan manusia [semak], masyarakat dan negara. | **Jawi:** ڤروفيسن **ڤرݢوروان** مروڤاكن ڤكرجاءن يڠ ڤنتيڠ دالم ڤروسيس ڤمباڠونن ماءنسي، مشاركت دان نݢارا. (gambar guru mengajar)
-4. **Rumi:** Pancaran lampu kereta menyebabkan mata adik yang duduk [TIDAK JELAS: دتڠك] **kesilauan**. | **Jawi:** ڤنچرن لمڤو كريتا مڽببكن مات اديق يڠ دودوق دتڠك **كسيلاوان**. (gambar lampu kereta pada waktu malam)
+3. **Rumi:** Profesion **perguruan** merupakan pekerjaan yang penting dalam proses pembangunan manusia, masyarakat dan negara. | **Jawi:** ڤروفيسن **ڤرݢوروان** مروڤاكن ڤكرجاءن يڠ ڤنتيڠ دالم ڤروسيس ڤمباڠونن ماءنسي، مشاركت دان نݢارا. (gambar guru mengajar)
+4. **Rumi:** Pancaran lampu kereta menyebabkan mata adik yang duduk di tingkap **kesilauan**. | **Jawi:** ڤنچرن لمڤو كريتا مڽببكن مات اديق يڠ دودوق دتيڠكڤ **كسيلاوان**. (gambar lampu kereta pada waktu malam)
 5. **Rumi:** **Gurauan** bersama rakan hendaklah berpada-pada dan tidak melampaui batas. | **Jawi:** **ݢوراوان** برسام راكن هندقله برڤادا-ڤادا دان تيدق ملمڤاوءي باتس. (gambar dua pelajar bergurau)
 
 ## Jadual Contoh Kata

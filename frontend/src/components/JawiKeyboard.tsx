@@ -48,15 +48,15 @@ export default function JawiKeyboard({ target, value, onChange }: Props) {
     })
   }
 
-  // Chunky keys with a darker bottom edge that presses down.
+  // Chunky keys with the primary colour on hover/press; Jawi-only letters are tinted.
   const key =
-    'flex h-12 min-w-0 cursor-pointer items-center justify-center rounded-xl border-2 border-b-4 bg-white text-2xl shadow-sm transition select-none active:translate-y-0.5 active:border-b-2'
+    'flex h-12 min-w-0 cursor-pointer items-center justify-center rounded-xl border-2 border-b-4 border-line-strong bg-surface text-2xl text-ink transition select-none hover:border-primary hover:text-primary-ink active:translate-y-0.5 active:border-b-2'
 
   return (
     <div
       role="group"
       aria-label={script === 'jawi' ? 'ڤاڤن ککونچي جاوي' : 'Papan kekunci Jawi'}
-      className="rounded-3xl bg-violet-50 p-3 ring-2 ring-violet-200"
+      className="rounded-2xl border border-line bg-surface-2 p-3"
     >
       <div dir="rtl" className="flex flex-col gap-2">
         {ROWS.map((row, i) => (
@@ -67,7 +67,7 @@ export default function JawiKeyboard({ target, value, onChange }: Props) {
                 type="button"
                 onClick={() => insert(ch)}
                 aria-label={`Huruf ${ch}`}
-                className={`${key} font-jawi ${SPECIAL.has(ch) ? 'border-violet-400 bg-violet-100' : 'border-slate-200'} hover:bg-violet-200`}
+                className={`${key} font-jawi ${SPECIAL.has(ch) ? 'border-primary/50 bg-primary-soft text-primary-ink' : ''}`}
               >
                 {ch}
               </button>
@@ -75,16 +75,16 @@ export default function JawiKeyboard({ target, value, onChange }: Props) {
           </div>
         ))}
         <div className="grid grid-cols-10 gap-1.5">
-          <button type="button" onClick={backspace} aria-label="Padam" className={`${key} col-span-2 border-rose-200 hover:bg-rose-100`}>
+          <button type="button" onClick={backspace} aria-label="Padam" className={`${key} col-span-2 bg-danger-soft text-danger-ink hover:border-danger hover:text-danger-ink`}>
             ⌫
           </button>
-          <button type="button" onClick={() => insert(' ')} aria-label="Jarak" className={`${key} col-span-6 border-slate-200 text-base hover:bg-slate-100`}>
+          <button type="button" onClick={() => insert(' ')} aria-label="Jarak" className={`${key} col-span-6 text-base`}>
             ␣
           </button>
-          <button type="button" onClick={() => insert('،')} aria-label="Koma" className={`${key} border-slate-200 hover:bg-slate-100`}>
+          <button type="button" onClick={() => insert('،')} aria-label="Koma" className={key}>
             ،
           </button>
-          <button type="button" onClick={() => insert('؟')} aria-label="Tanda soal" className={`${key} border-slate-200 hover:bg-slate-100`}>
+          <button type="button" onClick={() => insert('؟')} aria-label="Tanda soal" className={key}>
             ؟
           </button>
         </div>

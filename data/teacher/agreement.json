@@ -1,0 +1,17 @@
+{
+ "raters": 3,
+ "names": [
+  "Guru 1",
+  "Guru 2",
+  "Guru 3"
+ ],
+ "criteria_both": 114,
+ "criteria_total": 114,
+ "exact": 0.351,
+ "kappa": 0.273,
+ "qwk": 0.345,
+ "fleiss": 0.264,
+ "answers": 50,
+ "same_score": 17,
+ "to_discuss": 9
+}

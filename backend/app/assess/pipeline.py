@@ -31,6 +31,13 @@ def get_memory() -> MemoryStore:
     return MemoryStore(get_settings().sqlite_path)
 
 
+def live_scorer() -> str:
+    """The marking system chosen by the admin (live_config.py), else KAFA_SCORER."""
+    from ..live_config import current
+
+    return current()
+
+
 def llm_generate(messages: list[dict], max_new_tokens: int) -> str:
     return get_llm().generate(messages, max_new_tokens=max_new_tokens).text
 
@@ -78,6 +85,13 @@ def assess(student_id: int, question_id: str, answer: str, *, use_llm: bool = Tr
         raise AssessmentError(f"Murid tidak dijumpai: {student_id}")
 
     t0 = time.perf_counter()
+    llm_feedback: dict = {}
+    score_fn = None
+    choice = mcq_choice(question, answer)
+    if choice is not None:              # objective question: exact marking, no model needed
+        question, answer, score_fn = mcq_marking(question, choice)
+    elif live_scorer() != "b2":
+        score_fn = lambda: _llm_score(question, answer, student_id, mem, llm_feedback)  # noqa: E731
     res = run_react(
         question, answer,
         search=search_notes, embed=embed,
@@ -87,10 +101,13 @@ def assess(student_id: int, question_id: str, answer: str, *, use_llm: bool = Tr
         label_probs=llm_label_probs if use_llm else None,
         config=load_config(), examples=judge_examples(),
         use_llm_feedback=get_settings().llm_encouragement,
+        score_fn=score_fn,
     )
     latency = int((time.perf_counter() - t0) * 1000)
     rubric = res.rubric.to_dict()
     trace = res.trace_dicts()
+    if llm_feedback.get("text"):
+        res.feedback["ai_feedback"] = {"rumi": llm_feedback["text"], "jawi": "", "config": llm_feedback["config"]}
     attempt_id, badges = None, []
     if save:
         saved = mem.record_attempt(student_id=student_id, question=question, answer=answer, rubric=rubric,
@@ -98,6 +115,66 @@ def assess(student_id: int, question_id: str, answer: str, *, use_llm: bool = Tr
         attempt_id, badges = saved["attempt_id"], saved["new_badges"]
     return Assessment(attempt_id, question_id, rubric["score"], rubric["max_marks"], rubric["percent"],
                       res.feedback, rubric["criteria"], trace, badges, latency)
+
+
+LETTERS = "ABCD"
+
+
+def mcq_choice(question: dict, answer: str) -> int | None:
+    """Index of the option the pupil picked ("A".."D"), or None for an open answer."""
+    a = answer.strip().upper().rstrip(".")
+    return LETTERS.index(a) if question.get("mcq") and len(a) == 1 and a in LETTERS else None
+
+
+def mcq_marking(question: dict, choice: int):
+    """The objective version of a question as a one-criterion rubric (1 mark), plus its exact scorer.
+    Returns (question to record and give feedback on, answer text to save, score_fn for run_react)."""
+    from .rubric import CriterionResult, RubricResult
+
+    m = question["mcq"]
+    right = m["options"][m["answer"]]
+    picked = m["options"][choice]
+    label = lambda i, o: f"{LETTERS[i]}. {o['rumi'] or o['jawi']}"  # noqa: E731
+    criterion = f"Jawapan betul: {label(m['answer'], right)}"
+    q = {**question, "question_rumi": m["stem_rumi"], "question_jawi": m["stem_jawi"], "type": "mcq", "max_marks": 1,
+         "rubric": [{"criterion": criterion, "marks": 1, "keywords": []}],
+         "reference_answer_rumi": f"{label(m['answer'], right)}\n{m.get('explanation_rumi', '')}".strip(),
+         "reference_answer_jawi": f"{LETTERS[m['answer']]}. {right['jawi']}"}
+    ok = choice == m["answer"]
+
+    def score_fn():
+        c = CriterionResult(criterion=criterion, marks=1.0, awarded=1.0 if ok else 0.0, met="ya" if ok else "tidak",
+                            layer="MCQ", evidence=f"Pilihan {LETTERS[choice]}")
+        return RubricResult(criteria=[c], score=c.awarded, max_marks=1.0, config="mcq"), {"scorer": "mcq"}
+
+    return q, label(choice, picked), score_fn
+
+
+def _llm_score(question: dict, answer: str, student_id: int, mem: MemoryStore, out: dict):
+    """Live marking with the configured LLM system (admin's choice, else KAFA_SCORER). Falls back to the local B2 scorer
+    if the API fails or the budget is used up, so pupils are never blocked."""
+    from .llm_marking import MarkConfig, mark
+    from .rubric import CriterionResult, RubricResult, score_answer
+
+    cfg = MarkConfig.parse(live_scorer())
+    h = mem.history(student_id, question["topic_id"])
+    weak = sorted(mem.all_mastery(student_id).values(), key=lambda m: m["mastery"])[:2]
+    memory = {"mastery": h.mastery, "attempts": h.attempts, "recent_mistakes": h.repeated_mistakes,
+              "weak_topics": [w["topic_id"].split("_", 2)[-1].replace("_", " ") for w in weak]}
+    try:
+        m = mark(question, answer, cfg, memory=memory)
+        if not m.ok:
+            raise RuntimeError(m.error)
+    except Exception as e:  # noqa: BLE001 - any API problem: use the local scorer instead
+        r = score_answer(question, answer, embed=embed, generate=None, config=load_config())
+        return r, {"scorer": "b2 (fallback)", "fallback_reason": f"{type(e).__name__}: {e}"[:200]}
+    crits = [CriterionResult(criterion=c["criterion"], marks=c["marks"], awarded=c["awarded"], met=c["met"],
+                             layer=f"LLM-{c['layer']}", llm_reason=c["reason"]) for c in m.criteria]
+    out.update(text=m.feedback, config=m.config)
+    r = RubricResult(criteria=crits, score=m.score, max_marks=m.max_marks, llm_calls=m.usage.get("calls", 0),
+                     config=m.config)
+    return r, {"scorer": m.config, "llm_cost": m.usage.get("cost", 0.0),
+               "retrieved": [c["id"] for c in m.context]}
 
 
 def next_question(student_id: int, *, subject: str | None = None, topic_id: str | None = None,
@@ -142,7 +219,14 @@ def next_question(student_id: int, *, subject: str | None = None, topic_id: str 
 
 
 def public_question(q: dict) -> dict:
-    """Question fields safe to send to the student (no answers or rubric keywords)."""
-    return {k: q.get(k) for k in ("id", "topic_id", "subject", "level", "type", "question_rumi",
-                                  "question_jawi", "max_marks", "origin")} | {
+    """Question fields safe to send to the student (no answers or rubric keywords).
+    Objective questions also get their stem and options, never which option is correct."""
+    out = {k: q.get(k) for k in ("id", "topic_id", "subject", "level", "type", "question_rumi",
+                                 "question_jawi", "max_marks", "origin")} | {
         "criteria_count": len(q.get("rubric", []))}
+    if q.get("mcq"):
+        m = q["mcq"]
+        out["choices"] = {"stem_rumi": m["stem_rumi"], "stem_jawi": m["stem_jawi"], "spelling": m.get("spelling", False),
+                          "options": [{"rumi": o["rumi"], "jawi": o["jawi"]} for o in m["options"]]}
+        out["max_marks"] = 1
+    return out

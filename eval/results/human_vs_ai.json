@@ -1,0 +1,1542 @@
+{
+ "system": "proposed:luna:R3:A2:off",
+ "teachers": [
+  "guru_1",
+  "guru_2",
+  "guru_3"
+ ],
+ "subjects": {
+  "all": {
+   "label": "All",
+   "answers": 50,
+   "criteria": 114,
+   "human": {
+    "pairs": {
+     "guru_1 vs guru_2": [
+      0.497,
+      0.256,
+      0.718
+     ],
+     "guru_1 vs guru_3": [
+      0.516,
+      0.255,
+      0.747
+     ],
+     "guru_2 vs guru_3": [
+      0.334,
+      0.064,
+      0.569
+     ]
+    },
+    "mean_qwk": 0.449,
+    "criterion_agreement": {
+     "guru_1 vs guru_2": 0.526,
+     "guru_1 vs guru_3": 0.57,
+     "guru_2 vs guru_3": 0.526
+    },
+    "criterion_kappa": 0.273,
+    "all_three_same": 0.351,
+    "all_three_different": 9
+   },
+   "system": {
+    "qwk": {
+     "guru_1": [
+      0.76,
+      0.572,
+      0.904
+     ],
+     "guru_2": [
+      0.464,
+      0.236,
+      0.676
+     ],
+     "guru_3": [
+      0.555,
+      0.304,
+      0.764
+     ],
+     "final": [
+      0.755,
+      0.576,
+      0.895
+     ]
+    },
+    "mean_qwk_teachers": 0.593,
+    "criterion_agreement_final": 0.711,
+    "criterion_kappa_final": 0.509
+   },
+   "separa_rate": {
+    "guru_1": 0.053,
+    "guru_2": 0.246,
+    "guru_3": 0.193,
+    "final": 0.167,
+    "system": 0.026
+   },
+   "differences": {
+    "more lenient (LLM)": 15,
+    "stricter (LLM)": 12,
+    "stricter (hard rule)": 6
+   },
+   "differences_total": 33,
+   "examples": [
+    {
+     "answer_id": "T001",
+     "question": "Kenapakah ejaan 'pakaian' menggunakan huruf 'ن' sahaja bagi imbuhan '-an'? Tuliskan juga ejaan Jawinya.",
+     "student_answer": "Sebab pakai habis dengan huruf ya. Ejaan ڤاكاءين",
+     "reference": "Kerana kata dasarnya 'pakai' (ڤاكاي) berakhir dengan huruf '-ي' (diftong 'ai'); imbuhan '-an' pada kata dasar yang berakhir dengan huruf '-ي' ditulis dengan 'ن' sahaja. Ejaan: ڤاكاين.",
+     "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan imbuhan -an ditulis dengan huruf ن sahaja.",
+     "comments": {
+      "guru_2": "T001 K2"
+     }
+    },
+    {
+     "answer_id": "T003",
+     "question": "Tulis perkataan 'kesilauan' dalam tulisan Jawi.",
+     "student_answer": "كسيلاون",
+     "reference": "kesilauan",
+     "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "ya"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T008",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Memberi ketenangan kepada hati",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Hati menjadi aman dan tidak risau membawa maksud hati mendapat ketenangan.",
+     "comments": {
+      "guru_2": "boleh diterima, tapi seeloknya jawapan sebijik didalam buku",
+      "guru_3": "Setiap jawapan mesti sama dengan buku teks/skema jawapan"
+     }
+    },
+    {
+     "answer_id": "T008",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Menghilangkan sifat sombong",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Tidak menjadi bongkak bermaksud menghilangkan sifat sombong.",
+     "comments": {
+      "guru_2": "boleh diterima, tapi seeloknya jawapan sebijik didalam buku",
+      "guru_3": "Setiap jawapan mesti sama dengan buku teks/skema jawapan"
+     }
+    },
+    {
+     "answer_id": "T008",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Percaya pada ketetapan Allah menunjukkan akidah terjaga dan yakin dengan ketentuan-Nya.",
+     "comments": {
+      "guru_2": "boleh diterima, tapi seeloknya jawapan sebijik didalam buku",
+      "guru_3": "Setiap jawapan mesti sama dengan buku teks/skema jawapan"
+     }
+    },
+    {
+     "answer_id": "T010",
+     "question": "Apakah maksud wiladah?",
+     "student_answer": "Darah yang keluar dari perempuan lepas ada anak.",
+     "reference": "Melahirkan anak",
+     "criterion": "Menyatakan melahirkan anak",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "separa",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Mengaitkan wiladah dengan selepas mempunyai anak, tetapi maksudnya bukan darah yang keluar.",
+     "comments": {
+      "guru_2": "betul dan sama maksud"
+     }
+    },
+    {
+     "answer_id": "T011",
+     "question": "Jawikan perkataan bergaris: Doktor Fahmi bertugas di Hospital Kuala Lumpur (HKL) sebagai pakar ortopedik. Tulis ejaan Jawi bagi 'Doktor'.",
+     "student_answer": "Doktor",
+     "reference": "Doktor",
+     "criterion": "Mengeja دوكتور dalam ejaan penuh",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {
+      "guru_2": "betui. Murid kena pastikan perkataan itu dalam pinjaman bahasa inggeris / arab"
+     }
+    },
+    {
+     "answer_id": "T012",
+     "question": "Bilakah waktu solat witir?",
+     "student_answer": "Sebelum solat isyak sampai terbit fajar.",
+     "reference": "Selepas solat isyak hingga terbit fajar",
+     "criterion": "Hingga terbit fajar",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "tidak",
+      "guru_3": "ya"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Murid menyatakan waktu witir hingga terbit fajar.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T013",
+     "question": "Apakah hukum puasa? Jelaskan.",
+     "student_answer": "Hukum puasa semuanya wajib, tiada puasa yang sunat.",
+     "reference": "Hukum puasa wajib atau sunat, bergantung pada jenis puasa yang akan dilakukan.",
+     "criterion": "Menyatakan wajib",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Menyatakan puasa wajib.",
+     "comments": {
+      "guru_2": "kena sertakan lebih perinci akan puasa apa yg hendak ditanya. contoh apakah contoh puasa sunat?"
+     }
+    },
+    {
+     "answer_id": "T018",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Memberi ketenangan kepada hati",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan fadhilat ketenangan kepada hati.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T018",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Menghilangkan sifat sombong",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan fadhilat menghilangkan sifat sombong.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T018",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan menjaga akidah dan yakin dengan ketentuan Allah.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T019",
+     "question": "Terangkan kepentingan mempelajari tingkatan mad. Jelaskan dengan contoh kalimah yang diberikan dalam buku.",
+     "student_answer": "Kita kena ikut tingkatan yang paling rendah. Contohnya مِمَّا يَشَآءُ ketika waqaf ada Mad 'Aridh Lissukun dan Mad Wajib Muttasil, jadi kita baca ikut Mad 'Aridh Lissukun.",
+     "reference": "Apabila terdapat dua hukum mad dalam satu kalimah, hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Contohnya kalimah مِمَّا يَشَآءُ ketika bacaan waqaf terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+     "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "tidak"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Contoh مِمَّا يَشَآءُ ketika waqaf dinyatakan dengan betul.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T019",
+     "question": "Terangkan kepentingan mempelajari tingkatan mad. Jelaskan dengan contoh kalimah yang diberikan dalam buku.",
+     "student_answer": "Kita kena ikut tingkatan yang paling rendah. Contohnya مِمَّا يَشَآءُ ketika waqaf ada Mad 'Aridh Lissukun dan Mad Wajib Muttasil, jadi kita baca ikut Mad 'Aridh Lissukun.",
+     "reference": "Apabila terdapat dua hukum mad dalam satu kalimah, hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Contohnya kalimah مِمَّا يَشَآءُ ketika bacaan waqaf terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+     "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Kedua-dua hukum Mad 'Aridh Lissukun dan Mad Wajib Muttasil disebut.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T022",
+     "question": "Nyatakan kadar panjang bacaan Mad Wajib Muttasil.",
+     "student_answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+     "reference": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+     "criterion": "Empat atau lima harakat",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Menyatakan kadar empat atau lima harakat dengan betul.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T022",
+     "question": "Nyatakan kadar panjang bacaan Mad Wajib Muttasil.",
+     "student_answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+     "reference": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+     "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "ya"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan keadaan hamzah atau bacaan wasal dan waqaf.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T022",
+     "question": "Nyatakan kadar panjang bacaan Mad Wajib Muttasil.",
+     "student_answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+     "reference": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+     "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan hamzah di hujung kalimah ketika waqaf sahaja.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T027",
+     "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+     "student_answer": "Kat situ ada banyak jenis bunga ros, buah strawberi dan macam-macam buah lain.",
+     "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+     "criterion": "Menyebut bunga ros",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Murid menyebut bunga ros.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T027",
+     "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+     "student_answer": "Kat situ ada banyak jenis bunga ros, buah strawberi dan macam-macam buah lain.",
+     "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+     "criterion": "Menyebut strawberi / buah-buahan",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Murid menyebut buah strawberi dan macam-macam buah lain.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T028",
+     "question": "Berikan pengertian Mad 'Iwadh.",
+     "student_answer": "برهنتي ڤد ڤركاتاٴن يڠ اد تنوين.",
+     "reference": "Mad 'Iwadh ialah apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas kecuali pada huruf ta marbutah.",
+     "criterion": "Berbaris tanwin di atas",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "separa",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Menyebut tanwin, tetapi tidak menyatakan tanwin di atas.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T029",
+     "question": "Nyatakan tiga fadhilat solat witir.",
+     "student_answer": "Allah suka dan dapat dekat dengan Allah",
+     "reference": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+     "criterion": "Disukai oleh Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "tidak"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Maksud “Allah suka” sama dengan disukai oleh Allah.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T029",
+     "question": "Nyatakan tiga fadhilat solat witir.",
+     "student_answer": "Allah suka dan dapat dekat dengan Allah",
+     "reference": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+     "criterion": "Mendekatkan diri kepada Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "tidak"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Maksud “dapat dekat dengan Allah” ialah mendekatkan diri kepada Allah.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T033",
+     "question": "Nyatakan satu nama lain bagi mad asli.",
+     "student_answer": "mad tobii",
+     "reference": "Mad tabi'i atau mad zati",
+     "criterion": "Menyatakan mad tabi'i atau mad zati",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "separa",
+      "guru_3": "ya"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "“Mad tobii” jelas merujuk kepada mad tabi'i; ejaan Rumi yang sedikit tersilap diterima.",
+     "comments": {
+      "guru_2": "atas belas ihsan"
+     }
+    },
+    {
+     "answer_id": "T034",
+     "question": "Ali terminum air dengan sengaja walaupun sedikit ketika berpuasa, manakala Siti keluar haid pada siang hari Ramadan. Terangkan status puasa kedua-dua mereka berdasarkan perkara-perkara yang membatalkan puasa, dan nyatakan dua perkara lain yang turut membatalkan puasa.",
+     "student_answer": "Puasa Ali tidak batal sebab dia minum sedikit sahaja. Puasa Siti batal sebab keluar haid. Perkara lain yang membatalkan puasa ialah muntah dengan sengaja dan makan dengan sengaja.",
+     "reference": "Puasa Ali batal kerana makan dan minum dengan sengaja walaupun sedikit membatalkan puasa. Puasa Siti batal kerana keluar haid membatalkan puasa. Perkara lain (mana-mana dua): muntah dengan sengaja; hilang akal; murtad; bersetubuh di siang hari; wiladah; memasukkan sesuatu melalui rongga yang terbuka; mengeluarkan mani dengan sengaja.",
+     "criterion": "Perkara lain kedua",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Makan dengan sengaja sudah dinyatakan dalam sebab puasa Ali batal, bukan perkara lain.",
+     "comments": {
+      "guru_2": "berkaitan hukum tetap sama tidak boleh diubah"
+     }
+    },
+    {
+     "answer_id": "T040",
+     "question": "Nyatakan tiga perkara yang membatalkan puasa jika dilakukan dengan sengaja.",
+     "student_answer": "makan, minum, muntah",
+     "reference": "Makan dan minum dengan sengaja walaupun sedikit; memasukkan sesuatu dengan sengaja melalui rongga yang terbuka; muntah dengan sengaja; mengeluarkan mani dengan sengaja (mana-mana tiga).",
+     "criterion": "Perkara sengaja ketiga",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tiada perkara ketiga yang berbeza dinyatakan.",
+     "comments": {
+      "guru_2": "kira salah kerana tidak meletakkan perkataan dengan sengaja"
+     }
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Suku kata tertutup diakhiri huruf konsonan, bukan vokal.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "separa"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyebut vokal yang terlibat, iaitu 'a', 'i' atau 'u'.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Mengeja dimarahi: دمارهي",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "separa"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Mengeja dibayangi: دبايڠي",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Mengeja ubati: اوبتي",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T043",
+     "question": "Nyatakan tiga fadhilat solat witir.",
+     "student_answer": "1. Rapat dengan Allah. 2. Dapat pahala banyak.",
+     "reference": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+     "criterion": "Mendekatkan diri kepada Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "“Rapat dengan Allah” membawa maksud mendekatkan diri kepada Allah.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T044",
+     "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+     "student_answer": "اد باڽق بوڠا روس يڠ چنتيق.",
+     "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+     "criterion": "Menyebut bunga ros",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Menyebut bunga ros.",
+     "comments": {}
+    }
+   ]
+  },
+  "fiqh": {
+   "label": "Ibadah",
+   "answers": 18,
+   "criteria": 45,
+   "human": {
+    "pairs": {
+     "guru_1 vs guru_2": [
+      0.442,
+      0.021,
+      0.736
+     ],
+     "guru_1 vs guru_3": [
+      0.213,
+      -0.27,
+      0.668
+     ],
+     "guru_2 vs guru_3": [
+      0.172,
+      -0.364,
+      0.598
+     ]
+    },
+    "mean_qwk": 0.276,
+    "criterion_agreement": {
+     "guru_1 vs guru_2": 0.422,
+     "guru_1 vs guru_3": 0.556,
+     "guru_2 vs guru_3": 0.444
+    },
+    "criterion_kappa": 0.131,
+    "all_three_same": 0.267,
+    "all_three_different": 5
+   },
+   "system": {
+    "qwk": {
+     "guru_1": [
+      0.626,
+      0.201,
+      0.907
+     ],
+     "guru_2": [
+      0.536,
+      0.121,
+      0.757
+     ],
+     "guru_3": [
+      0.462,
+      0.008,
+      0.821
+     ],
+     "final": [
+      0.742,
+      0.458,
+      0.901
+     ]
+    },
+    "mean_qwk_teachers": 0.541,
+    "criterion_agreement_final": 0.689,
+    "criterion_kappa_final": 0.462
+   },
+   "separa_rate": {
+    "guru_1": 0.044,
+    "guru_2": 0.289,
+    "guru_3": 0.089,
+    "final": 0.178,
+    "system": 0.022
+   },
+   "differences": {
+    "more lenient (LLM)": 8,
+    "stricter (LLM)": 6
+   },
+   "differences_total": 14,
+   "examples": [
+    {
+     "answer_id": "T008",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Memberi ketenangan kepada hati",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Hati menjadi aman dan tidak risau membawa maksud hati mendapat ketenangan.",
+     "comments": {
+      "guru_2": "boleh diterima, tapi seeloknya jawapan sebijik didalam buku",
+      "guru_3": "Setiap jawapan mesti sama dengan buku teks/skema jawapan"
+     }
+    },
+    {
+     "answer_id": "T008",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Menghilangkan sifat sombong",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Tidak menjadi bongkak bermaksud menghilangkan sifat sombong.",
+     "comments": {
+      "guru_2": "boleh diterima, tapi seeloknya jawapan sebijik didalam buku",
+      "guru_3": "Setiap jawapan mesti sama dengan buku teks/skema jawapan"
+     }
+    },
+    {
+     "answer_id": "T008",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Percaya pada ketetapan Allah menunjukkan akidah terjaga dan yakin dengan ketentuan-Nya.",
+     "comments": {
+      "guru_2": "boleh diterima, tapi seeloknya jawapan sebijik didalam buku",
+      "guru_3": "Setiap jawapan mesti sama dengan buku teks/skema jawapan"
+     }
+    },
+    {
+     "answer_id": "T010",
+     "question": "Apakah maksud wiladah?",
+     "student_answer": "Darah yang keluar dari perempuan lepas ada anak.",
+     "reference": "Melahirkan anak",
+     "criterion": "Menyatakan melahirkan anak",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "separa",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Mengaitkan wiladah dengan selepas mempunyai anak, tetapi maksudnya bukan darah yang keluar.",
+     "comments": {
+      "guru_2": "betul dan sama maksud"
+     }
+    },
+    {
+     "answer_id": "T012",
+     "question": "Bilakah waktu solat witir?",
+     "student_answer": "Sebelum solat isyak sampai terbit fajar.",
+     "reference": "Selepas solat isyak hingga terbit fajar",
+     "criterion": "Hingga terbit fajar",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "tidak",
+      "guru_3": "ya"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Murid menyatakan waktu witir hingga terbit fajar.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T013",
+     "question": "Apakah hukum puasa? Jelaskan.",
+     "student_answer": "Hukum puasa semuanya wajib, tiada puasa yang sunat.",
+     "reference": "Hukum puasa wajib atau sunat, bergantung pada jenis puasa yang akan dilakukan.",
+     "criterion": "Menyatakan wajib",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Menyatakan puasa wajib.",
+     "comments": {
+      "guru_2": "kena sertakan lebih perinci akan puasa apa yg hendak ditanya. contoh apakah contoh puasa sunat?"
+     }
+    },
+    {
+     "answer_id": "T018",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Memberi ketenangan kepada hati",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan fadhilat ketenangan kepada hati.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T018",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Menghilangkan sifat sombong",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan fadhilat menghilangkan sifat sombong.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T018",
+     "question": "Nyatakan tiga fadhilat solat istikharah.",
+     "student_answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+     "reference": "1. Dapat memberikan ketenangan kepada hati manusia. 2. Menghilangkan sifat sombong dalam diri kita. 3. Menjaga akidah supaya sentiasa yakin dengan ketentuan yang telah ditakdirkan oleh Allah SWT.",
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan menjaga akidah dan yakin dengan ketentuan Allah.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T029",
+     "question": "Nyatakan tiga fadhilat solat witir.",
+     "student_answer": "Allah suka dan dapat dekat dengan Allah",
+     "reference": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+     "criterion": "Disukai oleh Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "tidak"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Maksud “Allah suka” sama dengan disukai oleh Allah.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T029",
+     "question": "Nyatakan tiga fadhilat solat witir.",
+     "student_answer": "Allah suka dan dapat dekat dengan Allah",
+     "reference": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+     "criterion": "Mendekatkan diri kepada Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "tidak"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Maksud “dapat dekat dengan Allah” ialah mendekatkan diri kepada Allah.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T034",
+     "question": "Ali terminum air dengan sengaja walaupun sedikit ketika berpuasa, manakala Siti keluar haid pada siang hari Ramadan. Terangkan status puasa kedua-dua mereka berdasarkan perkara-perkara yang membatalkan puasa, dan nyatakan dua perkara lain yang turut membatalkan puasa.",
+     "student_answer": "Puasa Ali tidak batal sebab dia minum sedikit sahaja. Puasa Siti batal sebab keluar haid. Perkara lain yang membatalkan puasa ialah muntah dengan sengaja dan makan dengan sengaja.",
+     "reference": "Puasa Ali batal kerana makan dan minum dengan sengaja walaupun sedikit membatalkan puasa. Puasa Siti batal kerana keluar haid membatalkan puasa. Perkara lain (mana-mana dua): muntah dengan sengaja; hilang akal; murtad; bersetubuh di siang hari; wiladah; memasukkan sesuatu melalui rongga yang terbuka; mengeluarkan mani dengan sengaja.",
+     "criterion": "Perkara lain kedua",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Makan dengan sengaja sudah dinyatakan dalam sebab puasa Ali batal, bukan perkara lain.",
+     "comments": {
+      "guru_2": "berkaitan hukum tetap sama tidak boleh diubah"
+     }
+    },
+    {
+     "answer_id": "T040",
+     "question": "Nyatakan tiga perkara yang membatalkan puasa jika dilakukan dengan sengaja.",
+     "student_answer": "makan, minum, muntah",
+     "reference": "Makan dan minum dengan sengaja walaupun sedikit; memasukkan sesuatu dengan sengaja melalui rongga yang terbuka; muntah dengan sengaja; mengeluarkan mani dengan sengaja (mana-mana tiga).",
+     "criterion": "Perkara sengaja ketiga",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tiada perkara ketiga yang berbeza dinyatakan.",
+     "comments": {
+      "guru_2": "kira salah kerana tidak meletakkan perkataan dengan sengaja"
+     }
+    },
+    {
+     "answer_id": "T043",
+     "question": "Nyatakan tiga fadhilat solat witir.",
+     "student_answer": "1. Rapat dengan Allah. 2. Dapat pahala banyak.",
+     "reference": "1. Disukai oleh Allah SWT. 2. Mendekatkan diri kepada Allah SWT. 3. Memberikan kekuatan rohani dan menenangkan jiwa.",
+     "criterion": "Mendekatkan diri kepada Allah",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "tidak"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "“Rapat dengan Allah” membawa maksud mendekatkan diri kepada Allah.",
+     "comments": {}
+    }
+   ]
+  },
+  "jawi": {
+   "label": "Jawi",
+   "answers": 14,
+   "criteria": 30,
+   "human": {
+    "pairs": {
+     "guru_1 vs guru_2": [
+      0.644,
+      0.183,
+      0.926
+     ],
+     "guru_1 vs guru_3": [
+      0.675,
+      0.185,
+      0.955
+     ],
+     "guru_2 vs guru_3": [
+      0.615,
+      0.104,
+      0.935
+     ]
+    },
+    "mean_qwk": 0.645,
+    "criterion_agreement": {
+     "guru_1 vs guru_2": 0.7,
+     "guru_1 vs guru_3": 0.567,
+     "guru_2 vs guru_3": 0.667
+    },
+    "criterion_kappa": 0.393,
+    "all_three_same": 0.5,
+    "all_three_different": 2
+   },
+   "system": {
+    "qwk": {
+     "guru_1": [
+      0.695,
+      0.266,
+      1.0
+     ],
+     "guru_2": [
+      0.321,
+      -0.1,
+      0.762
+     ],
+     "guru_3": [
+      0.366,
+      -0.046,
+      0.832
+     ],
+     "final": [
+      0.527,
+      0.055,
+      0.908
+     ]
+    },
+    "mean_qwk_teachers": 0.461,
+    "criterion_agreement_final": 0.6,
+    "criterion_kappa_final": 0.328
+   },
+   "separa_rate": {
+    "guru_1": 0.067,
+    "guru_2": 0.133,
+    "guru_3": 0.333,
+    "final": 0.167,
+    "system": 0.0
+   },
+   "differences": {
+    "more lenient (LLM)": 3,
+    "stricter (LLM)": 3,
+    "stricter (hard rule)": 6
+   },
+   "differences_total": 12,
+   "examples": [
+    {
+     "answer_id": "T001",
+     "question": "Kenapakah ejaan 'pakaian' menggunakan huruf 'ن' sahaja bagi imbuhan '-an'? Tuliskan juga ejaan Jawinya.",
+     "student_answer": "Sebab pakai habis dengan huruf ya. Ejaan ڤاكاءين",
+     "reference": "Kerana kata dasarnya 'pakai' (ڤاكاي) berakhir dengan huruf '-ي' (diftong 'ai'); imbuhan '-an' pada kata dasar yang berakhir dengan huruf '-ي' ditulis dengan 'ن' sahaja. Ejaan: ڤاكاين.",
+     "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan imbuhan -an ditulis dengan huruf ن sahaja.",
+     "comments": {
+      "guru_2": "T001 K2"
+     }
+    },
+    {
+     "answer_id": "T003",
+     "question": "Tulis perkataan 'kesilauan' dalam tulisan Jawi.",
+     "student_answer": "كسيلاون",
+     "reference": "kesilauan",
+     "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "ya"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T011",
+     "question": "Jawikan perkataan bergaris: Doktor Fahmi bertugas di Hospital Kuala Lumpur (HKL) sebagai pakar ortopedik. Tulis ejaan Jawi bagi 'Doktor'.",
+     "student_answer": "Doktor",
+     "reference": "Doktor",
+     "criterion": "Mengeja دوكتور dalam ejaan penuh",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {
+      "guru_2": "betui. Murid kena pastikan perkataan itu dalam pinjaman bahasa inggeris / arab"
+     }
+    },
+    {
+     "answer_id": "T027",
+     "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+     "student_answer": "Kat situ ada banyak jenis bunga ros, buah strawberi dan macam-macam buah lain.",
+     "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+     "criterion": "Menyebut bunga ros",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Murid menyebut bunga ros.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T027",
+     "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+     "student_answer": "Kat situ ada banyak jenis bunga ros, buah strawberi dan macam-macam buah lain.",
+     "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+     "criterion": "Menyebut strawberi / buah-buahan",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Murid menyebut buah strawberi dan macam-macam buah lain.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Suku kata tertutup diakhiri huruf konsonan, bukan vokal.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "separa"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyebut vokal yang terlibat, iaitu 'a', 'i' atau 'u'.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Mengeja dimarahi: دمارهي",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "ya",
+      "guru_3": "separa"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Mengeja dibayangi: دبايڠي",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T041",
+     "question": "Terangkan cara mengeja imbuhan '-i' dengan huruf '-ي'. Dalam jawapan anda, jelaskan maksud suku kata tertutup, vokal yang terlibat, dan tukarkan kata dasar 'marah', 'bayang' dan 'ubat' kepada kata berimbuhan '-i' seperti dalam buku (dimarahi, dibayangi, ubati) dalam tulisan Jawi.",
+     "student_answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+     "reference": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja. Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan; kata dasar ini menggunakan vokal 'a', 'i' atau 'u'. marah (ماره) -> dimarahi (دمارهي); bayang (بايڠ) -> dibayangi (دبايڠي); ubat (اوبت) -> ubati (اوبتي).",
+     "criterion": "Mengeja ubati: اوبتي",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "rule",
+     "reason": "ejaan Jawi dibandingkan tepat",
+     "comments": {}
+    },
+    {
+     "answer_id": "T044",
+     "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+     "student_answer": "اد باڽق بوڠا روس يڠ چنتيق.",
+     "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+     "criterion": "Menyebut bunga ros",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Menyebut bunga ros.",
+     "comments": {}
+    }
+   ]
+  },
+  "tajwid": {
+   "label": "Tajwid",
+   "answers": 18,
+   "criteria": 39,
+   "human": {
+    "pairs": {
+     "guru_1 vs guru_2": [
+      0.425,
+      -0.0,
+      0.792
+     ],
+     "guru_1 vs guru_3": [
+      0.668,
+      0.292,
+      0.908
+     ],
+     "guru_2 vs guru_3": [
+      0.276,
+      -0.147,
+      0.673
+     ]
+    },
+    "mean_qwk": 0.456,
+    "criterion_agreement": {
+     "guru_1 vs guru_2": 0.513,
+     "guru_1 vs guru_3": 0.59,
+     "guru_2 vs guru_3": 0.513
+    },
+    "criterion_kappa": 0.278,
+    "all_three_same": 0.333,
+    "all_three_different": 2
+   },
+   "system": {
+    "qwk": {
+     "guru_1": [
+      0.921,
+      0.793,
+      1.0
+     ],
+     "guru_2": [
+      0.526,
+      0.113,
+      0.832
+     ],
+     "guru_3": [
+      0.775,
+      0.451,
+      0.974
+     ],
+     "final": [
+      0.947,
+      0.847,
+      1.0
+     ]
+    },
+    "mean_qwk_teachers": 0.741,
+    "criterion_agreement_final": 0.821,
+    "criterion_kappa_final": 0.696
+   },
+   "separa_rate": {
+    "guru_1": 0.051,
+    "guru_2": 0.282,
+    "guru_3": 0.205,
+    "final": 0.154,
+    "system": 0.051
+   },
+   "differences": {
+    "more lenient (LLM)": 4,
+    "stricter (LLM)": 3
+   },
+   "differences_total": 7,
+   "examples": [
+    {
+     "answer_id": "T019",
+     "question": "Terangkan kepentingan mempelajari tingkatan mad. Jelaskan dengan contoh kalimah yang diberikan dalam buku.",
+     "student_answer": "Kita kena ikut tingkatan yang paling rendah. Contohnya مِمَّا يَشَآءُ ketika waqaf ada Mad 'Aridh Lissukun dan Mad Wajib Muttasil, jadi kita baca ikut Mad 'Aridh Lissukun.",
+     "reference": "Apabila terdapat dua hukum mad dalam satu kalimah, hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Contohnya kalimah مِمَّا يَشَآءُ ketika bacaan waqaf terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+     "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "tidak"
+     },
+     "final": "tidak",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Contoh مِمَّا يَشَآءُ ketika waqaf dinyatakan dengan betul.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T019",
+     "question": "Terangkan kepentingan mempelajari tingkatan mad. Jelaskan dengan contoh kalimah yang diberikan dalam buku.",
+     "student_answer": "Kita kena ikut tingkatan yang paling rendah. Contohnya مِمَّا يَشَآءُ ketika waqaf ada Mad 'Aridh Lissukun dan Mad Wajib Muttasil, jadi kita baca ikut Mad 'Aridh Lissukun.",
+     "reference": "Apabila terdapat dua hukum mad dalam satu kalimah, hukumnya hendaklah berpandukan kepada tingkatan yang tertinggi. Contohnya kalimah مِمَّا يَشَآءُ ketika bacaan waqaf terdapat dua hukum iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil. Hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+     "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "tidak",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Kedua-dua hukum Mad 'Aridh Lissukun dan Mad Wajib Muttasil disebut.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T022",
+     "question": "Nyatakan kadar panjang bacaan Mad Wajib Muttasil.",
+     "student_answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+     "reference": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+     "criterion": "Empat atau lima harakat",
+     "teachers": {
+      "guru_1": "ya",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "Menyatakan kadar empat atau lima harakat dengan betul.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T022",
+     "question": "Nyatakan kadar panjang bacaan Mad Wajib Muttasil.",
+     "student_answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+     "reference": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+     "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "ya"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan keadaan hamzah atau bacaan wasal dan waqaf.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T022",
+     "question": "Nyatakan kadar panjang bacaan Mad Wajib Muttasil.",
+     "student_answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+     "reference": "a. Empat atau lima harakat apabila hamzah berada di tengah kalimah atau di hujung kalimah ketika dibaca dengan wasal atau waqaf. b. Empat atau lima atau enam harakat apabila hamzah berada di hujung kalimah ketika dibaca dengan waqaf sahaja.",
+     "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "separa",
+      "guru_3": "separa"
+     },
+     "final": "separa",
+     "system": "tidak",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Tidak menyatakan hamzah di hujung kalimah ketika waqaf sahaja.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T028",
+     "question": "Berikan pengertian Mad 'Iwadh.",
+     "student_answer": "برهنتي ڤد ڤركاتاٴن يڠ اد تنوين.",
+     "reference": "Mad 'Iwadh ialah apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas kecuali pada huruf ta marbutah.",
+     "criterion": "Berbaris tanwin di atas",
+     "teachers": {
+      "guru_1": "tidak",
+      "guru_2": "ya",
+      "guru_3": "ya"
+     },
+     "final": "ya",
+     "system": "separa",
+     "way": "stricter",
+     "layer": "llm",
+     "reason": "Menyebut tanwin, tetapi tidak menyatakan tanwin di atas.",
+     "comments": {}
+    },
+    {
+     "answer_id": "T033",
+     "question": "Nyatakan satu nama lain bagi mad asli.",
+     "student_answer": "mad tobii",
+     "reference": "Mad tabi'i atau mad zati",
+     "criterion": "Menyatakan mad tabi'i atau mad zati",
+     "teachers": {
+      "guru_1": "separa",
+      "guru_2": "separa",
+      "guru_3": "ya"
+     },
+     "final": "separa",
+     "system": "ya",
+     "way": "more lenient",
+     "layer": "llm",
+     "reason": "“Mad tobii” jelas merujuk kepada mad tabi'i; ejaan Rumi yang sedikit tersilap diterima.",
+     "comments": {
+      "guru_2": "atas belas ihsan"
+     }
+    }
+   ]
+  }
+ }
+}

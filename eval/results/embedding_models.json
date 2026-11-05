@@ -1,0 +1,7530 @@
+{
+ "options": [
+  {
+   "config": {
+    "chunk": 1500,
+    "k": 4,
+    "sections": 3,
+    "limit": 3600,
+    "min_sim": 0.0,
+    "variants": "none",
+    "scope": "subject",
+    "matching": "hybrid",
+    "jawi_weight": 0.25,
+    "unit": "section",
+    "jawi": false,
+    "chunker": "section",
+    "overlap": -1,
+    "embedding": "bge-m3"
+   },
+   "per_question": {
+    "fiqh_b1_solat_hari_raya_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1532
+    },
+    "fiqh_b1_solat_tahajud_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1487
+    },
+    "fiqh_b1_solat_witir_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.7,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1283
+    },
+    "fiqh_b1_solat_taubat_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1887
+    },
+    "fiqh_b1_solat_tarawih_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1189
+    },
+    "fiqh_b1_solat_taubat_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5555555555555556,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1154
+    },
+    "fiqh_b2_pengertian_puasa_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 3014
+    },
+    "fiqh_b1_solat_hajat_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1113
+    },
+    "fiqh_b1_solat_gerhana_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.2777777777777778,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1663
+    },
+    "fiqh_b2_puasa_wajib_sunat_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2907
+    },
+    "fiqh_b1_solat_hajat_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1214
+    },
+    "fiqh_b2_hikmah_puasa_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1750
+    },
+    "fiqh_b2_hikmah_puasa_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2761
+    },
+    "fiqh_b2_batal_puasa_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1822
+    },
+    "fiqh_b2_puasa_wajib_sunat_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1598
+    },
+    "jawi_b2_imbuhan_i_ya_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2106
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2411
+    },
+    "jawi_b3_pinjaman_arab_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 392
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 2,
+     "chars": 3413
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b3_pinjaman_inggeris_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b2_imbuhan_i_ya_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2138
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b3_pinjaman_arab_q11": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 1622
+    },
+    "jawi_b1_imbuhan_an_nun_q10": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b3_pinjaman_arab_q13": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 1622
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b1_imbuhan_an_nun_q11": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "tajwid_b3_mad_farq_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1380
+    },
+    "tajwid_b3_mad_farq_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1909
+    },
+    "tajwid_b3_mad_fari_pengenalan_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2566
+    },
+    "tajwid_b2_mad_asli_kalimi_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 698
+    },
+    "tajwid_b3_mad_tazim_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 639
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5555555555555556,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1054
+    },
+    "tajwid_b3_mad_farq_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2642
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2406
+    },
+    "tajwid_b5_waqaf_q9": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 2,
+     "chars": 3379
+    },
+    "tajwid_b3_mad_silah_tawilah_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1042
+    },
+    "tajwid_b4_tingkatan_mad_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1266
+    },
+    "tajwid_b3_mad_tazim_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.3333333333333333,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1129
+    },
+    "tajwid_b3_mad_lin_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 2345
+    },
+    "tajwid_b5_waqaf_q7": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 2,
+     "chars": 3105
+    },
+    "tajwid_b3_mad_tamkin_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1195
+    }
+   },
+   "chunks": 339,
+   "chunk_chars_mean": 640,
+   "unjudged_share": 0.0,
+   "option": "bge-m3",
+   "key": "bge-m3",
+   "current": true,
+   "model": {
+    "hf_id": "BAAI/bge-m3",
+    "parameters_m": 568,
+    "dimensions": 1024,
+    "max_tokens": 8192,
+    "embed_seconds": 8.3
+   },
+   "dense": {
+    "config": {
+     "chunk": 1500,
+     "k": 4,
+     "sections": 3,
+     "limit": 3600,
+     "min_sim": 0.0,
+     "variants": "none",
+     "scope": "subject",
+     "matching": "dense",
+     "jawi_weight": 0.25,
+     "unit": "section",
+     "jawi": false,
+     "chunker": "section",
+     "overlap": -1,
+     "embedding": "bge-m3"
+    },
+    "per_question": {
+     "fiqh_b1_solat_hari_raya_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1532
+     },
+     "fiqh_b1_solat_tahajud_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1487
+     },
+     "fiqh_b1_solat_witir_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1283
+     },
+     "fiqh_b1_solat_taubat_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1887
+     },
+     "fiqh_b1_solat_tarawih_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1881
+     },
+     "fiqh_b1_solat_taubat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5555555555555556,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1154
+     },
+     "fiqh_b2_pengertian_puasa_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3397
+     },
+     "fiqh_b1_solat_hajat_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1113
+     },
+     "fiqh_b1_solat_gerhana_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7777777777777778,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2533
+     },
+     "fiqh_b2_puasa_wajib_sunat_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2331
+     },
+     "fiqh_b1_solat_hajat_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1637
+     },
+     "fiqh_b2_hikmah_puasa_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1750
+     },
+     "fiqh_b2_hikmah_puasa_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2553
+     },
+     "fiqh_b2_batal_puasa_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2331
+     },
+     "fiqh_b2_puasa_wajib_sunat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.6666666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1945
+     },
+     "jawi_b2_imbuhan_i_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2106
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2069
+     },
+     "jawi_b3_pinjaman_arab_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 392
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 2,
+      "chars": 3413
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_inggeris_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_ya_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5833333333333333,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 2138
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b3_pinjaman_arab_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b1_imbuhan_an_nun_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_arab_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2395
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b1_imbuhan_an_nun_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "tajwid_b3_mad_farq_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1539
+     },
+     "tajwid_b3_mad_farq_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1909
+     },
+     "tajwid_b3_mad_fari_pengenalan_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2566
+     },
+     "tajwid_b2_mad_asli_kalimi_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1298
+     },
+     "tajwid_b3_mad_tazim_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1887
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7777777777777778,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1187
+     },
+     "tajwid_b3_mad_farq_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2648
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2067
+     },
+     "tajwid_b5_waqaf_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 3379
+     },
+     "tajwid_b3_mad_silah_tawilah_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1042
+     },
+     "tajwid_b4_tingkatan_mad_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1268
+     },
+     "tajwid_b3_mad_tazim_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.16666666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1455
+     },
+     "tajwid_b3_mad_lin_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 2345
+     },
+     "tajwid_b5_waqaf_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 2229
+     },
+     "tajwid_b3_mad_tamkin_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1195
+     }
+    },
+    "chunks": 339,
+    "chunk_chars_mean": 640,
+    "unjudged_share": 0.0,
+    "groups": {
+     "all": {
+      "hit_rate": [
+       0.9778,
+       0.9333,
+       1.0
+      ],
+      "evidence_recall": [
+       0.9254,
+       0.8605,
+       0.9765
+      ],
+      "precision": [
+       0.9019,
+       0.8296,
+       0.963
+      ],
+      "mrr": [
+       0.9037,
+       0.8296,
+       0.9667
+      ],
+      "n": 45
+     },
+     "fiqh": {
+      "hit_rate": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "evidence_recall": [
+       0.9133,
+       0.8267,
+       0.98
+      ],
+      "precision": [
+       0.8667,
+       0.7331,
+       0.9889
+      ],
+      "mrr": [
+       0.8778,
+       0.7444,
+       1.0
+      ],
+      "n": 15
+     },
+     "jawi": {
+      "hit_rate": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "evidence_recall": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "precision": [
+       0.9389,
+       0.8499,
+       1.0
+      ],
+      "mrr": [
+       0.9333,
+       0.8333,
+       1.0
+      ],
+      "n": 15
+     },
+     "tajwid": {
+      "hit_rate": [
+       0.9333,
+       0.8,
+       1.0
+      ],
+      "evidence_recall": [
+       0.863,
+       0.6778,
+       1.0
+      ],
+      "precision": [
+       0.9,
+       0.7333,
+       1.0
+      ],
+      "mrr": [
+       0.9,
+       0.7333,
+       1.0
+      ],
+      "n": 15
+     }
+    }
+   },
+   "jawi": {
+    "config": {
+     "chunk": 1500,
+     "k": 4,
+     "sections": 3,
+     "limit": 3600,
+     "min_sim": 0.0,
+     "variants": "none",
+     "scope": "subject",
+     "matching": "hybrid",
+     "jawi_weight": 0.25,
+     "unit": "section",
+     "jawi": true,
+     "chunker": "section",
+     "overlap": -1,
+     "embedding": "bge-m3"
+    },
+    "per_question": {
+     "fiqh_b1_solat_hari_raya_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1860
+     },
+     "fiqh_b1_solat_tahajud_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1487
+     },
+     "fiqh_b1_solat_witir_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1368
+     },
+     "fiqh_b1_solat_taubat_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1154
+     },
+     "fiqh_b1_solat_tarawih_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1367
+     },
+     "fiqh_b1_solat_taubat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5555555555555556,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1154
+     },
+     "fiqh_b2_pengertian_puasa_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1963
+     },
+     "fiqh_b1_solat_hajat_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2405
+     },
+     "fiqh_b1_solat_gerhana_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.05555555555555555,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1367
+     },
+     "fiqh_b2_puasa_wajib_sunat_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1888
+     },
+     "fiqh_b1_solat_hajat_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1425
+     },
+     "fiqh_b2_hikmah_puasa_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1827
+     },
+     "fiqh_b2_hikmah_puasa_q3": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1298
+     },
+     "fiqh_b2_batal_puasa_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.4,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1436
+     },
+     "fiqh_b2_puasa_wajib_sunat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1598
+     },
+     "jawi_b2_imbuhan_i_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1848
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2804
+     },
+     "jawi_b3_pinjaman_arab_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 2884
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 2,
+      "chars": 3413
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_inggeris_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_ya_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2236
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b3_pinjaman_arab_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b1_imbuhan_an_nun_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_arab_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b1_imbuhan_an_nun_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "tajwid_b3_mad_farq_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1563
+     },
+     "tajwid_b3_mad_farq_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1963
+     },
+     "tajwid_b3_mad_fari_pengenalan_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2135
+     },
+     "tajwid_b2_mad_asli_kalimi_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 972
+     },
+     "tajwid_b3_mad_tazim_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1160
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.4444444444444444,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1408
+     },
+     "tajwid_b3_mad_farq_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2670
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2295
+     },
+     "tajwid_b5_waqaf_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 3379
+     },
+     "tajwid_b3_mad_silah_tawilah_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1249
+     },
+     "tajwid_b4_tingkatan_mad_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1549
+     },
+     "tajwid_b3_mad_tazim_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.16666666666666666,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2368
+     },
+     "tajwid_b3_mad_lin_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 2345
+     },
+     "tajwid_b5_waqaf_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 2,
+      "chars": 3241
+     },
+     "tajwid_b3_mad_tamkin_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5714285714285714,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2270
+     }
+    },
+    "chunks": 339,
+    "chunk_chars_mean": 640,
+    "unjudged_share": 0.0,
+    "groups": {
+     "all": {
+      "hit_rate": [
+       0.9111,
+       0.8222,
+       0.9778
+      ],
+      "evidence_recall": [
+       0.7939,
+       0.6858,
+       0.8885
+      ],
+      "precision": [
+       0.8296,
+       0.7333,
+       0.9185
+      ],
+      "mrr": [
+       0.837,
+       0.7407,
+       0.9259
+      ],
+      "n": 45
+     },
+     "fiqh": {
+      "hit_rate": [
+       0.8,
+       0.6,
+       1.0
+      ],
+      "evidence_recall": [
+       0.6474,
+       0.4281,
+       0.8438
+      ],
+      "precision": [
+       0.7667,
+       0.5333,
+       0.9333
+      ],
+      "mrr": [
+       0.7667,
+       0.5333,
+       0.9333
+      ],
+      "n": 15
+     },
+     "jawi": {
+      "hit_rate": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "evidence_recall": [
+       0.9556,
+       0.8667,
+       1.0
+      ],
+      "precision": [
+       0.9667,
+       0.9,
+       1.0
+      ],
+      "mrr": [
+       0.9667,
+       0.9,
+       1.0
+      ],
+      "n": 15
+     },
+     "tajwid": {
+      "hit_rate": [
+       0.9333,
+       0.8,
+       1.0
+      ],
+      "evidence_recall": [
+       0.7788,
+       0.5921,
+       0.9344
+      ],
+      "precision": [
+       0.7556,
+       0.5889,
+       0.9111
+      ],
+      "mrr": [
+       0.7778,
+       0.6,
+       0.9333
+      ],
+      "n": 15
+     }
+    }
+   },
+   "groups": {
+    "all": {
+     "hit_rate": [
+      0.9778,
+      0.9333,
+      1.0
+     ],
+     "evidence_recall": [
+      0.9205,
+      0.855,
+      0.9753
+     ],
+     "precision": [
+      0.9074,
+      0.8444,
+      0.9593
+     ],
+     "mrr": [
+      0.9222,
+      0.8556,
+      0.9778
+     ],
+     "n": 45
+    },
+    "fiqh": {
+     "hit_rate": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "evidence_recall": [
+      0.9022,
+      0.7948,
+      1.0
+     ],
+     "precision": [
+      0.9222,
+      0.8333,
+      1.0
+     ],
+     "mrr": [
+      0.9333,
+      0.8333,
+      1.0
+     ],
+     "n": 15
+    },
+    "jawi": {
+     "hit_rate": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "evidence_recall": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "precision": [
+      0.9556,
+      0.8778,
+      1.0
+     ],
+     "mrr": [
+      0.9667,
+      0.9,
+      1.0
+     ],
+     "n": 15
+    },
+    "tajwid": {
+     "hit_rate": [
+      0.9333,
+      0.8,
+      1.0
+     ],
+     "evidence_recall": [
+      0.8593,
+      0.6815,
+      1.0
+     ],
+     "precision": [
+      0.8444,
+      0.6778,
+      0.9667
+     ],
+     "mrr": [
+      0.8667,
+      0.7,
+      1.0
+     ],
+     "n": 15
+    }
+   },
+   "answer_items": {
+    "fiqh_b1_solat_hari_raya_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_tahajud_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_witir_q6": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "fiqh_b1_solat_taubat_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_tarawih_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_taubat_q6": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "fiqh_b2_pengertian_puasa_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.6667
+    },
+    "fiqh_b1_solat_hajat_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_gerhana_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "fiqh_b2_puasa_wajib_sunat_q2": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_hajat_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b2_hikmah_puasa_q6": {
+     "declined": false,
+     "faithfulness": 0.5454545454545454,
+     "factual_correctness": 0.7273
+    },
+    "fiqh_b2_hikmah_puasa_q3": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8
+    },
+    "fiqh_b2_batal_puasa_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8889
+    },
+    "fiqh_b2_puasa_wajib_sunat_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.5714
+    },
+    "jawi_b2_imbuhan_i_ya_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_arab_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.6667
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_inggeris_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_ya_q7": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8
+    },
+    "jawi_b3_pinjaman_arab_q11": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_nun_q10": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_arab_q13": {
+     "declined": false,
+     "faithfulness": 0.8333333333333334,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8889
+    },
+    "jawi_b1_imbuhan_an_nun_q11": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_farq_q2": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_farq_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_fari_pengenalan_q7": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8
+    },
+    "tajwid_b2_mad_asli_kalimi_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_tazim_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_farq_q3": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b5_waqaf_q9": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_silah_tawilah_q3": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b4_tingkatan_mad_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_tazim_q7": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.4444
+    },
+    "tajwid_b3_mad_lin_q2": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b5_waqaf_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_tamkin_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.7692
+    }
+   },
+   "answers": {
+    "all": {
+     "factual_correctness": [
+      0.8227,
+      0.7302,
+      0.9116
+     ],
+     "faithfulness": [
+      0.9845,
+      0.9575,
+      1.0
+     ],
+     "declined": 5,
+     "diff_factual_correctness": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "fiqh": {
+     "factual_correctness": [
+      0.7103,
+      0.4999,
+      0.8845
+     ],
+     "faithfulness": [
+      0.9621,
+      0.8864,
+      1.0
+     ],
+     "declined": 3,
+     "diff_factual_correctness": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "jawi": {
+     "factual_correctness": [
+      0.957,
+      0.9052,
+      1.0
+     ],
+     "faithfulness": [
+      0.9889,
+      0.9667,
+      1.0
+     ],
+     "declined": 0,
+     "diff_factual_correctness": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "tajwid": {
+     "factual_correctness": [
+      0.8009,
+      0.6009,
+      0.9559
+     ],
+     "faithfulness": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "declined": 2,
+     "diff_factual_correctness": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  {
+   "config": {
+    "chunk": 1500,
+    "k": 4,
+    "sections": 3,
+    "limit": 3600,
+    "min_sim": 0.0,
+    "variants": "none",
+    "scope": "subject",
+    "matching": "hybrid",
+    "jawi_weight": 0.25,
+    "unit": "section",
+    "jawi": false,
+    "chunker": "section",
+    "overlap": -1,
+    "embedding": "e5-large"
+   },
+   "per_question": {
+    "fiqh_b1_solat_hari_raya_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1641
+    },
+    "fiqh_b1_solat_tahajud_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1487
+    },
+    "fiqh_b1_solat_witir_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1453
+    },
+    "fiqh_b1_solat_taubat_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1809
+    },
+    "fiqh_b1_solat_tarawih_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1610
+    },
+    "fiqh_b1_solat_taubat_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5555555555555556,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1154
+    },
+    "fiqh_b2_pengertian_puasa_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 3014
+    },
+    "fiqh_b1_solat_hajat_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2551
+    },
+    "fiqh_b1_solat_gerhana_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.2777777777777778,
+     "precision": 0.5833333333333333,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1663
+    },
+    "fiqh_b2_puasa_wajib_sunat_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 3397
+    },
+    "fiqh_b1_solat_hajat_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1399
+    },
+    "fiqh_b2_hikmah_puasa_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1750
+    },
+    "fiqh_b2_hikmah_puasa_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5833333333333333,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 2761
+    },
+    "fiqh_b2_batal_puasa_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1822
+    },
+    "fiqh_b2_puasa_wajib_sunat_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1598
+    },
+    "jawi_b2_imbuhan_i_ya_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2106
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2804
+    },
+    "jawi_b3_pinjaman_arab_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 2,
+     "chars": 1158
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 2,
+     "chars": 1241
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b3_pinjaman_inggeris_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b2_imbuhan_i_ya_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2138
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b3_pinjaman_arab_q11": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 1622
+    },
+    "jawi_b1_imbuhan_an_nun_q10": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b3_pinjaman_arab_q13": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 1622
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b1_imbuhan_an_nun_q11": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "tajwid_b3_mad_farq_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.3333333333333333,
+     "mrr": 0.3333333333333333,
+     "passages": 3,
+     "chars": 1374
+    },
+    "tajwid_b3_mad_farq_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1004
+    },
+    "tajwid_b3_mad_fari_pengenalan_q7": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 929
+    },
+    "tajwid_b2_mad_asli_kalimi_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 972
+    },
+    "tajwid_b3_mad_tazim_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 830
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5555555555555556,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1142
+    },
+    "tajwid_b3_mad_farq_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1401
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1540
+    },
+    "tajwid_b5_waqaf_q9": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 3438
+    },
+    "tajwid_b3_mad_silah_tawilah_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1042
+    },
+    "tajwid_b4_tingkatan_mad_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1266
+    },
+    "tajwid_b3_mad_tazim_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.3333333333333333,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 673
+    },
+    "tajwid_b3_mad_lin_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2345
+    },
+    "tajwid_b5_waqaf_q7": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 3438
+    },
+    "tajwid_b3_mad_tamkin_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1195
+    }
+   },
+   "chunks": 339,
+   "chunk_chars_mean": 640,
+   "unjudged_share": 0.0088,
+   "option": "multilingual-e5-large",
+   "key": "e5-large",
+   "current": false,
+   "model": {
+    "hf_id": "intfloat/multilingual-e5-large",
+    "parameters_m": 560,
+    "dimensions": 1024,
+    "max_tokens": 512,
+    "embed_seconds": 7.2
+   },
+   "dense": {
+    "config": {
+     "chunk": 1500,
+     "k": 4,
+     "sections": 3,
+     "limit": 3600,
+     "min_sim": 0.0,
+     "variants": "none",
+     "scope": "subject",
+     "matching": "dense",
+     "jawi_weight": 0.25,
+     "unit": "section",
+     "jawi": false,
+     "chunker": "section",
+     "overlap": -1,
+     "embedding": "e5-large"
+    },
+    "per_question": {
+     "fiqh_b1_solat_hari_raya_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1860
+     },
+     "fiqh_b1_solat_tahajud_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1487
+     },
+     "fiqh_b1_solat_witir_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1453
+     },
+     "fiqh_b1_solat_taubat_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1809
+     },
+     "fiqh_b1_solat_tarawih_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1404
+     },
+     "fiqh_b1_solat_taubat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1809
+     },
+     "fiqh_b2_pengertian_puasa_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3014
+     },
+     "fiqh_b1_solat_hajat_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2529
+     },
+     "fiqh_b1_solat_gerhana_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.2777777777777778,
+      "precision": 0.5833333333333333,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1663
+     },
+     "fiqh_b2_puasa_wajib_sunat_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2463
+     },
+     "fiqh_b1_solat_hajat_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1512
+     },
+     "fiqh_b2_hikmah_puasa_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2153
+     },
+     "fiqh_b2_hikmah_puasa_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2439
+     },
+     "fiqh_b2_batal_puasa_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2434
+     },
+     "fiqh_b2_puasa_wajib_sunat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.6666666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2348
+     },
+     "jawi_b2_imbuhan_i_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1848
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 1480
+     },
+     "jawi_b3_pinjaman_arab_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 1158
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 3069
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.16666666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1656
+     },
+     "jawi_b3_pinjaman_inggeris_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_ya_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3364
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b3_pinjaman_arab_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b1_imbuhan_an_nun_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_arab_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b1_imbuhan_an_nun_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "tajwid_b3_mad_farq_q2": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 723
+     },
+     "tajwid_b3_mad_farq_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 738
+     },
+     "tajwid_b3_mad_fari_pengenalan_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 723
+     },
+     "tajwid_b2_mad_asli_kalimi_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 920
+     },
+     "tajwid_b3_mad_tazim_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 639
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.4444444444444444,
+      "precision": 0.5833333333333333,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1136
+     },
+     "tajwid_b3_mad_farq_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1374
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1578
+     },
+     "tajwid_b5_waqaf_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3438
+     },
+     "tajwid_b3_mad_silah_tawilah_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1195
+     },
+     "tajwid_b4_tingkatan_mad_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.6666666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 585
+     },
+     "tajwid_b3_mad_tazim_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.16666666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 737
+     },
+     "tajwid_b3_mad_lin_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1213
+     },
+     "tajwid_b5_waqaf_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1468
+     },
+     "tajwid_b3_mad_tamkin_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7142857142857143,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 833
+     }
+    },
+    "chunks": 339,
+    "chunk_chars_mean": 640,
+    "unjudged_share": 0.1239,
+    "groups": {
+     "all": {
+      "hit_rate": [
+       0.9111,
+       0.8222,
+       0.9778
+      ],
+      "evidence_recall": [
+       0.8097,
+       0.7012,
+       0.8984
+      ],
+      "precision": [
+       0.8148,
+       0.7148,
+       0.9019
+      ],
+      "mrr": [
+       0.8148,
+       0.7147,
+       0.9037
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.0667,
+        -0.1556,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.1157,
+        -0.2071,
+        -0.039
+       ],
+       "precision": [
+        -0.087,
+        -0.1741,
+        -0.0111
+       ],
+       "mrr": [
+        -0.0889,
+        -0.1779,
+        -0.0111
+       ]
+      },
+      "n": 45
+     },
+     "fiqh": {
+      "hit_rate": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "evidence_recall": [
+       0.8852,
+       0.7481,
+       1.0
+      ],
+      "precision": [
+       0.8056,
+       0.6667,
+       0.9333
+      ],
+      "mrr": [
+       0.8111,
+       0.6667,
+       0.9333
+      ],
+      "diff": {
+       "hit_rate": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.0281,
+        -0.1148,
+        0.0452
+       ],
+       "precision": [
+        -0.0611,
+        -0.1667,
+        0.0111
+       ],
+       "mrr": [
+        -0.0667,
+        -0.1778,
+        0.0222
+       ]
+      },
+      "n": 15
+     },
+     "jawi": {
+      "hit_rate": [
+       0.9333,
+       0.8,
+       1.0
+      ],
+      "evidence_recall": [
+       0.8778,
+       0.6889,
+       1.0
+      ],
+      "precision": [
+       0.9333,
+       0.8,
+       1.0
+      ],
+      "mrr": [
+       0.9333,
+       0.8,
+       1.0
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.0667,
+        -0.2,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.1222,
+        -0.3111,
+        0.0
+       ],
+       "precision": [
+        -0.0056,
+        -0.1,
+        0.0833
+       ],
+       "mrr": [
+        0.0,
+        -0.1,
+        0.1
+       ]
+      },
+      "n": 15
+     },
+     "tajwid": {
+      "hit_rate": [
+       0.8,
+       0.6,
+       1.0
+      ],
+      "evidence_recall": [
+       0.6661,
+       0.447,
+       0.855
+      ],
+      "precision": [
+       0.7056,
+       0.5,
+       0.9
+      ],
+      "mrr": [
+       0.7,
+       0.5,
+       0.9
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.1333,
+        -0.3333,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.1968,
+        -0.378,
+        -0.0444
+       ],
+       "precision": [
+        -0.1944,
+        -0.4,
+        0.0
+       ],
+       "mrr": [
+        -0.2,
+        -0.4,
+        0.0
+       ]
+      },
+      "n": 15
+     }
+    }
+   },
+   "jawi": {
+    "config": {
+     "chunk": 1500,
+     "k": 4,
+     "sections": 3,
+     "limit": 3600,
+     "min_sim": 0.0,
+     "variants": "none",
+     "scope": "subject",
+     "matching": "hybrid",
+     "jawi_weight": 0.25,
+     "unit": "section",
+     "jawi": true,
+     "chunker": "section",
+     "overlap": -1,
+     "embedding": "e5-large"
+    },
+    "per_question": {
+     "fiqh_b1_solat_hari_raya_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1860
+     },
+     "fiqh_b1_solat_tahajud_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1487
+     },
+     "fiqh_b1_solat_witir_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2216
+     },
+     "fiqh_b1_solat_taubat_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1154
+     },
+     "fiqh_b1_solat_tarawih_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1367
+     },
+     "fiqh_b1_solat_taubat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.6666666666666666,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2058
+     },
+     "fiqh_b2_pengertian_puasa_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3014
+     },
+     "fiqh_b1_solat_hajat_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2405
+     },
+     "fiqh_b1_solat_gerhana_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.2777777777777778,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1663
+     },
+     "fiqh_b2_puasa_wajib_sunat_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2958
+     },
+     "fiqh_b1_solat_hajat_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1425
+     },
+     "fiqh_b2_hikmah_puasa_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5833333333333333,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1750
+     },
+     "fiqh_b2_hikmah_puasa_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2761
+     },
+     "fiqh_b2_batal_puasa_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2030
+     },
+     "fiqh_b2_puasa_wajib_sunat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.9166666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1922
+     },
+     "jawi_b2_imbuhan_i_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3170
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2804
+     },
+     "jawi_b3_pinjaman_arab_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 764
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 3378
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_inggeris_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_ya_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2236
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b3_pinjaman_arab_q11": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_nun_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_arab_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b1_imbuhan_an_nun_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "tajwid_b3_mad_farq_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1563
+     },
+     "tajwid_b3_mad_farq_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1004
+     },
+     "tajwid_b3_mad_fari_pengenalan_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1257
+     },
+     "tajwid_b2_mad_asli_kalimi_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 972
+     },
+     "tajwid_b3_mad_tazim_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 750
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.6666666666666666,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2295
+     },
+     "tajwid_b3_mad_farq_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1429
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2295
+     },
+     "tajwid_b5_waqaf_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 2229
+     },
+     "tajwid_b3_mad_silah_tawilah_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1260
+     },
+     "tajwid_b4_tingkatan_mad_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1111
+     },
+     "tajwid_b3_mad_tazim_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 3520
+     },
+     "tajwid_b3_mad_lin_q2": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 497
+     },
+     "tajwid_b5_waqaf_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 2,
+      "chars": 3241
+     },
+     "tajwid_b3_mad_tamkin_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5714285714285714,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1250
+     }
+    },
+    "chunks": 339,
+    "chunk_chars_mean": 640,
+    "unjudged_share": 0.0459,
+    "groups": {
+     "all": {
+      "hit_rate": [
+       0.8444,
+       0.7333,
+       0.9333
+      ],
+      "evidence_recall": [
+       0.7585,
+       0.6449,
+       0.8602
+      ],
+      "precision": [
+       0.7426,
+       0.6296,
+       0.8444
+      ],
+      "mrr": [
+       0.7519,
+       0.637,
+       0.8593
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.0667,
+        -0.1556,
+        0.0222
+       ],
+       "evidence_recall": [
+        -0.0354,
+        -0.1236,
+        0.0538
+       ],
+       "precision": [
+        -0.087,
+        -0.1852,
+        0.0037
+       ],
+       "mrr": [
+        -0.0852,
+        -0.1852,
+        0.0074
+       ]
+      },
+      "n": 45
+     },
+     "fiqh": {
+      "hit_rate": [
+       0.8667,
+       0.6667,
+       1.0
+      ],
+      "evidence_recall": [
+       0.7707,
+       0.5763,
+       0.9334
+      ],
+      "precision": [
+       0.8167,
+       0.6167,
+       0.9667
+      ],
+      "mrr": [
+       0.8333,
+       0.6333,
+       1.0
+      ],
+      "diff": {
+       "hit_rate": [
+        0.0667,
+        0.0,
+        0.2
+       ],
+       "evidence_recall": [
+        0.1233,
+        0.0037,
+        0.2815
+       ],
+       "precision": [
+        0.05,
+        -0.0444,
+        0.1946
+       ],
+       "mrr": [
+        0.0667,
+        0.0,
+        0.2
+       ]
+      },
+      "n": 15
+     },
+     "jawi": {
+      "hit_rate": [
+       0.8667,
+       0.6667,
+       1.0
+      ],
+      "evidence_recall": [
+       0.8667,
+       0.6667,
+       1.0
+      ],
+      "precision": [
+       0.8667,
+       0.6667,
+       1.0
+      ],
+      "mrr": [
+       0.8667,
+       0.6667,
+       1.0
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.1333,
+        -0.3333,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.0889,
+        -0.2444,
+        0.0
+       ],
+       "precision": [
+        -0.1,
+        -0.3,
+        0.0667
+       ],
+       "mrr": [
+        -0.1,
+        -0.3,
+        0.0667
+       ]
+      },
+      "n": 15
+     },
+     "tajwid": {
+      "hit_rate": [
+       0.8,
+       0.6,
+       1.0
+      ],
+      "evidence_recall": [
+       0.6381,
+       0.4205,
+       0.8206
+      ],
+      "precision": [
+       0.5444,
+       0.3556,
+       0.7444
+      ],
+      "mrr": [
+       0.5556,
+       0.3556,
+       0.7556
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.1333,
+        -0.3333,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.1407,
+        -0.3111,
+        0.0
+       ],
+       "precision": [
+        -0.2111,
+        -0.3556,
+        -0.0778
+       ],
+       "mrr": [
+        -0.2222,
+        -0.3667,
+        -0.0886
+       ]
+      },
+      "n": 15
+     }
+    }
+   },
+   "groups": {
+    "all": {
+     "hit_rate": [
+      0.9333,
+      0.8444,
+      1.0
+     ],
+     "evidence_recall": [
+      0.8827,
+      0.7987,
+      0.958
+     ],
+     "precision": [
+      0.8704,
+      0.7815,
+      0.9444
+     ],
+     "mrr": [
+      0.8741,
+      0.7815,
+      0.9519
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.0444,
+       -0.1111,
+       0.0
+      ],
+      "evidence_recall": [
+       -0.0378,
+       -0.1068,
+       0.0133
+      ],
+      "precision": [
+       -0.037,
+       -0.1148,
+       0.0333
+      ],
+      "mrr": [
+       -0.0481,
+       -0.1259,
+       0.0222
+      ]
+     },
+     "n": 45
+    },
+    "fiqh": {
+     "hit_rate": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "evidence_recall": [
+      0.9222,
+      0.8148,
+      1.0
+     ],
+     "precision": [
+      0.9444,
+      0.8611,
+      1.0
+     ],
+     "mrr": [
+      0.9333,
+      0.8333,
+      1.0
+     ],
+     "diff": {
+      "hit_rate": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "evidence_recall": [
+       0.02,
+       0.0,
+       0.06
+      ],
+      "precision": [
+       0.0222,
+       -0.0833,
+       0.1333
+      ],
+      "mrr": [
+       0.0,
+       -0.1333,
+       0.1333
+      ]
+     },
+     "n": 15
+    },
+    "jawi": {
+     "hit_rate": [
+      0.9333,
+      0.8,
+      1.0
+     ],
+     "evidence_recall": [
+      0.9333,
+      0.8,
+      1.0
+     ],
+     "precision": [
+      0.9222,
+      0.7778,
+      1.0
+     ],
+     "mrr": [
+      0.9333,
+      0.8,
+      1.0
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.0667,
+       -0.2,
+       0.0
+      ],
+      "evidence_recall": [
+       -0.0667,
+       -0.2,
+       0.0
+      ],
+      "precision": [
+       -0.0333,
+       -0.1,
+       0.0
+      ],
+      "mrr": [
+       -0.0333,
+       -0.1,
+       0.0
+      ]
+     },
+     "n": 15
+    },
+    "tajwid": {
+     "hit_rate": [
+      0.8667,
+      0.6667,
+      1.0
+     ],
+     "evidence_recall": [
+      0.7926,
+      0.5778,
+      0.9556
+     ],
+     "precision": [
+      0.7444,
+      0.5444,
+      0.9222
+     ],
+     "mrr": [
+      0.7556,
+      0.5556,
+      0.9333
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.0667,
+       -0.2,
+       0.0
+      ],
+      "evidence_recall": [
+       -0.0667,
+       -0.2,
+       0.0
+      ],
+      "precision": [
+       -0.1,
+       -0.2778,
+       0.0667
+      ],
+      "mrr": [
+       -0.1111,
+       -0.2892,
+       0.0558
+      ]
+     },
+     "n": 15
+    }
+   },
+   "answer_items": {
+    "fiqh_b1_solat_hari_raya_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_tahajud_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_witir_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8235
+    },
+    "fiqh_b1_solat_taubat_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_tarawih_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_taubat_q6": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "fiqh_b2_pengertian_puasa_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.6667
+    },
+    "fiqh_b1_solat_hajat_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_gerhana_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "fiqh_b2_puasa_wajib_sunat_q2": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_hajat_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b2_hikmah_puasa_q6": {
+     "declined": false,
+     "faithfulness": 0.5454545454545454,
+     "factual_correctness": 0.7273
+    },
+    "fiqh_b2_hikmah_puasa_q3": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8
+    },
+    "fiqh_b2_batal_puasa_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8889
+    },
+    "fiqh_b2_puasa_wajib_sunat_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.5714
+    },
+    "jawi_b2_imbuhan_i_ya_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_arab_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_inggeris_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_ya_q7": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8
+    },
+    "jawi_b3_pinjaman_arab_q11": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_nun_q10": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_arab_q13": {
+     "declined": false,
+     "faithfulness": 0.8333333333333334,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8889
+    },
+    "jawi_b1_imbuhan_an_nun_q11": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_farq_q2": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_farq_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_fari_pengenalan_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b2_mad_asli_kalimi_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_tazim_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_farq_q3": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b5_waqaf_q9": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_silah_tawilah_q3": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b4_tingkatan_mad_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_tazim_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_lin_q2": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b5_waqaf_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_tamkin_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.7692
+    }
+   },
+   "answers": {
+    "all": {
+     "factual_correctness": [
+      0.7986,
+      0.6958,
+      0.8957
+     ],
+     "faithfulness": [
+      0.9832,
+      0.9541,
+      1.0
+     ],
+     "declined": 7,
+     "diff_factual_correctness": [
+      -0.0242,
+      -0.0849,
+      0.0366
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "fiqh": {
+     "factual_correctness": [
+      0.7652,
+      0.5786,
+      0.9143
+     ],
+     "faithfulness": [
+      0.9621,
+      0.8864,
+      1.0
+     ],
+     "declined": 2,
+     "diff_factual_correctness": [
+      0.0549,
+      0.0,
+      0.1647
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "jawi": {
+     "factual_correctness": [
+      0.9126,
+      0.7719,
+      1.0
+     ],
+     "faithfulness": [
+      0.9881,
+      0.9643,
+      1.0
+     ],
+     "declined": 1,
+     "diff_factual_correctness": [
+      -0.0444,
+      -0.1333,
+      0.0
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "tajwid": {
+     "factual_correctness": [
+      0.7179,
+      0.4667,
+      0.9179
+     ],
+     "faithfulness": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "declined": 4,
+     "diff_factual_correctness": [
+      -0.083,
+      -0.2133,
+      0.0
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  {
+   "config": {
+    "chunk": 1500,
+    "k": 4,
+    "sections": 3,
+    "limit": 3600,
+    "min_sim": 0.0,
+    "variants": "none",
+    "scope": "subject",
+    "matching": "hybrid",
+    "jawi_weight": 0.25,
+    "unit": "section",
+    "jawi": false,
+    "chunker": "section",
+    "overlap": -1,
+    "embedding": "e5-base"
+   },
+   "per_question": {
+    "fiqh_b1_solat_hari_raya_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1532
+    },
+    "fiqh_b1_solat_tahajud_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1512
+    },
+    "fiqh_b1_solat_witir_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.7,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1283
+    },
+    "fiqh_b1_solat_taubat_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1232
+    },
+    "fiqh_b1_solat_tarawih_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1610
+    },
+    "fiqh_b1_solat_taubat_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5555555555555556,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1154
+    },
+    "fiqh_b2_pengertian_puasa_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 3014
+    },
+    "fiqh_b1_solat_hajat_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2416
+    },
+    "fiqh_b1_solat_gerhana_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.05555555555555555,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1765
+    },
+    "fiqh_b2_puasa_wajib_sunat_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2649
+    },
+    "fiqh_b1_solat_hajat_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1566
+    },
+    "fiqh_b2_hikmah_puasa_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1750
+    },
+    "fiqh_b2_hikmah_puasa_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2761
+    },
+    "fiqh_b2_batal_puasa_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2030
+    },
+    "fiqh_b2_puasa_wajib_sunat_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.6666666666666666,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1945
+    },
+    "jawi_b2_imbuhan_i_ya_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2106
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2411
+    },
+    "jawi_b3_pinjaman_arab_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 2,
+     "chars": 1158
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 2,
+     "chars": 3378
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b3_pinjaman_inggeris_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b2_imbuhan_i_ya_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2138
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b3_pinjaman_arab_q11": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 2,
+     "chars": 3039
+    },
+    "jawi_b1_imbuhan_an_nun_q10": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b3_pinjaman_arab_q13": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 1622
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b1_imbuhan_an_nun_q11": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "tajwid_b3_mad_farq_q2": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 862
+    },
+    "tajwid_b3_mad_farq_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1004
+    },
+    "tajwid_b3_mad_fari_pengenalan_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1533
+    },
+    "tajwid_b2_mad_asli_kalimi_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 972
+    },
+    "tajwid_b3_mad_tazim_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 836
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5555555555555556,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1227
+    },
+    "tajwid_b3_mad_farq_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1499
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1429
+    },
+    "tajwid_b5_waqaf_q9": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 1713
+    },
+    "tajwid_b3_mad_silah_tawilah_q3": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 824
+    },
+    "tajwid_b4_tingkatan_mad_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1546
+    },
+    "tajwid_b3_mad_tazim_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 639
+    },
+    "tajwid_b3_mad_lin_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1244
+    },
+    "tajwid_b5_waqaf_q7": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 3366
+    },
+    "tajwid_b3_mad_tamkin_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.7142857142857143,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 833
+    }
+   },
+   "chunks": 339,
+   "chunk_chars_mean": 640,
+   "unjudged_share": 0.0088,
+   "option": "multilingual-e5-base",
+   "key": "e5-base",
+   "current": false,
+   "model": {
+    "hf_id": "intfloat/multilingual-e5-base",
+    "parameters_m": 278,
+    "dimensions": 768,
+    "max_tokens": 512,
+    "embed_seconds": 2.6
+   },
+   "dense": {
+    "config": {
+     "chunk": 1500,
+     "k": 4,
+     "sections": 3,
+     "limit": 3600,
+     "min_sim": 0.0,
+     "variants": "none",
+     "scope": "subject",
+     "matching": "dense",
+     "jawi_weight": 0.25,
+     "unit": "section",
+     "jawi": false,
+     "chunker": "section",
+     "overlap": -1,
+     "embedding": "e5-base"
+    },
+    "per_question": {
+     "fiqh_b1_solat_hari_raya_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1532
+     },
+     "fiqh_b1_solat_tahajud_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2679
+     },
+     "fiqh_b1_solat_witir_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1283
+     },
+     "fiqh_b1_solat_taubat_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1232
+     },
+     "fiqh_b1_solat_tarawih_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1712
+     },
+     "fiqh_b1_solat_taubat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.8888888888888888,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1403
+     },
+     "fiqh_b2_pengertian_puasa_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3014
+     },
+     "fiqh_b1_solat_hajat_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1553
+     },
+     "fiqh_b1_solat_gerhana_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.2222222222222222,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1654
+     },
+     "fiqh_b2_puasa_wajib_sunat_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2456
+     },
+     "fiqh_b1_solat_hajat_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2986
+     },
+     "fiqh_b2_hikmah_puasa_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1750
+     },
+     "fiqh_b2_hikmah_puasa_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1953
+     },
+     "fiqh_b2_batal_puasa_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2223
+     },
+     "fiqh_b2_puasa_wajib_sunat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.08333333333333333,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1179
+     },
+     "jawi_b2_imbuhan_i_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2106
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2366
+     },
+     "jawi_b3_pinjaman_arab_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 1158
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 2,
+      "chars": 3378
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_inggeris_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_ya_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2138
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b3_pinjaman_arab_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 3039
+     },
+     "jawi_b1_imbuhan_an_nun_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_arab_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 2424
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b1_imbuhan_an_nun_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "tajwid_b3_mad_farq_q2": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 841
+     },
+     "tajwid_b3_mad_farq_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1539
+     },
+     "tajwid_b3_mad_fari_pengenalan_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 964
+     },
+     "tajwid_b2_mad_asli_kalimi_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 920
+     },
+     "tajwid_b3_mad_tazim_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1095
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.1111111111111111,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 867
+     },
+     "tajwid_b3_mad_farq_q3": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1032
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1540
+     },
+     "tajwid_b5_waqaf_q9": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 890
+     },
+     "tajwid_b3_mad_silah_tawilah_q3": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 824
+     },
+     "tajwid_b4_tingkatan_mad_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 948
+     },
+     "tajwid_b3_mad_tazim_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.16666666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 628
+     },
+     "tajwid_b3_mad_lin_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1244
+     },
+     "tajwid_b5_waqaf_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2919
+     },
+     "tajwid_b3_mad_tamkin_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7142857142857143,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 833
+     }
+    },
+    "chunks": 339,
+    "chunk_chars_mean": 640,
+    "unjudged_share": 0.1652,
+    "groups": {
+     "all": {
+      "hit_rate": [
+       0.8667,
+       0.7556,
+       0.9556
+      ],
+      "evidence_recall": [
+       0.7493,
+       0.6309,
+       0.8549
+      ],
+      "precision": [
+       0.7704,
+       0.6519,
+       0.8668
+      ],
+      "mrr": [
+       0.7852,
+       0.663,
+       0.8852
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.1111,
+        -0.2,
+        -0.0222
+       ],
+       "evidence_recall": [
+        -0.1761,
+        -0.2798,
+        -0.0815
+       ],
+       "precision": [
+        -0.1315,
+        -0.25,
+        -0.0278
+       ],
+       "mrr": [
+        -0.1185,
+        -0.2407,
+        -0.0111
+       ]
+      },
+      "n": 45
+     },
+     "fiqh": {
+      "hit_rate": [
+       0.9333,
+       0.8,
+       1.0
+      ],
+      "evidence_recall": [
+       0.793,
+       0.5963,
+       0.9526
+      ],
+      "precision": [
+       0.7667,
+       0.6,
+       0.9222
+      ],
+      "mrr": [
+       0.8,
+       0.6222,
+       0.9556
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.0667,
+        -0.2,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.1204,
+        -0.2871,
+        0.0224
+       ],
+       "precision": [
+        -0.1,
+        -0.2778,
+        0.0889
+       ],
+       "mrr": [
+        -0.0778,
+        -0.2556,
+        0.1111
+       ]
+      },
+      "n": 15
+     },
+     "jawi": {
+      "hit_rate": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "evidence_recall": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "precision": [
+       0.9556,
+       0.8778,
+       1.0
+      ],
+      "mrr": [
+       0.9667,
+       0.9,
+       1.0
+      ],
+      "diff": {
+       "hit_rate": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "evidence_recall": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "precision": [
+        0.0167,
+        0.0,
+        0.05
+       ],
+       "mrr": [
+        0.0333,
+        0.0,
+        0.1
+       ]
+      },
+      "n": 15
+     },
+     "tajwid": {
+      "hit_rate": [
+       0.6667,
+       0.4,
+       0.8667
+      ],
+      "evidence_recall": [
+       0.455,
+       0.2259,
+       0.6804
+      ],
+      "precision": [
+       0.5889,
+       0.3444,
+       0.8222
+      ],
+      "mrr": [
+       0.5889,
+       0.3444,
+       0.8222
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.2667,
+        -0.4667,
+        -0.0667
+       ],
+       "evidence_recall": [
+        -0.4079,
+        -0.6333,
+        -0.2
+       ],
+       "precision": [
+        -0.3111,
+        -0.5558,
+        -0.0667
+       ],
+       "mrr": [
+        -0.3111,
+        -0.5558,
+        -0.0667
+       ]
+      },
+      "n": 15
+     }
+    }
+   },
+   "jawi": {
+    "config": {
+     "chunk": 1500,
+     "k": 4,
+     "sections": 3,
+     "limit": 3600,
+     "min_sim": 0.0,
+     "variants": "none",
+     "scope": "subject",
+     "matching": "hybrid",
+     "jawi_weight": 0.25,
+     "unit": "section",
+     "jawi": true,
+     "chunker": "section",
+     "overlap": -1,
+     "embedding": "e5-base"
+    },
+    "per_question": {
+     "fiqh_b1_solat_hari_raya_q1": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1911
+     },
+     "fiqh_b1_solat_tahajud_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1193
+     },
+     "fiqh_b1_solat_witir_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.7,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1736
+     },
+     "fiqh_b1_solat_taubat_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1154
+     },
+     "fiqh_b1_solat_tarawih_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1367
+     },
+     "fiqh_b1_solat_taubat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.4444444444444444,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1980
+     },
+     "fiqh_b2_pengertian_puasa_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3014
+     },
+     "fiqh_b1_solat_hajat_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2383
+     },
+     "fiqh_b1_solat_gerhana_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.05555555555555555,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1610
+     },
+     "fiqh_b2_puasa_wajib_sunat_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3397
+     },
+     "fiqh_b1_solat_hajat_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1425
+     },
+     "fiqh_b2_hikmah_puasa_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5833333333333333,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1750
+     },
+     "fiqh_b2_hikmah_puasa_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2761
+     },
+     "fiqh_b2_batal_puasa_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1706
+     },
+     "fiqh_b2_puasa_wajib_sunat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1598
+     },
+     "jawi_b2_imbuhan_i_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1848
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2304
+     },
+     "jawi_b3_pinjaman_arab_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 3413
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_inggeris_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_ya_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2236
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b3_pinjaman_arab_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b1_imbuhan_an_nun_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_arab_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b1_imbuhan_an_nun_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "tajwid_b3_mad_farq_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1563
+     },
+     "tajwid_b3_mad_farq_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2218
+     },
+     "tajwid_b3_mad_fari_pengenalan_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1257
+     },
+     "tajwid_b2_mad_asli_kalimi_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 972
+     },
+     "tajwid_b3_mad_tazim_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1240
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.4444444444444444,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1493
+     },
+     "tajwid_b3_mad_farq_q3": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 705
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2295
+     },
+     "tajwid_b5_waqaf_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 2562
+     },
+     "tajwid_b3_mad_silah_tawilah_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1260
+     },
+     "tajwid_b4_tingkatan_mad_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1929
+     },
+     "tajwid_b3_mad_tazim_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.16666666666666666,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1912
+     },
+     "tajwid_b3_mad_lin_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2345
+     },
+     "tajwid_b5_waqaf_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 2,
+      "chars": 3241
+     },
+     "tajwid_b3_mad_tamkin_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5714285714285714,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1250
+     }
+    },
+    "chunks": 339,
+    "chunk_chars_mean": 640,
+    "unjudged_share": 0.0364,
+    "groups": {
+     "all": {
+      "hit_rate": [
+       0.9111,
+       0.8222,
+       0.9778
+      ],
+      "evidence_recall": [
+       0.7826,
+       0.6839,
+       0.8822
+      ],
+      "precision": [
+       0.7796,
+       0.6778,
+       0.8722
+      ],
+      "mrr": [
+       0.7926,
+       0.6889,
+       0.8852
+      ],
+      "diff": {
+       "hit_rate": [
+        0.0,
+        -0.0889,
+        0.0889
+       ],
+       "evidence_recall": [
+        -0.0114,
+        -0.1027,
+        0.0844
+       ],
+       "precision": [
+        -0.05,
+        -0.1556,
+        0.05
+       ],
+       "mrr": [
+        -0.0444,
+        -0.1519,
+        0.063
+       ]
+      },
+      "n": 45
+     },
+     "fiqh": {
+      "hit_rate": [
+       0.8,
+       0.6,
+       1.0
+      ],
+      "evidence_recall": [
+       0.68,
+       0.4578,
+       0.8963
+      ],
+      "precision": [
+       0.75,
+       0.5333,
+       0.9333
+      ],
+      "mrr": [
+       0.7667,
+       0.5333,
+       0.9333
+      ],
+      "diff": {
+       "hit_rate": [
+        0.0,
+        -0.2,
+        0.2
+       ],
+       "evidence_recall": [
+        0.0326,
+        -0.16,
+        0.2326
+       ],
+       "precision": [
+        -0.0167,
+        -0.2,
+        0.1612
+       ],
+       "mrr": [
+        0.0,
+        -0.2,
+        0.2
+       ]
+      },
+      "n": 15
+     },
+     "jawi": {
+      "hit_rate": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "evidence_recall": [
+       0.9222,
+       0.8111,
+       1.0
+      ],
+      "precision": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "mrr": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "diff": {
+       "hit_rate": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.0333,
+        -0.1,
+        0.0
+       ],
+       "precision": [
+        0.0333,
+        0.0,
+        0.1
+       ],
+       "mrr": [
+        0.0333,
+        0.0,
+        0.1
+       ]
+      },
+      "n": 15
+     },
+     "tajwid": {
+      "hit_rate": [
+       0.9333,
+       0.8,
+       1.0
+      ],
+      "evidence_recall": [
+       0.7455,
+       0.563,
+       0.9048
+      ],
+      "precision": [
+       0.5889,
+       0.4222,
+       0.7444
+      ],
+      "mrr": [
+       0.6111,
+       0.4333,
+       0.7778
+      ],
+      "diff": {
+       "hit_rate": [
+        0.0,
+        -0.2,
+        0.2
+       ],
+       "evidence_recall": [
+        -0.0333,
+        -0.2333,
+        0.1667
+       ],
+       "precision": [
+        -0.1667,
+        -0.4,
+        0.0667
+       ],
+       "mrr": [
+        -0.1667,
+        -0.4111,
+        0.0778
+       ]
+      },
+      "n": 15
+     }
+    }
+   },
+   "groups": {
+    "all": {
+     "hit_rate": [
+      0.9111,
+      0.8222,
+      0.9778
+     ],
+     "evidence_recall": [
+      0.8277,
+      0.7341,
+      0.9136
+     ],
+     "precision": [
+      0.8481,
+      0.7481,
+      0.9259
+     ],
+     "mrr": [
+      0.8667,
+      0.7667,
+      0.9444
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.0667,
+       -0.1556,
+       0.0
+      ],
+      "evidence_recall": [
+       -0.0928,
+       -0.178,
+       -0.0272
+      ],
+      "precision": [
+       -0.0593,
+       -0.1408,
+       0.0075
+      ],
+      "mrr": [
+       -0.0556,
+       -0.1333,
+       0.0111
+      ]
+     },
+     "n": 45
+    },
+    "fiqh": {
+     "hit_rate": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "evidence_recall": [
+      0.8652,
+      0.7229,
+      0.9778
+     ],
+     "precision": [
+      0.9111,
+      0.8219,
+      0.9889
+     ],
+     "mrr": [
+      0.9333,
+      0.8333,
+      1.0
+     ],
+     "diff": {
+      "hit_rate": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "evidence_recall": [
+       -0.037,
+       -0.0889,
+       0.0
+      ],
+      "precision": [
+       -0.0111,
+       -0.0889,
+       0.0889
+      ],
+      "mrr": [
+       0.0,
+       -0.1,
+       0.1
+      ]
+     },
+     "n": 15
+    },
+    "jawi": {
+     "hit_rate": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "evidence_recall": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "precision": [
+      0.9444,
+      0.8667,
+      1.0
+     ],
+     "mrr": [
+      0.9667,
+      0.9,
+      1.0
+     ],
+     "diff": {
+      "hit_rate": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "evidence_recall": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "precision": [
+       -0.0111,
+       -0.0333,
+       0.0
+      ],
+      "mrr": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "n": 15
+    },
+    "tajwid": {
+     "hit_rate": [
+      0.7333,
+      0.4667,
+      0.9333
+     ],
+     "evidence_recall": [
+      0.618,
+      0.4,
+      0.818
+     ],
+     "precision": [
+      0.6889,
+      0.4556,
+      0.8889
+     ],
+     "mrr": [
+      0.7,
+      0.4667,
+      0.9
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.2,
+       -0.4,
+       0.0
+      ],
+      "evidence_recall": [
+       -0.2413,
+       -0.4556,
+       -0.0524
+      ],
+      "precision": [
+       -0.1556,
+       -0.3667,
+       0.0333
+      ],
+      "mrr": [
+       -0.1667,
+       -0.3667,
+       0.0333
+      ]
+     },
+     "n": 15
+    }
+   },
+   "answer_items": {
+    "fiqh_b1_solat_hari_raya_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_tahajud_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_witir_q6": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "fiqh_b1_solat_taubat_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_tarawih_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_taubat_q6": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "fiqh_b2_pengertian_puasa_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.6667
+    },
+    "fiqh_b1_solat_hajat_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_gerhana_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "fiqh_b2_puasa_wajib_sunat_q2": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b1_solat_hajat_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "fiqh_b2_hikmah_puasa_q6": {
+     "declined": false,
+     "faithfulness": 0.7142857142857143,
+     "factual_correctness": 0.8
+    },
+    "fiqh_b2_hikmah_puasa_q3": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8
+    },
+    "fiqh_b2_batal_puasa_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8889
+    },
+    "fiqh_b2_puasa_wajib_sunat_q6": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "jawi_b2_imbuhan_i_ya_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_arab_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.6667
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_inggeris_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_ya_q7": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8
+    },
+    "jawi_b3_pinjaman_arab_q11": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_nun_q10": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b3_pinjaman_arab_q13": {
+     "declined": false,
+     "faithfulness": 0.8333333333333334,
+     "factual_correctness": 1.0
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8889
+    },
+    "jawi_b1_imbuhan_an_nun_q11": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_farq_q2": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_farq_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_fari_pengenalan_q7": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.8
+    },
+    "tajwid_b2_mad_asli_kalimi_q1": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_tazim_q4": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_farq_q3": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 0.6667
+    },
+    "tajwid_b5_waqaf_q9": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_silah_tawilah_q3": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b4_tingkatan_mad_q6": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b3_mad_tazim_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_lin_q2": {
+     "declined": false,
+     "faithfulness": 1.0,
+     "factual_correctness": 1.0
+    },
+    "tajwid_b5_waqaf_q7": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    },
+    "tajwid_b3_mad_tamkin_q6": {
+     "declined": true,
+     "faithfulness": null,
+     "factual_correctness": 0.0
+    }
+   },
+   "answers": {
+    "all": {
+     "factual_correctness": [
+      0.7106,
+      0.5896,
+      0.8217
+     ],
+     "faithfulness": [
+      0.9867,
+      0.965,
+      1.0
+     ],
+     "declined": 11,
+     "diff_factual_correctness": [
+      -0.1121,
+      -0.2035,
+      -0.038
+     ],
+     "diff_faithfulness": [
+      0.005,
+      0.0,
+      0.0149
+     ]
+    },
+    "fiqh": {
+     "factual_correctness": [
+      0.677,
+      0.4444,
+      0.8697
+     ],
+     "faithfulness": [
+      0.974,
+      0.9221,
+      1.0
+     ],
+     "declined": 4,
+     "diff_factual_correctness": [
+      -0.0332,
+      -0.1143,
+      0.0145
+     ],
+     "diff_faithfulness": [
+      0.0153,
+      0.0,
+      0.046
+     ]
+    },
+    "jawi": {
+     "factual_correctness": [
+      0.957,
+      0.9052,
+      1.0
+     ],
+     "faithfulness": [
+      0.9889,
+      0.9667,
+      1.0
+     ],
+     "declined": 0,
+     "diff_factual_correctness": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "tajwid": {
+     "factual_correctness": [
+      0.4978,
+      0.2533,
+      0.729
+     ],
+     "faithfulness": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "declined": 7,
+     "diff_factual_correctness": [
+      -0.3031,
+      -0.5181,
+      -0.1104
+     ],
+     "diff_faithfulness": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  {
+   "config": {
+    "chunk": 1500,
+    "k": 4,
+    "sections": 3,
+    "limit": 3600,
+    "min_sim": 0.0,
+    "variants": "none",
+    "scope": "subject",
+    "matching": "hybrid",
+    "jawi_weight": 0.25,
+    "unit": "section",
+    "jawi": false,
+    "chunker": "section",
+    "overlap": -1,
+    "embedding": "minilm"
+   },
+   "per_question": {
+    "fiqh_b1_solat_hari_raya_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1823
+    },
+    "fiqh_b1_solat_tahajud_q4": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 1644
+    },
+    "fiqh_b1_solat_witir_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.4,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1777
+    },
+    "fiqh_b1_solat_taubat_q1": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.3333333333333333,
+     "mrr": 0.3333333333333333,
+     "passages": 3,
+     "chars": 1355
+    },
+    "fiqh_b1_solat_tarawih_q5": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 2326
+    },
+    "fiqh_b1_solat_taubat_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.4444444444444444,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1446
+    },
+    "fiqh_b2_pengertian_puasa_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 2864
+    },
+    "fiqh_b1_solat_hajat_q4": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 1863
+    },
+    "fiqh_b1_solat_gerhana_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.2222222222222222,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 1654
+    },
+    "fiqh_b2_puasa_wajib_sunat_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.3333333333333333,
+     "mrr": 0.3333333333333333,
+     "passages": 3,
+     "chars": 1805
+    },
+    "fiqh_b1_solat_hajat_q5": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 2761
+    },
+    "fiqh_b2_hikmah_puasa_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.3333333333333333,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2408
+    },
+    "fiqh_b2_hikmah_puasa_q3": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 1436
+    },
+    "fiqh_b2_batal_puasa_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.4,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1552
+    },
+    "fiqh_b2_puasa_wajib_sunat_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.08333333333333333,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2370
+    },
+    "jawi_b2_imbuhan_i_ya_q5": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 2,
+     "chars": 3018
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2411
+    },
+    "jawi_b3_pinjaman_arab_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 392
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 2774
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.16666666666666666,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 1656
+    },
+    "jawi_b3_pinjaman_inggeris_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b2_imbuhan_i_ya_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2138
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b3_pinjaman_arab_q11": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b1_imbuhan_an_nun_q10": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b3_pinjaman_arab_q13": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 1622
+    },
+    "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3598
+    },
+    "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "jawi_b1_imbuhan_an_nun_q11": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 1,
+     "chars": 3600
+    },
+    "tajwid_b3_mad_farq_q2": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 862
+    },
+    "tajwid_b3_mad_farq_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 950
+    },
+    "tajwid_b3_mad_fari_pengenalan_q7": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.8333333333333333,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1718
+    },
+    "tajwid_b2_mad_asli_kalimi_q1": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 547
+    },
+    "tajwid_b3_mad_tazim_q4": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 639
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.7777777777777778,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 2029
+    },
+    "tajwid_b3_mad_farq_q3": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1675
+    },
+    "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5833333333333333,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 2406
+    },
+    "tajwid_b5_waqaf_q9": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 2,
+     "chars": 1481
+    },
+    "tajwid_b3_mad_silah_tawilah_q3": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 824
+    },
+    "tajwid_b4_tingkatan_mad_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.6666666666666666,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 556
+    },
+    "tajwid_b3_mad_tazim_q7": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 3,
+     "chars": 2694
+    },
+    "tajwid_b3_mad_lin_q2": {
+     "hit_rate": 1.0,
+     "evidence_recall": 1.0,
+     "precision": 0.5,
+     "mrr": 0.5,
+     "passages": 3,
+     "chars": 2294
+    },
+    "tajwid_b5_waqaf_q7": {
+     "hit_rate": 0.0,
+     "evidence_recall": 0.0,
+     "precision": 0.0,
+     "mrr": 0.0,
+     "passages": 2,
+     "chars": 1692
+    },
+    "tajwid_b3_mad_tamkin_q6": {
+     "hit_rate": 1.0,
+     "evidence_recall": 0.5714285714285714,
+     "precision": 1.0,
+     "mrr": 1.0,
+     "passages": 3,
+     "chars": 1250
+    }
+   },
+   "chunks": 339,
+   "chunk_chars_mean": 640,
+   "unjudged_share": 0.1667,
+   "option": "MiniLM-L12 (multilingual)",
+   "key": "minilm",
+   "current": false,
+   "model": {
+    "hf_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "parameters_m": 118,
+    "dimensions": 384,
+    "max_tokens": 128,
+    "embed_seconds": 1.0
+   },
+   "dense": {
+    "config": {
+     "chunk": 1500,
+     "k": 4,
+     "sections": 3,
+     "limit": 3600,
+     "min_sim": 0.0,
+     "variants": "none",
+     "scope": "subject",
+     "matching": "dense",
+     "jawi_weight": 0.25,
+     "unit": "section",
+     "jawi": false,
+     "chunker": "section",
+     "overlap": -1,
+     "embedding": "minilm"
+    },
+    "per_question": {
+     "fiqh_b1_solat_hari_raya_q1": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1823
+     },
+     "fiqh_b1_solat_tahajud_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1622
+     },
+     "fiqh_b1_solat_witir_q6": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2851
+     },
+     "fiqh_b1_solat_taubat_q1": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1403
+     },
+     "fiqh_b1_solat_tarawih_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1426
+     },
+     "fiqh_b1_solat_taubat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.2222222222222222,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2749
+     },
+     "fiqh_b2_pengertian_puasa_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 2,
+      "chars": 2784
+     },
+     "fiqh_b1_solat_hajat_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1622
+     },
+     "fiqh_b1_solat_gerhana_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2345
+     },
+     "fiqh_b2_puasa_wajib_sunat_q2": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1823
+     },
+     "fiqh_b1_solat_hajat_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2561
+     },
+     "fiqh_b2_hikmah_puasa_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 0.8333333333333333,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2408
+     },
+     "fiqh_b2_hikmah_puasa_q3": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1436
+     },
+     "fiqh_b2_batal_puasa_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.4,
+      "precision": 0.5833333333333333,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1552
+     },
+     "fiqh_b2_puasa_wajib_sunat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.08333333333333333,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2412
+     },
+     "jawi_b2_imbuhan_i_ya_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2596
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 1513
+     },
+     "jawi_b3_pinjaman_arab_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 764
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 3147
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 2,
+      "chars": 3006
+     },
+     "jawi_b3_pinjaman_inggeris_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_ya_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 3147
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b3_pinjaman_arab_q11": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_nun_q10": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_arab_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 2,
+      "chars": 2041
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b1_imbuhan_an_nun_q11": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 866
+     },
+     "tajwid_b3_mad_farq_q2": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 916
+     },
+     "tajwid_b3_mad_farq_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 950
+     },
+     "tajwid_b3_mad_fari_pengenalan_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1671
+     },
+     "tajwid_b2_mad_asli_kalimi_q1": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 851
+     },
+     "tajwid_b3_mad_tazim_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1209
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.8888888888888888,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2406
+     },
+     "tajwid_b3_mad_farq_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1893
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2387
+     },
+     "tajwid_b5_waqaf_q9": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2357
+     },
+     "tajwid_b3_mad_silah_tawilah_q3": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 871
+     },
+     "tajwid_b4_tingkatan_mad_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 452
+     },
+     "tajwid_b3_mad_tazim_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1675
+     },
+     "tajwid_b3_mad_lin_q2": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 3216
+     },
+     "tajwid_b5_waqaf_q7": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2121
+     },
+     "tajwid_b3_mad_tamkin_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5714285714285714,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2270
+     }
+    },
+    "chunks": 339,
+    "chunk_chars_mean": 640,
+    "unjudged_share": 0.4779,
+    "groups": {
+     "all": {
+      "hit_rate": [
+       0.4444,
+       0.2889,
+       0.5778
+      ],
+      "evidence_recall": [
+       0.3407,
+       0.2145,
+       0.4775
+      ],
+      "precision": [
+       0.3759,
+       0.2444,
+       0.5056
+      ],
+      "mrr": [
+       0.3778,
+       0.2444,
+       0.5075
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.5333,
+        -0.6667,
+        -0.3778
+       ],
+       "evidence_recall": [
+        -0.5847,
+        -0.7099,
+        -0.4483
+       ],
+       "precision": [
+        -0.5259,
+        -0.6537,
+        -0.3981
+       ],
+       "mrr": [
+        -0.5259,
+        -0.6556,
+        -0.3963
+       ]
+      },
+      "n": 45
+     },
+     "fiqh": {
+      "hit_rate": [
+       0.2667,
+       0.0667,
+       0.5333
+      ],
+      "evidence_recall": [
+       0.0693,
+       0.0111,
+       0.1452
+      ],
+      "precision": [
+       0.1833,
+       0.0389,
+       0.3612
+      ],
+      "mrr": [
+       0.1889,
+       0.0333,
+       0.3778
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.7333,
+        -0.9333,
+        -0.4667
+       ],
+       "evidence_recall": [
+        -0.8441,
+        -0.9363,
+        -0.7256
+       ],
+       "precision": [
+        -0.6833,
+        -0.8444,
+        -0.5056
+       ],
+       "mrr": [
+        -0.6889,
+        -0.8556,
+        -0.5
+       ]
+      },
+      "n": 15
+     },
+     "jawi": {
+      "hit_rate": [
+       0.4667,
+       0.2,
+       0.7333
+      ],
+      "evidence_recall": [
+       0.4667,
+       0.2,
+       0.7333
+      ],
+      "precision": [
+       0.4667,
+       0.2,
+       0.7333
+      ],
+      "mrr": [
+       0.4667,
+       0.2,
+       0.7333
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.5333,
+        -0.8,
+        -0.2667
+       ],
+       "evidence_recall": [
+        -0.5333,
+        -0.8,
+        -0.2667
+       ],
+       "precision": [
+        -0.4722,
+        -0.7056,
+        -0.2389
+       ],
+       "mrr": [
+        -0.4667,
+        -0.7,
+        -0.2333
+       ]
+      },
+      "n": 15
+     },
+     "tajwid": {
+      "hit_rate": [
+       0.6,
+       0.3333,
+       0.8667
+      ],
+      "evidence_recall": [
+       0.4862,
+       0.2593,
+       0.7196
+      ],
+      "precision": [
+       0.4778,
+       0.2444,
+       0.7222
+      ],
+      "mrr": [
+       0.4778,
+       0.2444,
+       0.7222
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.3333,
+        -0.6,
+        -0.1333
+       ],
+       "evidence_recall": [
+        -0.3767,
+        -0.5931,
+        -0.1629
+       ],
+       "precision": [
+        -0.4222,
+        -0.6667,
+        -0.1778
+       ],
+       "mrr": [
+        -0.4222,
+        -0.6667,
+        -0.1778
+       ]
+      },
+      "n": 15
+     }
+    }
+   },
+   "jawi": {
+    "config": {
+     "chunk": 1500,
+     "k": 4,
+     "sections": 3,
+     "limit": 3600,
+     "min_sim": 0.0,
+     "variants": "none",
+     "scope": "subject",
+     "matching": "hybrid",
+     "jawi_weight": 0.25,
+     "unit": "section",
+     "jawi": true,
+     "chunker": "section",
+     "overlap": -1,
+     "embedding": "minilm"
+    },
+    "per_question": {
+     "fiqh_b1_solat_hari_raya_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1728
+     },
+     "fiqh_b1_solat_tahajud_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1702
+     },
+     "fiqh_b1_solat_witir_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.4,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1369
+     },
+     "fiqh_b1_solat_taubat_q1": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1193
+     },
+     "fiqh_b1_solat_tarawih_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1417
+     },
+     "fiqh_b1_solat_taubat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.8888888888888888,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1403
+     },
+     "fiqh_b2_pengertian_puasa_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 3199
+     },
+     "fiqh_b1_solat_hajat_q4": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1091
+     },
+     "fiqh_b1_solat_gerhana_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.2222222222222222,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1522
+     },
+     "fiqh_b2_puasa_wajib_sunat_q2": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2230
+     },
+     "fiqh_b1_solat_hajat_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1369
+     },
+     "fiqh_b2_hikmah_puasa_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5833333333333333,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 2761
+     },
+     "fiqh_b2_hikmah_puasa_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2414
+     },
+     "fiqh_b2_batal_puasa_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1706
+     },
+     "fiqh_b2_puasa_wajib_sunat_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1598
+     },
+     "jawi_b2_imbuhan_i_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1848
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 243
+     },
+     "jawi_b3_pinjaman_arab_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 2,
+      "chars": 3413
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_inggeris_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b2_imbuhan_i_ya_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2236
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b3_pinjaman_arab_q11": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_nun_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b3_pinjaman_arab_q13": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 1622
+     },
+     "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3598
+     },
+     "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "jawi_b1_imbuhan_an_nun_q11": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 1,
+      "chars": 3600
+     },
+     "tajwid_b3_mad_farq_q2": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1620
+     },
+     "tajwid_b3_mad_farq_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 1909
+     },
+     "tajwid_b3_mad_fari_pengenalan_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1721
+     },
+     "tajwid_b2_mad_asli_kalimi_q1": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 1055
+     },
+     "tajwid_b3_mad_tazim_q4": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2273
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.4444444444444444,
+      "precision": 0.5833333333333333,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 2251
+     },
+     "tajwid_b3_mad_farq_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 1424
+     },
+     "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.5,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 2295
+     },
+     "tajwid_b5_waqaf_q9": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 1,
+      "chars": 2091
+     },
+     "tajwid_b3_mad_silah_tawilah_q3": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 1.0,
+      "mrr": 1.0,
+      "passages": 3,
+      "chars": 2061
+     },
+     "tajwid_b4_tingkatan_mad_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.3333333333333333,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 2318
+     },
+     "tajwid_b3_mad_tazim_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.16666666666666666,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 2944
+     },
+     "tajwid_b3_mad_lin_q2": {
+      "hit_rate": 0.0,
+      "evidence_recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "passages": 3,
+      "chars": 2897
+     },
+     "tajwid_b5_waqaf_q7": {
+      "hit_rate": 1.0,
+      "evidence_recall": 1.0,
+      "precision": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "passages": 3,
+      "chars": 3462
+     },
+     "tajwid_b3_mad_tamkin_q6": {
+      "hit_rate": 1.0,
+      "evidence_recall": 0.2857142857142857,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "passages": 3,
+      "chars": 1745
+     }
+    },
+    "chunks": 339,
+    "chunk_chars_mean": 640,
+    "unjudged_share": 0.1944,
+    "groups": {
+     "all": {
+      "hit_rate": [
+       0.8,
+       0.6889,
+       0.9111
+      ],
+      "evidence_recall": [
+       0.6794,
+       0.5571,
+       0.7961
+      ],
+      "precision": [
+       0.663,
+       0.5389,
+       0.7741
+      ],
+      "mrr": [
+       0.6593,
+       0.537,
+       0.7704
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.1111,
+        -0.2444,
+        0.0222
+       ],
+       "evidence_recall": [
+        -0.1145,
+        -0.2508,
+        0.0129
+       ],
+       "precision": [
+        -0.1667,
+        -0.2871,
+        -0.0481
+       ],
+       "mrr": [
+        -0.1778,
+        -0.3,
+        -0.0592
+       ]
+      },
+      "n": 45
+     },
+     "fiqh": {
+      "hit_rate": [
+       0.8667,
+       0.6667,
+       1.0
+      ],
+      "evidence_recall": [
+       0.7674,
+       0.5629,
+       0.9333
+      ],
+      "precision": [
+       0.7944,
+       0.5944,
+       0.956
+      ],
+      "mrr": [
+       0.7889,
+       0.5889,
+       0.9558
+      ],
+      "diff": {
+       "hit_rate": [
+        0.0667,
+        -0.1333,
+        0.3333
+       ],
+       "evidence_recall": [
+        0.12,
+        -0.1156,
+        0.3556
+       ],
+       "precision": [
+        0.0278,
+        -0.1722,
+        0.2222
+       ],
+       "mrr": [
+        0.0222,
+        -0.1778,
+        0.2222
+       ]
+      },
+      "n": 15
+     },
+     "jawi": {
+      "hit_rate": [
+       0.8667,
+       0.6667,
+       1.0
+      ],
+      "evidence_recall": [
+       0.8222,
+       0.6222,
+       1.0
+      ],
+      "precision": [
+       0.8333,
+       0.6333,
+       1.0
+      ],
+      "mrr": [
+       0.8333,
+       0.6333,
+       1.0
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.1333,
+        -0.3333,
+        0.0
+       ],
+       "evidence_recall": [
+        -0.1333,
+        -0.3333,
+        0.0
+       ],
+       "precision": [
+        -0.1333,
+        -0.3333,
+        0.0
+       ],
+       "mrr": [
+        -0.1333,
+        -0.3333,
+        0.0
+       ]
+      },
+      "n": 15
+     },
+     "tajwid": {
+      "hit_rate": [
+       0.6667,
+       0.4,
+       0.8667
+      ],
+      "evidence_recall": [
+       0.4487,
+       0.2407,
+       0.6709
+      ],
+      "precision": [
+       0.3611,
+       0.2054,
+       0.5278
+      ],
+      "mrr": [
+       0.3556,
+       0.2,
+       0.5222
+      ],
+      "diff": {
+       "hit_rate": [
+        -0.2667,
+        -0.5333,
+        -0.0667
+       ],
+       "evidence_recall": [
+        -0.3302,
+        -0.5524,
+        -0.1269
+       ],
+       "precision": [
+        -0.3944,
+        -0.5889,
+        -0.2056
+       ],
+       "mrr": [
+        -0.4222,
+        -0.6222,
+        -0.2333
+       ]
+      },
+      "n": 15
+     }
+    }
+   },
+   "groups": {
+    "all": {
+     "hit_rate": [
+      0.7111,
+      0.5778,
+      0.8444
+     ],
+     "evidence_recall": [
+      0.5792,
+      0.4437,
+      0.7136
+     ],
+     "precision": [
+      0.6093,
+      0.4741,
+      0.7333
+     ],
+     "mrr": [
+      0.6259,
+      0.4889,
+      0.7519
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.2667,
+       -0.4,
+       -0.1556
+      ],
+      "evidence_recall": [
+       -0.3413,
+       -0.4718,
+       -0.2194
+      ],
+      "precision": [
+       -0.2981,
+       -0.4259,
+       -0.1796
+      ],
+      "mrr": [
+       -0.2963,
+       -0.426,
+       -0.1741
+      ]
+     },
+     "n": 45
+    },
+    "fiqh": {
+     "hit_rate": [
+      0.6667,
+      0.4,
+      0.8667
+     ],
+     "evidence_recall": [
+      0.3922,
+      0.1907,
+      0.6015
+     ],
+     "precision": [
+      0.4889,
+      0.2778,
+      0.7
+     ],
+     "mrr": [
+      0.5111,
+      0.2889,
+      0.7333
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.3333,
+       -0.6,
+       -0.1333
+      ],
+      "evidence_recall": [
+       -0.51,
+       -0.73,
+       -0.2893
+      ],
+      "precision": [
+       -0.4333,
+       -0.6222,
+       -0.2556
+      ],
+      "mrr": [
+       -0.4222,
+       -0.6222,
+       -0.2333
+      ]
+     },
+     "n": 15
+    },
+    "jawi": {
+     "hit_rate": [
+      0.8667,
+      0.6667,
+      1.0
+     ],
+     "evidence_recall": [
+      0.8111,
+      0.6111,
+      1.0
+     ],
+     "precision": [
+      0.8444,
+      0.6444,
+      0.9889
+     ],
+     "mrr": [
+      0.8667,
+      0.6667,
+      1.0
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.1333,
+       -0.3333,
+       0.0
+      ],
+      "evidence_recall": [
+       -0.1889,
+       -0.3889,
+       0.0
+      ],
+      "precision": [
+       -0.1111,
+       -0.3111,
+       0.0556
+      ],
+      "mrr": [
+       -0.1,
+       -0.3,
+       0.0667
+      ]
+     },
+     "n": 15
+    },
+    "tajwid": {
+     "hit_rate": [
+      0.6,
+      0.3333,
+      0.8667
+     ],
+     "evidence_recall": [
+      0.5344,
+      0.3037,
+      0.7662
+     ],
+     "precision": [
+      0.4944,
+      0.2667,
+      0.7222
+     ],
+     "mrr": [
+      0.5,
+      0.2667,
+      0.7333
+     ],
+     "diff": {
+      "hit_rate": [
+       -0.3333,
+       -0.6,
+       -0.1333
+      ],
+      "evidence_recall": [
+       -0.3249,
+       -0.5556,
+       -0.1026
+      ],
+      "precision": [
+       -0.35,
+       -0.5556,
+       -0.1444
+      ],
+      "mrr": [
+       -0.3667,
+       -0.6,
+       -0.1667
+      ]
+     },
+     "n": 15
+    }
+   }
+  }
+ ],
+ "selected": {
+  "all": "bge-m3",
+  "fiqh": "bge-m3",
+  "jawi": "bge-m3",
+  "tajwid": "bge-m3"
+ },
+ "spent": 0.0
+}

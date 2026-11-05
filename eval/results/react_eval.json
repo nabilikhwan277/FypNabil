@@ -1,0 +1,253 @@
+{
+ "system": "GPT-6 Luna, R3, memory off (Step 3)",
+ "subjects": {
+  "all": {
+   "label": "All",
+   "answers": 50,
+   "types": {
+    "A1": {
+     "completed": 1.0,
+     "calls": 3.0,
+     "tokens": 4201.24,
+     "model_seconds": 13.906379999999999,
+     "cost_per_100": 0.08066759999999999,
+     "criterion_accuracy": 0.7105263157894737,
+     "criteria": 114
+    },
+    "A2": {
+     "completed": 1.0,
+     "calls": 1.0,
+     "tokens": 1801.12,
+     "model_seconds": 4.00418,
+     "cost_per_100": 0.027896000000000004,
+     "criterion_accuracy": 0.7105263157894737,
+     "criteria": 114
+    },
+    "A3": {
+     "completed": 1.0,
+     "calls": 2.0,
+     "tokens": 3745.82,
+     "model_seconds": 8.52426,
+     "cost_per_100": 0.0608934,
+     "criterion_accuracy": 0.7105263157894737,
+     "criteria": 114
+    }
+   },
+   "a1_process": {
+    "steps_mean": 3.0,
+    "steps": {
+     "3": 34,
+     "4": 8,
+     "2": 8
+    },
+    "read_rubric_first": 1.0,
+    "searched_textbook_first": 0.84,
+    "did_both": 0.84,
+    "repeated_action": 4,
+    "unknown_action": 1,
+    "orders": {
+     "get_rubric → search_notes → submit_marks": 34,
+     "get_rubric → submit_marks": 8,
+     "get_rubric → search_notes → get_history → submit_marks": 3,
+     "get_rubric → get_rubric → search_notes → submit_marks": 2,
+     "get_rubric → search_notes → search_notes → submit_marks": 1
+    }
+   },
+   "a1_vs_a2": {
+    "both wrong": 1,
+    "A2 right": 1,
+    "A1 right": 1
+   },
+   "a1_same_sections_as_a2": 0.66,
+   "a3_critic": {
+    "unchanged": 92,
+    "changed, both wrong": 1,
+    "stricter": 3,
+    "helped": 1,
+    "hurt": 1
+   }
+  },
+  "fiqh": {
+   "label": "Ibadah",
+   "answers": 18,
+   "types": {
+    "A1": {
+     "completed": 1.0,
+     "calls": 3.0,
+     "tokens": 4126.888888888889,
+     "model_seconds": 13.91088888888889,
+     "cost_per_100": 0.07912666666666666,
+     "criterion_accuracy": 0.7111111111111111,
+     "criteria": 45
+    },
+    "A2": {
+     "completed": 1.0,
+     "calls": 1.0,
+     "tokens": 1702.388888888889,
+     "model_seconds": 3.960888888888889,
+     "cost_per_100": 0.02687944444444445,
+     "criterion_accuracy": 0.6888888888888889,
+     "criteria": 45
+    },
+    "A3": {
+     "completed": 1.0,
+     "calls": 2.0,
+     "tokens": 3576.3333333333335,
+     "model_seconds": 8.560666666666666,
+     "cost_per_100": 0.05999444444444445,
+     "criterion_accuracy": 0.7111111111111111,
+     "criteria": 45
+    }
+   },
+   "a1_process": {
+    "steps_mean": 3.0,
+    "steps": {
+     "2": 3,
+     "4": 3,
+     "3": 12
+    },
+    "read_rubric_first": 1.0,
+    "searched_textbook_first": 0.8333333333333334,
+    "did_both": 0.8333333333333334,
+    "repeated_action": 1,
+    "unknown_action": 1,
+    "orders": {
+     "get_rubric → search_notes → submit_marks": 12,
+     "get_rubric → submit_marks": 3,
+     "get_rubric → search_notes → get_history → submit_marks": 1,
+     "get_rubric → invalid → search_notes → submit_marks": 1,
+     "get_rubric → search_notes → get_rubric → submit_marks": 1
+    }
+   },
+   "a1_vs_a2": {
+    "both wrong": 1,
+    "A1 right": 1
+   },
+   "a1_same_sections_as_a2": 0.7592592592592592,
+   "a3_critic": {
+    "unchanged": 41,
+    "changed, both wrong": 1,
+    "stricter": 2,
+    "helped": 1
+   }
+  },
+  "jawi": {
+   "label": "Jawi",
+   "answers": 14,
+   "types": {
+    "A1": {
+     "completed": 1.0,
+     "calls": 2.9285714285714284,
+     "tokens": 3958.9285714285716,
+     "model_seconds": 11.682857142857143,
+     "cost_per_100": 0.0689892857142857,
+     "criterion_accuracy": 0.6,
+     "criteria": 30
+    },
+    "A2": {
+     "completed": 1.0,
+     "calls": 1.0,
+     "tokens": 2048.0714285714284,
+     "model_seconds": 4.231214285714286,
+     "cost_per_100": 0.030169285714285718,
+     "criterion_accuracy": 0.6,
+     "criteria": 30
+    },
+    "A3": {
+     "completed": 1.0,
+     "calls": 2.0,
+     "tokens": 4200.428571428572,
+     "model_seconds": 8.512214285714286,
+     "cost_per_100": 0.06389571428571429,
+     "criterion_accuracy": 0.6,
+     "criteria": 30
+    }
+   },
+   "a1_process": {
+    "steps_mean": 2.93,
+    "steps": {
+     "3": 9,
+     "4": 2,
+     "2": 3
+    },
+    "read_rubric_first": 1.0,
+    "searched_textbook_first": 0.7857142857142857,
+    "did_both": 0.7857142857142857,
+    "repeated_action": 2,
+    "unknown_action": 0,
+    "orders": {
+     "get_rubric → search_notes → submit_marks": 9,
+     "get_rubric → submit_marks": 3,
+     "get_rubric → search_notes → search_notes → submit_marks": 1,
+     "get_rubric → get_rubric → search_notes → submit_marks": 1
+    }
+   },
+   "a1_vs_a2": {},
+   "a1_same_sections_as_a2": 0.5714285714285714,
+   "a3_critic": {
+    "unchanged": 13
+   }
+  },
+  "tajwid": {
+   "label": "Tajwid",
+   "answers": 18,
+   "types": {
+    "A1": {
+     "completed": 1.0,
+     "calls": 3.0555555555555554,
+     "tokens": 4464.055555555556,
+     "model_seconds": 15.631277777777777,
+     "cost_per_100": 0.09129166666666666,
+     "criterion_accuracy": 0.7948717948717948,
+     "criteria": 39
+    },
+    "A2": {
+     "completed": 1.0,
+     "calls": 1.0,
+     "tokens": 1707.7777777777778,
+     "model_seconds": 3.8708888888888886,
+     "cost_per_100": 0.027144444444444443,
+     "criterion_accuracy": 0.8205128205128205,
+     "criteria": 39
+    },
+    "A3": {
+     "completed": 1.0,
+     "calls": 2.0,
+     "tokens": 3561.722222222222,
+     "model_seconds": 8.497222222222222,
+     "cost_per_100": 0.05945722222222222,
+     "criterion_accuracy": 0.7948717948717948,
+     "criteria": 39
+    }
+   },
+   "a1_process": {
+    "steps_mean": 3.06,
+    "steps": {
+     "3": 13,
+     "2": 2,
+     "4": 3
+    },
+    "read_rubric_first": 1.0,
+    "searched_textbook_first": 0.8888888888888888,
+    "did_both": 0.8888888888888888,
+    "repeated_action": 1,
+    "unknown_action": 0,
+    "orders": {
+     "get_rubric → search_notes → submit_marks": 13,
+     "get_rubric → submit_marks": 2,
+     "get_rubric → search_notes → get_history → submit_marks": 2,
+     "get_rubric → get_rubric → search_notes → submit_marks": 1
+    }
+   },
+   "a1_vs_a2": {
+    "A2 right": 1
+   },
+   "a1_same_sections_as_a2": 0.6296296296296295,
+   "a3_critic": {
+    "unchanged": 38,
+    "hurt": 1,
+    "stricter": 1
+   }
+  }
+ }
+}

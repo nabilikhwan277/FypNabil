@@ -1,0 +1,3124 @@
+{
+ "step": "admin",
+ "config": "b2",
+ "system": "b2",
+ "model": "luna",
+ "model_id": "",
+ "model_label": "",
+ "rag": "",
+ "react": "",
+ "memory": false,
+ "data": "teacher",
+ "n": 50,
+ "repeats": 1,
+ "labels": "teacher:guru_1",
+ "date": "2026-10-25T14:50:56+00:00",
+ "complete": true,
+ "summary": {
+  "overall": {
+   "items": 50,
+   "criteria": 114,
+   "unresolved_criteria": 114,
+   "crit_acc": 0.64,
+   "unres_acc": 0.64,
+   "mark_err_rate": 0.324,
+   "item_exact": 0.52,
+   "within_1": 0.76,
+   "mae_marks": 0.75,
+   "mae_pct": 26.2,
+   "qwk_units": 0.7,
+   "qwk_band": 0.521,
+   "over_marked": 0.24,
+   "under_marked": 0.24
+  },
+  "by_subject": {
+   "fiqh": {
+    "items": 18,
+    "criteria": 45,
+    "unresolved_criteria": 45,
+    "crit_acc": 0.556,
+    "unres_acc": 0.556,
+    "mark_err_rate": 0.422,
+    "item_exact": 0.389,
+    "within_1": 0.667,
+    "mae_marks": 0.944,
+    "mae_pct": 36.1,
+    "qwk_units": 0.469,
+    "qwk_band": 0.295,
+    "over_marked": 0.333,
+    "under_marked": 0.278
+   },
+   "jawi": {
+    "items": 14,
+    "criteria": 30,
+    "unresolved_criteria": 30,
+    "crit_acc": 0.633,
+    "unres_acc": 0.633,
+    "mark_err_rate": 0.286,
+    "item_exact": 0.643,
+    "within_1": 0.786,
+    "mae_marks": 0.714,
+    "mae_pct": 22.0,
+    "qwk_units": 0.668,
+    "qwk_band": 0.533,
+    "over_marked": 0.0,
+    "under_marked": 0.357
+   },
+   "tajwid": {
+    "items": 18,
+    "criteria": 39,
+    "unresolved_criteria": 39,
+    "crit_acc": 0.744,
+    "unres_acc": 0.744,
+    "mark_err_rate": 0.26,
+    "item_exact": 0.556,
+    "within_1": 0.833,
+    "mae_marks": 0.583,
+    "mae_pct": 19.4,
+    "qwk_units": 0.857,
+    "qwk_band": 0.723,
+    "over_marked": 0.333,
+    "under_marked": 0.111
+   }
+  },
+  "by_level": {
+   "Tahap 1": {
+    "items": 26,
+    "criteria": 31,
+    "unresolved_criteria": 31,
+    "crit_acc": 0.71,
+    "unres_acc": 0.71,
+    "mark_err_rate": 0.222,
+    "item_exact": 0.769,
+    "within_1": 0.885,
+    "mae_marks": 0.308,
+    "mae_pct": 19.2,
+    "qwk_units": 0.495,
+    "qwk_band": 0.603,
+    "over_marked": 0.115,
+    "under_marked": 0.115
+   },
+   "Tahap 2": {
+    "items": 19,
+    "criteria": 57,
+    "unresolved_criteria": 57,
+    "crit_acc": 0.632,
+    "unres_acc": 0.632,
+    "mark_err_rate": 0.355,
+    "item_exact": 0.263,
+    "within_1": 0.632,
+    "mae_marks": 1.158,
+    "mae_pct": 36.0,
+    "qwk_units": 0.365,
+    "qwk_band": 0.374,
+    "over_marked": 0.368,
+    "under_marked": 0.368
+   },
+   "Tahap 3": {
+    "items": 5,
+    "criteria": 26,
+    "unresolved_criteria": 26,
+    "crit_acc": 0.577,
+    "unres_acc": 0.577,
+    "mark_err_rate": 0.383,
+    "item_exact": 0.2,
+    "within_1": 0.6,
+    "mae_marks": 1.5,
+    "mae_pct": 25.0,
+    "qwk_units": 0.215,
+    "qwk_band": 0.125,
+    "over_marked": 0.4,
+    "under_marked": 0.4
+   }
+  },
+  "by_kind": {
+   "confusion": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   },
+   "fluent_no_answer": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   },
+   "jawi_typo": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   },
+   "keyword_illusion": {
+    "items": 10,
+    "criteria": 26,
+    "unresolved_criteria": 26,
+    "crit_acc": 0.385,
+    "unres_acc": 0.385,
+    "mark_err_rate": 0.6,
+    "item_exact": 0.2,
+    "within_1": 0.4,
+    "mae_marks": 1.4,
+    "mae_pct": 51.7,
+    "qwk_units": 0.598,
+    "qwk_band": 0.09,
+    "over_marked": 0.8,
+    "under_marked": 0.0
+   },
+   "misconception": {
+    "items": 6,
+    "criteria": 18,
+    "unresolved_criteria": 18,
+    "crit_acc": 0.5,
+    "unres_acc": 0.5,
+    "mark_err_rate": 0.452,
+    "item_exact": 0.333,
+    "within_1": 0.5,
+    "mae_marks": 1.583,
+    "mae_pct": 40.3,
+    "qwk_units": 0.019,
+    "qwk_band": -0.216,
+    "over_marked": 0.167,
+    "under_marked": 0.5
+   },
+   "number_swap": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   },
+   "paraphrase_full": {
+    "items": 9,
+    "criteria": 25,
+    "unresolved_criteria": 25,
+    "crit_acc": 0.84,
+    "unres_acc": 0.84,
+    "mark_err_rate": 0.121,
+    "item_exact": 0.667,
+    "within_1": 0.889,
+    "mae_marks": 0.389,
+    "mae_pct": 8.3,
+    "qwk_units": 0.904,
+    "qwk_band": 0.536,
+    "over_marked": 0.111,
+    "under_marked": 0.222
+   },
+   "partial": {
+    "items": 9,
+    "criteria": 23,
+    "unresolved_criteria": 23,
+    "crit_acc": 0.565,
+    "unres_acc": 0.565,
+    "mark_err_rate": 0.391,
+    "item_exact": 0.222,
+    "within_1": 0.778,
+    "mae_marks": 1.0,
+    "mae_pct": 36.1,
+    "qwk_units": 0.187,
+    "qwk_band": 0.129,
+    "over_marked": 0.222,
+    "under_marked": 0.556
+   },
+   "pupil_style": {
+    "items": 10,
+    "criteria": 16,
+    "unresolved_criteria": 16,
+    "crit_acc": 0.938,
+    "unres_acc": 0.938,
+    "mark_err_rate": 0.028,
+    "item_exact": 0.9,
+    "within_1": 1.0,
+    "mae_marks": 0.05,
+    "mae_pct": 5.0,
+    "qwk_units": 0.99,
+    "qwk_band": 0.94,
+    "over_marked": 0.0,
+    "under_marked": 0.1
+   },
+   "rumi_for_jawi": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 0.0,
+    "unres_acc": 0.0,
+    "mark_err_rate": 1.0,
+    "item_exact": 0.0,
+    "within_1": 1.0,
+    "mae_marks": 1.0,
+    "mae_pct": 100.0,
+    "qwk_units": 0.0,
+    "qwk_band": 0.0,
+    "over_marked": 0.0,
+    "under_marked": 1.0
+   },
+   "tf_flip": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   }
+  },
+  "success_rate": 1.0,
+  "errors": [],
+  "latency_ms": {
+   "mean": 115,
+   "p95": 129
+  },
+  "cost_total": 0.0,
+  "cost_per_100": 0.0,
+  "calls_per_answer": 0.0,
+  "tokens_per_answer": 0,
+  "cov_pct": null,
+  "same_score_all_repeats": null,
+  "worst": [
+   {
+    "answer_id": "T011",
+    "gold": 1.0,
+    "pred": 0.0,
+    "max": 1.0,
+    "kind": "rumi_for_jawi"
+   },
+   {
+    "answer_id": "T012",
+    "gold": 0.0,
+    "pred": 2.0,
+    "max": 2.0,
+    "kind": "keyword_illusion"
+   },
+   {
+    "answer_id": "T018",
+    "gold": 3.0,
+    "pred": 0.0,
+    "max": 3.0,
+    "kind": "misconception"
+   },
+   {
+    "answer_id": "T021",
+    "gold": 0.0,
+    "pred": 2.0,
+    "max": 2.0,
+    "kind": "keyword_illusion"
+   },
+   {
+    "answer_id": "T050",
+    "gold": 0.0,
+    "pred": 2.0,
+    "max": 2.0,
+    "kind": "keyword_illusion"
+   },
+   {
+    "answer_id": "T001",
+    "gold": 2.5,
+    "pred": 0.0,
+    "max": 3.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T013",
+    "gold": 0.0,
+    "pred": 2.0,
+    "max": 3.0,
+    "kind": "keyword_illusion"
+   },
+   {
+    "answer_id": "T015",
+    "gold": 0.0,
+    "pred": 2.0,
+    "max": 3.0,
+    "kind": "keyword_illusion"
+   },
+   {
+    "answer_id": "T043",
+    "gold": 2.0,
+    "pred": 0.0,
+    "max": 3.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T041",
+    "gold": 4.5,
+    "pred": 1.0,
+    "max": 6.0,
+    "kind": "misconception"
+   },
+   {
+    "answer_id": "T010",
+    "gold": 0.5,
+    "pred": 0.0,
+    "max": 1.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T016",
+    "gold": 2.0,
+    "pred": 4.0,
+    "max": 4.0,
+    "kind": "keyword_illusion"
+   },
+   {
+    "answer_id": "T026",
+    "gold": 0.0,
+    "pred": 2.0,
+    "max": 4.0,
+    "kind": "misconception"
+   },
+   {
+    "answer_id": "T033",
+    "gold": 0.5,
+    "pred": 0.0,
+    "max": 1.0,
+    "kind": "pupil_style"
+   },
+   {
+    "answer_id": "T004",
+    "gold": 6.0,
+    "pred": 4.0,
+    "max": 6.0,
+    "kind": "paraphrase_full"
+   }
+  ]
+ },
+ "items": [
+  {
+   "rep": 0,
+   "answer_id": "T001",
+   "question_id": "jawi_b1_imbuhan_an_nun_q6",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Sebab pakai habis dengan huruf ya. Ejaan ڤاكاءين",
+   "gold": [
+    "ya",
+    "separa",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Mengeja ڤاكاين dengan betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 1491,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 1492
+  },
+  {
+   "rep": 0,
+   "answer_id": "T002",
+   "question_id": "tajwid_b3_mad_farq_q1",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "6",
+   "gold": [
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan enam harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "enam"
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 72,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 72
+  },
+  {
+   "rep": 0,
+   "answer_id": "T003",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "كسيلاون",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 57,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 57
+  },
+  {
+   "rep": 0,
+   "answer_id": "T004",
+   "question_id": "jawi_b3_pinjaman_arab_q9",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "ايستيله كأݢاماٴن تو ڤركاتاٴن يڠ اد كاٴيتن دڠن عبادة اݢام إسلام، ايجاٴنڽ تق توكر، ايكوت اصل عرب. چونتوه صلاة دان زكاة. كات عموم ڤولق ڤركاتاٴن بياسا، دتوليس ايكوت چارا اورڠ ملايو سبوت. چونتوه سابون.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya",
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "كأݢاماٴن"
+    },
+    {
+     "no": 2,
+     "criterion": "Istilah keagamaan dikekalkan ejaan asalnya",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Mengeja solat: صلاة",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-spelling",
+     "reason": "صلاة"
+    },
+    {
+     "no": 4,
+     "criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 5,
+     "criterion": "Mengeja sabun: سابون (bukan صابون)",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-spelling",
+     "reason": "سابون"
+    },
+    {
+     "no": 6,
+     "criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-spelling",
+     "reason": "زكاة"
+    }
+   ],
+   "score": 4.0,
+   "max_marks": 6.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 124,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 124
+  },
+  {
+   "rep": 0,
+   "answer_id": "T005",
+   "question_id": "jawi_b1_imbuhan_an_nun_q8",
+   "kind": "number_swap",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Pada empat April 2018",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan 1 April 2018",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 69,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 69
+  },
+  {
+   "rep": 0,
+   "answer_id": "T006",
+   "question_id": "tajwid_b3_mad_iwadh_q1",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "دوا harakat",
+   "gold": [
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan dua harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "dua harakat"
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 64,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 64
+  },
+  {
+   "rep": 0,
+   "answer_id": "T007",
+   "question_id": "fiqh_b1_latihan_q6",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Betul, sebab tarawih dibuat lepas isyak sampai sebelum subuh masuk.",
+   "gold": [
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-truefalse",
+     "reason": "betul"
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 83,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 83
+  },
+  {
+   "rep": 0,
+   "answer_id": "T008",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+   "gold": [
+    "separa",
+    "tidak",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Memberi ketenangan kepada hati",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "hati"
+    },
+    {
+     "no": 2,
+     "criterion": "Menghilangkan sifat sombong",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "akidah"
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 85,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 85
+  },
+  {
+   "rep": 0,
+   "answer_id": "T009",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Kalau hamzah kat tengah perkataan, atau kat hujung tapi kita sambung atau berhenti, baca 4 atau 5 harakat. Kalau hamzah kat hujung perkataan dan kita berhenti je, boleh baca 4, 5 atau 6 harakat.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Empat atau lima harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "empat atau lima"
+    },
+    {
+     "no": 2,
+     "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-similarity",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Empat atau lima atau enam harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "enam"
+    },
+    {
+     "no": 4,
+     "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 3.0,
+   "max_marks": 4.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 82,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 75.0,
+   "wall_ms": 82
+  },
+  {
+   "rep": 0,
+   "answer_id": "T010",
+   "question_id": "fiqh_b2_batal_puasa_q2",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Darah yang keluar dari perempuan lepas ada anak.",
+   "gold": [
+    "separa"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan melahirkan anak",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 67,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 67
+  },
+  {
+   "rep": 0,
+   "answer_id": "T011",
+   "question_id": "jawi_b4_akronim_melayu_q13",
+   "kind": "rumi_for_jawi",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Doktor",
+   "gold": [
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja دوكتور dalam ejaan penuh",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 61,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 62
+  },
+  {
+   "rep": 0,
+   "answer_id": "T012",
+   "question_id": "fiqh_b1_solat_witir_q2",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Sebelum solat isyak sampai terbit fajar.",
+   "gold": [
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Selepas solat isyak",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "isyak"
+    },
+    {
+     "no": 2,
+     "criterion": "Hingga terbit fajar",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "terbit fajar"
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 89,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 90
+  },
+  {
+   "rep": 0,
+   "answer_id": "T013",
+   "question_id": "fiqh_b2_pengertian_puasa_q6",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Hukum puasa semuanya wajib, tiada puasa yang sunat.",
+   "gold": [
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan wajib",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "wajib"
+    },
+    {
+     "no": 2,
+     "criterion": "Menyatakan sunat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "sunat"
+    },
+    {
+     "no": 3,
+     "criterion": "Bergantung pada jenis puasa",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 67,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 67
+  },
+  {
+   "rep": 0,
+   "answer_id": "T014",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "hati tenang, tak sombong, yakin dgn ketentuan Allah",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Memberi ketenangan kepada hati",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "tenang"
+    },
+    {
+     "no": 2,
+     "criterion": "Menghilangkan sifat sombong",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "sombong"
+    },
+    {
+     "no": 3,
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "yakin"
+    }
+   ],
+   "score": 3.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 76,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 76
+  },
+  {
+   "rep": 0,
+   "answer_id": "T015",
+   "question_id": "fiqh_b2_latihan_q8",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Tidak berdosa, sebab puasa hari putih hukumnya sunat sahaja walaupun dia sudah bernazar.",
+   "gold": [
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "berdosa"
+    },
+    {
+     "no": 2,
+     "criterion": "Alasan: puasa nazar ialah puasa wajib",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "hari putih"
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 85,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 85
+  },
+  {
+   "rep": 0,
+   "answer_id": "T016",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Huruf mad bertemu huruf mati dalam dua kalimah. Tempatnya di Surah Yunus ayat 51 dan 91.",
+   "gold": [
+    "tidak",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "A-keyword",
+     "reason": "huruf mad"
+    },
+    {
+     "no": 2,
+     "criterion": "Surah Yunus ayat 51 dan 91",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "A-keyword",
+     "reason": "Yunus"
+    }
+   ],
+   "score": 4.0,
+   "max_marks": 4.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 68,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 68
+  },
+  {
+   "rep": 0,
+   "answer_id": "T017",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "كسيلوان",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 75,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 75
+  },
+  {
+   "rep": 0,
+   "answer_id": "T018",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Memberi ketenangan kepada hati",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Menghilangkan sifat sombong",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 92,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 92
+  },
+  {
+   "rep": 0,
+   "answer_id": "T019",
+   "question_id": "tajwid_b4_tingkatan_mad_q7",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Kita kena ikut tingkatan yang paling rendah. Contohnya مِمَّا يَشَآءُ ketika waqaf ada Mad 'Aridh Lissukun dan Mad Wajib Muttasil, jadi kita baca ikut Mad 'Aridh Lissukun.",
+   "gold": [
+    "separa",
+    "ya",
+    "ya",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "مِمَّا يَشَآءُ"
+    },
+    {
+     "no": 3,
+     "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "Aridh Lissukun"
+    },
+    {
+     "no": 4,
+     "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "A-keyword",
+     "reason": "Wajib Muttasil"
+    }
+   ],
+   "score": 4.0,
+   "max_marks": 6.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 136,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 136
+  },
+  {
+   "rep": 0,
+   "answer_id": "T020",
+   "question_id": "fiqh_b1_solat_rawatib_q2",
+   "kind": "confusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Solat sunat ba'diyyah.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan qabliyyah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 99,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 99
+  },
+  {
+   "rep": 0,
+   "answer_id": "T021",
+   "question_id": "fiqh_b1_solat_hari_raya_q3",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Rakaat pertama lima kali takbir, rakaat kedua tujuh kali takbir.",
+   "gold": [
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Rakaat pertama: tujuh kali",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "tujuh"
+    },
+    {
+     "no": 2,
+     "criterion": "Rakaat kedua: lima kali",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "lima"
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 95,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 95
+  },
+  {
+   "rep": 0,
+   "answer_id": "T022",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+   "gold": [
+    "ya",
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Empat atau lima harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "empat atau lima"
+    },
+    {
+     "no": 2,
+     "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Empat atau lima atau enam harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-similarity",
+     "reason": ""
+    },
+    {
+     "no": 4,
+     "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 4.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 97,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 50.0,
+   "wall_ms": 98
+  },
+  {
+   "rep": 0,
+   "answer_id": "T023",
+   "question_id": "jawi_b2_imbuhan_i_ya_q3",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "منصيحاتي",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 69,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 70
+  },
+  {
+   "rep": 0,
+   "answer_id": "T024",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Kalimah yang ada dalam Surah Yunus, yang ada dua hamzah tu.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan ءَآلۡـَٰٔنَ",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 106,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 107
+  },
+  {
+   "rep": 0,
+   "answer_id": "T025",
+   "question_id": "fiqh_b1_latihan_q8",
+   "kind": "tf_flip",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Betul",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-truefalse",
+     "reason": "betul"
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 89,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 90
+  },
+  {
+   "rep": 0,
+   "answer_id": "T026",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Bila huruf mad jumpa hamzah dalam dua perkataan. Tempatnya dalam Surah al-Baqarah.",
+   "gold": [
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "A-keyword",
+     "reason": "huruf mad"
+    },
+    {
+     "no": 2,
+     "criterion": "Surah Yunus ayat 51 dan 91",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 4.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 78,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 50.0,
+   "wall_ms": 79
+  },
+  {
+   "rep": 0,
+   "answer_id": "T027",
+   "question_id": "jawi_b1_imbuhan_an_nun_q11",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Kat situ ada banyak jenis bunga ros, buah strawberi dan macam-macam buah lain.",
+   "gold": [
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyebut bunga ros",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "bunga ros"
+    },
+    {
+     "no": 2,
+     "criterion": "Menyebut strawberi / buah-buahan",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "strawberi"
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 84,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 84
+  },
+  {
+   "rep": 0,
+   "answer_id": "T028",
+   "question_id": "tajwid_b3_mad_iwadh_q4",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "برهنتي ڤد ڤركاتاٴن يڠ اد تنوين.",
+   "gold": [
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mewaqafkan bacaan pada akhir kalimah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Berbaris tanwin di atas",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "تنوين"
+    },
+    {
+     "no": 3,
+     "criterion": "Kecuali ta marbutah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 81,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 33.3,
+   "wall_ms": 81
+  },
+  {
+   "rep": 0,
+   "answer_id": "T029",
+   "question_id": "fiqh_b1_solat_witir_q4",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "Allah suka dan dapat dekat dengan Allah",
+   "gold": [
+    "ya",
+    "ya",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Disukai oleh Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-similarity",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Mendekatkan diri kepada Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-similarity",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Kekuatan rohani / menenangkan jiwa",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 73,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 73
+  },
+  {
+   "rep": 0,
+   "answer_id": "T030",
+   "question_id": "tajwid_b2_mad_asli_kalimi_q3",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Ya, dimadkan dua harakat apabila bertemu hamzah wasal.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan tidak dimadkan",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 66,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 66
+  },
+  {
+   "rep": 0,
+   "answer_id": "T031",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "ڤالو -> ڤالوان، درو -> دروءن",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Contoh pertama kata '-ان' dieja betul",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-spelling",
+     "reason": "ڤالوان"
+    },
+    {
+     "no": 2,
+     "criterion": "Contoh kedua kata '-ان' dieja betul",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-spelling",
+     "reason": "ڤالوان"
+    },
+    {
+     "no": 3,
+     "criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 76,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 76
+  },
+  {
+   "rep": 0,
+   "answer_id": "T032",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "كسيلاوان",
+   "gold": [
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "A-spelling",
+     "reason": "كسيلاوان"
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 62,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 62
+  },
+  {
+   "rep": 0,
+   "answer_id": "T033",
+   "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "mad tobii",
+   "gold": [
+    "separa"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan mad tabi'i atau mad zati",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 64,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 64
+  },
+  {
+   "rep": 0,
+   "answer_id": "T034",
+   "question_id": "fiqh_b2_batal_puasa_q6",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Puasa Ali tidak batal sebab dia minum sedikit sahaja. Puasa Siti batal sebab keluar haid. Perkara lain yang membatalkan puasa ialah muntah dengan sengaja dan makan dengan sengaja.",
+   "gold": [
+    "tidak",
+    "tidak",
+    "ya",
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Puasa Ali batal",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "batal"
+    },
+    {
+     "no": 2,
+     "criterion": "Alasan: minum dengan sengaja walaupun sedikit",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "sengaja"
+    },
+    {
+     "no": 3,
+     "criterion": "Puasa Siti batal",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "batal"
+    },
+    {
+     "no": 4,
+     "criterion": "Alasan: keluar haid",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "haid"
+    },
+    {
+     "no": 5,
+     "criterion": "Perkara lain pertama",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "muntah"
+    },
+    {
+     "no": 6,
+     "criterion": "Perkara lain kedua",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 5.0,
+   "max_marks": 6.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 128,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 83.3,
+   "wall_ms": 128
+  },
+  {
+   "rep": 0,
+   "answer_id": "T035",
+   "question_id": "tajwid_b3_mad_farq_q6",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "سورة يونس ايات 51، 59 دان 91. سورة النمل ايات 59. سورة الأنعام ايات 143 دان 144.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Surah Yunus (59, 91, 51)",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "A-keyword",
+     "reason": "يونس"
+    },
+    {
+     "no": 2,
+     "criterion": "Surah an-Naml 59",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "النمل"
+    },
+    {
+     "no": 3,
+     "criterion": "Surah al-An'am 143 dan 144",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "الأنعام"
+    }
+   ],
+   "score": 4.0,
+   "max_marks": 4.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 82,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 83
+  },
+  {
+   "rep": 0,
+   "answer_id": "T036",
+   "question_id": "jawi_b2_imbuhan_i_ya_q3",
+   "kind": "jawi_typo",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "منسيحتي",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 77,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 77
+  },
+  {
+   "rep": 0,
+   "answer_id": "T037",
+   "question_id": "fiqh_b1_solat_tahajud_q4",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "1. داڤت رزقي باڽق. 2. بادن سيحت. 3. داڤت ڤيليه ڤيليهن يڠ بايق.",
+   "gold": [
+    "tidak",
+    "ya",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Membersihkan hati daripada kebencian",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Mencintai Allah dan menguatkan iman",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Rasa takut kepada Allah / dunia sementara",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 92,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 92
+  },
+  {
+   "rep": 0,
+   "answer_id": "T038",
+   "question_id": "tajwid_b1_mad_bahagian_q3",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "2 bhgn",
+   "gold": [
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan dua bahagian",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "dua"
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 65,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 65
+  },
+  {
+   "rep": 0,
+   "answer_id": "T039",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "1. هاتي جادي تنڠ. 2. داڤت ڤاهالا باڽق.",
+   "gold": [
+    "ya",
+    "tidak",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Memberi ketenangan kepada hati",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "هاتي"
+    },
+    {
+     "no": 2,
+     "criterion": "Menghilangkan sifat sombong",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 72,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 33.3,
+   "wall_ms": 72
+  },
+  {
+   "rep": 0,
+   "answer_id": "T040",
+   "question_id": "fiqh_b2_batal_puasa_q5",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "makan, minum, muntah",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Perkara sengaja pertama",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "makan"
+    },
+    {
+     "no": 2,
+     "criterion": "Perkara sengaja kedua",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "muntah"
+    },
+    {
+     "no": 3,
+     "criterion": "Perkara sengaja ketiga",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "muntah"
+    }
+   ],
+   "score": 3.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 72,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 72
+  },
+  {
+   "rep": 0,
+   "answer_id": "T041",
+   "question_id": "jawi_b2_imbuhan_i_ya_q8",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+   "gold": [
+    "ya",
+    "ya",
+    "ya",
+    "ya",
+    "separa",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "ۏوكل"
+    },
+    {
+     "no": 4,
+     "criterion": "Mengeja dimarahi: دمارهي",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    },
+    {
+     "no": 5,
+     "criterion": "Mengeja dibayangi: دبايڠي",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    },
+    {
+     "no": 6,
+     "criterion": "Mengeja ubati: اوبتي",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 6.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 129,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 16.7,
+   "wall_ms": 129
+  },
+  {
+   "rep": 0,
+   "answer_id": "T042",
+   "question_id": "fiqh_b2_fadhilat_puasa_q1",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Pintu Ar-Rayyan.",
+   "gold": [
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan al-Rayyan",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "Rayyan"
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 111,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 111
+  },
+  {
+   "rep": 0,
+   "answer_id": "T043",
+   "question_id": "fiqh_b1_solat_witir_q4",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "1. Rapat dengan Allah. 2. Dapat pahala banyak.",
+   "gold": [
+    "ya",
+    "ya",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Disukai oleh Allah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Mendekatkan diri kepada Allah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Kekuatan rohani / menenangkan jiwa",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 78,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 80
+  },
+  {
+   "rep": 0,
+   "answer_id": "T044",
+   "question_id": "jawi_b1_imbuhan_an_nun_q11",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "اد باڽق بوڠا روس يڠ چنتيق.",
+   "gold": [
+    "ya",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyebut bunga ros",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "بوڠا روس"
+    },
+    {
+     "no": 2,
+     "criterion": "Menyebut strawberi / buah-buahan",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 95,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 50.0,
+   "wall_ms": 95
+  },
+  {
+   "rep": 0,
+   "answer_id": "T045",
+   "question_id": "tajwid_b3_mad_badal_q1",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Mad badal dibaca enam harakat sebab hamzah ganti huruf mad.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan dua harakat",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 114,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 114
+  },
+  {
+   "rep": 0,
+   "answer_id": "T046",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "إِنَّآ أَنزَلۡنَٰهُ ، قُوٓاْ أَنفُسَكُمۡ ، فِيٓ أَنفُسِكُمۡ",
+   "gold": [
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Misal pertama yang betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 2,
+     "criterion": "Misal kedua yang betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    },
+    {
+     "no": 3,
+     "criterion": "Misal ketiga yang betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 116,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 116
+  },
+  {
+   "rep": 0,
+   "answer_id": "T047",
+   "question_id": "tajwid_b3_mad_tamkin_q2",
+   "kind": "fluent_no_answer",
+   "family": "teacher",
+   "script": "",
+   "answer": "Mad tamkin ialah mad yang sangat penting dalam bacaan al-Quran dan mesti dibaca dengan betul supaya tidak salah makna.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan lima kalimah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-none",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 107,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 107
+  },
+  {
+   "rep": 0,
+   "answer_id": "T048",
+   "question_id": "jawi_b4_akronim_melayu_q13",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "دكتور",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja دوكتور dalam ejaan penuh",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "A-spelling",
+     "reason": ""
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 129,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 129
+  },
+  {
+   "rep": 0,
+   "answer_id": "T049",
+   "question_id": "tajwid_b4_tingkatan_mad_q7",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Kita kena tahu tingkatan mad sebab kadang-kadang satu perkataan ada dua hukum mad, jadi kita ikut yang paling kuat. Contoh مِمَّا يَشَآءُ, bila kita berhenti kat situ ada mad aridh lissukun dan ada mad wajib muttasil. Yang kita pakai ialah mad wajib muttasil sebab darjatnya lagi atas dari mad aridh lissukun.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "A-keyword",
+     "reason": "dua hukum"
+    },
+    {
+     "no": 2,
+     "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "مِمَّا يَشَآءُ"
+    },
+    {
+     "no": 3,
+     "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "Aridh Lissukun"
+    },
+    {
+     "no": 4,
+     "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "A-keyword",
+     "reason": "Wajib Muttasil"
+    }
+   ],
+   "score": 6.0,
+   "max_marks": 6.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 117,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 117
+  },
+  {
+   "rep": 0,
+   "answer_id": "T050",
+   "question_id": "tajwid_b3_mad_farq_q3",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Enam kalimah dalam tiga tempat.",
+   "gold": [
+    "tidak",
+    "tidak"
+   ],
+   "config": "b2",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Tiga kalimah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "tiga"
+    },
+    {
+     "no": 2,
+     "criterion": "Enam tempat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "A-keyword",
+     "reason": "enam"
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 2.0,
+   "feedback": "",
+   "context": [],
+   "trace": [],
+   "usage": {
+    "calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cost": 0.0,
+    "ms": 119,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 119
+  }
+ ]
+}

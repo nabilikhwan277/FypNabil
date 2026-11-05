@@ -28,40 +28,40 @@ export default function CelebrationModal({ open, data, onClose }: { open: boolea
       {data && (
         <>
           <Mascot mood="celebrate" size={120} className="mx-auto" />
-          <T k="wow" as="h2" id="celebrate-title" className="mt-1 text-4xl font-black text-emerald-800" />
+          <T k="wow" as="h2" id="celebrate-title" className="mt-1 text-4xl font-black text-primary-ink" />
           <ul className="mt-4 flex flex-col gap-3 text-start">
             {data.rank && (
-              <motion.li {...item(i++)} className="flex items-center gap-3 rounded-2xl bg-amber-50 p-3 ring-2 ring-amber-200">
+              <motion.li {...item(i++)} className="flex items-center gap-3 rounded-2xl border border-accent/40 bg-accent-soft p-3 text-ink">
                 <span aria-hidden="true" className="text-4xl">
                   {data.rank.emoji}
                 </span>
                 <span className="min-w-0">
-                  <T k="newRank" className="block text-sm font-bold text-amber-900" />
-                  <Bi rumi={data.rank.rumi} jawi={data.rank.jawi} className="block text-xl font-black" />
+                  <T k="newRank" className="block text-sm font-extrabold text-accent-ink" />
+                  <Bi rumi={data.rank.rumi} jawi={data.rank.jawi} className="block text-xl font-black text-ink" />
                 </span>
               </motion.li>
             )}
             {data.level !== null && (
-              <motion.li {...item(i++)} className="flex items-center gap-3 rounded-2xl bg-emerald-50 p-3 ring-2 ring-emerald-200">
+              <motion.li {...item(i++)} className="flex items-center gap-3 rounded-2xl border border-primary/30 bg-primary-soft p-3 text-ink">
                 <span aria-hidden="true" className="text-4xl">
                   🔓
                 </span>
                 <span className="min-w-0">
-                  <T k="levelUnlocked" className="block text-sm font-bold text-emerald-900" />
-                  <span className="block text-xl font-black">
+                  <T k="levelUnlocked" className="block text-sm font-extrabold text-primary-ink" />
+                  <span className="block text-xl font-black text-ink">
                     <T k="level" /> {data.level}
                   </span>
                 </span>
               </motion.li>
             )}
             {data.badges.map((b) => (
-              <motion.li key={b} {...item(i++)} className="flex items-center gap-3 rounded-2xl bg-sky-50 p-3 ring-2 ring-sky-200">
+              <motion.li key={b} {...item(i++)} className="flex items-center gap-3 rounded-2xl border border-info-ink/30 bg-info-soft p-3 text-ink">
                 <span aria-hidden="true" className="text-4xl">
                   {BADGES[b]?.emoji ?? '🏅'}
                 </span>
                 <span className="min-w-0">
-                  <T k="newBadge" className="block text-sm font-bold text-sky-900" />
-                  <Bi rumi={BADGES[b]?.rumi ?? b} jawi={BADGES[b]?.jawi} className="block text-xl font-black" />
+                  <T k="newBadge" className="block text-sm font-extrabold text-info-ink" />
+                  <Bi rumi={BADGES[b]?.rumi ?? b} jawi={BADGES[b]?.jawi} className="block text-xl font-black text-ink" />
                 </span>
               </motion.li>
             ))}

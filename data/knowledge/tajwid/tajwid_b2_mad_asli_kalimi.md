@@ -48,7 +48,7 @@ verified: false
 - **Rumi:** Mad asli apabila bertemu dengan hamzah wasal **tidak dimadkan** ketika dibaca wasal, seperti: | **Jawi:** مد اصلي اڤابيلا برتمو دڠن همزة وصل تيدق دمدكن كتيک دباچ وصل، سڤرتي:
   - رَبَّنَا ٱغْفِرْ لَنَا
   - فِى ٱلْأَرْضِ
-  - فِى ٱلنَّارِ (dengan tanda kecil di atas akhir kalimah seperti tanda waqaf; bentuk tepat [TIDAK JELAS])
+  - فِى ٱلنَّارِ
 - **Rumi:** Tiada tanda pada huruf-huruf mad asli (tidak diletakkan tanda mati). | **Jawi:** تياد تندا ڤد حروف٢ مد اصلي (تيدق دلتقكن تندا ماتي).
   - يَقُولُونَ رَبَّنَا
   - وَإِذَا قِيلَ لَهُمْ

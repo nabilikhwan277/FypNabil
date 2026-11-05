@@ -1,12 +1,15 @@
 """Validate the KAFA knowledge notes and question bank (Phase 1).
 
+The syllabus is whatever notes are in data/knowledge now (the admin can add and remove books on the
+Books & syllabus page); topics of the original textbooks that are missing are reported as warnings.
+
 Checks:
-  - every expected topic has a note with valid front-matter
+  - every note has valid front-matter
   - every note has a question file (latihan files have no note)
   - question JSON parses, required fields present, ids unique
   - max_marks == sum of rubric marks
   - each topic has >= 3 L1, >= 2 L2, >= 1 L3 questions
-  - latihan questions point to an existing related_topic_id
+  - latihan and exercise-book questions point to an existing related_topic_id
   - reports [TIDAK JELAS] markers and verified status
 
 Usage: python scripts/validate_data.py
@@ -79,13 +82,18 @@ def read_front_matter(path: Path):
 
 
 def main() -> int:
-    all_topics = {t for ts in EXPECTED.values() for t in ts}
+    present = {s: sorted(p.stem for p in (KB / s).glob("*.md")) for s in EXPECTED}
+    for subject, topics in EXPECTED.items():
+        for tid in topics:
+            if tid not in present[subject]:
+                warn(f"original topic not in the syllabus now: {subject}/{tid} (its book was removed?)")
+    all_topics = {t for ts in present.values() for t in ts}
     stats = {"notes": 0, "question_files": 0, "questions": 0, "unclear": 0, "verified": 0}
     level_totals = Counter()
     seen_qids = set()
 
     # ---- notes ----
-    for subject, topics in EXPECTED.items():
+    for subject, topics in present.items():
         for tid in topics:
             path = KB / subject / f"{tid}.md"
             if not path.exists():
@@ -110,25 +118,22 @@ def main() -> int:
             if fm.get("verified") is True:
                 stats["verified"] += 1
 
-    # unexpected note files
-    for p in KB.glob("*/*.md"):
-        if p.stem not in all_topics:
-            warn(f"unexpected note file: {p.relative_to(ROOT)}")
-
     # ---- questions ----
-    for subject, topics in EXPECTED.items():
+    for subject, topics in present.items():
         files = {p.stem: p for p in (QB / subject).glob("*.json")}
         for tid in topics:
             if tid not in files and tid not in QUESTIONS_OPTIONAL:
                 err(f"missing question file: data/questions/{subject}/{tid}.json")
         for stem, path in files.items():
-            if stem not in all_topics and stem not in LATIHAN:
-                warn(f"unexpected question file: {path.relative_to(ROOT)}")
             try:
                 data = json.loads(path.read_text(encoding="utf-8"))
             except json.JSONDecodeError as e:
                 err(f"{stem}: invalid JSON ({e})")
                 continue
+            # questions spread over many topics: textbook exercises (latihan) or an uploaded exercise book
+            exercise = stem in LATIHAN or (bool(data.get("book_id")) and stem not in all_topics)
+            if stem not in all_topics and not exercise:
+                warn(f"unexpected question file: {path.relative_to(ROOT)}")
             stats["question_files"] += 1
             if data.get("topic_id") != stem:
                 err(f"{stem}: topic_id is {data.get('topic_id')!r}")
@@ -150,7 +155,7 @@ def main() -> int:
                     err(f"{qid}: level {q['level']!r}")
                 elif q["type"] != TYPE_FOR_LEVEL[q["level"]]:
                     warn(f"{qid}: level {q['level']} but type {q['type']!r}")
-                if q["origin"] not in ("generated", "textbook"):
+                if q["origin"] not in ("generated", "textbook", "exercise_book"):
                     err(f"{qid}: origin {q['origin']!r}")
                 total = sum(r.get("marks", 0) for r in q["rubric"])
                 if total != q["max_marks"]:
@@ -162,17 +167,17 @@ def main() -> int:
                         err(f"{qid}: rubric item without criterion")
                     if not r.get("keywords"):
                         warn(f"{qid}: criterion {r.get('criterion')!r} has no keywords")
-                if stem in LATIHAN:
+                if exercise:
                     rel = q.get("related_topic_id")
                     if rel not in all_topics:
                         err(f"{qid}: related_topic_id {rel!r} not a known topic")
                 levels[q["level"]] += 1
                 level_totals[q["level"]] += 1
-            if stem not in LATIHAN and (levels[1] < 3 or levels[2] < 2 or levels[3] < 1):
+            if not exercise and (levels[1] < 3 or levels[2] < 2 or levels[3] < 1):
                 err(f"{stem}: level counts L1={levels[1]} L2={levels[2]} L3={levels[3]} (need 3/2/1)")
 
     # ---- report ----
-    expected_notes = len(all_topics)
+    expected_notes = len(all_topics)   # the notes in the syllabus now
     print("=" * 60)
     print(f"Notes:           {stats['notes']}/{expected_notes}")
     print(f"Question files:  {stats['question_files']}")

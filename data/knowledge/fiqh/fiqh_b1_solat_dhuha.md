@@ -76,7 +76,7 @@ verified: false
 ## Doa Lain Yang Boleh Dibaca
 **Rumi:** Boleh juga dibaca doa berikut: | **Jawi:** بوليه جوݢ دباچ دعاء برايكوت:
 
-اللَّهُمَّ اغْفِرْ لِي، وَتُبْ عَلَيَّ، إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمِ [TIDAK JELAS: baris akhir perkataan الرحيم]
+اللَّهُمَّ اغْفِرْ لِي، وَتُبْ عَلَيَّ، إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ.
 
 - **Rumi:** Maksudnya: Ya Allah, ampunilah aku dan terimalah taubatku, sesungguhnya Engkau Maha Penerima taubat lagi Maha Penyayang.
 - **Jawi:** مقصودڽ: يا الله، امڤونيلهكو دان تريماله توبتكو، سسوڠڬوهڽ اڠكاو مها ڤنريما توبة لاڬي مها ڤڽايڠ.

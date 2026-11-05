@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Map as MapIcon, Rocket, RotateCcw } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import type { SubjectId } from '../api/types'
 import type { StringKey } from '../i18n/strings'
@@ -16,12 +17,12 @@ export interface RoundItem {
 
 function Stat({ emoji, value, label }: { emoji: string; value: string; label: StringKey }) {
   return (
-    <div className="rounded-2xl bg-sky-50 p-3 ring-2 ring-sky-100">
+    <div className="rounded-xl border border-line bg-surface-2 p-4 text-center">
       <p aria-hidden="true" className="text-3xl">
         {emoji}
       </p>
-      <p className="text-3xl font-black tabular-nums">{value}</p>
-      <T k={label} as="p" className="text-sm font-bold text-slate-700" />
+      <p className="mt-1 text-3xl font-extrabold text-ink tabular-nums">{value}</p>
+      <T k={label} as="p" className="mt-0.5 text-sm text-ink-3" />
     </div>
   )
 }
@@ -51,11 +52,11 @@ export default function RoundSummary({ items, burst, canNextLevel, subject, onPl
     >
       <Confetti burst={burst} count={80} />
       <Mascot mood={good ? 'celebrate' : 'happy'} size={150} />
-      <T k={good ? 'roundDone' : 'roundKeepGoing'} as="h2" id="summary-title" className="text-3xl font-black" />
+      <T k={good ? 'roundDone' : 'roundKeepGoing'} as="h2" id="summary-title" className="text-3xl font-extrabold text-ink" />
       <ol className="flex flex-wrap justify-center gap-2">
         {items.map((r, i) => (
-          <li key={i} className="flex flex-col items-center rounded-2xl bg-slate-50 px-3 py-2 ring-2 ring-slate-100">
-            <span className="text-sm font-black text-slate-600">
+          <li key={i} className="flex flex-col items-center rounded-xl border border-line bg-surface-2 px-3 py-2">
+            <span className="text-sm font-bold text-ink-3">
               <T k="question" /> {i + 1}
             </span>
             <Stars count={r.stars} size="text-xl" />
@@ -69,15 +70,15 @@ export default function RoundSummary({ items, burst, canNextLevel, subject, onPl
       </div>
       <div className="flex flex-wrap justify-center gap-3">
         <button type="button" onClick={onPlayAgain} className="btn-primary">
-          <span aria-hidden="true">🔁</span> <T k="playAgain" />
+          <RotateCcw aria-hidden="true" className="h-4.5 w-4.5" /> <T k="playAgain" />
         </button>
         {canNextLevel && (
-          <button type="button" onClick={onNextLevel} className="btn-secondary">
-            <span aria-hidden="true">🚀</span> <T k="goNextLevel" />
+          <button type="button" onClick={onNextLevel} className="btn-gold">
+            <Rocket aria-hidden="true" className="h-4.5 w-4.5" /> <T k="goNextLevel" />
           </button>
         )}
         <Link to={`/subjek/${subject}`} className="btn-secondary">
-          <span aria-hidden="true">🗺️</span> <T k="chooseOtherTopic" />
+          <MapIcon aria-hidden="true" className="h-4.5 w-4.5" /> <T k="chooseOtherTopic" />
         </Link>
       </div>
     </motion.section>

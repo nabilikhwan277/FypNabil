@@ -4,9 +4,13 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
-# Downloaded models (~5 GB) and runtime storage
+# Downloaded models (~5 GB), the fine-tuned LoRA adapters (~380 MB, from notebooks/finetune_marker.ipynb) and runtime storage
 models/
+kafa_marker_adapters/
 storage/
+eval/cache/rag_settings/
+eval/cache/tessdata/
+eval/cache/ocr/
 
 # Copyrighted source material - private research use only, do not publish
 text book/
@@ -22,3 +26,12 @@ frontend/dist/
 # OS / editor
 .DS_Store
 Thumbs.db
+
+# Claude Code personal settings
+.claude/settings.local.json
+
+# real teacher names (local only)
+data/teacher/_names_private.json
+
+# scanned textbooks and exam papers (copyright, local only)
+data/books_private/

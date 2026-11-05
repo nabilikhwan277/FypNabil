@@ -147,13 +147,13 @@ export default function Mascot({ mood = 'happy', size = 96, className = '' }: { 
   )
 }
 
-/** White speech bubble whose tail points to the start side (works in RTL). */
+/** Speech bubble whose tail points to the start side (works in RTL). */
 export function SpeechBubble({ children, className = '' }: { children: ReactNode; className?: string }) {
   return (
-    <div className={`relative rounded-3xl border-2 border-sky-100 bg-white px-4 py-3 text-lg font-bold shadow-md ${className}`}>
+    <div className={`relative rounded-3xl border border-line bg-surface px-5 py-3.5 text-lg font-bold text-ink shadow-md ${className}`}>
       <span
         aria-hidden="true"
-        className="absolute bottom-6 -start-[9px] h-4 w-4 rotate-45 border-b-2 border-s-2 border-sky-100 bg-white"
+        className="absolute bottom-6 -start-[8px] h-3.5 w-3.5 rotate-45 border-b border-s border-line bg-surface"
       />
       <div className="relative">{children}</div>
     </div>

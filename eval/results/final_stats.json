@@ -1,0 +1,3418 @@
+{
+ "date": "2026-11-02T07:37:59+00:00",
+ "answers": 50,
+ "teachers": {
+  "guru_1": "Guru 1",
+  "guru_2": "Guru 2",
+  "guru_3": "Guru 3"
+ },
+ "resamples": 2000,
+ "human": {
+  "pairs": {
+   "guru_1 vs guru_2": 0.497,
+   "guru_1 vs guru_3": 0.516,
+   "guru_2 vs guru_3": 0.334
+  },
+  "mean": 0.449,
+  "ci": [
+   0.267,
+   0.618
+  ]
+ },
+ "best": "proposed:luna:R3:A2:off",
+ "runs": [
+  {
+   "config": "hybrid:qwen+luna:R3:A2:level",
+   "step": "phase4",
+   "model": "Qwen3-4B (open-weight) + GPT-6 Luna (Router A)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": true,
+   "qwk": 0.785,
+   "ci": [
+    0.602,
+    0.923
+   ],
+   "per_teacher": {
+    "guru_1": 0.784,
+    "guru_2": 0.5,
+    "guru_3": 0.491
+   },
+   "mean_teachers": 0.592,
+   "above_human": true,
+   "criterion_kappa": 0.557,
+   "criterion_acc": 0.737,
+   "exact": 0.68,
+   "within_1": 0.9,
+   "cost_per_100": 0.0133,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.785,
+      0.602,
+      0.923
+     ],
+     "exact": [
+      0.68,
+      0.56,
+      0.8
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.791,
+      0.545,
+      0.928
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.542,
+      0.082,
+      0.918
+     ],
+     "exact": [
+      0.643,
+      0.357,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.982,
+      0.943,
+      1.0
+     ],
+     "exact": [
+      0.833,
+      0.667,
+      1.0
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 43,
+     "separa": 0,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 3,
+     "ya": 8
+    },
+    "ya": {
+     "tidak": 8,
+     "separa": 2,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": 0.03,
+    "ci": [
+     0.0,
+     0.073
+    ],
+    "p": 0.103,
+    "significant": false
+   }
+  },
+  {
+   "config": "hybrid:qwen+luna:R3:A2:separa",
+   "step": "phase4",
+   "model": "Qwen3-4B (open-weight) + GPT-6 Luna (Router B)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": true,
+   "qwk": 0.764,
+   "ci": [
+    0.582,
+    0.9
+   ],
+   "per_teacher": {
+    "guru_1": 0.784,
+    "guru_2": 0.454,
+    "guru_3": 0.512
+   },
+   "mean_teachers": 0.583,
+   "above_human": true,
+   "criterion_kappa": 0.523,
+   "criterion_acc": 0.719,
+   "exact": 0.64,
+   "within_1": 0.9,
+   "cost_per_100": 0.0093,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.764,
+      0.582,
+      0.9
+     ],
+     "exact": [
+      0.64,
+      0.5,
+      0.78
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.806,
+      0.571,
+      0.94
+     ],
+     "exact": [
+      0.611,
+      0.389,
+      0.833
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.913,
+      0.783,
+      0.992
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 45,
+     "separa": 0,
+     "ya": 2
+    },
+    "separa": {
+     "tidak": 9,
+     "separa": 1,
+     "ya": 9
+    },
+    "ya": {
+     "tidak": 11,
+     "separa": 1,
+     "ya": 36
+    }
+   },
+   "vs_best": {
+    "diff": 0.009,
+    "ci": [
+     -0.032,
+     0.057
+    ],
+    "p": 0.686,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:luna:R3:A2:off",
+   "step": "step2",
+   "model": "GPT-6 Luna",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.755,
+   "ci": [
+    0.576,
+    0.895
+   ],
+   "per_teacher": {
+    "guru_1": 0.76,
+    "guru_2": 0.464,
+    "guru_3": 0.555
+   },
+   "mean_teachers": 0.593,
+   "above_human": true,
+   "criterion_kappa": 0.509,
+   "criterion_acc": 0.711,
+   "exact": 0.62,
+   "within_1": 0.9,
+   "cost_per_100": 0.0265,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.755,
+      0.576,
+      0.895
+     ],
+     "exact": [
+      0.62,
+      0.48,
+      0.76
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.742,
+      0.458,
+      0.901
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.947,
+      0.847,
+      1.0
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 42,
+     "separa": 0,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 1,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 8,
+     "separa": 2,
+     "ya": 38
+    }
+   }
+  },
+  {
+   "config": "proposed:qwen_ft_r16e2:R3:A2:off",
+   "step": "phase4",
+   "model": "Qwen3-4B fine-tuned (LoRA r16, 2 epochs)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.743,
+   "ci": [
+    0.548,
+    0.901
+   ],
+   "per_teacher": {
+    "guru_1": 0.794,
+    "guru_2": 0.405,
+    "guru_3": 0.497
+   },
+   "mean_teachers": 0.565,
+   "above_human": true,
+   "criterion_kappa": 0.511,
+   "criterion_acc": 0.711,
+   "exact": 0.66,
+   "within_1": 0.9,
+   "cost_per_100": 0.0,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.743,
+      0.548,
+      0.901
+     ],
+     "exact": [
+      0.66,
+      0.52,
+      0.78
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.703,
+      0.3,
+      0.938
+     ],
+     "exact": [
+      0.611,
+      0.389,
+      0.833
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.533,
+      0.047,
+      0.923
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.938,
+      0.837,
+      0.992
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 43,
+     "separa": 0,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 0,
+     "ya": 11
+    },
+    "ya": {
+     "tidak": 6,
+     "separa": 4,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": -0.012,
+    "ci": [
+     -0.101,
+     0.058
+    ],
+    "p": 0.859,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:qwen_ft_r8e1:R3:A2:off",
+   "step": "phase4",
+   "model": "Qwen3-4B fine-tuned (LoRA r8, 1 epoch)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.741,
+   "ci": [
+    0.554,
+    0.882
+   ],
+   "per_teacher": {
+    "guru_1": 0.774,
+    "guru_2": 0.428,
+    "guru_3": 0.485
+   },
+   "mean_teachers": 0.562,
+   "above_human": true,
+   "criterion_kappa": 0.506,
+   "criterion_acc": 0.711,
+   "exact": 0.68,
+   "within_1": 0.86,
+   "cost_per_100": 0.0,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.741,
+      0.554,
+      0.882
+     ],
+     "exact": [
+      0.68,
+      0.54,
+      0.8
+     ],
+     "within_1": [
+      0.86,
+      0.76,
+      0.94
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.683,
+      0.263,
+      0.933
+     ],
+     "exact": [
+      0.667,
+      0.444,
+      0.889
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.572,
+      0.144,
+      0.889
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.857,
+      0.643,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.914,
+      0.78,
+      0.992
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.889,
+      0.722,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 42,
+     "separa": 1,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 10,
+     "separa": 0,
+     "ya": 9
+    },
+    "ya": {
+     "tidak": 9,
+     "separa": 0,
+     "ya": 39
+    }
+   },
+   "vs_best": {
+    "diff": -0.014,
+    "ci": [
+     -0.114,
+     0.077
+    ],
+    "p": 0.759,
+    "significant": false
+   }
+  },
+  {
+   "config": "hybrid:qwen+luna:R3:A2:rules",
+   "step": "phase4",
+   "model": "Qwen3-4B (open-weight) + GPT-6 Luna (Router C)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": true,
+   "qwk": 0.737,
+   "ci": [
+    0.545,
+    0.88
+   ],
+   "per_teacher": {
+    "guru_1": 0.743,
+    "guru_2": 0.455,
+    "guru_3": 0.546
+   },
+   "mean_teachers": 0.581,
+   "above_human": true,
+   "criterion_kappa": 0.469,
+   "criterion_acc": 0.684,
+   "exact": 0.6,
+   "within_1": 0.88,
+   "cost_per_100": 0.0145,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.737,
+      0.545,
+      0.88
+     ],
+     "exact": [
+      0.6,
+      0.46,
+      0.72
+     ],
+     "within_1": [
+      0.88,
+      0.78,
+      0.96
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.742,
+      0.458,
+      0.901
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.455,
+      0.013,
+      0.838
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.857,
+      0.643,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.947,
+      0.847,
+      1.0
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 42,
+     "separa": 0,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 1,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 9,
+     "separa": 4,
+     "ya": 35
+    }
+   },
+   "vs_best": {
+    "diff": -0.018,
+    "ci": [
+     -0.064,
+     0.0
+    ],
+    "p": 0.725,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:luna:R3:A2:on",
+   "step": "step4",
+   "model": "GPT-6 Luna",
+   "rag": "R3",
+   "react": "A2",
+   "memory": true,
+   "simulated": false,
+   "qwk": 0.736,
+   "ci": [
+    0.547,
+    0.88
+   ],
+   "per_teacher": {
+    "guru_1": 0.755,
+    "guru_2": 0.484,
+    "guru_3": 0.534
+   },
+   "mean_teachers": 0.591,
+   "above_human": true,
+   "criterion_kappa": 0.484,
+   "criterion_acc": 0.693,
+   "exact": 0.6,
+   "within_1": 0.9,
+   "cost_per_100": 0.0221,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.736,
+      0.547,
+      0.88
+     ],
+     "exact": [
+      0.6,
+      0.46,
+      0.74
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.742,
+      0.458,
+      0.901
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.901,
+      0.755,
+      0.983
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 41,
+     "separa": 1,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 1,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 8,
+     "separa": 3,
+     "ya": 37
+    }
+   },
+   "vs_best": {
+    "diff": -0.019,
+    "ci": [
+     -0.06,
+     0.0
+    ],
+    "p": 0.291,
+    "significant": false
+   }
+  },
+  {
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:level",
+   "step": "phase4",
+   "model": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router A)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": true,
+   "qwk": 0.733,
+   "ci": [
+    0.535,
+    0.894
+   ],
+   "per_teacher": {
+    "guru_1": 0.766,
+    "guru_2": 0.448,
+    "guru_3": 0.48
+   },
+   "mean_teachers": 0.565,
+   "above_human": true,
+   "criterion_kappa": 0.523,
+   "criterion_acc": 0.719,
+   "exact": 0.64,
+   "within_1": 0.9,
+   "cost_per_100": 0.0133,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.733,
+      0.535,
+      0.894
+     ],
+     "exact": [
+      0.64,
+      0.5,
+      0.78
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.666,
+      0.227,
+      0.921
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.947,
+      0.847,
+      1.0
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 43,
+     "separa": 0,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 1,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 9,
+     "separa": 1,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": -0.022,
+    "ci": [
+     -0.112,
+     0.046
+    ],
+    "p": 0.783,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:haiku:R3:A2:off",
+   "step": "check",
+   "model": "Claude Haiku 5.5",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.729,
+   "ci": [
+    0.53,
+    0.89
+   ],
+   "per_teacher": {
+    "guru_1": 0.776,
+    "guru_2": 0.388,
+    "guru_3": 0.505
+   },
+   "mean_teachers": 0.556,
+   "above_human": true,
+   "criterion_kappa": 0.512,
+   "criterion_acc": 0.711,
+   "exact": 0.66,
+   "within_1": 0.88,
+   "cost_per_100": 0.0392,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.729,
+      0.53,
+      0.89
+     ],
+     "exact": [
+      0.66,
+      0.54,
+      0.8
+     ],
+     "within_1": [
+      0.88,
+      0.78,
+      0.96
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.666,
+      0.263,
+      0.916
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.946,
+      0.836,
+      1.0
+     ],
+     "exact": [
+      0.833,
+      0.667,
+      1.0
+     ],
+     "within_1": [
+      0.889,
+      0.722,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 42,
+     "separa": 1,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 3,
+     "ya": 8
+    },
+    "ya": {
+     "tidak": 12,
+     "separa": 0,
+     "ya": 36
+    }
+   },
+   "vs_best": {
+    "diff": -0.026,
+    "ci": [
+     -0.116,
+     0.04
+    ],
+    "p": 0.607,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:haiku:R1:A2:off",
+   "step": "step1",
+   "model": "Claude Haiku 5.5",
+   "rag": "R1",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.723,
+   "ci": [
+    0.525,
+    0.882
+   ],
+   "per_teacher": {
+    "guru_1": 0.769,
+    "guru_2": 0.381,
+    "guru_3": 0.528
+   },
+   "mean_teachers": 0.559,
+   "above_human": true,
+   "criterion_kappa": 0.502,
+   "criterion_acc": 0.702,
+   "exact": 0.62,
+   "within_1": 0.9,
+   "cost_per_100": 0.0343,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.723,
+      0.525,
+      0.882
+     ],
+     "exact": [
+      0.62,
+      0.48,
+      0.76
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.673,
+      0.268,
+      0.918
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.927,
+      0.825,
+      0.985
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 42,
+     "separa": 1,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 7,
+     "separa": 2,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 8,
+     "separa": 4,
+     "ya": 36
+    }
+   },
+   "vs_best": {
+    "diff": -0.032,
+    "ci": [
+     -0.119,
+     0.025
+    ],
+    "p": 0.492,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:luna:R3:A3:off",
+   "step": "step3",
+   "model": "GPT-6 Luna",
+   "rag": "R3",
+   "react": "A3",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.722,
+   "ci": [
+    0.524,
+    0.885
+   ],
+   "per_teacher": {
+    "guru_1": 0.755,
+    "guru_2": 0.423,
+    "guru_3": 0.524
+   },
+   "mean_teachers": 0.567,
+   "above_human": true,
+   "criterion_kappa": 0.506,
+   "criterion_acc": 0.711,
+   "exact": 0.64,
+   "within_1": 0.9,
+   "cost_per_100": 0.0369,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.722,
+      0.524,
+      0.885
+     ],
+     "exact": [
+      0.64,
+      0.5,
+      0.78
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.634,
+      0.188,
+      0.901
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.947,
+      0.847,
+      1.0
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 43,
+     "separa": 0,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 9,
+     "separa": 0,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 9,
+     "separa": 1,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": -0.033,
+    "ci": [
+     -0.119,
+     0.015
+    ],
+    "p": 0.728,
+    "significant": false
+   }
+  },
+  {
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:separa",
+   "step": "phase4",
+   "model": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router B)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": true,
+   "qwk": 0.709,
+   "ci": [
+    0.51,
+    0.87
+   ],
+   "per_teacher": {
+    "guru_1": 0.782,
+    "guru_2": 0.359,
+    "guru_3": 0.484
+   },
+   "mean_teachers": 0.542,
+   "above_human": true,
+   "criterion_kappa": 0.504,
+   "criterion_acc": 0.711,
+   "exact": 0.64,
+   "within_1": 0.88,
+   "cost_per_100": 0.0007,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.709,
+      0.51,
+      0.87
+     ],
+     "exact": [
+      0.64,
+      0.5,
+      0.78
+     ],
+     "within_1": [
+      0.88,
+      0.78,
+      0.96
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.687,
+      0.275,
+      0.929
+     ],
+     "exact": [
+      0.611,
+      0.389,
+      0.833
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.455,
+      0.001,
+      0.853
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.914,
+      0.78,
+      0.992
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.889,
+      0.722,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 43,
+     "separa": 0,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 0,
+     "ya": 11
+    },
+    "ya": {
+     "tidak": 10,
+     "separa": 0,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": -0.046,
+    "ci": [
+     -0.145,
+     0.033
+    ],
+    "p": 0.29,
+    "significant": false
+   }
+  },
+  {
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:rules",
+   "step": "phase4",
+   "model": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router C)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": true,
+   "qwk": 0.703,
+   "ci": [
+    0.498,
+    0.865
+   ],
+   "per_teacher": {
+    "guru_1": 0.75,
+    "guru_2": 0.373,
+    "guru_3": 0.531
+   },
+   "mean_teachers": 0.551,
+   "above_human": true,
+   "criterion_kappa": 0.508,
+   "criterion_acc": 0.711,
+   "exact": 0.6,
+   "within_1": 0.9,
+   "cost_per_100": 0.0086,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.703,
+      0.498,
+      0.865
+     ],
+     "exact": [
+      0.6,
+      0.46,
+      0.74
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.64,
+      0.207,
+      0.895
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.455,
+      0.001,
+      0.853
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.947,
+      0.847,
+      1.0
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 42,
+     "separa": 0,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 7,
+     "separa": 1,
+     "ya": 11
+    },
+    "ya": {
+     "tidak": 9,
+     "separa": 1,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": -0.052,
+    "ci": [
+     -0.145,
+     0.009
+    ],
+    "p": 0.259,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:qwen_ft_r16e1:R3:A2:off",
+   "step": "phase4",
+   "model": "Qwen3-4B fine-tuned (LoRA r16, 1 epoch)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.701,
+   "ci": [
+    0.511,
+    0.852
+   ],
+   "per_teacher": {
+    "guru_1": 0.749,
+    "guru_2": 0.383,
+    "guru_3": 0.519
+   },
+   "mean_teachers": 0.55,
+   "above_human": true,
+   "criterion_kappa": 0.489,
+   "criterion_acc": 0.702,
+   "exact": 0.62,
+   "within_1": 0.86,
+   "cost_per_100": 0.0,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.701,
+      0.511,
+      0.852
+     ],
+     "exact": [
+      0.62,
+      0.48,
+      0.76
+     ],
+     "within_1": [
+      0.86,
+      0.76,
+      0.94
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.615,
+      0.16,
+      0.889
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.503,
+      0.104,
+      0.833
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.857,
+      0.643,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.914,
+      0.78,
+      0.992
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.889,
+      0.722,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 42,
+     "separa": 0,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 9,
+     "separa": 0,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 10,
+     "separa": 0,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": -0.054,
+    "ci": [
+     -0.163,
+     0.035
+    ],
+    "p": 0.259,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:qwen_ft_r8e2:R3:A2:off",
+   "step": "phase4",
+   "model": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.701,
+   "ci": [
+    0.504,
+    0.859
+   ],
+   "per_teacher": {
+    "guru_1": 0.767,
+    "guru_2": 0.355,
+    "guru_3": 0.478
+   },
+   "mean_teachers": 0.533,
+   "above_human": true,
+   "criterion_kappa": 0.491,
+   "criterion_acc": 0.702,
+   "exact": 0.64,
+   "within_1": 0.88,
+   "cost_per_100": 0.0,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.701,
+      0.504,
+      0.859
+     ],
+     "exact": [
+      0.64,
+      0.5,
+      0.78
+     ],
+     "within_1": [
+      0.88,
+      0.78,
+      0.96
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.687,
+      0.275,
+      0.929
+     ],
+     "exact": [
+      0.611,
+      0.389,
+      0.833
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.439,
+      0.006,
+      0.825
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.914,
+      0.78,
+      0.992
+     ],
+     "exact": [
+      0.778,
+      0.556,
+      0.944
+     ],
+     "within_1": [
+      0.889,
+      0.722,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 43,
+     "separa": 0,
+     "ya": 4
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 0,
+     "ya": 11
+    },
+    "ya": {
+     "tidak": 10,
+     "separa": 1,
+     "ya": 37
+    }
+   },
+   "vs_best": {
+    "diff": -0.054,
+    "ci": [
+     -0.152,
+     0.025
+    ],
+    "p": 0.21,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:luna:R1:A2:off",
+   "step": "step1",
+   "model": "GPT-6 Luna",
+   "rag": "R1",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.7,
+   "ci": [
+    0.494,
+    0.866
+   ],
+   "per_teacher": {
+    "guru_1": 0.733,
+    "guru_2": 0.464,
+    "guru_3": 0.499
+   },
+   "mean_teachers": 0.565,
+   "above_human": true,
+   "criterion_kappa": 0.478,
+   "criterion_acc": 0.693,
+   "exact": 0.6,
+   "within_1": 0.9,
+   "cost_per_100": 0.0232,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.7,
+      0.494,
+      0.866
+     ],
+     "exact": [
+      0.6,
+      0.46,
+      0.74
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.615,
+      0.16,
+      0.889
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.909,
+      0.769,
+      0.991
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 41,
+     "separa": 1,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 9,
+     "separa": 0,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 9,
+     "separa": 1,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": -0.055,
+    "ci": [
+     -0.149,
+     0.0
+    ],
+    "p": 0.265,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:luna:R2:A2:off",
+   "step": "step2",
+   "model": "GPT-6 Luna",
+   "rag": "R2",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.7,
+   "ci": [
+    0.494,
+    0.866
+   ],
+   "per_teacher": {
+    "guru_1": 0.733,
+    "guru_2": 0.464,
+    "guru_3": 0.499
+   },
+   "mean_teachers": 0.565,
+   "above_human": true,
+   "criterion_kappa": 0.495,
+   "criterion_acc": 0.702,
+   "exact": 0.6,
+   "within_1": 0.9,
+   "cost_per_100": 0.0216,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.7,
+      0.494,
+      0.866
+     ],
+     "exact": [
+      0.6,
+      0.46,
+      0.74
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.615,
+      0.16,
+      0.889
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.909,
+      0.769,
+      0.991
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 41,
+     "separa": 1,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 1,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 9,
+     "separa": 1,
+     "ya": 38
+    }
+   },
+   "vs_best": {
+    "diff": -0.055,
+    "ci": [
+     -0.149,
+     0.0
+    ],
+    "p": 0.265,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:luna:R3:A1:off",
+   "step": "step3",
+   "model": "GPT-6 Luna",
+   "rag": "R3",
+   "react": "A1",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.7,
+   "ci": [
+    0.494,
+    0.866
+   ],
+   "per_teacher": {
+    "guru_1": 0.733,
+    "guru_2": 0.464,
+    "guru_3": 0.499
+   },
+   "mean_teachers": 0.565,
+   "above_human": true,
+   "criterion_kappa": 0.509,
+   "criterion_acc": 0.711,
+   "exact": 0.62,
+   "within_1": 0.9,
+   "cost_per_100": 0.0803,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.7,
+      0.494,
+      0.866
+     ],
+     "exact": [
+      0.62,
+      0.48,
+      0.76
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.615,
+      0.16,
+      0.889
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.527,
+      0.055,
+      0.908
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.909,
+      0.769,
+      0.991
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 41,
+     "separa": 1,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 1,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 8,
+     "separa": 1,
+     "ya": 39
+    }
+   },
+   "vs_best": {
+    "diff": -0.055,
+    "ci": [
+     -0.149,
+     0.0
+    ],
+    "p": 0.265,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:qwen:R3:A2:off",
+   "step": "phase3",
+   "model": "Qwen3-4B (open-weight)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.694,
+   "ci": [
+    0.501,
+    0.845
+   ],
+   "per_teacher": {
+    "guru_1": 0.665,
+    "guru_2": 0.471,
+    "guru_3": 0.502
+   },
+   "mean_teachers": 0.546,
+   "above_human": true,
+   "criterion_kappa": 0.446,
+   "criterion_acc": 0.658,
+   "exact": 0.6,
+   "within_1": 0.86,
+   "cost_per_100": 0.0,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.694,
+      0.501,
+      0.845
+     ],
+     "exact": [
+      0.6,
+      0.46,
+      0.72
+     ],
+     "within_1": [
+      0.86,
+      0.76,
+      0.94
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.553,
+      0.113,
+      0.855
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.778,
+      0.556,
+      0.944
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.519,
+      0.134,
+      0.841
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.857,
+      0.643,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.937,
+      0.826,
+      0.992
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.889
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 44,
+     "separa": 3,
+     "ya": 0
+    },
+    "separa": {
+     "tidak": 9,
+     "separa": 4,
+     "ya": 6
+    },
+    "ya": {
+     "tidak": 13,
+     "separa": 8,
+     "ya": 27
+    }
+   },
+   "vs_best": {
+    "diff": -0.061,
+    "ci": [
+     -0.216,
+     0.076
+    ],
+    "p": 0.378,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:sealion:R3:A2:off",
+   "step": "phase3",
+   "model": "SEA-LION v3 9B (open-weight)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.685,
+   "ci": [
+    0.497,
+    0.835
+   ],
+   "per_teacher": {
+    "guru_1": 0.726,
+    "guru_2": 0.455,
+    "guru_3": 0.437
+   },
+   "mean_teachers": 0.539,
+   "above_human": true,
+   "criterion_kappa": 0.5,
+   "criterion_acc": 0.693,
+   "exact": 0.6,
+   "within_1": 0.84,
+   "cost_per_100": 0.0,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.685,
+      0.497,
+      0.835
+     ],
+     "exact": [
+      0.6,
+      0.46,
+      0.74
+     ],
+     "within_1": [
+      0.84,
+      0.74,
+      0.94
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.648,
+      0.222,
+      0.903
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.56,
+      0.153,
+      0.882
+     ],
+     "exact": [
+      0.571,
+      0.286,
+      0.857
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.812,
+      0.59,
+      0.941
+     ],
+     "exact": [
+      0.667,
+      0.444,
+      0.889
+     ],
+     "within_1": [
+      0.778,
+      0.556,
+      0.944
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 40,
+     "separa": 1,
+     "ya": 6
+    },
+    "separa": {
+     "tidak": 8,
+     "separa": 6,
+     "ya": 5
+    },
+    "ya": {
+     "tidak": 8,
+     "separa": 7,
+     "ya": 33
+    }
+   },
+   "vs_best": {
+    "diff": -0.07,
+    "ci": [
+     -0.18,
+     0.029
+    ],
+    "p": 0.159,
+    "significant": false
+   }
+  },
+  {
+   "config": "b1:luna",
+   "step": "step0",
+   "model": "GPT-6 Luna",
+   "rag": "",
+   "react": "",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.683,
+   "ci": [
+    0.474,
+    0.851
+   ],
+   "per_teacher": {
+    "guru_1": 0.744,
+    "guru_2": 0.392,
+    "guru_3": 0.51
+   },
+   "mean_teachers": 0.549,
+   "above_human": true,
+   "criterion_kappa": 0.482,
+   "criterion_acc": 0.693,
+   "exact": 0.6,
+   "within_1": 0.9,
+   "cost_per_100": 0.0184,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.683,
+      0.474,
+      0.851
+     ],
+     "exact": [
+      0.6,
+      0.46,
+      0.74
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.64,
+      0.207,
+      0.895
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.455,
+      0.001,
+      0.853
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.901,
+      0.755,
+      0.983
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 41,
+     "separa": 1,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 7,
+     "separa": 1,
+     "ya": 11
+    },
+    "ya": {
+     "tidak": 9,
+     "separa": 2,
+     "ya": 37
+    }
+   },
+   "vs_best": {
+    "diff": -0.072,
+    "ci": [
+     -0.174,
+     0.0
+    ],
+    "p": 0.061,
+    "significant": false
+   }
+  },
+  {
+   "config": "b3:luna:R1",
+   "step": "step0",
+   "model": "GPT-6 Luna",
+   "rag": "R1",
+   "react": "",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.681,
+   "ci": [
+    0.467,
+    0.85
+   ],
+   "per_teacher": {
+    "guru_1": 0.715,
+    "guru_2": 0.441,
+    "guru_3": 0.504
+   },
+   "mean_teachers": 0.553,
+   "above_human": true,
+   "criterion_kappa": 0.463,
+   "criterion_acc": 0.684,
+   "exact": 0.58,
+   "within_1": 0.9,
+   "cost_per_100": 0.0062,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.681,
+      0.467,
+      0.85
+     ],
+     "exact": [
+      0.58,
+      0.44,
+      0.72
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.615,
+      0.16,
+      0.889
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.455,
+      0.001,
+      0.853
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.909,
+      0.769,
+      0.991
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 41,
+     "separa": 1,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 9,
+     "separa": 0,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 10,
+     "separa": 1,
+     "ya": 37
+    }
+   },
+   "vs_best": {
+    "diff": -0.074,
+    "ci": [
+     -0.173,
+     0.0
+    ],
+    "p": 0.096,
+    "significant": false
+   }
+  },
+  {
+   "config": "b4:luna:R1",
+   "step": "step0",
+   "model": "GPT-6 Luna",
+   "rag": "R1",
+   "react": "",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.681,
+   "ci": [
+    0.467,
+    0.85
+   ],
+   "per_teacher": {
+    "guru_1": 0.715,
+    "guru_2": 0.441,
+    "guru_3": 0.504
+   },
+   "mean_teachers": 0.553,
+   "above_human": true,
+   "criterion_kappa": 0.463,
+   "criterion_acc": 0.684,
+   "exact": 0.58,
+   "within_1": 0.9,
+   "cost_per_100": 0.0245,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.681,
+      0.467,
+      0.85
+     ],
+     "exact": [
+      0.58,
+      0.44,
+      0.72
+     ],
+     "within_1": [
+      0.9,
+      0.8,
+      0.98
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.615,
+      0.16,
+      0.889
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.455,
+      0.001,
+      0.853
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.929,
+      0.786,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.909,
+      0.769,
+      0.991
+     ],
+     "exact": [
+      0.722,
+      0.5,
+      0.944
+     ],
+     "within_1": [
+      0.944,
+      0.833,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 41,
+     "separa": 1,
+     "ya": 5
+    },
+    "separa": {
+     "tidak": 9,
+     "separa": 0,
+     "ya": 10
+    },
+    "ya": {
+     "tidak": 10,
+     "separa": 1,
+     "ya": 37
+    }
+   },
+   "vs_best": {
+    "diff": -0.074,
+    "ci": [
+     -0.173,
+     0.0
+    ],
+    "p": 0.096,
+    "significant": false
+   }
+  },
+  {
+   "config": "proposed:fanar:R3:A2:off",
+   "step": "phase3",
+   "model": "Fanar 9B (open-weight)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.624,
+   "ci": [
+    0.42,
+    0.79
+   ],
+   "per_teacher": {
+    "guru_1": 0.599,
+    "guru_2": 0.417,
+    "guru_3": 0.379
+   },
+   "mean_teachers": 0.465,
+   "above_human": true,
+   "criterion_kappa": 0.342,
+   "criterion_acc": 0.588,
+   "exact": 0.5,
+   "within_1": 0.82,
+   "cost_per_100": 0.0,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.624,
+      0.42,
+      0.79
+     ],
+     "exact": [
+      0.5,
+      0.36,
+      0.64
+     ],
+     "within_1": [
+      0.82,
+      0.7,
+      0.92
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.659,
+      0.227,
+      0.954
+     ],
+     "exact": [
+      0.444,
+      0.222,
+      0.667
+     ],
+     "within_1": [
+      0.889,
+      0.722,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.389,
+      0.043,
+      0.739
+     ],
+     "exact": [
+      0.429,
+      0.143,
+      0.714
+     ],
+     "within_1": [
+      0.786,
+      0.571,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.785,
+      0.576,
+      0.923
+     ],
+     "exact": [
+      0.611,
+      0.389,
+      0.833
+     ],
+     "within_1": [
+      0.778,
+      0.556,
+      0.944
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 42,
+     "separa": 4,
+     "ya": 1
+    },
+    "separa": {
+     "tidak": 11,
+     "separa": 4,
+     "ya": 4
+    },
+    "ya": {
+     "tidak": 16,
+     "separa": 11,
+     "ya": 21
+    }
+   },
+   "vs_best": {
+    "diff": -0.131,
+    "ci": [
+     -0.268,
+     -0.012
+    ],
+    "p": 0.03,
+    "significant": true
+   }
+  },
+  {
+   "config": "proposed:llama:R3:A2:off",
+   "step": "phase3",
+   "model": "Llama 3.1 8B",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.546,
+   "ci": [
+    0.334,
+    0.731
+   ],
+   "per_teacher": {
+    "guru_1": 0.484,
+    "guru_2": 0.345,
+    "guru_3": 0.482
+   },
+   "mean_teachers": 0.437,
+   "above_human": false,
+   "criterion_kappa": 0.326,
+   "criterion_acc": 0.605,
+   "exact": 0.5,
+   "within_1": 0.8,
+   "cost_per_100": 0.035,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.546,
+      0.334,
+      0.731
+     ],
+     "exact": [
+      0.5,
+      0.36,
+      0.64
+     ],
+     "within_1": [
+      0.8,
+      0.68,
+      0.9
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.564,
+      0.146,
+      0.919
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.389,
+      0.043,
+      0.739
+     ],
+     "exact": [
+      0.429,
+      0.143,
+      0.714
+     ],
+     "within_1": [
+      0.786,
+      0.571,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.652,
+      0.318,
+      0.898
+     ],
+     "exact": [
+      0.5,
+      0.278,
+      0.722
+     ],
+     "within_1": [
+      0.778,
+      0.556,
+      0.944
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 47,
+     "separa": 0,
+     "ya": 0
+    },
+    "separa": {
+     "tidak": 15,
+     "separa": 0,
+     "ya": 4
+    },
+    "ya": {
+     "tidak": 26,
+     "separa": 0,
+     "ya": 22
+    }
+   },
+   "vs_best": {
+    "diff": -0.209,
+    "ci": [
+     -0.399,
+     -0.037
+    ],
+    "p": 0.019,
+    "significant": true
+   }
+  },
+  {
+   "config": "proposed:llama:R1:A2:off",
+   "step": "step1",
+   "model": "Llama 3.1 8B",
+   "rag": "R1",
+   "react": "A2",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.538,
+   "ci": [
+    0.334,
+    0.728
+   ],
+   "per_teacher": {
+    "guru_1": 0.432,
+    "guru_2": 0.372,
+    "guru_3": 0.439
+   },
+   "mean_teachers": 0.414,
+   "above_human": false,
+   "criterion_kappa": 0.356,
+   "criterion_acc": 0.623,
+   "exact": 0.54,
+   "within_1": 0.82,
+   "cost_per_100": 0.0284,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.538,
+      0.334,
+      0.728
+     ],
+     "exact": [
+      0.54,
+      0.4,
+      0.68
+     ],
+     "within_1": [
+      0.82,
+      0.7,
+      0.92
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.564,
+      0.146,
+      0.919
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.406,
+      0.057,
+      0.786
+     ],
+     "exact": [
+      0.5,
+      0.214,
+      0.786
+     ],
+     "within_1": [
+      0.786,
+      0.571,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.62,
+      0.286,
+      0.881
+     ],
+     "exact": [
+      0.556,
+      0.333,
+      0.778
+     ],
+     "within_1": [
+      0.833,
+      0.667,
+      1.0
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 47,
+     "separa": 0,
+     "ya": 0
+    },
+    "separa": {
+     "tidak": 16,
+     "separa": 0,
+     "ya": 3
+    },
+    "ya": {
+     "tidak": 24,
+     "separa": 0,
+     "ya": 24
+    }
+   },
+   "vs_best": {
+    "diff": -0.217,
+    "ci": [
+     -0.407,
+     -0.034
+    ],
+    "p": 0.025,
+    "significant": true
+   }
+  },
+  {
+   "config": "b2",
+   "step": "step0",
+   "model": "",
+   "rag": "",
+   "react": "",
+   "memory": false,
+   "simulated": false,
+   "qwk": 0.476,
+   "ci": [
+    0.217,
+    0.698
+   ],
+   "per_teacher": {
+    "guru_1": 0.521,
+    "guru_2": 0.188,
+    "guru_3": 0.415
+   },
+   "mean_teachers": 0.375,
+   "above_human": false,
+   "criterion_kappa": 0.233,
+   "criterion_acc": 0.553,
+   "exact": 0.48,
+   "within_1": 0.74,
+   "cost_per_100": 0.0,
+   "by_subject": {
+    "all": {
+     "n": 50,
+     "qwk": [
+      0.476,
+      0.217,
+      0.698
+     ],
+     "exact": [
+      0.48,
+      0.34,
+      0.62
+     ],
+     "within_1": [
+      0.74,
+      0.6,
+      0.86
+     ]
+    },
+    "fiqh": {
+     "n": 18,
+     "qwk": [
+      0.365,
+      -0.112,
+      0.756
+     ],
+     "exact": [
+      0.389,
+      0.167,
+      0.611
+     ],
+     "within_1": [
+      0.667,
+      0.444,
+      0.889
+     ]
+    },
+    "jawi": {
+     "n": 14,
+     "qwk": [
+      0.361,
+      -0.013,
+      0.736
+     ],
+     "exact": [
+      0.429,
+      0.143,
+      0.714
+     ],
+     "within_1": [
+      0.786,
+      0.571,
+      1.0
+     ]
+    },
+    "tajwid": {
+     "n": 18,
+     "qwk": [
+      0.693,
+      0.377,
+      0.925
+     ],
+     "exact": [
+      0.611,
+      0.389,
+      0.833
+     ],
+     "within_1": [
+      0.778,
+      0.556,
+      0.944
+     ]
+    }
+   },
+   "confusion": {
+    "tidak": {
+     "tidak": 29,
+     "separa": 0,
+     "ya": 18
+    },
+    "separa": {
+     "tidak": 10,
+     "separa": 0,
+     "ya": 9
+    },
+    "ya": {
+     "tidak": 14,
+     "separa": 0,
+     "ya": 34
+    }
+   },
+   "vs_best": {
+    "diff": -0.279,
+    "ci": [
+     -0.476,
+     -0.114
+    ],
+    "p": 0.001,
+    "significant": true
+   }
+  }
+ ]
+}

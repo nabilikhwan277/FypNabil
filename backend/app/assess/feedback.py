@@ -33,6 +33,9 @@ BAND = {3: "markah penuh", 2: "separuh markah atau lebih", 1: "markah rendah"}
 
 def _mistake_line(c: dict) -> dict:
     crit = c["criterion"]
+    if c.get("layer") == "MCQ":   # objective question: the criterion already names the correct option
+        return {"criterion": crit, "status": "tidak",
+                "rumi": f"Pilihan kamu belum tepat. {crit}", "jawi": f"ڤيليهن كامو بلوم تڤت. {crit}"}
     if c["met"] == "separa":
         return {"criterion": crit, "status": "separa",
                 "rumi": f"Hampir betul: {crit}", "jawi": f"همڤير بتول: {crit}"}

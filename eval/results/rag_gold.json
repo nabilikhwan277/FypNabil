@@ -1,0 +1,2340 @@
+{
+ "fiqh_b1_solat_hari_raya_q1": {
+  "question": "Pada tarikh berapakah solat Aidilfitri didirikan?",
+  "reference": "Pada pagi 1 Syawal",
+  "statements": [
+   {
+    "statement": "Solat Aidilfitri didirikan pada pagi 1 Syawal",
+    "lines": [
+     "1. **Rumi:** Solat Aidilfitri ialah solat dua rakaat yang didirikan pada pagi 1 Syawal. | **Jawi:** صلاة عيد الفطري اياله صلاة دوا ركعة يڠ دديريكن ڤد ڤاݢي 1 شوال."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_hari_raya::Pengertian Solat Dua Hari Raya | ڤڠرتين صلاة دوا هاري راي",
+   "fiqh_b1_solat_hari_raya::Lafaz Niat Solat Aidilfitri | لفظ نية صلاة عيد الفطري",
+   "fiqh_b1_solat_hari_raya::Lafaz Niat Solat Aidiladha | لفظ نية صلاة عيد الأضحى",
+   "fiqh_b1_solat_hari_raya::Fadhilat Solat Dua Hari Raya | فضيلة صلاة دوا هاري راي",
+   "fiqh_b1_solat_hari_raya::Lafaz Takbir Aidilfitri / Aidiladha | لفظ تكبير عيد الفطري / عيد الأضحى",
+   "fiqh_b1_solat_hari_raya::Cara Pelaksanaan Solat Dua Hari Raya | چارا ڤلقساناءن صلاة دوا هاري راي",
+   "fiqh_b1_solat_hari_raya::Info Tambahan | اينفو تمبهن",
+   "fiqh_b1_solat_gerhana::Pengertian Solat Gerhana Matahari dan Bulan | ڤڠرتين صلاة ݢرهان ماتاهاري دان بولن",
+   "fiqh_b1_solat_tarawih::Pengertian Solat Tarawih | ڤڠرتين صلاة تراويح",
+   "fiqh_b1_solat_witir::Pengertian Solat Witir | ڤڠرتين صلاة وتر"
+  ],
+  "lines_shown": 57,
+  "cost": 0.000526
+ },
+ "fiqh_b1_solat_tahajud_q4": {
+  "question": "Nyatakan tiga fadhilat solat tahajud.",
+  "reference": "1. Membersihkan hati daripada kebencian sesama manusia. 2. Mencintai Allah SWT dan menguatkan iman. 3. Mempunyai rasa takut kepada Allah SWT dan menyedari bahawa kehidupan di dunia hanya sementara dan singkat.",
+  "statements": [
+   {
+    "statement": "Solat tahajud membersihkan hati daripada kebencian sesama manusia.",
+    "lines": [
+     "- **Rumi:** Membersihkan hati daripada kebencian sesama manusia. | **Jawi:** ممبرسيهكن هاتي درڤد كبنچين سسام مأنسي."
+    ]
+   },
+   {
+    "statement": "Solat tahajud menyebabkan seseorang mencintai Allah SWT.",
+    "lines": [
+     "- **Rumi:** Mencintai Allah SWT dan menguatkan iman. | **Jawi:** منچينتاءي الله سبحانه وتعالى دان مڠواتكن ايمان."
+    ]
+   },
+   {
+    "statement": "Solat tahajud menguatkan iman.",
+    "lines": [
+     "- **Rumi:** Mencintai Allah SWT dan menguatkan iman. | **Jawi:** منچينتاءي الله سبحانه وتعالى دان مڠواتكن ايمان."
+    ]
+   },
+   {
+    "statement": "Solat tahajud menimbulkan rasa takut kepada Allah SWT.",
+    "lines": [
+     "- **Rumi:** Mempunyai rasa takut kepada Allah SWT dan menyedari bahawa kehidupan di dunia hanya sementara dan singkat. | **Jawi:** مڤوڽاءي راس تاكوت كڤد الله سبحانه وتعالى دان مڽدري بهاوا كهيدوڤن ددنيا هاڽ سمنتارا دان سيڠكت."
+    ]
+   },
+   {
+    "statement": "Solat tahajud menyedarkan bahawa kehidupan di dunia hanya sementara dan singkat.",
+    "lines": [
+     "- **Rumi:** Mempunyai rasa takut kepada Allah SWT dan menyedari bahawa kehidupan di dunia hanya sementara dan singkat. | **Jawi:** مڤوڽاءي راس تاكوت كڤد الله سبحانه وتعالى دان مڽدري بهاوا كهيدوڤن ددنيا هاڽ سمنتارا دان سيڠكت."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_tahajud::Situasi (Baca dan fahami situasi di bawah)",
+   "fiqh_b1_solat_tahajud::Pengertian Solat Tahajud | ڤڠرتين صلاة تهجد",
+   "fiqh_b1_solat_tahajud::Lafaz Niat Solat Tahajud | لفظ نية صلاة تهجد",
+   "fiqh_b1_solat_tahajud::Fadhilat Solat Tahajud | فضيلة صلاة تهجد",
+   "fiqh_b1_solat_tahajud::Cara Pelaksanaan Solat Tahajud | چارا ڤلقساناءن صلاة تهجد",
+   "fiqh_b1_solat_hajat::Fadhilat Solat Hajat",
+   "fiqh_b1_solat_tarawih::Fadhilat Solat Tarawih | فضيلة صلاة تراويح"
+  ],
+  "lines_shown": 40,
+  "cost": 0.000506
+ },
+ "fiqh_b1_solat_witir_q6": {
+  "question": "Aminah ingin mendirikan solat witir tiga rakaat iaitu dua rakaat dan diikuti satu rakaat. Terangkan pengertian solat witir, tuliskan kedua-dua lafaz niat yang perlu digunakannya beserta maksud, dan nyatakan satu fadhilat solat witir.",
+  "reference": "Solat witir didirikan selepas solat isyak hingga terbit fajar; witir ertinya ganjil; bilangannya 1, 3, 5, 7, 9 atau 11 rakaat. Niat dua rakaat: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى (Sahaja aku solat sunat witir dua rakaat kerana Allah Taala). Niat satu rakaat: أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَةً لِلَّهِ تَعَالَى (Sahaja aku solat sunat witir satu rakaat kerana Allah Taala). Fadhilat: disukai Allah SWT / mendekatkan diri kepada Allah SWT / memberikan kekuatan rohani dan menenangkan jiwa.",
+  "statements": [
+   {
+    "statement": "Solat witir didirikan selepas solat isyak hingga terbit fajar.",
+    "lines": [
+     "1. **Rumi:** Solat witir didirikan selepas solat isyak hingga terbit fajar. | **Jawi:** صلاة وتر دديريكن سلڤس صلاة عشاء هيڠݢ تربيت فجر."
+    ]
+   },
+   {
+    "statement": "Witir ertinya ganjil.",
+    "lines": [
+     "2. **Rumi:** Witir ertinya ganjil. | **Jawi:** وتر ارتيڽ ݢنجيل."
+    ]
+   },
+   {
+    "statement": "Bilangan rakaat witir ialah 1, 3, 5, 7, 9 atau 11 rakaat.",
+    "lines": [
+     "3. **Rumi:** Bilangannya adalah mengikut angka ganjil iaitu 1, 3, 5, 7, 9 atau 11 rakaat. | **Jawi:** بيلڠنڽ اداله مڠيكوت اڠك ݢنجيل ياءيت 1، 3، 5، 7، 9 اتاو 11 ركعة."
+    ]
+   },
+   {
+    "statement": "Niat solat witir dua rakaat ialah أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى.",
+    "lines": [
+     "أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Maksud niat dua rakaat ialah: Sahaja aku solat sunat witir dua rakaat kerana Allah Taala.",
+    "lines": [
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة سنة وتر دوا ركعة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat sunat witir dua rakaat kerana Allah Taala."
+    ]
+   },
+   {
+    "statement": "Niat solat witir satu rakaat ialah أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَةً لِلَّهِ تَعَالَى.",
+    "lines": [
+     "أُصَلِّي سُنَّةَ ٱلْوِتْرِ رَكْعَةً لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Maksud niat satu rakaat ialah: Sahaja aku solat sunat witir satu rakaat kerana Allah Taala.",
+    "lines": [
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة سنة وتر ساتو ركعة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat sunat witir satu rakaat kerana Allah Taala."
+    ]
+   },
+   {
+    "statement": "Fadhilat solat witir: disukai oleh Allah SWT.",
+    "lines": [
+     "- **Rumi:** Disukai oleh Allah SWT. | **Jawi:** دسوكاءي اوليه الله سبحانه وتعالى."
+    ]
+   },
+   {
+    "statement": "Fadhilat solat witir: mendekatkan diri kepada Allah SWT.",
+    "lines": [
+     "- **Rumi:** Mendekatkan diri kepada Allah SWT. | **Jawi:** مندكتكن ديري كڤد الله سبحانه وتعالى."
+    ]
+   },
+   {
+    "statement": "Fadhilat solat witir: memberikan kekuatan rohani dan menenangkan jiwa.",
+    "lines": [
+     "- **Rumi:** Memberikan kekuatan rohani dan menenangkan jiwa. | **Jawi:** ممبريكن ككواتن روحاني دان منڠڠكن جيوا."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_witir::Pengertian Solat Witir | ڤڠرتين صلاة وتر",
+   "fiqh_b1_solat_witir::Lafaz Niat Solat Witir | لفظ نية صلاة وتر",
+   "fiqh_b1_solat_witir::Fadhilat Solat Witir | فضيلة صلاة وتر",
+   "fiqh_b1_solat_witir::Cara Pelaksanaan Solat Witir | چارا ڤلقساناءن صلاة وتر",
+   "fiqh_b1_solat_hajat::Lafaz Niat Solat Hajat",
+   "fiqh_b1_solat_rawatib::Lafaz Niat Solat Rawatib",
+   "fiqh_b1_solat_tarawih::Lafaz Niat Solat Tarawih | لفظ نية صلاة تراويح",
+   "fiqh_b1_solat_taubat::Pengertian Solat Taubat | ڤڠرتين صلاة توبة"
+  ],
+  "lines_shown": 51,
+  "cost": 0.0006821
+ },
+ "fiqh_b1_solat_taubat_q1": {
+  "question": "Berapakah bilangan rakaat solat taubat?",
+  "reference": "Dua rakaat",
+  "statements": [
+   {
+    "statement": "Solat taubat dilakukan sebanyak dua rakaat.",
+    "lines": [
+     "**Jawi:** صلاة توبة دديريكن سباڽق دوا ركعة كتيك سسأورڠ ايت ايڠين برتوبة كڤد الله سبحانه وتعالى اتس سݢالا دوسا يڠ تله دلاكوكنڽ.",
+     "**Maksudnya (Jawi):** مقصودڽ: تيدق اد سأورڠ همبا يڠ بردوسا مك دي برسوچي (بروضوء) دڠن باءيق، كمودين برديري باݢي منديريكن صلاة دوا ركعة سرتا مموهون كأمڤونن كڤد الله سبحانه وتعالى، ملاءينكن دأمڤونكن دوسا-دوساڽ. لالو، دي ممباچ ايات اين: دان مريك يڠ اڤابيلا ملاكوكن ڤربواتن كجي اتاو منظاليمي ديري مريك سنديري هيڠݢ اخير ايات.",
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة دوا ركعة سنة توبة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat dua rakaat sunat taubat kerana Allah Taala.",
+     "**Rumi:** Solat taubat didirikan sebanyak dua rakaat ketika seseorang itu ingin bertaubat kepada Allah SWT atas segala dosa yang telah dilakukannya.",
+     "Rakaat kedua:",
+     "Rakaat pertama:",
+     "أُصَلِّي رَكْعَتَيْنِ سُنَّةَ ٱلتَّوْبَةِ لِلَّهِ تَعَالَى.",
+     "مَا مِنْ عَبْدٍ يُذْنِبُ ذَنْبًا فَيُحْسِنُ الطَّهُورَ، ثُمَّ يَقُومُ فَيُصَلِّي رَكْعَتَيْنِ، ثُمَّ يَسْتَغْفِرُ اللَّه؛ إِلَّا غَفَرَ لَهُ. ثُمَّ قَرَأَ هَذِهِ الْآيَةَ : وَٱلَّذِينَ إِذَا فَعَلُوا۟ فَـٰحِشَةً أَوْ ظَلَمُوٓا۟ أَنفُسَهُمْ إِلَى آخِرِ الْآيَةِ."
+    ]
+   },
+   {
+    "statement": "Jumlah rakaat solat taubat ialah dua.",
+    "lines": [
+     "**Jawi:** صلاة توبة دديريكن سباڽق دوا ركعة كتيك سسأورڠ ايت ايڠين برتوبة كڤد الله سبحانه وتعالى اتس سݢالا دوسا يڠ تله دلاكوكنڽ.",
+     "**Maksudnya (Jawi):** مقصودڽ: تيدق اد سأورڠ همبا يڠ بردوسا مك دي برسوچي (بروضوء) دڠن باءيق، كمودين برديري باݢي منديريكن صلاة دوا ركعة سرتا مموهون كأمڤونن كڤد الله سبحانه وتعالى، ملاءينكن دأمڤونكن دوسا-دوساڽ. لالو، دي ممباچ ايات اين: دان مريك يڠ اڤابيلا ملاكوكن ڤربواتن كجي اتاو منظاليمي ديري مريك سنديري هيڠݢ اخير ايات.",
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة دوا ركعة سنة توبة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat dua rakaat sunat taubat kerana Allah Taala.",
+     "**Rumi:** Solat taubat didirikan sebanyak dua rakaat ketika seseorang itu ingin bertaubat kepada Allah SWT atas segala dosa yang telah dilakukannya.",
+     "مَا مِنْ عَبْدٍ يُذْنِبُ ذَنْبًا فَيُحْسِنُ الطَّهُورَ، ثُمَّ يَقُومُ فَيُصَلِّي رَكْعَتَيْنِ، ثُمَّ يَسْتَغْفِرُ اللَّه؛ إِلَّا غَفَرَ لَهُ. ثُمَّ قَرَأَ هَذِهِ الْآيَةَ : وَٱلَّذِينَ إِذَا فَعَلُوا۟ فَـٰحِشَةً أَوْ ظَلَمُوٓا۟ أَنفُسَهُمْ إِلَى آخِرِ الْآيَةِ."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_taubat::Pengertian Solat Taubat | ڤڠرتين صلاة توبة",
+   "fiqh_b1_solat_taubat::Lafaz Niat Solat Taubat | لفظ نية صلاة توبة",
+   "fiqh_b1_solat_taubat::Waktu Solat Taubat | وقتو صلاة توبة",
+   "fiqh_b1_solat_taubat::Dalil Solat Taubat | دليل صلاة توبة",
+   "fiqh_b1_solat_taubat::Fadhilat Solat Taubat | فضيلة صلاة توبة",
+   "fiqh_b1_solat_taubat::Peringatan Penting: Taubat tidak akan diterima apabila | ڤريڠاتن ڤنتيڠ: توبة تيدق اكن دتريما اڤابيلا",
+   "fiqh_b1_solat_taubat::Cara Pelaksanaan Solat Taubat | چارا ڤلقساناءن صلاة توبة"
+  ],
+  "lines_shown": 38,
+  "cost": 0.0004306
+ },
+ "fiqh_b1_solat_tarawih_q5": {
+  "question": "Tuliskan lafaz niat solat tarawih dan nyatakan maksudnya.",
+  "reference": "أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat tarawih dua rakaat kerana Allah Taala.",
+  "statements": [
+   {
+    "statement": "Lafaz niat solat tarawih ialah: أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى.",
+    "lines": [
+     "أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Niat solat tarawih ialah untuk solat sunat tarawih",
+    "lines": [
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة سنة تراويح دوا ركعة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat sunat tarawih dua rakaat kerana Allah Taala.",
+     "أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Niat solat tarawih ialah untuk dua rakaat",
+    "lines": [
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة سنة تراويح دوا ركعة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat sunat tarawih dua rakaat kerana Allah Taala.",
+     "أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Niat solat tarawih dilakukan kerana Allah Taala",
+    "lines": [
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة سنة تراويح دوا ركعة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat sunat tarawih dua rakaat kerana Allah Taala.",
+     "أُصَلِّي سُنَّةَ ٱلتَّرَاوِيحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Maksud niat solat tarawih: Sahaja aku solat sunat tarawih dua rakaat kerana Allah Taala.",
+    "lines": [
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة سنة تراويح دوا ركعة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat sunat tarawih dua rakaat kerana Allah Taala."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_tarawih::Pengertian Solat Tarawih | ڤڠرتين صلاة تراويح",
+   "fiqh_b1_solat_tarawih::Lafaz Niat Solat Tarawih | لفظ نية صلاة تراويح",
+   "fiqh_b1_solat_tarawih::Fadhilat Mendirikan Solat Tarawih Bersama dengan Imam | فضيلة منديريكن صلاة تراويح برسام دڠن امام",
+   "fiqh_b1_solat_tarawih::Fadhilat Solat Tarawih | فضيلة صلاة تراويح",
+   "fiqh_b1_solat_tarawih::Cara Pelaksanaan Solat Tarawih | چارا ڤلقساناءن صلاة تراويح",
+   "fiqh_b1_solat_dhuha::Lafaz Niat Solat Dhuha",
+   "fiqh_b1_solat_gerhana::Lafaz Niat Solat Gerhana | لفظ نية صلاة ݢرهان",
+   "fiqh_b1_solat_rawatib::Lafaz Niat Solat Rawatib",
+   "fiqh_b1_solat_tahajud::Lafaz Niat Solat Tahajud | لفظ نية صلاة تهجد",
+   "fiqh_b1_solat_taubat::Lafaz Niat Solat Taubat | لفظ نية صلاة توبة",
+   "fiqh_b1_solat_witir::Lafaz Niat Solat Witir | لفظ نية صلاة وتر"
+  ],
+  "lines_shown": 66,
+  "cost": 0.0009007
+ },
+ "fiqh_b1_solat_taubat_q6": {
+  "question": "Seorang rakan anda menyesal atas dosa yang telah dilakukannya. Terangkan kepadanya pengertian solat taubat, waktu yang digalakkan untuk mendirikannya, lafaz niatnya dan dua fadhilatnya.",
+  "reference": "Solat taubat didirikan dua rakaat ketika seseorang ingin bertaubat kepada Allah SWT atas segala dosa. Digalakkan apabila telah berazam untuk bertaubat, sebaik-baiknya sebelum bertaubat kepada Allah SWT. Niat: أُصَلِّي رَكْعَتَيْنِ سُنَّةَ ٱلتَّوْبَةِ لِلَّهِ تَعَالَى (Sahaja aku solat dua rakaat sunat taubat kerana Allah Taala). Fadhilat: mendapat keampunan Allah SWT; ditinggikan darjat; kemuliaan di dunia dan akhirat; dimurahkan rezeki.",
+  "statements": [
+   {
+    "statement": "Solat taubat didirikan dua rakaat.",
+    "lines": [
+     "**Jawi:** صلاة توبة دديريكن سباڽق دوا ركعة كتيك سسأورڠ ايت ايڠين برتوبة كڤد الله سبحانه وتعالى اتس سݢالا دوسا يڠ تله دلاكوكنڽ.",
+     "**Rumi:** Solat taubat didirikan sebanyak dua rakaat ketika seseorang itu ingin bertaubat kepada Allah SWT atas segala dosa yang telah dilakukannya."
+    ]
+   },
+   {
+    "statement": "Solat taubat didirikan ketika seseorang ingin bertaubat kepada Allah SWT atas segala dosa.",
+    "lines": [
+     "**Jawi:** صلاة توبة دديريكن سباڽق دوا ركعة كتيك سسأورڠ ايت ايڠين برتوبة كڤد الله سبحانه وتعالى اتس سݢالا دوسا يڠ تله دلاكوكنڽ.",
+     "**Rumi:** Solat taubat didirikan sebanyak dua rakaat ketika seseorang itu ingin bertaubat kepada Allah SWT atas segala dosa yang telah dilakukannya."
+    ]
+   },
+   {
+    "statement": "Solat taubat digalakkan apabila seseorang telah berazam untuk bertaubat.",
+    "lines": [
+     "**Jawi:** سأورڠ مؤمن ايت دݢالقكن اونتوق منديريكن صلاة توبة اڤابيلا دي تله برعزم اونتوق برتوبة. سباءيق-باءيقڽ دي هندقله منديريكن صلاة اين ترلبيه دهولو سبلوم برتوبة كڤد الله سبحانه وتعالى.",
+     "**Rumi:** Seorang mukmin itu digalakkan untuk mendirikan solat taubat apabila dia telah berazam untuk bertaubat. Sebaik-baiknya dia hendaklah mendirikan solat ini terlebih dahulu sebelum bertaubat kepada Allah SWT."
+    ]
+   },
+   {
+    "statement": "Solat taubat sebaik-baiknya didirikan sebelum bertaubat kepada Allah SWT.",
+    "lines": [
+     "**Jawi:** سأورڠ مؤمن ايت دݢالقكن اونتوق منديريكن صلاة توبة اڤابيلا دي تله برعزم اونتوق برتوبة. سباءيق-باءيقڽ دي هندقله منديريكن صلاة اين ترلبيه دهولو سبلوم برتوبة كڤد الله سبحانه وتعالى.",
+     "**Rumi:** Seorang mukmin itu digalakkan untuk mendirikan solat taubat apabila dia telah berazam untuk bertaubat. Sebaik-baiknya dia hendaklah mendirikan solat ini terlebih dahulu sebelum bertaubat kepada Allah SWT."
+    ]
+   },
+   {
+    "statement": "Lafaz niat solat taubat ialah: Sahaja aku solat dua rakaat sunat taubat kerana Allah Taala.",
+    "lines": [
+     "**Maksudnya (Jawi):** مقصودڽ: سهاج اكو صلاة دوا ركعة سنة توبة كران الله تعالى.",
+     "**Maksudnya (Rumi):** Sahaja aku solat dua rakaat sunat taubat kerana Allah Taala.",
+     "أُصَلِّي رَكْعَتَيْنِ سُنَّةَ ٱلتَّوْبَةِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Fadhilat solat taubat: mendapat keampunan daripada Allah SWT.",
+    "lines": [
+     "- **Rumi:** Mendapat keampunan daripada Allah SWT. | **Jawi:** منداڤت كأمڤونن درڤد الله سبحانه وتعالى."
+    ]
+   },
+   {
+    "statement": "Fadhilat solat taubat: Allah SWT meninggikan darjat hamba-Nya yang bertaubat.",
+    "lines": [
+     "- **Rumi:** Allah SWT akan meninggikan darjat para hamba-Nya yang mahu bertaubat kepada-Nya. | **Jawi:** الله سبحانه وتعالى اكن منيڠݢيكن درجت ڤارا همباڽ يڠ ماهو برتوبة كڤداڽ."
+    ]
+   },
+   {
+    "statement": "Fadhilat solat taubat: mendapat kemuliaan di dunia dan di akhirat.",
+    "lines": [
+     "- **Rumi:** Mendapat kemuliaan di dunia dan di akhirat. | **Jawi:** منداڤت كمولياءن ددنيا دان دأخرة."
+    ]
+   },
+   {
+    "statement": "Fadhilat solat taubat: dimurahkan rezeki.",
+    "lines": [
+     "- **Rumi:** Dimurahkan rezeki oleh Allah SWT. | **Jawi:** دمورهكن رزقي اوليه الله سبحانه وتعالى."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_taubat::Pengertian Solat Taubat | ڤڠرتين صلاة توبة",
+   "fiqh_b1_solat_taubat::Lafaz Niat Solat Taubat | لفظ نية صلاة توبة",
+   "fiqh_b1_solat_taubat::Waktu Solat Taubat | وقتو صلاة توبة",
+   "fiqh_b1_solat_taubat::Dalil Solat Taubat | دليل صلاة توبة",
+   "fiqh_b1_solat_taubat::Fadhilat Solat Taubat | فضيلة صلاة توبة",
+   "fiqh_b1_solat_taubat::Peringatan Penting: Taubat tidak akan diterima apabila | ڤريڠاتن ڤنتيڠ: توبة تيدق اكن دتريما اڤابيلا",
+   "fiqh_b1_solat_taubat::Cara Pelaksanaan Solat Taubat | چارا ڤلقساناءن صلاة توبة",
+   "fiqh_b1_pengenalan::Hasil Pembelajaran",
+   "fiqh_b1_solat_tahajud::Pengertian Solat Tahajud | ڤڠرتين صلاة تهجد"
+  ],
+  "lines_shown": 51,
+  "cost": 0.0007037
+ },
+ "fiqh_b2_pengertian_puasa_q4": {
+  "question": "Menurut hadis riwayat Muslim, berapa tahunkah Allah menjauhkan daripada api neraka orang yang berpuasa sehari di jalan Allah?",
+  "reference": "70 tahun",
+  "statements": [
+   {
+    "statement": "Allah menjauhkan orang yang berpuasa sehari di jalan Allah daripada api neraka selama 70 tahun.",
+    "lines": [
+     "**Jawi:** مقصودڽ: سسياڤا يڠ برڤواسا سهاري دجالن الله، الله اکن منجاءوهکن ديريڽ ڤد هاري ترسبوت درڤد اڤي نراک سلام 70 تاهون. (رواية مسلم: 1153)",
+     "**Rumi:** Maksudnya: Sesiapa yang berpuasa sehari di jalan Allah, Allah akan menjauhkan dirinya pada hari tersebut daripada api neraka selama 70 tahun. (Riwayat Muslim: 1153)",
+     "ما مِنْ عَبْدٍ يَصُومُ يَوْمًا فِي سَبِيلِ اللَّهِ، إِلَّا بَاعَدَ اللَّهُ، بِذَلِكَ الْيَوْمِ وَجْهَهُ عَنِ النَّارِ سَبْعِينَ خَرِيفًا."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b2_pengertian_puasa::Hasil Pembelajaran (Pelajaran 2)",
+   "fiqh_b2_pengertian_puasa::Dalil Puasa | دليل ڤواسا",
+   "fiqh_b2_pengertian_puasa::Pengertian Puasa | ڤڠرتين ڤواسا",
+   "fiqh_b2_pengertian_puasa::Isi Penting",
+   "fiqh_b2_pengertian_puasa::Hukum Puasa | حکوم ڤواسا",
+   "fiqh_b1_solat_gerhana::Lafaz Seruan untuk Solat Gerhana | لفظ سروان اونتوق صلاة ݢرهان",
+   "fiqh_b1_solat_hajat::Fadhilat Solat Hajat",
+   "fiqh_b1_solat_tarawih::Fadhilat Mendirikan Solat Tarawih Bersama dengan Imam | فضيلة منديريكن صلاة تراويح برسام دڠن امام",
+   "fiqh_b1_solat_taubat::Dalil Solat Taubat | دليل صلاة توبة",
+   "fiqh_b2_fadhilat_puasa::Fadhilat dan Kepentingan",
+   "fiqh_b2_fadhilat_puasa::Info Tambahan | اينفو تمبهن",
+   "fiqh_b2_hikmah_puasa::Hikmah",
+   "fiqh_b2_puasa_wajib_sunat::Puasa Sunat | ڤواسا سنة"
+  ],
+  "lines_shown": 75,
+  "cost": 0.0009962
+ },
+ "fiqh_b1_solat_hajat_q4": {
+  "question": "Nyatakan tiga fadhilat solat hajat.",
+  "reference": "1. Meningkatkan keimanan dan keyakinan kita kepada Allah SWT. 2. Menjauhkan kita daripada gangguan syaitan. 3. Menenangkan hati dan jiwa yang sedang bimbang atau tertekan.",
+  "statements": [
+   {
+    "statement": "Solat hajat meningkatkan keimanan dan keyakinan kepada Allah SWT.",
+    "lines": [
+     "- **Rumi:** Meningkatkan keimanan dan keyakinan kita kepada Allah SWT. | **Jawi:** منيڠكتكن كأيمانن دان كياقينن كيت كڤد الله ﷻ."
+    ]
+   },
+   {
+    "statement": "Solat hajat menjauhkan kita daripada gangguan syaitan.",
+    "lines": [
+     "- **Rumi:** Menjauhkan kita daripada gangguan syaitan. | **Jawi:** منجاءوهكن كيت درڤد ݢڠݢوان شيطان."
+    ]
+   },
+   {
+    "statement": "Solat hajat menenangkan hati dan jiwa yang sedang bimbang atau tertekan.",
+    "lines": [
+     "- **Rumi:** Menenangkan hati dan jiwa yang sedang bimbang atau tertekan. | **Jawi:** منندڠكن هاتي دان جيوا يڠ سدڠ بيمبڠ اتاو ترتكن."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_hajat::Dialog (Baca dialog dan lakonkan situasi di bawah)",
+   "fiqh_b1_solat_hajat::Pengertian Solat Hajat",
+   "fiqh_b1_solat_hajat::Dalil",
+   "fiqh_b1_solat_hajat::Waktu-waktu Haram (Info Tambahan)",
+   "fiqh_b1_solat_hajat::Lafaz Niat Solat Hajat",
+   "fiqh_b1_solat_hajat::Fadhilat Solat Hajat",
+   "fiqh_b1_solat_hajat::Cara Pelaksanaan Solat Hajat (dua rakaat)",
+   "fiqh_b1_pengenalan::Hasil Pembelajaran",
+   "fiqh_b1_solat_dhuha::Fadhilat Solat Dhuha",
+   "fiqh_b1_solat_tahajud::Fadhilat Solat Tahajud | فضيلة صلاة تهجد"
+  ],
+  "lines_shown": 82,
+  "cost": 0.0005775
+ },
+ "fiqh_b1_solat_gerhana_q7": {
+  "question": "Pada suatu malam berlaku gerhana bulan. Terangkan solat yang disunatkan pada ketika itu dari segi pengertian, lafaz niat, dan cara pelaksanaan rakaat pertamanya yang membezakannya daripada solat sunat biasa.",
+  "reference": "Solat gerhana bulan (khusuf) ialah solat yang didirikan kerana terjadinya gerhana, sebanyak dua rakaat dengan empat rukuk dan empat sujud, secara berjemaah atau bersendirian. Niat: أُصَلِّي سُنَّةَ ٱلْخُسُوفِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Rakaat pertama: niat ketika takbiratul ihram, doa iftitah, al-Fatihah, surah yang panjang seperti al-Baqarah, rukuk pertama yang lama, iktidal, membaca al-Fatihah dan surah panjang sekali lagi, rukuk kedua yang lama, iktidal, sujud pertama yang lama, duduk antara dua sujud, sujud kedua yang lama.",
+  "statements": [
+   {
+    "statement": "Solat gerhana bulan (khusuf) ialah solat yang didirikan kerana terjadinya gerhana",
+    "lines": [
+     "**Jawi:** صلاة يڠ دديريكن كران ترجاديڽ ݢرهان ماتاهاري اتاو بولن. صلاة اين دديريكن سباڽق دوا ركعة دڠن امڤت ركوع دان امڤت سجود. صلاة اين دديريكن سچارا برجماعه اتاو برسأورڠن. دسنتكن جوݢ خطبه سلڤس صلاة ايت.",
+     "**Rumi:** Solat yang didirikan kerana terjadinya gerhana matahari atau bulan. Solat ini didirikan sebanyak dua rakaat dengan empat rukuk dan empat sujud. Solat ini didirikan secara berjemaah atau bersendirian. Disunatkan juga khutbah selepas solat itu.",
+     "- **Rumi:** Solat khusuf bermaksud solat gerhana bulan. | **Jawi:** صلاة خُسُوف برمقصود صلاة ݢرهان بولن."
+    ]
+   },
+   {
+    "statement": "Solat gerhana didirikan sebanyak dua rakaat",
+    "lines": [
+     "**Jawi:** صلاة يڠ دديريكن كران ترجاديڽ ݢرهان ماتاهاري اتاو بولن. صلاة اين دديريكن سباڽق دوا ركعة دڠن امڤت ركوع دان امڤت سجود. صلاة اين دديريكن سچارا برجماعه اتاو برسأورڠن. دسنتكن جوݢ خطبه سلڤس صلاة ايت.",
+     "**Rumi:** Solat yang didirikan kerana terjadinya gerhana matahari atau bulan. Solat ini didirikan sebanyak dua rakaat dengan empat rukuk dan empat sujud. Solat ini didirikan secara berjemaah atau bersendirian. Disunatkan juga khutbah selepas solat itu."
+    ]
+   },
+   {
+    "statement": "Solat gerhana mempunyai empat rukuk dan empat sujud",
+    "lines": [
+     "**Jawi:** صلاة يڠ دديريكن كران ترجاديڽ ݢرهان ماتاهاري اتاو بولن. صلاة اين دديريكن سباڽق دوا ركعة دڠن امڤت ركوع دان امڤت سجود. صلاة اين دديريكن سچارا برجماعه اتاو برسأورڠن. دسنتكن جوݢ خطبه سلڤس صلاة ايت.",
+     "**Rumi:** Solat yang didirikan kerana terjadinya gerhana matahari atau bulan. Solat ini didirikan sebanyak dua rakaat dengan empat rukuk dan empat sujud. Solat ini didirikan secara berjemaah atau bersendirian. Disunatkan juga khutbah selepas solat itu."
+    ]
+   },
+   {
+    "statement": "Solat gerhana boleh didirikan secara berjemaah atau bersendirian",
+    "lines": [
+     "**Jawi:** صلاة يڠ دديريكن كران ترجاديڽ ݢرهان ماتاهاري اتاو بولن. صلاة اين دديريكن سباڽق دوا ركعة دڠن امڤت ركوع دان امڤت سجود. صلاة اين دديريكن سچارا برجماعه اتاو برسأورڠن. دسنتكن جوݢ خطبه سلڤس صلاة ايت.",
+     "**Rumi:** Solat yang didirikan kerana terjadinya gerhana matahari atau bulan. Solat ini didirikan sebanyak dua rakaat dengan empat rukuk dan empat sujud. Solat ini didirikan secara berjemaah atau bersendirian. Disunatkan juga khutbah selepas solat itu."
+    ]
+   },
+   {
+    "statement": "Lafaz niat solat gerhana bulan ialah أُصَلِّي سُنَّةَ ٱلْخُسُوفِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى",
+    "lines": [
+     "أُصَلِّي سُنَّةَ ٱلْخُسُوفِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Niat dibaca ketika takbiratul ihram",
+    "lines": [
+     "1. **Rumi:** Niat solat ketika takbiratul ihram | **Jawi:** نية صلاة كتيك تكبيرة الإحرام"
+    ]
+   },
+   {
+    "statement": "Selepas takbiratul ihram dibaca doa iftitah",
+    "lines": [
+     "2. **Rumi:** Membaca doa iftitah | **Jawi:** ممباچ دعاء افتتاح"
+    ]
+   },
+   {
+    "statement": "Dibaca surah al-Fatihah",
+    "lines": [
+     "3. **Rumi:** Membaca surah al-Fatihah | **Jawi:** ممباچ سورة الفاتحة"
+    ]
+   },
+   {
+    "statement": "Dibaca surah yang panjang seperti surah al-Baqarah",
+    "lines": [
+     "4. **Rumi:** Membaca surah yang panjang seperti surah al-Baqarah (imam membaca dengan suara yang lantang) | **Jawi:** ممباچ سورة يڠ ڤنجڠ سڤرتي سورة البقرة (امام ممباچ دڠن سوارا يڠ لنتڠ)"
+    ]
+   },
+   {
+    "statement": "Rukuk pertama dilakukan dalam tempoh yang lama",
+    "lines": [
+     "5. **Rumi:** Rukuk pertama dalam tempoh yang lama | **Jawi:** ركوع ڤرتام دالم تيمڤوه يڠ لام"
+    ]
+   },
+   {
+    "statement": "Selepas rukuk pertama dilakukan iktidal",
+    "lines": [
+     "6. **Rumi:** Iktidal | **Jawi:** اعتدال"
+    ]
+   },
+   {
+    "statement": "Selepas iktidal dibaca semula surah al-Fatihah",
+    "lines": [
+     "7. **Rumi:** Membaca surah al-Fatihah | **Jawi:** ممباچ سورة الفاتحة"
+    ]
+   },
+   {
+    "statement": "Selepas al-Fatihah dibaca semula surah yang panjang",
+    "lines": [
+     "8. **Rumi:** Membaca surah yang panjang | **Jawi:** ممباچ سورة يڠ ڤنجڠ"
+    ]
+   },
+   {
+    "statement": "Rukuk kedua dilakukan dalam tempoh yang lama",
+    "lines": [
+     "9. **Rumi:** Rukuk kedua dalam tempoh yang lama | **Jawi:** ركوع كدوا دالم تيمڤوه يڠ لام"
+    ]
+   },
+   {
+    "statement": "Selepas rukuk kedua dilakukan iktidal",
+    "lines": [
+     "10. **Rumi:** Iktidal | **Jawi:** اعتدال"
+    ]
+   },
+   {
+    "statement": "Sujud pertama dilakukan dalam tempoh yang lama",
+    "lines": [
+     "11. **Rumi:** Sujud pertama dalam tempoh yang lama | **Jawi:** سجود ڤرتام دالم تيمڤوه يڠ لام"
+    ]
+   },
+   {
+    "statement": "Duduk antara dua sujud",
+    "lines": [
+     "12. **Rumi:** Duduk antara dua sujud | **Jawi:** دودوق انتارا دوا سجود"
+    ]
+   },
+   {
+    "statement": "Sujud kedua dilakukan dalam tempoh yang lama",
+    "lines": [
+     "13. **Rumi:** Sujud kedua dalam tempoh yang lama | **Jawi:** سجود كدوا دالم تيمڤوه يڠ لام"
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_gerhana::Pengertian Solat Gerhana Matahari dan Bulan | ڤڠرتين صلاة ݢرهان ماتاهاري دان بولن",
+   "fiqh_b1_solat_gerhana::Hukum Solat Gerhana Matahari dan Bulan | حكوم صلاة ݢرهان ماتاهاري دان بولن",
+   "fiqh_b1_solat_gerhana::Info Tambahan | اينفو تمبهن",
+   "fiqh_b1_solat_gerhana::Lafaz Niat Solat Gerhana | لفظ نية صلاة ݢرهان",
+   "fiqh_b1_solat_gerhana::Lafaz Seruan untuk Solat Gerhana | لفظ سروان اونتوق صلاة ݢرهان",
+   "fiqh_b1_solat_gerhana::Fadhilat Solat Gerhana Matahari dan Bulan | فضيلة صلاة ݢرهان ماتاهاري دان بولن",
+   "fiqh_b1_solat_gerhana::Cara Pelaksanaan Solat Gerhana | چارا ڤلقساناءن صلاة ݢرهان",
+   "fiqh_b1_solat_gerhana::Amalan yang Dilakukan Semasa Gerhana | عملن يڠ دلاكوكن سماس ݢرهان",
+   "fiqh_b1_solat_tahajud::Lafaz Niat Solat Tahajud | لفظ نية صلاة تهجد",
+   "fiqh_b1_solat_tarawih::Lafaz Niat Solat Tarawih | لفظ نية صلاة تراويح",
+   "fiqh_b1_solat_taubat::Lafaz Niat Solat Taubat | لفظ نية صلاة توبة",
+   "fiqh_b1_solat_witir::Lafaz Niat Solat Witir | لفظ نية صلاة وتر"
+  ],
+  "lines_shown": 75,
+  "cost": 0.0013044
+ },
+ "fiqh_b2_puasa_wajib_sunat_q2": {
+  "question": "Pada tarikh berapakah bulan Syawal diharamkan berpuasa?",
+  "reference": "1 Syawal",
+  "statements": [
+   {
+    "statement": "Tarikh bulan Syawal yang diharamkan berpuasa ialah 1 Syawal.",
+    "lines": [
+     "1. **Rumi:** Puasa sunat enam hari pada bulan Syawal kecuali 1 Syawal yang diharamkan berpuasa. | **Jawi:** ڤواسا سنة انم هاري ڤد بولن شوال کچوالي 1 شوال يڠ دحرامکن برڤواسا."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b2_puasa_wajib_sunat::Puasa Wajib | ڤواسا واجب",
+   "fiqh_b2_puasa_wajib_sunat::Puasa Sunat | ڤواسا سنة",
+   "fiqh_b1_solat_gerhana::Hukum Solat Gerhana Matahari dan Bulan | حكوم صلاة ݢرهان ماتاهاري دان بولن",
+   "fiqh_b1_solat_gerhana::Info Tambahan | اينفو تمبهن",
+   "fiqh_b1_solat_gerhana::Pengertian Solat Gerhana Matahari dan Bulan | ڤڠرتين صلاة ݢرهان ماتاهاري دان بولن",
+   "fiqh_b1_solat_hari_raya::Pengertian Solat Dua Hari Raya | ڤڠرتين صلاة دوا هاري راي",
+   "fiqh_b2_batal_puasa::Senarai Perkara yang Membatalkan Puasa",
+   "fiqh_b2_fadhilat_puasa::Fadhilat dan Kepentingan",
+   "fiqh_b2_fadhilat_puasa::Info Tambahan | اينفو تمبهن",
+   "fiqh_b2_pengertian_puasa::Dalil Puasa | دليل ڤواسا",
+   "fiqh_b2_pengertian_puasa::Isi Penting",
+   "jawi_b3_pinjaman_arab::Aktiviti: Petikan \"Ramadan Bulan yang Mulia\" (book p45)"
+  ],
+  "lines_shown": 63,
+  "cost": 0.0009519
+ },
+ "fiqh_b1_solat_hajat_q5": {
+  "question": "Baca dan hafal: Tuliskan lafaz niat solat hajat dan nyatakan maksudnya.",
+  "reference": "أُصَلِّي سُنَّةَ ٱلْحَاجَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksudnya: Sahaja aku solat sunat hajat dua rakaat kerana Allah Taala.",
+  "statements": [
+   {
+    "statement": "Lafaz niat solat hajat dalam bahasa Arab ialah أُصَلِّي سُنَّةَ ٱلْحَاجَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى.",
+    "lines": [
+     "أُصَلِّي سُنَّةَ ٱلْحَاجَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Solat yang diniatkan ialah solat sunat hajat.",
+    "lines": [
+     "- **Jawi:** مقصودڽ: سهاج اكو صلاة سنة حاجت دوا ركعة كران الله تعالى.",
+     "- **Rumi:** Maksudnya: Sahaja aku solat sunat hajat dua rakaat kerana Allah Taala.",
+     "أُصَلِّي سُنَّةَ ٱلْحَاجَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Solat hajat dilakukan sebanyak dua rakaat.",
+    "lines": [
+     "- **Jawi:** مقصودڽ: سهاج اكو صلاة سنة حاجت دوا ركعة كران الله تعالى.",
+     "- **Rumi:** Maksudnya: Sahaja aku solat sunat hajat dua rakaat kerana Allah Taala.",
+     "أُصَلِّي سُنَّةَ ٱلْحَاجَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Solat hajat dilakukan kerana Allah Taala.",
+    "lines": [
+     "- **Jawi:** مقصودڽ: سهاج اكو صلاة سنة حاجت دوا ركعة كران الله تعالى.",
+     "- **Rumi:** Maksudnya: Sahaja aku solat sunat hajat dua rakaat kerana Allah Taala.",
+     "أُصَلِّي سُنَّةَ ٱلْحَاجَةِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى."
+    ]
+   },
+   {
+    "statement": "Maksud niat ialah sahaja aku solat sunat hajat dua rakaat kerana Allah Taala.",
+    "lines": [
+     "- **Jawi:** مقصودڽ: سهاج اكو صلاة سنة حاجت دوا ركعة كران الله تعالى.",
+     "- **Rumi:** Maksudnya: Sahaja aku solat sunat hajat dua rakaat kerana Allah Taala."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b1_solat_hajat::Dialog (Baca dialog dan lakonkan situasi di bawah)",
+   "fiqh_b1_solat_hajat::Pengertian Solat Hajat",
+   "fiqh_b1_solat_hajat::Dalil",
+   "fiqh_b1_solat_hajat::Waktu-waktu Haram (Info Tambahan)",
+   "fiqh_b1_solat_hajat::Lafaz Niat Solat Hajat",
+   "fiqh_b1_solat_hajat::Fadhilat Solat Hajat",
+   "fiqh_b1_solat_hajat::Cara Pelaksanaan Solat Hajat (dua rakaat)",
+   "fiqh_b1_pengenalan::Hasil Pembelajaran",
+   "fiqh_b1_solat_gerhana::Lafaz Niat Solat Gerhana | لفظ نية صلاة ݢرهان",
+   "fiqh_b1_solat_istikharah::Lafaz Niat Solat Istikharah | لفظ نية صلاة استخارة",
+   "fiqh_b1_solat_tahajud::Lafaz Niat Solat Tahajud | لفظ نية صلاة تهجد",
+   "fiqh_b1_solat_tarawih::Lafaz Niat Solat Tarawih | لفظ نية صلاة تراويح",
+   "fiqh_b1_solat_taubat::Lafaz Niat Solat Taubat | لفظ نية صلاة توبة",
+   "fiqh_b1_solat_witir::Lafaz Niat Solat Witir | لفظ نية صلاة وتر"
+  ],
+  "lines_shown": 102,
+  "cost": 0.0009653
+ },
+ "fiqh_b2_hikmah_puasa_q6": {
+  "question": "Semasa berpuasa, Aisyah berkongsi makanan dengan jirannya dan Hakim memilih untuk memberi makan kepada kucing, bukan menyakitinya. Huraikan hikmah puasa yang dapat dikaitkan dengan perbuatan mereka dan nyatakan dua hikmah puasa yang lain.",
+  "reference": "Perbuatan Aisyah berkaitan hikmah mengeratkan persaudaraan sesama Muslim (dan merasai kesusahan orang fakir dan miskin). Perbuatan Hakim berkaitan hikmah menjauhkan diri daripada dosa dan kejahatan. Hikmah lain (mana-mana dua): membentuk sifat sabar, berdisiplin dan bersyukur; menyihatkan tubuh badan dan mencerdaskan otak; mendekatkan diri kepada Allah SWT dengan amalan-amalan mulia.",
+  "statements": [
+   {
+    "statement": "Perbuatan Aisyah berkaitan hikmah mengeratkan persaudaraan sesama Muslim",
+    "lines": [
+     "- Seorang wanita memberikan bekas makanan kepada jirannya di muka pintu rumah (berkongsi makanan / mengeratkan persaudaraan).",
+     "4. **Rumi:** Mengeratkan persaudaraan sesama Muslim. | **Jawi:** مڠرتکن ڤرساوداراءن سسام مسلم."
+    ]
+   },
+   {
+    "statement": "Perbuatan Aisyah berkaitan hikmah merasai kesusahan orang fakir dan miskin",
+    "lines": [
+     "3. **Rumi:** Merasai kesusahan orang fakir dan miskin. | **Jawi:** مراساءي کسوسهن اورڠ فقير دان ميسکين."
+    ]
+   },
+   {
+    "statement": "Perbuatan Hakim berkaitan hikmah menjauhkan diri daripada dosa dan kejahatan",
+    "lines": [
+     "- Seorang budak lelaki berdiri di sebelah seekor kucing sambil berfikir: satu gambaran memberi makan kucing, satu lagi gambaran menyepak kucing (memilih perbuatan baik dan menjauhi kejahatan).",
+     "5. **Rumi:** Menjauhkan diri daripada dosa dan kejahatan. | **Jawi:** منجاءوهکن ديري درڤد دوسا دان کجاهتن."
+    ]
+   },
+   {
+    "statement": "Hikmah puasa ialah membentuk sifat sabar",
+    "lines": [
+     "1. **Rumi:** Membentuk sifat sabar, berdisiplin dan bersyukur. | **Jawi:** ممبنتوق صيفت صبر، برديسيڤلين دان برشکور.",
+     "7. **Rumi:** Mendidik diri agar menjadi seorang yang penyabar. | **Jawi:** منديديق ديري اݢر منجادي سأورڠ يڠ ڤڽابر."
+    ]
+   },
+   {
+    "statement": "Hikmah puasa ialah membentuk sifat berdisiplin",
+    "lines": [
+     "1. **Rumi:** Membentuk sifat sabar, berdisiplin dan bersyukur. | **Jawi:** ممبنتوق صيفت صبر، برديسيڤلين دان برشکور."
+    ]
+   },
+   {
+    "statement": "Hikmah puasa ialah membentuk sifat bersyukur",
+    "lines": [
+     "1. **Rumi:** Membentuk sifat sabar, berdisiplin dan bersyukur. | **Jawi:** ممبنتوق صيفت صبر، برديسيڤلين دان برشکور."
+    ]
+   },
+   {
+    "statement": "Hikmah puasa ialah menyihatkan tubuh badan",
+    "lines": [
+     "2. **Rumi:** Menyihatkan tubuh badan dan mencerdaskan otak. | **Jawi:** مڽيحتکن توبوه بادن دان منچردسکن اوتق."
+    ]
+   },
+   {
+    "statement": "Hikmah puasa ialah mencerdaskan otak",
+    "lines": [
+     "2. **Rumi:** Menyihatkan tubuh badan dan mencerdaskan otak. | **Jawi:** مڽيحتکن توبوه بادن دان منچردسکن اوتق."
+    ]
+   },
+   {
+    "statement": "Hikmah puasa ialah mendekatkan diri kepada Allah SWT dengan amalan-amalan mulia",
+    "lines": [
+     "6. **Rumi:** Mendekatkan diri kepada Allah SWT dengan amalan-amalan mulia. | **Jawi:** مندکتکن ديري کڤد الله سبحانه وتعالى دڠن عملن٢ موليا."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b2_hikmah_puasa::Hikmah",
+   "fiqh_b2_hikmah_puasa::Gambar",
+   "fiqh_b2_fadhilat_puasa::Fadhilat dan Kepentingan",
+   "fiqh_b2_fadhilat_puasa::Pengenalan",
+   "fiqh_b2_pengertian_puasa::Hasil Pembelajaran (Pelajaran 2)",
+   "fiqh_b2_pengertian_puasa::Hukum Puasa | حکوم ڤواسا",
+   "fiqh_b2_pengertian_puasa::Pengertian Puasa | ڤڠرتين ڤواسا"
+  ],
+  "lines_shown": 40,
+  "cost": 0.0009301
+ },
+ "fiqh_b2_hikmah_puasa_q3": {
+  "question": "Nyatakan dua sifat yang dibentuk melalui puasa.",
+  "reference": "Mana-mana dua: sabar, berdisiplin, bersyukur",
+  "statements": [
+   {
+    "statement": "Puasa membentuk sifat sabar.",
+    "lines": [
+     "1. **Rumi:** Membentuk sifat sabar, berdisiplin dan bersyukur. | **Jawi:** ممبنتوق صيفت صبر، برديسيڤلين دان برشکور.",
+     "7. **Rumi:** Mendidik diri agar menjadi seorang yang penyabar. | **Jawi:** منديديق ديري اݢر منجادي سأورڠ يڠ ڤڽابر."
+    ]
+   },
+   {
+    "statement": "Puasa membentuk sifat berdisiplin.",
+    "lines": [
+     "1. **Rumi:** Membentuk sifat sabar, berdisiplin dan bersyukur. | **Jawi:** ممبنتوق صيفت صبر، برديسيڤلين دان برشکور."
+    ]
+   },
+   {
+    "statement": "Puasa membentuk sifat bersyukur.",
+    "lines": [
+     "1. **Rumi:** Membentuk sifat sabar, berdisiplin dan bersyukur. | **Jawi:** ممبنتوق صيفت صبر، برديسيڤلين دان برشکور."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b2_hikmah_puasa::Hikmah",
+   "fiqh_b2_hikmah_puasa::Gambar",
+   "fiqh_b2_batal_puasa::Senarai Perkara yang Membatalkan Puasa",
+   "fiqh_b2_fadhilat_puasa::Fadhilat dan Kepentingan",
+   "fiqh_b2_pengertian_puasa::Hasil Pembelajaran (Pelajaran 2)",
+   "fiqh_b2_pengertian_puasa::Hukum Puasa | حکوم ڤواسا",
+   "fiqh_b2_pengertian_puasa::Isi Penting",
+   "fiqh_b2_puasa_wajib_sunat::Puasa Wajib | ڤواسا واجب"
+  ],
+  "lines_shown": 52,
+  "cost": 0.0006178
+ },
+ "fiqh_b2_batal_puasa_q5": {
+  "question": "Nyatakan tiga perkara yang membatalkan puasa jika dilakukan dengan sengaja.",
+  "reference": "Makan dan minum dengan sengaja walaupun sedikit; memasukkan sesuatu dengan sengaja melalui rongga yang terbuka; muntah dengan sengaja; mengeluarkan mani dengan sengaja (mana-mana tiga).",
+  "statements": [
+   {
+    "statement": "Makan dengan sengaja walaupun sedikit membatalkan puasa.",
+    "lines": [
+     "**Rumi:** Puasa ertinya menahan diri daripada makan dan minum serta melakukan perkara-perkara yang membatalkan puasa. Bermula daripada terbit fajar (subuh) hingga terbenam matahari (maghrib) beserta niat.",
+     "- **Rumi:** Puasa = menahan diri daripada makan, minum dan perkara-perkara yang membatalkan puasa. | **Jawi:** ڤواسا = مناهن ديري درڤد ماکن، مينوم دان ڤرکارا٢ يڠ ممبطلکن ڤواسا.",
+     "1. **Rumi:** Makan dan minum dengan sengaja walaupun sedikit. | **Jawi:** ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت."
+    ]
+   },
+   {
+    "statement": "Minum dengan sengaja walaupun sedikit membatalkan puasa.",
+    "lines": [
+     "**Rumi:** Puasa ertinya menahan diri daripada makan dan minum serta melakukan perkara-perkara yang membatalkan puasa. Bermula daripada terbit fajar (subuh) hingga terbenam matahari (maghrib) beserta niat.",
+     "- **Rumi:** Puasa = menahan diri daripada makan, minum dan perkara-perkara yang membatalkan puasa. | **Jawi:** ڤواسا = مناهن ديري درڤد ماکن، مينوم دان ڤرکارا٢ يڠ ممبطلکن ڤواسا.",
+     "1. **Rumi:** Makan dan minum dengan sengaja walaupun sedikit. | **Jawi:** ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت."
+    ]
+   },
+   {
+    "statement": "Memasukkan sesuatu dengan sengaja melalui rongga yang terbuka membatalkan puasa.",
+    "lines": [
+     "2. **Rumi:** Memasukkan sesuatu dengan sengaja melalui rongga yang terbuka. | **Jawi:** مماسوقکن سسواتو دڠن سڠاج ملالوءي روڠݢ يڠ تربوک."
+    ]
+   },
+   {
+    "statement": "Muntah dengan sengaja membatalkan puasa.",
+    "lines": [
+     "3. **Rumi:** Muntah dengan sengaja. | **Jawi:** مونتهه دڠن سڠاج."
+    ]
+   },
+   {
+    "statement": "Mengeluarkan mani dengan sengaja membatalkan puasa.",
+    "lines": [
+     "7. **Rumi:** Mengeluarkan mani dengan sengaja. | **Jawi:** مڠلوارکن مني دڠن سڠاج."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b2_batal_puasa::Senarai Perkara yang Membatalkan Puasa",
+   "fiqh_b2_pengertian_puasa::Hasil Pembelajaran (Pelajaran 2)",
+   "fiqh_b2_pengertian_puasa::Hukum Puasa | حکوم ڤواسا",
+   "fiqh_b2_pengertian_puasa::Isi Penting",
+   "fiqh_b2_pengertian_puasa::Pengertian Puasa | ڤڠرتين ڤواسا",
+   "fiqh_b2_puasa_wajib_sunat::Puasa Sunat | ڤواسا سنة"
+  ],
+  "lines_shown": 38,
+  "cost": 0.000444
+ },
+ "fiqh_b2_puasa_wajib_sunat_q6": {
+  "question": "Bezakan puasa wajib dan puasa sunat dengan memberikan dua contoh bagi setiap satu. Kemudian terangkan siapakah yang disunatkan berpuasa pada 9 Zulhijjah.",
+  "reference": "Hukum puasa wajib atau sunat bergantung pada jenis puasa. Contoh puasa wajib: puasa Ramadan, qada, kafarah, nazar. Contoh puasa sunat: enam hari Syawal, Isnin dan Khamis, Tasu'a dan Asyura, Nisfu Syaaban, hari putih. Puasa 9 Zulhijjah (sempena wukuf di Arafah) adalah bagi orang yang tidak mengerjakan haji pada tahun itu.",
+  "statements": [
+   {
+    "statement": "Hukum puasa wajib atau sunat bergantung pada jenis puasa.",
+    "lines": [
+     "**Jawi:** واجب اتاو سنة برݢنتوڠ ڤد جنيس ڤواسا يڠ اکن دلاکوکن.",
+     "**Rumi:** Wajib atau sunat bergantung pada jenis puasa yang akan dilakukan."
+    ]
+   },
+   {
+    "statement": "Puasa Ramadan ialah contoh puasa wajib.",
+    "lines": [
+     "1. **Rumi:** Puasa pada bulan Ramadan. | **Jawi:** ڤواسا ڤد بولن رمضان."
+    ]
+   },
+   {
+    "statement": "Puasa qada ialah contoh puasa wajib.",
+    "lines": [
+     "2. **Rumi:** Puasa qada. | **Jawi:** ڤواسا قضاء."
+    ]
+   },
+   {
+    "statement": "Puasa kafarah ialah contoh puasa wajib.",
+    "lines": [
+     "3. **Rumi:** Puasa kafarah. | **Jawi:** ڤواسا کفارة."
+    ]
+   },
+   {
+    "statement": "Puasa nazar ialah contoh puasa wajib.",
+    "lines": [
+     "4. **Rumi:** Puasa nazar. | **Jawi:** ڤواسا نذر."
+    ]
+   },
+   {
+    "statement": "Puasa enam hari Syawal ialah contoh puasa sunat.",
+    "lines": [
+     "1. **Rumi:** Puasa sunat enam hari pada bulan Syawal kecuali 1 Syawal yang diharamkan berpuasa. | **Jawi:** ڤواسا سنة انم هاري ڤد بولن شوال کچوالي 1 شوال يڠ دحرامکن برڤواسا."
+    ]
+   },
+   {
+    "statement": "Puasa hari Isnin dan Khamis ialah contoh puasa sunat.",
+    "lines": [
+     "2. **Rumi:** Puasa hari Isnin dan Khamis setiap minggu. | **Jawi:** ڤواسا هاري اثنين دان خميس ستياڤ ميڠݢو."
+    ]
+   },
+   {
+    "statement": "Puasa Tasu'a dan Asyura ialah contoh puasa sunat.",
+    "lines": [
+     "3. **Rumi:** Puasa hari Tasu'a dan Asyura (9 dan 10 Muharram). | **Jawi:** ڤواسا هاري تاسوعاء دان عاشوراء (9 دان 10 مُحَرَّم)."
+    ]
+   },
+   {
+    "statement": "Puasa Nisfu Syaaban ialah contoh puasa sunat.",
+    "lines": [
+     "5. **Rumi:** Puasa Nisfu Syaaban (15 Syaaban). | **Jawi:** ڤواسا نصف شعبان (15 شعبان)."
+    ]
+   },
+   {
+    "statement": "Puasa hari putih ialah contoh puasa sunat.",
+    "lines": [
+     "6. **Rumi:** Puasa hari putih (al-ayyam al-bid) pada 13, 14 dan 15 setiap bulan Hijrah. | **Jawi:** ڤواسا هاري ڤوتيه (الْأَيَّامُ الْبِيضُ) ڤد 13، 14 دان 15 ستياڤ بولن هجرة."
+    ]
+   },
+   {
+    "statement": "Puasa 9 Zulhijjah dilakukan sempena wukuf di Arafah.",
+    "lines": [
+     "4. **Rumi:** Puasa 9 Zulhijjah (sempena wukuf di Arafah) bagi orang yang tidak mengerjakan haji pada tahun itu. | **Jawi:** ڤواسا 9 ذوالحجة (سمڤنا وقوف دعرفة) باݢي اورڠ يڠ تيدق مڠرجاکن حج ڤد تاهون ايت."
+    ]
+   },
+   {
+    "statement": "Orang yang disunatkan berpuasa pada 9 Zulhijjah ialah orang yang tidak mengerjakan haji pada tahun itu.",
+    "lines": [
+     "4. **Rumi:** Puasa 9 Zulhijjah (sempena wukuf di Arafah) bagi orang yang tidak mengerjakan haji pada tahun itu. | **Jawi:** ڤواسا 9 ذوالحجة (سمڤنا وقوف دعرفة) باݢي اورڠ يڠ تيدق مڠرجاکن حج ڤد تاهون ايت."
+    ]
+   }
+  ],
+  "pool": [
+   "fiqh_b2_puasa_wajib_sunat::Puasa Wajib | ڤواسا واجب",
+   "fiqh_b2_puasa_wajib_sunat::Puasa Sunat | ڤواسا سنة",
+   "fiqh_b2_pengertian_puasa::Dalil Puasa | دليل ڤواسا",
+   "fiqh_b2_pengertian_puasa::Hasil Pembelajaran (Pelajaran 2)",
+   "fiqh_b2_pengertian_puasa::Hukum Puasa | حکوم ڤواسا"
+  ],
+  "lines_shown": 36,
+  "cost": 0.0007946
+ },
+ "jawi_b2_imbuhan_i_ya_q5": {
+  "question": "Apakah yang dimaksudkan dengan suku kata tertutup?",
+  "reference": "Suku kata yang diakhiri oleh huruf konsonan.",
+  "statements": [
+   {
+    "statement": "Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan.",
+    "lines": [
+     "1. **Rumi:** Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan. | **Jawi:** سوكو كات ترتوتوڤ اياله سوكو كات يڠ دأخيري اوليه حروف كونسونن."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b2_imbuhan_i_ya::Ringkasan",
+   "jawi_b2_imbuhan_i_ya::Pengenalan Bab 2 (Pelajaran Kedua) | ڤلاجرن كدوا",
+   "jawi_b2_imbuhan_i_ya::Unit 1: Perhati dan Fahami (ayat bergambar kereta api) | ڤرهاتي دان فهمي",
+   "jawi_b2_imbuhan_i_ya::Baca dan Fahami | باچ دان فهمي",
+   "jawi_b2_imbuhan_i_ya::Tahukah Anda | تاهوكه اندا",
+   "jawi_b2_imbuhan_i_ya::Amalkan | عملكن",
+   "jawi_b2_imbuhan_i_ya::Aktiviti: Syair \"Ayah dan Ibu\" | ايه دان ايبو",
+   "jawi_b1_imbuhan_an_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b3_pinjaman_inggeris::Tahukah Anda | تاهوكه اندا (book p54)"
+  ],
+  "lines_shown": 76,
+  "cost": 0.0005361
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+  "question": "Kenapakah ejaan 'sangkaan' ditulis سڠكاءن, iaitu dengan huruf 'ا' sebelum '-ءن'?",
+  "reference": "Kerana kata dasar 'sangka' (سڠك) berakhir dengan bunyi vokal 'a' tetapi ditulis tanpa huruf 'ا'. Imbuhan '-an' pada kata dasar seperti ini hendaklah diletakkan huruf 'ا' terlebih dahulu diikuti dengan '-ءن'.",
+  "statements": [
+   {
+    "statement": "Kata dasar 'sangka' (سڠك) berakhir dengan bunyi vokal 'a'",
+    "lines": [
+     "**Peraturan (Jawi):** ايمبوهن '-an' ڤد كات داسر يڠ براخير دڠن بوڽي ۏوكل 'a' يڠ دتوليس تنڤا حروف 'ا' هندقله دلتقكن حروف 'ا' ترلبيه دهولو دأيكوتي دڠن '-ءن'.",
+     "**Peraturan (Rumi):** Imbuhan '-an' pada kata dasar yang berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا' hendaklah diletakkan huruf 'ا' terlebih dahulu diikuti dengan '-ءن'.",
+     "2. **Rumi:** Kata dasar yang berakhir dengan bunyi vokal 'a' ditulis tanpa huruf 'ا'. Contoh: rasa (راس), suka (سوك), raja (راج). | **Jawi:** كات داسر يڠ براخير دڠن بوڽي ۏوكل 'a' دتوليس تنڤا حروف 'ا'. چونتوه: راس، سوك، راج",
+     "| sangka | سڠك | sangkaan | سڠكاءن |"
+    ]
+   },
+   {
+    "statement": "Kata dasar 'sangka' ditulis tanpa huruf 'ا'",
+    "lines": [
+     "**Peraturan (Jawi):** ايمبوهن '-an' ڤد كات داسر يڠ براخير دڠن بوڽي ۏوكل 'a' يڠ دتوليس تنڤا حروف 'ا' هندقله دلتقكن حروف 'ا' ترلبيه دهولو دأيكوتي دڠن '-ءن'.",
+     "**Peraturan (Rumi):** Imbuhan '-an' pada kata dasar yang berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا' hendaklah diletakkan huruf 'ا' terlebih dahulu diikuti dengan '-ءن'.",
+     "2. **Rumi:** Kata dasar yang berakhir dengan bunyi vokal 'a' ditulis tanpa huruf 'ا'. Contoh: rasa (راس), suka (سوك), raja (راج). | **Jawi:** كات داسر يڠ براخير دڠن بوڽي ۏوكل 'a' دتوليس تنڤا حروف 'ا'. چونتوه: راس، سوك، راج",
+     "| sangka | سڠك | sangkaan | سڠكاءن |"
+    ]
+   },
+   {
+    "statement": "Imbuhan '-an' pada kata dasar seperti ini hendaklah diletakkan huruf 'ا' terlebih dahulu",
+    "lines": [
+     "**Peraturan (Jawi):** ايمبوهن '-an' ڤد كات داسر يڠ براخير دڠن بوڽي ۏوكل 'a' يڠ دتوليس تنڤا حروف 'ا' هندقله دلتقكن حروف 'ا' ترلبيه دهولو دأيكوتي دڠن '-ءن'.",
+     "**Peraturan (Rumi):** Imbuhan '-an' pada kata dasar yang berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا' hendaklah diletakkan huruf 'ا' terlebih dahulu diikuti dengan '-ءن'.",
+     "Contoh (kata dasar + ا + ءن):",
+     "| sangka | سڠك | sangkaan | سڠكاءن |"
+    ]
+   },
+   {
+    "statement": "Imbuhan '-an' diikuti dengan '-ءن' selepas huruf 'ا'",
+    "lines": [
+     "**Peraturan (Jawi):** ايمبوهن '-an' ڤد كات داسر يڠ براخير دڠن بوڽي ۏوكل 'a' يڠ دتوليس تنڤا حروف 'ا' هندقله دلتقكن حروف 'ا' ترلبيه دهولو دأيكوتي دڠن '-ءن'.",
+     "**Peraturan (Rumi):** Imbuhan '-an' pada kata dasar yang berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا' hendaklah diletakkan huruf 'ا' terlebih dahulu diikuti dengan '-ءن'.",
+     "Contoh (kata dasar + ا + ءن):",
+     "| sangka | سڠك | sangkaan | سڠكاءن |"
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b1_imbuhan_an_hamzah_nun::Perhati dan Fahami | ڤرهاتي دان فهمي",
+   "jawi_b1_imbuhan_an_hamzah_nun::Dua Jenis Kata Dasar | ايمبوهن '-an' دڠن مڠݢوناكن حروف '-ءن'",
+   "jawi_b1_imbuhan_an_hamzah_nun::i. Kata dasar yang berakhir dengan huruf 'ا'",
+   "jawi_b1_imbuhan_an_hamzah_nun::ii. Kata dasar yang berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا'",
+   "jawi_b1_imbuhan_an_hamzah_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b1_imbuhan_an_hamzah_nun::Amalkan | عملكن",
+   "jawi_b1_imbuhan_an_hamzah_nun::Aktiviti: Petikan Sambutan Hari Kemerdekaan | اكتيۏيتي",
+   "jawi_b1_imbuhan_an_alif_nun::Amalkan | عملكن"
+  ],
+  "lines_shown": 58,
+  "cost": 0.0009568
+ },
+ "jawi_b3_pinjaman_arab_q5": {
+  "question": "Kata pinjaman bahasa Arab terbahagi kepada berapa kategori? Namakan.",
+  "reference": "Dua: istilah agama dan kata umum",
+  "statements": [
+   {
+    "statement": "Kata pinjaman bahasa Arab terbahagi kepada dua kategori",
+    "lines": [
+     "Kata pinjaman bahasa Arab terbahagi kepada dua:"
+    ]
+   },
+   {
+    "statement": "Kategori pertama ialah istilah agama",
+    "lines": [
+     "**Jawi:** كات ڤينجمن بهاس عرب يڠ ترݢولوڠ سباݢاي ايستيله كأݢاماٴن اتاو يڠ بركاٴيتن دڠن اكتيۏيتي اݢام إسلام دككلكن ايجاٴن اصلن.",
+     "**Rumi:** Kata pinjaman bahasa Arab yang tergolong sebagai istilah keagamaan atau yang berkaitan dengan aktiviti agama Islam dikekalkan ejaan asalnya.",
+     "- **Rumi:** Istilah agama – berkaitan dengan aktiviti keagamaan. | **Jawi:** ايستيله اݢام – بركاٴيتن دڠن اكتيۏيتي كأݢاماٴن."
+    ]
+   },
+   {
+    "statement": "Kategori kedua ialah kata umum",
+    "lines": [
+     "**Jawi:** كات ڤينجمن بهاس عرب دالم كاتݢوري كات عموم دتوليس مڠيكوت بوڽي ملايو.",
+     "**Rumi:** Kata pinjaman bahasa Arab dalam kategori kata umum ditulis mengikut bunyi Melayu.",
+     "- **Rumi:** Kata umum – kata umum digunakan dalam aktiviti kehidupan. | **Jawi:** كات عموم – كات عموم دݢوناكن دالم اكتيۏيتي كهيدوڤن."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b3_pinjaman_arab::Ringkasan",
+   "jawi_b3_pinjaman_arab::Pengenalan Bab 3 (book p37)",
+   "jawi_b3_pinjaman_arab::Pengertian (book p38)",
+   "jawi_b3_pinjaman_arab::i. Kata Pinjaman Bahasa Arab dalam Kategori Istilah Keagamaan (book p39-41)",
+   "jawi_b3_pinjaman_arab::ii. Kata Pinjaman Bahasa Arab dalam Kategori Kata Umum (book p41-44)",
+   "jawi_b3_pinjaman_arab::Aktiviti: Petikan \"Ramadan Bulan yang Mulia\" (book p45)",
+   "jawi_b3_pinjaman_arab::Tahukah Anda (book p47)",
+   "jawi_b3_pinjaman_arab::Nilai / Amalan (Amalkan)"
+  ],
+  "lines_shown": 141,
+  "cost": 0.0011562
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q13": {
+  "question": "Nyatakan uji kaji yang dijalankan oleh angkasawan negara.",
+  "reference": "Tiga uji kaji yang membabitkan sel di angkasa, mikrob di angkasa serta pengkristalan protein.",
+  "statements": [
+   {
+    "statement": "Angkasawan negara menjalankan tiga uji kaji.",
+    "lines": [
+     "- Angkasawan itu akan mengadakan tiga uji kaji membabitkan tiga komponen penting iaitu sel di angkasa, mikrob di angkasa serta pengkristalan protein sebelum pulang ke bumi.",
+     "اڠکاساوان ايت اکن مڠاداکن تيݢ اوجي کاجي ممبابيتکن تيݢ کومڤونن ڤنتيڠ ياءيت سيل دأڠکاس، ميکروب دأڠکاس سرتا ڤڠکريستلن ڤروتين سبلوم ڤولڠ کبومي. کجاياءن اڠکاساوان نݢارا اين مننداکن ساتو لاݢي ڤنچاڤاين دڤريڠکت دنيا يڠ ممڤو دراءيه اوليه رعيت نݢارا اين. منوروت سجاره، ڤنروکاءن ماءنسي کأڠکاس لڤس برمولا ڤد اڤريل 1961 اڤابيلا اڠکاساوان ڤرتام ياءيت يوري ݢاݢارين دري روسيا ممبوات ڤوسيڠن برسجاره مڠليليڠي بومي دڠن ماس 108 مينيت، مڠݢوناکن کاڤل اڠکاس ۏوستوک 1 سبرت ليم تن."
+    ]
+   },
+   {
+    "statement": "Salah satu uji kaji membabitkan sel di angkasa.",
+    "lines": [
+     "- Angkasawan itu akan mengadakan tiga uji kaji membabitkan tiga komponen penting iaitu sel di angkasa, mikrob di angkasa serta pengkristalan protein sebelum pulang ke bumi.",
+     "اڠکاساوان ايت اکن مڠاداکن تيݢ اوجي کاجي ممبابيتکن تيݢ کومڤونن ڤنتيڠ ياءيت سيل دأڠکاس، ميکروب دأڠکاس سرتا ڤڠکريستلن ڤروتين سبلوم ڤولڠ کبومي. کجاياءن اڠکاساوان نݢارا اين مننداکن ساتو لاݢي ڤنچاڤاين دڤريڠکت دنيا يڠ ممڤو دراءيه اوليه رعيت نݢارا اين. منوروت سجاره، ڤنروکاءن ماءنسي کأڠکاس لڤس برمولا ڤد اڤريل 1961 اڤابيلا اڠکاساوان ڤرتام ياءيت يوري ݢاݢارين دري روسيا ممبوات ڤوسيڠن برسجاره مڠليليڠي بومي دڠن ماس 108 مينيت، مڠݢوناکن کاڤل اڠکاس ۏوستوک 1 سبرت ليم تن."
+    ]
+   },
+   {
+    "statement": "Salah satu uji kaji membabitkan mikrob di angkasa.",
+    "lines": [
+     "- Angkasawan itu akan mengadakan tiga uji kaji membabitkan tiga komponen penting iaitu sel di angkasa, mikrob di angkasa serta pengkristalan protein sebelum pulang ke bumi.",
+     "اڠکاساوان ايت اکن مڠاداکن تيݢ اوجي کاجي ممبابيتکن تيݢ کومڤونن ڤنتيڠ ياءيت سيل دأڠکاس، ميکروب دأڠکاس سرتا ڤڠکريستلن ڤروتين سبلوم ڤولڠ کبومي. کجاياءن اڠکاساوان نݢارا اين مننداکن ساتو لاݢي ڤنچاڤاين دڤريڠکت دنيا يڠ ممڤو دراءيه اوليه رعيت نݢارا اين. منوروت سجاره، ڤنروکاءن ماءنسي کأڠکاس لڤس برمولا ڤد اڤريل 1961 اڤابيلا اڠکاساوان ڤرتام ياءيت يوري ݢاݢارين دري روسيا ممبوات ڤوسيڠن برسجاره مڠليليڠي بومي دڠن ماس 108 مينيت، مڠݢوناکن کاڤل اڠکاس ۏوستوک 1 سبرت ليم تن."
+    ]
+   },
+   {
+    "statement": "Salah satu uji kaji membabitkan pengkristalan protein.",
+    "lines": [
+     "- Angkasawan itu akan mengadakan tiga uji kaji membabitkan tiga komponen penting iaitu sel di angkasa, mikrob di angkasa serta pengkristalan protein sebelum pulang ke bumi.",
+     "اڠکاساوان ايت اکن مڠاداکن تيݢ اوجي کاجي ممبابيتکن تيݢ کومڤونن ڤنتيڠ ياءيت سيل دأڠکاس، ميکروب دأڠکاس سرتا ڤڠکريستلن ڤروتين سبلوم ڤولڠ کبومي. کجاياءن اڠکاساوان نݢارا اين مننداکن ساتو لاݢي ڤنچاڤاين دڤريڠکت دنيا يڠ ممڤو دراءيه اوليه رعيت نݢارا اين. منوروت سجاره، ڤنروکاءن ماءنسي کأڠکاس لڤس برمولا ڤد اڤريل 1961 اڤابيلا اڠکاساوان ڤرتام ياءيت يوري ݢاݢارين دري روسيا ممبوات ڤوسيڠن برسجاره مڠليليڠي بومي دڠن ماس 108 مينيت، مڠݢوناکن کاڤل اڠکاس ۏوستوک 1 سبرت ليم تن."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b2_imbuhan_i_hamzah_ya::Ringkasan",
+   "jawi_b2_imbuhan_i_hamzah_ya::Unit 2: Perhati dan Fahami (gambar angkasawan negara) | ڤرهاتي دان فهمي",
+   "jawi_b2_imbuhan_i_hamzah_ya::Baca dan Fahami: Imbuhan '-i' dengan Menggunakan Huruf '-ءي' | ايمبوهن '-i' دڠن مڠݢوناكن حروف '-ءي'",
+   "jawi_b2_imbuhan_i_hamzah_ya::Tahukah Anda | تاهوكه اندا",
+   "jawi_b2_imbuhan_i_hamzah_ya::Amalkan | عملكن",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا"
+  ],
+  "lines_shown": 75,
+  "cost": 0.0009779
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+  "question": "Huruf apakah digunakan untuk mengeja imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u'?",
+  "reference": "Huruf '-ءي' (hamzah ya)",
+  "statements": [
+   {
+    "statement": "Huruf yang digunakan untuk mengeja imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u' ialah '-ءي'.",
+    "lines": [
+     "**Jawi:** ايمبوهن '-ءي' دݢوناكن ڤد كات٢ برايكوت:",
+     "**Peraturan (Jawi):** ايمبوهن '-i' ڤد سوكو كات تربوک دڠن ۏوكل 'a' دان 'u' هندقله دأيجا دڠن مڠݢوناكن حروف '-ءي'.",
+     "**Peraturan (Rumi):** Imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u' hendaklah dieja dengan menggunakan huruf '-ءي'.",
+     "**Rumi:** Imbuhan '-ءي' digunakan pada kata-kata berikut:"
+    ]
+   },
+   {
+    "statement": "Huruf '-ءي' ialah hamzah ya.",
+    "lines": []
+   },
+   {
+    "statement": "Imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u' dieja dengan huruf '-ءي'.",
+    "lines": [
+     "**Peraturan (Jawi):** ايمبوهن '-i' ڤد سوكو كات تربوک دڠن ۏوكل 'a' دان 'u' هندقله دأيجا دڠن مڠݢوناكن حروف '-ءي'.",
+     "**Peraturan (Rumi):** Imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u' hendaklah dieja dengan menggunakan huruf '-ءي'.",
+     "- i. Kata dengan imbuhan '-i' pada suku kata terbuka yang menggunakan vokal 'ا' dan 'و'. Contoh: dibantui (دبنتوءي), cintai (چينتاءي), memesrai (ممسراءي).",
+     "- i. كات دڠن ايمبوهن '-i' ڤد سوكو كات تربوک يڠ مڠݢوناكن ۏوكل 'ا' دان 'و'. چونتوه: دبنتوءي، چينتاءي، ممسراءي."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b2_imbuhan_i_hamzah_ya::Ringkasan",
+   "jawi_b2_imbuhan_i_hamzah_ya::Unit 2: Perhati dan Fahami (gambar angkasawan negara) | ڤرهاتي دان فهمي",
+   "jawi_b2_imbuhan_i_hamzah_ya::Baca dan Fahami: Imbuhan '-i' dengan Menggunakan Huruf '-ءي' | ايمبوهن '-i' دڠن مڠݢوناكن حروف '-ءي'",
+   "jawi_b2_imbuhan_i_hamzah_ya::Tahukah Anda | تاهوكه اندا",
+   "jawi_b2_imbuhan_i_hamzah_ya::Amalkan | عملكن",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا",
+   "jawi_b1_imbuhan_an_alif_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b1_imbuhan_an_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b2_imbuhan_i_ya::Tahukah Anda | تاهوكه اندا"
+  ],
+  "lines_shown": 81,
+  "cost": 0.0012967
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+  "question": "Kelaskan perkataan berikut mengikut imbuhan '-ن', '-ان' dan '-ءن': كݢمبيراءن، بوروان، اولسن، ڤرنياݢاءن، ݢوراوان، لارين.",
+  "reference": "'-ن': ulasan, larian; '-ان': buruan, gurauan; '-ءن': kegembiraan, perniagaan",
+  "statements": [
+   {
+    "statement": "ulasan ialah perkataan berimbuhan '-ن'",
+    "lines": [
+     "| اولسن (ulasan) | بوروان (buruan) | كݢمبيراءن (kegembiraan) |"
+    ]
+   },
+   {
+    "statement": "larian ialah perkataan berimbuhan '-ن'",
+    "lines": [
+     "| لارين (larian) | ݢوراوان (gurauan) | كسوكاءن (kesukaan) |"
+    ]
+   },
+   {
+    "statement": "buruan ialah perkataan berimbuhan '-ان'",
+    "lines": [
+     "| اولسن (ulasan) | بوروان (buruan) | كݢمبيراءن (kegembiraan) |"
+    ]
+   },
+   {
+    "statement": "gurauan ialah perkataan berimbuhan '-ان'",
+    "lines": [
+     "5. **Rumi:** **Gurauan** bersama rakan hendaklah berpada-pada dan tidak melampaui batas. | **Jawi:** **ݢوراوان** برسام راكن هندقله برڤادا-ڤادا دان تيدق ملمڤاوءي باتس. (gambar dua pelajar bergurau)",
+     "| لارين (larian) | ݢوراوان (gurauan) | كسوكاءن (kesukaan) |"
+    ]
+   },
+   {
+    "statement": "kegembiraan ialah perkataan berimbuhan '-ءن'",
+    "lines": [
+     "3. Imbuhan '-an' ditulis dengan huruf '-ءن'. Contoh: kegembiraan (كݢمبيراءن)",
+     "3. ايمبوهن '-an' دتوليس دڠن حروف '-ءن'. چونتوه: كݢمبيراءن",
+     "Contoh lain yang dicetak dalam bab ini: kegembiraan كݢمبيراءن, bacaan باچاءن, perpustakaan (di perpustakaan دڤرڤوستاكاءن), kebangsaan كبڠساءن, perayaan ڤراياءن, kemerdekaan كمرديكاءن, kesukaan كسوكاءن, perniagaan ڤرنياݢاءن, permintaan ڤرمينتاءن, pertanyaan ڤرتاڽاءن, ketibaan كتيباءن, pekerjaan ڤكرجاءن, ciptaan چيڤتاءن.",
+     "| اولسن (ulasan) | بوروان (buruan) | كݢمبيراءن (kegembiraan) |"
+    ]
+   },
+   {
+    "statement": "perniagaan ialah perkataan berimbuhan '-ءن'",
+    "lines": [
+     "Contoh lain yang dicetak dalam bab ini: kegembiraan كݢمبيراءن, bacaan باچاءن, perpustakaan (di perpustakaan دڤرڤوستاكاءن), kebangsaan كبڠساءن, perayaan ڤراياءن, kemerdekaan كمرديكاءن, kesukaan كسوكاءن, perniagaan ڤرنياݢاءن, permintaan ڤرمينتاءن, pertanyaan ڤرتاڽاءن, ketibaan كتيباءن, pekerjaan ڤكرجاءن, ciptaan چيڤتاءن.",
+     "| كتنڠن (ketenangan) | كڤولاوان (kepulauan) | ڤرنياݢاءن (perniagaan) |"
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b1_imbuhan_an_hamzah_nun::Perhati dan Fahami | ڤرهاتي دان فهمي",
+   "jawi_b1_imbuhan_an_hamzah_nun::Dua Jenis Kata Dasar | ايمبوهن '-an' دڠن مڠݢوناكن حروف '-ءن'",
+   "jawi_b1_imbuhan_an_hamzah_nun::i. Kata dasar yang berakhir dengan huruf 'ا'",
+   "jawi_b1_imbuhan_an_hamzah_nun::ii. Kata dasar yang berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا'",
+   "jawi_b1_imbuhan_an_hamzah_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b1_imbuhan_an_hamzah_nun::Amalkan | عملكن",
+   "jawi_b1_imbuhan_an_hamzah_nun::Aktiviti: Petikan Sambutan Hari Kemerdekaan | اكتيۏيتي",
+   "jawi_b1_imbuhan_an_alif_nun::Aktiviti (buku p12-13) | اكتيۏيتي",
+   "jawi_b1_imbuhan_an_alif_nun::Contoh Ayat (seperti dicetak) | چونتوه",
+   "jawi_b1_imbuhan_an_alif_nun::Jadual Contoh Kata",
+   "jawi_b1_imbuhan_an_nun::Pengenalan Bab 1 (Pelajaran Pertama) | ڤلاجرن ڤرتام"
+  ],
+  "lines_shown": 106,
+  "cost": 0.0015409
+ },
+ "jawi_b3_pinjaman_inggeris_q5": {
+  "question": "Kata pinjaman bahasa Inggeris yang berakhir dengan bunyi 'e' pepet hendaklah ditulis dengan huruf apa?",
+  "reference": "Huruf 'ى' (ye)",
+  "statements": [
+   {
+    "statement": "Kata pinjaman bahasa Inggeris yang berakhir dengan bunyi 'e' pepet ditulis dengan huruf 'ى' (ye)",
+    "lines": [
+     "### vi. Kata yang berakhir dengan bunyi 'e' pepet ditulis dengan huruf 'ى' (ye) (book p50)",
+     "**Jawi:** كات يڠ براخير دڠن بوڽي 'e' ڤڤت هندقله دتوليس دڠن حروف 'ى' (ye).",
+     "**Rumi:** Kata yang berakhir dengan bunyi 'e' pepet hendaklah ditulis dengan huruf 'ى' (ye)."
+    ]
+   },
+   {
+    "statement": "The letter used is ye (ى)",
+    "lines": [
+     "### vi. Kata yang berakhir dengan bunyi 'e' pepet ditulis dengan huruf 'ى' (ye) (book p50)",
+     "**Jawi:** كات يڠ براخير دڠن بوڽي 'e' ڤڤت هندقله دتوليس دڠن حروف 'ى' (ye).",
+     "**Rumi:** Kata yang berakhir dengan bunyi 'e' pepet hendaklah ditulis dengan huruf 'ى' (ye).",
+     "| kapitalisme | كاڤيتاليسمى |",
+     "| liberalisme | ليبراليسمى |",
+     "| mekanisme | ميكانيسمى |",
+     "| nasionalisme | ناسيوناليسمى |",
+     "| patriotisme | ڤاتريوتيسمى |",
+     "| vandalisme | ۏنداليسمى |"
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b3_pinjaman_inggeris::Ringkasan",
+   "jawi_b3_pinjaman_inggeris::1. Kaedah Menulis Kata Pinjaman Bahasa Inggeris | قاعده منوليس كات ڤينجمن بهاس ايڠݢريس",
+   "jawi_b3_pinjaman_inggeris::2. Contoh Ayat | چونتوه ايات (book p52)",
+   "jawi_b3_pinjaman_inggeris::Aktiviti (book p53)",
+   "jawi_b3_pinjaman_inggeris::Tahukah Anda | تاهوكه اندا (book p54)",
+   "jawi_b3_pinjaman_inggeris::Amalkan | عملكن (book p54)"
+  ],
+  "lines_shown": 101,
+  "cost": 0.0005644
+ },
+ "jawi_b2_imbuhan_i_ya_q7": {
+  "question": "Menurut 'Tahukah Anda', vokal apakah yang digunakan pada kata dasar yang berakhir dengan suku kata tertutup yang imbuhan '-i'nya dieja dengan huruf '-ي'?",
+  "reference": "Vokal 'a', 'i' atau 'u'.",
+  "statements": [
+   {
+    "statement": "The vowels are 'a', 'i' or 'u'.",
+    "lines": [
+     "2. **Rumi:** Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dan menggunakan vokal 'a', 'i' atau 'u' hendaklah dieja dengan huruf '-ي'. | **Jawi:** ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ دان مڠݢوناكن ۏوكل 'a'، 'i' اتاو 'u' هندقله دأيجا دڠن حروف '-ي'."
+    ]
+   },
+   {
+    "statement": "The rule applies to base words ending with a closed syllable.",
+    "lines": [
+     "2. **Rumi:** Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dan menggunakan vokal 'a', 'i' atau 'u' hendaklah dieja dengan huruf '-ي'. | **Jawi:** ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ دان مڠݢوناكن ۏوكل 'a'، 'i' اتاو 'u' هندقله دأيجا دڠن حروف '-ي'."
+    ]
+   },
+   {
+    "statement": "The suffix '-i' is spelled with the letter '-ي' in such words.",
+    "lines": [
+     "**Peraturan (Jawi):** ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ هندقله دأيجا دڠن حروف '-ي' سهاج.",
+     "**Peraturan (Rumi):** Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup hendaklah dieja dengan huruf '-ي' sahaja.",
+     "2. **Rumi:** Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dan menggunakan vokal 'a', 'i' atau 'u' hendaklah dieja dengan huruf '-ي'. | **Jawi:** ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ دان مڠݢوناكن ۏوكل 'a'، 'i' اتاو 'u' هندقله دأيجا دڠن حروف '-ي'."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b2_imbuhan_i_ya::Ringkasan",
+   "jawi_b2_imbuhan_i_ya::Pengenalan Bab 2 (Pelajaran Kedua) | ڤلاجرن كدوا",
+   "jawi_b2_imbuhan_i_ya::Unit 1: Perhati dan Fahami (ayat bergambar kereta api) | ڤرهاتي دان فهمي",
+   "jawi_b2_imbuhan_i_ya::Baca dan Fahami | باچ دان فهمي",
+   "jawi_b2_imbuhan_i_ya::Tahukah Anda | تاهوكه اندا",
+   "jawi_b2_imbuhan_i_ya::Amalkan | عملكن",
+   "jawi_b2_imbuhan_i_ya::Aktiviti: Syair \"Ayah dan Ibu\" | ايه دان ايبو",
+   "jawi_b1_imbuhan_an_alif_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b1_imbuhan_an_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b2_imbuhan_i_hamzah_ya::Tahukah Anda | تاهوكه اندا"
+  ],
+  "lines_shown": 75,
+  "cost": 0.0006239
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+  "question": "Bilakah angkasawan negara berlepas ke angkasa?",
+  "reference": "Pada 10 Oktober 2007 jam 9:21 malam waktu Malaysia (28 Ramadan)",
+  "statements": [
+   {
+    "statement": "Angkasawan negara berlepas ke angkasa pada 10 Oktober 2007",
+    "lines": [
+     "- Misi selama 11 hari ini berjaya dijalankan dari 10 Oktober 2007 jam 9:21 malam waktu Malaysia dan selamat kembali ke bumi pada 21 Oktober 2007 pada jam 6:44 petang waktu Malaysia.",
+     "Kapsyen: **Rumi:** Doktor Sheikh Muszaphar Shukor telah menerokai angkasa lepas pada 10 Oktober 2007. | **Jawi:** دوکتور شيخ مظفر شکور تله منروکاءي اڠکاس لڤس ڤد 10 اوکتوبر 2007",
+     "بلياو برلڤس کستيشن اڠکاس انتارابڠسا (اءي.ايس.ايس) مڠݢوناکن روکيت سويوز تي.عيم.أي-11 دري تاڤق ڤلنچرن بايکونور، کازکستن. بلياو ميرتاءي ڤروݢرم اين دباوه ڤرجنجين برسام روسيا منروسي ڤروݢرم اڠکاساوان مليسيا. ميسي سلاما 11 هاري اين تله برجاي دجالنکن دري 10 اوکتوبر 2007 جم 9:21 مالم وقتو مليسيا دان سلامت کمبالي کبومي ڤد 21 اوکتوبر 2007 ڤد جم 6:44 ڤتڠ وقتو مليسيا."
+    ]
+   },
+   {
+    "statement": "Pelancaran berlaku pada jam 9:21 malam",
+    "lines": [
+     "- Misi selama 11 hari ini berjaya dijalankan dari 10 Oktober 2007 jam 9:21 malam waktu Malaysia dan selamat kembali ke bumi pada 21 Oktober 2007 pada jam 6:44 petang waktu Malaysia.",
+     "بلياو برلڤس کستيشن اڠکاس انتارابڠسا (اءي.ايس.ايس) مڠݢوناکن روکيت سويوز تي.عيم.أي-11 دري تاڤق ڤلنچرن بايکونور، کازکستن. بلياو ميرتاءي ڤروݢرم اين دباوه ڤرجنجين برسام روسيا منروسي ڤروݢرم اڠکاساوان مليسيا. ميسي سلاما 11 هاري اين تله برجاي دجالنکن دري 10 اوکتوبر 2007 جم 9:21 مالم وقتو مليسيا دان سلامت کمبالي کبومي ڤد 21 اوکتوبر 2007 ڤد جم 6:44 ڤتڠ وقتو مليسيا."
+    ]
+   },
+   {
+    "statement": "Masa tersebut ialah waktu Malaysia",
+    "lines": [
+     "- Misi selama 11 hari ini berjaya dijalankan dari 10 Oktober 2007 jam 9:21 malam waktu Malaysia dan selamat kembali ke bumi pada 21 Oktober 2007 pada jam 6:44 petang waktu Malaysia.",
+     "بلياو برلڤس کستيشن اڠکاس انتارابڠسا (اءي.ايس.ايس) مڠݢوناکن روکيت سويوز تي.عيم.أي-11 دري تاڤق ڤلنچرن بايکونور، کازکستن. بلياو ميرتاءي ڤروݢرم اين دباوه ڤرجنجين برسام روسيا منروسي ڤروݢرم اڠکاساوان مليسيا. ميسي سلاما 11 هاري اين تله برجاي دجالنکن دري 10 اوکتوبر 2007 جم 9:21 مالم وقتو مليسيا دان سلامت کمبالي کبومي ڤد 21 اوکتوبر 2007 ڤد جم 6:44 ڤتڠ وقتو مليسيا."
+    ]
+   },
+   {
+    "statement": "Pelancaran berlaku pada 28 Ramadan",
+    "lines": [
+     "- Beliau mencatat sejarah sebagai angkasawan Islam pertama yang menjalani ibadah puasa dan meraikan Hari Raya Aidilfitri di angkasa lepas. Beliau berlepas pada 28 Ramadan ketika umat Islam berpuasa. Seluruh rakyat Malaysia menyaksikan detik bersejarah itu menerusi siaran langsung di semua saluran televisyen utama serta beberapa skrin di lokasi strategik di ibu negara dan beberapa bandar besar.",
+     "دوکتور شيخ مظفر منچاتت سجاره سباݢاي اڠکاساوان إسلام ڤرتام يڠ منجالني عبادة ڤواسا دان مراعيکن هاري راي عيدالفطري دأڠکاس لڤس. بلياو برلڤس ڤد 28 رمضان دساعت اومت إسلام برڤواسا. دمليسيا، سلوروه رعيت مڽقسيکن دتيق برسجاره ايت منروسي سيارن لڠسوڠ دسموا سالورن تيليۏيشن اوتام سرتا بيراڤ سکرين يڠ دتمڤتکن دلوکاسي ستراتيݢيک دأيبو نݢارا دان بيراڤ باندر بسر."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b2_imbuhan_i_hamzah_ya::Ringkasan",
+   "jawi_b2_imbuhan_i_hamzah_ya::Unit 2: Perhati dan Fahami (gambar angkasawan negara) | ڤرهاتي دان فهمي",
+   "jawi_b2_imbuhan_i_hamzah_ya::Baca dan Fahami: Imbuhan '-i' dengan Menggunakan Huruf '-ءي' | ايمبوهن '-i' دڠن مڠݢوناكن حروف '-ءي'",
+   "jawi_b2_imbuhan_i_hamzah_ya::Tahukah Anda | تاهوكه اندا",
+   "jawi_b2_imbuhan_i_hamzah_ya::Amalkan | عملكن",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا"
+  ],
+  "lines_shown": 75,
+  "cost": 0.0010794
+ },
+ "jawi_b3_pinjaman_arab_q11": {
+  "question": "Di manakah termaktubnya dalil yang mewajibkan berpuasa?",
+  "reference": "Dalam al-Quran, hadis dan ijmak ulama.",
+  "statements": [
+   {
+    "statement": "Dalil yang mewajibkan berpuasa termaktub dalam al-Quran.",
+    "lines": [
+     "**Jawi:** مقصودڽ: واهاي اورڠ يڠ برايمان، دواجبکن کامو برڤواسا سباݢايمان دواجبکن اتس اومت سبلوم کامو، موده-مودهن کامو برتقوى. (سورة البقرة: 183)",
+     "**Rumi (ringkasan isi petikan):** Berpuasa pada bulan Ramadan merupakan salah satu rukun Islam. Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam (ghurub). Dalil kewajipan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama. Puasa memberi kesan positif: menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; serta meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan. Pada bulan Ramadan umat Islam boleh menggandakan ibadah seperti bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+     "**Rumi:** Maksudnya: Wahai orang yang beriman, diwajibkan kamu berpuasa sebagaimana diwajibkan atas umat sebelum kamu, mudah-mudahan kamu bertakwa. (Surah al-Baqarah: 183)",
+     "برڤواسا ڤد بولن رمضان مروڤاكن ساله ساتو روكون إسلام. ڤواسا برمقصود مناهن ديري درڤد ماكن دان مينوم مولاٴي دري تربيت فجر هيڠݢ ماتاهاري غروب. دليل يڠ منكسكن كواجيڤن برڤواسا ترمكتوب دالم القرءان، حديث دان اجماع علماء."
+    ]
+   },
+   {
+    "statement": "Dalil yang mewajibkan berpuasa termaktub dalam hadis.",
+    "lines": [
+     "**Rumi (ringkasan isi petikan):** Berpuasa pada bulan Ramadan merupakan salah satu rukun Islam. Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam (ghurub). Dalil kewajipan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama. Puasa memberi kesan positif: menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; serta meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan. Pada bulan Ramadan umat Islam boleh menggandakan ibadah seperti bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+     "برڤواسا ڤد بولن رمضان مروڤاكن ساله ساتو روكون إسلام. ڤواسا برمقصود مناهن ديري درڤد ماكن دان مينوم مولاٴي دري تربيت فجر هيڠݢ ماتاهاري غروب. دليل يڠ منكسكن كواجيڤن برڤواسا ترمكتوب دالم القرءان، حديث دان اجماع علماء."
+    ]
+   },
+   {
+    "statement": "Dalil yang mewajibkan berpuasa termaktub dalam ijmak ulama.",
+    "lines": [
+     "**Rumi (ringkasan isi petikan):** Berpuasa pada bulan Ramadan merupakan salah satu rukun Islam. Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam (ghurub). Dalil kewajipan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama. Puasa memberi kesan positif: menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; serta meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan. Pada bulan Ramadan umat Islam boleh menggandakan ibadah seperti bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+     "برڤواسا ڤد بولن رمضان مروڤاكن ساله ساتو روكون إسلام. ڤواسا برمقصود مناهن ديري درڤد ماكن دان مينوم مولاٴي دري تربيت فجر هيڠݢ ماتاهاري غروب. دليل يڠ منكسكن كواجيڤن برڤواسا ترمكتوب دالم القرءان، حديث دان اجماع علماء."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b3_pinjaman_arab::Ringkasan",
+   "jawi_b3_pinjaman_arab::Pengenalan Bab 3 (book p37)",
+   "jawi_b3_pinjaman_arab::Pengertian (book p38)",
+   "jawi_b3_pinjaman_arab::i. Kata Pinjaman Bahasa Arab dalam Kategori Istilah Keagamaan (book p39-41)",
+   "jawi_b3_pinjaman_arab::ii. Kata Pinjaman Bahasa Arab dalam Kategori Kata Umum (book p41-44)",
+   "jawi_b3_pinjaman_arab::Aktiviti: Petikan \"Ramadan Bulan yang Mulia\" (book p45)",
+   "jawi_b3_pinjaman_arab::Tahukah Anda (book p47)",
+   "jawi_b3_pinjaman_arab::Nilai / Amalan (Amalkan)",
+   "fiqh_b2_fadhilat_puasa::Info Tambahan | اينفو تمبهن",
+   "fiqh_b2_pengertian_puasa::Dalil Puasa | دليل ڤواسا",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا",
+   "jawi_b3_pinjaman_inggeris::Amalkan | عملكن (book p54)"
+  ],
+  "lines_shown": 182,
+  "cost": 0.0017121
+ },
+ "jawi_b1_imbuhan_an_nun_q10": {
+  "question": "Berapakah jumlah murid dan guru pengiring yang terlibat dalam lawatan itu?",
+  "reference": "Tiga puluh lima orang murid dan lima orang guru pengiring",
+  "statements": [
+   {
+    "statement": "Lawatan itu melibatkan tiga puluh lima orang murid.",
+    "lines": [
+     "- Lawatan disertai oleh tiga puluh lima orang murid dan lima orang guru pengiring.",
+     "لاوتن اين دسرتاءي اوليه تيݢ ڤولوه ليم اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ. كامي برتولق دڠن منائيقي بس ڤد ڤوكول 7:00 ڤاݢي دان تيبا دسان ڤد ڤوكول 10:00 ڤاݢي. ستروسڽ كامي دباوا ملاوت كمردي اݢروتيكنولوݢي ڤرك دڤكن تانه رات. دسيني كامي مليهت ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن."
+    ]
+   },
+   {
+    "statement": "Lawatan itu disertai oleh lima orang guru pengiring.",
+    "lines": [
+     "- Lawatan disertai oleh tiga puluh lima orang murid dan lima orang guru pengiring.",
+     "لاوتن اين دسرتاءي اوليه تيݢ ڤولوه ليم اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ. كامي برتولق دڠن منائيقي بس ڤد ڤوكول 7:00 ڤاݢي دان تيبا دسان ڤد ڤوكول 10:00 ڤاݢي. ستروسڽ كامي دباوا ملاوت كمردي اݢروتيكنولوݢي ڤرك دڤكن تانه رات. دسيني كامي مليهت ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b1_imbuhan_an_nun::Pengenalan Bab 1 (Pelajaran Pertama) | ڤلاجرن ڤرتام",
+   "jawi_b1_imbuhan_an_nun::Unit 1: Perhati dan Fahami (Sudut Jawi) | سودوت جاوي",
+   "jawi_b1_imbuhan_an_nun::Imbuhan '-an' dengan Menggunakan Huruf '-ن' | ايمبوهن '-an' دڠن مڠݢوناكن حروف '-ن'",
+   "jawi_b1_imbuhan_an_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b1_imbuhan_an_nun::Amalkan | عملكن",
+   "jawi_b1_imbuhan_an_nun::Aktiviti: Petikan \"Laporan Lawatan Sambil Belajar ke Cameron Highlands\" | لاڤورن لاوتن سمبيل بلاجر ككامرون هايلند",
+   "jawi_b1_imbuhan_an_hamzah_nun::Aktiviti: Petikan Sambutan Hari Kemerdekaan | اكتيۏيتي",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا",
+   "jawi_b4_akronim_melayu::Unit 1: Perhati dan Fahami (gambar perjalanan hidup) | ڤرهاتي دان فهمي"
+  ],
+  "lines_shown": 131,
+  "cost": 0.0014432
+ },
+ "jawi_b3_pinjaman_arab_q13": {
+  "question": "Apakah ibadah yang boleh digandakan semasa bulan Ramadan?",
+  "reference": "Bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+  "statements": [
+   {
+    "statement": "Bersedekah ialah ibadah yang boleh digandakan pada bulan Ramadan.",
+    "lines": [
+     "**Rumi (ringkasan isi petikan):** Berpuasa pada bulan Ramadan merupakan salah satu rukun Islam. Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam (ghurub). Dalil kewajipan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama. Puasa memberi kesan positif: menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; serta meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan. Pada bulan Ramadan umat Islam boleh menggandakan ibadah seperti bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+     "دڠن كحاضيرن رمضان، قوم مسلمين داڤت مڠݢنداكن عبادة سڤرتي برصدقه، صلاة سنة تراويح دمسجد، تداروس القرءان، دودوق دالم مجليس علمو دان بربوک ڤواسا سچارا برجماعه."
+    ]
+   },
+   {
+    "statement": "Solat sunat tarawih di masjid ialah ibadah yang boleh digandakan pada bulan Ramadan.",
+    "lines": [
+     "**Rumi (ringkasan isi petikan):** Berpuasa pada bulan Ramadan merupakan salah satu rukun Islam. Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam (ghurub). Dalil kewajipan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama. Puasa memberi kesan positif: menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; serta meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan. Pada bulan Ramadan umat Islam boleh menggandakan ibadah seperti bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+     "دڠن كحاضيرن رمضان، قوم مسلمين داڤت مڠݢنداكن عبادة سڤرتي برصدقه، صلاة سنة تراويح دمسجد، تداروس القرءان، دودوق دالم مجليس علمو دان بربوک ڤواسا سچارا برجماعه."
+    ]
+   },
+   {
+    "statement": "Tadarus al-Quran ialah ibadah yang boleh digandakan pada bulan Ramadan.",
+    "lines": [
+     "**Rumi (ringkasan isi petikan):** Berpuasa pada bulan Ramadan merupakan salah satu rukun Islam. Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam (ghurub). Dalil kewajipan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama. Puasa memberi kesan positif: menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; serta meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan. Pada bulan Ramadan umat Islam boleh menggandakan ibadah seperti bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+     "دڠن كحاضيرن رمضان، قوم مسلمين داڤت مڠݢنداكن عبادة سڤرتي برصدقه، صلاة سنة تراويح دمسجد، تداروس القرءان، دودوق دالم مجليس علمو دان بربوک ڤواسا سچارا برجماعه."
+    ]
+   },
+   {
+    "statement": "Duduk dalam majlis ilmu ialah ibadah yang boleh digandakan pada bulan Ramadan.",
+    "lines": [
+     "**Rumi (ringkasan isi petikan):** Berpuasa pada bulan Ramadan merupakan salah satu rukun Islam. Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam (ghurub). Dalil kewajipan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama. Puasa memberi kesan positif: menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; serta meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan. Pada bulan Ramadan umat Islam boleh menggandakan ibadah seperti bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+     "دڠن كحاضيرن رمضان، قوم مسلمين داڤت مڠݢنداكن عبادة سڤرتي برصدقه، صلاة سنة تراويح دمسجد، تداروس القرءان، دودوق دالم مجليس علمو دان بربوک ڤواسا سچارا برجماعه."
+    ]
+   },
+   {
+    "statement": "Berbuka puasa secara berjemaah ialah ibadah yang boleh digandakan pada bulan Ramadan.",
+    "lines": [
+     "**Rumi (ringkasan isi petikan):** Berpuasa pada bulan Ramadan merupakan salah satu rukun Islam. Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam (ghurub). Dalil kewajipan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama. Puasa memberi kesan positif: menyucikan jiwa daripada sifat-sifat mazmumah seperti riak, bangga diri dan takbur; serta meningkatkan tahap kesihatan dengan merehatkan perut daripada mencerna makanan. Pada bulan Ramadan umat Islam boleh menggandakan ibadah seperti bersedekah, solat sunat tarawih di masjid, tadarus al-Quran, duduk dalam majlis ilmu dan berbuka puasa secara berjemaah.",
+     "دڠن كحاضيرن رمضان، قوم مسلمين داڤت مڠݢنداكن عبادة سڤرتي برصدقه، صلاة سنة تراويح دمسجد، تداروس القرءان، دودوق دالم مجليس علمو دان بربوک ڤواسا سچارا برجماعه."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b3_pinjaman_arab::Ringkasan",
+   "jawi_b3_pinjaman_arab::Pengenalan Bab 3 (book p37)",
+   "jawi_b3_pinjaman_arab::Pengertian (book p38)",
+   "jawi_b3_pinjaman_arab::i. Kata Pinjaman Bahasa Arab dalam Kategori Istilah Keagamaan (book p39-41)",
+   "jawi_b3_pinjaman_arab::ii. Kata Pinjaman Bahasa Arab dalam Kategori Kata Umum (book p41-44)",
+   "jawi_b3_pinjaman_arab::Aktiviti: Petikan \"Ramadan Bulan yang Mulia\" (book p45)",
+   "jawi_b3_pinjaman_arab::Tahukah Anda (book p47)",
+   "jawi_b3_pinjaman_arab::Nilai / Amalan (Amalkan)",
+   "fiqh_b1_pengenalan::Dialog (Baca dan fahami dialog di bawah)",
+   "fiqh_b1_solat_tarawih::Pengertian Solat Tarawih | ڤڠرتين صلاة تراويح",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا",
+   "jawi_b2_imbuhan_i_ya::Amalkan | عملكن",
+   "jawi_b3_pinjaman_inggeris::Amalkan | عملكن (book p54)",
+   "jawi_b4_akronim_dilafaz::Baca dan Fahami | باچ دان فهمي",
+   "jawi_b4_akronim_melayu::Amalkan | عملكن"
+  ],
+  "lines_shown": 192,
+  "cost": 0.0017685
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+  "question": "Apakah jenis roket yang digunakan oleh angkasawan negara?",
+  "reference": "Roket Soyuz TMA-11",
+  "statements": [
+   {
+    "statement": "The national astronaut flew into space using a rocket.",
+    "lines": [
+     "- Beliau berlepas ke Stesen Angkasa Antarabangsa (I.S.S) menggunakan roket Soyuz TMA-11 dari tapak pelancaran Baikonur, Kazakhstan, dalam program di bawah perjanjian bersama Rusia menerusi Program Angkasawan Malaysia.",
+     "بلياو برلڤس کستيشن اڠکاس انتارابڠسا (اءي.ايس.ايس) مڠݢوناکن روکيت سويوز تي.عيم.أي-11 دري تاڤق ڤلنچرن بايکونور، کازکستن. بلياو ميرتاءي ڤروݢرم اين دباوه ڤرجنجين برسام روسيا منروسي ڤروݢرم اڠکاساوان مليسيا. ميسي سلاما 11 هاري اين تله برجاي دجالنکن دري 10 اوکتوبر 2007 جم 9:21 مالم وقتو مليسيا دان سلامت کمبالي کبومي ڤد 21 اوکتوبر 2007 ڤد جم 6:44 ڤتڠ وقتو مليسيا.",
+     "ڤلنچرن برمولا دڠن ڤلڤسن امڤت ڤلونچق اوتام روکيت يڠ دڤادنکن دڠن بيراڤ بنديرا مليسيا دان 29 ساعت کمودين سويوز تي.عيم.أي-11 ممبله لاڠيت چره بايکونور دان ممڤسوناکن مريک يڠ مڽقسيکنڽ. سمبيلن مينيت سلڤس ايت، روکيت برکناءن منچاڤاي کتيڠݢين 200 کيلوميتر دري بومي. ۏيسوال دوکتور شيخ مظفر دڠن جالور ݢميلڠ دلڠنڽ مولا دڤنچرکن دان دتونتون سلوروه رعيت مليسيا دڠن ڤنوه بڠݢ. کاڤل اڠکاس ايت اکن برليݢر دأوربيت سلاما دوا هاري سبلوم برچنتوم دڠن اءي.ايس.ايس ڤد کتيڠݢين 360 کيلوميتر."
+    ]
+   },
+   {
+    "statement": "The rocket type used was Soyuz TMA-11.",
+    "lines": [
+     "- Beliau berlepas ke Stesen Angkasa Antarabangsa (I.S.S) menggunakan roket Soyuz TMA-11 dari tapak pelancaran Baikonur, Kazakhstan, dalam program di bawah perjanjian bersama Rusia menerusi Program Angkasawan Malaysia.",
+     "بلياو برلڤس کستيشن اڠکاس انتارابڠسا (اءي.ايس.ايس) مڠݢوناکن روکيت سويوز تي.عيم.أي-11 دري تاڤق ڤلنچرن بايکونور، کازکستن. بلياو ميرتاءي ڤروݢرم اين دباوه ڤرجنجين برسام روسيا منروسي ڤروݢرم اڠکاساوان مليسيا. ميسي سلاما 11 هاري اين تله برجاي دجالنکن دري 10 اوکتوبر 2007 جم 9:21 مالم وقتو مليسيا دان سلامت کمبالي کبومي ڤد 21 اوکتوبر 2007 ڤد جم 6:44 ڤتڠ وقتو مليسيا.",
+     "ڤلنچرن برمولا دڠن ڤلڤسن امڤت ڤلونچق اوتام روکيت يڠ دڤادنکن دڠن بيراڤ بنديرا مليسيا دان 29 ساعت کمودين سويوز تي.عيم.أي-11 ممبله لاڠيت چره بايکونور دان ممڤسوناکن مريک يڠ مڽقسيکنڽ. سمبيلن مينيت سلڤس ايت، روکيت برکناءن منچاڤاي کتيڠݢين 200 کيلوميتر دري بومي. ۏيسوال دوکتور شيخ مظفر دڠن جالور ݢميلڠ دلڠنڽ مولا دڤنچرکن دان دتونتون سلوروه رعيت مليسيا دڠن ڤنوه بڠݢ. کاڤل اڠکاس ايت اکن برليݢر دأوربيت سلاما دوا هاري سبلوم برچنتوم دڠن اءي.ايس.ايس ڤد کتيڠݢين 360 کيلوميتر."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b2_imbuhan_i_hamzah_ya::Ringkasan",
+   "jawi_b2_imbuhan_i_hamzah_ya::Unit 2: Perhati dan Fahami (gambar angkasawan negara) | ڤرهاتي دان فهمي",
+   "jawi_b2_imbuhan_i_hamzah_ya::Baca dan Fahami: Imbuhan '-i' dengan Menggunakan Huruf '-ءي' | ايمبوهن '-i' دڠن مڠݢوناكن حروف '-ءي'",
+   "jawi_b2_imbuhan_i_hamzah_ya::Tahukah Anda | تاهوكه اندا",
+   "jawi_b2_imbuhan_i_hamzah_ya::Amalkan | عملكن",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا"
+  ],
+  "lines_shown": 75,
+  "cost": 0.001027
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q9": {
+  "question": "Senaraikan aktiviti yang diadakan pada acara kemuncak sambutan Hari Kemerdekaan.",
+  "reference": "Larian kemerdekaan, nyanyian lagu patriotik, pertandingan pakaian patriotik, tayangan filem merdeka dan majlis penyampaian hadiah.",
+  "statements": [
+   {
+    "statement": "Larian kemerdekaan",
+    "lines": [
+     "- Acara kemuncak diadakan pada 1 September setiap tahun dengan larian kemerdekaan, nyanyian lagu patriotik, pertandingan pakaian patriotik dan tayangan filem merdeka. Perayaan diakhiri dengan majlis penyampaian hadiah kepada para pemenang acara yang dipertandingkan.",
+     "اچارا كمونچق دأداكن ڤد 1 سيڤتيمبر ڤد ستياڤ تاهون دڠن لارين كمرديكاءن، ڽاڽين لاݢو ڤاتريوتيك، ڤرتنديڠن ڤاكاين ڤاتريوتيك دان تايڠن فيلم مرديك. ڤراياءن دأخيري دڠن مجليس ڤڽمڤاين هديه كڤد ڤارا ڤمنڠ اچارا يڠ دڤرتنديڠكن."
+    ]
+   },
+   {
+    "statement": "Nyanyian lagu patriotik",
+    "lines": [
+     "- Acara kemuncak diadakan pada 1 September setiap tahun dengan larian kemerdekaan, nyanyian lagu patriotik, pertandingan pakaian patriotik dan tayangan filem merdeka. Perayaan diakhiri dengan majlis penyampaian hadiah kepada para pemenang acara yang dipertandingkan.",
+     "اچارا كمونچق دأداكن ڤد 1 سيڤتيمبر ڤد ستياڤ تاهون دڠن لارين كمرديكاءن، ڽاڽين لاݢو ڤاتريوتيك، ڤرتنديڠن ڤاكاين ڤاتريوتيك دان تايڠن فيلم مرديك. ڤراياءن دأخيري دڠن مجليس ڤڽمڤاين هديه كڤد ڤارا ڤمنڠ اچارا يڠ دڤرتنديڠكن."
+    ]
+   },
+   {
+    "statement": "Pertandingan pakaian patriotik",
+    "lines": [
+     "- Acara kemuncak diadakan pada 1 September setiap tahun dengan larian kemerdekaan, nyanyian lagu patriotik, pertandingan pakaian patriotik dan tayangan filem merdeka. Perayaan diakhiri dengan majlis penyampaian hadiah kepada para pemenang acara yang dipertandingkan.",
+     "اچارا كمونچق دأداكن ڤد 1 سيڤتيمبر ڤد ستياڤ تاهون دڠن لارين كمرديكاءن، ڽاڽين لاݢو ڤاتريوتيك، ڤرتنديڠن ڤاكاين ڤاتريوتيك دان تايڠن فيلم مرديك. ڤراياءن دأخيري دڠن مجليس ڤڽمڤاين هديه كڤد ڤارا ڤمنڠ اچارا يڠ دڤرتنديڠكن."
+    ]
+   },
+   {
+    "statement": "Tayangan filem merdeka",
+    "lines": [
+     "- Acara kemuncak diadakan pada 1 September setiap tahun dengan larian kemerdekaan, nyanyian lagu patriotik, pertandingan pakaian patriotik dan tayangan filem merdeka. Perayaan diakhiri dengan majlis penyampaian hadiah kepada para pemenang acara yang dipertandingkan.",
+     "اچارا كمونچق دأداكن ڤد 1 سيڤتيمبر ڤد ستياڤ تاهون دڠن لارين كمرديكاءن، ڽاڽين لاݢو ڤاتريوتيك، ڤرتنديڠن ڤاكاين ڤاتريوتيك دان تايڠن فيلم مرديك. ڤراياءن دأخيري دڠن مجليس ڤڽمڤاين هديه كڤد ڤارا ڤمنڠ اچارا يڠ دڤرتنديڠكن."
+    ]
+   },
+   {
+    "statement": "Majlis penyampaian hadiah",
+    "lines": [
+     "- Acara kemuncak diadakan pada 1 September setiap tahun dengan larian kemerdekaan, nyanyian lagu patriotik, pertandingan pakaian patriotik dan tayangan filem merdeka. Perayaan diakhiri dengan majlis penyampaian hadiah kepada para pemenang acara yang dipertandingkan.",
+     "اچارا كمونچق دأداكن ڤد 1 سيڤتيمبر ڤد ستياڤ تاهون دڠن لارين كمرديكاءن، ڽاڽين لاݢو ڤاتريوتيك، ڤرتنديڠن ڤاكاين ڤاتريوتيك دان تايڠن فيلم مرديك. ڤراياءن دأخيري دڠن مجليس ڤڽمڤاين هديه كڤد ڤارا ڤمنڠ اچارا يڠ دڤرتنديڠكن."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b1_imbuhan_an_hamzah_nun::Perhati dan Fahami | ڤرهاتي دان فهمي",
+   "jawi_b1_imbuhan_an_hamzah_nun::Dua Jenis Kata Dasar | ايمبوهن '-an' دڠن مڠݢوناكن حروف '-ءن'",
+   "jawi_b1_imbuhan_an_hamzah_nun::i. Kata dasar yang berakhir dengan huruf 'ا'",
+   "jawi_b1_imbuhan_an_hamzah_nun::ii. Kata dasar yang berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا'",
+   "jawi_b1_imbuhan_an_hamzah_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b1_imbuhan_an_hamzah_nun::Amalkan | عملكن",
+   "jawi_b1_imbuhan_an_hamzah_nun::Aktiviti: Petikan Sambutan Hari Kemerdekaan | اكتيۏيتي",
+   "jawi_b1_imbuhan_an_nun::Aktiviti: Petikan \"Laporan Lawatan Sambil Belajar ke Cameron Highlands\" | لاڤورن لاوتن سمبيل بلاجر ككامرون هايلند",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا"
+  ],
+  "lines_shown": 103,
+  "cost": 0.0013838
+ },
+ "jawi_b1_imbuhan_an_nun_q11": {
+  "question": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+  "reference": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+  "statements": [
+   {
+    "statement": "Di Mardi Agroteknologi Park terdapat pelbagai jenis bunga ros.",
+    "lines": [
+     "- Mereka dibawa melawat ke Mardi Agroteknologi Park di pekan Tanah Rata. Di sini mereka melihat pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan.",
+     "لاوتن اين دسرتاءي اوليه تيݢ ڤولوه ليم اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ. كامي برتولق دڠن منائيقي بس ڤد ڤوكول 7:00 ڤاݢي دان تيبا دسان ڤد ڤوكول 10:00 ڤاݢي. ستروسڽ كامي دباوا ملاوت كمردي اݢروتيكنولوݢي ڤرك دڤكن تانه رات. دسيني كامي مليهت ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن."
+    ]
+   },
+   {
+    "statement": "Di Mardi Agroteknologi Park terdapat strawberi.",
+    "lines": [
+     "- Mereka dibawa melawat ke Mardi Agroteknologi Park di pekan Tanah Rata. Di sini mereka melihat pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan.",
+     "لاوتن اين دسرتاءي اوليه تيݢ ڤولوه ليم اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ. كامي برتولق دڠن منائيقي بس ڤد ڤوكول 7:00 ڤاݢي دان تيبا دسان ڤد ڤوكول 10:00 ڤاݢي. ستروسڽ كامي دباوا ملاوت كمردي اݢروتيكنولوݢي ڤرك دڤكن تانه رات. دسيني كامي مليهت ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن."
+    ]
+   },
+   {
+    "statement": "Di Mardi Agroteknologi Park terdapat pelbagai jenis buah-buahan.",
+    "lines": [
+     "- Mereka dibawa melawat ke Mardi Agroteknologi Park di pekan Tanah Rata. Di sini mereka melihat pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan.",
+     "لاوتن اين دسرتاءي اوليه تيݢ ڤولوه ليم اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ. كامي برتولق دڠن منائيقي بس ڤد ڤوكول 7:00 ڤاݢي دان تيبا دسان ڤد ڤوكول 10:00 ڤاݢي. ستروسڽ كامي دباوا ملاوت كمردي اݢروتيكنولوݢي ڤرك دڤكن تانه رات. دسيني كامي مليهت ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن."
+    ]
+   }
+  ],
+  "pool": [
+   "jawi_b1_imbuhan_an_nun::Pengenalan Bab 1 (Pelajaran Pertama) | ڤلاجرن ڤرتام",
+   "jawi_b1_imbuhan_an_nun::Unit 1: Perhati dan Fahami (Sudut Jawi) | سودوت جاوي",
+   "jawi_b1_imbuhan_an_nun::Imbuhan '-an' dengan Menggunakan Huruf '-ن' | ايمبوهن '-an' دڠن مڠݢوناكن حروف '-ن'",
+   "jawi_b1_imbuhan_an_nun::Tahukah Anda | تاهوكه اندا",
+   "jawi_b1_imbuhan_an_nun::Amalkan | عملكن",
+   "jawi_b1_imbuhan_an_nun::Aktiviti: Petikan \"Laporan Lawatan Sambil Belajar ke Cameron Highlands\" | لاڤورن لاوتن سمبيل بلاجر ككامرون هايلند",
+   "jawi_b2_imbuhan_i_hamzah_ya::Aktiviti: Petikan \"Angkasawan Pertama Negara\" | اڠکاساوان ڤرتام نݢارا",
+   "jawi_b3_pinjaman_inggeris::2. Contoh Ayat | چونتوه ايات (book p52)",
+   "jawi_b4_akronim_inggeris::Aktiviti | اكتيۏيتي"
+  ],
+  "lines_shown": 123,
+  "cost": 0.0014409
+ },
+ "tajwid_b3_mad_farq_q2": {
+  "question": "Mad Farq termasuk dalam bahagian mad apa?",
+  "reference": "Mad Lazim Kalimi",
+  "statements": [
+   {
+    "statement": "Mad Farq termasuk dalam bahagian Mad Lazim Kalimi",
+    "lines": [
+     "**Jawi:** مد فرق ترماسوق دالم بهاݢين مد لازم كلمي. ترداڤت تيݢ كليمه سهاج دالم انم تمڤت يڠ بربيذا دالم القرءان:",
+     "**Rumi:** Mad Farq termasuk dalam bahagian Mad Lazim Kalimi. Terdapat tiga kalimah sahaja dalam enam tempat yang berbeza dalam al-Quran:"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_farq::Objektif Pembelajaran",
+   "tajwid_b3_mad_farq::Pengertian",
+   "tajwid_b3_mad_farq::Kadar Harakat",
+   "tajwid_b3_mad_farq::Sebab Dinamakan",
+   "tajwid_b3_mad_farq::Cara Bacaan (Tashil)",
+   "tajwid_b3_mad_farq::Contoh (Misal Mad Farq)",
+   "tajwid_b3_mad_farq::Tahukah Anda?",
+   "tajwid_b3_mad_farq::Aktiviti",
+   "tajwid_b3_mad_farq::Amalan (Amalkan)",
+   "tajwid_b1_mad_bahagian::Bahagian-bahagian Mad",
+   "tajwid_b3_mad_fari_pengenalan::Bahagian Mad Far'i",
+   "tajwid_b3_mad_fari_pengenalan::Tahukah Anda? | تاهوكه اندا؟",
+   "tajwid_b3_mad_iwadh::Tahukah Anda?",
+   "tajwid_b3_mad_tamkin::Tahukah Anda?"
+  ],
+  "lines_shown": 76,
+  "cost": 0.0007638
+ },
+ "tajwid_b3_mad_farq_q5": {
+  "question": "Terangkan cara membaca Mad Farq dengan tashil.",
+  "reference": "Tashil iaitu membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama.",
+  "statements": [
+   {
+    "statement": "Tashil ialah membunyikan hamzah kedua antara bunyi hamzah dan alif.",
+    "lines": [
+     "**Jawi:** مد فرق جوݢ بوليه دباچ دڠن تسهيل ياءيت ممبوپيكن همزة كدوا انتارا بوپي همزة دان اليف، تتاڤي باچاءن مد لبيه اوتام.",
+     "**Rumi:** Mad Farq juga boleh dibaca dengan tashil iaitu membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama."
+    ]
+   },
+   {
+    "statement": "Bacaan mad lebih utama semasa membaca dengan tashil.",
+    "lines": [
+     "**Jawi:** مد فرق جوݢ بوليه دباچ دڠن تسهيل ياءيت ممبوپيكن همزة كدوا انتارا بوپي همزة دان اليف، تتاڤي باچاءن مد لبيه اوتام.",
+     "**Rumi:** Mad Farq juga boleh dibaca dengan tashil iaitu membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama."
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_farq::Objektif Pembelajaran",
+   "tajwid_b3_mad_farq::Pengertian",
+   "tajwid_b3_mad_farq::Kadar Harakat",
+   "tajwid_b3_mad_farq::Sebab Dinamakan",
+   "tajwid_b3_mad_farq::Cara Bacaan (Tashil)",
+   "tajwid_b3_mad_farq::Contoh (Misal Mad Farq)",
+   "tajwid_b3_mad_farq::Tahukah Anda?",
+   "tajwid_b3_mad_farq::Aktiviti",
+   "tajwid_b3_mad_farq::Amalan (Amalkan)",
+   "tajwid_b3_mad_iwadh::Cara Bacaan",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Cara Bacaan"
+  ],
+  "lines_shown": 48,
+  "cost": 0.0004828
+ },
+ "tajwid_b3_mad_fari_pengenalan_q7": {
+  "question": "Terangkan dua bahagian mad far'i beserta sebab terbentuknya, dan berikan dua contoh hukum mad bagi setiap bahagian.",
+  "reference": "Bahagian pertama terbentuk kerana terdapat huruf hamzah sebelum atau selepas huruf mad, contohnya Mad Wajib Muttasil dan Mad Jaiz Munfasil (juga Mad Badal, Mad Silah Tawilah, Mad Farq, Mad Ta'zim). Bahagian kedua terbentuk kerana terdapat huruf mati selepas huruf mad, contohnya Mad Lazim Kalimi Muthaqqal dan Mad Lin (juga Mad Lazim Kalimi Mukhaffaf, Mad Lazim Harfi Muthaqqal, Mad Lazim Harfi Mukhaffaf, Mad 'Arid Lissukun).",
+  "statements": [
+   {
+    "statement": "Bahagian pertama mad far'i terbentuk kerana terdapat huruf hamzah sebelum atau selepas huruf mad",
+    "lines": [
+     "**Jawi:** ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد. حكوم تجويد يڠ تربنتوق دڠن سبب ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد:",
+     "**Jawi:** مد فرعي يڠ تربنتوق دڠن سبب ترداڤت حروف همزة ياٴيت حروف همزة ترلتق سام اد سبلوم اتاو سلڤس حروف مد. حكوم مد يڠ تربنتوق اداله سڤرتي برايكوت: ١. مد واجب مُتَّصِل، ٢. مد جَائِز مُنْفَصِل، ٣. مد بَدَل، ٤. مد صِلَة طويلة، ٥. مد فَرَقْ، ٦. مد تَعْظِيْم.",
+     "**Rumi:** Mad far'i yang terbentuk dengan sebab terdapat huruf hamzah, iaitu huruf hamzah terletak sama ada sebelum atau selepas huruf mad. Hukum mad yang terbentuk adalah seperti berikut: 1. Mad Wajib Muttasil, 2. Mad Jaiz Munfasil, 3. Mad Badal, 4. Mad Silah Tawilah, 5. Mad Farq, 6. Mad Ta'zim.",
+     "**Rumi:** Terdapat huruf hamzah sebelum atau selepas huruf mad. Hukum tajwid yang terbentuk dengan sebab terdapat huruf hamzah sebelum atau selepas huruf mad:",
+     "- **Rumi:** Mad far'i ialah mad yang terjadi disebabkan terdapat huruf hamzah sebelum atau selepas huruf mad, atau terdapat huruf mati selepas huruf mad. | **Jawi:** مد فرعي اياله مد يڠ ترجادي دسببكن ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد، اتاو ترداڤت حروف ماتي سلڤس حروف مد."
+    ]
+   },
+   {
+    "statement": "Mad Wajib Muttasil ialah hukum mad far'i bahagian pertama",
+    "lines": [
+     "**Jawi:** مد فرعي يڠ تربنتوق دڠن سبب ترداڤت حروف همزة ياٴيت حروف همزة ترلتق سام اد سبلوم اتاو سلڤس حروف مد. حكوم مد يڠ تربنتوق اداله سڤرتي برايكوت: ١. مد واجب مُتَّصِل، ٢. مد جَائِز مُنْفَصِل، ٣. مد بَدَل، ٤. مد صِلَة طويلة، ٥. مد فَرَقْ، ٦. مد تَعْظِيْم.",
+     "**Rumi:** Mad far'i yang terbentuk dengan sebab terdapat huruf hamzah, iaitu huruf hamzah terletak sama ada sebelum atau selepas huruf mad. Hukum mad yang terbentuk adalah seperti berikut: 1. Mad Wajib Muttasil, 2. Mad Jaiz Munfasil, 3. Mad Badal, 4. Mad Silah Tawilah, 5. Mad Farq, 6. Mad Ta'zim.",
+     "1. مد وَاجِب مُتَّصِل (Mad Wajib Muttasil)"
+    ]
+   },
+   {
+    "statement": "Mad Jaiz Munfasil ialah hukum mad far'i bahagian pertama",
+    "lines": [
+     "**Jawi:** مد فرعي يڠ تربنتوق دڠن سبب ترداڤت حروف همزة ياٴيت حروف همزة ترلتق سام اد سبلوم اتاو سلڤس حروف مد. حكوم مد يڠ تربنتوق اداله سڤرتي برايكوت: ١. مد واجب مُتَّصِل، ٢. مد جَائِز مُنْفَصِل، ٣. مد بَدَل، ٤. مد صِلَة طويلة، ٥. مد فَرَقْ، ٦. مد تَعْظِيْم.",
+     "**Rumi:** Mad far'i yang terbentuk dengan sebab terdapat huruf hamzah, iaitu huruf hamzah terletak sama ada sebelum atau selepas huruf mad. Hukum mad yang terbentuk adalah seperti berikut: 1. Mad Wajib Muttasil, 2. Mad Jaiz Munfasil, 3. Mad Badal, 4. Mad Silah Tawilah, 5. Mad Farq, 6. Mad Ta'zim.",
+     "2. مد جَائِز مُنْفَصِل (Mad Jaiz Munfasil)"
+    ]
+   },
+   {
+    "statement": "Mad Badal ialah hukum mad far'i bahagian pertama",
+    "lines": [
+     "**Jawi:** مد فرعي يڠ تربنتوق دڠن سبب ترداڤت حروف همزة ياٴيت حروف همزة ترلتق سام اد سبلوم اتاو سلڤس حروف مد. حكوم مد يڠ تربنتوق اداله سڤرتي برايكوت: ١. مد واجب مُتَّصِل، ٢. مد جَائِز مُنْفَصِل، ٣. مد بَدَل، ٤. مد صِلَة طويلة، ٥. مد فَرَقْ، ٦. مد تَعْظِيْم.",
+     "**Rumi:** Mad far'i yang terbentuk dengan sebab terdapat huruf hamzah, iaitu huruf hamzah terletak sama ada sebelum atau selepas huruf mad. Hukum mad yang terbentuk adalah seperti berikut: 1. Mad Wajib Muttasil, 2. Mad Jaiz Munfasil, 3. Mad Badal, 4. Mad Silah Tawilah, 5. Mad Farq, 6. Mad Ta'zim.",
+     "3. مد بَدَلْ (Mad Badal)"
+    ]
+   },
+   {
+    "statement": "Mad Silah Tawilah ialah hukum mad far'i bahagian pertama",
+    "lines": [
+     "**Jawi:** مد فرعي يڠ تربنتوق دڠن سبب ترداڤت حروف همزة ياٴيت حروف همزة ترلتق سام اد سبلوم اتاو سلڤس حروف مد. حكوم مد يڠ تربنتوق اداله سڤرتي برايكوت: ١. مد واجب مُتَّصِل، ٢. مد جَائِز مُنْفَصِل، ٣. مد بَدَل، ٤. مد صِلَة طويلة، ٥. مد فَرَقْ، ٦. مد تَعْظِيْم.",
+     "**Rumi:** Mad far'i yang terbentuk dengan sebab terdapat huruf hamzah, iaitu huruf hamzah terletak sama ada sebelum atau selepas huruf mad. Hukum mad yang terbentuk adalah seperti berikut: 1. Mad Wajib Muttasil, 2. Mad Jaiz Munfasil, 3. Mad Badal, 4. Mad Silah Tawilah, 5. Mad Farq, 6. Mad Ta'zim.",
+     "4. مد صِلَة طَوِيْلَة (Mad Silah Tawilah)"
+    ]
+   },
+   {
+    "statement": "Mad Farq ialah hukum mad far'i bahagian pertama",
+    "lines": [
+     "**Jawi:** مد فرعي يڠ تربنتوق دڠن سبب ترداڤت حروف همزة ياٴيت حروف همزة ترلتق سام اد سبلوم اتاو سلڤس حروف مد. حكوم مد يڠ تربنتوق اداله سڤرتي برايكوت: ١. مد واجب مُتَّصِل، ٢. مد جَائِز مُنْفَصِل، ٣. مد بَدَل، ٤. مد صِلَة طويلة، ٥. مد فَرَقْ، ٦. مد تَعْظِيْم.",
+     "**Rumi:** Mad far'i yang terbentuk dengan sebab terdapat huruf hamzah, iaitu huruf hamzah terletak sama ada sebelum atau selepas huruf mad. Hukum mad yang terbentuk adalah seperti berikut: 1. Mad Wajib Muttasil, 2. Mad Jaiz Munfasil, 3. Mad Badal, 4. Mad Silah Tawilah, 5. Mad Farq, 6. Mad Ta'zim.",
+     "5. مد فَرَقْ (Mad Farq)"
+    ]
+   },
+   {
+    "statement": "Mad Ta'zim ialah hukum mad far'i bahagian pertama",
+    "lines": [
+     "**Jawi:** مد فرعي يڠ تربنتوق دڠن سبب ترداڤت حروف همزة ياٴيت حروف همزة ترلتق سام اد سبلوم اتاو سلڤس حروف مد. حكوم مد يڠ تربنتوق اداله سڤرتي برايكوت: ١. مد واجب مُتَّصِل، ٢. مد جَائِز مُنْفَصِل، ٣. مد بَدَل، ٤. مد صِلَة طويلة، ٥. مد فَرَقْ، ٦. مد تَعْظِيْم.",
+     "**Rumi:** Mad far'i yang terbentuk dengan sebab terdapat huruf hamzah, iaitu huruf hamzah terletak sama ada sebelum atau selepas huruf mad. Hukum mad yang terbentuk adalah seperti berikut: 1. Mad Wajib Muttasil, 2. Mad Jaiz Munfasil, 3. Mad Badal, 4. Mad Silah Tawilah, 5. Mad Farq, 6. Mad Ta'zim.",
+     "6. مد تَعْظِيْم (Mad Ta'zim)"
+    ]
+   },
+   {
+    "statement": "Bahagian kedua mad far'i terbentuk kerana terdapat huruf mati selepas huruf mad",
+    "lines": [
+     "**Jawi:** بهاݢين كدوا: مد فرعي يڠ تربنتوق دڠن سبب ترداڤت حروف ماتي يڠ ترلتق سلڤس حروف مد. حكوم٢ مد يڠ تربنتوق اداله سڤرتي برايكوت:",
+     "**Jawi:** ترداڤت حروف ماتي سلڤس حروف مد. حكوم تجويد يڠ تربنتوق دڠن سبب ترداڤت حروف ماتي سلڤس حروف مد:",
+     "**Rumi:** Bahagian kedua: Mad Far'i yang terbentuk dengan sebab terdapat huruf mati yang terletak selepas huruf mad. Hukum-hukum mad yang terbentuk adalah seperti berikut:",
+     "**Rumi:** Terdapat huruf mati selepas huruf mad. Hukum tajwid yang terbentuk dengan sebab terdapat huruf mati selepas huruf mad:",
+     "- **Rumi:** Mad far'i ialah mad yang terjadi disebabkan terdapat huruf hamzah sebelum atau selepas huruf mad, atau terdapat huruf mati selepas huruf mad. | **Jawi:** مد فرعي اياله مد يڠ ترجادي دسببكن ترداڤت حروف همزة سبلوم اتاو سلڤس حروف مد، اتاو ترداڤت حروف ماتي سلڤس حروف مد."
+    ]
+   },
+   {
+    "statement": "Mad Lazim Kalimi Muthaqqal ialah hukum mad far'i bahagian kedua",
+    "lines": [
+     "1. Mad Lazim Kalimi Muthaqqal | مد لَازِم كَلِمِي مُثَقَّل",
+     "7. مد لَازِم كَلِمِي مُثَقَّل (Mad Lazim Kalimi Muthaqqal)"
+    ]
+   },
+   {
+    "statement": "Mad Lazim Kalimi Mukhaffaf ialah hukum mad far'i bahagian kedua",
+    "lines": [
+     "2. Mad Lazim Kalimi Mukhaffaf | مد لَازِم كَلِمِي مُخَفَّف",
+     "8. مد لَازِم كَلِمِي مُخَفَّف (Mad Lazim Kalimi Mukhaffaf)"
+    ]
+   },
+   {
+    "statement": "Mad Lazim Harfi Muthaqqal ialah hukum mad far'i bahagian kedua",
+    "lines": [
+     "3. Mad Lazim Harfi Muthaqqal | مد لَازِم حَرْفِي مُثَقَّل",
+     "9. مد لَازِم حَرْفِي مُثَقَّل (Mad Lazim Harfi Muthaqqal)"
+    ]
+   },
+   {
+    "statement": "Mad Lazim Harfi Mukhaffaf ialah hukum mad far'i bahagian kedua",
+    "lines": [
+     "10. مد لَازِم حَرْفِي مُخَفَّف (Mad Lazim Harfi Mukhaffaf)",
+     "4. Mad Lazim Harfi Mukhaffaf | مد لَازِم حَرْفِي مُخَفَّف"
+    ]
+   },
+   {
+    "statement": "Mad 'Arid Lissukun ialah hukum mad far'i bahagian kedua",
+    "lines": [
+     "11. مد عَارِض لِلسُّكُوْن (Mad 'Arid Lissukun)",
+     "5. Mad 'Aridh Lissukun | مد عَارِض لِلسُّكُوْن"
+    ]
+   },
+   {
+    "statement": "Mad Lin ialah hukum mad far'i bahagian kedua",
+    "lines": [
+     "12. مد لِين (Mad Lin)",
+     "6. Mad Lin | مد لِين"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_fari_pengenalan::Ringkasan",
+   "tajwid_b3_mad_fari_pengenalan::Objektif Pembelajaran",
+   "tajwid_b3_mad_fari_pengenalan::Pengertian Mad Far'i",
+   "tajwid_b3_mad_fari_pengenalan::Bahagian Mad Far'i",
+   "tajwid_b3_mad_fari_pengenalan::Tahukah Anda? | تاهوكه اندا؟",
+   "tajwid_b3_mad_fari_pengenalan::Perhatian (Bahagian Pertama)",
+   "tajwid_b3_mad_fari_pengenalan::Amalkan",
+   "tajwid_b1_mad_bahagian::Bahagian-bahagian Mad",
+   "tajwid_b3_mad_lazim_kalimi_muthaqqal::Pengenalan Mad Lazim (book p31)",
+   "tajwid_b3_mad_tazim::Nota: Bahagian Kedua Mad Far'i (book p30)"
+  ],
+  "lines_shown": 60,
+  "cost": 0.0013468
+ },
+ "tajwid_b2_mad_asli_kalimi_q1": {
+  "question": "Berapakah kadar panjang bacaan mad asli kalimi?",
+  "reference": "Dua harakat",
+  "statements": [
+   {
+    "statement": "Kadar panjang bacaan mad asli kalimi ialah dua harakat.",
+    "lines": [
+     "**Jawi:** قدر ڤنجڠ باچاٴن مد اصلي كلمي اياله دوا حركة.",
+     "**Rumi:** Kadar panjang bacaan mad asli kalimi ialah dua harakat."
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b2_mad_asli_kalimi::Ringkasan",
+   "tajwid_b2_mad_asli_kalimi::Objektif Pembelajaran Bab (Mad Asli)",
+   "tajwid_b2_mad_asli_kalimi::Pengertian Mad Asli",
+   "tajwid_b2_mad_asli_kalimi::Bahagian Mad Asli",
+   "tajwid_b2_mad_asli_kalimi::Tahukah Anda? | تاهوكه اندا؟",
+   "tajwid_b2_mad_asli_kalimi::Objektif Pembelajaran Unit 1",
+   "tajwid_b2_mad_asli_kalimi::Pengertian Mad Asli Kalimi",
+   "tajwid_b2_mad_asli_kalimi::Kadar Harakat",
+   "tajwid_b2_mad_asli_kalimi::Contoh (Aktiviti)",
+   "tajwid_b2_mad_asli_harfi::Kadar Harakat",
+   "tajwid_b3_mad_lazim_kalimi_muthaqqal::Kadar Harakat",
+   "tajwid_b3_mad_lazim_kalimi_muthaqqal::Pengenalan Mad Lazim (book p31)"
+  ],
+  "lines_shown": 55,
+  "cost": 0.000665
+ },
+ "tajwid_b3_mad_tazim_q4": {
+  "question": "Apakah erti Mad Ta'zim?",
+  "reference": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ.",
+  "statements": [
+   {
+    "statement": "Mad Ta'zim ialah apabila terdapat kalimah لَآ bertemu dengan kalimah إِلَٰهَ.",
+    "lines": [
+     "**Jawi:** مد تعظيم اياله اڤابيلا ترداڤت كليمه {لَآ} يڠ منونجوقكن ڤنافين برتمو دڠن كليمه {إِلَٰهَ}.",
+     "**Rumi:** Mad Ta'zim ialah apabila terdapat kalimah {لَآ} yang menunjukkan penafian bertemu dengan kalimah {إِلَٰهَ}.",
+     "- **Rumi:** Kalimah لَآ bertemu إِلَٰهَ (bergaris dalam buku). | **Jawi:** كليمه لَآ برتمو إِلَٰهَ.",
+     "- **Rumi:** Kalimah لَآ bertemu إِلَٰهَ. | **Jawi:** كليمه لَآ برتمو إِلَٰهَ."
+    ]
+   },
+   {
+    "statement": "Kalimah لَآ dalam Mad Ta'zim menunjukkan penafian (negation).",
+    "lines": [
+     "**Jawi:** مد تعظيم اياله اڤابيلا ترداڤت كليمه {لَآ} يڠ منونجوقكن ڤنافين برتمو دڠن كليمه {إِلَٰهَ}.",
+     "**Rumi:** Mad Ta'zim ialah apabila terdapat kalimah {لَآ} yang menunjukkan penafian bertemu dengan kalimah {إِلَٰهَ}."
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_tazim::Objektif Pembelajaran",
+   "tajwid_b3_mad_tazim::Pengertian",
+   "tajwid_b3_mad_tazim::Kadar Harakat",
+   "tajwid_b3_mad_tazim::Sebab Dinamakan",
+   "tajwid_b3_mad_tazim::Contoh (Misal Mad Ta'zim)",
+   "tajwid_b3_mad_tazim::Aktiviti (ayat latihan dalam buku)",
+   "tajwid_b3_mad_tazim::Amalan (Amalkan)",
+   "tajwid_b3_mad_tazim::Nota: Bahagian Kedua Mad Far'i (book p30)",
+   "tajwid_b3_mad_fari_pengenalan::Bahagian Mad Far'i",
+   "tajwid_b3_mad_iwadh::Pengertian",
+   "tajwid_b3_mad_lazim_kalimi_muthaqqal::Pengenalan Mad Lazim (book p31)",
+   "tajwid_b3_mad_silah_tawilah::Tahukah Anda?"
+  ],
+  "lines_shown": 68,
+  "cost": 0.0008698
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q8": {
+  "question": "Terangkan Mad Lazim Harfi Muthaqqal meliputi pengertian, cara bacaan dan maksud setiap perkataan pada namanya, serta berikan satu misal beserta nama surahnya.",
+  "reference": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya. Ia dibaca dengan idgham beserta dengung. Mad = memanjangkan bacaan, Lazim = mesti dibaca panjang, Harfi = satu huruf, Muthaqqal = diidghamkan (ditasydidkan). Contoh: طسٓمٓ (Surah asy-Syu'ara').",
+  "statements": [
+   {
+    "statement": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf di permulaan surah (fawatih al-suwar)",
+    "lines": [
+     "**Jawi:** مد لازم حرفي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف يڠ ترداڤت دڤرمولاءن سورة (فواتح السور) دان دأدغامكن كدالم حروف برايكوتڽ.",
+     "**Rumi:** Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya."
+    ]
+   },
+   {
+    "statement": "Huruf mad dan huruf mati dalam satu huruf itu diidghamkan ke dalam huruf berikutnya",
+    "lines": [
+     "**Jawi:** مد لازم حرفي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف يڠ ترداڤت دڤرمولاءن سورة (فواتح السور) دان دأدغامكن كدالم حروف برايكوتڽ.",
+     "**Rumi:** Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya."
+    ]
+   },
+   {
+    "statement": "Ia dibaca dengan idgham beserta dengung",
+    "lines": [
+     "**Jawi:** چارا باچاءنڽ اياله دباچ دڠن إدغام برسرتا دڠوڠ.",
+     "**Rumi:** Cara bacaannya ialah dibaca dengan idgham beserta dengung."
+    ]
+   },
+   {
+    "statement": "Mad bermaksud memanjangkan bacaan",
+    "lines": [
+     "- Mad = memanjangkan bacaan",
+     "- Mad = memanjangkan bacaan | مد = ممنجڠكن باچاءن",
+     "- مد = ممنجڠكن باچاءن"
+    ]
+   },
+   {
+    "statement": "Lazim bermaksud mesti dibaca panjang",
+    "lines": [
+     "- Lazim = mesti dibaca enam harakat",
+     "- Lazim = mesti dibaca panjang | لازم = مستي دباچ ڤنجڠ",
+     "- لازم = مستي دباچ انم حركة"
+    ]
+   },
+   {
+    "statement": "Harfi bermaksud satu huruf",
+    "lines": [
+     "- Harfi = satu huruf | حرفي = ساتو حروف",
+     "- Kalimi = satu kalimah",
+     "- كلمي = ساتو كليمه"
+    ]
+   },
+   {
+    "statement": "Muthaqqal bermaksud diidghamkan (ditasydidkan)",
+    "lines": [
+     "- Muthaqqal = diidghamkan (bertasydid)",
+     "- Muthaqqal = diidghamkan (ditasydidkan) | مثقل = دأدغامكن (دتشديدكن)",
+     "- مثقل = دإدغامكن (برتشديد)"
+    ]
+   },
+   {
+    "statement": "Contoh Mad Lazim Harfi Muthaqqal ialah طسٓمٓ",
+    "lines": [
+     "- طسٓمٓ ﴿١﴾ تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ ٱلۡمُبِينِ ﴿٢﴾ لَعَلَّكَ بَٰخِعٞ نَّفۡسَكَ أَلَّا يَكُونُواْ مُؤۡمِنِينَ ﴿٣﴾ (Surah asy-Syu'ara': 1-3 | سورة الشعراء: 1-3)",
+     "| س | طسٓمٓ ﴿١﴾ | طا سين ميم | سورة الشعراء، سورة القصص (asy-Syu'ara', al-Qasas) |"
+    ]
+   },
+   {
+    "statement": "Contoh طسٓمٓ terdapat dalam Surah asy-Syu'ara'",
+    "lines": [
+     "- طسٓمٓ ﴿١﴾ تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ ٱلۡمُبِينِ ﴿٢﴾ لَعَلَّكَ بَٰخِعٞ نَّفۡسَكَ أَلَّا يَكُونُواْ مُؤۡمِنِينَ ﴿٣﴾ (Surah asy-Syu'ara': 1-3 | سورة الشعراء: 1-3)",
+     "| س | طسٓمٓ ﴿١﴾ | طا سين ميم | سورة الشعراء، سورة القصص (asy-Syu'ara', al-Qasas) |"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Objektif Pembelajaran",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Pengertian",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Cara Bacaan",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Kadar Harakat",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Contoh (Misal Mad Lazim Harfi Muthaqqal)",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Tahukah Anda?",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Aktiviti",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Amalan (Amalkan)",
+   "tajwid_b3_mad_lazim_kalimi_muthaqqal::Maksud Nama"
+  ],
+  "lines_shown": 56,
+  "cost": 0.0009768
+ },
+ "tajwid_b3_mad_farq_q3": {
+  "question": "Berapakah bilangan kalimah Mad Farq dalam al-Quran dan di berapa tempat?",
+  "reference": "Tiga kalimah dalam enam tempat",
+  "statements": [
+   {
+    "statement": "Terdapat tiga kalimah Mad Farq dalam al-Quran",
+    "lines": [
+     "(Tiga kalimah itu ialah ءَآللَّهُ, ءَآلذَّكَرَيۡنِ dan ءَآلۡـَٰٔنَ, berdasarkan senarai di atas.)",
+     "**Jawi:** مد فرق ترماسوق دالم بهاݢين مد لازم كلمي. ترداڤت تيݢ كليمه سهاج دالم انم تمڤت يڠ بربيذا دالم القرءان:",
+     "**Rumi:** Mad Farq termasuk dalam bahagian Mad Lazim Kalimi. Terdapat tiga kalimah sahaja dalam enam tempat yang berbeza dalam al-Quran:"
+    ]
+   },
+   {
+    "statement": "Kalimah Mad Farq itu terdapat dalam enam tempat yang berbeza dalam al-Quran",
+    "lines": [
+     "**Jawi:** مد فرق ترماسوق دالم بهاݢين مد لازم كلمي. ترداڤت تيݢ كليمه سهاج دالم انم تمڤت يڠ بربيذا دالم القرءان:",
+     "**Rumi:** Mad Farq termasuk dalam bahagian Mad Lazim Kalimi. Terdapat tiga kalimah sahaja dalam enam tempat yang berbeza dalam al-Quran:",
+     "1. قُلۡ ءَآللَّهُ أَذِنَ لَكُمۡۖ أَمۡ عَلَى ٱللَّهِ تَفۡتَرُونَ (Surah Yunus: 59 | سورة يونس: 59)",
+     "2. ... ءَآللَّهُ خَيۡرٌ أَمَّا يُشۡرِكُونَ (Surah an-Naml: 59 | سورة النمل: 59)",
+     "3. ... قُلۡ ءَآلذَّكَرَيۡنِ حَرَّمَ أَمِ ٱلۡأُنثَيَيۡنِ ... الآية (Surah al-An'am: 143 | سورة الأنعام: 143)",
+     "4. ... قُلۡ ءَآلذَّكَرَيۡنِ حَرَّمَ أَمِ ٱلۡأُنثَيَيۡنِ ... الآية (Surah al-An'am: 144 | سورة الأنعام: 144)",
+     "5. ءَآلۡـَٰٔنَ وَقَدۡ عَصَيۡتَ قَبۡلُ وَكُنتَ مِنَ ٱلۡمُفۡسِدِينَ (Surah Yunus: 91 | سورة يونس: 91)",
+     "6. ... ءَآلۡـَٰٔنَ وَقَدۡ كُنتُم بِهِۦ تَسۡتَعۡجِلُونَ (Surah Yunus: 51 | سورة يونس: 51)"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_farq::Objektif Pembelajaran",
+   "tajwid_b3_mad_farq::Pengertian",
+   "tajwid_b3_mad_farq::Kadar Harakat",
+   "tajwid_b3_mad_farq::Sebab Dinamakan",
+   "tajwid_b3_mad_farq::Cara Bacaan (Tashil)",
+   "tajwid_b3_mad_farq::Contoh (Misal Mad Farq)",
+   "tajwid_b3_mad_farq::Tahukah Anda?",
+   "tajwid_b3_mad_farq::Aktiviti",
+   "tajwid_b3_mad_farq::Amalan (Amalkan)",
+   "tajwid_b3_mad_lazim_kalimi_mukhaffaf::Tempat dalam Al-Quran",
+   "tajwid_b3_mad_tamkin::Contoh (Misal Mad Tamkin)",
+   "tajwid_b3_mad_tamkin::Tahukah Anda?"
+  ],
+  "lines_shown": 55,
+  "cost": 0.0008272
+ },
+ "tajwid_b3_mad_lazim_harfi_muthaqqal_q5": {
+  "question": "Apakah erti Mad Lazim Harfi Muthaqqal?",
+  "reference": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya.",
+  "statements": [
+   {
+    "statement": "Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati",
+    "lines": [
+     "**Jawi:** مد لازم حرفي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف يڠ ترداڤت دڤرمولاءن سورة (فواتح السور) دان دأدغامكن كدالم حروف برايكوتڽ.",
+     "**Rumi:** Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya."
+    ]
+   },
+   {
+    "statement": "Huruf mati itu terdapat dalam satu huruf (harfi)",
+    "lines": [
+     "**Jawi:** مد لازم حرفي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف يڠ ترداڤت دڤرمولاءن سورة (فواتح السور) دان دأدغامكن كدالم حروف برايكوتڽ.",
+     "**Rumi:** Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya.",
+     "- Harfi = satu huruf | حرفي = ساتو حروف"
+    ]
+   },
+   {
+    "statement": "Huruf tersebut terdapat di permulaan surah (fawatih al-suwar)",
+    "lines": [
+     "**Jawi:** فَوَاتِحُ السُّوَرِ – ڤوتوڠن حروف يڠ براد دڤمبوكاءن سورة.",
+     "**Jawi:** مد لازم حرفي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف يڠ ترداڤت دڤرمولاءن سورة (فواتح السور) دان دأدغامكن كدالم حروف برايكوتڽ.",
+     "**Rumi:** Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya.",
+     "**Rumi:** فَوَاتِحُ السُّوَرِ – potongan huruf yang berada di pembukaan surah."
+    ]
+   },
+   {
+    "statement": "Huruf tersebut diidghamkan ke dalam huruf berikutnya",
+    "lines": [
+     "**Jawi:** مد لازم حرفي مثقل اياله اڤابيلا حروف مد برتمو دڠن حروف ماتي دالم ساتو حروف يڠ ترداڤت دڤرمولاءن سورة (فواتح السور) دان دأدغامكن كدالم حروف برايكوتڽ.",
+     "**Jawi:** چارا باچاءنڽ اياله دباچ دڠن إدغام برسرتا دڠوڠ.",
+     "**Rumi:** Cara bacaannya ialah dibaca dengan idgham beserta dengung.",
+     "**Rumi:** Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya.",
+     "- Muthaqqal = diidghamkan (ditasydidkan) | مثقل = دأدغامكن (دتشديدكن)"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Objektif Pembelajaran",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Pengertian",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Cara Bacaan",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Kadar Harakat",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Contoh (Misal Mad Lazim Harfi Muthaqqal)",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Tahukah Anda?",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Aktiviti",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Amalan (Amalkan)",
+   "tajwid_b3_mad_lazim_kalimi_muthaqqal::Pengenalan Mad Lazim (book p31)",
+   "tajwid_b3_mad_lazim_kalimi_muthaqqal::Pengertian"
+  ],
+  "lines_shown": 57,
+  "cost": 0.00087
+ },
+ "tajwid_b5_waqaf_q9": {
+  "question": "Terangkan maksud tanda waqaf صلى, قلى dan ∴ ∴ (Waqaf Mu'anaqah), serta berikan contoh ayat al-Quran bagi Waqaf Mu'anaqah beserta nama surah dan nombor ayatnya.",
+  "reference": "صلى: harus waqaf tetapi dibaca wasal lebih utama. قلى: waqaf lebih utama daripada wasal. ∴ ∴: Waqaf Mu'anaqah iaitu berhenti pada salah satu tempat sahaja. Contoh: ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ (Surah al-Baqarah: 2).",
+  "statements": [
+   {
+    "statement": "Waqaf صلى: harus waqaf tetapi dibaca wasal lebih utama.",
+    "lines": [
+     "| iii | صلى | Harus waqaf tetapi dibaca wasal lebih utama | هاروس وقف تتاڤي دباچ وصل لبيه اوتام |"
+    ]
+   },
+   {
+    "statement": "Waqaf قلى: waqaf lebih utama daripada wasal.",
+    "lines": [
+     "| iv | قلى | Waqaf lebih utama daripada wasal | وقف لبيه اوتام درڤد وصل |"
+    ]
+   },
+   {
+    "statement": "Tanda ∴ ∴ ialah tanda Waqaf Mu'anaqah.",
+    "lines": [
+     "- v ∴ ∴: ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ (Surah al-Baqarah: 2 | سورة البقرة: 2)",
+     "| v | ∴ ∴ (tiga titik, dua tempat) | Waqaf Mu'anaqah iaitu berhenti pada salah satu tempat sahaja | وقف معانقة ياءيت برهنتي ڤد ساله ساتو تمڤت سهاج |"
+    ]
+   },
+   {
+    "statement": "Waqaf Mu'anaqah ialah berhenti pada salah satu tempat sahaja.",
+    "lines": [
+     "| v | ∴ ∴ (tiga titik, dua tempat) | Waqaf Mu'anaqah iaitu berhenti pada salah satu tempat sahaja | وقف معانقة ياءيت برهنتي ڤد ساله ساتو تمڤت سهاج |"
+    ]
+   },
+   {
+    "statement": "Contoh ayat Waqaf Mu'anaqah ialah ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ.",
+    "lines": [
+     "- v ∴ ∴: ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ (Surah al-Baqarah: 2 | سورة البقرة: 2)"
+    ]
+   },
+   {
+    "statement": "Ayat contoh tersebut ialah dari Surah al-Baqarah, ayat 2.",
+    "lines": [
+     "- v ∴ ∴: ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ (Surah al-Baqarah: 2 | سورة البقرة: 2)"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b5_waqaf::Objektif Pembelajaran",
+   "tajwid_b5_waqaf::Pengertian",
+   "tajwid_b5_waqaf::Bahagian Waqaf (ada empat) | بهاڬين وقف اد امڤت",
+   "tajwid_b5_waqaf::Jenis-jenis Waqaf Ikhtiyari | جنيس٢ وقف إِخْتِيَارِي",
+   "tajwid_b5_waqaf::Tanda-tanda Waqaf | تندا٢ وقف",
+   "tajwid_b5_waqaf::Aktiviti",
+   "tajwid_b5_waqaf::Amalan (Amalkan)",
+   "tajwid_b3_mad_lazim_kalimi_mukhaffaf::Contoh"
+  ],
+  "lines_shown": 56,
+  "cost": 0.0010538
+ },
+ "tajwid_b3_mad_silah_tawilah_q3": {
+  "question": "Apakah nama lain bagi Mad Silah Tawilah?",
+  "reference": "Mad Silah Kubra",
+  "statements": [
+   {
+    "statement": "Nama lain bagi Mad Silah Tawilah ialah Mad Silah Kubra.",
+    "lines": [
+     "- **Rumi:** Mad Silah Tawilah juga dikenali dengan Mad Silah Kubra. | **Jawi:** مد صلة طويلة جوݢ دكنلي دڠن مد صلة كبرى."
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_silah_tawilah::Objektif Pembelajaran",
+   "tajwid_b3_mad_silah_tawilah::Pengertian Mad Silah",
+   "tajwid_b3_mad_silah_tawilah::Bahagian Mad Silah",
+   "tajwid_b3_mad_silah_tawilah::Pengertian Mad Silah Tawilah",
+   "tajwid_b3_mad_silah_tawilah::Kadar Harakat",
+   "tajwid_b3_mad_silah_tawilah::Contoh (Misal Mad Silah Tawilah)",
+   "tajwid_b3_mad_silah_tawilah::Tahukah Anda?",
+   "tajwid_b3_mad_silah_tawilah::Aktiviti",
+   "tajwid_b3_mad_silah_tawilah::Amalan (Amalkan)"
+  ],
+  "lines_shown": 45,
+  "cost": 0.0003979
+ },
+ "tajwid_b4_tingkatan_mad_q6": {
+  "question": "Nyatakan kadar harakat bagi Mad Wajib Muttasil, Mad 'Aridh Lissukun dan Mad Badal.",
+  "reference": "Mad Wajib Muttasil: empat atau lima. Mad 'Aridh Lissukun: harus dua, empat atau enam harakat. Mad Badal: dua harakat.",
+  "statements": [
+   {
+    "statement": "Mad Wajib Muttasil dibaca dengan kadar empat atau lima harakat.",
+    "lines": [
+     "### a. Empat atau lima harakat | امڤت اتاو ليم حركة",
+     "| ii | Mad Wajib Muttasil | مد واجب متصل | Dibaca dengan kadar empat atau lima. | دباچ دڠن قدر امڤت اتاو ليم. |"
+    ]
+   },
+   {
+    "statement": "Mad 'Aridh Lissukun harus dibaca dua, empat atau enam harakat.",
+    "lines": [
+     "**Jawi:** قدر ڤنجڠ باچاءن مد عارض للسكون اياله دوا اتاو امڤت اتاو انم حركة.",
+     "**Rumi:** Kadar panjang bacaan Mad 'Aridh Lissukun ialah dua atau empat atau enam harakat.",
+     "| iii | Mad 'Aridh Lissukun | مد عارض للسكون | Harus dibaca dua, empat atau enam harakat. | هاروس دباچ دوا، امڤت اتاو انم حركة. |"
+    ]
+   },
+   {
+    "statement": "Mad Badal dibaca dengan kadar dua harakat.",
+    "lines": [
+     "**Jawi:** قدر ڤنجڠ باچاٴن مد بدل اياله دوا حركة.",
+     "**Rumi:** Kadar panjang bacaan Mad Badal ialah dua harakat.",
+     "| v | Mad Badal | مد بدل | Dibaca dengan kadar dua harakat. | دباچ دڠن قدر دوا حركة. |"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b4_tingkatan_mad::Objektif Pembelajaran",
+   "tajwid_b4_tingkatan_mad::Martabat Mad Far'i | مرتبت مد فرعي",
+   "tajwid_b4_tingkatan_mad::Tahukah Anda? (Kepentingan Mempelajari Tingkatan Mad)",
+   "tajwid_b4_tingkatan_mad::Aktiviti",
+   "tajwid_b4_tingkatan_mad::Amalan (Amalkan)",
+   "tajwid_b3_mad_aridh_lissukun::Kadar Harakat",
+   "tajwid_b3_mad_aridh_lissukun::Objektif Pembelajaran",
+   "tajwid_b3_mad_badal::Kadar Harakat",
+   "tajwid_b3_mad_wajib_muttasil::Kadar Harakat",
+   "tajwid_b3_mad_wajib_muttasil::Objektif Pembelajaran",
+   "tajwid_b3_mad_wajib_muttasil::Tahukah Anda? | تاهوكه اندا؟"
+  ],
+  "lines_shown": 59,
+  "cost": 0.0008232
+ },
+ "tajwid_b3_mad_tazim_q7": {
+  "question": "Terangkan hukum Mad Ta'zim meliputi pengertian, kadar harakat dan sebab dinamakan, serta berikan satu contoh ayat al-Quran beserta nama surah dan nombor ayatnya.",
+  "reference": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ. Kadarnya empat atau lima harakat. Dinamakan Mad Ta'zim kerana membesar dan memuliakan Allah. Contoh: ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ (Surah an-Naml: 26).",
+  "statements": [
+   {
+    "statement": "Mad Ta'zim ialah apabila terdapat kalimah لَآ yang menunjukkan penafian bertemu dengan kalimah إِلَٰهَ.",
+    "lines": [
+     "**Jawi:** مد تعظيم اياله اڤابيلا ترداڤت كليمه {لَآ} يڠ منونجوقكن ڤنافين برتمو دڠن كليمه {إِلَٰهَ}.",
+     "**Rumi:** Mad Ta'zim ialah apabila terdapat kalimah {لَآ} yang menunjukkan penafian bertemu dengan kalimah {إِلَٰهَ}."
+    ]
+   },
+   {
+    "statement": "Kadar panjang bacaan Mad Ta'zim ialah empat atau lima harakat.",
+    "lines": [
+     "**Jawi:** قدر ڤنجڠ باچاءن مد تعظيم اياله امڤت اتاو ليم حركة.",
+     "**Rumi:** Kadar panjang bacaan Mad Ta'zim ialah empat atau lima harakat."
+    ]
+   },
+   {
+    "statement": "Dinamakan Mad Ta'zim kerana membesar dan memuliakan Allah.",
+    "lines": [
+     "**Jawi:** دناماكن مد تعظيم كران ممبسر دان ممولياكن الله.",
+     "**Rumi:** Dinamakan Mad Ta'zim kerana membesar dan memuliakan Allah."
+    ]
+   },
+   {
+    "statement": "Contoh ayat al-Quran bagi Mad Ta'zim ialah ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ.",
+    "lines": [
+     "- ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ ۩ (Surah an-Naml: 26 | سورة النمل: 26)"
+    ]
+   },
+   {
+    "statement": "Contoh ayat tersebut terdapat dalam Surah an-Naml.",
+    "lines": [
+     "- ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ ۩ (Surah an-Naml: 26 | سورة النمل: 26)"
+    ]
+   },
+   {
+    "statement": "Contoh ayat tersebut ialah ayat nombor 26.",
+    "lines": [
+     "- ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ ۩ (Surah an-Naml: 26 | سورة النمل: 26)"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_tazim::Objektif Pembelajaran",
+   "tajwid_b3_mad_tazim::Pengertian",
+   "tajwid_b3_mad_tazim::Kadar Harakat",
+   "tajwid_b3_mad_tazim::Sebab Dinamakan",
+   "tajwid_b3_mad_tazim::Contoh (Misal Mad Ta'zim)",
+   "tajwid_b3_mad_tazim::Aktiviti (ayat latihan dalam buku)",
+   "tajwid_b3_mad_tazim::Amalan (Amalkan)",
+   "tajwid_b3_mad_tazim::Nota: Bahagian Kedua Mad Far'i (book p30)",
+   "tajwid_b3_mad_farq::Aktiviti",
+   "tajwid_b3_mad_lazim_harfi_muthaqqal::Contoh (Misal Mad Lazim Harfi Muthaqqal)",
+   "tajwid_b3_mad_tamkin::Contoh (Misal Mad Tamkin)"
+  ],
+  "lines_shown": 59,
+  "cost": 0.001026
+ },
+ "tajwid_b3_mad_lin_q2": {
+  "question": "Bilakah berlakunya hukum Mad Lin?",
+  "reference": "Hanya ketika mewaqafkan ayat",
+  "statements": [
+   {
+    "statement": "Hukum Mad Lin berlaku hanya ketika mewaqafkan ayat (berhenti bacaan).",
+    "lines": [
+     "3. Hukum Mad Lin hanya berlaku ketika mewaqafkan ayat.",
+     "3. حكوم مد لين هاڽ برلاكو كتيك مووقفكن ايات."
+    ]
+   },
+   {
+    "statement": "Mad Lin berlaku apabila huruf lin bertemu huruf mati kerana waqaf.",
+    "lines": [
+     "1. Mad Lin ialah apabila huruf lin bertemu dengan huruf mati kerana waqaf (berhenti bacaan).",
+     "1. مد لين اياله اڤابيلا حروف لين برتمو دڠن حروف ماتي كران وقف (برهنتي باچاءن)."
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_lin::Objektif Pembelajaran",
+   "tajwid_b3_mad_lin::Pengertian",
+   "tajwid_b3_mad_lin::Kadar Harakat",
+   "tajwid_b3_mad_lin::Huruf Lin",
+   "tajwid_b3_mad_lin::Contoh (Misal)",
+   "tajwid_b3_mad_lin::Aktiviti (ayat latihan dalam buku)",
+   "tajwid_b3_mad_lin::Amalan (Amalkan)",
+   "tajwid_b3_mad_lin::Nota: Bahagian Ketiga Mad Far'i (book p49)",
+   "tajwid_b3_mad_tazim::Nota: Bahagian Kedua Mad Far'i (book p30)"
+  ],
+  "lines_shown": 50,
+  "cost": 0.0004564
+ },
+ "tajwid_b5_waqaf_q7": {
+  "question": "Apakah maksud waqaf berikut: Hasan, Qabih, Kafi?",
+  "reference": "Waqaf Hasan: menghentikan bacaan pada tempat yang masih tergantung dari segi lafaz dan makna tetapi boleh difahami. Waqaf Qabih: menghentikan bacaan pada tempat yang tidak difahami ertinya atau boleh membawa kesalahan makna. Waqaf Kafi: menghentikan bacaan pada tempat yang telah sempurna pada lafaz tetapi masih ada hubungan dari segi makna.",
+  "statements": [
+   {
+    "statement": "Waqaf Hasan ialah menghentikan bacaan pada suatu tempat.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ ماسيه ترڬنتوڠ دري سڬي لفظ دان معنا تتاڤي بوليه دفهمي.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang masih tergantung dari segi lafaz dan makna tetapi boleh difahami."
+    ]
+   },
+   {
+    "statement": "Tempat waqaf Hasan masih tergantung dari segi lafaz dan makna.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ ماسيه ترڬنتوڠ دري سڬي لفظ دان معنا تتاڤي بوليه دفهمي.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang masih tergantung dari segi lafaz dan makna tetapi boleh difahami."
+    ]
+   },
+   {
+    "statement": "Waqaf Hasan masih boleh difahami maknanya.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ ماسيه ترڬنتوڠ دري سڬي لفظ دان معنا تتاڤي بوليه دفهمي.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang masih tergantung dari segi lafaz dan makna tetapi boleh difahami."
+    ]
+   },
+   {
+    "statement": "Waqaf Qabih ialah menghentikan bacaan pada suatu tempat.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ تيدق دفهمي ارتيڽ اتاو بوليه ممباوا كسالهن معنا.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang tidak difahami ertinya atau boleh membawa kesalahan makna."
+    ]
+   },
+   {
+    "statement": "Tempat waqaf Qabih tidak difahami ertinya.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ تيدق دفهمي ارتيڽ اتاو بوليه ممباوا كسالهن معنا.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang tidak difahami ertinya atau boleh membawa kesalahan makna."
+    ]
+   },
+   {
+    "statement": "Waqaf Qabih boleh membawa kesalahan makna.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ تيدق دفهمي ارتيڽ اتاو بوليه ممباوا كسالهن معنا.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang tidak difahami ertinya atau boleh membawa kesalahan makna."
+    ]
+   },
+   {
+    "statement": "Waqaf Kafi ialah menghentikan bacaan pada suatu tempat.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ تله سمڤورنا ڤد لفظ تتاڤي ماسيه اد هوبوڠن دري سڬي معنا.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang telah sempurna pada lafaz tetapi masih ada hubungan dari segi makna."
+    ]
+   },
+   {
+    "statement": "Tempat waqaf Kafi telah sempurna pada lafaz.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ تله سمڤورنا ڤد لفظ تتاڤي ماسيه اد هوبوڠن دري سڬي معنا.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang telah sempurna pada lafaz tetapi masih ada hubungan dari segi makna."
+    ]
+   },
+   {
+    "statement": "Tempat waqaf Kafi masih ada hubungan dari segi makna.",
+    "lines": [
+     "**Jawi:** مڠهنتيكن باچاءن ڤد سسواتو تمڤت يڠ تله سمڤورنا ڤد لفظ تتاڤي ماسيه اد هوبوڠن دري سڬي معنا.",
+     "**Rumi:** Menghentikan bacaan pada sesuatu tempat yang telah sempurna pada lafaz tetapi masih ada hubungan dari segi makna."
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b5_waqaf::Objektif Pembelajaran",
+   "tajwid_b5_waqaf::Pengertian",
+   "tajwid_b5_waqaf::Bahagian Waqaf (ada empat) | بهاڬين وقف اد امڤت",
+   "tajwid_b5_waqaf::Jenis-jenis Waqaf Ikhtiyari | جنيس٢ وقف إِخْتِيَارِي",
+   "tajwid_b5_waqaf::Tanda-tanda Waqaf | تندا٢ وقف",
+   "tajwid_b5_waqaf::Aktiviti",
+   "tajwid_b5_waqaf::Amalan (Amalkan)"
+  ],
+  "lines_shown": 53,
+  "cost": 0.0010717
+ },
+ "tajwid_b3_mad_tamkin_q6": {
+  "question": "Terangkan hukum Mad Tamkin meliputi pengertian dan kadar harakatnya, serta nyatakan dua kalimah Mad Tamkin beserta nama surah dan nombor ayatnya.",
+  "reference": "Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati. Kadarnya dua harakat dan ia termasuk dalam bahagian Mad Asli. Contoh: حُيِّيتُم (Surah an-Nisa': 86) dan رَبَّٰنِيِّـۧنَ (Surah Ali 'Imran: 79).",
+  "statements": [
+   {
+    "statement": "Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah",
+    "lines": [
+     "**Jawi:** مد تمكين اياله اڤابيلا برتمو دوا حروف ياء د دالم ساتو كليمه، ياء ڤرتام برباريس باوه دان برتشديد مناكالا ياء كدوا ماتي.",
+     "**Rumi:** Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati."
+    ]
+   },
+   {
+    "statement": "Ya pertama berbaris bawah dan bertasydid",
+    "lines": [
+     "**Jawi:** مد تمكين اياله اڤابيلا برتمو دوا حروف ياء د دالم ساتو كليمه، ياء ڤرتام برباريس باوه دان برتشديد مناكالا ياء كدوا ماتي.",
+     "**Rumi:** Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati."
+    ]
+   },
+   {
+    "statement": "Ya kedua mati",
+    "lines": [
+     "**Jawi:** مد تمكين اياله اڤابيلا برتمو دوا حروف ياء د دالم ساتو كليمه، ياء ڤرتام برباريس باوه دان برتشديد مناكالا ياء كدوا ماتي.",
+     "**Rumi:** Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati."
+    ]
+   },
+   {
+    "statement": "Kadar bacaan Mad Tamkin ialah dua harakat",
+    "lines": [
+     "**Jawi:** قدر ڤنجڠ باچاءن اياله دوا حركة.",
+     "**Jawi:** مد تمكين ترماسوق دالم بهاݢين مد اصلي دان دباچ دڠن دوا حركة. حكوم مد تمكين هاڽ ترداڤت ڤد ليم كليمه سهاج د دالم القرءان.",
+     "**Rumi:** Kadar panjang bacaan ialah dua harakat.",
+     "**Rumi:** Mad Tamkin termasuk dalam bahagian Mad Asli dan dibaca dengan dua harakat. Hukum Mad Tamkin hanya terdapat pada lima kalimah sahaja di dalam al-Quran (senarai di atas)."
+    ]
+   },
+   {
+    "statement": "Mad Tamkin termasuk dalam bahagian Mad Asli",
+    "lines": [
+     "**Jawi:** مد تمكين ترماسوق دالم بهاݢين مد اصلي دان دباچ دڠن دوا حركة. حكوم مد تمكين هاڽ ترداڤت ڤد ليم كليمه سهاج د دالم القرءان.",
+     "**Rumi:** Mad Tamkin termasuk dalam bahagian Mad Asli dan dibaca dengan dua harakat. Hukum Mad Tamkin hanya terdapat pada lima kalimah sahaja di dalam al-Quran (senarai di atas)."
+    ]
+   },
+   {
+    "statement": "Contoh kalimah حُيِّيتُم terdapat dalam Surah an-Nisa' ayat 86",
+    "lines": [
+     "- حُيِّيتُم (Surah an-Nisa': 86 | سورة النساء: 86)"
+    ]
+   },
+   {
+    "statement": "Contoh kalimah رَبَّٰنِيِّـۧنَ terdapat dalam Surah Ali 'Imran ayat 79",
+    "lines": [
+     "- رَبَّٰنِيِّـۧنَ (Surah Ali 'Imran: 79 | سورة آل عمران: 79)",
+     "- مَا كَانَ لِبَشَرٍ أَن يُؤۡتِيَهُ ٱللَّهُ ٱلۡكِتَٰبَ وَٱلۡحُكۡمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُواْ عِبَادٗا لِّي مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُواْ رَبَّٰنِيِّـۧنَ بِمَا كُنتُمۡ تُعَلِّمُونَ ٱلۡكِتَٰبَ وَبِمَا كُنتُمۡ تَدۡرُسُونَ (Surah Ali 'Imran: 79 | سورة آل عمران: 79)"
+    ]
+   }
+  ],
+  "pool": [
+   "tajwid_b3_mad_tamkin::Objektif Pembelajaran",
+   "tajwid_b3_mad_tamkin::Pengertian",
+   "tajwid_b3_mad_tamkin::Kadar Harakat",
+   "tajwid_b3_mad_tamkin::Contoh (Misal Mad Tamkin)",
+   "tajwid_b3_mad_tamkin::Tahukah Anda?",
+   "tajwid_b3_mad_tamkin::Aktiviti (ayat latihan dalam buku)",
+   "tajwid_b3_mad_tamkin::Amalan (Amalkan)",
+   "tajwid_b3_mad_farq::Objektif Pembelajaran"
+  ],
+  "lines_shown": 40,
+  "cost": 0.0007648
+ }
+}

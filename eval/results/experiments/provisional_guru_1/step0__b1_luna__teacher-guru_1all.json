@@ -1,0 +1,4294 @@
+{
+ "step": "step0",
+ "config": "b1:luna",
+ "system": "b1",
+ "model": "luna",
+ "model_id": "openai/gpt-6-luna",
+ "model_label": "GPT-6 Luna",
+ "rag": "",
+ "react": "",
+ "memory": false,
+ "data": "teacher",
+ "n": 50,
+ "repeats": 1,
+ "labels": "teacher:guru_1",
+ "date": "2026-10-25T07:31:37+00:00",
+ "complete": true,
+ "summary": {
+  "overall": {
+   "items": 50,
+   "criteria": 114,
+   "unresolved_criteria": 114,
+   "crit_acc": 0.772,
+   "unres_acc": 0.772,
+   "mark_err_rate": 0.168,
+   "item_exact": 0.66,
+   "within_1": 0.92,
+   "mae_marks": 0.43,
+   "mae_pct": 16.1,
+   "qwk_units": 0.823,
+   "qwk_band": 0.744,
+   "over_marked": 0.14,
+   "under_marked": 0.2
+  },
+  "by_subject": {
+   "fiqh": {
+    "items": 18,
+    "criteria": 45,
+    "unresolved_criteria": 45,
+    "crit_acc": 0.756,
+    "unres_acc": 0.756,
+    "mark_err_rate": 0.222,
+    "item_exact": 0.556,
+    "within_1": 0.889,
+    "mae_marks": 0.556,
+    "mae_pct": 21.3,
+    "qwk_units": 0.713,
+    "qwk_band": 0.658,
+    "over_marked": 0.167,
+    "under_marked": 0.278
+   },
+   "jawi": {
+    "items": 14,
+    "criteria": 30,
+    "unresolved_criteria": 30,
+    "crit_acc": 0.7,
+    "unres_acc": 0.7,
+    "mark_err_rate": 0.229,
+    "item_exact": 0.714,
+    "within_1": 0.857,
+    "mae_marks": 0.571,
+    "mae_pct": 18.5,
+    "qwk_units": 0.72,
+    "qwk_band": 0.637,
+    "over_marked": 0.0,
+    "under_marked": 0.286
+   },
+   "tajwid": {
+    "items": 18,
+    "criteria": 39,
+    "unresolved_criteria": 39,
+    "crit_acc": 0.846,
+    "unres_acc": 0.846,
+    "mark_err_rate": 0.073,
+    "item_exact": 0.722,
+    "within_1": 1.0,
+    "mae_marks": 0.194,
+    "mae_pct": 9.0,
+    "qwk_units": 0.973,
+    "qwk_band": 0.91,
+    "over_marked": 0.222,
+    "under_marked": 0.056
+   }
+  },
+  "by_level": {
+   "Tahap 1": {
+    "items": 26,
+    "criteria": 31,
+    "unresolved_criteria": 31,
+    "crit_acc": 0.839,
+    "unres_acc": 0.839,
+    "mark_err_rate": 0.097,
+    "item_exact": 0.808,
+    "within_1": 1.0,
+    "mae_marks": 0.135,
+    "mae_pct": 11.5,
+    "qwk_units": 0.864,
+    "qwk_band": 0.811,
+    "over_marked": 0.115,
+    "under_marked": 0.077
+   },
+   "Tahap 2": {
+    "items": 19,
+    "criteria": 57,
+    "unresolved_criteria": 57,
+    "crit_acc": 0.737,
+    "unres_acc": 0.737,
+    "mark_err_rate": 0.202,
+    "item_exact": 0.474,
+    "within_1": 0.842,
+    "mae_marks": 0.658,
+    "mae_pct": 21.7,
+    "qwk_units": 0.706,
+    "qwk_band": 0.648,
+    "over_marked": 0.211,
+    "under_marked": 0.316
+   },
+   "Tahap 3": {
+    "items": 5,
+    "criteria": 26,
+    "unresolved_criteria": 26,
+    "crit_acc": 0.769,
+    "unres_acc": 0.769,
+    "mark_err_rate": 0.183,
+    "item_exact": 0.6,
+    "within_1": 0.8,
+    "mae_marks": 1.1,
+    "mae_pct": 18.3,
+    "qwk_units": 0.469,
+    "qwk_band": 0.5,
+    "over_marked": 0.0,
+    "under_marked": 0.4
+   }
+  },
+  "by_kind": {
+   "confusion": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   },
+   "fluent_no_answer": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   },
+   "jawi_typo": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   },
+   "keyword_illusion": {
+    "items": 10,
+    "criteria": 26,
+    "unresolved_criteria": 26,
+    "crit_acc": 0.885,
+    "unres_acc": 0.885,
+    "mark_err_rate": 0.1,
+    "item_exact": 0.7,
+    "within_1": 1.0,
+    "mae_marks": 0.3,
+    "mae_pct": 10.0,
+    "qwk_units": 0.919,
+    "qwk_band": 0.634,
+    "over_marked": 0.2,
+    "under_marked": 0.1
+   },
+   "misconception": {
+    "items": 6,
+    "criteria": 18,
+    "unresolved_criteria": 18,
+    "crit_acc": 0.5,
+    "unres_acc": 0.5,
+    "mark_err_rate": 0.405,
+    "item_exact": 0.5,
+    "within_1": 0.667,
+    "mae_marks": 1.417,
+    "mae_pct": 34.7,
+    "qwk_units": 0.0,
+    "qwk_band": 0.0,
+    "over_marked": 0.0,
+    "under_marked": 0.5
+   },
+   "number_swap": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   },
+   "paraphrase_full": {
+    "items": 9,
+    "criteria": 25,
+    "unresolved_criteria": 25,
+    "crit_acc": 0.92,
+    "unres_acc": 0.92,
+    "mark_err_rate": 0.052,
+    "item_exact": 0.889,
+    "within_1": 0.889,
+    "mae_marks": 0.167,
+    "mae_pct": 5.6,
+    "qwk_units": 0.964,
+    "qwk_band": 0.0,
+    "over_marked": 0.111,
+    "under_marked": 0.0
+   },
+   "partial": {
+    "items": 9,
+    "criteria": 23,
+    "unresolved_criteria": 23,
+    "crit_acc": 0.565,
+    "unres_acc": 0.565,
+    "mark_err_rate": 0.304,
+    "item_exact": 0.111,
+    "within_1": 0.889,
+    "mae_marks": 0.778,
+    "mae_pct": 32.9,
+    "qwk_units": 0.462,
+    "qwk_band": 0.045,
+    "over_marked": 0.333,
+    "under_marked": 0.556
+   },
+   "pupil_style": {
+    "items": 10,
+    "criteria": 16,
+    "unresolved_criteria": 16,
+    "crit_acc": 0.938,
+    "unres_acc": 0.938,
+    "mark_err_rate": 0.028,
+    "item_exact": 0.9,
+    "within_1": 1.0,
+    "mae_marks": 0.05,
+    "mae_pct": 5.0,
+    "qwk_units": 0.989,
+    "qwk_band": 0.937,
+    "over_marked": 0.1,
+    "under_marked": 0.0
+   },
+   "rumi_for_jawi": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 0.0,
+    "unres_acc": 0.0,
+    "mark_err_rate": 1.0,
+    "item_exact": 0.0,
+    "within_1": 1.0,
+    "mae_marks": 1.0,
+    "mae_pct": 100.0,
+    "qwk_units": 0.0,
+    "qwk_band": 0.0,
+    "over_marked": 0.0,
+    "under_marked": 1.0
+   },
+   "tf_flip": {
+    "items": 1,
+    "criteria": 1,
+    "unresolved_criteria": 1,
+    "crit_acc": 1.0,
+    "unres_acc": 1.0,
+    "mark_err_rate": 0.0,
+    "item_exact": 1.0,
+    "within_1": 1.0,
+    "mae_marks": 0.0,
+    "mae_pct": 0.0,
+    "qwk_units": 1.0,
+    "qwk_band": 1.0,
+    "over_marked": 0.0,
+    "under_marked": 0.0
+   }
+  },
+  "success_rate": 1.0,
+  "errors": [],
+  "latency_ms": {
+   "mean": 4151,
+   "p95": 6759
+  },
+  "cost_total": 0.009206,
+  "cost_per_100": 0.0184,
+  "calls_per_answer": 1.0,
+  "tokens_per_answer": 883,
+  "cov_pct": null,
+  "same_score_all_repeats": null,
+  "worst": [
+   {
+    "answer_id": "T011",
+    "gold": 1.0,
+    "pred": 0.0,
+    "max": 1.0,
+    "kind": "rumi_for_jawi"
+   },
+   {
+    "answer_id": "T018",
+    "gold": 3.0,
+    "pred": 0.0,
+    "max": 3.0,
+    "kind": "misconception"
+   },
+   {
+    "answer_id": "T041",
+    "gold": 4.5,
+    "pred": 0.0,
+    "max": 6.0,
+    "kind": "misconception"
+   },
+   {
+    "answer_id": "T001",
+    "gold": 2.5,
+    "pred": 1.0,
+    "max": 3.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T008",
+    "gold": 1.5,
+    "pred": 3.0,
+    "max": 3.0,
+    "kind": "paraphrase_full"
+   },
+   {
+    "answer_id": "T010",
+    "gold": 0.5,
+    "pred": 0.0,
+    "max": 1.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T012",
+    "gold": 0.0,
+    "pred": 1.0,
+    "max": 2.0,
+    "kind": "keyword_illusion"
+   },
+   {
+    "answer_id": "T024",
+    "gold": 0.0,
+    "pred": 0.5,
+    "max": 1.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T033",
+    "gold": 0.5,
+    "pred": 1.0,
+    "max": 1.0,
+    "kind": "pupil_style"
+   },
+   {
+    "answer_id": "T013",
+    "gold": 0.0,
+    "pred": 1.0,
+    "max": 3.0,
+    "kind": "keyword_illusion"
+   },
+   {
+    "answer_id": "T028",
+    "gold": 0.0,
+    "pred": 1.0,
+    "max": 3.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T031",
+    "gold": 3.0,
+    "pred": 2.0,
+    "max": 3.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T037",
+    "gold": 1.0,
+    "pred": 0.0,
+    "max": 3.0,
+    "kind": "misconception"
+   },
+   {
+    "answer_id": "T039",
+    "gold": 2.0,
+    "pred": 1.0,
+    "max": 3.0,
+    "kind": "partial"
+   },
+   {
+    "answer_id": "T043",
+    "gold": 2.0,
+    "pred": 1.0,
+    "max": 3.0,
+    "kind": "partial"
+   }
+  ]
+ },
+ "items": [
+  {
+   "rep": 0,
+   "answer_id": "T001",
+   "question_id": "jawi_b1_imbuhan_an_nun_q6",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Sebab pakai habis dengan huruf ya. Ejaan ڤاكاءين",
+   "gold": [
+    "ya",
+    "separa",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan kata dasar ڤاكاي berakhir dengan huruf '-ي'",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan kata dasar pakai berakhir dengan huruf ya."
+    },
+    {
+     "no": 2,
+     "criterion": "Menyatakan peraturan: ditulis dengan 'ن' sahaja",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyatakan bahawa imbuhan -an ditulis dengan ن sahaja."
+    },
+    {
+     "no": 3,
+     "criterion": "Mengeja ڤاكاين dengan betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan yang diberi berbeza daripada ejaan yang betul, ڤاكاين."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 3.0,
+   "feedback": "Betul, kata dasar pakai berakhir dengan huruf ya. Kamu belum menyatakan bahawa imbuhan -an ditulis dengan ن sahaja. Ejaan Jawi yang betul ialah ڤاكاين.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan kata dasar pakai berakhir dengan huruf ya."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Tidak menyatakan bahawa imbuhan -an ditulis dengan ن sahaja."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Ejaan yang diberi berbeza daripada ejaan yang betul, ڤاكاين."
+       }
+      ],
+      "feedback": "Betul, kata dasar pakai berakhir dengan huruf ya. Kamu belum menyatakan bahawa imbuhan -an ditulis dengan ن sahaja. Ejaan Jawi yang betul ialah ڤاكاين."
+     },
+     "ms": 4473
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 664,
+    "tokens_out": 354,
+    "cost": 0.0002434,
+    "ms": 4462,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 33.3,
+   "wall_ms": 4473
+  },
+  {
+   "rep": 0,
+   "answer_id": "T002",
+   "question_id": "tajwid_b3_mad_farq_q1",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "6",
+   "gold": [
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan enam harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Jawapan 6 bermaksud enam harakat."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "Betul, kadar panjang bacaan Mad Farq ialah enam harakat.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Jawapan 6 bermaksud enam harakat."
+       }
+      ],
+      "feedback": "Betul, kadar panjang bacaan Mad Farq ialah enam harakat."
+     },
+     "ms": 5699
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 579,
+    "tokens_out": 82,
+    "cost": 9.89e-05,
+    "ms": 5677,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 5699
+  },
+  {
+   "rep": 0,
+   "answer_id": "T003",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "كسيلاون",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan tidak tepat; jawapan kurang satu alif berbanding ejaan yang betul, كسيلاوان."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "Ejaan kamu hampir betul. Ejaan yang tepat ialah كسيلاوان, dengan satu alif selepas wau.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Ejaan tidak tepat; jawapan kurang satu alif berbanding ejaan yang betul, كسيلاوان."
+       }
+      ],
+      "feedback": "Ejaan kamu hampir betul. Ejaan yang tepat ialah كسيلاوان, dengan satu alif selepas wau."
+     },
+     "ms": 4620
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 595,
+    "tokens_out": 189,
+    "cost": 0.000154,
+    "ms": 4610,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 4620
+  },
+  {
+   "rep": 0,
+   "answer_id": "T004",
+   "question_id": "jawi_b3_pinjaman_arab_q9",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "ايستيله كأݢاماٴن تو ڤركاتاٴن يڠ اد كاٴيتن دڠن عبادة اݢام إسلام، ايجاٴنڽ تق توكر، ايكوت اصل عرب. چونتوه صلاة دان زكاة. كات عموم ڤولق ڤركاتاٴن بياسا، دتوليس ايكوت چارا اورڠ ملايو سبوت. چونتوه سابون.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya",
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Istilah keagamaan: berkaitan aktiviti agama Islam",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan istilah keagamaan berkaitan ibadah agama Islam."
+    },
+    {
+     "no": 2,
+     "criterion": "Istilah keagamaan dikekalkan ejaan asalnya",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan ejaan istilah keagamaan tidak diubah dan mengikut asal Arab."
+    },
+    {
+     "no": 3,
+     "criterion": "Mengeja solat: صلاة",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Solat dieja صلاة dengan tepat."
+    },
+    {
+     "no": 4,
+     "criterion": "Kata umum ditulis mengikut bunyi/sebutan Melayu",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan kata umum ditulis mengikut sebutan orang Melayu."
+    },
+    {
+     "no": 5,
+     "criterion": "Mengeja sabun: سابون (bukan صابون)",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Sabun dieja سابون dengan tepat."
+    },
+    {
+     "no": 6,
+     "criterion": "Contoh tambahan betul bagi mana-mana kategori (cth. قبلة، زكاة، حلال، كرتس، لاهير، ايستيله)",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "زكاة ialah contoh tambahan yang betul bagi istilah keagamaan."
+    }
+   ],
+   "score": 6.0,
+   "max_marks": 6.0,
+   "feedback": "Jawapan kamu menerangkan perbezaan kedua-dua kategori dengan baik dan memberikan contoh زكاة. Ejaan solat صلاة dan sabun سابون juga betul. Istilah keagamaan dikekalkan ejaan asal, manakala kata umum ditulis mengikut sebutan Melayu.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan istilah keagamaan berkaitan ibadah agama Islam."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Menyatakan ejaan istilah keagamaan tidak diubah dan mengikut asal Arab."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Solat dieja صلاة dengan tepat."
+       },
+       {
+        "no": 4,
+        "verdict": "ya",
+        "reason": "Menyatakan kata umum ditulis mengikut sebutan orang Melayu."
+       },
+       {
+        "no": 5,
+        "verdict": "ya",
+        "reason": "Sabun dieja سابون dengan tepat."
+       },
+       {
+        "no": 6,
+        "verdict": "ya",
+        "reason": "زكاة ialah contoh tambahan yang betul bagi istilah keagamaan."
+       }
+      ],
+      "feedback": "Jawapan kamu menerangkan perbezaan kedua-dua kategori dengan baik dan memberikan contoh زكاة. Ejaan solat صلاة dan sabun سابون juga betul. Istilah keagamaan dikekalkan ejaan asal, manakala kata umum ditulis mengikut sebutan Melayu."
+     },
+     "ms": 5959
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 846,
+    "tokens_out": 420,
+    "cost": 0.0002946,
+    "ms": 5930,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 5959
+  },
+  {
+   "rep": 0,
+   "answer_id": "T005",
+   "question_id": "jawi_b1_imbuhan_an_nun_q8",
+   "kind": "number_swap",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Pada empat April 2018",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan 1 April 2018",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tarikh yang dinyatakan ialah 4 April 2018, sedangkan jawapan yang betul ialah 1 April 2018."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Kamu telah menyatakan tarikh dan tahun lawatan. Namun, tarikhnya bukan 4 April; lawatan diadakan pada 1 April 2018.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Tarikh yang dinyatakan ialah 4 April 2018, sedangkan jawapan yang betul ialah 1 April 2018."
+       }
+      ],
+      "feedback": "Kamu telah menyatakan tarikh dan tahun lawatan. Namun, tarikhnya bukan 4 April; lawatan diadakan pada 1 April 2018."
+     },
+     "ms": 4268
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 603,
+    "tokens_out": 167,
+    "cost": 0.0001438,
+    "ms": 4262,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 4268
+  },
+  {
+   "rep": 0,
+   "answer_id": "T006",
+   "question_id": "tajwid_b3_mad_iwadh_q1",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "دوا harakat",
+   "gold": [
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan dua harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan kadar bacaan dua harakat."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "Betul, kamu menyatakan kadarnya. Mad 'Iwadh dibaca dua harakat.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan kadar bacaan dua harakat."
+       }
+      ],
+      "feedback": "Betul, kamu menyatakan kadarnya. Mad 'Iwadh dibaca dua harakat."
+     },
+     "ms": 3510
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 582,
+    "tokens_out": 180,
+    "cost": 0.0001482,
+    "ms": 3502,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 3510
+  },
+  {
+   "rep": 0,
+   "answer_id": "T007",
+   "question_id": "fiqh_b1_latihan_q6",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Betul, sebab tarawih dibuat lepas isyak sampai sebelum subuh masuk.",
+   "gold": [
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menjawab Betul (tarawih didirikan selepas isyak hingga terbit fajar sadiq)",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menjawab Betul dan menyatakan tarawih dilakukan selepas Isyak hingga sebelum masuk waktu Subuh."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "Bagus, jawapan kamu betul. Solat tarawih didirikan selepas Isyak hingga terbit fajar sadiq.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menjawab Betul dan menyatakan tarawih dilakukan selepas Isyak hingga sebelum masuk waktu Subuh."
+       }
+      ],
+      "feedback": "Bagus, jawapan kamu betul. Solat tarawih didirikan selepas Isyak hingga terbit fajar sadiq."
+     },
+     "ms": 4337
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 646,
+    "tokens_out": 167,
+    "cost": 0.0001481,
+    "ms": 4329,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 4339
+  },
+  {
+   "rep": 0,
+   "answer_id": "T008",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "1. Hati jadi aman dan tak risau. 2. Kita tak jadi bongkak. 3. Kita percaya apa yang Allah dah tetapkan untuk kita, jadi akidah terjaga.",
+   "gold": [
+    "separa",
+    "tidak",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Memberi ketenangan kepada hati",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Hati menjadi aman dan tidak risau menunjukkan ketenangan hati."
+    },
+    {
+     "no": 2,
+     "criterion": "Menghilangkan sifat sombong",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Tidak menjadi bongkak membawa maksud menghilangkan sifat sombong."
+    },
+    {
+     "no": 3,
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Percaya ketentuan Allah menunjukkan yakin dengan ketentuan-Nya dan akidah terjaga."
+    }
+   ],
+   "score": 3.0,
+   "max_marks": 3.0,
+   "feedback": "Bagus, kamu menyatakan ketiga-tiga fadhilat dengan betul. Solat istikharah memberi ketenangan hati, menghilangkan sifat sombong dan menjaga akidah dengan yakin kepada ketentuan Allah.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Hati menjadi aman dan tidak risau menunjukkan ketenangan hati."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Tidak menjadi bongkak membawa maksud menghilangkan sifat sombong."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Percaya ketentuan Allah menunjukkan yakin dengan ketentuan-Nya dan akidah terjaga."
+       }
+      ],
+      "feedback": "Bagus, kamu menyatakan ketiga-tiga fadhilat dengan betul. Solat istikharah memberi ketenangan hati, menghilangkan sifat sombong dan menjaga akidah dengan yakin kepada ketentuan Allah."
+     },
+     "ms": 3835
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 657,
+    "tokens_out": 205,
+    "cost": 0.0001682,
+    "ms": 3823,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 3835
+  },
+  {
+   "rep": 0,
+   "answer_id": "T009",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Kalau hamzah kat tengah perkataan, atau kat hujung tapi kita sambung atau berhenti, baca 4 atau 5 harakat. Kalau hamzah kat hujung perkataan dan kita berhenti je, boleh baca 4, 5 atau 6 harakat.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Empat atau lima harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan kadar empat atau lima harakat."
+    },
+    {
+     "no": 2,
+     "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyebut hamzah di tengah atau hujung perkataan, sama ada sambung atau berhenti."
+    },
+    {
+     "no": 3,
+     "criterion": "Empat atau lima atau enam harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan kadar empat, lima atau enam harakat."
+    },
+    {
+     "no": 4,
+     "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyebut hamzah di hujung perkataan ketika berhenti sahaja."
+    }
+   ],
+   "score": 4.0,
+   "max_marks": 4.0,
+   "feedback": "Bagus, semua kadar dan keadaan Mad Wajib Muttasil dinyatakan dengan betul. Jika hamzah di hujung kalimah dan berhenti, bacaannya boleh dipanjangkan empat, lima atau enam harakat.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan kadar empat atau lima harakat."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Menyebut hamzah di tengah atau hujung perkataan, sama ada sambung atau berhenti."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Menyatakan kadar empat, lima atau enam harakat."
+       },
+       {
+        "no": 4,
+        "verdict": "ya",
+        "reason": "Menyebut hamzah di hujung perkataan ketika berhenti sahaja."
+       }
+      ],
+      "feedback": "Bagus, semua kadar dan keadaan Mad Wajib Muttasil dinyatakan dengan betul. Jika hamzah di hujung kalimah dan berhenti, bacaannya boleh dipanjangkan empat, lima atau enam harakat."
+     },
+     "ms": 3475
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 701,
+    "tokens_out": 261,
+    "cost": 0.0002006,
+    "ms": 3467,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 3476
+  },
+  {
+   "rep": 0,
+   "answer_id": "T010",
+   "question_id": "fiqh_b2_batal_puasa_q2",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Darah yang keluar dari perempuan lepas ada anak.",
+   "gold": [
+    "separa"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan melahirkan anak",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan menerangkan darah selepas bersalin, bukan maksud wiladah iaitu melahirkan anak."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Kamu mengaitkan jawapan dengan keadaan selepas mendapat anak. Namun, wiladah bermaksud melahirkan anak.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan menerangkan darah selepas bersalin, bukan maksud wiladah iaitu melahirkan anak."
+       }
+      ],
+      "feedback": "Kamu mengaitkan jawapan dengan keadaan selepas mendapat anak. Namun, wiladah bermaksud melahirkan anak."
+     },
+     "ms": 4734
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 585,
+    "tokens_out": 201,
+    "cost": 0.000159,
+    "ms": 4715,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 4735
+  },
+  {
+   "rep": 0,
+   "answer_id": "T011",
+   "question_id": "jawi_b4_akronim_melayu_q13",
+   "kind": "rumi_for_jawi",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Doktor",
+   "gold": [
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja دوكتور dalam ejaan penuh",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan ditulis dalam Rumi, bukan ejaan Jawi penuh دوكتور."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Kamu mengenal perkataan yang diminta, tetapi jawapan masih dalam tulisan Rumi. Ejaan Jawi penuh bagi “Doktor” ialah دوكتور.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan ditulis dalam Rumi, bukan ejaan Jawi penuh دوكتور."
+       }
+      ],
+      "feedback": "Kamu mengenal perkataan yang diminta, tetapi jawapan masih dalam tulisan Rumi. Ejaan Jawi penuh bagi “Doktor” ialah دوكتور."
+     },
+     "ms": 3479
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 610,
+    "tokens_out": 172,
+    "cost": 0.000147,
+    "ms": 3473,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 3480
+  },
+  {
+   "rep": 0,
+   "answer_id": "T012",
+   "question_id": "fiqh_b1_solat_witir_q2",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Sebelum solat isyak sampai terbit fajar.",
+   "gold": [
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Selepas solat isyak",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan sebelum solat Isyak, sedangkan waktu witir bermula selepas solat Isyak."
+    },
+    {
+     "no": 2,
+     "criterion": "Hingga terbit fajar",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan waktu witir berakhir hingga terbit fajar."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 2.0,
+   "feedback": "Betul, waktu solat witir berakhir hingga terbit fajar. Namun, waktu witir bermula selepas solat Isyak, bukan sebelum.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Murid menyatakan sebelum solat Isyak, sedangkan waktu witir bermula selepas solat Isyak."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Murid menyatakan waktu witir berakhir hingga terbit fajar."
+       }
+      ],
+      "feedback": "Betul, waktu solat witir berakhir hingga terbit fajar. Namun, waktu witir bermula selepas solat Isyak, bukan sebelum."
+     },
+     "ms": 3790
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 600,
+    "tokens_out": 174,
+    "cost": 0.000147,
+    "ms": 3782,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 50.0,
+   "wall_ms": 3792
+  },
+  {
+   "rep": 0,
+   "answer_id": "T013",
+   "question_id": "fiqh_b2_pengertian_puasa_q6",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Hukum puasa semuanya wajib, tiada puasa yang sunat.",
+   "gold": [
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan wajib",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan bahawa puasa wajib."
+    },
+    {
+     "no": 2,
+     "criterion": "Menyatakan sunat",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Menyatakan tiada puasa yang sunat."
+    },
+    {
+     "no": 3,
+     "criterion": "Bergantung pada jenis puasa",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Mengatakan semua puasa wajib, bukan bergantung pada jenis puasa."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 3.0,
+   "feedback": "Kamu betul bahawa ada puasa yang wajib. Namun, ada juga puasa sunat; hukum puasa bergantung pada jenis puasa.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan bahawa puasa wajib."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Menyatakan tiada puasa yang sunat."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Mengatakan semua puasa wajib, bukan bergantung pada jenis puasa."
+       }
+      ],
+      "feedback": "Kamu betul bahawa ada puasa yang wajib. Namun, ada juga puasa sunat; hukum puasa bergantung pada jenis puasa."
+     },
+     "ms": 3632
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 613,
+    "tokens_out": 210,
+    "cost": 0.0001663,
+    "ms": 3624,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 33.3,
+   "wall_ms": 3632
+  },
+  {
+   "rep": 0,
+   "answer_id": "T014",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "hati tenang, tak sombong, yakin dgn ketentuan Allah",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Memberi ketenangan kepada hati",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan hati menjadi tenang."
+    },
+    {
+     "no": 2,
+     "criterion": "Menghilangkan sifat sombong",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan tidak sombong."
+    },
+    {
+     "no": 3,
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan yakin dengan ketentuan Allah."
+    }
+   ],
+   "score": 3.0,
+   "max_marks": 3.0,
+   "feedback": "Bagus, kamu menyatakan ketiga-tiga fadhilat solat istikharah dengan betul. Solat istikharah memberi ketenangan hati, menghilangkan sifat sombong dan menjadikan kita yakin dengan ketentuan Allah.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan hati menjadi tenang."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Menyatakan tidak sombong."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Menyatakan yakin dengan ketentuan Allah."
+       }
+      ],
+      "feedback": "Bagus, kamu menyatakan ketiga-tiga fadhilat solat istikharah dengan betul. Solat istikharah memberi ketenangan hati, menghilangkan sifat sombong dan menjadikan kita yakin dengan ketentuan Allah."
+     },
+     "ms": 2510
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 632,
+    "tokens_out": 159,
+    "cost": 0.0001427,
+    "ms": 2504,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 2510
+  },
+  {
+   "rep": 0,
+   "answer_id": "T015",
+   "question_id": "fiqh_b2_latihan_q8",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Tidak berdosa, sebab puasa hari putih hukumnya sunat sahaja walaupun dia sudah bernazar.",
+   "gold": [
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan perbuatan itu salah / berdosa / tidak dibenarkan",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan menyatakan tidak berdosa, sedangkan perbuatan itu salah atau berdosa."
+    },
+    {
+     "no": 2,
+     "criterion": "Alasan: puasa nazar ialah puasa wajib",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan menyatakan puasa itu sunat, bukan puasa nazar yang wajib."
+    },
+    {
+     "no": 3,
+     "criterion": "Huraian: puasa hari putih yang dinazarkan wajib ditunaikan",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan tidak menyatakan bahawa puasa hari putih yang dinazarkan wajib ditunaikan."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "Jawapan kamu belum tepat kerana puasa nazar ialah puasa wajib. Puasa hari putih yang telah dinazarkan wajib ditunaikan, dan sengaja meninggalkannya adalah salah atau berdosa.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan menyatakan tidak berdosa, sedangkan perbuatan itu salah atau berdosa."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Jawapan menyatakan puasa itu sunat, bukan puasa nazar yang wajib."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Jawapan tidak menyatakan bahawa puasa hari putih yang dinazarkan wajib ditunaikan."
+       }
+      ],
+      "feedback": "Jawapan kamu belum tepat kerana puasa nazar ialah puasa wajib. Puasa hari putih yang telah dinazarkan wajib ditunaikan, dan sengaja meninggalkannya adalah salah atau berdosa."
+     },
+     "ms": 5076
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 719,
+    "tokens_out": 406,
+    "cost": 0.0002749,
+    "ms": 5065,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 5077
+  },
+  {
+   "rep": 0,
+   "answer_id": "T016",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Huruf mad bertemu huruf mati dalam dua kalimah. Tempatnya di Surah Yunus ayat 51 dan 91.",
+   "gold": [
+    "tidak",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan dua kalimah, sedangkan huruf mad bertemu huruf mati dalam satu kalimah."
+    },
+    {
+     "no": 2,
+     "criterion": "Surah Yunus ayat 51 dan 91",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "llm",
+     "reason": "Tempat yang dinyatakan tepat: Surah Yunus ayat 51 dan 91."
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 4.0,
+   "feedback": "Tempat dalam al-Quran yang kamu nyatakan betul. Ertinya bukan dalam dua kalimah, tetapi huruf mad bertemu huruf mati dalam satu kalimah.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Murid menyatakan dua kalimah, sedangkan huruf mad bertemu huruf mati dalam satu kalimah."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Tempat yang dinyatakan tepat: Surah Yunus ayat 51 dan 91."
+       }
+      ],
+      "feedback": "Tempat dalam al-Quran yang kamu nyatakan betul. Ertinya bukan dalam dua kalimah, tetapi huruf mad bertemu huruf mati dalam satu kalimah."
+     },
+     "ms": 3964
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 645,
+    "tokens_out": 209,
+    "cost": 0.000169,
+    "ms": 3959,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 50.0,
+   "wall_ms": 3964
+  },
+  {
+   "rep": 0,
+   "answer_id": "T017",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "كسيلوان",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan tidak tepat; jawapan murid tiada alif selepas lam, sedangkan ejaan betul ialah كسيلاوان."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "Awak sudah menulis kebanyakan huruf dengan betul. Ejaan yang tepat ialah كسيلاوان, dengan alif selepas lam.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Ejaan tidak tepat; jawapan murid tiada alif selepas lam, sedangkan ejaan betul ialah كسيلاوان."
+       }
+      ],
+      "feedback": "Awak sudah menulis kebanyakan huruf dengan betul. Ejaan yang tepat ialah كسيلاوان, dengan alif selepas lam."
+     },
+     "ms": 3822
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 594,
+    "tokens_out": 206,
+    "cost": 0.0001624,
+    "ms": 3813,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 3822
+  },
+  {
+   "rep": 0,
+   "answer_id": "T018",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "1. Dosa kita diampunkan. 2. Dapat rezeki melimpah. 3. Badan jadi sihat.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Memberi ketenangan kepada hati",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan tidak menyebut solat istikharah memberi ketenangan kepada hati."
+    },
+    {
+     "no": 2,
+     "criterion": "Menghilangkan sifat sombong",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan tidak menyebut sifat sombong dihilangkan."
+    },
+    {
+     "no": 3,
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan tidak menyebut menjaga akidah atau yakin dengan ketentuan Allah."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "Jawapan kamu belum menyatakan fadhilat solat istikharah yang dikehendaki. Fadhilatnya ialah memberi ketenangan hati, menghilangkan sifat sombong dan menjaga akidah dengan yakin kepada ketentuan Allah.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan tidak menyebut solat istikharah memberi ketenangan kepada hati."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Jawapan tidak menyebut sifat sombong dihilangkan."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Jawapan tidak menyebut menjaga akidah atau yakin dengan ketentuan Allah."
+       }
+      ],
+      "feedback": "Jawapan kamu belum menyatakan fadhilat solat istikharah yang dikehendaki. Fadhilatnya ialah memberi ketenangan hati, menghilangkan sifat sombong dan menjaga akidah dengan yakin kepada ketentuan Allah."
+     },
+     "ms": 3300
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 644,
+    "tokens_out": 249,
+    "cost": 0.0001889,
+    "ms": 3296,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 3301
+  },
+  {
+   "rep": 0,
+   "answer_id": "T019",
+   "question_id": "tajwid_b4_tingkatan_mad_q7",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Kita kena ikut tingkatan yang paling rendah. Contohnya مِمَّا يَشَآءُ ketika waqaf ada Mad 'Aridh Lissukun dan Mad Wajib Muttasil, jadi kita baca ikut Mad 'Aridh Lissukun.",
+   "gold": [
+    "separa",
+    "ya",
+    "ya",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan ikut tingkatan paling rendah, bukan tingkatan tertinggi."
+    },
+    {
+     "no": 2,
+     "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Contoh مِمَّا يَشَآءُ ketika waqaf diberikan."
+    },
+    {
+     "no": 3,
+     "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Kedua-dua hukum Mad 'Aridh Lissukun dan Mad Wajib Muttasil disebut."
+    },
+    {
+     "no": 4,
+     "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid memilih Mad 'Aridh Lissukun, sedangkan hukum sebenar ialah Mad Wajib Muttasil."
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 6.0,
+   "feedback": "Bagus, kamu memberikan contoh kalimah dan menyebut kedua-dua hukum mad dengan betul. Namun, tingkatan yang diikuti ialah tingkatan tertinggi, jadi hukum sebenar ialah Mad Wajib Muttasil.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Murid menyatakan ikut tingkatan paling rendah, bukan tingkatan tertinggi."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Contoh مِمَّا يَشَآءُ ketika waqaf diberikan."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Kedua-dua hukum Mad 'Aridh Lissukun dan Mad Wajib Muttasil disebut."
+       },
+       {
+        "no": 4,
+        "verdict": "tidak",
+        "reason": "Murid memilih Mad 'Aridh Lissukun, sedangkan hukum sebenar ialah Mad Wajib Muttasil."
+       }
+      ],
+      "feedback": "Bagus, kamu memberikan contoh kalimah dan menyebut kedua-dua hukum mad dengan betul. Namun, tingkatan yang diikuti ialah tingkatan tertinggi, jadi hukum sebenar ialah Mad Wajib Muttasil."
+     },
+     "ms": 5658
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 733,
+    "tokens_out": 433,
+    "cost": 0.0002898,
+    "ms": 5648,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 33.3,
+   "wall_ms": 5658
+  },
+  {
+   "rep": 0,
+   "answer_id": "T020",
+   "question_id": "fiqh_b1_solat_rawatib_q2",
+   "kind": "confusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Solat sunat ba'diyyah.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan qabliyyah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan menyebut ba'diyyah, sedangkan solat sunat sebelum solat fardu ialah qabliyyah."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Kamu sudah menyebut nama solat sunat, tetapi ba'diyyah bukan jawapan yang betul. Solat sunat yang dilakukan sebelum solat fardu dinamakan qabliyyah.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan menyebut ba'diyyah, sedangkan solat sunat sebelum solat fardu ialah qabliyyah."
+       }
+      ],
+      "feedback": "Kamu sudah menyebut nama solat sunat, tetapi ba'diyyah bukan jawapan yang betul. Solat sunat yang dilakukan sebelum solat fardu dinamakan qabliyyah."
+     },
+     "ms": 4490
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 591,
+    "tokens_out": 197,
+    "cost": 0.0001576,
+    "ms": 4482,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 4491
+  },
+  {
+   "rep": 0,
+   "answer_id": "T021",
+   "question_id": "fiqh_b1_solat_hari_raya_q3",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Rakaat pertama lima kali takbir, rakaat kedua tujuh kali takbir.",
+   "gold": [
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Rakaat pertama: tujuh kali",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Rakaat pertama bukan lima kali; jawapan yang betul ialah tujuh kali."
+    },
+    {
+     "no": 2,
+     "criterion": "Rakaat kedua: lima kali",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Rakaat kedua bukan tujuh kali; jawapan yang betul ialah lima kali."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "Kamu telah menyebut bilangan takbir bagi kedua-dua rakaat, tetapi bilangannya tertukar. Rakaat pertama tujuh kali dan rakaat kedua lima kali.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Rakaat pertama bukan lima kali; jawapan yang betul ialah tujuh kali."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Rakaat kedua bukan tujuh kali; jawapan yang betul ialah lima kali."
+       }
+      ],
+      "feedback": "Kamu telah menyebut bilangan takbir bagi kedua-dua rakaat, tetapi bilangannya tertukar. Rakaat pertama tujuh kali dan rakaat kedua lima kali."
+     },
+     "ms": 4375
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 624,
+    "tokens_out": 149,
+    "cost": 0.0001369,
+    "ms": 4362,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 4375
+  },
+  {
+   "rep": 0,
+   "answer_id": "T022",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "4 atau 5 harakat, kadang-kadang boleh lagi panjang.",
+   "gold": [
+    "ya",
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Empat atau lima harakat",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan kadar empat atau lima harakat dengan tepat."
+    },
+    {
+     "no": 2,
+     "criterion": "Keadaan: hamzah di tengah/hujung kalimah, wasal atau waqaf",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyatakan keadaan hamzah di tengah atau hujung kalimah, sama ada wasal atau waqaf."
+    },
+    {
+     "no": 3,
+     "criterion": "Empat atau lima atau enam harakat",
+     "marks": 1.0,
+     "met": "separa",
+     "awarded": 0.5,
+     "layer": "llm",
+     "reason": "Menyebut bacaan boleh lebih panjang, tetapi tidak menyatakan enam harakat."
+    },
+    {
+     "no": 4,
+     "criterion": "Keadaan: hamzah di hujung kalimah, waqaf sahaja",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyatakan hamzah di hujung kalimah ketika waqaf sahaja."
+    }
+   ],
+   "score": 1.5,
+   "max_marks": 4.0,
+   "feedback": "Bagus, kamu menyatakan kadar empat atau lima harakat. Lengkapkan jawapan dengan enam harakat serta keadaan hamzah di hujung kalimah ketika waqaf sahaja.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan kadar empat atau lima harakat dengan tepat."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Tidak menyatakan keadaan hamzah di tengah atau hujung kalimah, sama ada wasal atau waqaf."
+       },
+       {
+        "no": 3,
+        "verdict": "separa",
+        "reason": "Menyebut bacaan boleh lebih panjang, tetapi tidak menyatakan enam harakat."
+       },
+       {
+        "no": 4,
+        "verdict": "tidak",
+        "reason": "Tidak menyatakan hamzah di hujung kalimah ketika waqaf sahaja."
+       }
+      ],
+      "feedback": "Bagus, kamu menyatakan kadar empat atau lima harakat. Lengkapkan jawapan dengan enam harakat serta keadaan hamzah di hujung kalimah ketika waqaf sahaja."
+     },
+     "ms": 7006
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 659,
+    "tokens_out": 510,
+    "cost": 0.0003209,
+    "ms": 6987,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 37.5,
+   "wall_ms": 7007
+  },
+  {
+   "rep": 0,
+   "answer_id": "T023",
+   "question_id": "jawi_b2_imbuhan_i_ya_q3",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "منصيحاتي",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan tidak tepat; jawapan murid mempunyai alif tambahan."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "Kamu sudah cuba menulis perkataan itu dalam tulisan Jawi. Ejaan yang betul ialah منصيحتي, tanpa alif tambahan sebelum ت.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Ejaan tidak tepat; jawapan murid mempunyai alif tambahan."
+       }
+      ],
+      "feedback": "Kamu sudah cuba menulis perkataan itu dalam tulisan Jawi. Ejaan yang betul ialah منصيحتي, tanpa alif tambahan sebelum ت."
+     },
+     "ms": 3290
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 597,
+    "tokens_out": 170,
+    "cost": 0.0001447,
+    "ms": 3284,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 3290
+  },
+  {
+   "rep": 0,
+   "answer_id": "T024",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Kalimah yang ada dalam Surah Yunus, yang ada dua hamzah tu.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan ءَآلۡـَٰٔنَ",
+     "marks": 1.0,
+     "met": "separa",
+     "awarded": 0.5,
+     "layer": "llm",
+     "reason": "Mengenal pasti petunjuk Surah Yunus dan dua hamzah, tetapi tidak menyatakan kalimah yang diminta."
+    }
+   ],
+   "score": 0.5,
+   "max_marks": 1.0,
+   "feedback": "Bagus, kamu tahu kalimah itu terdapat dalam Surah Yunus dan mempunyai dua hamzah. Namun, kalimah yang diminta belum dinyatakan; jawapannya ialah ءَآلۡـَٰٔنَ.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "separa",
+        "reason": "Mengenal pasti petunjuk Surah Yunus dan dua hamzah, tetapi tidak menyatakan kalimah yang diminta."
+       }
+      ],
+      "feedback": "Bagus, kamu tahu kalimah itu terdapat dalam Surah Yunus dan mempunyai dua hamzah. Namun, kalimah yang diminta belum dinyatakan; jawapannya ialah ءَآلۡـَٰٔنَ."
+     },
+     "ms": 4182
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 618,
+    "tokens_out": 236,
+    "cost": 0.0001798,
+    "ms": 4165,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 50.0,
+   "wall_ms": 4183
+  },
+  {
+   "rep": 0,
+   "answer_id": "T025",
+   "question_id": "fiqh_b1_latihan_q8",
+   "kind": "tf_flip",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Betul",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menjawab Salah (takbir tujuh kali ialah perkara yang disunatkan, bukan membatalkan solat)",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan murid ialah Betul, sedangkan jawapan yang tepat ialah Salah."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Jawapan kamu belum tepat. Takbir tujuh kali dalam rakaat pertama ialah perkara sunat, bukan sebab solat terbatal.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan murid ialah Betul, sedangkan jawapan yang tepat ialah Salah."
+       }
+      ],
+      "feedback": "Jawapan kamu belum tepat. Takbir tujuh kali dalam rakaat pertama ialah perkara sunat, bukan sebab solat terbatal."
+     },
+     "ms": 2493
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 634,
+    "tokens_out": 110,
+    "cost": 0.0001184,
+    "ms": 2484,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 2493
+  },
+  {
+   "rep": 0,
+   "answer_id": "T026",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Bila huruf mad jumpa hamzah dalam dua perkataan. Tempatnya dalam Surah al-Baqarah.",
+   "gold": [
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Huruf mad bertemu huruf mati dalam satu kalimah",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan menyebut hamzah dalam dua perkataan, bukan huruf mad bertemu huruf mati dalam satu kalimah."
+    },
+    {
+     "no": 2,
+     "criterion": "Surah Yunus ayat 51 dan 91",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tempat yang betul ialah Surah Yunus ayat 51 dan 91, bukan Surah al-Baqarah."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 4.0,
+   "feedback": "Mad Lazim Kalimi Mukhaffaf ialah huruf mad bertemu huruf mati dalam satu kalimah. Tempatnya dalam Surah Yunus ayat 51 dan 91.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan menyebut hamzah dalam dua perkataan, bukan huruf mad bertemu huruf mati dalam satu kalimah."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Tempat yang betul ialah Surah Yunus ayat 51 dan 91, bukan Surah al-Baqarah."
+       }
+      ],
+      "feedback": "Mad Lazim Kalimi Mukhaffaf ialah huruf mad bertemu huruf mati dalam satu kalimah. Tempatnya dalam Surah Yunus ayat 51 dan 91."
+     },
+     "ms": 3190
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 641,
+    "tokens_out": 239,
+    "cost": 0.0001836,
+    "ms": 3179,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 3191
+  },
+  {
+   "rep": 0,
+   "answer_id": "T027",
+   "question_id": "jawi_b1_imbuhan_an_nun_q11",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Kat situ ada banyak jenis bunga ros, buah strawberi dan macam-macam buah lain.",
+   "gold": [
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyebut bunga ros",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyebut banyak jenis bunga ros."
+    },
+    {
+     "no": 2,
+     "criterion": "Menyebut strawberi / buah-buahan",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyebut buah strawberi dan buah-buahan lain."
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 2.0,
+   "feedback": "Bagus, jawapan kamu menyebut bunga ros dan strawberi. Kamu juga menyebut buah-buahan lain.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyebut banyak jenis bunga ros."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Menyebut buah strawberi dan buah-buahan lain."
+       }
+      ],
+      "feedback": "Bagus, jawapan kamu menyebut bunga ros dan strawberi. Kamu juga menyebut buah-buahan lain."
+     },
+     "ms": 3514
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 612,
+    "tokens_out": 122,
+    "cost": 0.0001222,
+    "ms": 3506,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 3515
+  },
+  {
+   "rep": 0,
+   "answer_id": "T028",
+   "question_id": "tajwid_b3_mad_iwadh_q4",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "برهنتي ڤد ڤركاتاٴن يڠ اد تنوين.",
+   "gold": [
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mewaqafkan bacaan pada akhir kalimah",
+     "marks": 1.0,
+     "met": "separa",
+     "awarded": 0.5,
+     "layer": "llm",
+     "reason": "Menyebut berhenti pada perkataan, tetapi tidak menyatakan pada akhir kalimah."
+    },
+    {
+     "no": 2,
+     "criterion": "Berbaris tanwin di atas",
+     "marks": 1.0,
+     "met": "separa",
+     "awarded": 0.5,
+     "layer": "llm",
+     "reason": "Menyebut tanwin, tetapi tidak menyatakan tanwin di atas."
+    },
+    {
+     "no": 3,
+     "criterion": "Kecuali ta marbutah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyebut pengecualian ta marbutah."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 3.0,
+   "feedback": "Betul, Mad 'Iwadh melibatkan berhenti pada perkataan yang mempunyai tanwin. Jawapan perlu menyatakan tanwin di atas pada akhir kalimah dan pengecualian ta marbutah.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "separa",
+        "reason": "Menyebut berhenti pada perkataan, tetapi tidak menyatakan pada akhir kalimah."
+       },
+       {
+        "no": 2,
+        "verdict": "separa",
+        "reason": "Menyebut tanwin, tetapi tidak menyatakan tanwin di atas."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Tidak menyebut pengecualian ta marbutah."
+       }
+      ],
+      "feedback": "Betul, Mad 'Iwadh melibatkan berhenti pada perkataan yang mempunyai tanwin. Jawapan perlu menyatakan tanwin di atas pada akhir kalimah dan pengecualian ta marbutah."
+     },
+     "ms": 4496
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 631,
+    "tokens_out": 345,
+    "cost": 0.0002356,
+    "ms": 4480,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 33.3,
+   "wall_ms": 4497
+  },
+  {
+   "rep": 0,
+   "answer_id": "T029",
+   "question_id": "fiqh_b1_solat_witir_q4",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "Allah suka dan dapat dekat dengan Allah",
+   "gold": [
+    "ya",
+    "ya",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Disukai oleh Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan bahawa Allah suka."
+    },
+    {
+     "no": 2,
+     "criterion": "Mendekatkan diri kepada Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan dapat mendekatkan diri kepada Allah."
+    },
+    {
+     "no": 3,
+     "criterion": "Kekuatan rohani / menenangkan jiwa",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyebut kekuatan rohani atau menenangkan jiwa."
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 3.0,
+   "feedback": "Betul, solat witir disukai Allah dan dapat mendekatkan diri kepada Allah. Satu lagi fadhilat yang belum disebut ialah memberi kekuatan rohani atau menenangkan jiwa.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan bahawa Allah suka."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Menyatakan dapat mendekatkan diri kepada Allah."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Tidak menyebut kekuatan rohani atau menenangkan jiwa."
+       }
+      ],
+      "feedback": "Betul, solat witir disukai Allah dan dapat mendekatkan diri kepada Allah. Satu lagi fadhilat yang belum disebut ialah memberi kekuatan rohani atau menenangkan jiwa."
+     },
+     "ms": 3596
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 614,
+    "tokens_out": 226,
+    "cost": 0.0001744,
+    "ms": 3594,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 3597
+  },
+  {
+   "rep": 0,
+   "answer_id": "T030",
+   "question_id": "tajwid_b2_mad_asli_kalimi_q3",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Ya, dimadkan dua harakat apabila bertemu hamzah wasal.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan tidak dimadkan",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan mad asli dimadkan, sedangkan jawapan yang betul ialah tidak dimadkan."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Jawapan kamu jelas, tetapi hukumnya kurang tepat. Mad asli tidak dimadkan apabila bertemu hamzah wasal ketika dibaca wasal.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Murid menyatakan mad asli dimadkan, sedangkan jawapan yang betul ialah tidak dimadkan."
+       }
+      ],
+      "feedback": "Jawapan kamu jelas, tetapi hukumnya kurang tepat. Mad asli tidak dimadkan apabila bertemu hamzah wasal ketika dibaca wasal."
+     },
+     "ms": 3528
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 603,
+    "tokens_out": 161,
+    "cost": 0.0001408,
+    "ms": 3525,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 3528
+  },
+  {
+   "rep": 0,
+   "answer_id": "T031",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "ڤالو -> ڤالوان، درو -> دروءن",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Contoh pertama kata '-ان' dieja betul",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "ڤالوان ialah ejaan Jawi yang betul bagi paluan."
+    },
+    {
+     "no": 2,
+     "criterion": "Contoh kedua kata '-ان' dieja betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "دروءن bukan ejaan yang betul; deruan dieja دروان."
+    },
+    {
+     "no": 3,
+     "criterion": "Kata dasar berakhir dengan bunyi vokal 'u' (huruf و)",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Kata dasar ڤالو dan درو berakhir dengan huruf و."
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 3.0,
+   "feedback": "Bagus, ڤالوان betul dan kedua-dua kata dasar berakhir dengan huruf و. Ejaan contoh kedua kurang tepat; deruan dieja دروان.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "ڤالوان ialah ejaan Jawi yang betul bagi paluan."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "دروءن bukan ejaan yang betul; deruan dieja دروان."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Kata dasar ڤالو dan درو berakhir dengan huruf و."
+       }
+      ],
+      "feedback": "Bagus, ڤالوان betul dan kedua-dua kata dasar berakhir dengan huruf و. Ejaan contoh kedua kurang tepat; deruan dieja دروان."
+     },
+     "ms": 7819
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 669,
+    "tokens_out": 584,
+    "cost": 0.0003589,
+    "ms": 7815,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 7819
+  },
+  {
+   "rep": 0,
+   "answer_id": "T032",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "كسيلاوان",
+   "gold": [
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'kesilauan' dengan betul (كسيلاوان)",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "llm",
+     "reason": "Ejaan Jawi كسيلاوان tepat."
+    }
+   ],
+   "score": 2.0,
+   "max_marks": 2.0,
+   "feedback": "Ejaan Jawi kamu tepat: كسيلاوان. Bagus, teruskan usaha kamu.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Ejaan Jawi كسيلاوان tepat."
+       }
+      ],
+      "feedback": "Ejaan Jawi kamu tepat: كسيلاوان. Bagus, teruskan usaha kamu."
+     },
+     "ms": 2713
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 595,
+    "tokens_out": 109,
+    "cost": 0.000114,
+    "ms": 2707,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 2713
+  },
+  {
+   "rep": 0,
+   "answer_id": "T033",
+   "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "mad tobii",
+   "gold": [
+    "separa"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan mad tabi'i atau mad zati",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "“Mad tobii” merujuk kepada mad tabi'i."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "Bagus, jawapan kamu betul. Mad tabi'i ialah satu nama lain bagi mad asli.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "“Mad tobii” merujuk kepada mad tabi'i."
+       }
+      ],
+      "feedback": "Bagus, jawapan kamu betul. Mad tabi'i ialah satu nama lain bagi mad asli."
+     },
+     "ms": 2699
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 583,
+    "tokens_out": 101,
+    "cost": 0.0001088,
+    "ms": 2694,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 2699
+  },
+  {
+   "rep": 0,
+   "answer_id": "T034",
+   "question_id": "fiqh_b2_batal_puasa_q6",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Puasa Ali tidak batal sebab dia minum sedikit sahaja. Puasa Siti batal sebab keluar haid. Perkara lain yang membatalkan puasa ialah muntah dengan sengaja dan makan dengan sengaja.",
+   "gold": [
+    "tidak",
+    "tidak",
+    "ya",
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Puasa Ali batal",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Puasa Ali dinyatakan tidak batal, sedangkan sepatutnya batal."
+    },
+    {
+     "no": 2,
+     "criterion": "Alasan: minum dengan sengaja walaupun sedikit",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan tidak menyebut minum dengan sengaja dan menyatakan sedikit air tidak membatalkan puasa."
+    },
+    {
+     "no": 3,
+     "criterion": "Puasa Siti batal",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan puasa Siti batal."
+    },
+    {
+     "no": 4,
+     "criterion": "Alasan: keluar haid",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Murid menyebut Siti batal kerana keluar haid."
+    },
+    {
+     "no": 5,
+     "criterion": "Perkara lain pertama",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Muntah dengan sengaja ialah perkara lain yang membatalkan puasa."
+    },
+    {
+     "no": 6,
+     "criterion": "Perkara lain kedua",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Makan dengan sengaja ialah perkara lain yang membatalkan puasa."
+    }
+   ],
+   "score": 4.0,
+   "max_marks": 6.0,
+   "feedback": "Bagus, kamu betul bahawa puasa Siti batal kerana keluar haid, dan kamu menyebut dua perkara lain yang membatalkan puasa. Puasa Ali juga batal kerana dia minum dengan sengaja walaupun sedikit.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Puasa Ali dinyatakan tidak batal, sedangkan sepatutnya batal."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Jawapan tidak menyebut minum dengan sengaja dan menyatakan sedikit air tidak membatalkan puasa."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Murid menyatakan puasa Siti batal."
+       },
+       {
+        "no": 4,
+        "verdict": "ya",
+        "reason": "Murid menyebut Siti batal kerana keluar haid."
+       },
+       {
+        "no": 5,
+        "verdict": "ya",
+        "reason": "Muntah dengan sengaja ialah perkara lain yang membatalkan puasa."
+       },
+       {
+        "no": 6,
+        "verdict": "ya",
+        "reason": "Makan dengan sengaja ialah perkara lain yang membatalkan puasa."
+       }
+      ],
+      "feedback": "Bagus, kamu betul bahawa puasa Siti batal kerana keluar haid, dan kamu menyebut dua perkara lain yang membatalkan puasa. Puasa Ali juga batal kerana dia minum dengan sengaja walaupun sedikit."
+     },
+     "ms": 5104
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 734,
+    "tokens_out": 427,
+    "cost": 0.0002869,
+    "ms": 5101,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 66.7,
+   "wall_ms": 5105
+  },
+  {
+   "rep": 0,
+   "answer_id": "T035",
+   "question_id": "tajwid_b3_mad_farq_q6",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "سورة يونس ايات 51، 59 دان 91. سورة النمل ايات 59. سورة الأنعام ايات 143 دان 144.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Surah Yunus (59, 91, 51)",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "llm",
+     "reason": "Surah Yunus dan ayat 51, 59 serta 91 disenaraikan dengan tepat."
+    },
+    {
+     "no": 2,
+     "criterion": "Surah an-Naml 59",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Surah an-Naml ayat 59 disenaraikan dengan tepat."
+    },
+    {
+     "no": 3,
+     "criterion": "Surah al-An'am 143 dan 144",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Surah al-An'am ayat 143 dan 144 disenaraikan dengan tepat."
+    }
+   ],
+   "score": 4.0,
+   "max_marks": 4.0,
+   "feedback": "Bagus, semua nama surah dan nombor ayat yang mengandungi hukum Mad Farq tepat. Surah Yunus ialah ayat 51, 59 dan 91; an-Naml ayat 59; al-An'am ayat 143 dan 144.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Surah Yunus dan ayat 51, 59 serta 91 disenaraikan dengan tepat."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Surah an-Naml ayat 59 disenaraikan dengan tepat."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Surah al-An'am ayat 143 dan 144 disenaraikan dengan tepat."
+       }
+      ],
+      "feedback": "Bagus, semua nama surah dan nombor ayat yang mengandungi hukum Mad Farq tepat. Surah Yunus ialah ayat 51, 59 dan 91; an-Naml ayat 59; al-An'am ayat 143 dan 144."
+     },
+     "ms": 3626
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 659,
+    "tokens_out": 312,
+    "cost": 0.0002219,
+    "ms": 3620,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 3626
+  },
+  {
+   "rep": 0,
+   "answer_id": "T036",
+   "question_id": "jawi_b2_imbuhan_i_ya_q3",
+   "kind": "jawi_typo",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "منسيحتي",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja 'menasihati' dengan betul (منصيحتي)",
+     "marks": 2.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan murid menggunakan س, sedangkan ejaan yang betul ialah ص."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "Kamu sudah menulis perkataan itu dalam tulisan Jawi. Namun, ejaan yang betul ialah منصيحتي, dengan huruf ص.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Ejaan murid menggunakan س, sedangkan ejaan yang betul ialah ص."
+       }
+      ],
+      "feedback": "Kamu sudah menulis perkataan itu dalam tulisan Jawi. Namun, ejaan yang betul ialah منصيحتي, dengan huruf ص."
+     },
+     "ms": 15
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 597,
+    "tokens_out": 151,
+    "cost": 0.0,
+    "ms": 3367,
+    "cached": 1
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 15
+  },
+  {
+   "rep": 0,
+   "answer_id": "T037",
+   "question_id": "fiqh_b1_solat_tahajud_q4",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "1. داڤت رزقي باڽق. 2. بادن سيحت. 3. داڤت ڤيليه ڤيليهن يڠ بايق.",
+   "gold": [
+    "tidak",
+    "ya",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Membersihkan hati daripada kebencian",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan tentang rezeki tidak menyatakan hati dibersihkan daripada kebencian."
+    },
+    {
+     "no": 2,
+     "criterion": "Mencintai Allah dan menguatkan iman",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan tentang badan sihat tidak menyatakan cinta kepada Allah atau iman yang kuat."
+    },
+    {
+     "no": 3,
+     "criterion": "Rasa takut kepada Allah / dunia sementara",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Memilih pilihan yang baik bukan rasa takut kepada Allah atau mengingati dunia sementara."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "Kamu telah menyenaraikan tiga perkara, tetapi perkara itu tidak sepadan dengan fadhilat dalam rubrik. Fadhilat solat tahajud termasuk membersihkan hati daripada kebencian, mencintai Allah dan menguatkan iman, serta rasa takut kepada Allah atau mengingati dunia sementara.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan tentang rezeki tidak menyatakan hati dibersihkan daripada kebencian."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Jawapan tentang badan sihat tidak menyatakan cinta kepada Allah atau iman yang kuat."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Memilih pilihan yang baik bukan rasa takut kepada Allah atau mengingati dunia sementara."
+       }
+      ],
+      "feedback": "Kamu telah menyenaraikan tiga perkara, tetapi perkara itu tidak sepadan dengan fadhilat dalam rubrik. Fadhilat solat tahajud termasuk membersihkan hati daripada kebencian, mencintai Allah dan menguatkan iman, serta rasa takut kepada Allah atau mengingati dunia sementara."
+     },
+     "ms": 4238
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 654,
+    "tokens_out": 301,
+    "cost": 0.0002159,
+    "ms": 4234,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 4239
+  },
+  {
+   "rep": 0,
+   "answer_id": "T038",
+   "question_id": "tajwid_b1_mad_bahagian_q3",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "2 bhgn",
+   "gold": [
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan dua bahagian",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan mad mempunyai dua bahagian."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "Bagus, kamu menyatakan jumlah yang betul. Mad mempunyai dua bahagian.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan mad mempunyai dua bahagian."
+       }
+      ],
+      "feedback": "Bagus, kamu menyatakan jumlah yang betul. Mad mempunyai dua bahagian."
+     },
+     "ms": 4073
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 577,
+    "tokens_out": 155,
+    "cost": 0.0001352,
+    "ms": 4070,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 4073
+  },
+  {
+   "rep": 0,
+   "answer_id": "T039",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "1. هاتي جادي تنڠ. 2. داڤت ڤاهالا باڽق.",
+   "gold": [
+    "ya",
+    "tidak",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Memberi ketenangan kepada hati",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyatakan hati menjadi tenang."
+    },
+    {
+     "no": 2,
+     "criterion": "Menghilangkan sifat sombong",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Menyebut mendapat banyak pahala, bukan menghilangkan sifat sombong."
+    },
+    {
+     "no": 3,
+     "criterion": "Menjaga akidah / yakin dengan ketentuan Allah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyatakan menjaga akidah atau yakin dengan ketentuan Allah."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 3.0,
+   "feedback": "Bagus, kamu menyatakan hati menjadi tenang. Fadhilat lain ialah menghilangkan sifat sombong dan menjaga akidah serta yakin dengan ketentuan Allah.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan hati menjadi tenang."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Menyebut mendapat banyak pahala, bukan menghilangkan sifat sombong."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Tidak menyatakan menjaga akidah atau yakin dengan ketentuan Allah."
+       }
+      ],
+      "feedback": "Bagus, kamu menyatakan hati menjadi tenang. Fadhilat lain ialah menghilangkan sifat sombong dan menjaga akidah serta yakin dengan ketentuan Allah."
+     },
+     "ms": 4091
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 640,
+    "tokens_out": 283,
+    "cost": 0.0002055,
+    "ms": 4088,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 33.3,
+   "wall_ms": 4092
+  },
+  {
+   "rep": 0,
+   "answer_id": "T040",
+   "question_id": "fiqh_b2_batal_puasa_q5",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "makan, minum, muntah",
+   "gold": [
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Perkara sengaja pertama",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Makan dengan sengaja membatalkan puasa."
+    },
+    {
+     "no": 2,
+     "criterion": "Perkara sengaja kedua",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Minum dengan sengaja membatalkan puasa."
+    },
+    {
+     "no": 3,
+     "criterion": "Perkara sengaja ketiga",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Muntah dengan sengaja membatalkan puasa."
+    }
+   ],
+   "score": 3.0,
+   "max_marks": 3.0,
+   "feedback": "Bagus, kamu menyatakan tiga perkara yang membatalkan puasa. Makan, minum dan muntah dengan sengaja membatalkan puasa.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Makan dengan sengaja membatalkan puasa."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Minum dengan sengaja membatalkan puasa."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Muntah dengan sengaja membatalkan puasa."
+       }
+      ],
+      "feedback": "Bagus, kamu menyatakan tiga perkara yang membatalkan puasa. Makan, minum dan muntah dengan sengaja membatalkan puasa."
+     },
+     "ms": 4305
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 615,
+    "tokens_out": 235,
+    "cost": 0.000179,
+    "ms": 4294,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 4305
+  },
+  {
+   "rep": 0,
+   "answer_id": "T041",
+   "question_id": "jawi_b2_imbuhan_i_ya_q8",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "ايمبوهن -i دتوليس دڠن همزة دان ي (ءي). سوكو كات ترتوتوڤ اياله سوكو كات يڠ هابيس دڠن ۏوكل. دمارهءي، دبايڠءي، اوبتءي",
+   "gold": [
+    "ya",
+    "ya",
+    "ya",
+    "ya",
+    "separa",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Peraturan: dieja dengan huruf '-ي' sahaja",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan imbuhan ditulis dengan hamzah dan ya, bukan huruf ي sahaja."
+    },
+    {
+     "no": 2,
+     "criterion": "Maksud suku kata tertutup: diakhiri huruf konsonan",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan suku kata tertutup berakhir dengan vokal, bukan konsonan."
+    },
+    {
+     "no": 3,
+     "criterion": "Menyebut vokal 'a', 'i' atau 'u'",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Vokal a, i atau u tidak disebut."
+    },
+    {
+     "no": 4,
+     "criterion": "Mengeja dimarahi: دمارهي",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan yang diberi tidak sama dengan ejaan yang ditetapkan: دمارهي."
+    },
+    {
+     "no": 5,
+     "criterion": "Mengeja dibayangi: دبايڠي",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan yang diberi tidak sama dengan ejaan yang ditetapkan: دبايڠي."
+    },
+    {
+     "no": 6,
+     "criterion": "Mengeja ubati: اوبتي",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan yang diberi tidak sama dengan ejaan yang ditetapkan: اوبتي."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 6.0,
+   "feedback": "Kamu sudah cuba menulis ketiga-tiga contoh. Imbuhan -i dieja dengan huruf ي sahaja; suku kata tertutup berakhir dengan konsonan dan melibatkan vokal a, i atau u. Ejaan yang betul ialah دمارهي، دبايڠي dan اوبتي.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Murid menyatakan imbuhan ditulis dengan hamzah dan ya, bukan huruf ي sahaja."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Murid menyatakan suku kata tertutup berakhir dengan vokal, bukan konsonan."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Vokal a, i atau u tidak disebut."
+       },
+       {
+        "no": 4,
+        "verdict": "tidak",
+        "reason": "Ejaan yang diberi tidak sama dengan ejaan yang ditetapkan: دمارهي."
+       },
+       {
+        "no": 5,
+        "verdict": "tidak",
+        "reason": "Ejaan yang diberi tidak sama dengan ejaan yang ditetapkan: دبايڠي."
+       },
+       {
+        "no": 6,
+        "verdict": "tidak",
+        "reason": "Ejaan yang diberi tidak sama dengan ejaan yang ditetapkan: اوبتي."
+       }
+      ],
+      "feedback": "Kamu sudah cuba menulis ketiga-tiga contoh. Imbuhan -i dieja dengan huruf ي sahaja; suku kata tertutup berakhir dengan konsonan dan melibatkan vokal a, i atau u. Ejaan yang betul ialah دمارهي، دبايڠي dan اوبتي."
+     },
+     "ms": 6759
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 820,
+    "tokens_out": 599,
+    "cost": 0.0003815,
+    "ms": 6754,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 6759
+  },
+  {
+   "rep": 0,
+   "answer_id": "T042",
+   "question_id": "fiqh_b2_fadhilat_puasa_q1",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Pintu Ar-Rayyan.",
+   "gold": [
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan al-Rayyan",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Ar-Rayyan ialah nama pintu syurga bagi orang yang berpuasa."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 1.0,
+   "feedback": "Bagus, jawapan kamu betul. Pintu syurga yang dimasuki oleh orang yang berpuasa bernama al-Rayyan.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Ar-Rayyan ialah nama pintu syurga bagi orang yang berpuasa."
+       }
+      ],
+      "feedback": "Bagus, jawapan kamu betul. Pintu syurga yang dimasuki oleh orang yang berpuasa bernama al-Rayyan."
+     },
+     "ms": 3123
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 591,
+    "tokens_out": 125,
+    "cost": 0.0001216,
+    "ms": 3118,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 3123
+  },
+  {
+   "rep": 0,
+   "answer_id": "T043",
+   "question_id": "fiqh_b1_solat_witir_q4",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "1. Rapat dengan Allah. 2. Dapat pahala banyak.",
+   "gold": [
+    "ya",
+    "ya",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Disukai oleh Allah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyatakan bahawa solat witir disukai oleh Allah."
+    },
+    {
+     "no": 2,
+     "criterion": "Mendekatkan diri kepada Allah",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "“Rapat dengan Allah” membawa maksud mendekatkan diri kepada Allah."
+    },
+    {
+     "no": 3,
+     "criterion": "Kekuatan rohani / menenangkan jiwa",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyatakan kekuatan rohani atau menenangkan jiwa."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 3.0,
+   "feedback": "Bagus, jawapan “rapat dengan Allah” menunjukkan kita mendekatkan diri kepada Allah. Fadhilat lain yang belum disebut ialah solat witir disukai Allah serta memberi kekuatan rohani atau menenangkan jiwa.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Tidak menyatakan bahawa solat witir disukai oleh Allah."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "“Rapat dengan Allah” membawa maksud mendekatkan diri kepada Allah."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Tidak menyatakan kekuatan rohani atau menenangkan jiwa."
+       }
+      ],
+      "feedback": "Bagus, jawapan “rapat dengan Allah” menunjukkan kita mendekatkan diri kepada Allah. Fadhilat lain yang belum disebut ialah solat witir disukai Allah serta memberi kekuatan rohani atau menenangkan jiwa."
+     },
+     "ms": 4088
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 622,
+    "tokens_out": 298,
+    "cost": 0.0002112,
+    "ms": 4082,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 33.3,
+   "wall_ms": 4088
+  },
+  {
+   "rep": 0,
+   "answer_id": "T044",
+   "question_id": "jawi_b1_imbuhan_an_nun_q11",
+   "kind": "partial",
+   "family": "teacher",
+   "script": "jawi",
+   "answer": "اد باڽق بوڠا روس يڠ چنتيق.",
+   "gold": [
+    "ya",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyebut bunga ros",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyebut bunga ros."
+    },
+    {
+     "no": 2,
+     "criterion": "Menyebut strawberi / buah-buahan",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Tidak menyebut strawberi atau buah-buahan."
+    }
+   ],
+   "score": 1.0,
+   "max_marks": 2.0,
+   "feedback": "Bagus, kamu menyebut bunga ros. Jawapan juga perlu menyebut strawberi atau buah-buahan.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyebut bunga ros."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Tidak menyebut strawberi atau buah-buahan."
+       }
+      ],
+      "feedback": "Bagus, kamu menyebut bunga ros. Jawapan juga perlu menyebut strawberi atau buah-buahan."
+     },
+     "ms": 3187
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 611,
+    "tokens_out": 177,
+    "cost": 0.0001496,
+    "ms": 3184,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 50.0,
+   "wall_ms": 3187
+  },
+  {
+   "rep": 0,
+   "answer_id": "T045",
+   "question_id": "tajwid_b3_mad_badal_q1",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Mad badal dibaca enam harakat sebab hamzah ganti huruf mad.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan dua harakat",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan menyatakan enam harakat, sedangkan kadar yang betul ialah dua harakat."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Kamu cuba menerangkan Mad Badal. Namun, kadar enam harakat tidak tepat; Mad Badal dibaca dua harakat.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan menyatakan enam harakat, sedangkan kadar yang betul ialah dua harakat."
+       }
+      ],
+      "feedback": "Kamu cuba menerangkan Mad Badal. Namun, kadar enam harakat tidak tepat; Mad Badal dibaca dua harakat."
+     },
+     "ms": 3359
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 594,
+    "tokens_out": 218,
+    "cost": 0.0001684,
+    "ms": 3352,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 3359
+  },
+  {
+   "rep": 0,
+   "answer_id": "T046",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+   "kind": "misconception",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "إِنَّآ أَنزَلۡنَٰهُ ، قُوٓاْ أَنفُسَكُمۡ ، فِيٓ أَنفُسِكُمۡ",
+   "gold": [
+    "tidak",
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Misal pertama yang betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Mad bertemu hamzah pada perkataan yang berasingan, bukan dalam satu kalimah."
+    },
+    {
+     "no": 2,
+     "criterion": "Misal kedua yang betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Huruf mad dan hamzah berada pada dua perkataan berasingan."
+    },
+    {
+     "no": 3,
+     "criterion": "Misal ketiga yang betul",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Huruf mad dan hamzah berada pada dua perkataan berasingan."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 3.0,
+   "feedback": "Kamu sudah memberikan tiga contoh, tetapi semuanya bukan Mad Wajib Muttasil. Mad Wajib Muttasil berlaku apabila huruf mad bertemu hamzah dalam satu kalimah.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Mad bertemu hamzah pada perkataan yang berasingan, bukan dalam satu kalimah."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Huruf mad dan hamzah berada pada dua perkataan berasingan."
+       },
+       {
+        "no": 3,
+        "verdict": "tidak",
+        "reason": "Huruf mad dan hamzah berada pada dua perkataan berasingan."
+       }
+      ],
+      "feedback": "Kamu sudah memberikan tiga contoh, tetapi semuanya bukan Mad Wajib Muttasil. Mad Wajib Muttasil berlaku apabila huruf mad bertemu hamzah dalam satu kalimah."
+     },
+     "ms": 5443
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 652,
+    "tokens_out": 410,
+    "cost": 0.0002702,
+    "ms": 5437,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 5443
+  },
+  {
+   "rep": 0,
+   "answer_id": "T047",
+   "question_id": "tajwid_b3_mad_tamkin_q2",
+   "kind": "fluent_no_answer",
+   "family": "teacher",
+   "script": "",
+   "answer": "Mad tamkin ialah mad yang sangat penting dalam bacaan al-Quran dan mesti dibaca dengan betul supaya tidak salah makna.",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Menyatakan lima kalimah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Jawapan tidak menyatakan bilangan kalimah Mad Tamkin."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Kamu menyebut bahawa Mad Tamkin perlu dibaca dengan betul. Bilangan kalimah yang mengandungi hukum Mad Tamkin dalam al-Quran ialah lima.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Jawapan tidak menyatakan bilangan kalimah Mad Tamkin."
+       }
+      ],
+      "feedback": "Kamu menyebut bahawa Mad Tamkin perlu dibaca dengan betul. Bilangan kalimah yang mengandungi hukum Mad Tamkin dalam al-Quran ialah lima."
+     },
+     "ms": 6028
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 616,
+    "tokens_out": 144,
+    "cost": 0.0001336,
+    "ms": 6023,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 6028
+  },
+  {
+   "rep": 0,
+   "answer_id": "T048",
+   "question_id": "jawi_b4_akronim_melayu_q13",
+   "kind": "pupil_style",
+   "family": "teacher",
+   "script": "",
+   "answer": "دكتور",
+   "gold": [
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Mengeja دوكتور dalam ejaan penuh",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Ejaan murid دكتور tidak sama dengan ejaan penuh دوكتور."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 1.0,
+   "feedback": "Ejaan kamu hampir betul. Ejaan penuh bagi “Doktor” ialah دوكتور, dengan huruf و selepas د.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Ejaan murid دكتور tidak sama dengan ejaan penuh دوكتور."
+       }
+      ],
+      "feedback": "Ejaan kamu hampir betul. Ejaan penuh bagi “Doktor” ialah دوكتور, dengan huruf و selepas د."
+     },
+     "ms": 4317
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 610,
+    "tokens_out": 174,
+    "cost": 0.000148,
+    "ms": 4301,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 4317
+  },
+  {
+   "rep": 0,
+   "answer_id": "T049",
+   "question_id": "tajwid_b4_tingkatan_mad_q7",
+   "kind": "paraphrase_full",
+   "family": "teacher",
+   "script": "rumi",
+   "answer": "Kita kena tahu tingkatan mad sebab kadang-kadang satu perkataan ada dua hukum mad, jadi kita ikut yang paling kuat. Contoh مِمَّا يَشَآءُ, bila kita berhenti kat situ ada mad aridh lissukun dan ada mad wajib muttasil. Yang kita pakai ialah mad wajib muttasil sebab darjatnya lagi atas dari mad aridh lissukun.",
+   "gold": [
+    "ya",
+    "ya",
+    "ya",
+    "ya"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Dua hukum mad dalam satu kalimah berpandukan tingkatan tertinggi",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "llm",
+     "reason": "Menyatakan satu kalimah boleh mempunyai dua hukum mad dan mengikut tingkatan tertinggi."
+    },
+    {
+     "no": 2,
+     "criterion": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Memberikan contoh مِمَّا يَشَآءُ ketika berhenti."
+    },
+    {
+     "no": 3,
+     "criterion": "Menyebut dua hukum: Mad 'Aridh Lissukun dan Mad Wajib Muttasil",
+     "marks": 1.0,
+     "met": "ya",
+     "awarded": 1.0,
+     "layer": "llm",
+     "reason": "Menyebut Mad 'Aridh Lissukun dan Mad Wajib Muttasil."
+    },
+    {
+     "no": 4,
+     "criterion": "Hukum sebenar Mad Wajib Muttasil kerana tingkatan lebih tinggi",
+     "marks": 2.0,
+     "met": "ya",
+     "awarded": 2.0,
+     "layer": "llm",
+     "reason": "Menetapkan Mad Wajib Muttasil sebagai hukum sebenar kerana tingkatannya lebih tinggi."
+    }
+   ],
+   "score": 6.0,
+   "max_marks": 6.0,
+   "feedback": "Bagus, kamu menerangkan bahawa satu kalimah boleh mempunyai dua hukum mad dan kita mengikut tingkatan tertinggi. Contoh مِمَّا يَشَآءُ ketika waqaf mempunyai Mad 'Aridh Lissukun dan Mad Wajib Muttasil; hukum sebenar ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "ya",
+        "reason": "Menyatakan satu kalimah boleh mempunyai dua hukum mad dan mengikut tingkatan tertinggi."
+       },
+       {
+        "no": 2,
+        "verdict": "ya",
+        "reason": "Memberikan contoh مِمَّا يَشَآءُ ketika berhenti."
+       },
+       {
+        "no": 3,
+        "verdict": "ya",
+        "reason": "Menyebut Mad 'Aridh Lissukun dan Mad Wajib Muttasil."
+       },
+       {
+        "no": 4,
+        "verdict": "ya",
+        "reason": "Menetapkan Mad Wajib Muttasil sebagai hukum sebenar kerana tingkatannya lebih tinggi."
+       }
+      ],
+      "feedback": "Bagus, kamu menerangkan bahawa satu kalimah boleh mempunyai dua hukum mad dan kita mengikut tingkatan tertinggi. Contoh مِمَّا يَشَآءُ ketika waqaf mempunyai Mad 'Aridh Lissukun dan Mad Wajib Muttasil; hukum sebenar ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi."
+     },
+     "ms": 5129
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 763,
+    "tokens_out": 386,
+    "cost": 0.0002693,
+    "ms": 5123,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 100.0,
+   "wall_ms": 5129
+  },
+  {
+   "rep": 0,
+   "answer_id": "T050",
+   "question_id": "tajwid_b3_mad_farq_q3",
+   "kind": "keyword_illusion",
+   "family": "teacher",
+   "script": "",
+   "answer": "Enam kalimah dalam tiga tempat.",
+   "gold": [
+    "tidak",
+    "tidak"
+   ],
+   "config": "b1:luna",
+   "criteria": [
+    {
+     "no": 1,
+     "criterion": "Tiga kalimah",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan enam kalimah, sedangkan bilangan yang betul ialah tiga kalimah."
+    },
+    {
+     "no": 2,
+     "criterion": "Enam tempat",
+     "marks": 1.0,
+     "met": "tidak",
+     "awarded": 0.0,
+     "layer": "llm",
+     "reason": "Murid menyatakan tiga tempat, sedangkan bilangan yang betul ialah enam tempat."
+    }
+   ],
+   "score": 0.0,
+   "max_marks": 2.0,
+   "feedback": "Jawapan kamu menyebut tiga tempat dan enam kalimah, tetapi bilangannya terbalik. Mad Farq mempunyai tiga kalimah dalam enam tempat.",
+   "context": [],
+   "trace": [
+    {
+     "step": 1,
+     "thought": "Kriteria manakah yang dipenuhi?",
+     "action": "score_rubric",
+     "observation": {
+      "criteria": [
+       {
+        "no": 1,
+        "verdict": "tidak",
+        "reason": "Murid menyatakan enam kalimah, sedangkan bilangan yang betul ialah tiga kalimah."
+       },
+       {
+        "no": 2,
+        "verdict": "tidak",
+        "reason": "Murid menyatakan tiga tempat, sedangkan bilangan yang betul ialah enam tempat."
+       }
+      ],
+      "feedback": "Jawapan kamu menyebut tiga tempat dan enam kalimah, tetapi bilangannya terbalik. Mad Farq mempunyai tiga kalimah dalam enam tempat."
+     },
+     "ms": 3118
+    }
+   ],
+   "usage": {
+    "calls": 1,
+    "tokens_in": 605,
+    "tokens_out": 208,
+    "cost": 0.0001645,
+    "ms": 3109,
+    "cached": 0
+   },
+   "ok": true,
+   "error": "",
+   "percent": 0.0,
+   "wall_ms": 3119
+  }
+ ]
+}

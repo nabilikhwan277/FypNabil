@@ -1,0 +1,100 @@
+{
+ "teacher_model": "GPT-6 Luna, proposed system R3 + A2, memory off",
+ "groups": {
+  "train": {
+   "all": {
+    "answers": 532,
+    "luna_replied": 532,
+    "criteria_agree": 0.96,
+    "kept": 490
+   },
+   "family:paraphrase": {
+    "answers": 263,
+    "luna_replied": 263,
+    "criteria_agree": 0.942,
+    "kept": 226
+   },
+   "family:programmatic": {
+    "answers": 269,
+    "luna_replied": 269,
+    "criteria_agree": 0.988,
+    "kept": 264
+   },
+   "subject:fiqh": {
+    "answers": 159,
+    "luna_replied": 159,
+    "criteria_agree": 0.955,
+    "kept": 143
+   },
+   "subject:jawi": {
+    "answers": 194,
+    "luna_replied": 194,
+    "criteria_agree": 0.946,
+    "kept": 177
+   },
+   "subject:tajwid": {
+    "answers": 179,
+    "luna_replied": 179,
+    "criteria_agree": 0.979,
+    "kept": 170
+   }
+  },
+  "val": {
+   "all": {
+    "answers": 99,
+    "luna_replied": 99,
+    "criteria_agree": 0.951,
+    "kept": 88
+   },
+   "family:paraphrase": {
+    "answers": 60,
+    "luna_replied": 60,
+    "criteria_agree": 0.928,
+    "kept": 49
+   },
+   "family:programmatic": {
+    "answers": 39,
+    "luna_replied": 39,
+    "criteria_agree": 1.0,
+    "kept": 39
+   },
+   "subject:fiqh": {
+    "answers": 32,
+    "luna_replied": 32,
+    "criteria_agree": 0.986,
+    "kept": 31
+   },
+   "subject:jawi": {
+    "answers": 33,
+    "luna_replied": 33,
+    "criteria_agree": 0.952,
+    "kept": 29
+   },
+   "subject:tajwid": {
+    "answers": 34,
+    "luna_replied": 34,
+    "criteria_agree": 0.923,
+    "kept": 28
+   }
+  }
+ },
+ "kept_verdicts": {
+  "train": {
+   "ya": 494,
+   "tidak": 584,
+   "separa": 40
+  },
+  "val": {
+   "tidak": 99,
+   "ya": 104,
+   "separa": 8
+  }
+ },
+ "dropped_kinds": {
+  "partial": 34,
+  "misconception": 10,
+  "paraphrase_full": 4,
+  "number_swap": 3,
+  "ref_rumi": 2
+ }
+}

@@ -1,0 +1,2061 @@
+{
+ "fiqh_b1_latihan_q1": {
+  "stem_rumi": "Latihan 1: Isi tempat kosong dengan jawapan yang betul (sebelum, tertutup, lima, 28, petunjuk, tujuh). Solat sunat qabliyyah ialah solat sunat yang didirikan ____ solat fardu.",
+  "stem_jawi": "لاتيهن 1: ايسي تمڤت كوسوڠ دڠن جواڤن يڠ بتول (سبلوم، ترتوتوڤ، ليم، 28، ڤتونجوق، توجوه). صلاة سنة قَبْلِيَّة اياله صلاة سنة يڠ دديريكن ____ صلاة فرض.",
+  "options": [
+   {
+    "rumi": "Sebelum",
+    "jawi": "سبلوم"
+   },
+   {
+    "rumi": "Lima",
+    "jawi": "ليم"
+   },
+   {
+    "rumi": "Tujuh",
+    "jawi": "توجوه"
+   },
+   {
+    "rumi": "Tertutup",
+    "jawi": "ترتوتوڤ"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Solat sunat qabliyyah ialah solat sunat yang dilakukan sebelum solat fardu.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_latihan_q2": {
+  "stem_rumi": "Isi tempat kosong dengan jawapan yang betul. Sekitar ____ minit selepas matahari terbit, disunatkan kepada kita untuk mendirikan solat dhuha.",
+  "stem_jawi": "ايسي تمڤت كوسوڠ دڠن جواڤن يڠ بتول. سكيتر ____ مينيت سلڤس ماتاهاري تربيت، دسنتكن كڤد كيت اونتوق منديريكن صلاة ضحى.",
+  "options": [
+   {
+    "rumi": "40",
+    "jawi": "امڤت ڤولوه"
+   },
+   {
+    "rumi": "28",
+    "jawi": "28"
+   },
+   {
+    "rumi": "lima",
+    "jawi": "ليما"
+   },
+   {
+    "rumi": "tujuh",
+    "jawi": "توجوه"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Menurut nota buku teks, waktu dhuha bermula lebih kurang 28 minit selepas matahari terbit.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_latihan_q3": {
+  "stem_rumi": "Solat istikharah didirikan untuk memohon ____ daripada Allah SWT. Apakah jawapan yang betul?",
+  "stem_jawi": "صلاة استخارة دديريكن اونتوق مموهون ____ درڤد الله ﷻ. اڤاكه جواڤن يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Tujuh",
+    "jawi": "توجوه"
+   },
+   {
+    "rumi": "Tertutup",
+    "jawi": "ترتوتوڤ"
+   },
+   {
+    "rumi": "Petunjuk",
+    "jawi": "ڤتونجوق"
+   },
+   {
+    "rumi": "Sebelum",
+    "jawi": "سبلوم"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Solat istikharah didirikan untuk memohon petunjuk dan bimbingan daripada Allah SWT dalam membuat pilihan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_latihan_q4": {
+  "stem_rumi": "Pada rakaat pertama solat dua hari raya, disunatkan kepada kita untuk bertakbir sebanyak berapa kali?",
+  "stem_jawi": "ڤد ركعة ڤرتام صلاة دوا هاري راي، دسنتكن كڤد كيت اونتوق برتكبير سباڽق بركم كالي؟",
+  "options": [
+   {
+    "rumi": "Dua puluh lapan kali",
+    "jawi": "دوا ڤولوه لاڤن كالي"
+   },
+   {
+    "rumi": "Tiga kali",
+    "jawi": "تيݢ كالي"
+   },
+   {
+    "rumi": "Lima kali",
+    "jawi": "ليم كالي"
+   },
+   {
+    "rumi": "Tujuh kali",
+    "jawi": "توجوه كالي"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Nota buku teks menyatakan bahawa pada rakaat pertama disunatkan takbir tujuh kali, manakala rakaat kedua takbir lima kali.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_latihan_q5": {
+  "stem_rumi": "Apabila terbit matahari dari barat, maka pintu taubat akan ____.",
+  "stem_jawi": "اڤابيلا تربيت ماتاهاري دري بارت، مك ڤينتو توبة اكن ____.",
+  "options": [
+   {
+    "rumi": "Tertutup",
+    "jawi": "ترتوتوڤ"
+   },
+   {
+    "rumi": "Lima",
+    "jawi": "ليم"
+   },
+   {
+    "rumi": "Petunjuk",
+    "jawi": "ڤتونجوق"
+   },
+   {
+    "rumi": "Sebelum",
+    "jawi": "سبلوم"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Taubat tidak akan diterima apabila matahari terbit dari barat, kerana pintu taubat ketika itu sudah tertutup.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_dhuha_q1": {
+  "stem_rumi": "Apakah hukum solat dhuha?",
+  "stem_jawi": "اڤاكه حكوم صلاة ضحى؟",
+  "options": [
+   {
+    "rumi": "Haram",
+    "jawi": "حرام"
+   },
+   {
+    "rumi": "Sunat muakkad",
+    "jawi": "سنة مؤكد"
+   },
+   {
+    "rumi": "Sunat ghairu muakkad",
+    "jawi": "سنة غير مؤكد"
+   },
+   {
+    "rumi": "Wajib",
+    "jawi": "واجب"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Nota buku teks menyatakan hukum solat dhuha ialah sunat muakkad, iaitu sunat yang sangat digalakkan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_dhuha_q2": {
+  "stem_rumi": "Lebih kurang berapa minit selepas matahari terbit bermulanya waktu dhuha?",
+  "stem_jawi": "لبيه كورڠ برڤ مينيت سلڤس ماتاهاري تربيت برمولاڽ وقتو ضحى؟",
+  "options": [
+   {
+    "rumi": "Lebih kurang 60 minit",
+    "jawi": "لبيه كورڠ 60 مينيت"
+   },
+   {
+    "rumi": "Lebih kurang 10 minit",
+    "jawi": "لبيه كورڠ 10 مينيت"
+   },
+   {
+    "rumi": "Lebih kurang 28 minit",
+    "jawi": "لبيه كورڠ 28 مينيت"
+   },
+   {
+    "rumi": "Lebih kurang 15 minit",
+    "jawi": "لبيه كورڠ 15 مينيت"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Waktu dhuha bermula apabila matahari sekadar satu galah tingginya, iaitu lebih kurang 28 minit selepas matahari terbit.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_dhuha_q3": {
+  "stem_rumi": "Bilakah berakhirnya waktu solat dhuha?",
+  "stem_jawi": "بيلاكه براخيرڽ وقتو صلاة ضحى؟",
+  "options": [
+   {
+    "rumi": "Hingga matahari terbenam",
+    "jawi": "هيڠڬ ماتاهاري تربنام"
+   },
+   {
+    "rumi": "Hingga masuk waktu zohor",
+    "jawi": "هيڠڬ ماسوق وقتو ظهر"
+   },
+   {
+    "rumi": "Hingga masuk waktu asar",
+    "jawi": "هيڠڬ ماسوق وقتو عصر"
+   },
+   {
+    "rumi": "Hingga gelincir matahari sebelum masuk waktu zohor",
+    "jawi": "هيڠڬ ڬلينچير ماتاهاري سبلوم ماسوق وقتو ظهر"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut buku teks, waktu solat dhuha berakhir apabila gelincir matahari, iaitu sebelum masuk waktu zohor.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_dhuha_q4": {
+  "stem_rumi": "Antara berikut, yang manakah fadhilat solat dhuha?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه فضيلة صلاة ضحى؟",
+  "options": [
+   {
+    "rumi": "Jaminan rezeki",
+    "jawi": "جامينن رزقي"
+   },
+   {
+    "rumi": "Menggantikan solat fardu yang tertinggal",
+    "jawi": "مڠڬنتيكن صلاة فرض يڠ ترتيڠڬال"
+   },
+   {
+    "rumi": "Hukumnya wajib ke atas semua Muslim",
+    "jawi": "حكومڽ واجب كاتس سموا مسلم"
+   },
+   {
+    "rumi": "Menjadikan pelajar pandai dalam peperiksaan",
+    "jawi": "مناجيكن ڤلاجر ڤنداي دالم ڤريقساءن"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Orang yang selalu mengerjakan solat dhuha akan dikurniakan rezeki yang melimpah kerana waktu dhuha itu ada keistimewaannya.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_dhuha_q5": {
+  "stem_rumi": "Antara berikut, yang manakah lafaz niat solat dhuha dua rakaat beserta maksudnya yang betul?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان٢ه لفظ نية صلاة ضحى دوا ركعة بيرسام مقصودڽ يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "أُصَلِّي سُنَّةَ ٱلضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksud: Sahaja aku solat sunat dhuha dua rakaat kerana Allah Taala.",
+    "jawi": "أُصَلِّي سُنَّةَ ٱلضُّحَى رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة ضحى دوا ركعة كران الله تعالى."
+   },
+   {
+    "rumi": "أُصَلِّي فَرْضَ ٱلصُّبْحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksud: Sahaja aku solat fardu subuh dua rakaat kerana Allah Taala.",
+    "jawi": "أُصَلِّي فَرْضَ ٱلصُّبْحِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة فرض صبح دوا ركعة كران الله تعالى."
+   },
+   {
+    "rumi": "أُصَلِّي سُنَّةَ ٱلظُّهْرِ أَرْبَعَ رَكَعَاتٍ لِلَّهِ تَعَالَى. Maksud: Sahaja aku solat sunat zohor empat rakaat kerana Allah Taala.",
+    "jawi": "أُصَلِّي سُنَّةَ ٱلظُّهْرِ أَرْبَعَ رَكَعَاتٍ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة ظهر امڤت ركعة كران الله تعالى."
+   },
+   {
+    "rumi": "أُصَلِّي سُنَّةَ ٱلتَّهَجُّدِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. Maksud: Sahaja aku solat sunat tahajjud dua rakaat kerana Allah Taala.",
+    "jawi": "أُصَلِّي سُنَّةَ ٱلتَّهَجُّدِ رَكْعَتَيْنِ لِلَّهِ تَعَالَى. مقصودڽ: سهاج اكو صلاة سنة تهجد دوا ركعة كران الله تعالى."
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Menurut buku teks, lafaz niat solat dhuha ialah dua rakaat dengan maksud sahaja aku solat sunat dhuha dua rakaat kerana Allah Taala.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_gerhana_q1": {
+  "stem_rumi": "Antara berikut, yang manakah hukum solat gerhana matahari dan bulan?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان‌كه حكوم صلاة ݢرهان ماتاهاري دان بولن؟",
+  "options": [
+   {
+    "rumi": "Wajib (fardu ain)",
+    "jawi": "واجب (فرض عين)"
+   },
+   {
+    "rumi": "Harus (boleh dilakukan atau tidak)",
+    "jawi": "حرام"
+   },
+   {
+    "rumi": "Sunat muakkad (sunat yang dituntut)",
+    "jawi": "سنة مُؤَكَّد (سنة يڠ دتونتوت)"
+   },
+   {
+    "rumi": "Makruh (sebaiknya ditinggalkan)",
+    "jawi": "مكروه (السبءيقڽ دتيڠݢلكن)"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menurut buku teks, hukum solat gerhana matahari dan bulan ialah sunat muakkad, iaitu sunat yang sangat dituntut.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_gerhana_q2": {
+  "stem_rumi": "Antara berikut, yang manakah betul tentang maksud solat khusuf dan solat kusuf?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان‌ه بتول تنتڠ مقصود صلاة خسوف دان صلاة كسوف؟",
+  "options": [
+   {
+    "rumi": "Solat khusuf dan solat kusuf kedua-duanya ialah solat gerhana bulan.",
+    "jawi": "صلاة خُسُوف دان صلاة كُسُوف كدواڽ صلاة ݢرهان بولن."
+   },
+   {
+    "rumi": "Solat khusuf ialah solat jenazah; solat kusuf ialah solat hari raya.",
+    "jawi": "صلاة خُسُوف اياله صلاة جنازه؛ صلاة كُسُوف اياله صلاة هاري راي."
+   },
+   {
+    "rumi": "Solat khusuf ialah solat gerhana matahari; solat kusuf ialah solat gerhana bulan.",
+    "jawi": "صلاة خُسُوف اياله صلاة ݢرهان ماتاهاري؛ صلاة كُسُوف اياله صلاة ݢرهان بولن."
+   },
+   {
+    "rumi": "Solat khusuf ialah solat gerhana bulan; solat kusuf ialah solat gerhana matahari.",
+    "jawi": "صلاة خُسُوف اياله صلاة ݢرهان بولن؛ صلاة كُسُوف اياله صلاة ݢرهان ماتاهاري."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut nota buku teks, solat khusuf bermaksud solat gerhana bulan dan solat kusuf bermaksud solat gerhana matahari.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_gerhana_q3": {
+  "stem_rumi": "Apakah lafaz seruan bagi solat gerhana sebagai ganti azan dan iqamah?",
+  "stem_jawi": "اڤاكه لفظ سروان باݢي صلاة ݢرهان سباݢاي ݢنتي اذان دان إقامة؟",
+  "options": [
+   {
+    "rumi": "ٱلصَّلَاةُ جَامِعَةٌ",
+    "jawi": "ٱلصَّلَاةُ جَامِعَةٌ"
+   },
+   {
+    "rumi": "حَيَّ عَلَى ٱلْفَلَاحِ",
+    "jawi": "حَيَّ عَلَى ٱلْفَلَاحِ"
+   },
+   {
+    "rumi": "ٱلصَّلَاةُ خَيْرٌ مِنَ ٱلنَّوْمِ",
+    "jawi": "ٱلصَّلَاةُ خَيْرٌ مِنَ ٱلنَّوْمِ"
+   },
+   {
+    "rumi": "ٱللَّهُ أَكْبَرُ",
+    "jawi": "ٱللَّهُ أَكْبَرُ"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Solat gerhana tiada azan dan iqamah, sebaliknya diseru dengan lafaz ٱلصَّلَاةُ جَامِعَةٌ yang bermaksud solat ini mengumpulkan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_gerhana_q4": {
+  "stem_rumi": "Bilakah solat gerhana berakhir?",
+  "stem_jawi": "بيلاكه صلاة ݢرهان براخير؟",
+  "options": [
+   {
+    "rumi": "Apabila azan Zuhur dilaungkan",
+    "jawi": "اڤابيلا ازان ظهر دلاوڠكن"
+   },
+   {
+    "rumi": "Apabila telah tamatnya gerhana matahari atau bulan",
+    "jawi": "اڤابيلا تله تمتڽ ݢرهان ماتاهاري اتاو بولن"
+   },
+   {
+    "rumi": "Apabila matahari sudah naik tinggi",
+    "jawi": "اڤابيلا ماتاهاري سوده نايق تيڠݢي"
+   },
+   {
+    "rumi": "Apabila imam selesai membaca khutbah",
+    "jawi": "اڤابيلا امام سلساي ممباچ خطبه"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Solat gerhana berakhir apabila gerhana matahari atau bulan telah tamat, seperti yang dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_gerhana_q5": {
+  "stem_rumi": "Antara berikut, yang manakah merupakan fadhilat solat gerhana matahari dan bulan?",
+  "stem_jawi": "انتارا بريكوت، يڠ مانكه مروڤاكن فضيلة صلاة ݢرهان ماتاهاري دان بولن؟",
+  "options": [
+   {
+    "rumi": "Solat ini wajib dilakukan dengan azan dan iqamah.",
+    "jawi": "صلاة اين واجب دلاكوكن دڠن اذان دان إقامة."
+   },
+   {
+    "rumi": "Menambah bilangan rakaat solat Zohor.",
+    "jawi": "مناممبه بيلاڠن راكعة صلاة ظهر."
+   },
+   {
+    "rumi": "Menginsafi kekuasaan Allah SWT terhadap penciptaan alam.",
+    "jawi": "مڠينصافي ككواساءن الله ﷻ ترهادڤ ڤنچيڤتاءن عالم."
+   },
+   {
+    "rumi": "Menggantikan solat fardu yang tertinggal.",
+    "jawi": "مڠݢنتيكن صلاة فرض يڠ ترتيڠݢال."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menginsafi kekuasaan Allah SWT terhadap penciptaan alam ialah salah satu fadhilat solat gerhana matahari dan bulan menurut buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hajat_q1": {
+  "stem_rumi": "Apakah pengertian solat hajat?",
+  "stem_jawi": "اڤاكه ڤڠرتين صلاة حاجت؟",
+  "options": [
+   {
+    "rumi": "Solat yang dilakukan selepas waktu Subuh sahaja",
+    "jawi": "صلاة يڠ دلاكوكن سلڤس وقتو صبح سهاج"
+   },
+   {
+    "rumi": "Solat yang dilakukan ketika matahari tegak di atas kepala",
+    "jawi": "صلاة يڠ دلاكوكن كتيک ماتاهاري تڬق دأتس كڤالا"
+   },
+   {
+    "rumi": "Solat sunat yang dilakukan hanya pada waktu Jumaat",
+    "jawi": "صلاة سنة يڠ دلاكوكن هاڽ ڤد واقتو جمعة"
+   },
+   {
+    "rumi": "Solat bagi mereka yang mempunyai hajat atau kesulitan dalam sesuatu hal",
+    "jawi": "صلاة باڬي مريک يڠ ممڤوڽاءي حاجت اتاو كسوليتن دالم سسواتو حال"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut buku teks, solat hajat ialah solat bagi mereka yang mempunyai hajat atau menghadapi kesulitan dalam sesuatu hal.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hajat_q2": {
+  "stem_rumi": "Bilakah solat hajat boleh dilakukan?",
+  "stem_jawi": "بيلاكه صلاة حاجت بوليه دلاكوكن؟",
+  "options": [
+   {
+    "rumi": "Pada bila-bila masa selain waktu-waktu haram",
+    "jawi": "ڤد بيلا٢ ماس سلاءين وقتو٢ حرام"
+   },
+   {
+    "rumi": "Hanya selepas solat Subuh",
+    "jawi": "هاڽ سلڤس صلاة صبح"
+   },
+   {
+    "rumi": "Ketika matahari tegak di atas kepala",
+    "jawi": "كتيک ماتاهاري تڬق دأتس كڤالا"
+   },
+   {
+    "rumi": "Hanya ketika matahari hampir terbenam",
+    "jawi": "هاڽ كتيک ماتاهاري همڤير تربنم"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Solat hajat boleh dilakukan pada bila-bila masa kecuali pada waktu-waktu yang diharamkan untuk solat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hajat_q3": {
+  "stem_rumi": "Antara berikut, yang manakah merupakan waktu haram untuk menunaikan solat?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان‌که مروڤاکن وقتو حرام اونتوق منونايکن صلاة؟",
+  "options": [
+   {
+    "rumi": "Selepas solat Maghrib",
+    "jawi": "سلڤس صلاة مغرب"
+   },
+   {
+    "rumi": "Selepas solat Subuh",
+    "jawi": "سلڤس صلاة صبح"
+   },
+   {
+    "rumi": "Ketika waktu dhuha",
+    "jawi": "كتيک وقتو ضحا"
+   },
+   {
+    "rumi": "Selepas solat Zohor",
+    "jawi": "سلڤس صلاة ظهر"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Menurut nota buku teks, selepas solat Subuh ialah antara waktu haram untuk menunaikan solat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hajat_q4": {
+  "stem_rumi": "Antara berikut, yang manakah merupakan fadhilat solat hajat?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه مروڤاكن فضيلة صلاة حاجت؟",
+  "options": [
+   {
+    "rumi": "Mendekatkan kita kepada gangguan syaitan.",
+    "jawi": "مندكتكن كيت كڤد ݢڠݢوان شيطان."
+   },
+   {
+    "rumi": "Menambah rasa takut dan bimbang dalam hati.",
+    "jawi": "منامبه راس تاكوت دان بيمبڠ دالم هاتي."
+   },
+   {
+    "rumi": "Meningkatkan keimanan dan keyakinan kepada Allah SWT.",
+    "jawi": "منيڠكتكن كأيمانن دان كياقينن كڤد الله ﷻ."
+   },
+   {
+    "rumi": "Menjadikan kita malas berusaha dan berdoa.",
+    "jawi": "منجاديكن كيت مالس بروساها دان بردعاء."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Solat hajat meningkatkan keimanan dan keyakinan kita kepada Allah SWT, seperti yang dinyatakan dalam nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hari_raya_q1": {
+  "stem_rumi": "Pada tarikh berapakah solat Aidilfitri didirikan?",
+  "stem_jawi": "ڤد تاريخ برڤاكه صلاة عيد الفطري دديريكن؟",
+  "options": [
+   {
+    "rumi": "Pada pagi 1 Muharram",
+    "jawi": "ڤد ڤاݢي 1 محرم"
+   },
+   {
+    "rumi": "Pada pagi 9 Zulhijjah",
+    "jawi": "ڤد ڤاݢي 9 ذوالحجة"
+   },
+   {
+    "rumi": "Pada pagi 10 Zulhijjah",
+    "jawi": "ڤد ڤاݢي 10 ذوالحجة"
+   },
+   {
+    "rumi": "Pada pagi 1 Syawal",
+    "jawi": "ڤد ڤاݢي 1 شوال"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Solat Aidilfitri didirikan pada pagi 1 Syawal, manakala solat Aidiladha pada pagi 10 Zulhijjah.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hari_raya_q2": {
+  "stem_rumi": "Pada tarikh berapakah solat Aidiladha didirikan?",
+  "stem_jawi": "ڤد تاريخ برڤاكه صلاة عيد الأضحى دديريكن؟",
+  "options": [
+   {
+    "rumi": "Pada pagi 10 Zulhijjah",
+    "jawi": "ڤد ڤاݢي 10 ذوالحجة"
+   },
+   {
+    "rumi": "Pada pagi 1 Syawal",
+    "jawi": "ڤد ڤاݢي 1 شوال"
+   },
+   {
+    "rumi": "Pada pagi 1 Zulhijjah",
+    "jawi": "ڤد ڤاݢي 1 ذوالحجة"
+   },
+   {
+    "rumi": "Pada pagi 10 Muharram",
+    "jawi": "ڤد ڤاݢي 10 محرم"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Solat Aidiladha didirikan pada pagi 10 Zulhijjah, seperti yang dinyatakan dalam nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hari_raya_q3": {
+  "stem_rumi": "Berapa kali takbir dilafazkan dalam rakaat pertama dan rakaat kedua solat hari raya?",
+  "stem_jawi": "برڤ كاليكه تكبير دلفظكن دالم ركعة ڤرتام دان ركعة كدوا صلاة هاري راي؟",
+  "options": [
+   {
+    "rumi": "Tujuh kali dalam rakaat pertama dan tujuh kali dalam rakaat kedua",
+    "jawi": "توجوه كالي دالم ركعة ڤرتام دان توجوه كالي دالم ركعة كدوا"
+   },
+   {
+    "rumi": "Tujuh kali dalam rakaat pertama dan lima kali dalam rakaat kedua",
+    "jawi": "توجوه كالي دالم ركعة ڤرتام دان ليم كالي دالم ركعة كدوا"
+   },
+   {
+    "rumi": "Lima kali dalam rakaat pertama dan tujuh kali dalam rakaat kedua",
+    "jawi": "ليم كالي دالم ركعة ڤرتام دان توجوه كالي دالم ركعة كدوا"
+   },
+   {
+    "rumi": "Tiga kali dalam rakaat pertama dan tiga kali dalam rakaat kedua",
+    "jawi": "تيݢ كالي دالم ركعة ڤرتام دان تيݢ كالي دالم ركعة كدوا"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Menurut buku teks, takbir dilafazkan tujuh kali dalam rakaat pertama dan lima kali dalam rakaat kedua selepas bangun.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hari_raya_q4": {
+  "stem_rumi": "Antara berikut, yang manakah waktu pelaksanaan khutbah hari raya?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان‌كه واقتو ڤلقساناءن خطبه هاري راي؟",
+  "options": [
+   {
+    "rumi": "Pada malam 1 Syawal selepas Maghrib",
+    "jawi": "ڤد مالم 1 شوال سلڤس مغرب"
+   },
+   {
+    "rumi": "Sebelum mendirikan solat hari raya",
+    "jawi": "سبلوم منديريكن صلاة هاري راي"
+   },
+   {
+    "rumi": "Selepas mendirikan solat hari raya",
+    "jawi": "سلڤس منديريكن صلاة هاري راي"
+   },
+   {
+    "rumi": "Ketika azan Zuhur berkumandang",
+    "jawi": "كتيك アザン ذهور برکومندڠ"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Khutbah hari raya dilaksanakan selepas kita mendirikan solat sunat hari raya dua rakaat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_hari_raya_q5": {
+  "stem_rumi": "Antara berikut, yang manakah fadhilat solat dua hari raya?",
+  "stem_jawi": "أنتارا بريكوت، يڠ مناكه فضيلة صلاة دوا هاري راي؟",
+  "options": [
+   {
+    "rumi": "Dilakukan pada pagi 1 Zulhijjah.",
+    "jawi": "ددياكوكن ڤد ڤاݢي ساتو ذوالحجه."
+   },
+   {
+    "rumi": "Hukumnya wajib ke atas setiap orang Islam.",
+    "jawi": "حوكومڽ واجب ك أتس ستياڤ اورڠ إسلام."
+   },
+   {
+    "rumi": "Dilakukan sebanyak empat rakaat.",
+    "jawi": "ددياكوكن سباڽق امڤت ركعة."
+   },
+   {
+    "rumi": "Sebagai simbol perpaduan umat Islam.",
+    "jawi": "سباݢاي سيمبول ڤڤادوان اومت إسلام."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Solat dua hari raya menjadi simbol perpaduan umat Islam, seperti yang dinyatakan dalam fadhilatnya di dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_istikharah_q1": {
+  "stem_rumi": "Apakah tujuan solat istikharah didirikan?",
+  "stem_jawi": "اڤاكه توجوان صلاة استخارة دديريكن؟",
+  "options": [
+   {
+    "rumi": "Memohon petunjuk dan bimbingan daripada Allah SWT terhadap perkara yang diragui atau sukar untuk membuat pilihan",
+    "jawi": "مموهون ڤتونجوق دان بيمبيڠن درڤد الله ﷻ ترهادڤ ڤركارا يڠ دراݢوءي اتاو سوكر اونتوق ممبوات ڤيليهن"
+   },
+   {
+    "rumi": "Mengganti solat fardu yang tertinggal",
+    "jawi": "مڠݢنتي صلاة فرض يڠ ترتيڠݢل"
+   },
+   {
+    "rumi": "Menguatkan hafalan surah pilihan sebelum peperiksaan",
+    "jawi": "مڠوتكن هافلن سورة ڤيليهن سبلوم ڤريكسأن"
+   },
+   {
+    "rumi": "Memohon rezeki yang banyak daripada manusia",
+    "jawi": "ممهون رزيق يڠ بڽق درڤد مانوسيا"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Menurut nota buku teks, solat istikharah didirikan untuk memohon petunjuk dan bimbingan daripada Allah SWT apabila seseorang ragu-ragu atau sukar membuat pilihan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_istikharah_q2": {
+  "stem_rumi": "Berapakah bilangan rakaat solat istikharah menurut lafaz niatnya?",
+  "stem_jawi": "برڤاكه بيلڠن ركعة صلاة استخارة منوروت لفظ نيتڽ؟",
+  "options": [
+   {
+    "rumi": "Empat rakaat",
+    "jawi": "امڤат ركعة"
+   },
+   {
+    "rumi": "Dua rakaat",
+    "jawi": "دوا ركعة"
+   },
+   {
+    "rumi": "Satu rakaat",
+    "jawi": "ساتو ركعة"
+   },
+   {
+    "rumi": "Tiga rakaat",
+    "jawi": "تيݢ ركعة"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Lafaz niat solat istikharah menyebut RAKAATAN, iaitu dua rakaat kerana Allah Taala.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_istikharah_q3": {
+  "stem_rumi": "Nyatakan satu cara petunjuk daripada Allah SWT boleh berlaku selepas solat istikharah selain gerak hati.",
+  "stem_jawi": "ڽاتاكن ساتو چارا ڤتونجوق درڤد الله ﷻ بوليه برلاكو سلڤس صلاة استخارة سلاءين ݢرق هاتي.",
+  "options": [
+   {
+    "rumi": "Menjadi sombong apabila berjaya",
+    "jawi": "منجادي سومبوڠ اڤابيلا برجاي"
+   },
+   {
+    "rumi": "Tidak perlu lagi berdoa selepas solat",
+    "jawi": "تيدق ڤرلو لاݢي بردعا سلڤس صلاة"
+   },
+   {
+    "rumi": "Mendapat ilham atau idea untuk menyelesaikan kebuntuan",
+    "jawi": "منداڤت الهام اتاو ايديا اونتوق مڽلسايكن كبونتوان"
+   },
+   {
+    "rumi": "Rasa marah dan benci terhadap diri sendiri",
+    "jawi": "رسا مره دان بنچي ترهادڤ ديري سنديري"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menurut buku teks, petunjuk Allah SWT boleh berlaku dengan mendapat ilham atau idea untuk menyelesaikan kebuntuan, selain gerak hati, mimpi, dan urusan yang dipermudahkan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_istikharah_q4": {
+  "stem_rumi": "Antara berikut, yang manakah fadhilat solat istikharah?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان‌كه فضيلة صلاة استخارة؟",
+  "options": [
+   {
+    "rumi": "Menjadikan hati manusia resah dan gelisah.",
+    "jawi": "مڠجاديكن هاتي مأنسي ريسه دان ݢليساه."
+   },
+   {
+    "rumi": "Menggalakkan kita malas beribadah.",
+    "jawi": "مڠݢالاكن كيت مالس بريبادة."
+   },
+   {
+    "rumi": "Menambah sifat sombong dalam diri kita.",
+    "jawi": "مناميه صيفت سومبوڠ دالم ديري كيت."
+   },
+   {
+    "rumi": "Dapat memberikan ketenangan kepada hati manusia.",
+    "jawi": "داڤت ممبريكن كتنڠن كڤد هاتي مأنسي."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan bahawa solat istikharah dapat memberikan ketenangan kepada hati manusia.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_rawatib_q1": {
+  "stem_rumi": "Apakah maksud solat rawatib?",
+  "stem_jawi": "اڤاكه مقصود صلاة رواتب؟",
+  "options": [
+   {
+    "rumi": "Solat sunat yang mengiringi solat-solat fardu",
+    "jawi": "صلاة سنة يڠ مڠيريڠي صلاة٢ فرض"
+   },
+   {
+    "rumi": "Solat sunat yang dilakukan ketika gerhana matahari",
+    "jawi": "صلاة سنة يڠ دلاكوكن كتيک جرهان ماتاهاري"
+   },
+   {
+    "rumi": "Solat sunat yang dilakukan pada waktu malam sahaja",
+    "jawi": "صلاة سنة يڠ دلاكوكن ڤد واقتو ملام سهاج"
+   },
+   {
+    "rumi": "Solat fardu yang dilakukan secara berjemaah di masjid",
+    "jawi": "صلاة فرض يڠ دلاكوكن سچارا برجماعة د مسجد"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Solat rawatib ialah solat sunat yang dilakukan sebelum dan selepas solat fardu, dipanggil qabliyyah dan ba'diyyah.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_rawatib_q2": {
+  "stem_rumi": "Apakah nama solat sunat yang dilakukan sebelum solat fardu?",
+  "stem_jawi": "اڤاكه نام صلاة سنة يڠ دلاكوكن سبلوم صلاة فرض؟",
+  "options": [
+   {
+    "rumi": "Solat sunat ba'diyyah",
+    "jawi": "صلاة سنة بَعْدِيَّة"
+   },
+   {
+    "rumi": "Solat sunat qabliyyah",
+    "jawi": "صلاة سنة قَبْلِيَّة"
+   },
+   {
+    "rumi": "Solat sunat muakkad",
+    "jawi": "صلاة سنة مُؤَكَّد"
+   },
+   {
+    "rumi": "Solat sunat tahajud",
+    "jawi": "صلاة سنة تهجد"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Solat sunat qabliyyah ialah solat sunat yang dilakukan sebelum solat fardu, manakala ba'diyyah dilakukan selepasnya.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_rawatib_q3": {
+  "stem_rumi": "Antara berikut, yang manakah hukum solat rawatib?",
+  "stem_jawi": "انتارا بريكوت، يڠ مانكه حكوم صلاة رواتب؟",
+  "options": [
+   {
+    "rumi": "Sunat muakkad dan makruh",
+    "jawi": "سنة مُؤَكَّد دان مكروه"
+   },
+   {
+    "rumi": "Harus dan haram",
+    "jawi": "هاروس دان حرام"
+   },
+   {
+    "rumi": "Sunat muakkad dan sunat tidak muakkad",
+    "jawi": "سنة مُؤَكَّد دان سنة تيدق مُؤَكَّد"
+   },
+   {
+    "rumi": "Wajib dan sunat muakkad",
+    "jawi": "واجب دان سنة مُؤَكَّد"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Hukum solat rawatib ialah sunat muakkad dan sunat tidak muakkad, seperti yang dinyatakan dalam nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_rawatib_q4": {
+  "stem_rumi": "Antara berikut, yang manakah fadhilat solat rawatib?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه فضيلة صلاة رواتب؟",
+  "options": [
+   {
+    "rumi": "Menggugurkan kewajipan solat Zohor.",
+    "jawi": "مڠڬوگورکن کواجيڤن صلاة ظهر."
+   },
+   {
+    "rumi": "Menyebabkan pahala solat fardu berkurang.",
+    "jawi": "مڽببكن ڤهالا صلاة فرض بركورڠ."
+   },
+   {
+    "rumi": "Menjadikan seseorang malas beribadah.",
+    "jawi": "منجاديكن سسورڠ مليس بريبادة."
+   },
+   {
+    "rumi": "Menghindarkan diri daripada kemaksiatan dan dosa.",
+    "jawi": "مڠهيندركن ديري درڤد كمعصيتن دان دوسا."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan bahawa solat rawatib menghindarkan diri daripada kemaksiatan dan dosa, manakala pilihan lain bertentangan dengan fadhilatnya.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_tahajud_q1": {
+  "stem_rumi": "Berapakah bilangan rakaat sekurang-kurangnya bagi solat tahajud?",
+  "stem_jawi": "برڤاكه بيلڠن ركعة سكورڠ-كورڠڽ باݢي صلاة تهجد؟",
+  "options": [
+   {
+    "rumi": "Dua rakaat",
+    "jawi": "دوا ركعة"
+   },
+   {
+    "rumi": "Empat rakaat",
+    "jawi": "امڤت ركعة"
+   },
+   {
+    "rumi": "Satu rakaat",
+    "jawi": "ساتو ركعة"
+   },
+   {
+    "rumi": "Tiga rakaat",
+    "jawi": "تيݢ ركعة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Solat tahajud ialah solat sunat yang didirikan sekurang-kurangnya dua rakaat pada 2/3 malam.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_tahajud_q2": {
+  "stem_rumi": "Pada bahagian malam yang manakah solat tahajud didirikan?",
+  "stem_jawi": "ڤد بهاݢين مالم يڠ ماناكه صلاة تهجد دديريكن؟",
+  "options": [
+   {
+    "rumi": "Pada waktu siang sebelum waktu zohor",
+    "jawi": "ڤد واكتو سياڠ سبلوم واكتو ظهر"
+   },
+   {
+    "rumi": "Pada 2/3 malam sebelum masuknya waktu subuh",
+    "jawi": "ڤد 2/3 مالم سبلوم ماسوقڽ وقتو صبح"
+   },
+   {
+    "rumi": "Pada awal malam selepas solat maghrib",
+    "jawi": "ڤد اول مالم سلڤس صلاة مغريب"
+   },
+   {
+    "rumi": "Pada 1/3 malam selepas waktu isyak",
+    "jawi": "ڤد 1/3 مالم سلڤس واكتو عشاء"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Menurut buku teks, solat tahajud ialah solat sunat yang didirikan pada 2/3 malam sebelum masuknya waktu subuh.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_tahajud_q3": {
+  "stem_rumi": "Apakah langkah terakhir dalam cara pelaksanaan solat tahajud?",
+  "stem_jawi": "اڤاكه لڠكه تراخير دالم چارا ڤلقساناءن صلاة تهجد؟",
+  "options": [
+   {
+    "rumi": "Membaca doa iftitah",
+    "jawi": "ممباچ دعاء افتتاح"
+   },
+   {
+    "rumi": "Duduk antara dua sujud",
+    "jawi": "دودوق انتارا دوا سجود"
+   },
+   {
+    "rumi": "Memberi salam",
+    "jawi": "ممبري سلام"
+   },
+   {
+    "rumi": "Sujud kedua",
+    "jawi": "سجود كدوا"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menurut cara pelaksanaan solat tahajud, solat diakhiri dengan memberi salam.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_tahajud_q4": {
+  "stem_rumi": "Antara berikut, yang manakah fadhilat solat tahajud?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه فضيلة صلاة تهجد؟",
+  "options": [
+   {
+    "rumi": "Membolehkan seseorang tidak perlu berusaha.",
+    "jawi": "ممبوليهكن سسأورڠ تيدق ڤرلو بروسها."
+   },
+   {
+    "rumi": "Menambah kekayaan harta dengan cepat.",
+    "jawi": "منمبه ككاياءن هرتا دڠن چڤت."
+   },
+   {
+    "rumi": "Menggantikan solat fardu lima waktu.",
+    "jawi": "مڠݢنتيكن صلاة ڤرض ليما وقتو."
+   },
+   {
+    "rumi": "Membersihkan hati daripada kebencian sesama manusia.",
+    "jawi": "ممبرسيهكن هاتي درڤد كبنچين سسام مأنسي."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Buku teks menyatakan bahawa solat tahajud membersihkan hati daripada kebencian sesama manusia.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_tarawih_q1": {
+  "stem_rumi": "Pada bulan apakah solat tarawih didirikan?",
+  "stem_jawi": "ڤد بولن اڤاكه صلاة تراويح دديريكن؟",
+  "options": [
+   {
+    "rumi": "Bulan Ramadan",
+    "jawi": "بولن رمضان"
+   },
+   {
+    "rumi": "Bulan Zulhijjah",
+    "jawi": "بولن ذوالحجة"
+   },
+   {
+    "rumi": "Bulan Syawal",
+    "jawi": "بولن شوال"
+   },
+   {
+    "rumi": "Bulan Muharram",
+    "jawi": "بولن محرم"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Solat tarawih didirikan pada bulan Ramadan selepas solat isyak.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_tarawih_q2": {
+  "stem_rumi": "Antara berikut, yang manakah jumlah rakaat solat tarawih yang betul?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه جومله ركعة صلاة تراويح يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Tiga rakaat",
+    "jawi": "تيض ركعة"
+   },
+   {
+    "rumi": "Lapan rakaat atau 20 rakaat",
+    "jawi": "لاڤن ركعة اتاو دوا ڤولوه ركعة"
+   },
+   {
+    "rumi": "Empat puluh rakaat",
+    "jawi": "امڤت ڤولوه ركعة"
+   },
+   {
+    "rumi": "Sepuluh rakaat",
+    "jawi": "سڤولوه ركعة"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Solat tarawih didirikan dengan jumlah lapan rakaat atau 20 rakaat selepas solat isyak pada bulan Ramadan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_tarawih_q3": {
+  "stem_rumi": "Bilakah waktu solat tarawih didirikan?",
+  "stem_jawi": "بيلاكه وقتو صلاة تراويح دديريكن؟",
+  "options": [
+   {
+    "rumi": "Selepas solat subuh hingga masuk waktu zohor",
+    "jawi": "سلڤس صلاة صبح هيڠݢ ماسوق وقتو ظهر"
+   },
+   {
+    "rumi": "Selepas solat maghrib hingga terbit matahari",
+    "jawi": "سلڤس صلاة مغرب هيڠݢ تربيت ماتاهاري"
+   },
+   {
+    "rumi": "Selepas solat isyak hingga terbit fajar sadiq (waktu subuh)",
+    "jawi": "سلڤس صلاة عشاء هيڠݢ تربيت فجر صادق (وقتو صبح)"
+   },
+   {
+    "rumi": "Selepas solat zohor hingga masuk waktu asar",
+    "jawi": "سلڤس صلاة ظهر هيڠݢ ماسوق وقتو عصر"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Solat tarawih didirikan selepas solat isyak hingga terbit fajar sadiq, iaitu waktu subuh, pada bulan Ramadan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_tarawih_q4": {
+  "stem_rumi": "Antara berikut, yang manakah fadhilat solat tarawih?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه فضيلة صلاة تراويح؟",
+  "options": [
+   {
+    "rumi": "Boleh didirikan selepas fajar sadiq.",
+    "jawi": "بوليه ديريكن سلڤس فجر صادق."
+   },
+   {
+    "rumi": "Jumlah rakaatnya tiga puluh rakaat.",
+    "jawi": "جومله رکعتڽ تيݢ ڤولوه ركعة."
+   },
+   {
+    "rumi": "Dilakukan pada bulan Syawal.",
+    "jawi": "ديلاكوكن ڤد بولن شوال."
+   },
+   {
+    "rumi": "Meningkatkan kualiti ibadah.",
+    "jawi": "منيڠكتكن كواليتي عبادة."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut nota buku teks, solat tarawih meningkatkan kualiti ibadah, sedangkan pilihan lain bercanggah dengan waktu, bulan dan jumlah rakaat yang betul.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_taubat_q1": {
+  "stem_rumi": "Berapakah bilangan rakaat solat taubat?",
+  "stem_jawi": "برڤاكه بيلڠن ركعة صلاة توبة؟",
+  "options": [
+   {
+    "rumi": "Dua rakaat",
+    "jawi": "دوا ركعة"
+   },
+   {
+    "rumi": "Tiga rakaat",
+    "jawi": "تيݢ ركعة"
+   },
+   {
+    "rumi": "Empat rakaat",
+    "jawi": "امڤت ركعة"
+   },
+   {
+    "rumi": "Satu rakaat",
+    "jawi": "ساتو ركعة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Solat taubat didirikan sebanyak dua rakaat, seperti yang dinyatakan dalam nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_taubat_q2": {
+  "stem_rumi": "Bilakah seorang mukmin digalakkan mendirikan solat taubat?",
+  "stem_jawi": "بيلاكه سأورڠ مؤمن دݢالقكن منديريكن صلاة توبة؟",
+  "options": [
+   {
+    "rumi": "Apabila matahari terbit dari barat",
+    "jawi": "اڤابيلا ماتاهاري تربيت دري بارت"
+   },
+   {
+    "rumi": "Apabila dia telah berazam untuk bertaubat",
+    "jawi": "اڤابيلا دي تله برعزم اونتوق برتوبة"
+   },
+   {
+    "rumi": "Apabila turun azab daripada Allah SWT",
+    "jawi": "اڤابيلا تورون عذاب درڤد الله سبحانه وتعالى"
+   },
+   {
+    "rumi": "Ketika sakaratul maut",
+    "jawi": "كتيك سكرات الموت"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Seorang mukmin digalakkan mendirikan solat taubat apabila dia telah berazam untuk bertaubat, iaitu sebelum bertaubat kepada Allah SWT.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_taubat_q3": {
+  "stem_rumi": "Hadis tentang dalil solat taubat diriwayatkan oleh siapa?",
+  "stem_jawi": "حديث تنتڠ دليل صلاة توبة دريوايتكن اوليه سياڤ؟",
+  "options": [
+   {
+    "rumi": "Bukhari",
+    "jawi": "بخاري"
+   },
+   {
+    "rumi": "Muslim",
+    "jawi": "مسلم"
+   },
+   {
+    "rumi": "Ahmad",
+    "jawi": "احمد"
+   },
+   {
+    "rumi": "Tirmizi",
+    "jawi": "ترمذي"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Nota buku teks menyatakan hadis dalil solat taubat itu diriwayatkan oleh Ahmad.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_taubat_q4": {
+  "stem_rumi": "Antara berikut, yang manakah keadaan taubat tidak akan diterima?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان كداءن توبة تيدق اكن دتريما؟",
+  "options": [
+   {
+    "rumi": "Mendapat keampunan daripada Allah SWT.",
+    "jawi": "منداڤت كأمڤونن درڤد الله سبحانه وتعالى."
+   },
+   {
+    "rumi": "Mendapat kemuliaan di dunia dan di akhirat.",
+    "jawi": "منداڤت كمولياءن ددنيا دان دأخرة."
+   },
+   {
+    "rumi": "Dimurahkan rezeki oleh Allah SWT.",
+    "jawi": "دمورهكن رزقي اوليه الله سبحانه وتعالى."
+   },
+   {
+    "rumi": "Ketika sakaratul maut.",
+    "jawi": "كتيك سكرات الموت."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Menurut buku teks, taubat tidak akan diterima apabila seseorang berada dalam keadaan ketika sakaratul maut.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_witir_q1": {
+  "stem_rumi": "Apakah maksud perkataan witir?",
+  "stem_jawi": "اڤاكه مقصود ڤركاتاءن وتر؟",
+  "options": [
+   {
+    "rumi": "Ganjil",
+    "jawi": "ݢنجيل"
+   },
+   {
+    "rumi": "Pendek",
+    "jawi": "ڤندق"
+   },
+   {
+    "rumi": "Genap",
+    "jawi": "جنڤ"
+   },
+   {
+    "rumi": "Panjang",
+    "jawi": "ڤنجڠ"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Nota buku teks menyatakan bahawa witir ertinya ganjil, dan bilangan rakaatnya mengikut angka ganjil.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_witir_q2": {
+  "stem_rumi": "Bilakah waktu solat witir?",
+  "stem_jawi": "بيلاكه وقتو صلاة وتر؟",
+  "options": [
+   {
+    "rumi": "Selepas solat maghrib hingga terbit fajar",
+    "jawi": "سلڤس صلاة مغرب هيڠݢ تربيت فجر"
+   },
+   {
+    "rumi": "Selepas solat isyak hingga terbit fajar",
+    "jawi": "سلڤس صلاة عشاء هيڠݢ تربيت فجر"
+   },
+   {
+    "rumi": "Selepas solat zohor hingga masuk waktu asar",
+    "jawi": "سلڤس صلاة ظهر هيڠݢ ماسوق وقتو عصر"
+   },
+   {
+    "rumi": "Selepas solat subuh hingga masuk waktu zohor",
+    "jawi": "سلڤس صلاة صبح هيڠݢ ماسوق وقتو ظهر"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Solat witir didirikan selepas solat isyak hingga terbit fajar, menurut nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_witir_q3": {
+  "stem_rumi": "Berapakah bilangan rakaat maksimum solat witir yang dinyatakan dalam buku?",
+  "stem_jawi": "برڤاكه بيلڠن ركعة مقسيموم صلاة وتر يڠ دڽاتاكن دالم بوكو؟",
+  "options": [
+   {
+    "rumi": "9 rakaat",
+    "jawi": "9 ركعة"
+   },
+   {
+    "rumi": "13 rakaat",
+    "jawi": "13 ركعة"
+   },
+   {
+    "rumi": "11 rakaat",
+    "jawi": "11 ركعة"
+   },
+   {
+    "rumi": "12 rakaat",
+    "jawi": "12 ركعة"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Buku menyatakan bilangan solat witir mengikut angka ganjil iaitu 1, 3, 5, 7, 9 atau 11 rakaat, jadi maksimumnya ialah 11 rakaat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b1_solat_witir_q4": {
+  "stem_rumi": "Antara berikut, yang manakah fadhilat solat witir?",
+  "stem_jawi": "انتارا بريكوت، يڠ مانا كه فضيلة صلاة وتر؟",
+  "options": [
+   {
+    "rumi": "Dilakukan selepas terbit fajar.",
+    "jawi": "دلاكوكن سلڤس تربيت فجر."
+   },
+   {
+    "rumi": "Didirikan sebelum solat isyak.",
+    "jawi": "دديريكن سبلوم صلاة عشاء."
+   },
+   {
+    "rumi": "Witir ertinya genap.",
+    "jawi": "وتر ارتيڽ گنڤ."
+   },
+   {
+    "rumi": "Mendekatkan diri kepada Allah SWT.",
+    "jawi": "مندكتكن ديري كڤد الله سبحانه وتعالى."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Nota buku teks menyatakan solat witir mendekatkan diri kepada Allah SWT, manakala pilihan lain bercanggah dengan pengertian witir dan waktunya.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_batal_puasa_q1": {
+  "stem_rumi": "Apakah maksud murtad?",
+  "stem_jawi": "اڤاکه مقصود مرتد؟",
+  "options": [
+   {
+    "rumi": "Keluar daripada Islam",
+    "jawi": "کلوار درڤد إسلام"
+   },
+   {
+    "rumi": "Berpuasa pada bulan Ramadan",
+    "jawi": "بربواسا ڤد بولن رمضان"
+   },
+   {
+    "rumi": "Makan dan minum dengan sengaja",
+    "jawi": "ماکن دان مينوم دڠن سڠاج"
+   },
+   {
+    "rumi": "Keluar haid dan nifas",
+    "jawi": "کلوار حيض دان نفاس"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Menurut nota, murtad bermaksud keluar daripada Islam.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_batal_puasa_q2": {
+  "stem_rumi": "Apakah maksud wiladah?",
+  "stem_jawi": "اڤاکه مقصود ولادة؟",
+  "options": [
+   {
+    "rumi": "Muntah dengan sengaja",
+    "jawi": "مونتهه دڠن سڠاج"
+   },
+   {
+    "rumi": "Melahirkan anak",
+    "jawi": "ملاهيرکن انق"
+   },
+   {
+    "rumi": "Berpuasa penuh sebulan",
+    "jawi": "برڤواسا ڤنوه سبولن"
+   },
+   {
+    "rumi": "Makan dan minum di siang hari",
+    "jawi": "ماکن دان مينوم دسياڠ هاري"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Wiladah bermaksud melahirkan anak, dan ia termasuk perkara yang membatalkan puasa bagi wanita.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_batal_puasa_q3": {
+  "stem_rumi": "Antara berikut, yang manakah contoh hilang akal yang membatalkan puasa?",
+  "stem_jawi": "انتارا بريکوت، يڠ مان٢ ݢيلا ياڠ ممبطلکن ڤواسا؟",
+  "options": [
+   {
+    "rumi": "Muntah dengan sengaja",
+    "jawi": "مونتهه دڠن سڠاج"
+   },
+   {
+    "rumi": "Keluar haid dan nifas",
+    "jawi": "کلوار حيض دان نفاس"
+   },
+   {
+    "rumi": "Mabuk",
+    "jawi": "مابوق"
+   },
+   {
+    "rumi": "Murtad",
+    "jawi": "مرتد"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mabuk ialah hilang akal yang membatalkan puasa, bersama gila dan pengsan, menurut nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_batal_puasa_q4": {
+  "stem_rumi": "Antara berikut, yang manakah membatalkan puasa?",
+  "stem_jawi": "انتارا بريکوت، يڠ مان٢ ممبطلکن ڤواسا؟",
+  "options": [
+   {
+    "rumi": "Membaca al-Quran",
+    "jawi": "ممباچ القرءان"
+   },
+   {
+    "rumi": "Memakai minyak wangi",
+    "jawi": "مماکاي مينياق واڠي"
+   },
+   {
+    "rumi": "Tidur pada siang hari",
+    "jawi": "تيدور ڤد سياڠ هاري"
+   },
+   {
+    "rumi": "Muntah dengan sengaja",
+    "jawi": "مونتهه دڠن سڠاج"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Muntah dengan sengaja termasuk antara perkara yang membatalkan puasa menurut buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_batal_puasa_q5": {
+  "stem_rumi": "Antara berikut, yang manakah perkara yang membatalkan puasa jika dilakukan dengan sengaja?",
+  "stem_jawi": "انتارا بريکوت، يڠ مناکه ڤرکارا يڠ ممبطلکن ڤواسا جک دلاکوکن دڠن سڠاج؟",
+  "options": [
+   {
+    "rumi": "Makan dan minum dengan sengaja walaupun sedikit",
+    "jawi": "ماکن دان مينوم دڠن سڠاج والاوڤون سديکيت"
+   },
+   {
+    "rumi": "Memakai minyak wangi",
+    "jawi": "مماکاي مينياق واڠي"
+   },
+   {
+    "rumi": "Bersugi ketika berpuasa",
+    "jawi": "برسوݢي کتيک برڤواسا"
+   },
+   {
+    "rumi": "Tidur sepanjang hari",
+    "jawi": "تيدور سڤنجڠ هاري"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Menurut nota buku teks, makan dan minum dengan sengaja walaupun sedikit membatalkan puasa.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_fadhilat_puasa_q1": {
+  "stem_rumi": "Apakah nama pintu syurga yang dimasuki oleh orang yang berpuasa?",
+  "stem_jawi": "اڤاکه نام ڤينتو شرݢ يڠ دماسوقي اوليه اورڠ يڠ برڤواسا؟",
+  "options": [
+   {
+    "rumi": "Al-Furqan",
+    "jawi": "الفرقان"
+   },
+   {
+    "rumi": "Al-Rayyan",
+    "jawi": "الرَّيَّان"
+   },
+   {
+    "rumi": "Al-Jannah",
+    "jawi": "الجنّة"
+   },
+   {
+    "rumi": "Al-Mizan",
+    "jawi": "الميزان"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Sabda Rasulullah ﷺ menyebut bahawa pintu al-Rayyan khas untuk orang yang berpuasa.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_fadhilat_puasa_q2": {
+  "stem_rumi": "Bau mulut orang yang berpuasa lebih harum daripada bau apa?",
+  "stem_jawi": "باءو مولوت اورڠ يڠ برڤواسا لبيه هاروم درڤد باءو اڤ؟",
+  "options": [
+   {
+    "rumi": "Bau minyak wangi",
+    "jawi": "باءو مينياق واڠي"
+   },
+   {
+    "rumi": "Bau limau",
+    "jawi": "باءو ليماو"
+   },
+   {
+    "rumi": "Bau kasturi",
+    "jawi": "باءو کستوري"
+   },
+   {
+    "rumi": "Bau bunga ros",
+    "jawi": "باءو بوڠا روس"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Teks menyatakan bahawa bau mulut orang yang berpuasa lebih harum daripada bau kasturi.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_fadhilat_puasa_q3": {
+  "stem_rumi": "Berapakah bilangan pintu syurga menurut hadis riwayat al-Bukhari dalam buku teks?",
+  "stem_jawi": "براڤاکه بيلڠن ڤينتو شرݢ منوروت حديث رواية البخاري دالم بوکو تيکس؟",
+  "options": [
+   {
+    "rumi": "Empat pintu",
+    "jawi": "امڤت ڤينتو"
+   },
+   {
+    "rumi": "Sepuluh pintu",
+    "jawi": "سڤولوه ڤينتو"
+   },
+   {
+    "rumi": "Tujuh pintu",
+    "jawi": "توجوه ڤينتو"
+   },
+   {
+    "rumi": "Lapan pintu",
+    "jawi": "لاڤن ڤينتو"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Sabda Rasulullah ﷺ riwayat al-Bukhari menyatakan bahawa di syurga ada lapan pintu.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_fadhilat_puasa_q4": {
+  "stem_rumi": "Antara berikut, yang manakah fadhilat puasa?",
+  "stem_jawi": "انتارا بريکوت، يڠ ماناکه فضيلة ڤواسا؟",
+  "options": [
+   {
+    "rumi": "Menghapus kesalahan yang pernah dilakukan",
+    "jawi": "مڠهاڤوس کسالهن يڠ ڤرنه دلاکوکن"
+   },
+   {
+    "rumi": "Membuatkan bau mulut menjadi busuk",
+    "jawi": "ملاکوکن باءو مولوت منجادي بوسوق"
+   },
+   {
+    "rumi": "Menambah dosa orang yang berpuasa",
+    "jawi": "مناමبه دوس اورڠ يڠ برڤواسا"
+   },
+   {
+    "rumi": "Menjauhkan diri daripada sifat sabar",
+    "jawi": "منجاوهکن ديري درڤد صيفت سابر"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Menurut buku teks, puasa menghapus kesalahan yang pernah dilakukan, dan ini ialah salah satu fadhilat puasa.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_hikmah_puasa_q1": {
+  "stem_rumi": "Puasa mengeratkan persaudaraan sesama siapa?",
+  "stem_jawi": "ڤواسا مڠرتکن ڤرساوداراءن سسام سياڤ؟",
+  "options": [
+   {
+    "rumi": "Sesama manusia",
+    "jawi": "سسام منوسيا"
+   },
+   {
+    "rumi": "Sesama Muslim",
+    "jawi": "سسام مسلم"
+   },
+   {
+    "rumi": "Sesama orang kaya",
+    "jawi": "سسام اورڠ کاي"
+   },
+   {
+    "rumi": "Sesama jiran",
+    "jawi": "سسام جيران"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Buku teks menyatakan bahawa puasa mengeratkan persaudaraan sesama Muslim.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_hikmah_puasa_q2": {
+  "stem_rumi": "Puasa membolehkan kita merasai kesusahan golongan apa?",
+  "stem_jawi": "ڤواسا ممبوليهکن کيت مراساءي کسوسهن ݢولوڠن اڤ؟",
+  "options": [
+   {
+    "rumi": "Pelajar dan guru",
+    "jawi": "ڤلاجر دان ݢورو"
+   },
+   {
+    "rumi": "Orang kaya dan berkuasa",
+    "jawi": "اورڠ کاي دان بركواسا"
+   },
+   {
+    "rumi": "Orang fakir dan miskin",
+    "jawi": "اورڠ فقير دان ميسکين"
+   },
+   {
+    "rumi": "Musafir dan pelancong",
+    "jawi": "مسافر دان ڤلنچوڠ"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menurut nota buku teks, hikmah puasa ialah merasai kesusahan orang fakir dan miskin.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_hikmah_puasa_q3": {
+  "stem_rumi": "Antara berikut, yang manakah sifat yang dibentuk melalui puasa?",
+  "stem_jawi": "انتارا بريکوت، يڠ مان‌که صيفت يڠ دبنتوق ملالوءي ڤواسا؟",
+  "options": [
+   {
+    "rumi": "Malas",
+    "jawi": "ملس"
+   },
+   {
+    "rumi": "Boros",
+    "jawi": "بوروس"
+   },
+   {
+    "rumi": "Bongkak",
+    "jawi": "بڠکق"
+   },
+   {
+    "rumi": "Sabar",
+    "jawi": "صبر"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Hikmah puasa ialah membentuk sifat sabar, berdisiplin dan bersyukur, jadi sabar ialah sifat yang dibentuk melalui puasa.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_hikmah_puasa_q4": {
+  "stem_rumi": "Antara berikut, yang manakah merupakan hikmah puasa?",
+  "stem_jawi": "انتارا بريکوت، يڠ مانکه مروڤاکن حکمه ڤواسا؟",
+  "options": [
+   {
+    "rumi": "Membentuk sifat sabar, berdisiplin dan bersyukur",
+    "jawi": "ممبنتوق صيفت صبر، برديسيڤلين دان برشکور"
+   },
+   {
+    "rumi": "Menghabiskan wang untuk membeli pakaian baharu",
+    "jawi": "مڠهابيسکن واڠ اونتوق ممبيلي ڤاکاين بهرو"
+   },
+   {
+    "rumi": "Memutuskan silaturahim dengan jiran",
+    "jawi": "معموتوسکن سيلاتورحيم دڠن جيران"
+   },
+   {
+    "rumi": "Menambah makan secara berlebihan ketika berbuka",
+    "jawi": "منمبه ماکن سچارا برلبيهن کتيک برببوک"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Puasa membentuk sifat sabar, berdisiplin dan bersyukur, seperti yang dinyatakan dalam nota buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_pengertian_puasa_q1": {
+  "stem_rumi": "Bilakah waktu puasa bermula?",
+  "stem_jawi": "بيلاکه وقتو ڤواسا برمولا؟",
+  "options": [
+   {
+    "rumi": "Terbenam matahari (maghrib)",
+    "jawi": "تربنم ماتاهاري (مغرب)"
+   },
+   {
+    "rumi": "Terbit fajar (subuh)",
+    "jawi": "تربيت فجر (صبح)"
+   },
+   {
+    "rumi": "Waktu zohor",
+    "jawi": "وقتو ظهر"
+   },
+   {
+    "rumi": "Waktu isyak",
+    "jawi": "وقتو عشاء"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Menurut nota buku teks, puasa bermula dari terbit fajar (subuh) hingga terbenam matahari (maghrib).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_pengertian_puasa_q2": {
+  "stem_rumi": "Bilakah waktu puasa berakhir?",
+  "stem_jawi": "بيلاکه وقتو ڤواسا براخير؟",
+  "options": [
+   {
+    "rumi": "Tengah malam",
+    "jawi": "تڠه مالم"
+   },
+   {
+    "rumi": "Terbit fajar (subuh)",
+    "jawi": "تربيت فجر (صبح)"
+   },
+   {
+    "rumi": "Terbenam matahari (maghrib)",
+    "jawi": "تربنم ماتاهاري (مغرب)"
+   },
+   {
+    "rumi": "Waktu zohor",
+    "jawi": "وقتو ظهر"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menurut nota, puasa bermula dari terbit fajar (subuh) hingga terbenam matahari (maghrib).",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_pengertian_puasa_q3": {
+  "stem_rumi": "Nyatakan surah dan ayat dalil kewajipan puasa yang terdapat dalam buku teks.",
+  "stem_jawi": "ڽاتاکن سورة دان ايت دليل کواجيڤن ڤواسا يڠ ترداڤت دالم بوکو تيکس.",
+  "options": [
+   {
+    "rumi": "Surah al-Baqarah ayat 153",
+    "jawi": "سورة البقرة ايت 153"
+   },
+   {
+    "rumi": "Surah al-Ma'idah ayat 3",
+    "jawi": "سورة المائدة ايت 3"
+   },
+   {
+    "rumi": "Surah al-Baqarah ayat 178",
+    "jawi": "سورة البقرة ايت 178"
+   },
+   {
+    "rumi": "Surah al-Baqarah ayat 183",
+    "jawi": "سورة البقرة ايت 183"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Firman Allah dalam Surah al-Baqarah ayat 183 menyatakan bahawa puasa telah diwajibkan ke atas orang yang beriman.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_pengertian_puasa_q4": {
+  "stem_rumi": "Menurut hadis riwayat Muslim, berapa tahunkah Allah menjauhkan daripada api neraka orang yang berpuasa sehari di jalan Allah?",
+  "stem_jawi": "منوروت حديث رواية مسلم، براڤ تاهونکه الله منجاءوهکن درڤد اڤي نراک اورڠ يڠ برڤواسا سهاري دجالن الله؟",
+  "options": [
+   {
+    "rumi": "70 tahun",
+    "jawi": "70 تاهون"
+   },
+   {
+    "rumi": "7 tahun",
+    "jawi": "7 تاهون"
+   },
+   {
+    "rumi": "700 tahun",
+    "jawi": "700 تاهون"
+   },
+   {
+    "rumi": "17 tahun",
+    "jawi": "17 تاهون"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Hadis riwayat Muslim menyatakan Allah menjauhkan orang yang berpuasa sehari di jalan-Nya daripada api neraka selama 70 tahun.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_pengertian_puasa_q5": {
+  "stem_rumi": "Terangkan pengertian puasa.",
+  "stem_jawi": "تراڠکن ڤڠرتين ڤواسا.",
+  "options": [
+   {
+    "rumi": "Menahan diri daripada bercakap sahaja selepas waktu maghrib hingga subuh",
+    "jawi": "مناهن ديري درڤد برچاکڤ ساهاج سلڤس واقتو مغرب هيڠݢ صبح"
+   },
+   {
+    "rumi": "Menahan diri daripada makan, minum dan perkara yang membatalkan puasa dari terbit fajar hingga terbenam matahari beserta niat",
+    "jawi": "مناهن ديري درڤد ماکن، مينوم دان ڤرکارا يڠ ممبطلکن ڤواسا درڤد تربيت فجر هيڠݢ تربنم ماتاهاري بيسرتا نية"
+   },
+   {
+    "rumi": "Menahan diri daripada makan dan minum sahaja pada waktu siang tanpa niat",
+    "jawi": "مناهن ديري درڤد ماکن دان مينوم ساهاج ڤد واقتو سياڠ تانڤ نية"
+   },
+   {
+    "rumi": "Makan dan minum dengan banyak pada bulan Ramadan untuk bertenaga",
+    "jawi": "ماکن دان مينوم دڠن باڽق ڤد بولن رمضان اونتوق برتناݢا"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Puasa ialah menahan diri daripada makan, minum dan perkara yang membatalkan puasa, bermula dari terbit fajar hingga terbenam matahari beserta niat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_puasa_wajib_sunat_q1": {
+  "stem_rumi": "Pada bulan apakah umat Islam diwajibkan berpuasa?",
+  "stem_jawi": "ڤد بولن اڤاکه اومت إسلام دواجبکن برڤواسا؟",
+  "options": [
+   {
+    "rumi": "Bulan Muharram",
+    "jawi": "بولن محرم"
+   },
+   {
+    "rumi": "Bulan Rejab",
+    "jawi": "بولن رجب"
+   },
+   {
+    "rumi": "Bulan Ramadan",
+    "jawi": "بولن رمضان"
+   },
+   {
+    "rumi": "Bulan Syawal",
+    "jawi": "بولن شوال"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Puasa wajib pertama yang disebut dalam nota ialah puasa pada bulan Ramadan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_puasa_wajib_sunat_q2": {
+  "stem_rumi": "Pada tarikh berapakah bulan Syawal diharamkan berpuasa?",
+  "stem_jawi": "ڤد تاريخ براڤاکه بولن شوال دحرامکن برڤواسا؟",
+  "options": [
+   {
+    "rumi": "2 Syawal",
+    "jawi": "2 شوال"
+   },
+   {
+    "rumi": "10 Syawal",
+    "jawi": "10 شوال"
+   },
+   {
+    "rumi": "5 Syawal",
+    "jawi": "5 شوال"
+   },
+   {
+    "rumi": "1 Syawal",
+    "jawi": "1 شوال"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Puasa sunat enam hari di bulan Syawal dibolehkan kecuali pada 1 Syawal, kerana hari itu diharamkan berpuasa.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_puasa_wajib_sunat_q3": {
+  "stem_rumi": "Nyatakan tarikh puasa hari putih (al-ayyam al-bid).",
+  "stem_jawi": "ڽاتاکن تاريخ ڤواسا هاري ڤوتيه (الْأَيَّامُ الْبِيضُ).",
+  "options": [
+   {
+    "rumi": "13, 14 dan 15 setiap bulan Hijrah",
+    "jawi": "13، 14 دان 15 ستياڤ بولن هجرة"
+   },
+   {
+    "rumi": "9, 10 dan 11 setiap bulan Hijrah",
+    "jawi": "9، 10 دان 11 ستياڤ بولن هجرة"
+   },
+   {
+    "rumi": "27, 28 dan 29 setiap bulan Hijrah",
+    "jawi": "27، 28 دان 29 ستياڤ بولن هجرة"
+   },
+   {
+    "rumi": "1, 2 dan 3 setiap bulan Hijrah",
+    "jawi": "1، 2 دان 3 ستياڤ بولن هجرة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Puasa hari putih dilakukan pada 13, 14 dan 15 setiap bulan Hijrah, sebagaimana dinyatakan dalam buku teks.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_puasa_wajib_sunat_q4": {
+  "stem_rumi": "Antara berikut, yang manakah termasuk puasa wajib?",
+  "stem_jawi": "انتارا بريکوت، يڠ مان اکه ترماسوق ڤواسا واجب؟",
+  "options": [
+   {
+    "rumi": "Puasa hari Isnin dan Khamis",
+    "jawi": "ڤواسا هاري اثنين دان خميس"
+   },
+   {
+    "rumi": "Puasa qada",
+    "jawi": "ڤواسا قضاء"
+   },
+   {
+    "rumi": "Puasa Nisfu Syaaban",
+    "jawi": "ڤواسا نصف شعبان"
+   },
+   {
+    "rumi": "Puasa enam hari pada bulan Syawal",
+    "jawi": "ڤواسا انم هاري ڤد بولن شوال"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Puasa qada termasuk dalam senarai puasa wajib, manakala puasa enam hari Syawal, puasa Isnin dan Khamis serta Nisfu Syaaban ialah puasa sunat.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "fiqh_b2_puasa_wajib_sunat_q5": {
+  "stem_rumi": "Antara berikut, yang manakah puasa sunat beserta waktunya?",
+  "stem_jawi": "انتارا بريکوت، يڠ مناکه ڤواسا سنة بسرتا وقتوڽ؟",
+  "options": [
+   {
+    "rumi": "Puasa nazar",
+    "jawi": "ڤواسا نذر"
+   },
+   {
+    "rumi": "Puasa pada 1 Syawal",
+    "jawi": "ڤواسا ڤد ساتو شوال"
+   },
+   {
+    "rumi": "Puasa enam hari pada bulan Syawal",
+    "jawi": "ڤواسا انم هاري ڤد بولن شوال"
+   },
+   {
+    "rumi": "Puasa pada bulan Ramadan",
+    "jawi": "ڤواسا ڤد بولن رمضان"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Puasa enam hari pada bulan Syawal ialah puasa sunat yang dilakukan selepas Hari Raya Aidilfitri, kecuali pada 1 Syawal yang diharamkan berpuasa.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ }
+}

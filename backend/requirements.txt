@@ -11,10 +11,11 @@ pydantic==2.10.4
 pydantic-settings==2.7.1
 
 # LLM + embeddings
-transformers==4.48.3
+transformers==4.55.4   # Qwen3 needs >= 4.51
 accelerate==1.2.1
 sentence-transformers==3.3.1
-huggingface-hub==0.27.1
+bitsandbytes==0.50.2   # 4-bit local LLM
+huggingface-hub==0.36.2
 
 # Vector DB + storage
 chromadb==1.5.9   # 1.x ships a prebuilt Rust core (0.6.x fails to build hnswlib on Windows/py3.12)
@@ -26,3 +27,8 @@ pyyaml==6.0.2
 # Tests
 pytest==8.3.4
 httpx==0.28.1
+
+# Thesis figures (eval/make_figures.py)
+matplotlib==3.9.2
+# OCR comparison (eval/ocr_eval.py: character / word error rate); Tesseract itself is a separate install
+rapidfuzz==3.10.1

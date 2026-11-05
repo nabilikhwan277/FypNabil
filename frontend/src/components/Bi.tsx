@@ -26,6 +26,7 @@ interface Props {
   jawi?: string
   as?: ElementType
   className?: string
+  style?: React.CSSProperties
   id?: string
   children?: ReactNode
 }
@@ -35,13 +36,14 @@ interface Props {
  * Falls back to Rumi when no Jawi is available. Jawi text gets RTL + Naskh font
  * and the right `lang`, so screen readers pronounce it correctly.
  */
-export default function Bi({ rumi, jawi, as: Tag = 'span', className = '', id, children }: Props) {
+export default function Bi({ rumi, jawi, as: Tag = 'span', className = '', style, id, children }: Props) {
   const { script } = useScript()
   const text = script === 'jawi' && jawi ? jawi : rumi
   const rtl = textDir(text) === 'rtl'
   return (
     <Tag
       id={id}
+      style={style}
       className={`${rtl ? 'jawi' : ''} ${className}`.trim()}
       dir={rtl ? 'rtl' : 'ltr'}
       lang={rtl ? 'ms-Arab' : 'ms'}

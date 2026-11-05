@@ -20,7 +20,7 @@ Final Year Project, Bachelor of Information Systems (Hons.) Intelligent Systems 
 | Python | 3.12 |
 | Node.js | 20 or newer (tested on 26) |
 | GPU | NVIDIA with ≥ 6 GB VRAM (RTX 3050 6 GB). CPU works but is slower: set `KAFA_DEVICE=cpu` |
-| Disk | ~6 GB for the models |
+| Disk | ~10 GB for the models (bge-m3, Qwen3-4B 4-bit, bge-reranker-v2-m3) |
 
 ## Setup
 From the project folder (`FypNabil/`), in PowerShell:
@@ -57,7 +57,7 @@ Open http://localhost:5173, type a name and class, and pick a subject. The statu
 
 ## Tests and checks
 ```powershell
-.venv\Scripts\python -m pytest -q                 # 57 backend tests
+.venv\Scripts\python -m pytest -q                 # 80 backend tests
 .venv\Scripts\python scripts\validate_data.py     # notes + question bank
 cd frontend; npm run build; npm run lint          # frontend
 .venv\Scripts\python scripts\e2e_ui.py            # browser walkthrough (both servers running)
@@ -70,10 +70,29 @@ cd frontend; npm run build; npm run lint          # frontend
 | Cache scoring signals | `python eval\scoring_features.py train 200` then `... test` | `eval/cache/` |
 | Tune on train | `python eval\tune_scoring.py` | `eval/results/tuning.md`, `backend/app/assess/scoring_config.json` |
 | Evaluate on test | `python eval\evaluate.py 60` | `eval/results/evaluation_test.md` |
-| Teacher marks | `python scripts\teacher_sheet.py export` → teacher fills `teacher_met` → `import file.csv` → `scoring_features.py teacher` → `evaluate.py 0 teacher` | `eval/results/evaluation_teacher.md` |
+| Teacher marks | `python scripts\teacher_sheet.py export` → two teachers fill `teacher_met` separately (see `data/teacher/ARAHAN_GURU.md`) → `agree guru_A.csv guru_B.csv` → settle blanks in `marking_final.csv` → `import data\teacher\marking_final.csv` → `scoring_features.py teacher` → `evaluate.py 0 teacher` | `data/teacher/agreement.md`, `eval/results/evaluation_teacher.md` |
+| Teacher marks (Google Form) | `teacher_sheet.py form` → run `data/teacher/google_form/create_form.gs` in script.google.com → teachers fill the form → download responses as CSV → `from-form responses.csv` → settle blanks → `import` → `scoring_features.py teacher` → `evaluate.py 0 teacher` → `teacher_sheet.py report` | `eval/results/teacher_report.md` |
 | Usability (SUS) | fill in `docs/sus_responses.csv`, then `python scripts\sus_score.py docs\sus_responses.csv` | `eval/results/sus.md` |
 
 Current results use **silver labels** (AI-written and rule-built answers, see `data/silver/README.md`), not teacher marks.
+
+### LLM experiments and evaluation (blueprint v0.4, `IMPLEMENTATION_PLAN_V2.md`)
+API models run through OpenRouter: put `KAFA_OPENROUTER_API_KEY=...` in `.env` (git-ignored). Spending stops at `KAFA_LLM_BUDGET_USD` (default $4); every call is logged to `storage/llm_calls.jsonl` and cached in `storage/llm_cache/`.
+
+| Step | Command | Output |
+|---|---|---|
+| Staged experiments (models → baselines → RAG → ReAct → final) | `python eval\experiments.py plan --data silver --n 100` (development) or `--data teacher --n 0` (E1, after importing teacher marks) | `eval/results/experiments/*.json` |
+| One configuration | `python eval\experiments.py run proposed:luna:R2:A2:on --n 100 [--repeats 3]` | same folder |
+| RAG types R1-R3 (RAGAS-style, 45 questions + 24 out-of-syllabus) | `python eval\rag_eval.py` | `eval/results/rag_eval.json/.md` |
+| RAG settings of R3 (chunk size, sections, context limit, minimum similarity, query variants, scope, matching, Jawi weight) | `python eval\rag_settings.py` (after `rag_eval.py`; `--no-llm` re-scores retrieval only) | `eval/results/rag_settings.json/.md`, gold evidence `eval/results/rag_gold.json` |
+| E2 grounding (RAGAS-style) | `python eval\grounding.py run <run name>`; hand-check sample: `grounding.py check <run name>` | `*.grounding.json`, `*.grounding_check.csv` |
+| E3 blind A/B (memory) | `python scripts\ab_form.py make <memory-off run> <memory-on run>` → run `data/teacher/ab_form/create_ab_form.gs` in script.google.com → `ab_form.py from-form responses.csv` | `data/teacher/ab_results.json` |
+| Admin (dashboard, system setup, books & syllabus) | login page → **Admin** tab, password `KAFA_ADMIN_PASSWORD` in `.env` → `/admin/penilaian` (choose System / LLM / RAG / ReAct / memory, run an evaluation, use it for pupils) and `/admin/buku` (add a textbook or exercise book PDF, check the AI drafts, publish; remove / restore books) | `docs/SYSTEM_DETAIL.md` §17 |
+| Teachers disagree: per-teacher E1 | `teacher_sheet.py labels` (also done by `from-form`) → `experiments.py plan --data teacher --n 0 --labels guru_1` → `python eval\teacher_compare.py` | `eval/results/teacher_compare.json/.md` |
+| Teachers disagree: third teacher | `teacher_sheet.py adjudication-form` → run `data/teacher/google_form/create_adjudication_form.gs` (instructions: `data/teacher/ARAHAN_GURU_KETIGA.md`) → `teacher_sheet.py from-adjudication responses.csv` → `experiments.py plan --data teacher --n 0` | `data/teacher/teacher_test.json` (final marks) |
+| Qwen on Google Colab | upload `notebooks/qwen_colab_server.ipynb` to Colab, Run all, paste LINK + KEY in 📊 Penilaian → Qwen on Colab | `storage/runtime_settings.json` |
+
+Configuration names: `b2` (local rules + similarity), `b1:<model>`, `b3:<model>:<RAG>`, `b4:<model>:<RAG>`, `proposed:<model>:<RAG>:<ReAct>:<on|off>`, with models `haiku` (Claude Haiku 5.5), `luna` (GPT-6 Luna), `llama` (Llama 3.1 8B), `qwen` (local Qwen3-4B), RAG `R1|R2|R3` and ReAct `A1|A2|A3`.
 
 ## Project structure
 ```
@@ -100,6 +119,9 @@ Environment variables with the `KAFA_` prefix override `backend/app/config.py`. 
 - `KAFA_PRELOAD_MODELS=false`
 - `KAFA_LLM_ENCOURAGEMENT=true`
 - `KAFA_SQLITE_PATH=storage/other.db`
+- `KAFA_OPENROUTER_API_KEY=...` (in `.env`), `KAFA_LLM_BUDGET_USD=4`
+- `KAFA_SCORER=b2` (default, local) or an LLM configuration such as `proposed:luna:R2:A2:on` for live marking (falls back to `b2` if the API fails)
+- `KAFA_RESEARCHER_MODE=false` hides the 📊 Penilaian page for pupil sessions
 
 The scoring method is chosen in `backend/app/assess/scoring_config.json`, which `eval/tune_scoring.py` writes.
 

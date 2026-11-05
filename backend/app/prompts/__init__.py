@@ -12,3 +12,8 @@ def load(name: str) -> str:
 
 def render(name: str, **values) -> str:
     return load(name).format(**values)
+
+
+def render_paragraph(name: str, **values) -> str:
+    """For one-paragraph prompts kept one sentence per line in the file: the lines are joined with spaces."""
+    return " ".join(line.strip() for line in load(name).splitlines() if line.strip()).format(**values)

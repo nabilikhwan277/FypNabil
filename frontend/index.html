@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Intelligent KAFA UPKK Learning Assistant - latihan Ibadah, Jawi dan Tajwid Tahun 5 untuk UPKK" />
-    <title>Intelligent KAFA UPKK Learning Assistant</title>
+    <meta name="description" content="KafAI UPKK: pembantu pembelajaran AI untuk murid KAFA Tahun 5. Latihan Ibadah, Jawi dan Tajwid dengan maklum balas yang menerangkan kesilapan." />
+    <meta name="theme-color" content="#0a4a32" />
+    <title>KafAI UPKK · Belajar daripada setiap jawapan</title>
+    <script>
+      // Apply the saved light/dark theme before the page paints (no flash). See src/theme/ThemeContext.tsx.
+      try {
+        var t = localStorage.getItem('kafa.theme')
+        if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -4,18 +4,21 @@ Requires: backend on :8000 and `npm run dev` on :5173.
 Flow: login -> subject map -> Tajwid path -> topic (read note) -> practice L1
 (answer) -> celebration dialog -> result -> AI trace -> round summary ->
 Jawi practice with on-screen keyboard -> quick-answer buttons / word chips ->
-progress -> Jawi script mode (desktop + mobile). Screenshots go to eval/results/ui_*.png.
+progress -> Jawi script mode (desktop + mobile). Screenshots go to eval/results/ui_*.png
+(set KAFA_SHOTS_DIR to write them somewhere else).
 
 Usage: .venv\\Scripts\\python scripts\\e2e_ui.py
 """
 import asyncio
+import os
+import re
 import time
 from pathlib import Path
 
 from playwright.async_api import TimeoutError as PlaywrightTimeoutError
 from playwright.async_api import async_playwright, expect
 
-OUT = Path(__file__).resolve().parent.parent / "eval" / "results"
+OUT = Path(os.environ.get("KAFA_SHOTS_DIR") or Path(__file__).resolve().parent.parent / "eval" / "results")
 BASE = "http://localhost:5173"
 
 
@@ -77,31 +80,38 @@ async def main() -> None:
         await expect(page.get_by_role("heading", name="Pilih subjek")).to_be_visible()
         await shot(page, "02_home")
 
-        await page.get_by_role("link", name="Tajwid").click()
-        await expect(page.get_by_role("heading", name="Tajwid")).to_be_visible()
+        # the subject card (topic rows on the dashboard also name their subject; the sidebar has a link too)
+        await page.locator("main").get_by_role("link", name=re.compile(r"^Tajwid")).click()
+        await expect(page.get_by_role("heading", name="Tajwid", exact=True)).to_be_visible()
         await shot(page, "03_subject_tajwid")
 
-        await page.get_by_role("link", name="Mad Badal").click()
-        await expect(page.get_by_role("heading", name="Mad Badal")).to_be_visible()
-        await page.get_by_role("button", name="Baca Nota").click()
-        await expect(page.locator("#note-panel")).to_contain_text("Pengertian")
+        await page.get_by_role("link", name="Mad Badal").first.click()  # the topic card; the weak-topic list may name it too
+        await expect(page.get_by_role("heading", name="Mad Badal", exact=True)).to_be_visible()
+        await expect(page.locator("#note-panel")).to_contain_text("Pengertian")  # the lesson note is open on the topic page
         await shot(page, "04_topic_note")
 
         # Tahap 1 practice: answer correctly if it is the "kadar" question
         await page.get_by_role("link", name="Mula Latihan").first.click()
-        heading = page.locator("h2").first
-        await expect(heading).to_be_visible()
+        await page.wait_for_url("**/latihan/**")
+        await expect(page.get_by_text("Soalan 1/")).to_be_visible()  # the topic page has h2 headings too: wait for the question
+        heading = page.locator("main h2").first
         practice_url = page.url
         q_text = await heading.inner_text()
         print("  question:", q_text)
-        await expect(page.get_by_text("Soalan 1/")).to_be_visible()
         await shot(page, "05_practice_question")
-        answer = "Dua harakat" if "kadar" in q_text.lower() else "saya tidak pasti"
-        await page.get_by_label("Jawapan kamu").fill(answer)
+        radios = page.get_by_role("radio")
+        if await radios.count():  # Tahap 1 questions are often multiple choice
+            right = radios.filter(has_text="Dua harakat")
+            await (right if await right.count() else radios).first.click()
+        else:
+            await page.get_by_label("Jawapan kamu").fill("Dua harakat" if "kadar" in q_text.lower() else "saya tidak pasti")
         await page.get_by_role("button", name="Semak Jawapan").click()
-        await expect(page.get_by_text("Jawapan betul")).to_be_visible(timeout=120_000)
-        # The first answer always earns the "Langkah Pertama" badge.
-        assert await close_celebration(page, "06b_celebration", timeout=10_000), "celebration dialog did not open"
+        # the result's "Jawapan betul" section (the marking text may say "Jawapan betul: C" too)
+        await expect(page.get_by_role("heading", name="Jawapan betul")).to_be_visible(timeout=120_000)
+        # A pupil's first answer earns the "Langkah Pertama" badge; on later runs the
+        # test pupil already has it, so the dialog only opens for a rank or level.
+        if not await close_celebration(page, "06b_celebration", timeout=10_000):
+            print("  (no celebration dialog: the test pupil already has the first badge)")
         await shot(page, "06_result")
         await page.get_by_text("Bagaimana AI berfikir").click()
         await expect(page.get_by_text("Thought 5:")).to_be_visible()
@@ -112,19 +122,26 @@ async def main() -> None:
         await expect(page.locator("#summary-title")).to_be_visible()
         await shot(page, "07b_round_summary")
 
-        # Jawi subject: spelling with the on-screen keyboard
-        await page.goto(BASE + "/latihan/jawi_b3_pinjaman_inggeris/1", wait_until="networkidle")
-        await expect(page.get_by_role("group", name="Papan kekunci Jawi")).to_be_visible()
-        for ch in "بس":
-            await page.get_by_role("button", name=f"Huruf {ch}", exact=True).click()
-        typed = await page.get_by_label("Jawapan kamu").input_value()
-        print("  keyboard typed:", repr(typed))
-        assert typed == "بس", typed
-        await shot(page, "08_jawi_keyboard")
-        await page.get_by_role("button", name="Semak Jawapan").click()
-        await expect(page.get_by_text("Jawapan betul")).to_be_visible(timeout=120_000)
-        await close_celebration(page)
-        await shot(page, "09_jawi_result")
+        # Jawi subject: spelling with the on-screen keyboard (best effort: some questions are multiple choice)
+        keyboard = page.get_by_role("group", name="Papan kekunci Jawi")
+        for _ in range(8):
+            await page.goto(BASE + "/latihan/jawi_b3_pinjaman_inggeris/1", wait_until="networkidle")
+            await expect(page.get_by_text("Soalan 1/")).to_be_visible()
+            if await keyboard.count():
+                break
+        if await keyboard.count():
+            for ch in "بس":
+                await page.get_by_role("button", name=f"Huruf {ch}", exact=True).click()
+            typed = await page.get_by_label("Jawapan kamu").input_value()
+            print("  keyboard typed:", repr(typed))
+            assert typed == "بس", typed
+            await shot(page, "08_jawi_keyboard")
+            await page.get_by_role("button", name="Semak Jawapan").click()
+            await expect(page.get_by_role("heading", name="Jawapan betul")).to_be_visible(timeout=120_000)
+            await close_celebration(page)
+            await shot(page, "09_jawi_result")
+        else:
+            print("  (no written Jawi question drawn)")
 
         # Quick answers (best effort: questions are picked at random)
         for _ in range(10):
@@ -154,8 +171,8 @@ async def main() -> None:
         await shot(page, "10_progress")
 
         await page.get_by_role("button", name="جاوي").click()
-        await page.get_by_role("link", name="ڤتا").click()
-        await expect(page.get_by_role("heading", name="ڤيليه سوبجيك")).to_be_visible()
+        await page.get_by_role("link", name="اوتاما").click()
+        await expect(page.get_by_role("heading", name="ڤيليه سوبجيق")).to_be_visible()
         await shot(page, "11_home_jawi")
         await page.goto(practice_url, wait_until="networkidle")
         await expect(page.locator("h2").first).to_be_visible()
@@ -168,7 +185,7 @@ async def main() -> None:
         await expect(page.get_by_role("navigation").last).to_be_visible()
         await shot(page, "12_mobile_subject_jawi", full=False)
         await page.goto(BASE + "/", wait_until="networkidle")
-        await expect(page.get_by_role("heading", name="ڤيليه سوبجيك")).to_be_visible()
+        await expect(page.get_by_role("heading", name="ڤيليه سوبجيق")).to_be_visible()
         await shot(page, "13_mobile_home_jawi", full=False)
 
         await browser.close()

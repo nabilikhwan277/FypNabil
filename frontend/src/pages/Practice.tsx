@@ -1,4 +1,22 @@
 import { AnimatePresence, motion } from 'framer-motion'
+import {
+  BookOpen,
+  CircleQuestionMark,
+  Eraser,
+  FileText,
+  GraduationCap,
+  Hand,
+  Keyboard,
+  Languages,
+  Lightbulb,
+  PenLine,
+  Send,
+  Sparkles,
+  Square,
+  Star,
+  Volume2,
+  type LucideIcon,
+} from 'lucide-react'
 import { useCallback, useEffect, useId, useRef, useState, type FormEvent, type KeyboardEvent } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { api } from '../api/client'
@@ -7,14 +25,16 @@ import Bi, { isArabic, textDir } from '../components/Bi'
 import CelebrationModal, { type Celebration } from '../components/CelebrationModal'
 import JawiKeyboard from '../components/JawiKeyboard'
 import Mascot from '../components/Mascot'
+import MosqueScene from '../components/MosqueScene'
 import ResultCard from '../components/ResultCard'
 import RoundSummary, { type RoundItem } from '../components/RoundSummary'
+import SubjectIcon from '../components/SubjectIcon'
 import { SUBJECT_STYLE } from '../components/subjects'
 import T from '../components/T'
 import { Arrow, Card, ErrorBox, Spinner } from '../components/ui'
 import { useSpeech } from '../hooks/useSpeech'
 import { useScript } from '../i18n/ScriptContext'
-import { STRINGS } from '../i18n/strings'
+import { STRINGS, type StringKey } from '../i18n/strings'
 import { blankCount, blankLettered, blankOptions, composeBlanks, isJawiSpelling, quickKind } from '../lib/quick'
 import { rankFor } from '../lib/rank'
 import { useProgress } from '../session/ProgressContext'
@@ -30,6 +50,12 @@ const CELEBRATE_DELAY_MS = 1100 // let the stars animate before the dialog opens
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
+const CHECK_STEPS: [LucideIcon, StringKey][] = [
+  [FileText, 'checkStep1'],
+  [BookOpen, 'checkStep2'],
+  [Sparkles, 'checkStep3'],
+]
+
 /** Up to 5 questions per round; fewer when the level has fewer questions (no repeats). */
 function roundSizeFor(q: Question, level: number): number {
   const counts = q.topic.question_counts
@@ -43,25 +69,26 @@ export default function PracticePage() {
   return <Practice key={`${topicId}/${level}`} topicId={topicId} level={Number(level) || 1} />
 }
 
+/** "Soalan 3/5" with one dot per question: green 3 stars, gold 2, grey ring 1, pulsing gold = now. */
 function RoundProgress({ items, size, current }: { items: RoundItem[]; size: number; current: number }) {
   return (
     <div className="flex items-center gap-3">
-      <p className="shrink-0 font-black text-slate-700">
-        <T k="question" /> {Math.min(current, size)}/{size}
+      <p className="shrink-0 text-sm font-bold text-ink">
+        <T k="question" /> <span className="tabular-nums">{Math.min(current, size)}/{size}</span>
       </p>
-      <ol aria-hidden="true" className="flex flex-1 gap-1.5">
+      <ol aria-hidden="true" className="flex items-center gap-1.5">
         {Array.from({ length: size }, (_, i) => {
           const r = items[i]
           const cls = r
             ? r.stars === 3
-              ? 'bg-emerald-500'
+              ? 'bg-primary'
               : r.stars === 2
-                ? 'bg-sky-500'
-                : 'bg-violet-400'
+                ? 'bg-gold'
+                : 'bg-surface ring-2 ring-line-strong'
             : i === current - 1
-              ? 'animate-pulse bg-amber-300'
-              : 'bg-white'
-          return <li key={i} className={`h-4 flex-1 rounded-full shadow-inner ring-2 ring-white ${cls}`} />
+              ? 'animate-pulse bg-gold ring-4 ring-gold/25'
+              : 'bg-surface-3'
+          return <li key={i} className={`h-3 w-3 rounded-full ${cls}`} />
         })}
       </ol>
     </div>
@@ -85,6 +112,7 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
   const [errorKind, setErrorKind] = useState<'load' | 'answer'>('load')
   const [showKeyboard, setShowKeyboard] = useState(false)
   const [showOther, setShowOther] = useState(false)
+  const [showHint, setShowHint] = useState(false)
   const [slow, setSlow] = useState(false)
   const [round, setRound] = useState<RoundItem[]>([])
   const [unlockedTo, setUnlockedTo] = useState(level)
@@ -112,12 +140,13 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
     setPicked([])
     setResult(null)
     setShowOther(false)
+    setShowHint(false)
     setCelebration(null)
     setModalOpen(false)
     try {
       const q = await api.nextQuestion(student!.id, { topicId, level })
       setQuestion(q)
-      setShowKeyboard(q.subject === 'jawi')
+      setShowKeyboard(q.subject === 'jawi' && !q.choices)
       setPhase('answering')
     } catch (e) {
       setError((e as Error).message)
@@ -224,20 +253,29 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
   }
 
   const st = SUBJECT_STYLE[question.subject]
-  const kind = quickKind(question)
+  const mcq = question.choices
+  const kind = mcq ? null : quickKind(question)
   const options = kind === 'blanks' ? blankOptions(question, script) : []
   const blanks = blankCount(question)
   const lettered = blankLettered(question)
   const shortAnswer = question.type === 'short'
-  const qText = script === 'jawi' && question.question_jawi ? question.question_jawi : question.question_rumi
-  const otherText = script === 'jawi' ? question.question_rumi : question.question_jawi
+  const stemRumi = mcq?.stem_rumi ?? question.question_rumi
+  const stemJawi = mcq?.stem_jawi ?? question.question_jawi
+  const qText = script === 'jawi' && stemJawi ? stemJawi : stemRumi
+  const otherText = script === 'jawi' ? stemRumi : stemJawi
+  // The option text in the pupil's script (Jawi spelling items have Jawi-only options).
+  const optionText = (o: BiText) => (script === 'jawi' || !o.rumi ? o.jawi || o.rumi : o.rumi)
+  const LETTERS = 'ABCD'
+  const shownAnswer = mcq && LETTERS.includes(answer) ? `${answer}. ${optionText(mcq.options[LETTERS.indexOf(answer)])}` : answer
   const qDir = textDir(qText)
   // Highest open level: from this round's results or the pupil's saved progress.
   const savedLevel = progress?.subjects.flatMap((s) => s.topics).find((tp) => tp.id === topicId)?.level_unlocked ?? level
   const canNextLevel =
     level < 3 && Math.max(unlockedTo, savedLevel) > level && (question.topic.question_counts[String(level + 1)] ?? 0) > 0
 
-  const hint: BiText | null = isJawiSpelling(question)
+  const hint: BiText | null = mcq
+    ? null
+    : isJawiSpelling(question)
     ? STRINGS.hintJawi
     : kind === null && question.criteria_count >= 2
       ? {
@@ -269,28 +307,51 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
     }
   }
 
-  const listen = () => (speech.speaking ? speech.stop() : speech.speak(question.question_rumi.replace(/_{2,}/g, ' … ')))
+  const listen = () =>
+    speech.speaking
+      ? speech.stop()
+      : speech.speak(
+          [stemRumi.replace(/_{2,}/g, ' … '), ...(mcq && !mcq.spelling ? mcq.options.map((o, i) => `${LETTERS[i]}, ${o.rumi}`) : [])].join('. '),
+        )
+
+  const subject = progress?.subjects.find((s) => s.id === question.subject)
 
   return (
-    <section aria-labelledby="practice-title" className="flex flex-col gap-4">
+    <section aria-labelledby="practice-title" className="flex flex-col gap-5">
       <div className="flex flex-wrap items-center gap-3">
-        <Link to={`/topik/${topicId}`} className="btn-secondary">
+        <Link to={`/topik/${topicId}`} className="btn-secondary min-h-10 rounded-full px-4 text-sm">
           <Arrow back /> <T k="back" />
         </Link>
-        <p id="practice-title" className={`chip min-h-12 px-4 text-base ${st.text}`}>
-          <span aria-hidden="true">{st.emoji}</span>
-          <Bi rumi={question.topic.title_rumi} jawi={question.topic.title_jawi} /> · <T k="level" /> {level}
-        </p>
         {round.length > 0 && (phase === 'answering' || phase === 'result') && (
-          <button type="button" onClick={stop} className="btn-secondary ms-auto">
-            <span aria-hidden="true">✋</span> <T k="stopRound" />
+          <button type="button" onClick={stop} className="btn-secondary ms-auto min-h-10 rounded-full px-4 text-sm">
+            <Hand aria-hidden="true" className="h-4 w-4" /> <T k="stopRound" />
           </button>
         )}
       </div>
 
-      {phase !== 'summary' && (
-        <RoundProgress items={round} size={size} current={phase === 'result' ? round.length : round.length + 1} />
-      )}
+      <div className="flex flex-wrap items-center gap-3 border-b border-line pb-4">
+        <span className="chip border-gold/40 bg-gold-soft text-ink">
+          <GraduationCap aria-hidden="true" className="h-4 w-4 text-gold-ink" /> KAFA
+        </span>
+        <span className={`chip border-transparent font-bold ${st.soft} ${st.text}`}>
+          <SubjectIcon id={question.subject} size="sm" className="-ms-1.5 h-6 w-6" />
+          {subject ? <Bi rumi={subject.name_rumi} jawi={subject.name_jawi} /> : question.subject}
+        </span>
+        <p id="practice-title" className="chip min-w-0">
+          <span>
+            <T k="topicLabel" />:
+          </span>
+          <Bi rumi={question.topic.title_rumi} jawi={question.topic.title_jawi} className="truncate font-bold text-ink" />
+          <span className="shrink-0 rounded-full bg-surface-3 px-2 text-xs whitespace-nowrap">
+            <T k="level" /> {level}
+          </span>
+        </p>
+        {phase !== 'summary' && (
+          <div className="ms-auto">
+            <RoundProgress items={round} size={size} current={phase === 'result' ? round.length : round.length + 1} />
+          </div>
+        )}
+      </div>
 
       {phase === 'loading' && <Spinner />}
       {phase === 'error' && (
@@ -299,15 +360,25 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
 
       {(phase === 'answering' || phase === 'checking') && (
         <form onSubmit={onSubmit} className="flex flex-col gap-4">
-          <Card className="relative">
-            <Mascot mood="thinking" size={64} className="pointer-events-none absolute -top-8 end-4 hidden drop-shadow sm:block" />
-            <div className="mb-3 flex flex-wrap items-center gap-2">
-              <span className="chip bg-sky-50">
-                <T k="question" /> · {question.max_marks} <T k="marks" />
+          <div className="card relative overflow-hidden bg-linear-to-br from-surface via-surface to-gold-soft">
+            <MosqueScene className="pointer-events-none absolute -end-6 bottom-0 hidden w-60 text-primary/10 sm:block" />
+            <div className="relative mb-4 flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-2 font-bold text-ink">
+                <span aria-hidden="true" className="flex h-7 w-7 items-center justify-center rounded-full bg-brand text-on-brand">
+                  <CircleQuestionMark className="h-4 w-4" />
+                </span>
+                <T k="question" /> {Math.min(round.length + 1, size)}
+              </span>
+              <span className="chip border-gold/40 bg-gold-soft text-ink">
+                <Star aria-hidden="true" className="h-4 w-4 fill-gold text-gold" />
+                <span>
+                  <T k="marksLabel" />: {question.max_marks}
+                </span>
               </span>
               {speech.available && (
-                <button type="button" onClick={listen} aria-pressed={speech.speaking} className="btn-secondary min-h-10 px-3 py-1 text-sm">
-                  <span aria-hidden="true">{speech.speaking ? '⏹️' : '🔊'}</span> <T k="listen" />
+                <button type="button" onClick={listen} aria-pressed={speech.speaking} className="btn-secondary min-h-9 rounded-full px-3 py-1 text-sm">
+                  {speech.speaking ? <Square aria-hidden="true" className="h-4 w-4" /> : <Volume2 aria-hidden="true" className="h-4 w-4" />}
+                  <T k="listen" />
                 </button>
               )}
               {otherText && otherText !== qText && (
@@ -315,9 +386,9 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
                   type="button"
                   onClick={() => setShowOther((v) => !v)}
                   aria-pressed={showOther}
-                  className="btn-secondary min-h-10 px-3 py-1 text-sm"
+                  className="btn-secondary min-h-9 rounded-full px-3 py-1 text-sm"
                 >
-                  <span aria-hidden="true">🔤</span> <T k="showQuestionIn" />
+                  <Languages aria-hidden="true" className="h-4 w-4" /> <T k="showQuestionIn" />
                 </button>
               )}
             </div>
@@ -326,7 +397,7 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
               tabIndex={-1}
               dir={qDir}
               lang={qDir === 'rtl' ? 'ms-Arab' : 'ms'}
-              className={`text-2xl leading-relaxed font-black ${qDir === 'rtl' ? 'font-jawi' : ''}`}
+              className={`relative text-2xl leading-relaxed font-extrabold text-ink sm:text-[1.65rem] ${qDir === 'rtl' ? 'font-jawi' : ''}`}
             >
               {qText}
             </h2>
@@ -334,23 +405,35 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
               <p
                 dir={textDir(otherText)}
                 lang={textDir(otherText) === 'rtl' ? 'ms-Arab' : 'ms'}
-                className="mt-3 border-t-2 border-dashed border-slate-200 pt-3 text-lg leading-relaxed text-slate-700"
+                className="relative mt-3 border-t border-line pt-3 text-lg leading-relaxed text-ink-2 italic"
               >
                 {otherText}
               </p>
             )}
-            {hint && (
-              <p className="mt-3 flex items-start gap-2 rounded-2xl bg-yellow-50 px-4 py-2 font-bold text-amber-900 ring-2 ring-yellow-200">
-                <span aria-hidden="true">💡</span>
-                <Bi rumi={hint.rumi} jawi={hint.jawi} />
-              </p>
-            )}
-          </Card>
+          </div>
+
+          {hint && (
+            <div>
+              <button
+                type="button"
+                onClick={() => setShowHint((v) => !v)}
+                aria-expanded={showHint}
+                className="inline-flex min-h-10 cursor-pointer items-center gap-2 rounded-full border border-gold/50 bg-gold-soft px-4 text-sm font-bold text-ink transition hover:border-gold"
+              >
+                <Lightbulb aria-hidden="true" className="h-4.5 w-4.5 text-gold-ink" /> <T k="hint" />
+              </button>
+              {showHint && (
+                <p className="mt-2 flex items-start gap-2 rounded-xl border border-gold/40 bg-gold-soft px-4 py-2.5 font-semibold text-ink">
+                  <Bi rumi={hint.rumi} jawi={hint.jawi} />
+                </p>
+              )}
+            </div>
+          )}
 
           <Card>
             {kind === 'truefalse' && (
               <div className="mb-4">
-                <T k="chooseOne" as="p" id={chipsId} className="mb-2 text-lg font-black" />
+                <T k="chooseOne" as="p" id={chipsId} className="mb-2 font-bold text-ink" />
                 <div role="group" aria-labelledby={chipsId} className="grid grid-cols-2 gap-3">
                   {(['betul', 'salah'] as const).map((k) => (
                     <button
@@ -373,7 +456,7 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
 
             {kind === 'blanks' && options.length > 0 && (
               <div className="mb-4">
-                <T k="tapWords" as="p" id={chipsId} className="mb-2 text-lg font-black" />
+                <T k="tapWords" as="p" id={chipsId} className="mb-2 font-bold text-ink" />
                 <div role="group" aria-labelledby={chipsId} className="flex flex-wrap gap-2">
                   {options.map((w) => {
                     const pos = picked.indexOf(w)
@@ -389,7 +472,7 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
                         className="btn-choice min-h-12 px-4 text-lg"
                       >
                         {on && (
-                          <span aria-hidden="true" className="rounded-full bg-emerald-700 px-2 text-sm text-white">
+                          <span aria-hidden="true" className="rounded-full bg-primary px-2 text-sm font-bold text-on-primary">
                             {lettered ? `(${String.fromCharCode(97 + pos)})` : pos + 1}
                           </span>
                         )}
@@ -408,14 +491,62 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
                       }}
                       className="btn-secondary min-h-12"
                     >
-                      <span aria-hidden="true">🧹</span> <T k="clearChoice" />
+                      <Eraser aria-hidden="true" className="h-4.5 w-4.5" /> <T k="clearChoice" />
                     </button>
                   )}
                 </div>
               </div>
             )}
 
-            <label htmlFor={answerId} className="mb-2 block text-lg font-black">
+            {mcq ? (
+              <div>
+                <T k="chooseOption" as="p" id={chipsId} className="mb-3 font-bold text-ink" />
+                <div role="radiogroup" aria-labelledby={chipsId} className="grid gap-3 sm:grid-cols-2">
+                  {mcq.options.map((o, i) => {
+                    const letter = LETTERS[i]
+                    const on = answer === letter
+                    const text = optionText(o)
+                    const rtl = textDir(text) === 'rtl'
+                    return (
+                      <button
+                        key={letter}
+                        type="button"
+                        role="radio"
+                        aria-checked={on}
+                        disabled={phase === 'checking'}
+                        onClick={() => {
+                          setAnswer(letter)
+                          play('tap')
+                        }}
+                        className={`flex min-h-16 cursor-pointer items-center gap-3 rounded-xl border-2 px-4 py-3 text-start transition disabled:cursor-not-allowed ${
+                          on ? 'border-primary bg-primary-soft shadow-sm' : 'border-line bg-surface hover:border-primary hover:bg-primary-soft/40'
+                        }`}
+                      >
+                        <span
+                          aria-hidden="true"
+                          className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-lg font-extrabold ${
+                            on ? 'bg-primary text-on-primary' : 'bg-surface-2 text-ink-2'
+                          }`}
+                        >
+                          {letter}
+                        </span>
+                        <span
+                          dir={rtl ? 'rtl' : 'ltr'}
+                          lang={rtl ? 'ms-Arab' : 'ms'}
+                          className={`flex-1 font-bold text-ink ${rtl ? 'font-jawi text-2xl' : 'text-lg'}`}
+                        >
+                          <span className="sr-only">{letter}. </span>
+                          {text}
+                        </span>
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+            ) : (
+              <>
+            <label htmlFor={answerId} className="mb-2 flex items-center gap-2 font-bold text-ink">
+              <PenLine aria-hidden="true" className="h-4.5 w-4.5 text-primary-ink" />
               <T k="yourAnswer" />
             </label>
             <textarea
@@ -429,19 +560,19 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
               placeholder={t('typeHere')}
               disabled={phase === 'checking'}
               aria-describedby={shortAnswer ? enterId : undefined}
-              className="field font-jawi-mix text-xl"
+              className="field font-jawi-mix text-lg"
             />
-            <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm text-slate-600">
+            <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm text-ink-3">
               <button
                 type="button"
                 onClick={() => setShowKeyboard((v) => !v)}
                 aria-expanded={showKeyboard}
-                className="btn-secondary min-h-10 py-1"
+                className="btn-secondary min-h-10 rounded-full px-4 py-1 text-sm"
               >
-                <span aria-hidden="true">⌨️</span> <T k={showKeyboard ? 'hideKeyboard' : 'showKeyboard'} />
+                <Keyboard aria-hidden="true" className="h-4.5 w-4.5" /> <T k={showKeyboard ? 'hideKeyboard' : 'showKeyboard'} />
               </button>
-              <span className="font-bold tabular-nums">
-                {answer.length}/{MAX_CHARS}
+              <span className="tabular-nums">
+                {answer.length} / {MAX_CHARS} <T k="chars" />
               </span>
             </div>
             {showKeyboard && (
@@ -449,13 +580,15 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
                 <JawiKeyboard target={areaRef} value={answer} onChange={setAnswer} />
               </div>
             )}
+              </>
+            )}
           </Card>
 
-          <div className="flex flex-wrap items-center justify-end gap-3">
-            {shortAnswer && <T k="pressEnter" as="p" id={enterId} className="text-sm font-bold text-slate-600" />}
-            <button type="submit" className="btn-primary text-2xl" disabled={!answer.trim() || phase === 'checking'}>
-              <T k="checkAnswer" /> <span aria-hidden="true">✔</span>
+          <div className="flex flex-col gap-2">
+            <button type="submit" className="btn-primary min-h-14 w-full text-lg" disabled={!answer.trim() || phase === 'checking'}>
+              <Send aria-hidden="true" className="h-5 w-5 rtl:-scale-x-100" /> <T k="checkAnswer" />
             </button>
+            {shortAnswer && !mcq && <T k="pressEnter" as="p" id={enterId} className="text-center text-sm text-ink-3 max-sm:sr-only" />}
           </div>
         </form>
       )}
@@ -468,31 +601,42 @@ function Practice({ topicId, level }: { topicId: string; level: number }) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-40 flex flex-col items-center justify-center gap-4 bg-sky-50/95 p-6 text-center"
+            className="fixed inset-0 z-[45] flex items-center justify-center bg-bg/95 p-6 backdrop-blur-md"
           >
-            <Mascot mood="thinking" size={150} />
-            <T k="thinking" as="p" className="text-2xl font-black" />
-            <div aria-hidden="true" className="flex gap-2">
-              {[0, 1, 2].map((i) => (
-                <motion.span
-                  key={i}
-                  className="h-3 w-3 rounded-full bg-emerald-500"
-                  animate={{ y: [0, -8, 0] }}
-                  transition={{ repeat: Infinity, duration: 0.8, delay: i * 0.15 }}
-                />
-              ))}
+            {/* Honest waiting screen: the steps say what happens, the bar does not pretend to know how far it is. */}
+            <div className="flex w-full max-w-xl flex-col items-center gap-4 text-center">
+              <div className="relative">
+                <MosqueScene className="absolute bottom-0 left-1/2 w-[26rem] max-w-none -translate-x-1/2 text-primary/10" />
+                <Mascot mood="thinking" size={128} className="relative" />
+              </div>
+              <T k="checkingTitle" as="p" className="text-2xl font-extrabold text-ink sm:text-3xl" />
+              <T k="checkingSub" as="p" className="-mt-2 text-ink-2" />
+              <div aria-hidden="true" className="relative h-2.5 w-full overflow-hidden rounded-full bg-surface-3">
+                <span className="absolute inset-y-0 start-0 w-2/5 animate-indeterminate rounded-full bg-primary" />
+              </div>
+              <ol className="grid w-full gap-2 sm:grid-cols-3">
+                {CHECK_STEPS.map(([Icon, k]) => (
+                  <li
+                    key={k}
+                    className="flex items-center gap-2 rounded-xl border border-line bg-surface px-3 py-2.5 text-sm font-semibold text-ink-2 sm:flex-col sm:py-3"
+                  >
+                    <Icon aria-hidden="true" className="h-5 w-5 shrink-0 text-primary-ink" />
+                    <T k={k} />
+                  </li>
+                ))}
+              </ol>
+              {slow && <T k="thinkingSlow" as="p" className="font-semibold text-ink-2" />}
             </div>
-            {slow && <T k="thinkingSlow" as="p" className="font-bold text-slate-700" />}
           </motion.div>
         )}
       </AnimatePresence>
 
       {phase === 'result' && result && (
         <>
-          <Card className="bg-slate-50 shadow-none">
-            <T k="yourAnswer" as="p" className="text-sm font-bold text-slate-600" />
-            <p dir="auto" className="text-lg whitespace-pre-line">
-              {answer}
+          <Card className="border-dashed bg-surface-2 shadow-none">
+            <T k="yourAnswer" as="p" className="text-sm font-extrabold text-ink-3" />
+            <p dir="auto" className="text-lg whitespace-pre-line text-ink">
+              {shownAnswer}
             </p>
           </Card>
           <ResultCard

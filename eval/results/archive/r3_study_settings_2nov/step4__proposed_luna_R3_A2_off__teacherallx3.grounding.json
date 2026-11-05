@@ -1,0 +1,1572 @@
+{
+ "experiment": "step4__proposed_luna_R3_A2_off__teacherallx3.json",
+ "config": "proposed:luna:R3:A2:off",
+ "labels": "teacher",
+ "summary": {
+  "faithfulness": 0.965,
+  "context_recall": 0.944,
+  "context_precision": 0.93,
+  "unsupported_per_answer": 0.12,
+  "answers_with_unsupported": 0.1,
+  "n": 50,
+  "judge": "Claude Haiku 5.5",
+  "judge_model": "anthropic/claude-haiku-5.5",
+  "cost": 0.043005
+ },
+ "items": [
+  {
+   "answer_id": "T001",
+   "question_id": "jawi_b1_imbuhan_an_nun_q6",
+   "feedback": "Bagus, kamu tahu kata dasar pakai berakhir dengan huruf ya. Kamu belum menyatakan peraturannya, iaitu imbuhan -an ditulis dengan huruf ن sahaja. Ejaan Jawi yang betul ialah ڤاكاين.",
+   "claims": [
+    {
+     "claim": "Kata dasar pakai berakhir dengan huruf ya (ي).",
+     "supported": true
+    },
+    {
+     "claim": "Pelajar belum menyatakan peraturan bahawa imbuhan -an ditulis dengan huruf ن sahaja.",
+     "supported": true
+    },
+    {
+     "claim": "Peraturan bahawa imbuhan -an ditulis dengan huruf ن sahaja berlaku pada kata dasar yang berakhir dengan huruf ي.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan Jawi yang betul bagi pakaian ialah ڤاكاين.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true
+   ],
+   "cost": 0.0009569
+  },
+  {
+   "answer_id": "T002",
+   "question_id": "tajwid_b3_mad_farq_q1",
+   "feedback": "Bagus, jawapan kamu betul. Kadar panjang bacaan Mad Farq ialah enam harakat.",
+   "claims": [
+    {
+     "claim": "Jawapan kamu betul.",
+     "supported": true
+    },
+    {
+     "claim": "Kadar panjang bacaan Mad Farq ialah enam harakat.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.8333333333333333,
+   "relevant_flags": [
+    true,
+    false,
+    true,
+    false,
+    false
+   ],
+   "cost": 0.000846
+  },
+  {
+   "answer_id": "T003",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "feedback": "Kamu sudah cuba menulis perkataan itu dalam tulisan Jawi. Ejaan yang betul ialah كسيلاوان, dengan huruf ا sebelum و.",
+   "claims": [
+    {
+     "claim": "Ejaan yang betul bagi 'kesilauan' dalam tulisan Jawi ialah كسيلاوان.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan yang betul mempunyai huruf ا sebelum و.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false
+   ],
+   "cost": 0.0006843
+  },
+  {
+   "answer_id": "T004",
+   "question_id": "jawi_b3_pinjaman_arab_q9",
+   "feedback": "Jawapan kamu tepat dan contoh صلاة, سابون serta زكاة betul. Istilah keagamaan dikekalkan ejaan asal, manakala kata umum ditulis mengikut sebutan Melayu.",
+   "claims": [
+    {
+     "claim": "Istilah keagamaan dikekalkan ejaan asalnya.",
+     "supported": true
+    },
+    {
+     "claim": "Kata umum ditulis mengikut sebutan Melayu.",
+     "supported": true
+    },
+    {
+     "claim": "solat ditulis sebagai صلاة.",
+     "supported": true
+    },
+    {
+     "claim": "sabun ditulis sebagai سابون.",
+     "supported": true
+    },
+    {
+     "claim": "زكاة ialah contoh istilah keagamaan yang betul.",
+     "supported": false
+    }
+   ],
+   "faithfulness": 0.8,
+   "unsupported": [
+    "زكاة ialah contoh istilah keagamaan yang betul."
+   ],
+   "context_recall": 0.42857142857142855,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true
+   ],
+   "cost": 0.0012152999999999999
+  },
+  {
+   "answer_id": "T005",
+   "question_id": "jawi_b1_imbuhan_an_nun_q8",
+   "feedback": "Jawapan kamu belum tepat kerana tarikh yang disebut ialah 4 April. Lawatan diadakan pada 1 April 2018.",
+   "claims": [
+    {
+     "claim": "Tarikh yang disebut dalam jawapan pelajar ialah 4 April 2018.",
+     "supported": true
+    },
+    {
+     "claim": "Lawatan ke Cameron Highlands diadakan pada 1 April 2018.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true
+   ],
+   "cost": 0.0008075
+  },
+  {
+   "answer_id": "T006",
+   "question_id": "tajwid_b3_mad_iwadh_q1",
+   "feedback": "Bagus, jawapan kamu betul. Kadar bacaan Mad 'Iwadh ialah dua harakat.",
+   "claims": [
+    {
+     "claim": "Kadar bacaan Mad 'Iwadh ialah dua harakat.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan murid 'دوا harakat' adalah betul.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0006575999999999999
+  },
+  {
+   "answer_id": "T007",
+   "question_id": "fiqh_b1_latihan_q6",
+   "feedback": "Bagus, jawapan kamu betul. Solat tarawih didirikan selepas solat Isyak hingga terbit fajar sadiq (waktu subuh).",
+   "claims": [
+    {
+     "claim": "Solat tarawih didirikan selepas solat Isyak hingga terbit fajar sadiq (waktu Subuh).",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pupil, Betul, adalah betul.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 0.6666666666666666,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0007236
+  },
+  {
+   "answer_id": "T008",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "feedback": "Bagus, kamu menyatakan ketiga-tiga fadhilat solat istikharah. Hati mendapat ketenangan, sifat sombong dihilangkan dan akidah dijaga dengan yakin kepada ketentuan Allah.",
+   "claims": [
+    {
+     "claim": "Kamu menyatakan ketiga-tiga fadhilat solat istikharah.",
+     "supported": true
+    },
+    {
+     "claim": "Hati mendapat ketenangan dengan solat istikharah.",
+     "supported": true
+    },
+    {
+     "claim": "Sifat sombong dihilangkan dengan solat istikharah.",
+     "supported": true
+    },
+    {
+     "claim": "Akidah dijaga dengan yakin kepada ketentuan Allah.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0008998000000000001
+  },
+  {
+   "answer_id": "T009",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+   "feedback": "Bagus, kamu menyatakan kadar dan keadaan bacaan dengan betul. Empat atau lima harakat dibaca apabila hamzah di tengah atau hujung kalimah ketika wasal atau waqaf. Empat, lima atau enam harakat dibaca apabila hamzah di hujung kalimah ketika waqaf sahaja.",
+   "claims": [
+    {
+     "claim": "Empat atau lima harakat dibaca apabila hamzah di tengah atau hujung kalimah ketika wasal atau waqaf.",
+     "supported": true
+    },
+    {
+     "claim": "Empat, lima atau enam harakat dibaca apabila hamzah di hujung kalimah ketika waqaf sahaja.",
+     "supported": true
+    },
+    {
+     "claim": "Kamu menyatakan kadar dan keadaan bacaan dengan betul.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    true,
+    false,
+    false
+   ],
+   "cost": 0.0007390000000000001
+  },
+  {
+   "answer_id": "T010",
+   "question_id": "fiqh_b2_batal_puasa_q2",
+   "feedback": "Kamu sudah mengaitkan jawapan dengan keadaan selepas mendapat anak. Wiladah bermaksud melahirkan anak.",
+   "claims": [
+    {
+     "claim": "Wiladah bermaksud melahirkan anak.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.75,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    true,
+    false
+   ],
+   "cost": 0.0006334
+  },
+  {
+   "answer_id": "T011",
+   "question_id": "jawi_b4_akronim_melayu_q13",
+   "feedback": "Perkataan yang diminta ialah “Doktor”. Jawapan kamu masih dalam tulisan Rumi; ejaan Jawi yang betul ialah دوكتور.",
+   "claims": [
+    {
+     "claim": "Perkataan yang diminta ialah “Doktor”.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pelajar masih dalam tulisan Rumi.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan Jawi yang betul bagi “Doktor” ialah دوكتور.",
+     "supported": false
+    }
+   ],
+   "faithfulness": 0.6666666666666666,
+   "unsupported": [
+    "Ejaan Jawi yang betul bagi “Doktor” ialah دوكتور."
+   ],
+   "context_recall": 0.6666666666666666,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false
+   ],
+   "cost": 0.0012233
+  },
+  {
+   "answer_id": "T012",
+   "question_id": "fiqh_b1_solat_witir_q2",
+   "feedback": "Bagus, kamu menyatakan waktu solat witir hingga terbit fajar. Waktu witir bermula selepas solat Isyak, bukan sebelum solat Isyak.",
+   "claims": [
+    {
+     "claim": "Pelajar menyatakan waktu solat witir hingga terbit fajar.",
+     "supported": true
+    },
+    {
+     "claim": "Waktu solat witir bermula selepas solat Isyak.",
+     "supported": true
+    },
+    {
+     "claim": "Waktu solat witir bukan sebelum solat Isyak.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0008307
+  },
+  {
+   "answer_id": "T013",
+   "question_id": "fiqh_b2_pengertian_puasa_q6",
+   "feedback": "Kamu betul menyatakan bahawa puasa ada yang wajib. Namun, bukan semua puasa wajib dan kamu tertinggal puasa sunat. Hukum puasa wajib atau sunat bergantung pada jenis puasa.",
+   "claims": [
+    {
+     "claim": "Puasa ada yang wajib.",
+     "supported": true
+    },
+    {
+     "claim": "Bukan semua puasa wajib.",
+     "supported": true
+    },
+    {
+     "claim": "Murid tertinggal puasa sunat dalam jawapannya.",
+     "supported": true
+    },
+    {
+     "claim": "Hukum puasa wajib atau sunat bergantung pada jenis puasa.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "cost": 0.0008444
+  },
+  {
+   "answer_id": "T014",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "feedback": "Bagus, kamu menyatakan ketiga-tiga fadhilat dengan betul. Solat istikharah memberikan ketenangan kepada hati, menghilangkan sifat sombong dan menjaga akidah supaya yakin dengan ketentuan Allah.",
+   "claims": [
+    {
+     "claim": "Kamu menyatakan ketiga-tiga fadhilat dengan betul.",
+     "supported": true
+    },
+    {
+     "claim": "Solat istikharah memberikan ketenangan kepada hati.",
+     "supported": true
+    },
+    {
+     "claim": "Solat istikharah menghilangkan sifat sombong.",
+     "supported": true
+    },
+    {
+     "claim": "Solat istikharah menjaga akidah supaya yakin dengan ketentuan Allah.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.8333333333333333,
+   "relevant_flags": [
+    true,
+    false,
+    true,
+    false,
+    false
+   ],
+   "cost": 0.0009044000000000001
+  },
+  {
+   "answer_id": "T015",
+   "question_id": "fiqh_b2_latihan_q8",
+   "feedback": "Kamu mengenal bahawa puasa hari putih asalnya sunat. Namun, puasa nazar ialah puasa wajib, jadi puasa hari putih yang dinazarkan wajib ditunaikan.",
+   "claims": [
+    {
+     "claim": "Puasa hari putih asalnya sunat.",
+     "supported": true
+    },
+    {
+     "claim": "Puasa nazar ialah puasa wajib.",
+     "supported": true
+    },
+    {
+     "claim": "Puasa hari putih yang dinazarkan wajib ditunaikan.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 0.5,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true
+   ],
+   "cost": 0.0006230000000000001
+  },
+  {
+   "answer_id": "T016",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+   "feedback": "Tempat dalam al-Quran yang kamu nyatakan adalah betul. Pengertiannya bukan dalam dua kalimah; huruf mad bertemu huruf mati dalam satu kalimah.",
+   "claims": [
+    {
+     "claim": "Tempat Mad Lazim Kalimi Mukhaffaf dalam al-Quran ialah Surah Yunus ayat 51 dan 91.",
+     "supported": true
+    },
+    {
+     "claim": "Pengertian Mad Lazim Kalimi Mukhaffaf ialah apabila huruf mad bertemu huruf mati dalam satu kalimah, bukan dalam dua kalimah.",
+     "supported": true
+    },
+    {
+     "claim": "Huruf mad bertemu huruf mati dalam satu kalimah ialah pengertian Mad Lazim Kalimi Mukhaffaf.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.95,
+   "relevant_flags": [
+    true,
+    true,
+    true,
+    false,
+    true
+   ],
+   "cost": 0.0007941000000000001
+  },
+  {
+   "answer_id": "T017",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "feedback": "Kamu sudah menulis jawapan dalam tulisan Jawi. Namun, ejaannya belum tepat. Ejaan yang betul ialah كسيلاوان.",
+   "claims": [
+    {
+     "claim": "Kamu sudah menulis jawapan dalam tulisan Jawi.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan jawapan kamu belum tepat.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan yang betul bagi kesilauan ialah كسيلاوان.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false
+   ],
+   "cost": 0.0010100999999999999
+  },
+  {
+   "answer_id": "T018",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "feedback": "Kamu telah menyenaraikan tiga perkara. Namun, jawapan itu bukan fadhilat solat istikharah dalam buku teks. Fadhilatnya ialah memberi ketenangan hati, menghilangkan sifat sombong dan menjaga akidah supaya yakin dengan ketentuan Allah.",
+   "claims": [
+    {
+     "claim": "Kamu telah menyenaraikan tiga perkara.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pelajar bukan fadhilat solat istikharah dalam buku teks.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat istikharah ialah memberi ketenangan hati.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat istikharah ialah menghilangkan sifat sombong.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat istikharah ialah menjaga akidah supaya yakin dengan ketentuan Allah.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0009563
+  },
+  {
+   "answer_id": "T019",
+   "question_id": "tajwid_b4_tingkatan_mad_q7",
+   "feedback": "Bagus, kamu telah memberikan contoh kalimah ketika waqaf dan menyebut kedua-dua hukum mad. Hukum perlu mengikut tingkatan tertinggi, jadi hukum sebenarnya ialah Mad Wajib Muttasil.",
+   "claims": [
+    {
+     "claim": "Kamu telah memberikan contoh kalimah ketika waqaf dan menyebut kedua-dua hukum mad.",
+     "supported": true
+    },
+    {
+     "claim": "Hukum mad perlu mengikut tingkatan yang tertinggi.",
+     "supported": true
+    },
+    {
+     "claim": "Hukum sebenarnya bagi kalimah مِمَّا يَشَآءُ ketika waqaf ialah Mad Wajib Muttasil.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0010849
+  },
+  {
+   "answer_id": "T020",
+   "question_id": "fiqh_b1_solat_rawatib_q2",
+   "feedback": "Kamu sudah menyebut nama solat sunat, tetapi jawapan kamu tersalah. Solat sunat sebelum solat fardu ialah qabliyyah, manakala ba'diyyah dilakukan selepas solat fardu.",
+   "claims": [
+    {
+     "claim": "Solat sunat sebelum solat fardu ialah qabliyyah.",
+     "supported": true
+    },
+    {
+     "claim": "Solat sunat ba'diyyah dilakukan selepas solat fardu.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pelajar (solat sunat ba'diyyah) adalah tersalah.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0006866000000000001
+  },
+  {
+   "answer_id": "T021",
+   "question_id": "fiqh_b1_solat_hari_raya_q3",
+   "feedback": "Kamu menyebut bilangan takbir bagi kedua-dua rakaat, tetapi bilangannya tertukar. Rakaat pertama tujuh kali dan rakaat kedua lima kali.",
+   "claims": [
+    {
+     "claim": "Bilangan takbir bagi kedua-dua rakaat tertukar dalam jawapan pelajar.",
+     "supported": true
+    },
+    {
+     "claim": "Rakaat pertama solat hari raya mempunyai tujuh kali takbir.",
+     "supported": true
+    },
+    {
+     "claim": "Rakaat kedua solat hari raya mempunyai lima kali takbir.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    false
+   ],
+   "cost": 0.0006916
+  },
+  {
+   "answer_id": "T022",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q5",
+   "feedback": "Kamu betul menyatakan kadar empat atau lima harakat. Lengkapkan keadaan bacaan: hamzah di tengah atau hujung kalimah dibaca empat atau lima harakat ketika wasal atau waqaf. Jika hamzah di hujung kalimah dan dibaca waqaf sahaja, kadarnya empat, lima atau enam harakat.",
+   "claims": [
+    {
+     "claim": "Pupil correctly stated the rate of 4 or 5 harakat.",
+     "supported": true
+    },
+    {
+     "claim": "Hamzah in the middle or at the end of a kalimah, read with wasal or waqaf, is read for 4 or 5 harakat.",
+     "supported": true
+    },
+    {
+     "claim": "If hamzah is at the end of a kalimah and read with waqaf only, the length is 4, 5 or 6 harakat.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.7555555555555555,
+   "relevant_flags": [
+    true,
+    false,
+    true,
+    false,
+    true
+   ],
+   "cost": 0.0010061
+  },
+  {
+   "answer_id": "T023",
+   "question_id": "jawi_b2_imbuhan_i_ya_q3",
+   "feedback": "Kamu telah cuba menulis perkataan itu dalam tulisan Jawi. Ejaannya belum tepat; ejaan yang betul ialah منصيحتي.",
+   "claims": [
+    {
+     "claim": "Ejaan yang betul bagi 'menasihati' dalam tulisan Jawi ialah منصيحتي.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan pelajar منصيحاتي belum tepat.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0010322999999999999
+  },
+  {
+   "answer_id": "T024",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q3",
+   "feedback": "Kamu sudah menyebut Surah Yunus. Kalimah yang tepat ialah ءَآلۡـَٰٔنَ.",
+   "claims": [
+    {
+     "claim": "Kamu sudah menyebut Surah Yunus.",
+     "supported": true
+    },
+    {
+     "claim": "Kalimah yang tepat ialah ءَآلۡـَٰٔنَ.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.8875,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    true,
+    true
+   ],
+   "cost": 0.0006330999999999999
+  },
+  {
+   "answer_id": "T025",
+   "question_id": "fiqh_b1_latihan_q8",
+   "feedback": "Kamu telah memilih satu jawapan, tetapi jawapan Betul tidak tepat. Jawapan yang betul ialah Salah kerana takbir tujuh kali ialah perkara sunat dan tidak membatalkan solat.",
+   "claims": [
+    {
+     "claim": "Jawapan Betul tidak tepat.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan yang betul ialah Salah.",
+     "supported": true
+    },
+    {
+     "claim": "Takbir tujuh kali ialah perkara sunat.",
+     "supported": false
+    },
+    {
+     "claim": "Takbir tujuh kali tidak membatalkan solat.",
+     "supported": false
+    }
+   ],
+   "faithfulness": 0.5,
+   "unsupported": [
+    "Takbir tujuh kali ialah perkara sunat.",
+    "Takbir tujuh kali tidak membatalkan solat."
+   ],
+   "context_recall": 0.3333333333333333,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0011298
+  },
+  {
+   "answer_id": "T026",
+   "question_id": "tajwid_b3_mad_lazim_kalimi_mukhaffaf_q5",
+   "feedback": "Jawapan kamu belum tepat kerana Mad Lazim Kalimi Mukhaffaf bukan apabila huruf mad bertemu hamzah dalam dua perkataan. Maksudnya huruf mad bertemu huruf mati dalam satu kalimah, dan tempatnya di Surah Yunus ayat 51 dan 91.",
+   "claims": [
+    {
+     "claim": "Jawapan pelajar menyatakan bahawa Mad Lazim Kalimi Mukhaffaf ialah apabila huruf mad bertemu hamzah dalam dua perkataan.",
+     "supported": true
+    },
+    {
+     "claim": "Mad Lazim Kalimi Mukhaffaf bukan apabila huruf mad bertemu hamzah dalam dua perkataan.",
+     "supported": true
+    },
+    {
+     "claim": "Mad Lazim Kalimi Mukhaffaf ialah apabila huruf mad bertemu huruf mati dalam satu kalimah.",
+     "supported": true
+    },
+    {
+     "claim": "Mad Lazim Kalimi Mukhaffaf terdapat di Surah Yunus ayat 51 dan 91.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.8875,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    true,
+    true
+   ],
+   "cost": 0.0008139999999999999
+  },
+  {
+   "answer_id": "T027",
+   "question_id": "jawi_b1_imbuhan_an_nun_q11",
+   "feedback": "Bagus, jawapan kamu menyebut bunga ros dan strawberi. Di Mardi Agroteknologi Park terdapat pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan.",
+   "claims": [
+    {
+     "claim": "Di Mardi Agroteknologi Park terdapat pelbagai jenis bunga ros.",
+     "supported": true
+    },
+    {
+     "claim": "Di Mardi Agroteknologi Park terdapat strawberi.",
+     "supported": true
+    },
+    {
+     "claim": "Di Mardi Agroteknologi Park terdapat pelbagai jenis buah-buahan.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pupil menyebut bunga ros dan strawberi.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true
+   ],
+   "cost": 0.0007817
+  },
+  {
+   "answer_id": "T028",
+   "question_id": "tajwid_b3_mad_iwadh_q4",
+   "feedback": "Kamu sudah menyebut berhenti pada perkataan yang mempunyai tanwin. Jawapan belum menyatakan tanwin di atas dan pengecualian ta marbutah. Mad 'Iwadh berlaku apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas, kecuali pada huruf ta marbutah.",
+   "claims": [
+    {
+     "claim": "Jawapan kamu menyebut berhenti pada perkataan yang mempunyai tanwin.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan belum menyatakan tanwin di atas.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan belum menyatakan pengecualian ta marbutah.",
+     "supported": true
+    },
+    {
+     "claim": "Mad 'Iwadh berlaku apabila mewaqafkan bacaan pada akhir kalimah yang berbaris tanwin di atas, kecuali pada huruf ta marbutah.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0007017
+  },
+  {
+   "answer_id": "T029",
+   "question_id": "fiqh_b1_solat_witir_q4",
+   "feedback": "Bagus, kamu menyatakan solat witir disukai Allah dan mendekatkan diri kepada Allah. Satu lagi fadhilat belum dinyatakan: solat witir memberikan kekuatan rohani dan menenangkan jiwa.",
+   "claims": [
+    {
+     "claim": "Solat witir disukai oleh Allah SWT.",
+     "supported": true
+    },
+    {
+     "claim": "Solat witir mendekatkan diri kepada Allah SWT.",
+     "supported": true
+    },
+    {
+     "claim": "Pupil menyatakan solat witir disukai Allah.",
+     "supported": true
+    },
+    {
+     "claim": "Pupil menyatakan solat witir mendekatkan diri kepada Allah.",
+     "supported": true
+    },
+    {
+     "claim": "Solat witir memberikan kekuatan rohani dan menenangkan jiwa.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat witir yang belum dinyatakan oleh pupil ialah memberikan kekuatan rohani dan menenangkan jiwa.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0008834
+  },
+  {
+   "answer_id": "T030",
+   "question_id": "tajwid_b2_mad_asli_kalimi_q3",
+   "feedback": "Kamu cuba menyatakan cara bacaan mad asli. Namun, jawapan itu salah: mad asli apabila bertemu hamzah wasal tidak dimadkan ketika dibaca wasal.",
+   "claims": [
+    {
+     "claim": "Mad asli apabila bertemu hamzah wasal tidak dimadkan ketika dibaca wasal.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pelajar yang mengatakan mad asli dimadkan apabila bertemu hamzah wasal adalah salah.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0007526
+  },
+  {
+   "answer_id": "T031",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q8",
+   "feedback": "Bagus, kamu memilih kata dasar palu dan deru yang berakhir dengan bunyi vokal u. Ejaan Jawi yang betul bagi deruan ialah دروان.",
+   "claims": [
+    {
+     "claim": "Kata dasar palu dan deru yang dipilih murid berakhir dengan bunyi vokal u.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan Jawi yang betul bagi deruan ialah دروان.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "cost": 0.0008488
+  },
+  {
+   "answer_id": "T032",
+   "question_id": "jawi_b1_imbuhan_an_alif_nun_q2",
+   "feedback": "Bagus, ejaan Jawi kamu betul. Perkataan “kesilauan” dieja كسيلاوان.",
+   "claims": [
+    {
+     "claim": "Ejaan Jawi perkataan 'kesilauan' ialah كسيلاوان.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan Jawi pelajar (كسيلاوان) adalah betul.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false
+   ],
+   "cost": 0.0005341
+  },
+  {
+   "answer_id": "T033",
+   "question_id": "tajwid_b2_mad_asli_kalimi_q2",
+   "feedback": "Bagus, kamu menyatakan satu nama lain bagi mad asli. Ejaan yang betul ialah mad tabi'i; nama lain yang juga diterima ialah mad zati.",
+   "claims": [
+    {
+     "claim": "Kamu menyatakan satu nama lain bagi mad asli.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan yang betul ialah mad tabi'i.",
+     "supported": true
+    },
+    {
+     "claim": "Nama lain yang juga diterima ialah mad zati.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0007852
+  },
+  {
+   "answer_id": "T034",
+   "question_id": "fiqh_b2_batal_puasa_q6",
+   "feedback": "Jawapan tentang puasa Siti dan dua perkara lain adalah betul. Puasa Ali batal kerana minum dengan sengaja walaupun sedikit; minum sedikit bukan alasan untuk mengatakan puasanya tidak batal.",
+   "claims": [
+    {
+     "claim": "Jawapan tentang puasa Siti dan dua perkara lain adalah betul.",
+     "supported": true
+    },
+    {
+     "claim": "Puasa Ali batal kerana minum dengan sengaja walaupun sedikit.",
+     "supported": true
+    },
+    {
+     "claim": "Minum sedikit bukan alasan untuk mengatakan puasanya tidak batal.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": null,
+   "context_precision": 0.0,
+   "relevant_flags": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0014014000000000001
+  },
+  {
+   "answer_id": "T035",
+   "question_id": "tajwid_b3_mad_farq_q6",
+   "feedback": "Bagus, semua nama surah dan nombor ayat Mad Farq betul. Surah Yunus mengandungi ayat 59, 91 dan 51; Surah an-Naml ayat 59; Surah al-An'am ayat 143 dan 144.",
+   "claims": [
+    {
+     "claim": "Semua nama surah dan nombor ayat Mad Farq yang dijawab pelajar adalah betul.",
+     "supported": true
+    },
+    {
+     "claim": "Surah Yunus mengandungi ayat 59, 91 dan 51 yang mempunyai hukum Mad Farq.",
+     "supported": true
+    },
+    {
+     "claim": "Surah an-Naml mengandungi ayat 59 yang mempunyai hukum Mad Farq.",
+     "supported": true
+    },
+    {
+     "claim": "Surah al-An'am mengandungi ayat 143 dan 144 yang mempunyai hukum Mad Farq.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    true,
+    false,
+    false
+   ],
+   "cost": 0.0010854
+  },
+  {
+   "answer_id": "T036",
+   "question_id": "jawi_b2_imbuhan_i_ya_q3",
+   "feedback": "Kamu sudah cuba menulis perkataan itu dalam Jawi. Ejaan yang betul ialah منصيحتي, dengan huruf ص selepas ن.",
+   "claims": [
+    {
+     "claim": "Ejaan yang betul bagi 'menasihati' dalam Jawi ialah منصيحتي.",
+     "supported": true
+    },
+    {
+     "claim": "Dalam ejaan Jawi yang betul, huruf ص terletak selepas huruf ن.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.000749
+  },
+  {
+   "answer_id": "T037",
+   "question_id": "fiqh_b1_solat_tahajud_q4",
+   "feedback": "Jawapan kamu belum menyatakan fadhilat solat tahajud yang dikehendaki. Fadhilatnya ialah membersihkan hati daripada kebencian, mencintai Allah dan menguatkan iman, serta takut kepada Allah dan menyedari kehidupan dunia hanya sementara dan singkat.",
+   "claims": [
+    {
+     "claim": "Jawapan kamu belum menyatakan fadhilat solat tahajud yang dikehendaki.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat tahajud ialah membersihkan hati daripada kebencian.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat tahajud ialah mencintai Allah SWT dan menguatkan iman.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat tahajud ialah takut kepada Allah SWT dan menyedari bahawa kehidupan dunia hanya sementara dan singkat.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.3333333333333333,
+   "relevant_flags": [
+    false,
+    false,
+    true,
+    false
+   ],
+   "cost": 0.0009204
+  },
+  {
+   "answer_id": "T038",
+   "question_id": "tajwid_b1_mad_bahagian_q3",
+   "feedback": "Bagus, jawapan kamu betul: mad terbahagi kepada dua bahagian. Bahagian itu ialah Mad Asli dan Mad Far'i.",
+   "claims": [
+    {
+     "claim": "Mad terbahagi kepada dua bahagian.",
+     "supported": true
+    },
+    {
+     "claim": "Bahagian mad ialah Mad Asli dan Mad Far'i.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pelajar '2 bhgn' adalah betul.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.000527
+  },
+  {
+   "answer_id": "T039",
+   "question_id": "fiqh_b1_solat_istikharah_q4",
+   "feedback": "Bagus, kamu menyatakan bahawa hati menjadi tenang. Fadhilat yang lain ialah menghilangkan sifat sombong dan menjaga akidah dengan yakin kepada ketentuan Allah.",
+   "claims": [
+    {
+     "claim": "Pelajar menyatakan bahawa hati menjadi tenang.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat istikharah yang lain ialah menghilangkan sifat sombong.",
+     "supported": true
+    },
+    {
+     "claim": "Fadhilat solat istikharah yang lain ialah menjaga akidah dengan yakin kepada ketentuan Allah.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0008883000000000001
+  },
+  {
+   "answer_id": "T040",
+   "question_id": "fiqh_b2_batal_puasa_q5",
+   "feedback": "Bagus, kamu menyebut makan dan minum serta muntah dengan sengaja. Satu perkara lagi belum dinyatakan; contohnya, memasukkan sesuatu dengan sengaja melalui rongga yang terbuka.",
+   "claims": [
+    {
+     "claim": "Makan dengan sengaja membatalkan puasa.",
+     "supported": true
+    },
+    {
+     "claim": "Minum dengan sengaja membatalkan puasa.",
+     "supported": true
+    },
+    {
+     "claim": "Muntah dengan sengaja membatalkan puasa.",
+     "supported": true
+    },
+    {
+     "claim": "Memasukkan sesuatu dengan sengaja melalui rongga yang terbuka membatalkan puasa.",
+     "supported": true
+    },
+    {
+     "claim": "Satu perkara lagi belum dinyatakan oleh pupil.",
+     "supported": false
+    }
+   ],
+   "faithfulness": 0.8,
+   "unsupported": [
+    "Satu perkara lagi belum dinyatakan oleh pupil."
+   ],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    true,
+    false,
+    false
+   ],
+   "cost": 0.00103
+  },
+  {
+   "answer_id": "T041",
+   "question_id": "jawi_b2_imbuhan_i_ya_q8",
+   "feedback": "Kamu sudah cuba menerangkan peraturan dan menulis ketiga-tiga contoh. Namun, imbuhan '-i' dieja dengan huruf '-ي' sahaja, dan suku kata tertutup berakhir dengan huruf konsonan; vokalnya ialah 'a', 'i' atau 'u'. Ejaan yang betul ialah دمارهي، دبايڠي dan اوبتي.",
+   "claims": [
+    {
+     "claim": "Imbuhan '-i' dieja dengan huruf '-ي' sahaja.",
+     "supported": true
+    },
+    {
+     "claim": "Suku kata tertutup berakhir dengan huruf konsonan.",
+     "supported": true
+    },
+    {
+     "claim": "Vokal bagi suku kata tertutup tersebut ialah 'a', 'i' atau 'u'.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan yang betul bagi dimarahi ialah دمارهي.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan yang betul bagi dibayangi ialah دبايڠي.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan yang betul bagi ubati ialah اوبتي.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true
+   ],
+   "cost": 0.0008129
+  },
+  {
+   "answer_id": "T042",
+   "question_id": "fiqh_b2_fadhilat_puasa_q1",
+   "feedback": "Betul, nama pintu itu ialah al-Rayyan. Orang yang berpuasa masuk ke syurga melalui pintu al-Rayyan.",
+   "claims": [
+    {
+     "claim": "Nama pintu itu ialah al-Rayyan.",
+     "supported": true
+    },
+    {
+     "claim": "Orang yang berpuasa masuk ke syurga melalui pintu al-Rayyan.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false
+   ],
+   "cost": 0.0005638
+  },
+  {
+   "answer_id": "T043",
+   "question_id": "fiqh_b1_solat_witir_q4",
+   "feedback": "Bagus, “rapat dengan Allah” bermaksud mendekatkan diri kepada Allah. Fadhilat lain ialah solat witir disukai Allah serta memberi kekuatan rohani dan menenangkan jiwa.",
+   "claims": [
+    {
+     "claim": "\"Rapat dengan Allah\" bermaksud mendekatkan diri kepada Allah.",
+     "supported": true
+    },
+    {
+     "claim": "Solat witir disukai Allah.",
+     "supported": true
+    },
+    {
+     "claim": "Solat witir memberi kekuatan rohani dan menenangkan jiwa.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0007761
+  },
+  {
+   "answer_id": "T044",
+   "question_id": "jawi_b1_imbuhan_an_nun_q11",
+   "feedback": "Bagus, kamu menyebut bunga ros. Jawapan belum menyebut strawberi atau buah-buahan; di Mardi Agroteknologi Park terdapat pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan.",
+   "claims": [
+    {
+     "claim": "Pupil menyebut bunga ros.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pupil belum menyebut strawberi.",
+     "supported": true
+    },
+    {
+     "claim": "Jawapan pupil belum menyebut buah-buahan.",
+     "supported": true
+    },
+    {
+     "claim": "Di Mardi Agroteknologi Park terdapat pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true
+   ],
+   "cost": 0.0008671
+  },
+  {
+   "answer_id": "T045",
+   "question_id": "tajwid_b3_mad_badal_q1",
+   "feedback": "Betul, Mad Badal melibatkan hamzah yang diganti dengan huruf mad. Namun, kadar bacaannya bukan enam harakat; Mad Badal dibaca dua harakat.",
+   "claims": [
+    {
+     "claim": "Mad Badal melibatkan hamzah yang diganti dengan huruf mad.",
+     "supported": true
+    },
+    {
+     "claim": "Kadar bacaan Mad Badal bukan enam harakat.",
+     "supported": true
+    },
+    {
+     "claim": "Mad Badal dibaca dua harakat.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.8333333333333333,
+   "relevant_flags": [
+    true,
+    false,
+    true,
+    false,
+    false
+   ],
+   "cost": 0.0006146
+  },
+  {
+   "answer_id": "T046",
+   "question_id": "tajwid_b3_mad_wajib_muttasil_q6",
+   "feedback": "Kamu sudah memberikan tiga contoh, tetapi semuanya belum tepat kerana hamzah berada pada kalimah yang berasingan daripada huruf mad. Mad Wajib Muttasil berlaku apabila huruf mad bertemu hamzah dalam satu kalimah, contohnya بِٱلسُّوٓءِ.",
+   "claims": [
+    {
+     "claim": "Ketiga-tiga contoh yang diberikan murid belum tepat kerana hamzah berada pada kalimah yang berasingan daripada huruf mad.",
+     "supported": true
+    },
+    {
+     "claim": "Mad Wajib Muttasil berlaku apabila huruf mad bertemu hamzah dalam satu kalimah.",
+     "supported": true
+    },
+    {
+     "claim": "Contoh Mad Wajib Muttasil yang betul ialah بِٱلسُّوٓءِ.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.7555555555555555,
+   "relevant_flags": [
+    true,
+    false,
+    true,
+    false,
+    true
+   ],
+   "cost": 0.0012234
+  },
+  {
+   "answer_id": "T047",
+   "question_id": "tajwid_b3_mad_tamkin_q2",
+   "feedback": "Kamu menyebut bahawa Mad Tamkin perlu dibaca dengan betul. Bilangan yang ditanya belum dinyatakan; hukum Mad Tamkin terdapat pada lima kalimah sahaja dalam al-Quran.",
+   "claims": [
+    {
+     "claim": "Pelajar menyebut bahawa Mad Tamkin perlu dibaca dengan betul.",
+     "supported": true
+    },
+    {
+     "claim": "Bilangan kalimah yang ditanya belum dinyatakan oleh pelajar.",
+     "supported": true
+    },
+    {
+     "claim": "Hukum Mad Tamkin terdapat pada lima kalimah sahaja dalam al-Quran.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0009168000000000001
+  },
+  {
+   "answer_id": "T048",
+   "question_id": "jawi_b4_akronim_melayu_q13",
+   "feedback": "Kamu sudah cuba menulis perkataan itu dalam Jawi. Ejaan yang tepat ialah دوكتور.",
+   "claims": [
+    {
+     "claim": "Kamu sudah cuba menulis perkataan itu dalam Jawi.",
+     "supported": true
+    },
+    {
+     "claim": "Ejaan Jawi yang tepat bagi 'Doktor' ialah دوكتور.",
+     "supported": false
+    }
+   ],
+   "faithfulness": 0.5,
+   "unsupported": [
+    "Ejaan Jawi yang tepat bagi 'Doktor' ialah دوكتور."
+   ],
+   "context_recall": 0.6666666666666666,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    false
+   ],
+   "cost": 0.0012101
+  },
+  {
+   "answer_id": "T049",
+   "question_id": "tajwid_b4_tingkatan_mad_q7",
+   "feedback": "Bagus, kamu menerangkan bahawa apabila satu kalimah mempunyai dua hukum mad, kita mengikut tingkatan tertinggi. Contoh dan kedua-dua hukum mad juga betul; hukum sebenarnya ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+   "claims": [
+    {
+     "claim": "Apabila satu kalimah mempunyai dua hukum mad, kita mengikut tingkatan mad yang tertinggi.",
+     "supported": true
+    },
+    {
+     "claim": "Contoh kalimah مِمَّا يَشَآءُ ketika waqaf mempunyai dua hukum mad, iaitu Mad 'Aridh Lissukun dan Mad Wajib Muttasil.",
+     "supported": true
+    },
+    {
+     "claim": "Hukum sebenar bagi kalimah مِمَّا يَشَآءُ ialah Mad Wajib Muttasil kerana tingkatannya lebih tinggi daripada Mad 'Aridh Lissukun.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 1.0,
+   "relevant_flags": [
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "cost": 0.0010609
+  },
+  {
+   "answer_id": "T050",
+   "question_id": "tajwid_b3_mad_farq_q3",
+   "feedback": "Kamu sudah menyebut bilangan kalimah dan tempat, tetapi bilangannya tertukar. Jawapan yang betul ialah tiga kalimah dalam enam tempat.",
+   "claims": [
+    {
+     "claim": "Jawapan yang betul ialah tiga kalimah dalam enam tempat.",
+     "supported": true
+    },
+    {
+     "claim": "Bilangan kalimah Mad Farq dalam al-Quran ialah tiga kalimah.",
+     "supported": true
+    },
+    {
+     "claim": "Mad Farq terdapat di enam tempat yang berbeza dalam al-Quran.",
+     "supported": true
+    },
+    {
+     "claim": "Pelajar menjawab enam kalimah dalam tiga tempat.",
+     "supported": true
+    },
+    {
+     "claim": "Bilangan kalimah dan tempat dalam jawapan pelajar tertukar.",
+     "supported": true
+    }
+   ],
+   "faithfulness": 1.0,
+   "unsupported": [],
+   "context_recall": 1.0,
+   "context_precision": 0.7,
+   "relevant_flags": [
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "cost": 0.0006422
+  }
+ ]
+}

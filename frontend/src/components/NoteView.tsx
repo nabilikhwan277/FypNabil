@@ -9,21 +9,22 @@ const auto =
   // eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
   ({ node, ...rest }: any) => <Tag dir="auto" className={className} {...rest} />
 
-
 const components: Components = {
-  h1: auto('h2', 'mt-2 text-2xl font-black'),
-  h2: auto('h3', 'mt-6 mb-2 text-xl font-black text-emerald-800'),
-  h3: auto('h4', 'mt-4 mb-1 text-lg font-black'),
-  p: auto('p', 'my-2 leading-relaxed'),
-  li: auto('li', 'my-1 leading-relaxed'),
+  h1: auto('h2', 'mt-2 text-2xl font-extrabold text-ink'),
+  h2: auto('h3', 'mt-7 mb-3 flex items-center gap-2 border-b border-line pb-1.5 text-lg font-extrabold text-primary-ink'),
+  h3: auto('h4', 'mt-5 mb-1 font-bold text-ink'),
+  p: auto('p', 'my-2.5 leading-relaxed text-ink-2'),
+  li: auto('li', 'my-1.5 leading-relaxed text-ink-2 marker:text-gold'),
   ul: auto('ul', 'ms-6 list-disc'),
   ol: auto('ol', 'ms-6 list-decimal'),
-  td: auto('td', 'border border-slate-200 px-3 py-2 align-top'),
-  th: auto('th', 'border border-slate-200 bg-slate-100 px-3 py-2 text-start'),
-  blockquote: auto('blockquote', 'my-3 border-s-4 border-amber-300 bg-amber-50 px-4 py-2 text-slate-700'),
+  strong: auto('strong', 'font-bold text-ink'),
+  td: auto('td', 'border border-line px-3 py-2 align-top text-ink-2'),
+  th: auto('th', 'border border-line bg-surface-2 px-3 py-2 text-start font-bold text-ink'),
+  blockquote: auto('blockquote', 'my-4 rounded-e-xl border-s-4 border-gold bg-gold-soft px-4 py-2 text-ink'),
+  code: auto('code', 'rounded bg-surface-2 px-1.5 py-0.5 text-[0.95em] text-primary-ink'),
   table: (props: ComponentPropsWithoutRef<'table'>) => (
-    <div className="my-3 overflow-x-auto">
-      <table className="w-full border-collapse text-sm" {...props} />
+    <div className="my-4 overflow-x-auto rounded-xl border border-line">
+      <table className="w-full border-collapse text-base" {...props} />
     </div>
   ),
 }

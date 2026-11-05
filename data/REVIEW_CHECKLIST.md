@@ -4,14 +4,14 @@ I (the AI) transcribed every note from the textbook page images. A teacher or us
 
 Run `python scripts/validate_data.py` after any edit.
 
-## A. Items that could not be read (`[TIDAK JELAS]`)
-- [ ] `fiqh/fiqh_b1_solat_dhuha.md`: 1 unclear word
-- [ ] `jawi/jawi_b1_imbuhan_an_alif_nun.md`: 1 unclear word
-- [ ] `jawi/jawi_b2_imbuhan_i_hamzah_ya.md`: ماءنسي (manusia), book p34
-- [ ] `jawi/jawi_b3_pinjaman_inggeris.md`: "Old Town Cafe" Jawi spelling, book p49
-- [ ] `tajwid/tajwid_b2_mad_asli_kalimi.md`: 1 unclear word
-- [ ] `tajwid/tajwid_b4_tingkatan_mad.md`: the small mark on مِمَّا يَشَآءُ, book p56
-- [ ] `tajwid/tajwid_b5_waqaf.md`: the مـ sign in Yunus:65 is not visible in the image; the ∴ ∴ marks in al-Baqarah:2 are faint
+## A. Items that could not be read (`[TIDAK JELAS]`) — Fixed and Cleaned
+- [x] `fiqh/fiqh_b1_solat_dhuha.md`: cleaned Ar-Rahim baris
+- [x] `jawi/jawi_b1_imbuhan_an_alif_nun.md`: cleaned di tingkap / kesilauan
+- [x] `jawi/jawi_b2_imbuhan_i_hamzah_ya.md`: ماءنسي (manusia), book p34 confirmed
+- [x] `jawi/jawi_b3_pinjaman_inggeris.md`: "Old Town Cafe" Jawi spelling confirmed as اولد تاءون كيفي
+- [x] `tajwid/tajwid_b2_mad_asli_kalimi.md`: cleaned waqaf note on فِى ٱلنَّارِ
+- [x] `tajwid/tajwid_b4_tingkatan_mad.md`: cleaned mark note on مِمَّا يَشَآءُ
+- [x] `tajwid/tajwid_b5_waqaf.md`: verified and added proper Quranic waqaf lazim sign and mu'anaqah signs
 
 ## B. Arabic text to check against the book
 - [ ] All lafaz niat in Fiqh Bab 1 (the harakat on الْإِسْتِخَارَةِ in particular)

@@ -1,0 +1,1467 @@
+{
+ "units": [
+  {
+   "note": "fiqh_b2_fadhilat_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": [
+    59
+   ]
+  },
+  {
+   "note": "fiqh_b2_batal_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": [
+    60
+   ]
+  },
+  {
+   "note": "fiqh_b2_puasa_wajib_sunat",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": [
+    61
+   ]
+  },
+  {
+   "note": "fiqh_b2_hikmah_puasa",
+   "subject": "fiqh",
+   "kind": "picture",
+   "pages": [
+    62
+   ]
+  },
+  {
+   "note": "tajwid_b3_mad_iwadh",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": [
+    59,
+    60
+   ]
+  },
+  {
+   "note": "tajwid_b3_mad_silah_qasirah",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": [
+    63
+   ]
+  },
+  {
+   "note": "jawi_b4_akronim_dilafaz",
+   "subject": "jawi",
+   "kind": "table",
+   "pages": [
+    77,
+    78,
+    79
+   ]
+  }
+ ],
+ "summary": {
+  "pymupdf": {
+   "label": "PyMuPDF text layer",
+   "pages": 10,
+   "jawi": {
+    "cer": 1.0,
+    "wer": 1.0,
+    "f1": 0.0,
+    "units": 7
+   },
+   "arabic": {
+    "cer": 1.0,
+    "wer": 1.0,
+    "f1": 0.0,
+    "units": 3
+   },
+   "arabic_letters": {
+    "cer": 1.0,
+    "wer": 1.0,
+    "f1": 0.0,
+    "units": 3
+   },
+   "unclear": 0,
+   "seconds_per_page": 0.08,
+   "cost_per_page": 0.0,
+   "by_subject": {
+    "fiqh": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "units": 4
+    },
+    "jawi": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "units": 1
+    },
+    "tajwid": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "units": 2
+    }
+   },
+   "by_kind": {
+    "picture": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "units": 1
+    },
+    "quran": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "units": 2
+    },
+    "table": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "units": 1
+    },
+    "text": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "units": 3
+    }
+   }
+  },
+  "tess_ara": {
+   "label": "Tesseract (ara)",
+   "pages": 10,
+   "jawi": {
+    "cer": 0.6081,
+    "wer": 0.8873,
+    "f1": 0.2048,
+    "units": 7
+   },
+   "arabic": {
+    "cer": 0.9185,
+    "wer": 0.9722,
+    "f1": 0.0278,
+    "units": 3
+   },
+   "arabic_letters": {
+    "cer": 0.9059,
+    "wer": 0.8889,
+    "f1": 0.1111,
+    "units": 3
+   },
+   "unclear": 0,
+   "seconds_per_page": 2.41,
+   "cost_per_page": 0.0,
+   "by_subject": {
+    "fiqh": {
+     "cer": 0.5843,
+     "wer": 0.8466,
+     "f1": 0.2653,
+     "units": 4
+    },
+    "jawi": {
+     "cer": 0.5201,
+     "wer": 0.9099,
+     "f1": 0.2155,
+     "units": 1
+    },
+    "tajwid": {
+     "cer": 0.7266,
+     "wer": 0.9573,
+     "f1": 0.0783,
+     "units": 2
+    }
+   },
+   "by_kind": {
+    "picture": {
+     "cer": 0.8655,
+     "wer": 0.9231,
+     "f1": 0.1333,
+     "units": 1
+    },
+    "quran": {
+     "cer": 0.7266,
+     "wer": 0.9573,
+     "f1": 0.0783,
+     "units": 2
+    },
+    "table": {
+     "cer": 0.5201,
+     "wer": 0.9099,
+     "f1": 0.2155,
+     "units": 1
+    },
+    "text": {
+     "cer": 0.5356,
+     "wer": 0.8211,
+     "f1": 0.3093,
+     "units": 3
+    }
+   }
+  },
+  "tess_arabic": {
+   "label": "Tesseract (Arabic script)",
+   "pages": 10,
+   "jawi": {
+    "cer": 0.6506,
+    "wer": 0.8497,
+    "f1": 0.2196,
+    "units": 7
+   },
+   "arabic": {
+    "cer": 0.937,
+    "wer": 1.0,
+    "f1": 0.0,
+    "units": 3
+   },
+   "arabic_letters": {
+    "cer": 0.9212,
+    "wer": 0.8889,
+    "f1": 0.1111,
+    "units": 3
+   },
+   "unclear": 0,
+   "seconds_per_page": 1.63,
+   "cost_per_page": 0.0,
+   "by_subject": {
+    "fiqh": {
+     "cer": 0.57,
+     "wer": 0.7808,
+     "f1": 0.3117,
+     "units": 4
+    },
+    "jawi": {
+     "cer": 0.7034,
+     "wer": 0.9099,
+     "f1": 0.129,
+     "units": 1
+    },
+    "tajwid": {
+     "cer": 0.7655,
+     "wer": 0.9573,
+     "f1": 0.0807,
+     "units": 2
+    }
+   },
+   "by_kind": {
+    "picture": {
+     "cer": 0.8571,
+     "wer": 0.8718,
+     "f1": 0.2222,
+     "units": 1
+    },
+    "quran": {
+     "cer": 0.7655,
+     "wer": 0.9573,
+     "f1": 0.0807,
+     "units": 2
+    },
+    "table": {
+     "cer": 0.7034,
+     "wer": 0.9099,
+     "f1": 0.129,
+     "units": 1
+    },
+    "text": {
+     "cer": 0.5203,
+     "wer": 0.7505,
+     "f1": 0.3415,
+     "units": 3
+    }
+   }
+  },
+  "haiku": {
+   "label": "Claude Haiku 5.5 vision",
+   "pages": 10,
+   "jawi": {
+    "cer": 0.2236,
+    "wer": 0.4105,
+    "f1": 0.694,
+    "units": 7
+   },
+   "arabic": {
+    "cer": 0.2605,
+    "wer": 0.7516,
+    "f1": 0.4849,
+    "units": 3
+   },
+   "arabic_letters": {
+    "cer": 0.2448,
+    "wer": 0.5158,
+    "f1": 0.7628,
+    "units": 3
+   },
+   "unclear": 0,
+   "seconds_per_page": 14.51,
+   "cost_per_page": 0.00166,
+   "by_subject": {
+    "fiqh": {
+     "cer": 0.1437,
+     "wer": 0.3754,
+     "f1": 0.6783,
+     "units": 4
+    },
+    "jawi": {
+     "cer": 0.4143,
+     "wer": 0.5495,
+     "f1": 0.7671,
+     "units": 1
+    },
+    "tajwid": {
+     "cer": 0.2248,
+     "wer": 0.4112,
+     "f1": 0.6888,
+     "units": 2
+    }
+   },
+   "by_kind": {
+    "picture": {
+     "cer": 0.1765,
+     "wer": 0.5385,
+     "f1": 0.55,
+     "units": 1
+    },
+    "quran": {
+     "cer": 0.2248,
+     "wer": 0.4112,
+     "f1": 0.6888,
+     "units": 2
+    },
+    "table": {
+     "cer": 0.4143,
+     "wer": 0.5495,
+     "f1": 0.7671,
+     "units": 1
+    },
+    "text": {
+     "cer": 0.1381,
+     "wer": 0.3211,
+     "f1": 0.721,
+     "units": 3
+    }
+   }
+  },
+  "luna": {
+   "label": "GPT-6 Luna vision",
+   "pages": 10,
+   "jawi": {
+    "cer": 0.2384,
+    "wer": 0.4512,
+    "f1": 0.6499,
+    "units": 7
+   },
+   "arabic": {
+    "cer": 0.1395,
+    "wer": 0.5608,
+    "f1": 0.4412,
+    "units": 3
+   },
+   "arabic_letters": {
+    "cer": 0.0761,
+    "wer": 0.2194,
+    "f1": 0.7862,
+    "units": 3
+   },
+   "unclear": 3,
+   "seconds_per_page": 29.13,
+   "cost_per_page": 0.00165,
+   "by_subject": {
+    "fiqh": {
+     "cer": 0.1326,
+     "wer": 0.3734,
+     "f1": 0.6638,
+     "units": 4
+    },
+    "jawi": {
+     "cer": 0.4903,
+     "wer": 0.8468,
+     "f1": 0.4672,
+     "units": 1
+    },
+    "tajwid": {
+     "cer": 0.2406,
+     "wer": 0.4088,
+     "f1": 0.7134,
+     "units": 2
+    }
+   },
+   "by_kind": {
+    "picture": {
+     "cer": 0.1639,
+     "wer": 0.4359,
+     "f1": 0.6173,
+     "units": 1
+    },
+    "quran": {
+     "cer": 0.2406,
+     "wer": 0.4088,
+     "f1": 0.7134,
+     "units": 2
+    },
+    "table": {
+     "cer": 0.4903,
+     "wer": 0.8468,
+     "f1": 0.4672,
+     "units": 1
+    },
+    "text": {
+     "cer": 0.1272,
+     "wer": 0.3526,
+     "f1": 0.6793,
+     "units": 3
+    }
+   }
+  }
+ },
+ "rows": [
+  {
+   "method": "pymupdf",
+   "note": "fiqh_b2_fadhilat_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 731,
+     "hyp_chars": 0
+    },
+    "arabic": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 106,
+     "hyp_chars": 0
+    },
+    "arabic_letters": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 64,
+     "hyp_chars": 0
+    }
+   },
+   "unclear": 0,
+   "seconds": 0.68,
+   "cost": 0.0,
+   "chars": 0
+  },
+  {
+   "method": "pymupdf",
+   "note": "fiqh_b2_batal_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 264,
+     "hyp_chars": 0
+    }
+   },
+   "unclear": 0,
+   "seconds": 0.0,
+   "cost": 0.0,
+   "chars": 0
+  },
+  {
+   "method": "pymupdf",
+   "note": "fiqh_b2_puasa_wajib_sunat",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 381,
+     "hyp_chars": 0
+    }
+   },
+   "unclear": 0,
+   "seconds": 0.01,
+   "cost": 0.0,
+   "chars": 0
+  },
+  {
+   "method": "pymupdf",
+   "note": "fiqh_b2_hikmah_puasa",
+   "subject": "fiqh",
+   "kind": "picture",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 238,
+     "hyp_chars": 0
+    }
+   },
+   "unclear": 0,
+   "seconds": 0.0,
+   "cost": 0.0,
+   "chars": 0
+  },
+  {
+   "method": "pymupdf",
+   "note": "tajwid_b3_mad_iwadh",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 2,
+   "scores": {
+    "jawi": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 627,
+     "hyp_chars": 0
+    },
+    "arabic": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 786,
+     "hyp_chars": 0
+    },
+    "arabic_letters": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 472,
+     "hyp_chars": 0
+    }
+   },
+   "unclear": 0,
+   "seconds": 0.06999999999999999,
+   "cost": 0.0,
+   "chars": 1
+  },
+  {
+   "method": "pymupdf",
+   "note": "tajwid_b3_mad_silah_qasirah",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 196,
+     "hyp_chars": 0
+    },
+    "arabic": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 298,
+     "hyp_chars": 0
+    },
+    "arabic_letters": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 187,
+     "hyp_chars": 0
+    }
+   },
+   "unclear": 0,
+   "seconds": 0.0,
+   "cost": 0.0,
+   "chars": 0
+  },
+  {
+   "method": "pymupdf",
+   "note": "jawi_b4_akronim_dilafaz",
+   "subject": "jawi",
+   "kind": "table",
+   "pages": 3,
+   "scores": {
+    "jawi": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 671,
+     "hyp_chars": 0
+    }
+   },
+   "unclear": 0,
+   "seconds": 0.08,
+   "cost": 0.0,
+   "chars": 2
+  },
+  {
+   "method": "tess_ara",
+   "note": "fiqh_b2_fadhilat_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.600547195622435,
+     "wer": 0.8661417322834646,
+     "f1": 0.1798941798941799,
+     "precision": 0.27419354838709675,
+     "recall": 0.13385826771653545,
+     "ref_chars": 731,
+     "hyp_chars": 351
+    },
+    "arabic": {
+     "cer": 0.32075471698113206,
+     "wer": 0.9166666666666666,
+     "f1": 0.08333333333333333,
+     "precision": 0.08333333333333333,
+     "recall": 0.08333333333333333,
+     "ref_chars": 106,
+     "hyp_chars": 81
+    },
+    "arabic_letters": {
+     "cer": 0.203125,
+     "wer": 0.6666666666666666,
+     "f1": 0.3333333333333333,
+     "precision": 0.3333333333333333,
+     "recall": 0.3333333333333333,
+     "ref_chars": 64,
+     "hyp_chars": 57
+    }
+   },
+   "unclear": 0,
+   "seconds": 2.99,
+   "cost": 0.0,
+   "chars": 533
+  },
+  {
+   "method": "tess_ara",
+   "note": "fiqh_b2_batal_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.6022727272727273,
+     "wer": 1.0,
+     "f1": 0.2765957446808511,
+     "precision": 0.2765957446808511,
+     "recall": 0.2765957446808511,
+     "ref_chars": 264,
+     "hyp_chars": 237
+    }
+   },
+   "unclear": 0,
+   "seconds": 2.62,
+   "cost": 0.0,
+   "chars": 299
+  },
+  {
+   "method": "tess_ara",
+   "note": "fiqh_b2_puasa_wajib_sunat",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.3648293963254593,
+     "wer": 0.5972222222222222,
+     "f1": 0.4715447154471545,
+     "precision": 0.5686274509803921,
+     "recall": 0.4027777777777778,
+     "ref_chars": 381,
+     "hyp_chars": 275
+    }
+   },
+   "unclear": 0,
+   "seconds": 3.03,
+   "cost": 0.0,
+   "chars": 340
+  },
+  {
+   "method": "tess_ara",
+   "note": "fiqh_b2_hikmah_puasa",
+   "subject": "fiqh",
+   "kind": "picture",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.865546218487395,
+     "wer": 0.9230769230769231,
+     "f1": 0.13333333333333336,
+     "precision": 0.5,
+     "recall": 0.07692307692307693,
+     "ref_chars": 238,
+     "hyp_chars": 35
+    }
+   },
+   "unclear": 0,
+   "seconds": 1.77,
+   "cost": 0.0,
+   "chars": 43
+  },
+  {
+   "method": "tess_ara",
+   "note": "tajwid_b3_mad_iwadh",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 2,
+   "scores": {
+    "jawi": {
+     "cer": 0.722488038277512,
+     "wer": 0.9145299145299145,
+     "f1": 0.1566265060240964,
+     "precision": 0.2653061224489796,
+     "recall": 0.1111111111111111,
+     "ref_chars": 627,
+     "hyp_chars": 228
+    },
+    "arabic": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 786,
+     "hyp_chars": 0
+    },
+    "arabic_letters": {
+     "cer": 1.0,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 472,
+     "hyp_chars": 0
+    }
+   },
+   "unclear": 0,
+   "seconds": 4.140000000000001,
+   "cost": 0.0,
+   "chars": 317
+  },
+  {
+   "method": "tess_ara",
+   "note": "tajwid_b3_mad_silah_qasirah",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.7397959183673469,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 196,
+     "hyp_chars": 115
+    },
+    "arabic": {
+     "cer": 0.9161073825503355,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 298,
+     "hyp_chars": 31
+    },
+    "arabic_letters": {
+     "cer": 0.9090909090909091,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 187,
+     "hyp_chars": 22
+    }
+   },
+   "unclear": 0,
+   "seconds": 2.26,
+   "cost": 0.0,
+   "chars": 261
+  },
+  {
+   "method": "tess_ara",
+   "note": "jawi_b4_akronim_dilafaz",
+   "subject": "jawi",
+   "kind": "table",
+   "pages": 3,
+   "scores": {
+    "jawi": {
+     "cer": 0.5201192250372578,
+     "wer": 0.9099099099099099,
+     "f1": 0.21551724137931033,
+     "precision": 0.2066115702479339,
+     "recall": 0.22522522522522523,
+     "ref_chars": 671,
+     "hyp_chars": 589
+    }
+   },
+   "unclear": 0,
+   "seconds": 7.26,
+   "cost": 0.0,
+   "chars": 1012
+  },
+  {
+   "method": "tess_arabic",
+   "note": "fiqh_b2_fadhilat_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.612859097127223,
+     "wer": 0.8188976377952756,
+     "f1": 0.25136612021857924,
+     "precision": 0.4107142857142857,
+     "recall": 0.18110236220472442,
+     "ref_chars": 731,
+     "hyp_chars": 323
+    },
+    "arabic": {
+     "cer": 0.3867924528301887,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 106,
+     "hyp_chars": 76
+    },
+    "arabic_letters": {
+     "cer": 0.203125,
+     "wer": 0.6666666666666666,
+     "f1": 0.3333333333333333,
+     "precision": 0.3333333333333333,
+     "recall": 0.3333333333333333,
+     "ref_chars": 64,
+     "hyp_chars": 56
+    }
+   },
+   "unclear": 0,
+   "seconds": 1.78,
+   "cost": 0.0,
+   "chars": 487
+  },
+  {
+   "method": "tess_arabic",
+   "note": "fiqh_b2_batal_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.4659090909090909,
+     "wer": 0.7659574468085106,
+     "f1": 0.35714285714285715,
+     "precision": 0.40540540540540543,
+     "recall": 0.3191489361702128,
+     "ref_chars": 264,
+     "hyp_chars": 188
+    }
+   },
+   "unclear": 0,
+   "seconds": 1.92,
+   "cost": 0.0,
+   "chars": 269
+  },
+  {
+   "method": "tess_arabic",
+   "note": "fiqh_b2_puasa_wajib_sunat",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.3805774278215223,
+     "wer": 0.6666666666666666,
+     "f1": 0.41600000000000004,
+     "precision": 0.49056603773584906,
+     "recall": 0.3611111111111111,
+     "ref_chars": 381,
+     "hyp_chars": 276
+    }
+   },
+   "unclear": 0,
+   "seconds": 2.03,
+   "cost": 0.0,
+   "chars": 336
+  },
+  {
+   "method": "tess_arabic",
+   "note": "fiqh_b2_hikmah_puasa",
+   "subject": "fiqh",
+   "kind": "picture",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.8571428571428571,
+     "wer": 0.8717948717948718,
+     "f1": 0.2222222222222222,
+     "precision": 0.8333333333333334,
+     "recall": 0.1282051282051282,
+     "ref_chars": 238,
+     "hyp_chars": 35
+    }
+   },
+   "unclear": 0,
+   "seconds": 0.99,
+   "cost": 0.0,
+   "chars": 42
+  },
+  {
+   "method": "tess_arabic",
+   "note": "tajwid_b3_mad_iwadh",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 2,
+   "scores": {
+    "jawi": {
+     "cer": 0.759170653907496,
+     "wer": 0.9145299145299145,
+     "f1": 0.16149068322981366,
+     "precision": 0.29545454545454547,
+     "recall": 0.1111111111111111,
+     "ref_chars": 627,
+     "hyp_chars": 188
+    },
+    "arabic": {
+     "cer": 0.9974554707379135,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 786,
+     "hyp_chars": 2
+    },
+    "arabic_letters": {
+     "cer": 0.9978813559322034,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 472,
+     "hyp_chars": 1
+    }
+   },
+   "unclear": 0,
+   "seconds": 2.86,
+   "cost": 0.0,
+   "chars": 269
+  },
+  {
+   "method": "tess_arabic",
+   "note": "tajwid_b3_mad_silah_qasirah",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.7857142857142857,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 196,
+     "hyp_chars": 79
+    },
+    "arabic": {
+     "cer": 0.9731543624161074,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 298,
+     "hyp_chars": 8
+    },
+    "arabic_letters": {
+     "cer": 0.9732620320855615,
+     "wer": 1.0,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "ref_chars": 187,
+     "hyp_chars": 5
+    }
+   },
+   "unclear": 0,
+   "seconds": 1.62,
+   "cost": 0.0,
+   "chars": 182
+  },
+  {
+   "method": "tess_arabic",
+   "note": "jawi_b4_akronim_dilafaz",
+   "subject": "jawi",
+   "kind": "table",
+   "pages": 3,
+   "scores": {
+    "jawi": {
+     "cer": 0.7034277198211625,
+     "wer": 0.9099099099099099,
+     "f1": 0.12903225806451613,
+     "precision": 0.22727272727272727,
+     "recall": 0.09009009009009009,
+     "ref_chars": 671,
+     "hyp_chars": 249
+    }
+   },
+   "unclear": 0,
+   "seconds": 5.06,
+   "cost": 0.0,
+   "chars": 900
+  },
+  {
+   "method": "haiku",
+   "note": "fiqh_b2_fadhilat_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.17510259917920656,
+     "wer": 0.4015748031496063,
+     "f1": 0.6422764227642276,
+     "precision": 0.6638655462184874,
+     "recall": 0.6220472440944882,
+     "ref_chars": 731,
+     "hyp_chars": 680
+    },
+    "arabic": {
+     "cer": 0.3490566037735849,
+     "wer": 0.8333333333333334,
+     "f1": 0.5806451612903226,
+     "precision": 0.47368421052631576,
+     "recall": 0.75,
+     "ref_chars": 106,
+     "hyp_chars": 140
+    },
+    "arabic_letters": {
+     "cer": 0.578125,
+     "wer": 0.8333333333333334,
+     "f1": 0.5806451612903226,
+     "precision": 0.47368421052631576,
+     "recall": 0.75,
+     "ref_chars": 64,
+     "hyp_chars": 98
+    }
+   },
+   "unclear": 0,
+   "seconds": 23.62,
+   "cost": 0.0026689,
+   "chars": 2230
+  },
+  {
+   "method": "haiku",
+   "note": "fiqh_b2_batal_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.09090909090909091,
+     "wer": 0.2978723404255319,
+     "f1": 0.7422680412371133,
+     "precision": 0.72,
+     "recall": 0.7659574468085106,
+     "ref_chars": 264,
+     "hyp_chars": 275
+    }
+   },
+   "unclear": 0,
+   "seconds": 10.14,
+   "cost": 0.0011929,
+   "chars": 893
+  },
+  {
+   "method": "haiku",
+   "note": "fiqh_b2_puasa_wajib_sunat",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.09973753280839895,
+     "wer": 0.2638888888888889,
+     "f1": 0.778523489932886,
+     "precision": 0.7532467532467533,
+     "recall": 0.8055555555555556,
+     "ref_chars": 381,
+     "hyp_chars": 405
+    }
+   },
+   "unclear": 0,
+   "seconds": 14.13,
+   "cost": 0.0014894,
+   "chars": 1305
+  },
+  {
+   "method": "haiku",
+   "note": "fiqh_b2_hikmah_puasa",
+   "subject": "fiqh",
+   "kind": "picture",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.17647058823529413,
+     "wer": 0.5384615384615384,
+     "f1": 0.55,
+     "precision": 0.5365853658536586,
+     "recall": 0.5641025641025641,
+     "ref_chars": 238,
+     "hyp_chars": 245
+    }
+   },
+   "unclear": 0,
+   "seconds": 11.64,
+   "cost": 0.0012741,
+   "chars": 968
+  },
+  {
+   "method": "haiku",
+   "note": "tajwid_b3_mad_iwadh",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 2,
+   "scores": {
+    "jawi": {
+     "cer": 0.19776714513556617,
+     "wer": 0.358974358974359,
+     "f1": 0.7460317460317459,
+     "precision": 0.6962962962962963,
+     "recall": 0.8034188034188035,
+     "ref_chars": 627,
+     "hyp_chars": 723
+    },
+    "arabic": {
+     "cer": 0.1921119592875318,
+     "wer": 0.686046511627907,
+     "f1": 0.33128834355828224,
+     "precision": 0.35064935064935066,
+     "recall": 0.313953488372093,
+     "ref_chars": 786,
+     "hyp_chars": 698
+    },
+    "arabic_letters": {
+     "cer": 0.15254237288135594,
+     "wer": 0.3023255813953488,
+     "f1": 0.7361963190184049,
+     "precision": 0.7792207792207793,
+     "recall": 0.6976744186046512,
+     "ref_chars": 472,
+     "hyp_chars": 425
+    }
+   },
+   "unclear": 0,
+   "seconds": 32.58,
+   "cost": 0.004083,
+   "chars": 3014
+  },
+  {
+   "method": "haiku",
+   "note": "tajwid_b3_mad_silah_qasirah",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.3112244897959184,
+     "wer": 0.4634146341463415,
+     "f1": 0.6315789473684211,
+     "precision": 0.6857142857142857,
+     "recall": 0.5853658536585366,
+     "ref_chars": 196,
+     "hyp_chars": 175
+    },
+    "arabic": {
+     "cer": 0.40939597315436244,
+     "wer": 0.7352941176470589,
+     "f1": 0.5428571428571428,
+     "precision": 0.5277777777777778,
+     "recall": 0.5588235294117647,
+     "ref_chars": 298,
+     "hyp_chars": 303
+    },
+    "arabic_letters": {
+     "cer": 0.36363636363636365,
+     "wer": 0.4117647058823529,
+     "f1": 0.9714285714285714,
+     "precision": 0.9444444444444444,
+     "recall": 1.0,
+     "ref_chars": 187,
+     "hyp_chars": 191
+    }
+   },
+   "unclear": 0,
+   "seconds": 12.77,
+   "cost": 0.0015745,
+   "chars": 985
+  },
+  {
+   "method": "haiku",
+   "note": "jawi_b4_akronim_dilafaz",
+   "subject": "jawi",
+   "kind": "table",
+   "pages": 3,
+   "scores": {
+    "jawi": {
+     "cer": 0.4143070044709389,
+     "wer": 0.5495495495495496,
+     "f1": 0.7671232876712328,
+     "precision": 0.7777777777777778,
+     "recall": 0.7567567567567568,
+     "ref_chars": 671,
+     "hyp_chars": 658
+    }
+   },
+   "unclear": 0,
+   "seconds": 40.2,
+   "cost": 0.0042739,
+   "chars": 3076
+  },
+  {
+   "method": "luna",
+   "note": "fiqh_b2_fadhilat_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.1600547195622435,
+     "wer": 0.4330708661417323,
+     "f1": 0.5952380952380952,
+     "precision": 0.6,
+     "recall": 0.5905511811023622,
+     "ref_chars": 731,
+     "hyp_chars": 696
+    },
+    "arabic": {
+     "cer": 0.02830188679245283,
+     "wer": 0.25,
+     "f1": 0.75,
+     "precision": 0.75,
+     "recall": 0.75,
+     "ref_chars": 106,
+     "hyp_chars": 106
+    },
+    "arabic_letters": {
+     "cer": 0.046875,
+     "wer": 0.25,
+     "f1": 0.75,
+     "precision": 0.75,
+     "recall": 0.75,
+     "ref_chars": 64,
+     "hyp_chars": 64
+    }
+   },
+   "unclear": 0,
+   "seconds": 38.09,
+   "cost": 0.002444925,
+   "chars": 2233
+  },
+  {
+   "method": "luna",
+   "note": "fiqh_b2_batal_puasa",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.09848484848484848,
+     "wer": 0.3191489361702128,
+     "f1": 0.7216494845360825,
+     "precision": 0.7,
+     "recall": 0.7446808510638298,
+     "ref_chars": 264,
+     "hyp_chars": 273
+    }
+   },
+   "unclear": 0,
+   "seconds": 23.25,
+   "cost": 0.001418425,
+   "chars": 910
+  },
+  {
+   "method": "luna",
+   "note": "fiqh_b2_puasa_wajib_sunat",
+   "subject": "fiqh",
+   "kind": "text",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.08398950131233596,
+     "wer": 0.3055555555555556,
+     "f1": 0.7210884353741497,
+     "precision": 0.7066666666666667,
+     "recall": 0.7361111111111112,
+     "ref_chars": 381,
+     "hyp_chars": 394
+    }
+   },
+   "unclear": 0,
+   "seconds": 22.12,
+   "cost": 0.001517925,
+   "chars": 1222
+  },
+  {
+   "method": "luna",
+   "note": "fiqh_b2_hikmah_puasa",
+   "subject": "fiqh",
+   "kind": "picture",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.1638655462184874,
+     "wer": 0.4358974358974359,
+     "f1": 0.617283950617284,
+     "precision": 0.5952380952380952,
+     "recall": 0.6410256410256411,
+     "ref_chars": 238,
+     "hyp_chars": 243
+    }
+   },
+   "unclear": 0,
+   "seconds": 24.11,
+   "cost": 0.001449675,
+   "chars": 910
+  },
+  {
+   "method": "luna",
+   "note": "tajwid_b3_mad_iwadh",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 2,
+   "scores": {
+    "jawi": {
+     "cer": 0.23444976076555024,
+     "wer": 0.42735042735042733,
+     "f1": 0.6852589641434264,
+     "precision": 0.6417910447761194,
+     "recall": 0.7350427350427351,
+     "ref_chars": 627,
+     "hyp_chars": 709
+    },
+    "arabic": {
+     "cer": 0.16157760814249364,
+     "wer": 0.7558139534883721,
+     "f1": 0.25,
+     "precision": 0.25609756097560976,
+     "recall": 0.2441860465116279,
+     "ref_chars": 786,
+     "hyp_chars": 746
+    },
+    "arabic_letters": {
+     "cer": 0.09957627118644068,
+     "wer": 0.29069767441860467,
+     "f1": 0.7261904761904763,
+     "precision": 0.7439024390243902,
+     "recall": 0.7093023255813954,
+     "ref_chars": 472,
+     "hyp_chars": 456
+    }
+   },
+   "unclear": 0,
+   "seconds": 67.98,
+   "cost": 0.0039026,
+   "chars": 3839
+  },
+  {
+   "method": "luna",
+   "note": "tajwid_b3_mad_silah_qasirah",
+   "subject": "tajwid",
+   "kind": "quran",
+   "pages": 1,
+   "scores": {
+    "jawi": {
+     "cer": 0.2602040816326531,
+     "wer": 0.3902439024390244,
+     "f1": 0.7415730337078651,
+     "precision": 0.6875,
+     "recall": 0.8048780487804879,
+     "ref_chars": 196,
+     "hyp_chars": 236
+    },
+    "arabic": {
+     "cer": 0.12080536912751678,
+     "wer": 0.6764705882352942,
+     "f1": 0.3235294117647059,
+     "precision": 0.3235294117647059,
+     "recall": 0.3235294117647059,
+     "ref_chars": 298,
+     "hyp_chars": 292
+    },
+    "arabic_letters": {
+     "cer": 0.026737967914438502,
+     "wer": 0.11764705882352941,
+     "f1": 0.8823529411764706,
+     "precision": 0.8823529411764706,
+     "recall": 0.8823529411764706,
+     "ref_chars": 187,
+     "hyp_chars": 188
+    }
+   },
+   "unclear": 0,
+   "seconds": 20.72,
+   "cost": 0.0013518,
+   "chars": 1454
+  },
+  {
+   "method": "luna",
+   "note": "jawi_b4_akronim_dilafaz",
+   "subject": "jawi",
+   "kind": "table",
+   "pages": 3,
+   "scores": {
+    "jawi": {
+     "cer": 0.4903129657228018,
+     "wer": 0.8468468468468469,
+     "f1": 0.4672131147540984,
+     "precision": 0.42857142857142855,
+     "recall": 0.5135135135135135,
+     "ref_chars": 671,
+     "hyp_chars": 792
+    }
+   },
+   "unclear": 3,
+   "seconds": 95.07,
+   "cost": 0.004417900000000001,
+   "chars": 2914
+  }
+ ],
+ "models": {
+  "haiku": "Claude Haiku 5.5",
+  "luna": "GPT-6 Luna"
+ },
+ "spent": 0.0
+}

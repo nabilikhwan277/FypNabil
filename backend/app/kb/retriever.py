@@ -33,7 +33,10 @@ class Hit:
 def _filters(subject: str | None, topic_id: str | None, only_verified: bool) -> dict:
     f: dict = {}
     if subject:
-        f["subject"] = subject
+        subj = subject.lower().strip()
+        if subj in ("ibadah", "fiqah"):
+            subj = "fiqh"
+        f["subject"] = subj
     if topic_id:
         f["topic_id"] = topic_id
     if only_verified:

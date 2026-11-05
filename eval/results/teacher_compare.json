@@ -1,0 +1,1885 @@
+{
+ "date": "2026-11-02T07:37:41+00:00",
+ "teachers": {
+  "guru_1": "Guru 1",
+  "guru_2": "Guru 2",
+  "guru_3": "Guru 3"
+ },
+ "answers": 50,
+ "agreed_answers": 16,
+ "agreed_criteria": 40,
+ "final_ready": true,
+ "human": {
+  "guru_1 vs guru_2": {
+   "items": 50,
+   "qwk_band": 0.497,
+   "item_exact": 0.48,
+   "within_1": 0.76,
+   "mae_marks": 0.82,
+   "crit_acc": 0.526,
+   "over_marked": 0.22,
+   "under_marked": 0.3
+  },
+  "guru_1 vs guru_3": {
+   "items": 50,
+   "qwk_band": 0.516,
+   "item_exact": 0.54,
+   "within_1": 0.76,
+   "mae_marks": 0.69,
+   "crit_acc": 0.57,
+   "over_marked": 0.16,
+   "under_marked": 0.3
+  },
+  "guru_2 vs guru_3": {
+   "items": 50,
+   "qwk_band": 0.334,
+   "item_exact": 0.44,
+   "within_1": 0.78,
+   "mae_marks": 0.83,
+   "crit_acc": 0.526,
+   "over_marked": 0.28,
+   "under_marked": 0.28
+  }
+ },
+ "measure": "QWK of the answer score band (0-4), the same scale for teacher-vs-teacher and system-vs-teacher",
+ "human_qwk": 0.449,
+ "human_exact": 0.487,
+ "runs": [
+  {
+   "file": "step4__proposed_luna_R3_A2_off__teacherallx3.json",
+   "step": "step4",
+   "config": "proposed:luna:R3:A2:off",
+   "system": "proposed",
+   "model_label": "GPT-6 Luna",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.76,
+     "item_exact": 0.68,
+     "within_1": 0.9,
+     "mae_marks": 0.44,
+     "crit_acc": 0.781,
+     "over_marked": 0.12,
+     "under_marked": 0.2
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.464,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.8,
+     "crit_acc": 0.526,
+     "over_marked": 0.28,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.555,
+     "item_exact": 0.54,
+     "within_1": 0.82,
+     "mae_marks": 0.65,
+     "crit_acc": 0.614,
+     "over_marked": 0.24,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.755,
+     "item_exact": 0.62,
+     "within_1": 0.9,
+     "mae_marks": 0.45,
+     "crit_acc": 0.711,
+     "over_marked": 0.18,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.593,
+   "mean_exact_teachers": 0.553,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__hybrid_qwen+luna_R3_A2_level__teacherall.json",
+   "step": "phase4",
+   "config": "hybrid:qwen+luna:R3:A2:level",
+   "system": "hybrid",
+   "model_label": "Qwen3-4B (open-weight) + GPT-6 Luna (Router A)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.784,
+     "item_exact": 0.7,
+     "within_1": 0.9,
+     "mae_marks": 0.42,
+     "crit_acc": 0.789,
+     "over_marked": 0.08,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.5,
+     "item_exact": 0.48,
+     "within_1": 0.78,
+     "mae_marks": 0.76,
+     "crit_acc": 0.544,
+     "over_marked": 0.24,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.491,
+     "item_exact": 0.5,
+     "within_1": 0.8,
+     "mae_marks": 0.69,
+     "crit_acc": 0.605,
+     "over_marked": 0.24,
+     "under_marked": 0.26
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.785,
+     "item_exact": 0.68,
+     "within_1": 0.9,
+     "mae_marks": 0.41,
+     "crit_acc": 0.737,
+     "over_marked": 0.12,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.592,
+   "mean_exact_teachers": 0.56,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step4__proposed_luna_R3_A2_on__teacherallx3.json",
+   "step": "step4",
+   "config": "proposed:luna:R3:A2:on",
+   "system": "proposed",
+   "model_label": "GPT-6 Luna",
+   "rag": "R3",
+   "react": "A2",
+   "memory": true,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.755,
+     "item_exact": 0.66,
+     "within_1": 0.92,
+     "mae_marks": 0.44,
+     "crit_acc": 0.772,
+     "over_marked": 0.14,
+     "under_marked": 0.2
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.484,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.8,
+     "crit_acc": 0.518,
+     "over_marked": 0.28,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.534,
+     "item_exact": 0.52,
+     "within_1": 0.82,
+     "mae_marks": 0.67,
+     "crit_acc": 0.596,
+     "over_marked": 0.26,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.736,
+     "item_exact": 0.6,
+     "within_1": 0.9,
+     "mae_marks": 0.47,
+     "crit_acc": 0.693,
+     "over_marked": 0.2,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.591,
+   "mean_exact_teachers": 0.54,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__hybrid_qwen+luna_R3_A2_separa__teacherall.json",
+   "step": "phase4",
+   "config": "hybrid:qwen+luna:R3:A2:separa",
+   "system": "hybrid",
+   "model_label": "Qwen3-4B (open-weight) + GPT-6 Luna (Router B)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.784,
+     "item_exact": 0.72,
+     "within_1": 0.9,
+     "mae_marks": 0.43,
+     "crit_acc": 0.789,
+     "over_marked": 0.06,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.454,
+     "item_exact": 0.48,
+     "within_1": 0.78,
+     "mae_marks": 0.77,
+     "crit_acc": 0.544,
+     "over_marked": 0.24,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.512,
+     "item_exact": 0.54,
+     "within_1": 0.8,
+     "mae_marks": 0.68,
+     "crit_acc": 0.605,
+     "over_marked": 0.2,
+     "under_marked": 0.26
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.764,
+     "item_exact": 0.64,
+     "within_1": 0.9,
+     "mae_marks": 0.44,
+     "crit_acc": 0.719,
+     "over_marked": 0.12,
+     "under_marked": 0.24
+    }
+   },
+   "mean_qwk_teachers": 0.583,
+   "mean_exact_teachers": 0.58,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__hybrid_qwen+luna_R3_A2_rules__teacherall.json",
+   "step": "phase4",
+   "config": "hybrid:qwen+luna:R3:A2:rules",
+   "system": "hybrid",
+   "model_label": "Qwen3-4B (open-weight) + GPT-6 Luna (Router C)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.743,
+     "item_exact": 0.66,
+     "within_1": 0.88,
+     "mae_marks": 0.48,
+     "crit_acc": 0.754,
+     "over_marked": 0.12,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.455,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.8,
+     "crit_acc": 0.5,
+     "over_marked": 0.26,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.546,
+     "item_exact": 0.54,
+     "within_1": 0.8,
+     "mae_marks": 0.67,
+     "crit_acc": 0.605,
+     "over_marked": 0.22,
+     "under_marked": 0.24
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.737,
+     "item_exact": 0.6,
+     "within_1": 0.88,
+     "mae_marks": 0.49,
+     "crit_acc": 0.684,
+     "over_marked": 0.18,
+     "under_marked": 0.22
+    }
+   },
+   "mean_qwk_teachers": 0.581,
+   "mean_exact_teachers": 0.547,
+   "agreed_criteria_acc": 0.825,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step3__proposed_luna_R3_A3_off__teacherall.json",
+   "step": "step3",
+   "config": "proposed:luna:R3:A3:off",
+   "system": "proposed",
+   "model_label": "GPT-6 Luna",
+   "rag": "R3",
+   "react": "A3",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.755,
+     "item_exact": 0.7,
+     "within_1": 0.9,
+     "mae_marks": 0.42,
+     "crit_acc": 0.789,
+     "over_marked": 0.08,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.423,
+     "item_exact": 0.44,
+     "within_1": 0.76,
+     "mae_marks": 0.84,
+     "crit_acc": 0.518,
+     "over_marked": 0.28,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.524,
+     "item_exact": 0.56,
+     "within_1": 0.8,
+     "mae_marks": 0.65,
+     "crit_acc": 0.614,
+     "over_marked": 0.22,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.722,
+     "item_exact": 0.64,
+     "within_1": 0.9,
+     "mae_marks": 0.45,
+     "crit_acc": 0.711,
+     "over_marked": 0.16,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.567,
+   "mean_exact_teachers": 0.567,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step3__proposed_luna_R3_A1_off__teacherall.json",
+   "step": "step3",
+   "config": "proposed:luna:R3:A1:off",
+   "system": "proposed",
+   "model_label": "GPT-6 Luna",
+   "rag": "R3",
+   "react": "A1",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.733,
+     "item_exact": 0.66,
+     "within_1": 0.9,
+     "mae_marks": 0.44,
+     "crit_acc": 0.772,
+     "over_marked": 0.14,
+     "under_marked": 0.2
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.464,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.82,
+     "crit_acc": 0.518,
+     "over_marked": 0.28,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.499,
+     "item_exact": 0.54,
+     "within_1": 0.82,
+     "mae_marks": 0.65,
+     "crit_acc": 0.614,
+     "over_marked": 0.26,
+     "under_marked": 0.2
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.7,
+     "item_exact": 0.62,
+     "within_1": 0.9,
+     "mae_marks": 0.45,
+     "crit_acc": 0.711,
+     "over_marked": 0.2,
+     "under_marked": 0.18
+    }
+   },
+   "mean_qwk_teachers": 0.565,
+   "mean_exact_teachers": 0.547,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step2__proposed_luna_R1_A2_off__teacherall.json",
+   "step": "step2",
+   "config": "proposed:luna:R1:A2:off",
+   "system": "proposed",
+   "model_label": "GPT-6 Luna",
+   "rag": "R1",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.733,
+     "item_exact": 0.66,
+     "within_1": 0.9,
+     "mae_marks": 0.45,
+     "crit_acc": 0.772,
+     "over_marked": 0.12,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.464,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.81,
+     "crit_acc": 0.518,
+     "over_marked": 0.28,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.499,
+     "item_exact": 0.52,
+     "within_1": 0.8,
+     "mae_marks": 0.68,
+     "crit_acc": 0.596,
+     "over_marked": 0.26,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.7,
+     "item_exact": 0.6,
+     "within_1": 0.9,
+     "mae_marks": 0.48,
+     "crit_acc": 0.693,
+     "over_marked": 0.2,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.565,
+   "mean_exact_teachers": 0.54,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step2__proposed_luna_R2_A2_off__teacherall.json",
+   "step": "step2",
+   "config": "proposed:luna:R2:A2:off",
+   "system": "proposed",
+   "model_label": "GPT-6 Luna",
+   "rag": "R2",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.733,
+     "item_exact": 0.64,
+     "within_1": 0.9,
+     "mae_marks": 0.46,
+     "crit_acc": 0.763,
+     "over_marked": 0.14,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.464,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.8,
+     "crit_acc": 0.526,
+     "over_marked": 0.28,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.499,
+     "item_exact": 0.52,
+     "within_1": 0.82,
+     "mae_marks": 0.67,
+     "crit_acc": 0.605,
+     "over_marked": 0.26,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.7,
+     "item_exact": 0.6,
+     "within_1": 0.9,
+     "mae_marks": 0.47,
+     "crit_acc": 0.702,
+     "over_marked": 0.2,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.565,
+   "mean_exact_teachers": 0.533,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__hybrid_qwen_ft_r8e2+luna_R3_A2_level__teacherall.json",
+   "step": "phase4",
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:level",
+   "system": "hybrid",
+   "model_label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router A)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.766,
+     "item_exact": 0.68,
+     "within_1": 0.9,
+     "mae_marks": 0.43,
+     "crit_acc": 0.781,
+     "over_marked": 0.1,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.448,
+     "item_exact": 0.46,
+     "within_1": 0.78,
+     "mae_marks": 0.79,
+     "crit_acc": 0.535,
+     "over_marked": 0.26,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.48,
+     "item_exact": 0.54,
+     "within_1": 0.8,
+     "mae_marks": 0.68,
+     "crit_acc": 0.605,
+     "over_marked": 0.24,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.733,
+     "item_exact": 0.64,
+     "within_1": 0.9,
+     "mae_marks": 0.44,
+     "crit_acc": 0.719,
+     "over_marked": 0.16,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.565,
+   "mean_exact_teachers": 0.56,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__proposed_qwen_ft_r16e2_R3_A2_off__teacherall.json",
+   "step": "phase4",
+   "config": "proposed:qwen_ft_r16e2:R3:A2:off",
+   "system": "proposed",
+   "model_label": "Qwen3-4B fine-tuned (LoRA r16, 2 epochs)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.794,
+     "item_exact": 0.74,
+     "within_1": 0.92,
+     "mae_marks": 0.35,
+     "crit_acc": 0.798,
+     "over_marked": 0.08,
+     "under_marked": 0.18
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.405,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.85,
+     "crit_acc": 0.5,
+     "over_marked": 0.28,
+     "under_marked": 0.28
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.497,
+     "item_exact": 0.58,
+     "within_1": 0.78,
+     "mae_marks": 0.64,
+     "crit_acc": 0.614,
+     "over_marked": 0.26,
+     "under_marked": 0.16
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.743,
+     "item_exact": 0.66,
+     "within_1": 0.9,
+     "mae_marks": 0.42,
+     "crit_acc": 0.711,
+     "over_marked": 0.18,
+     "under_marked": 0.16
+    }
+   },
+   "mean_qwk_teachers": 0.565,
+   "mean_exact_teachers": 0.587,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__proposed_qwen_ft_r8e1_R3_A2_off__teacherall.json",
+   "step": "phase4",
+   "config": "proposed:qwen_ft_r8e1:R3:A2:off",
+   "system": "proposed",
+   "model_label": "Qwen3-4B fine-tuned (LoRA r8, 1 epoch)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.774,
+     "item_exact": 0.74,
+     "within_1": 0.9,
+     "mae_marks": 0.36,
+     "crit_acc": 0.816,
+     "over_marked": 0.06,
+     "under_marked": 0.2
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.428,
+     "item_exact": 0.44,
+     "within_1": 0.76,
+     "mae_marks": 0.84,
+     "crit_acc": 0.509,
+     "over_marked": 0.26,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.485,
+     "item_exact": 0.56,
+     "within_1": 0.74,
+     "mae_marks": 0.67,
+     "crit_acc": 0.596,
+     "over_marked": 0.24,
+     "under_marked": 0.2
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.741,
+     "item_exact": 0.68,
+     "within_1": 0.86,
+     "mae_marks": 0.43,
+     "crit_acc": 0.711,
+     "over_marked": 0.14,
+     "under_marked": 0.18
+    }
+   },
+   "mean_qwk_teachers": 0.562,
+   "mean_exact_teachers": 0.58,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step1__proposed_haiku_R1_A2_off__teacherall.json",
+   "step": "step1",
+   "config": "proposed:haiku:R1:A2:off",
+   "system": "proposed",
+   "model_label": "Claude Haiku 5.5",
+   "rag": "R1",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.769,
+     "item_exact": 0.66,
+     "within_1": 0.9,
+     "mae_marks": 0.43,
+     "crit_acc": 0.763,
+     "over_marked": 0.12,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.381,
+     "item_exact": 0.42,
+     "within_1": 0.78,
+     "mae_marks": 0.83,
+     "crit_acc": 0.535,
+     "over_marked": 0.28,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.528,
+     "item_exact": 0.52,
+     "within_1": 0.82,
+     "mae_marks": 0.66,
+     "crit_acc": 0.605,
+     "over_marked": 0.26,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.723,
+     "item_exact": 0.62,
+     "within_1": 0.9,
+     "mae_marks": 0.46,
+     "crit_acc": 0.702,
+     "over_marked": 0.18,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.559,
+   "mean_exact_teachers": 0.533,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "check__proposed_haiku_R3_A2_off__teacherall.json",
+   "step": "check",
+   "config": "proposed:haiku:R3:A2:off",
+   "system": "proposed",
+   "model_label": "Claude Haiku 5.5",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.776,
+     "item_exact": 0.72,
+     "within_1": 0.88,
+     "mae_marks": 0.41,
+     "crit_acc": 0.789,
+     "over_marked": 0.06,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.388,
+     "item_exact": 0.46,
+     "within_1": 0.78,
+     "mae_marks": 0.85,
+     "crit_acc": 0.535,
+     "over_marked": 0.24,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.505,
+     "item_exact": 0.52,
+     "within_1": 0.78,
+     "mae_marks": 0.7,
+     "crit_acc": 0.588,
+     "over_marked": 0.24,
+     "under_marked": 0.24
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.729,
+     "item_exact": 0.66,
+     "within_1": 0.88,
+     "mae_marks": 0.48,
+     "crit_acc": 0.711,
+     "over_marked": 0.14,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.556,
+   "mean_exact_teachers": 0.567,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step0__b3_luna_R1__teacherall.json",
+   "step": "step0",
+   "config": "b3:luna:R1",
+   "system": "b3",
+   "model_label": "GPT-6 Luna",
+   "rag": "R1",
+   "react": "",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.715,
+     "item_exact": 0.64,
+     "within_1": 0.9,
+     "mae_marks": 0.47,
+     "crit_acc": 0.763,
+     "over_marked": 0.12,
+     "under_marked": 0.24
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.441,
+     "item_exact": 0.42,
+     "within_1": 0.78,
+     "mae_marks": 0.83,
+     "crit_acc": 0.509,
+     "over_marked": 0.28,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.504,
+     "item_exact": 0.54,
+     "within_1": 0.8,
+     "mae_marks": 0.66,
+     "crit_acc": 0.596,
+     "over_marked": 0.24,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.681,
+     "item_exact": 0.58,
+     "within_1": 0.9,
+     "mae_marks": 0.5,
+     "crit_acc": 0.684,
+     "over_marked": 0.2,
+     "under_marked": 0.22
+    }
+   },
+   "mean_qwk_teachers": 0.553,
+   "mean_exact_teachers": 0.533,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step0__b4_luna_R1__teacherall.json",
+   "step": "step0",
+   "config": "b4:luna:R1",
+   "system": "b4",
+   "model_label": "GPT-6 Luna",
+   "rag": "R1",
+   "react": "",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.715,
+     "item_exact": 0.64,
+     "within_1": 0.9,
+     "mae_marks": 0.47,
+     "crit_acc": 0.763,
+     "over_marked": 0.12,
+     "under_marked": 0.24
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.441,
+     "item_exact": 0.42,
+     "within_1": 0.78,
+     "mae_marks": 0.83,
+     "crit_acc": 0.509,
+     "over_marked": 0.28,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.504,
+     "item_exact": 0.54,
+     "within_1": 0.8,
+     "mae_marks": 0.66,
+     "crit_acc": 0.596,
+     "over_marked": 0.24,
+     "under_marked": 0.22
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.681,
+     "item_exact": 0.58,
+     "within_1": 0.9,
+     "mae_marks": 0.5,
+     "crit_acc": 0.684,
+     "over_marked": 0.2,
+     "under_marked": 0.22
+    }
+   },
+   "mean_qwk_teachers": 0.553,
+   "mean_exact_teachers": 0.533,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__hybrid_qwen_ft_r8e2+luna_R3_A2_rules__teacherall.json",
+   "step": "phase4",
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:rules",
+   "system": "hybrid",
+   "model_label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router C)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.75,
+     "item_exact": 0.66,
+     "within_1": 0.9,
+     "mae_marks": 0.43,
+     "crit_acc": 0.781,
+     "over_marked": 0.12,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.373,
+     "item_exact": 0.42,
+     "within_1": 0.78,
+     "mae_marks": 0.83,
+     "crit_acc": 0.518,
+     "over_marked": 0.28,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.531,
+     "item_exact": 0.56,
+     "within_1": 0.82,
+     "mae_marks": 0.62,
+     "crit_acc": 0.623,
+     "over_marked": 0.24,
+     "under_marked": 0.2
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.703,
+     "item_exact": 0.6,
+     "within_1": 0.9,
+     "mae_marks": 0.46,
+     "crit_acc": 0.711,
+     "over_marked": 0.2,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.551,
+   "mean_exact_teachers": 0.547,
+   "agreed_criteria_acc": 0.9,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__proposed_qwen_ft_r16e1_R3_A2_off__teacherall.json",
+   "step": "phase4",
+   "config": "proposed:qwen_ft_r16e1:R3:A2:off",
+   "system": "proposed",
+   "model_label": "Qwen3-4B fine-tuned (LoRA r16, 1 epoch)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.749,
+     "item_exact": 0.7,
+     "within_1": 0.92,
+     "mae_marks": 0.39,
+     "crit_acc": 0.807,
+     "over_marked": 0.08,
+     "under_marked": 0.22
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.383,
+     "item_exact": 0.42,
+     "within_1": 0.76,
+     "mae_marks": 0.87,
+     "crit_acc": 0.5,
+     "over_marked": 0.28,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.519,
+     "item_exact": 0.58,
+     "within_1": 0.76,
+     "mae_marks": 0.64,
+     "crit_acc": 0.605,
+     "over_marked": 0.22,
+     "under_marked": 0.2
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.701,
+     "item_exact": 0.62,
+     "within_1": 0.86,
+     "mae_marks": 0.48,
+     "crit_acc": 0.702,
+     "over_marked": 0.18,
+     "under_marked": 0.2
+    }
+   },
+   "mean_qwk_teachers": 0.55,
+   "mean_exact_teachers": 0.567,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "step0__b1_luna__teacherall.json",
+   "step": "step0",
+   "config": "b1:luna",
+   "system": "b1",
+   "model_label": "GPT-6 Luna",
+   "rag": "",
+   "react": "",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.744,
+     "item_exact": 0.66,
+     "within_1": 0.92,
+     "mae_marks": 0.43,
+     "crit_acc": 0.772,
+     "over_marked": 0.14,
+     "under_marked": 0.2
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.392,
+     "item_exact": 0.42,
+     "within_1": 0.78,
+     "mae_marks": 0.87,
+     "crit_acc": 0.491,
+     "over_marked": 0.28,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.51,
+     "item_exact": 0.56,
+     "within_1": 0.82,
+     "mae_marks": 0.64,
+     "crit_acc": 0.605,
+     "over_marked": 0.26,
+     "under_marked": 0.18
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.683,
+     "item_exact": 0.6,
+     "within_1": 0.9,
+     "mae_marks": 0.48,
+     "crit_acc": 0.693,
+     "over_marked": 0.22,
+     "under_marked": 0.18
+    }
+   },
+   "mean_qwk_teachers": 0.549,
+   "mean_exact_teachers": 0.547,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase3__proposed_qwen_R3_A2_off__teacherall.json",
+   "step": "phase3",
+   "config": "proposed:qwen:R3:A2:off",
+   "system": "proposed",
+   "model_label": "Qwen3-4B (open-weight)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.665,
+     "item_exact": 0.66,
+     "within_1": 0.8,
+     "mae_marks": 0.57,
+     "crit_acc": 0.675,
+     "over_marked": 0.04,
+     "under_marked": 0.3
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.471,
+     "item_exact": 0.46,
+     "within_1": 0.82,
+     "mae_marks": 0.73,
+     "crit_acc": 0.509,
+     "over_marked": 0.22,
+     "under_marked": 0.32
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.502,
+     "item_exact": 0.5,
+     "within_1": 0.76,
+     "mae_marks": 0.68,
+     "crit_acc": 0.605,
+     "over_marked": 0.16,
+     "under_marked": 0.34
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.694,
+     "item_exact": 0.6,
+     "within_1": 0.86,
+     "mae_marks": 0.54,
+     "crit_acc": 0.658,
+     "over_marked": 0.1,
+     "under_marked": 0.3
+    }
+   },
+   "mean_qwk_teachers": 0.546,
+   "mean_exact_teachers": 0.54,
+   "agreed_criteria_acc": 0.825,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__hybrid_qwen_ft_r8e2+luna_R3_A2_separa__teacherall.json",
+   "step": "phase4",
+   "config": "hybrid:qwen_ft_r8e2+luna:R3:A2:separa",
+   "system": "hybrid",
+   "model_label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs) + GPT-6 Luna (Router B)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.782,
+     "item_exact": 0.74,
+     "within_1": 0.92,
+     "mae_marks": 0.35,
+     "crit_acc": 0.825,
+     "over_marked": 0.06,
+     "under_marked": 0.2
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.359,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.87,
+     "crit_acc": 0.5,
+     "over_marked": 0.26,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.484,
+     "item_exact": 0.58,
+     "within_1": 0.76,
+     "mae_marks": 0.66,
+     "crit_acc": 0.605,
+     "over_marked": 0.24,
+     "under_marked": 0.18
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.709,
+     "item_exact": 0.64,
+     "within_1": 0.88,
+     "mae_marks": 0.46,
+     "crit_acc": 0.711,
+     "over_marked": 0.18,
+     "under_marked": 0.18
+    }
+   },
+   "mean_qwk_teachers": 0.542,
+   "mean_exact_teachers": 0.587,
+   "agreed_criteria_acc": 0.9,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase3__proposed_sealion_R3_A2_off__teacherall.json",
+   "step": "phase3",
+   "config": "proposed:sealion:R3:A2:off",
+   "system": "proposed",
+   "model_label": "SEA-LION v3 9B (open-weight)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.726,
+     "item_exact": 0.6,
+     "within_1": 0.84,
+     "mae_marks": 0.47,
+     "crit_acc": 0.719,
+     "over_marked": 0.12,
+     "under_marked": 0.28
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.455,
+     "item_exact": 0.44,
+     "within_1": 0.76,
+     "mae_marks": 0.81,
+     "crit_acc": 0.518,
+     "over_marked": 0.26,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.437,
+     "item_exact": 0.5,
+     "within_1": 0.78,
+     "mae_marks": 0.74,
+     "crit_acc": 0.579,
+     "over_marked": 0.22,
+     "under_marked": 0.28
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.685,
+     "item_exact": 0.6,
+     "within_1": 0.84,
+     "mae_marks": 0.54,
+     "crit_acc": 0.693,
+     "over_marked": 0.14,
+     "under_marked": 0.26
+    }
+   },
+   "mean_qwk_teachers": 0.539,
+   "mean_exact_teachers": 0.513,
+   "agreed_criteria_acc": 0.825,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase4__proposed_qwen_ft_r8e2_R3_A2_off__teacherall.json",
+   "step": "phase4",
+   "config": "proposed:qwen_ft_r8e2:R3:A2:off",
+   "system": "proposed",
+   "model_label": "Qwen3-4B fine-tuned (LoRA r8, 2 epochs)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.846,
+     "item_exact": 0.938,
+     "within_1": 1.0,
+     "mae_marks": 0.062,
+     "crit_acc": 0.957,
+     "over_marked": 0.0,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.767,
+     "item_exact": 0.74,
+     "within_1": 0.92,
+     "mae_marks": 0.36,
+     "crit_acc": 0.816,
+     "over_marked": 0.06,
+     "under_marked": 0.2
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.355,
+     "item_exact": 0.44,
+     "within_1": 0.78,
+     "mae_marks": 0.88,
+     "crit_acc": 0.491,
+     "over_marked": 0.26,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.478,
+     "item_exact": 0.58,
+     "within_1": 0.76,
+     "mae_marks": 0.67,
+     "crit_acc": 0.596,
+     "over_marked": 0.24,
+     "under_marked": 0.18
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.701,
+     "item_exact": 0.64,
+     "within_1": 0.88,
+     "mae_marks": 0.47,
+     "crit_acc": 0.702,
+     "over_marked": 0.18,
+     "under_marked": 0.18
+    }
+   },
+   "mean_qwk_teachers": 0.533,
+   "mean_exact_teachers": 0.587,
+   "agreed_criteria_acc": 0.875,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase3__proposed_fanar_R3_A2_off__teacherall.json",
+   "step": "phase3",
+   "config": "proposed:fanar:R3:A2:off",
+   "system": "proposed",
+   "model_label": "Fanar 9B (open-weight)",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.787,
+     "item_exact": 0.812,
+     "within_1": 1.0,
+     "mae_marks": 0.156,
+     "crit_acc": 0.87,
+     "over_marked": 0.062,
+     "under_marked": 0.125
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.599,
+     "item_exact": 0.56,
+     "within_1": 0.76,
+     "mae_marks": 0.73,
+     "crit_acc": 0.605,
+     "over_marked": 0.06,
+     "under_marked": 0.38
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.417,
+     "item_exact": 0.42,
+     "within_1": 0.84,
+     "mae_marks": 0.75,
+     "crit_acc": 0.518,
+     "over_marked": 0.2,
+     "under_marked": 0.38
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.379,
+     "item_exact": 0.48,
+     "within_1": 0.76,
+     "mae_marks": 0.8,
+     "crit_acc": 0.553,
+     "over_marked": 0.18,
+     "under_marked": 0.34
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.624,
+     "item_exact": 0.5,
+     "within_1": 0.82,
+     "mae_marks": 0.68,
+     "crit_acc": 0.588,
+     "over_marked": 0.12,
+     "under_marked": 0.38
+    }
+   },
+   "mean_qwk_teachers": 0.465,
+   "mean_exact_teachers": 0.487,
+   "agreed_criteria_acc": 0.775,
+   "agreed_criteria_n": 40,
+   "human_level": true
+  },
+  {
+   "file": "phase3__proposed_llama_R3_A2_off__teacherall.json",
+   "step": "phase3",
+   "config": "proposed:llama:R3:A2:off",
+   "system": "proposed",
+   "model_label": "Llama 3.1 8B",
+   "rag": "R3",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.829,
+     "item_exact": 0.875,
+     "within_1": 1.0,
+     "mae_marks": 0.125,
+     "crit_acc": 0.913,
+     "over_marked": 0.0,
+     "under_marked": 0.125
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.484,
+     "item_exact": 0.5,
+     "within_1": 0.76,
+     "mae_marks": 0.85,
+     "crit_acc": 0.605,
+     "over_marked": 0.04,
+     "under_marked": 0.46
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.345,
+     "item_exact": 0.48,
+     "within_1": 0.78,
+     "mae_marks": 0.81,
+     "crit_acc": 0.509,
+     "over_marked": 0.08,
+     "under_marked": 0.44
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.482,
+     "item_exact": 0.56,
+     "within_1": 0.8,
+     "mae_marks": 0.7,
+     "crit_acc": 0.588,
+     "over_marked": 0.08,
+     "under_marked": 0.36
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.546,
+     "item_exact": 0.5,
+     "within_1": 0.8,
+     "mae_marks": 0.74,
+     "crit_acc": 0.605,
+     "over_marked": 0.04,
+     "under_marked": 0.46
+    }
+   },
+   "mean_qwk_teachers": 0.437,
+   "mean_exact_teachers": 0.513,
+   "agreed_criteria_acc": 0.8,
+   "agreed_criteria_n": 40,
+   "human_level": false
+  },
+  {
+   "file": "step1__proposed_llama_R1_A2_off__teacherall.json",
+   "step": "step1",
+   "config": "proposed:llama:R1:A2:off",
+   "system": "proposed",
+   "model_label": "Llama 3.1 8B",
+   "rag": "R1",
+   "react": "A2",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.741,
+     "item_exact": 0.875,
+     "within_1": 0.938,
+     "mae_marks": 0.25,
+     "crit_acc": 0.87,
+     "over_marked": 0.0,
+     "under_marked": 0.125
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.432,
+     "item_exact": 0.48,
+     "within_1": 0.76,
+     "mae_marks": 0.87,
+     "crit_acc": 0.596,
+     "over_marked": 0.06,
+     "under_marked": 0.46
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.372,
+     "item_exact": 0.5,
+     "within_1": 0.78,
+     "mae_marks": 0.75,
+     "crit_acc": 0.526,
+     "over_marked": 0.06,
+     "under_marked": 0.44
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.439,
+     "item_exact": 0.56,
+     "within_1": 0.78,
+     "mae_marks": 0.72,
+     "crit_acc": 0.588,
+     "over_marked": 0.08,
+     "under_marked": 0.36
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.538,
+     "item_exact": 0.54,
+     "within_1": 0.82,
+     "mae_marks": 0.68,
+     "crit_acc": 0.623,
+     "over_marked": 0.02,
+     "under_marked": 0.44
+    }
+   },
+   "mean_qwk_teachers": 0.414,
+   "mean_exact_teachers": 0.513,
+   "agreed_criteria_acc": 0.8,
+   "agreed_criteria_n": 40,
+   "human_level": false
+  },
+  {
+   "file": "step0__b2__teacherall.json",
+   "step": "step0",
+   "config": "b2",
+   "system": "b2",
+   "model_label": "",
+   "rag": "",
+   "react": "",
+   "memory": false,
+   "n": 50,
+   "vs": {
+    "agreed": {
+     "items": 16,
+     "qwk_band": 0.67,
+     "item_exact": 0.812,
+     "within_1": 0.875,
+     "mae_marks": 0.312,
+     "crit_acc": 0.783,
+     "over_marked": 0.125,
+     "under_marked": 0.062
+    },
+    "guru_1": {
+     "items": 50,
+     "qwk_band": 0.521,
+     "item_exact": 0.52,
+     "within_1": 0.76,
+     "mae_marks": 0.75,
+     "crit_acc": 0.64,
+     "over_marked": 0.24,
+     "under_marked": 0.24
+    },
+    "guru_2": {
+     "items": 50,
+     "qwk_band": 0.188,
+     "item_exact": 0.38,
+     "within_1": 0.74,
+     "mae_marks": 1.01,
+     "crit_acc": 0.395,
+     "over_marked": 0.32,
+     "under_marked": 0.3
+    },
+    "guru_3": {
+     "items": 50,
+     "qwk_band": 0.415,
+     "item_exact": 0.54,
+     "within_1": 0.76,
+     "mae_marks": 0.78,
+     "crit_acc": 0.526,
+     "over_marked": 0.28,
+     "under_marked": 0.18
+    },
+    "final": {
+     "items": 50,
+     "qwk_band": 0.476,
+     "item_exact": 0.48,
+     "within_1": 0.74,
+     "mae_marks": 0.8,
+     "crit_acc": 0.553,
+     "over_marked": 0.28,
+     "under_marked": 0.24
+    }
+   },
+   "mean_qwk_teachers": 0.375,
+   "mean_exact_teachers": 0.48,
+   "agreed_criteria_acc": 0.65,
+   "agreed_criteria_n": 40,
+   "human_level": false
+  }
+ ]
+}

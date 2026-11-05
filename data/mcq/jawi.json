@@ -1,0 +1,2504 @@
+{
+ "jawi_b1_imbuhan_an_alif_nun_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'paluan'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن 'ڤالوان'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ڤالوءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤالواءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤاليوان"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤالوان"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Akhiran '-an' pada kata dasar yang diakhiri dengan huruf 'و' dieja dengan huruf '-ان', jadi palu menjadi ڤالوان.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_alif_nun_q2": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'kesilauan'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن 'كسيلاوان'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "كسيلاوان"
+   },
+   {
+    "rumi": "",
+    "jawi": "كسيلاواءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "كسيلاو"
+   },
+   {
+    "rumi": "",
+    "jawi": "كسيلاوءن"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Akhiran '-an' pada kata dasar yang berakhir dengan huruf 'و' dieja dengan huruf '-ان', jadi 'kesilauan' ditulis كسيلاوان.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_alif_nun_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'tujuan'.",
+  "stem_jawi": "پيليه ايجاءن جاويي يڠ بتول باڬي ڤركاتاءن 'توجوان'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "توجون"
+   },
+   {
+    "rumi": "",
+    "jawi": "توجوان"
+   },
+   {
+    "rumi": "",
+    "jawi": "تيجوان"
+   },
+   {
+    "rumi": "",
+    "jawi": "توجواءن"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Akhiran '-an' pada kata dasar 'tuju' yang berakhir dengan huruf 'و' dieja dengan huruf '-ان'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_alif_nun_q4": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'gurauan'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي ڤركاتاءن 'ݢوراوان'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ݢوراوه"
+   },
+   {
+    "rumi": "",
+    "jawi": "ݢوراون"
+   },
+   {
+    "rumi": "",
+    "jawi": "ݢوراوان"
+   },
+   {
+    "rumi": "",
+    "jawi": "ݢوراوين"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Akhiran '-an' pada kata dasar yang berakhir dengan huruf 'و' dieja dengan huruf '-ان', contohnya gurauan.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_alif_nun_q5": {
+  "stem_rumi": "Apakah ejaan Jawi yang betul bagi perkataan 'deruan'?",
+  "stem_jawi": "اڤاكه ايجاءن جاويڽ يڠ بتول باݢي ڤركاتاءن 'deruan'؟",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "درون"
+   },
+   {
+    "rumi": "",
+    "jawi": "دروين"
+   },
+   {
+    "rumi": "",
+    "jawi": "درووان"
+   },
+   {
+    "rumi": "",
+    "jawi": "دروان"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Kata dasar 'deru' berakhir dengan huruf 'و', maka imbuhan '-an' dieja dengan huruf '-ان' menjadi دروان.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_alif_nun_q6": {
+  "stem_rumi": "Antara berikut, yang manakah ejaan Jawi yang betul bagi perkataan perguruan, laluan dan kemajuan?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن ڤرݢوروان، لالوان دان كماجوان؟",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ڤرݢوروان، لالوان، كماجوان"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤروڬوروان، لاليوان، كماجوان"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤرݢوروان، لالون، كماجون"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤرݢورواڽ، لالواڽ، كماجواڽ"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Akhiran '-an' pada kata dasar yang berakhir dengan huruf 'و' dieja dengan huruf '-ان', jadi perguruan, laluan dan kemajuan ditulis ڤرݢوروان، لالوان، كماجوان.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'jutaan' (juta + imbuhan -an).",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن 'جوتا' دڠن ايمبوهن 'ءن'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "جوطاءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "جوتاءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "جوتان"
+   },
+   {
+    "rumi": "",
+    "jawi": "جوتاهن"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Kata dasar 'juta' ditulis dengan huruf ا di hujungnya, maka imbuhan '-an' dieja dengan ءن selepas huruf ا (جوتا + ءن = جوتاءن).",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q2": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'bacaan'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن 'باچاءن'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "باجاءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "باچءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "باچاءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "باچاتن"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Kata dasar 'baca' berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf ا, jadi huruf ا diletakkan dahulu sebelum '-ءن'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'penderitaan'.",
+  "stem_jawi": "ڤيليه ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن 'ڤندريتاءن'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ڤندريتاه"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤندريتان"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤنديريتاءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤندريتاءن"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Kata dasar 'derita' berakhir dengan bunyi 'a' yang ditulis dengan huruf 'ا', maka imbuhan '-an' dieja dengan '-ءن'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q4": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'kemerdekaan'.",
+  "stem_jawi": "ڤيليه ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن 'kemerdekaan'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "كمرديكاءن"
+   },
+   {
+    "rumi": "",
+    "jawi": "كمرديكان"
+   },
+   {
+    "rumi": "",
+    "jawi": "كمرديكاان"
+   },
+   {
+    "rumi": "",
+    "jawi": "كمرديكأن"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Kata dasar 'merdeka' berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا', maka huruf 'ا' diletakkan dahulu sebelum '-ءن' dalam imbuhan '-an'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q5": {
+  "stem_rumi": "Kenapakah ejaan 'sangkaan' ditulis سڠكاءن, iaitu dengan huruf 'ا' sebelum '-ءن'?",
+  "stem_jawi": "كنڤاكه ايجاءن 'sangkaan' دتوليس سڠكاءن، ياءيت دڠن حروف 'ا' سبلوم '-ءن'؟",
+  "options": [
+   {
+    "rumi": "Kerana imbuhan '-an' sentiasa ditulis dengan huruf 'ا' pada setiap kata.",
+    "jawi": "كران ايمبوهن '-an' سنتياس دتوليس دڠن حروف 'ا' ڤد ستياڤ كات."
+   },
+   {
+    "rumi": "Kerana kata dasar 'sangka' berakhir dengan bunyi vokal 'a' tetapi ditulis tanpa huruf 'ا'.",
+    "jawi": "كران كات داسر 'sangka' براخير دڠن بوڽي ۏوكل 'a' تتاڤي دتوليس تنڤا حروف 'ا'."
+   },
+   {
+    "rumi": "Kerana kata dasar 'sangka' berakhir dengan huruf 'ك' yang mati.",
+    "jawi": "كران كات داسر 'sangka' براخير دڠن حروف 'ك' يڠ ماتي."
+   },
+   {
+    "rumi": "Kerana kata 'sangka' ialah kata pinjaman daripada bahasa Inggeris.",
+    "jawi": "كران كات 'sangka' ادله كات ڤينجامن داري بهاس اينݢريس."
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Kata dasar 'sangka' berakhir dengan bunyi vokal 'a' yang ditulis tanpa huruf 'ا', maka huruf 'ا' perlu diletakkan sebelum '-ءن'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q6": {
+  "stem_rumi": "Antara berikut, yang manakah pasangan perkataan yang berimbuhan '-ءن'?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه ڤاسڠن ڤركاتاءن يڠ برايمبوهن ءن؟",
+  "options": [
+   {
+    "rumi": "kegembiraan, larian",
+    "jawi": "كݢمبيراءن، لارين"
+   },
+   {
+    "rumi": "buruan, gurauan",
+    "jawi": "بوروان، ݢوراوان"
+   },
+   {
+    "rumi": "kegembiraan, perniagaan",
+    "jawi": "كݢمبيراءن، ڤرنياݢاءن"
+   },
+   {
+    "rumi": "ulasan, larian",
+    "jawi": "اولسن، لارين"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Kata dasar gembira dan niaga berakhir dengan bunyi 'a' yang ditulis tanpa huruf 'ا', maka huruf 'ا' ditambah dahulu sebelum imbuhan '-ءن'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_hamzah_nun_q8": {
+  "stem_rumi": "Berdasarkan petikan, bilakah acara kemuncak sambutan Hari Kemerdekaan diadakan?",
+  "stem_jawi": "بيلاكه سمبوتن هاري كمرديكاءن دأداكن؟",
+  "options": [
+   {
+    "rumi": "Pada 1 Ogos setiap tahun",
+    "jawi": "ڤد 1 اوݢوس ستياڤ تاهون"
+   },
+   {
+    "rumi": "Pada 31 Oktober setiap tahun",
+    "jawi": "ڤد 31 اوكتوبر ستياڤ تاهون"
+   },
+   {
+    "rumi": "Pada 31 Ogos setiap tahun",
+    "jawi": "ڤد 31 اوݢوس ستياڤ تاهون"
+   },
+   {
+    "rumi": "Pada 1 September setiap tahun",
+    "jawi": "ڤد 1 سيڤتيمبر ستياڤ تاهون"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Petikan menyatakan bahawa sambutan dijalankan sepanjang bulan Ogos dan acara kemuncak diadakan pada 1 September setiap tahun.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'pujian'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن 'ڤوجين'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ڤوجين"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤوچين"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤوجيين"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤوجن"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Kata dasar 'puji' berakhir dengan huruf 'ي', maka imbuhan '-an' ditulis dengan huruf 'ن' sahaja, menjadi ڤوجين.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q10": {
+  "stem_rumi": "Berapakah jumlah murid dan guru pengiring yang terlibat dalam lawatan itu?",
+  "stem_jawi": "براڤاكه جومله موريد دان ݢورو ڤڠيريڠ يڠ ترليبت؟",
+  "options": [
+   {
+    "rumi": "Empat puluh lima orang murid dan lima orang guru pengiring",
+    "jawi": "ڤمت ڤولوه ليم اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ"
+   },
+   {
+    "rumi": "Tiga puluh lima orang murid dan lima orang guru pengiring",
+    "jawi": "تيݢ ڤولوه ليم اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ"
+   },
+   {
+    "rumi": "Tiga puluh empat orang murid dan lima orang guru pengiring",
+    "jawi": "تيݢ ڤولوه ڤمت اورڠ موريد دان ليم اورڠ ݢورو ڤڠيريڠ"
+   },
+   {
+    "rumi": "Tiga puluh lima orang murid dan empat orang guru pengiring",
+    "jawi": "تيݢ ڤولوه ليم اورڠ موريد دان ڤمت اورڠ ݢورو ڤڠيريڠ"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Jawapan yang betul ialah tiga puluh lima orang murid dan lima orang guru pengiring, seperti yang dinyatakan dalam teks lawatan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q11": {
+  "stem_rumi": "Apakah yang terdapat di Mardi Agroteknologi Park?",
+  "stem_jawi": "اڤاكه يڠ ترداڤت دمردي اݢروتيكنولوݢي ڤرك؟",
+  "options": [
+   {
+    "rumi": "Pusat membeli-belah yang besar",
+    "jawi": "ڤوسات ممبيلي-بله يڠ بسر"
+   },
+   {
+    "rumi": "Lapangan terbang antarabangsa",
+    "jawi": "لاڤڠن تربڠ انتارابڠسا"
+   },
+   {
+    "rumi": "Pelbagai jenis bunga ros, strawberi dan pelbagai jenis buah-buahan",
+    "jawi": "ڤلباݢاي جنيس بوڠا روس، ستروبيري دان ڤلباݢاي جنيس بواه-بواهن"
+   },
+   {
+    "rumi": "Kilang kereta dan bas",
+    "jawi": "كيلڠ كريتا دان باس"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Jawapan betul ialah bunga ros, strawberi dan buah-buahan kerana itulah hasil tanaman yang terdapat di Mardi Agroteknologi Park.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q2": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'sebutan'.",
+  "stem_jawi": "پيليه إيجاءن جاوي يڠ بتول باڬي ڤرکاتاءن 'سبوتن'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "سبوتان"
+   },
+   {
+    "rumi": "",
+    "jawi": "سبتن"
+   },
+   {
+    "rumi": "",
+    "jawi": "سبوطن"
+   },
+   {
+    "rumi": "",
+    "jawi": "سبوتن"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Kata dasar 'sebut' berakhir dengan suku kata tertutup, jadi imbuhan '-an' ditulis dengan huruf 'ن' sahaja.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'keikhlasan'.",
+  "stem_jawi": "پيليه ايجاء جاوي يڠ بتول باڬي ڤرکاتاءن 'كأخلاصن'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "كأخلاصن"
+   },
+   {
+    "rumi": "",
+    "jawi": "كأخلاسن"
+   },
+   {
+    "rumi": "",
+    "jawi": "كأخلاصان"
+   },
+   {
+    "rumi": "",
+    "jawi": "كأخلاصة"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Kata dasar 'ikhlas' berakhir dengan suku kata tertutup, jadi imbuhan '-an' ditulis dengan huruf 'ن' sahaja.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q4": {
+  "stem_rumi": "Berapakah cara menulis imbuhan '-an' dalam tulisan Jawi?",
+  "stem_jawi": "براڤاكه چارا منوليس ايمبوهن '-an' دالم توليسن جاوي؟",
+  "options": [
+   {
+    "rumi": "Empat cara",
+    "jawi": "امڤت چارا"
+   },
+   {
+    "rumi": "Dua cara",
+    "jawi": "دوا چارا"
+   },
+   {
+    "rumi": "Tiga cara",
+    "jawi": "تيݢ چارا"
+   },
+   {
+    "rumi": "Lima cara",
+    "jawi": "ليما چارا"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Imbuhan '-an' ditulis dengan tiga cara iaitu huruf '-ن', '-ان' dan '-ءن'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q5": {
+  "stem_rumi": "Antara berikut, yang manakah jenis kata dasar yang imbuhan '-an'nya ditulis dengan huruf '-ن' sahaja?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان‌كه جنيس كات داسر يڠ ايمبوهن '-an'ڽ دتوليس دڠن حروف '-ن' سهاج؟",
+  "options": [
+   {
+    "rumi": "Kata dasar yang berakhir dengan huruf '-ي'",
+    "jawi": "كات داسر يڠ براخير دڠن حروف '-ي'"
+   },
+   {
+    "rumi": "Kata dasar yang berakhir dengan huruf '-ه'",
+    "jawi": "كات داسر يڠ براخير دڠن حروف '-ه'"
+   },
+   {
+    "rumi": "Kata dasar yang berakhir dengan huruf '-ان'",
+    "jawi": "كات داسر يڠ براخير دڠن حروف '-ان'"
+   },
+   {
+    "rumi": "Kata dasar yang berakhir dengan huruf '-ا'",
+    "jawi": "كات داسر يڠ براخير دڠن حروف '-ا'"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Imbuhan '-an' pada kata dasar yang berakhir dengan huruf '-ي' ditulis dengan huruf '-ن' sahaja, contohnya tari menjadi tarian.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "needs_review",
+  "check_problems": [
+   "C juga boleh dianggap betul: kata dasar yang berakhir dengan '-ان' berakhir dengan suku kata tertutup, yang menurut nota menggunakan imbuhan '-an' dengan huruf '-ن' sahaja. Soalan tidak membezakan kategori umum suku kata tertutup daripada contoh khususnya."
+  ]
+ },
+ "jawi_b1_imbuhan_an_nun_q6": {
+  "stem_rumi": "Antara berikut, yang manakah sebab ejaan 'pakaian' menggunakan huruf 'ن' sahaja?",
+  "stem_jawi": "آنتارا بريكوت، يڠ مناكه سبب ايجاءن ڤاكاين مڠݢوناكن حروف 'ن' سهاج؟",
+  "options": [
+   {
+    "rumi": "Kata dasarnya 'pakai' berakhir dengan suku kata tertutup",
+    "jawi": "كات داسرڽ ڤاكاي براخير دڠن سوكو كات ترتوتوڤ"
+   },
+   {
+    "rumi": "Imbuhan itu selalu ditulis dengan huruf 'ان' dalam semua kata",
+    "jawi": "ايمبوهن ايت سنتياسا دتوليس دڠن حروف 'ان' دالم سموا كات"
+   },
+   {
+    "rumi": "Kata dasarnya 'pakai' mempunyai dua huruf sahaja",
+    "jawi": "كات داسرڽ ڤاكاي ممڤوڽاءي دوا حروف سهاج"
+   },
+   {
+    "rumi": "Kata dasarnya 'pakai' berakhir dengan huruf '-ي'",
+    "jawi": "كات داسرڽ ڤاكاي براخير دڠن حروف ي"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Kata dasar 'pakai' berakhir dengan huruf '-ي', maka imbuhan '-an' ditulis dengan huruf 'ن' sahaja sebagai 'pakaian'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q8": {
+  "stem_rumi": "Berdasarkan petikan 'Laporan Lawatan Sambil Belajar ke Cameron Highlands', bilakah lawatan ke Cameron Highlands diadakan?",
+  "stem_jawi": "بيلاكه لاوتن ككامرون هايلند دأداكن؟",
+  "options": [
+   {
+    "rumi": "Pada 1 April 2018",
+    "jawi": "ڤد 1 اڤريل 2018"
+   },
+   {
+    "rumi": "Pada 1 Mac 2018",
+    "jawi": "ڤد 1 مارچ 2018"
+   },
+   {
+    "rumi": "Pada 1 April 2019",
+    "jawi": "ڤد 1 اڤريل 2019"
+   },
+   {
+    "rumi": "Pada 15 April 2018",
+    "jawi": "ڤد 15 اڤريل 2018"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Petikan laporan menyatakan bahawa lawatan ke Cameron Highlands diadakan pada 1 April 2018.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b1_imbuhan_an_nun_q9": {
+  "stem_rumi": "Berdasarkan petikan, apakah tujuan utama lawatan tersebut?",
+  "stem_jawi": "اڤاكه توجوان اوتام لاوتن ترسبوت؟",
+  "options": [
+   {
+    "rumi": "Untuk membeli barang cenderamata di pasar.",
+    "jawi": "اونتوق ممبيلي بارڠ چندرامات د ڤاسر."
+   },
+   {
+    "rumi": "Untuk menambah ilmu pengetahuan ahli persatuan dan dapat menyaksikan sendiri tempat-tempat yang menarik di sana.",
+    "jawi": "اونتوق منمبه علمو ڤڠتاهوان اهلي ڤرساتوان دان داڤت مڽقسيكن سنديري تمڤت٢ يڠ مناريق دسان."
+   },
+   {
+    "rumi": "Untuk mengutip sumbangan bagi pembinaan masjid baharu.",
+    "jawi": "اونتوق مڠوتيڤ سومبڠن باڬي ڤمبينأن مسجد بهارو."
+   },
+   {
+    "rumi": "Untuk mengikuti pertandingan sukan peringkat negeri.",
+    "jawi": "اونتوق مڠيكوتي ڤرتندڠن سوكن ڤرڠكت نݢري."
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Petikan menyatakan bahawa lawatan itu bertujuan menambah ilmu pengetahuan ahli persatuan dan membolehkan mereka melihat sendiri tempat-tempat yang menarik.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'menghantui'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤرکاتاءن 'menghantui'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "مڠهنتواءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "منهنتوءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "مڠهنتوءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "مڠهنتوي"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Imbuhan '-i' pada suku kata terbuka yang berakhir dengan vokal 'u' dieja dengan huruf '-ءي', jadi 'menghantui' ditulis مڠهنتوءي.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q10": {
+  "stem_rumi": "Siapakah angkasawan negara yang menerokai angkasa lepas pada 10 Oktober 2007?",
+  "stem_jawi": "سياڤاکه اڠکاساوان نݢارا يڠ منروکاءي اڠکاس لڤس ڤد 10 اوکتوبر 2007؟",
+  "options": [
+   {
+    "rumi": "Doktor Lim Chong Wei",
+    "jawi": "دوکتور ليم چوڠ وي"
+   },
+   {
+    "rumi": "Doktor Ahmad Fuad",
+    "jawi": "دوکتور أحمد فؤاد"
+   },
+   {
+    "rumi": "Doktor Rahman Ismail",
+    "jawi": "دوکتور رحمن إسماعيل"
+   },
+   {
+    "rumi": "Doktor Sheikh Muszaphar Shukor",
+    "jawi": "دوکتور شيخ مظفر شکور"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Nota buku menyatakan bahawa Doktor Sheikh Muszaphar Shukor telah menerokai angkasa lepas pada 10 Oktober 2007.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q11": {
+  "stem_rumi": "Di manakah roket tersebut dilepaskan?",
+  "stem_jawi": "دماناکه روکيت ترسبوت دلڤسکن؟",
+  "options": [
+   {
+    "rumi": "Dari tapak pelancaran Baikonur, Kazakhstan",
+    "jawi": "دري تاڤق ڤلنچرن بايکونور، کازکستن"
+   },
+   {
+    "rumi": "Dari Pusat Angkasa Kennedy, Amerika Syarikat",
+    "jawi": "دري ڤوسات اڠکاس کندي، امريک سريکت"
+   },
+   {
+    "rumi": "Dari Pusat Angkasa Sriharikota, India",
+    "jawi": "دري ڤوسات اڠکاس سريهريکوتا، اينديا"
+   },
+   {
+    "rumi": "Dari Pusat Angkasa Jiuquan, China",
+    "jawi": "دري ڤوسات اڠکاس جيوچوان، چينا"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Roket tersebut dilepaskan dari tapak pelancaran Baikonur di Kazakhstan, seperti yang dinyatakan dalam bacaan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q12": {
+  "stem_rumi": "Bilakah angkasawan negara berlepas ke angkasa?",
+  "stem_jawi": "بيلاکه اڠکاساوان نݢارا برلڤس کأڠکاس؟",
+  "options": [
+   {
+    "rumi": "Pada 12 April 1961 jam 9:21 pagi waktu Malaysia",
+    "jawi": "ڤد 12 أڤريل 1961 جم 9:21 ڤاڬي وقتو مليسيا"
+   },
+   {
+    "rumi": "Pada 10 Oktober 2007 jam 9:21 malam waktu Malaysia (28 Ramadan)",
+    "jawi": "ڤد 10 اوکتوبر 2007 جم 9:21 مالم وقتو مليسيا (28 رمضان)"
+   },
+   {
+    "rumi": "Pada 10 Oktober 2008 jam 9:21 malam waktu Malaysia",
+    "jawi": "ڤد 10 اوکتوبر 2008 جم 9:21 مالم وقتو مليسيا"
+   },
+   {
+    "rumi": "Pada 1 Syawal 2007 jam 8:00 pagi waktu Malaysia",
+    "jawi": "ڤد 1 شوال 2007 جم 8:00 ڤاڬي وقتو مليسيا"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Dr. Sheikh Muszaphar Shukor menerokai angkasa lepas pada 10 Oktober 2007, jam 9:21 malam waktu Malaysia.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q2": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'dinamai'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي ڤركاتاءن 'دناماءي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "دناماي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دنامءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دناماءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دناماه"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Apabila imbuhan '-i' ditambah pada kata yang berakhir vokal 'a' yang tidak ditulis dengan huruf ا, huruf ا ditulis dahulu diikuti huruf '-ءي'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'dimurkai'.",
+  "stem_jawi": "پيليه ايجا جاوي يڠ بتول باڬي ڤرکاتاءن 'دمورکاءي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "دمورکءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دمورکاي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دمروکاءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دمورکاءي"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Imbuhan '-i' pada kata dasar yang berakhir vokal 'a' tetapi tidak ditulis dengan huruf 'ا' dieja dengan meletakkan huruf 'ا' dahulu diikuti huruf '-ءي', jadi 'murka' menjadi 'dimurkai'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q4": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'dianggotai'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤرکاتاءن 'دأڠݢوتاءي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "دأڠݢوتاءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دأڠݢوتاي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دڠݢوتاءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دأڠݢتاءي"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u' dieja dengan huruf '-ءي', contohnya dianggotai (دأڠݢوتاءي).",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q5": {
+  "stem_rumi": "Huruf apakah digunakan untuk mengeja imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u'?",
+  "stem_jawi": "حروف اڤاكه دݢوناكن اونتوق مڠيجا ايمبوهن '-i' ڤد سوكو كات تربوک دڠن ۏوكل 'a' دان 'u'؟",
+  "options": [
+   {
+    "rumi": "Huruf '-ا' (alif)",
+    "jawi": "حروف '-ا' (ألف)"
+   },
+   {
+    "rumi": "Huruf '-ءي' (hamzah ya)",
+    "jawi": "حروف '-ءي' (همزه يا)"
+   },
+   {
+    "rumi": "Huruf '-ي' (ya)",
+    "jawi": "حروف '-ي' (يا)"
+   },
+   {
+    "rumi": "Huruf '-و' (waw)",
+    "jawi": "حروف '-و' (واو)"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Mengikut nota buku teks, imbuhan '-i' pada suku kata terbuka dengan vokal 'a' dan 'u' dieja menggunakan huruf '-ءي'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q6": {
+  "stem_rumi": "Apakah ejaan Jawi yang betul bagi 'merajai' daripada kata dasar 'raja' (راج)?",
+  "stem_jawi": "اڤاکه ايجاءن جاويڽ يڠ بتول باڬي کات مراجاءي داريڤد کات داسر راج؟",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "مراجاءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "مراجوءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "مراجاو"
+   },
+   {
+    "rumi": "",
+    "jawi": "مراجاي"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Kata dasar raja berakhir dengan suku kata terbuka bervokal 'a' yang tidak ditulis dengan huruf 'ا', jadi huruf 'ا' diletakkan dahulu, kemudian diikuti huruf '-ءي' menjadi مراجاءي.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q7": {
+  "stem_rumi": "Antara berikut, yang manakah contoh kata berimbuhan '-i' yang menggunakan huruf '-ءي' pada suku kata terbuka dengan vokal 'a' dan 'u'?",
+  "stem_jawi": "انتارا بريکوت، يڠ مان چونتوه کات برايمبوهن 'ي' يڠ مڠݢوناکن حروف 'ءي' ڤد سوکو کات تربوک دڠن ۏوکل 'ا' دان 'و'؟",
+  "options": [
+   {
+    "rumi": "dimurkai",
+    "jawi": "دمورکاءي"
+   },
+   {
+    "rumi": "mengembarai",
+    "jawi": "مڠمباراءي"
+   },
+   {
+    "rumi": "membersihi",
+    "jawi": "مڠبرسيهي"
+   },
+   {
+    "rumi": "dikatai",
+    "jawi": "دکاتاءي"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Kata mengembarai mempunyai imbuhan '-i' pada suku kata terbuka yang menggunakan vokal 'a' dan 'u', maka ia dieja dengan huruf '-ءي'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_hamzah_ya_q9": {
+  "stem_rumi": "Berdasarkan petikan 'Angkasawan Pertama Negara', siapakah nama penuh angkasawan negara?",
+  "stem_jawi": "سياڤاکه نام ڤنوه اڠکاساوان نݢارا؟",
+  "options": [
+   {
+    "rumi": "Datuk Doktor Sheikh Muszaphar Shukor Al-Masrie bin Sheikh Mustapha",
+    "jawi": "داتوء دوکتور شيخ مظفر شکور المصري بن شيخ مصطفى"
+   },
+   {
+    "rumi": "Ahmad Fakhruddin bin Abdul Rahman",
+    "jawi": "احمد فخرالدين بن عبدالرحمن"
+   },
+   {
+    "rumi": "Datuk Hamzah bin Abdul Latif",
+    "jawi": "داتوء حمزه بن عبدالطيف"
+   },
+   {
+    "rumi": "Doktor Khalid bin Osman",
+    "jawi": "دوکتور خالد بن عثمان"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Nama penuh angkasawan negara ialah Datuk Doktor Sheikh Muszaphar Shukor Al-Masrie bin Sheikh Mustapha, seperti yang dinyatakan dalam petikan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_ya_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'membasahi'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤرکاتاءن 'ممباسهي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ممباساهي"
+   },
+   {
+    "rumi": "",
+    "jawi": "ممباسهي"
+   },
+   {
+    "rumi": "",
+    "jawi": "ممباسهه"
+   },
+   {
+    "rumi": "",
+    "jawi": "مڠباسهي"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Imbuhan '-i' pada kata dasar basah yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي', maka membasahi ditulis ممباسهي.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_ya_q10": {
+  "stem_rumi": "Berdasarkan syair 'Ayah dan Ibu', apakah yang wajib dilakukan terhadap ayah dan ibu?",
+  "stem_jawi": "برداسركن شعير 'ايه دان ايبو'، اڤاكه يڠ واجب دلاكوكن ترهادڤ ايه دان ايبو؟",
+  "options": [
+   {
+    "rumi": "Wajib dibiarkan.",
+    "jawi": "واجب دبياركن"
+   },
+   {
+    "rumi": "Wajib dijauhi.",
+    "jawi": "واجب دجاوهي"
+   },
+   {
+    "rumi": "Wajib dihormati.",
+    "jawi": "واجب دحرمتي"
+   },
+   {
+    "rumi": "Wajib dilupakan.",
+    "jawi": "واجب دلوڤاكن"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Syair 'Ayah dan Ibu' menegaskan bahawa ayah dan ibu wajib dihormati oleh anak-anak.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_ya_q2": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'dilengkapi'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤرکاتاءن 'دلڠکڤي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "دلڠکڤ"
+   },
+   {
+    "rumi": "",
+    "jawi": "دلݢکڤي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دلڠکڤءي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دلڠکڤي"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup, seperti 'lengkap' menjadi 'dilengkapi', hendaklah dieja dengan huruf '-ي' sahaja.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_ya_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'menasihati'.",
+  "stem_jawi": "ڤيليه ايجاءن جاوي يڠ بتول باڬي ڤرکاتاءن 'منصيحتي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "منصيحتي"
+   },
+   {
+    "rumi": "",
+    "jawi": "منصيحتة"
+   },
+   {
+    "rumi": "",
+    "jawi": "منسيحتي"
+   },
+   {
+    "rumi": "",
+    "jawi": "منصيحت"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Imbuhan '-i' pada kata dasar nasihat yang berakhir dengan suku kata tertutup hendaklah dieja dengan huruf '-ي'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_ya_q4": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'ditenggelami'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي ڤركاتاءن 'دتڠݢلمي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "دتڠݢلماي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دتڠݢلمي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دتڠکلمي"
+   },
+   {
+    "rumi": "",
+    "jawi": "دتڠݢلم"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Kata dasar 'tenggelam' berakhir dengan suku kata tertutup, jadi imbuhan '-i' dieja dengan huruf ي.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_ya_q5": {
+  "stem_rumi": "Apakah yang dimaksudkan dengan suku kata tertutup?",
+  "stem_jawi": "اڤاكه يڠ دمقصودكن دڠن سوكو كات ترتوتوڤ؟",
+  "options": [
+   {
+    "rumi": "Suku kata yang diakhiri oleh huruf vokal.",
+    "jawi": "سوكو كات يڠ دأخيري اوليه حروف ۏوكل."
+   },
+   {
+    "rumi": "Suku kata yang hanya mengandungi satu huruf.",
+    "jawi": "سوكو كات يڠ هنياه مڠندوڠي ساتو حروف."
+   },
+   {
+    "rumi": "Suku kata yang diakhiri oleh huruf konsonan.",
+    "jawi": "سوكو كات يڠ دأخيري اوليه حروف كونسونن."
+   },
+   {
+    "rumi": "Suku kata yang bermula dengan huruf vokal.",
+    "jawi": "سوكو كات يڠ برمولا دڠن حروف ۏوكل."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Menurut nota buku, suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_ya_q6": {
+  "stem_rumi": "Antara berikut, yang manakah peraturan ejaan imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup, beserta dua contoh yang betul?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناکه ڤراتورن ايجاءن ايمبوهن '-i' ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ، بسرتا دوا چونتوه يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Dieja dengan huruf '-ه' sahaja; contoh: baluti, dimarahi",
+    "jawi": "دأيجا دڠن حروف '-ه' سهاج؛ چونتوه: بالوتي، دمارهي"
+   },
+   {
+    "rumi": "Dieja dengan huruf '-ي' sahaja; contoh: baluti, dimarahi",
+    "jawi": "دأيجا دڠن حروف '-ي' سهاج؛ چونتوه: بالوتي، دمارهي"
+   },
+   {
+    "rumi": "Dieja dengan huruf '-ي' hanya jika kata dasar berakhir suku kata terbuka; contoh: hiasi, rasai",
+    "jawi": "دأيجا دڠن حروف '-ي' هاڽ جيک كات داسر براخير دڠن سوكو كات تربوك؛ چونتوه: هياسي، راساءي"
+   },
+   {
+    "rumi": "Dieja dengan huruf '-ڠ' sahaja; contoh: membasahi, ubati",
+    "jawi": "دأيجا دڠن حروف '-ڠ' سهاج؛ چونتوه: ممباسهي، اوبتي"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Buku menyatakan imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dieja dengan huruf '-ي' sahaja, seperti baluti dan dimarahi.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b2_imbuhan_i_ya_q7": {
+  "stem_rumi": "Menurut 'Tahukah Anda', vokal apakah yang digunakan pada kata dasar yang berakhir dengan suku kata tertutup yang imbuhan '-i'nya dieja dengan huruf '-ي'?",
+  "stem_jawi": "منوروت 'تاهوكه اندا'، ۏوكل اڤاكه يڠ دݢوناكن ڤد كات داسر يڠ براخير دڠن سوكو كات ترتوتوڤ يڠ ايمبوهن '-i'ڽ دأيجا دڠن حروف '-ي'؟",
+  "options": [
+   {
+    "rumi": "Vokal 'a', 'e' atau 'o'.",
+    "jawi": "ۏوكل 'a'، 'e' اتاو 'o'."
+   },
+   {
+    "rumi": "Vokal 'a', 'i' atau 'u'.",
+    "jawi": "ۏوكل 'a'، 'i' اتاو 'u'."
+   },
+   {
+    "rumi": "Vokal 'e', 'o' atau 'u'.",
+    "jawi": "ۏوكل 'e'، 'o' اتاو 'u'."
+   },
+   {
+    "rumi": "Vokal 'i', 'e' atau 'o'.",
+    "jawi": "ۏوكل 'i'، 'e' اتاو 'o'."
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Menurut 'Tahukah Anda', imbuhan '-i' pada kata dasar yang berakhir dengan suku kata tertutup dan menggunakan vokal 'a', 'i' atau 'u' dieja dengan huruf '-ي'.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'wuduk'.",
+  "stem_jawi": "پيليه ايجاٴن جاوي يڠ بتول باڬي ڤركاتاءن وودوك.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "وضوة"
+   },
+   {
+    "rumi": "",
+    "jawi": "وضوء"
+   },
+   {
+    "rumi": "",
+    "jawi": "وضو"
+   },
+   {
+    "rumi": "",
+    "jawi": "ضوء"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Huruf hamzah di akhir kata hendaklah ditulis sejajar, jadi wuduk ditulis وضوء.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q10": {
+  "stem_rumi": "Berdasarkan petikan 'Ramadan Bulan yang Mulia', apakah maksud puasa?",
+  "stem_jawi": "اڤاكه مقصود ڤواسا؟",
+  "options": [
+   {
+    "rumi": "Menunaikan solat lima waktu sehari semalam.",
+    "jawi": "منوناٴيكن صلاة ليما واقتو سهاري سمالم."
+   },
+   {
+    "rumi": "Membayar zakat harta pada bulan Ramadan.",
+    "jawi": "ممباير زكاة هارتا ڤد بولن رمضان."
+   },
+   {
+    "rumi": "Menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari ghurub (terbenam).",
+    "jawi": "مناهن ديري درڤد ماكن دان مينوم مولاٴي دري تربيت فجر هيڠݢ ماتاهاري غروب."
+   },
+   {
+    "rumi": "Memberi sedekah kepada fakir miskin.",
+    "jawi": "ممبري صدقه كڤد فقير مسكين."
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Puasa bermaksud menahan diri daripada makan dan minum mulai dari terbit fajar hingga matahari terbenam.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q11": {
+  "stem_rumi": "Di manakah termaktubnya dalil yang mewajibkan berpuasa?",
+  "stem_jawi": "دماناكه ترمكتوبڽ دليل يڠ مواجبكن برڤواسا؟",
+  "options": [
+   {
+    "rumi": "Dalam pendapat ahli falsafah sahaja.",
+    "jawi": "دالم ڤندڤت اهل فلسفه سهاج."
+   },
+   {
+    "rumi": "Dalam hikayat dan syair sahaja.",
+    "jawi": "دالم حكاية دان شعر سهاج."
+   },
+   {
+    "rumi": "Dalam buku sejarah tempatan sahaja.",
+    "jawi": "دالم بوكو سجرة تمڤتن سهاج."
+   },
+   {
+    "rumi": "Dalam al-Quran, hadis dan ijmak ulama.",
+    "jawi": "دالم القرءان، حديث دان اجماع علماء."
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Dalil yang mewajibkan berpuasa termaktub dalam al-Quran, hadis dan ijmak ulama.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q12": {
+  "stem_rumi": "Antara berikut, yang manakah kesan berpuasa dalam kehidupan manusia?",
+  "stem_jawi": "انتارا بريکوت، يڠ ماناكه كسن برڤواسا دالم كهيدوڤن ماءنسي؟",
+  "options": [
+   {
+    "rumi": "Menyebabkan badan menjadi lemah dan mudah sakit",
+    "jawi": "مڽبابکن بادن منجادي لمه دان موده ساکيت"
+   },
+   {
+    "rumi": "Menambah berat badan secara mendadak",
+    "jawi": "منامبه بيرت بادن سچارا مندادق"
+   },
+   {
+    "rumi": "Menyucikan jiwa daripada sifat mazmumah seperti riak, bangga diri dan takbur",
+    "jawi": "ميوچيكن جيوا درڤد صيفت مذمومة سڤرتي رياء، بڠݢ ديري دان تكبور"
+   },
+   {
+    "rumi": "Menjadikan seseorang malas beribadah selepas Ramadan",
+    "jawi": "منجاديكن سسورڠ مالس بريبادة سلڤس رمضان"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Berpuasa menyucikan jiwa daripada sifat mazmumah seperti riak, bangga diri dan takbur, serta meningkatkan kesihatan dengan merehatkan perut.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q2": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'Madinah'.",
+  "stem_jawi": "ڤيليه ايجاٴن جاوي يڠ بتول باݢي ڤركاتاءن 'مدينة'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "مدين"
+   },
+   {
+    "rumi": "",
+    "jawi": "مدينة"
+   },
+   {
+    "rumi": "",
+    "jawi": "مدينت"
+   },
+   {
+    "rumi": "",
+    "jawi": "مدينه"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Huruf ta marbutah hendaklah dikekalkan seperti ejaan asalnya, jadi Madinah ditulis مدينة.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'Al-Rahman'.",
+  "stem_jawi": "پيليه ايجاٴن جاوي يڠ بتول باݢي ڤركاتاءن 'الرحمن'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "الرحمان"
+   },
+   {
+    "rumi": "",
+    "jawi": "الرحمون"
+   },
+   {
+    "rumi": "",
+    "jawi": "الرحمن"
+   },
+   {
+    "rumi": "",
+    "jawi": "الرهمن"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Kata pinjaman bahasa Arab yang bermula dengan 'al takrif' dikekalkan ejaan Arabnya dan tanda sempang tidak digunakan.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q4": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'alamat'.",
+  "stem_jawi": "پيليه ايجاٴن جاوي يڠ بتول باڬي ڤركاتاءن 'علامت'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "الامت"
+   },
+   {
+    "rumi": "",
+    "jawi": "علمت"
+   },
+   {
+    "rumi": "",
+    "jawi": "علامة"
+   },
+   {
+    "rumi": "",
+    "jawi": "علامت"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Kata pinjaman bahasa Arab dieja mengikut ejaan asalnya dalam tulisan Jawi, termasuk huruf ع dan ا dalam perkataan 'alamat'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q5": {
+  "stem_rumi": "Kata pinjaman bahasa Arab terbahagi kepada berapa kategori?",
+  "stem_jawi": "كات ڤينجمن بهاس عرب تربهاݢي كڤد براڤ كاتݢوري؟",
+  "options": [
+   {
+    "rumi": "Dua: istilah agama dan kata umum",
+    "jawi": "دوا: ايستيله اݢام دان كات عموم"
+   },
+   {
+    "rumi": "Satu: istilah agama sahaja",
+    "jawi": "ساتو: ايستيله اݢام سهاج"
+   },
+   {
+    "rumi": "Tiga: istilah agama, kata umum dan kata Inggeris",
+    "jawi": "تيݢ: ايستيله اݢام، كات عموم دان كات ايڠݢريس"
+   },
+   {
+    "rumi": "Empat: istilah agama, kata umum, kata Arab dan kata Inggeris",
+    "jawi": "امڤت: ايستيله اݢام، كات عموم، كات عرب دان كات ايڠݢريس"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Nota buku menyatakan kata pinjaman bahasa Arab terbahagi kepada dua, iaitu istilah agama dan kata umum.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q6": {
+  "stem_rumi": "Antara berikut, yang manakah ejaan Jawi yang betul bagi 'jemaah' dan 'sahabat'?",
+  "stem_jawi": "انتارا بريکوت، يڠ مناکه ايجاٴن جاوي يڠ بتول بݢي 'جماعه' دان 'صحابت'؟",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "جماعه: ه؛ صحابت: ت"
+   },
+   {
+    "rumi": "",
+    "jawi": "جماعة: ة؛ صحابه: ه"
+   },
+   {
+    "rumi": "",
+    "jawi": "جماعه: ه؛ صحابه: ه"
+   },
+   {
+    "rumi": "",
+    "jawi": "جماعت: ت؛ صحابت: ت"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Jemaah ditulis dengan ه kerana disebut sebagai ha oleh orang Melayu, manakala sahabat ditulis dengan ت kerana disebut dengan bunyi ta.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q7": {
+  "stem_rumi": "Antara berikut, yang manakah kaedah yang betul untuk menulis kata pinjaman bahasa Arab yang bermula dengan 'al takrif'?",
+  "stem_jawi": "انتارا بريكوت، يڠ ماناكه قاعده يڠ بتول اونتوق منوليس كات ڤينجمن بهاس عرب يڠ برمولا دڠن 'ال تعريف'؟",
+  "options": [
+   {
+    "rumi": "Huruf 'al' dibuang dan ditulis seperti kata Melayu",
+    "jawi": "حروف 'ال' دبوڠ دان دتوليس سڤرتي كات ملايو"
+   },
+   {
+    "rumi": "Diterjemahkan ke dalam bahasa Melayu",
+    "jawi": "دترجمهكن ك دالم بهاس ملايو"
+   },
+   {
+    "rumi": "Ditulis dengan tanda sempang selepas 'al'",
+    "jawi": "دتوليس دڠن تندا سمڠ سلڤس 'ال'"
+   },
+   {
+    "rumi": "Dikekalkan ejaan Arabnya tanpa tanda sempang",
+    "jawi": "دككلكن ايجاٴن عربڽ تانڤ تندا سمڠ"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Kata pinjaman Arab yang bermula dengan 'al takrif' dikekalkan ejaan Arabnya tanpa tanda sempang, contohnya Al-Rahim الرحيم.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_arab_q8": {
+  "stem_rumi": "Antara berikut, yang manakah ejaan Jawi yang betul bagi kata Alam dan Alim?",
+  "stem_jawi": "انتارا بريکوت، يڠ ماناکه ايجاٴن جاوي يڠ بتول باݢي کات عالم دان عاليم؟",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "عالم = عالم؛ عالم = عالم"
+   },
+   {
+    "rumi": "",
+    "jawi": "عالم = عالم؛ عاليم = عاليم"
+   },
+   {
+    "rumi": "",
+    "jawi": "عالام = عالام؛ عاليم = عاليم"
+   },
+   {
+    "rumi": "",
+    "jawi": "عاليم = عاليم؛ عالم = عالم"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Ejaan Alim ditambah huruf vokal ي untuk mengelakkan salah baca.",
+  "spelling": false,
+  "generated_by": "openai/gpt-6-luna",
+  "checked_by": "anthropic/claude-haiku-5.5",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_inggeris_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'teknologi'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي ڤركاتاءن 'تيكنولوݢي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "تيكنولوݢي"
+   },
+   {
+    "rumi": "",
+    "jawi": "تكنولوݢي"
+   },
+   {
+    "rumi": "",
+    "jawi": "تيكنولوݢا"
+   },
+   {
+    "rumi": "",
+    "jawi": "تيكنولوجي"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Kata pinjaman bahasa Inggeris dieja mengikut sebutan baku bahasa Melayu, jadi 'teknologi' ditulis tepat mengikut bunyinya dengan huruf ي dan ݢ.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_inggeris_q10": {
+  "stem_rumi": "Berdasarkan contoh ayat, apakah institusi perbankan berasaskan syariah yang pertama di Asia Tenggara? Tulis jawapan dalam tulisan Jawi.",
+  "stem_jawi": "اڤاكه اينستيتوسي ڤربڠكن براساسكن شريعة يڠ ڤرتام دأسيا تڠݢارا؟",
+  "options": [
+   {
+    "rumi": "Bank Rakyat Berhad",
+    "jawi": "بڠك رعيت برحد"
+   },
+   {
+    "rumi": "Bank Islam Malaysia Berhad",
+    "jawi": "بڠك إسلام مليسيا برحد"
+   },
+   {
+    "rumi": "Bank Simpanan Nasional",
+    "jawi": "بڠك سيمڤنن ناسيونل"
+   },
+   {
+    "rumi": "Bank Muamalat Malaysia Berhad",
+    "jawi": "بڠك موعاملة مليسيا برحد"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Bank Islam Malaysia Berhad ialah institusi perbankan berasaskan syariah yang pertama di Asia Tenggara.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_inggeris_q2": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'يونيۏرسيتي'.",
+  "stem_jawi": "پيليه ايجاء جاوي يڠ بتول بڬي ڤرکاتاءن 'يونيۏرسيتي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "اونيۏرسيت"
+   },
+   {
+    "rumi": "",
+    "jawi": "اونيورسيتي"
+   },
+   {
+    "rumi": "",
+    "jawi": "اونيۏرسيتي"
+   },
+   {
+    "rumi": "",
+    "jawi": "اونيۏرسيتيه"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Kata pinjaman bahasa Inggeris dieja mengikut sebutan baku bahasa Melayu, maka 'universiti' ditulis اونيۏرسيتي dengan huruf 'ۏ' dan hujung 'ي'.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_inggeris_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'mekanisme'.",
+  "stem_jawi": "پيليه ايجاء جاوي يڠ بتول باݢي ڤركاتاءن 'ميكانيسمى'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ميكانيسمي"
+   },
+   {
+    "rumi": "",
+    "jawi": "ميكانيسم"
+   },
+   {
+    "rumi": "",
+    "jawi": "ميكنيسمى"
+   },
+   {
+    "rumi": "",
+    "jawi": "ميكانيسمى"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Kata yang berakhir dengan bunyi 'e' pepet ditulis dengan huruf 'ى' (ye), seperti mekanisme.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_inggeris_q4": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'struktur'.",
+  "stem_jawi": "پيليه ايجاء جاوي يڠ بتول باݢي ڤركاتاءن 'ستروكتور'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ستروكتور"
+   },
+   {
+    "rumi": "",
+    "jawi": "سيتروكتور"
+   },
+   {
+    "rumi": "",
+    "jawi": "ستروكتر"
+   },
+   {
+    "rumi": "",
+    "jawi": "ستركتور"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Gugus konsonan di awal kata hendaklah ditulis serangkai, jadi 'str' ditulis serangkai sebagai ستروكتور.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_inggeris_q5": {
+  "stem_rumi": "Kata pinjaman bahasa Inggeris yang berakhir dengan bunyi 'e' pepet hendaklah ditulis dengan huruf apa?",
+  "stem_jawi": "كات ڤينجمن بهاس ايڠݢريس يڠ براخير دڠن بوڽي 'e' ڤڤت هندقله دتوليس دڠن حروف اڤ؟",
+  "options": [
+   {
+    "rumi": "Huruf 'ه' (ha)",
+    "jawi": "حروف 'ه' (ها)"
+   },
+   {
+    "rumi": "Huruf 'ى' (ye)",
+    "jawi": "حروف 'ى' (يا)"
+   },
+   {
+    "rumi": "Huruf 'ك' (kaf)",
+    "jawi": "حروف 'ك' (كاف)"
+   },
+   {
+    "rumi": "Huruf 'ا' (alif)",
+    "jawi": "حروف 'ا' (الف)"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Kata pinjaman bahasa Inggeris yang berakhir dengan bunyi 'e' pepet ditulis dengan huruf 'ى' (ye), contohnya mekanisme ditulis ميكانيسمى.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_inggeris_q6": {
+  "stem_rumi": "Antara berikut, yang manakah ejaan Jawi yang betul bagi perkataan teks dan golf?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان ايجاءن جاوي يڠ بتول بڬي ڤركاتاءن تيكس دان ݢولف؟",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "تكس؛ ݢولف"
+   },
+   {
+    "rumi": "",
+    "jawi": "تيك س؛ ݢو ل ف"
+   },
+   {
+    "rumi": "",
+    "jawi": "تيك س؛ ݢول ف"
+   },
+   {
+    "rumi": "",
+    "jawi": "تيكس؛ ݢولف"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Gugus konsonan di akhir kata dijarakkan huruf akhirnya jika dua huruf akhir itu huruf perangkai, jadi teks ditulis تيك س dan golf ditulis ݢول ف.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b3_pinjaman_inggeris_q7": {
+  "stem_rumi": "Antara berikut, yang manakah kaedah ejaan Jawi yang digunakan bagi perkataan 'plastik'?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان٢ كاه قاعده ايجاءن يڠ دݢوناكن باݢي ڤركاتاءن ڤلستيك؟",
+  "options": [
+   {
+    "rumi": "Gugus konsonan di akhir kata dijarakkan huruf akhirnya",
+    "jawi": "ݢوݢوس كونسونن دأخير كات دجارقكن حروف اخيرڽ"
+   },
+   {
+    "rumi": "Bunyi 'e' pepet di akhir kata ditulis dengan ى",
+    "jawi": "بوڽي ڤڤت د اخير كات دتوليس دڠن ى"
+   },
+   {
+    "rumi": "Huruf 'g' diberi padanan ݢ",
+    "jawi": "هورف ݢ دبري ڤادنن ݢ"
+   },
+   {
+    "rumi": "Suku kata tertutup yang berakhir dengan huruf 'k' ditulis dengan huruf ك",
+    "jawi": "سوكو كات ترتوتوڤ يڠ براخير دڠن هورف ك دتوليس دڠن ك"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Plastik ialah suku kata tertutup yang berakhir dengan bunyi 'k', jadi huruf 'k' ditulis dengan huruf ك.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_dilafaz_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'PETRONAS'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي اكرونيم 'ڤيترونس'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ڤيترونس"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤيتروناس"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤتروناس"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤيترونسا"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Akronim yang boleh dilafazkan sebagai perkataan ditulis lengkap sebagai satu perkataan tanpa noktah, seperti ڤيترونس.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_dilafaz_q2": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'JAIS'.",
+  "stem_jawi": "پيليه اجأن جاوي يڠ بتول باݢي اكرونيم 'JAIS'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "جاءس"
+   },
+   {
+    "rumi": "",
+    "jawi": "جاءيس"
+   },
+   {
+    "rumi": "",
+    "jawi": "جاييس"
+   },
+   {
+    "rumi": "",
+    "jawi": "چاءيس"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Akronim yang boleh dilafazkan sebagai perkataan ditulis sebagai satu perkataan mengikut ejaan Jawi cetakan, contohnya JAIS ditulis جاءيس.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_dilafaz_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'PERHILITAN'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي اكرونيم 'ڤرهيليتن'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ڤركيليتن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤرهيلتن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤرهيليتن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ڤرهيليتان"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Akronim yang boleh dilafazkan sebagai perkataan ditulis lengkap sebagai satu perkataan dalam Jawi tanpa noktah, seperti dalam buku teks.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_dilafaz_q4": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'UNESCO'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي اكرونيم 'UNESCO'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "يونسكو"
+   },
+   {
+    "rumi": "",
+    "jawi": "يونيسكو"
+   },
+   {
+    "rumi": "",
+    "jawi": "يونيسكوه"
+   },
+   {
+    "rumi": "",
+    "jawi": "يونيسكا"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Akronim bahasa Inggeris yang boleh dilafazkan sebagai perkataan ditulis lengkap sebagai satu perkataan tanpa noktah, jadi UNESCO ditulis يونيسكو.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_dilafaz_q5": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'TADIKA'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي اكرونيم 'TADIKA'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "تاذيكا"
+   },
+   {
+    "rumi": "",
+    "jawi": "تديكا"
+   },
+   {
+    "rumi": "",
+    "jawi": "تاديكا"
+   },
+   {
+    "rumi": "",
+    "jawi": "تاديقا"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Akronim yang boleh dilafazkan sebagai perkataan ditulis lengkap sebagai satu perkataan tanpa noktah, seperti TADIKA ditulis تاديكا.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_dilafaz_q6": {
+  "stem_rumi": "Antara berikut, yang manakah akronim yang dilafaz sebagai perkataan beserta cara ia ditulis dalam Jawi?",
+  "stem_jawi": "انتارا بريكوت، يڠ ماناكه اكرونيم يڠ دلفظ سباݢاي ڤركاتاءن بسرتا چارا ڤنوليسنڽ دالم جاوي؟",
+  "options": [
+   {
+    "rumi": "MARA (مارا)",
+    "jawi": "مارا"
+   },
+   {
+    "rumi": "TNB (تي ان بي)",
+    "jawi": "تي ان بي"
+   },
+   {
+    "rumi": "SPM (اس ڤي ايم)",
+    "jawi": "اس ڤي ايم"
+   },
+   {
+    "rumi": "KKM (كا كا ايم)",
+    "jawi": "كا كا ايم"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "MARA ialah akronim yang terhasil daripada gabungan beberapa patah kata, boleh dilafazkan dengan sempurna, dan ditulis lengkap sebagai kata dalam Jawi.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_dilafaz_q7": {
+  "stem_rumi": "Antara berikut, yang manakah senarai akronim yang boleh dilafazkan sebagai perkataan?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان‌اكه سناراي اكرونيم يڠ بوليه دلفظكن سباݢاي ڤركاتاءن؟",
+  "options": [
+   {
+    "rumi": "FBI, RISDA, LINUS",
+    "jawi": "ايف بي اي، ريسدا، لينوس"
+   },
+   {
+    "rumi": "FELDA, RISDA, BBC",
+    "jawi": "فيلدا، ريسدا، بي بي سي"
+   },
+   {
+    "rumi": "FELDA, RISDA, LINUS",
+    "jawi": "فيلدا، ريسدا، لينوس"
+   },
+   {
+    "rumi": "FELDA, PBB, LINUS",
+    "jawi": "فيلدا، ڤي بي بي، لينوس"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Akronim FELDA, RISDA dan LINUS boleh dilafazkan dan ditulis sebagai satu perkataan dengan sempurna, manakala BBC, FBI dan PBB dieja huruf demi huruf.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_inggeris_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim untuk 'Malaysian Indian Congress'.",
+  "stem_jawi": "پيليه إيجاءن جاوي يڠ بتول باݢي اكرونيم اينݢريس 'ملايسين اينديان كانݢريس'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "عيم.اي.سي"
+   },
+   {
+    "rumi": "",
+    "jawi": "عيم.اءي.ج"
+   },
+   {
+    "rumi": "",
+    "jawi": "عيم.اءي.س"
+   },
+   {
+    "rumi": "",
+    "jawi": "عيم.اءي.سي"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Akronim bahasa Inggeris dieja dengan menulis nama huruf Rumi satu persatu dan diletakkan noktah selepas setiap huruf.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_inggeris_q2": {
+  "stem_rumi": "Tulis akronim 'KLCC' (Kuala Lumpur Convention Centre) dalam tulisan Jawi.",
+  "stem_jawi": "توليس اكرونيم 'KLCC' دالم توليسن جاوي.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "كي.ايل.سي"
+   },
+   {
+    "rumi": "",
+    "jawi": "كي.ايل.سي.سي"
+   },
+   {
+    "rumi": "",
+    "jawi": "كي.سي.سي"
+   },
+   {
+    "rumi": "",
+    "jawi": "كي.ايل.سي.كي"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Akronim bahasa Inggeris ditulis dengan menyebut nama setiap huruf satu persatu dan meletakkan noktah selepas setiap huruf, jadi KLCC ditulis كي.ايل.سي.سي.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_inggeris_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'VIP' (Very Important Person).",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي اكرونيم 'ۏيري امڤورتانت ڤرسن'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ۏي.اءي.ۏي"
+   },
+   {
+    "rumi": "",
+    "jawi": "ۏي.اءي.ڤي"
+   },
+   {
+    "rumi": "",
+    "jawi": "ۏي اءي ڤي"
+   },
+   {
+    "rumi": "",
+    "jawi": "ۏيي.اءي.ڤي"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Akronim bahasa Inggeris dieja dengan menulis nama setiap huruf Rumi satu persatu dan diletakkan noktah selepas setiap huruf.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_inggeris_q4": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'USA' (United States of America).",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي اكرونيم 'يو.ايس.أي' (يوناياتيد ستيتس اوف أميريكا).",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "يوايسأي"
+   },
+   {
+    "rumi": "",
+    "jawi": "يو.ايس.ا"
+   },
+   {
+    "rumi": "",
+    "jawi": "يو.ايس.أي"
+   },
+   {
+    "rumi": "",
+    "jawi": "يو.اس.أي"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Akronim bahasa Inggeris dieja dengan menulis nama setiap huruf satu persatu dan meletakkan noktah selepas setiap huruf, contohnya يو.ايس.أي.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_inggeris_q5": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi nama huruf Rumi 'm'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي نام حروف رومي 'm'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "عيم"
+   },
+   {
+    "rumi": "",
+    "jawi": "عام"
+   },
+   {
+    "rumi": "",
+    "jawi": "ايم"
+   },
+   {
+    "rumi": "",
+    "jawi": "عيمه"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Mengikut panduan nama huruf Rumi, huruf 'm' dieja sebagai عيم dalam tulisan Jawi.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_inggeris_q6": {
+  "stem_rumi": "Antara berikut, yang manakah peraturan mengeja akronim bahasa Inggeris dalam tulisan Jawi dan akronim Jawi yang betul bagi 'CIMB'?",
+  "stem_jawi": "انتارا بريكوت، يڠ مان٢ڬ ڤراتورن مڠيجا اكرونيم بهاس ايڠݢريس دالم توليسن جاوي دان اكرونيم جاوي يڠ بتول باݢي 'CIMB'؟",
+  "options": [
+   {
+    "rumi": "Dieja dengan menulis nama huruf satu persatu tanpa noktah; CIMB = سي.اءي.عيم.بي",
+    "jawi": "دأيجا دڠن منوليس نام حروف ساتو ڤرساتو تنڤا نقطه; CIMB = سي.اءي.عيم.بي"
+   },
+   {
+    "rumi": "Dieja mengikut bunyi perkataan penuh; CIMB = سيمب",
+    "jawi": "دأيجا مڠيكوت بوني ڤركاتاءن ڤنوه; CIMB = سيمب"
+   },
+   {
+    "rumi": "Dieja dengan menulis nama huruf satu persatu dan diletakkan noktah selepas setiap huruf; CIMB = سي.اءي.عيم.بي",
+    "jawi": "دأيجا دڠن منوليس نام حروف ساتو ڤرساتو دان دلتقكن نقطه سلڤس ستياڤ حروف; CIMB = سي.اءي.عيم.بي"
+   },
+   {
+    "rumi": "Dieja dengan menulis huruf Jawi biasa tanpa noktah; CIMB = كيمب",
+    "jawi": "دأيجا دڠن منوليس حروف جاوي بياسا تنڤا نقطه; CIMB = كيمب"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Akronim bahasa Inggeris dieja dengan menyebut nama setiap huruf satu persatu dan meletakkan noktah selepas setiap huruf, jadi CIMB ditulis سي.اءي.عيم.بي.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_inggeris_q7": {
+  "stem_rumi": "Antara berikut, yang manakah akronim Jawi yang betul bagi 'MCA', 'PLO' dan 'OUM'?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه اكرونيم جاوي يڠ بتول باݢي 'MCA'، 'PLO' دان 'OUM'؟",
+  "options": [
+   {
+    "rumi": "Em.Si.Ei, Pi.El.O, O.Yu.Em",
+    "jawi": "عيم.سي.أي، ڤي.ايل.او، او.يو.عيم"
+   },
+   {
+    "rumi": "Si.Em.Ei, Pi.El.O, O.Yu.Em",
+    "jawi": "سي.عيم.أي، ڤي.ايل.او، او.يو.عيم"
+   },
+   {
+    "rumi": "Em.Si.Ei, Pi.El.O, O.Yu.En",
+    "jawi": "عيم.سي.أي، ڤي.ايل.او، او.يو.عين"
+   },
+   {
+    "rumi": "Em.Si.Ei, Bi.El.O, O.Yu.Em",
+    "jawi": "عيم.سي.أي، بي.ايل.او، او.يو.عيم"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Akronim bahasa Inggeris dieja mengikut nama huruf Rumi satu persatu dengan tanda noktah selepas setiap huruf, jadi MCA ialah عيم.سي.أي, PLO ialah ڤي.ايل.او dan OUM ialah او.يو.عيم.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_inggeris_q9": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'ICT'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باڬي اكرونيم 'اءي.سي.تي'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "اءيسيتي"
+   },
+   {
+    "rumi": "",
+    "jawi": "اي.سي.تي"
+   },
+   {
+    "rumi": "",
+    "jawi": "اءي.سي.تي"
+   },
+   {
+    "rumi": "",
+    "jawi": "اءي.سي.طي"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Akronim bahasa Inggeris dieja dengan menulis nama setiap huruf Rumi satu persatu dan diletakkan noktah selepas setiap huruf, jadi ICT ditulis اءي.سي.تي.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q1": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'DBP' (Dewan Bahasa dan Pustaka).",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي اكرونيم 'د.ب.ڤ' (ديوان بهاس دان ڤوستاك).",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "د.ب.ف"
+   },
+   {
+    "rumi": "",
+    "jawi": "دبڤ"
+   },
+   {
+    "rumi": "",
+    "jawi": "د.ڤ.ب"
+   },
+   {
+    "rumi": "",
+    "jawi": "د.ب.ڤ"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Singkatan nama jabatan dalam bahasa Melayu ditulis dengan huruf Jawi dan diletakkan tanda noktah selepas setiap huruf.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q13": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi perkataan 'Doktor'.",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي ڤركاتاءن 'Doktor'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "دوكتر"
+   },
+   {
+    "rumi": "",
+    "jawi": "دكتور"
+   },
+   {
+    "rumi": "",
+    "jawi": "دوكتورة"
+   },
+   {
+    "rumi": "",
+    "jawi": "دوكتور"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Nama jawatan seperti Doktor ditulis dalam ejaan Jawi penuh, iaitu دوكتور, mengikut peraturan penulisan nama jawatan dan gelaran.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q2": {
+  "stem_rumi": "Tulis akronim 'UPSR' (Ujian Penilaian Sekolah Rendah) dalam tulisan Jawi.",
+  "stem_jawi": "توليس اكرونيم 'UPSR' (اوجين ڤنيلاين سكوله رنده) دالم توليسن جاوي.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "او.ڤ.ر.س"
+   },
+   {
+    "rumi": "",
+    "jawi": "ا.ڤ.س.ر"
+   },
+   {
+    "rumi": "",
+    "jawi": "او.ڤ.س"
+   },
+   {
+    "rumi": "",
+    "jawi": "او.ڤ.س.ر"
+   }
+  ],
+  "answer": 3,
+  "explanation_rumi": "Singkatan nama jabatan atau sistem ditulis dengan huruf Jawi bagi setiap huruf UPSR, dan setiap huruf diikuti noktah, jadi jawapan yang betul ialah او.ڤ.س.ر.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q3": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'KPN' (Ketua Polis Negara).",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي اكرونيم 'KPN' (كتوا ڤوليس نݢارا).",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ق.ڤ.ن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ك.ڤ.ن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ك.ف.ن"
+   },
+   {
+    "rumi": "",
+    "jawi": "كڤن"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Singkatan nama jawatan ditulis dengan huruf Jawi dan diletakkan noktah selepas setiap huruf, jadi KPN ditulis ك.ڤ.ن.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q4": {
+  "stem_rumi": "Tulis akronim 'IPG' (Institut Pendidikan Guru) dalam tulisan Jawi.",
+  "stem_jawi": "توليس اكرونيم 'IPG' (اينستيتوت ڤنديديقن ݢورو) دالم توليسن جاوي.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "اي.ڤ.ݢ"
+   },
+   {
+    "rumi": "",
+    "jawi": "اي.ڤ.ج"
+   },
+   {
+    "rumi": "",
+    "jawi": "ا.ڤ.ݢ"
+   },
+   {
+    "rumi": "",
+    "jawi": "ايݢڤ"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Singkatan nama dalam bahasa Melayu ditulis dengan huruf Jawi dan diletakkan noktah selepas setiap huruf, jadi IPG menjadi اي.ڤ.ݢ.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q5": {
+  "stem_rumi": "Pilih ejaan Jawi yang betul bagi akronim 'TUDM' (Tentera Udara Diraja Malaysia).",
+  "stem_jawi": "پيليه ايجاءن جاوي يڠ بتول باݢي اكرونيم 'تنترا اودارا دراج مليسيا'.",
+  "options": [
+   {
+    "rumi": "",
+    "jawi": "ت.او.د.م"
+   },
+   {
+    "rumi": "",
+    "jawi": "ت.او.د.ن"
+   },
+   {
+    "rumi": "",
+    "jawi": "ت.او.د"
+   },
+   {
+    "rumi": "",
+    "jawi": "ت.او.ض.م"
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Singkatan penggal nama jabatan atau organisasi dalam bahasa Melayu ditulis dengan huruf Jawi dan diletakkan noktah selepas setiap huruf.",
+  "spelling": true,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q6": {
+  "stem_rumi": "Apakah tanda yang diletakkan selepas setiap huruf akronim singkatan bahasa Melayu dalam tulisan Jawi?",
+  "stem_jawi": "اڤاكه تندا يڠ دلتقكن سلڤس ستياڤ حروف اكرونيم سيڠكتن بهاس ملايو دالم توليسن جاوي؟",
+  "options": [
+   {
+    "rumi": "Tanda tanya",
+    "jawi": "تندا تانيا"
+   },
+   {
+    "rumi": "Tanda noktah",
+    "jawi": "تندا نقطه"
+   },
+   {
+    "rumi": "Tanda koma",
+    "jawi": "تندا كوما"
+   },
+   {
+    "rumi": "Tanda sempang",
+    "jawi": "تندا سمڤڠ"
+   }
+  ],
+  "answer": 1,
+  "explanation_rumi": "Peraturan akronim singkatan bahasa Melayu menetapkan bahawa setiap huruf Jawi diikuti oleh tanda noktah.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q7": {
+  "stem_rumi": "Antara berikut, yang manakah peraturan penulisan akronim bagi singkatan dalam bahasa Melayu yang betul?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه ڤراتورن ڤنوليسن اكرونيم باݢي سيڠكتن دالم بهاس ملايو يڠ بتول؟",
+  "options": [
+   {
+    "rumi": "Ditulis dengan huruf Jawi dan diletakkan tanda noktah selepas setiap huruf.",
+    "jawi": "دتوليس دڠن حروف جاوي دان دلتقكن تندا نقطه سلڤس ستياڤ حروف."
+   },
+   {
+    "rumi": "Ditulis dengan huruf Rumi tanpa tanda noktah.",
+    "jawi": "دتوليس دڠن حروف رومي تانڤ تندا نقطه."
+   },
+   {
+    "rumi": "Ditulis dengan huruf Rumi dan diletakkan tanda noktah selepas setiap huruf.",
+    "jawi": "دتوليس دڠن حروف رومي دان دلتقكن تندا نقطه سلڤس ستياڤ حروف."
+   },
+   {
+    "rumi": "Ditulis dengan huruf Jawi tanpa tanda noktah selepas setiap huruf.",
+    "jawi": "دتوليس دڠن حروف جاوي تانڤ تندا نقطه سلڤس ستياڤ حروف."
+   }
+  ],
+  "answer": 0,
+  "explanation_rumi": "Singkatan nama jabatan, organisasi dan jawatan ditulis dengan huruf Jawi dan diletakkan tanda noktah selepas setiap huruf, seperti ب.س.ن.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ },
+ "jawi_b4_akronim_melayu_q8": {
+  "stem_rumi": "Antara berikut, yang manakah ejaan penuh nama jawatan, pangkat dan gelaran tersebut dalam Jawi?",
+  "stem_jawi": "انتارا بريکوت، يڠ ماناکه ايجاءن ڤنوه نام جاوتن، ڤڠکت دان ݢلرن ترسبوت دالم جاوي؟",
+  "options": [
+   {
+    "rumi": "Profesor (ڤروفيسور), Doktor (دوکتور), Yang Berhormat (يڠ برحرمت)",
+    "jawi": "ڤروفيسور، دوکتور، يڠ برحرمت"
+   },
+   {
+    "rumi": "Profesor (ڤروفيسور), Doktor (دوكتور), Yang Berhormat (يڠ برحمت)",
+    "jawi": "ڤروفيسور، دوكتور، يڠ برحمت"
+   },
+   {
+    "rumi": "Profesor (ڤروفيسور), Doktor (دوكتور), Yang Berhormat (يڠ برحرمت)",
+    "jawi": "ڤروفيسور، دوكتور، يڠ برحرمت"
+   },
+   {
+    "rumi": "Profesor (ڤروفيسر), Doktor (دوكتور), Yang Berhormat (يڠ برحرمت)",
+    "jawi": "ڤروفيسر، دوكتور، يڠ برحرمت"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Nama jawatan, pangkat dan gelaran sedapat mungkin ditulis dalam bentuk kata dan ejaan yang penuh.",
+  "spelling": false,
+  "generated_by": "openai/gpt-6-luna",
+  "checked_by": "anthropic/claude-haiku-5.5",
+  "verified": false,
+  "check": "needs_review",
+  "check_problems": [
+   "Option A is visually and orthographically almost identical to option C. Its Doktor and the matching Jawi-only segment use the Persian kaf (ک, U+06A9) instead of the Arabic kaf (ك, U+0643) used in the textbook table and in option C, so two options look the same to pupils and the question does not have exactly one clearly correct option.",
+   "Option D is wrong because Profesor is written ڤروفيسر, which omits the vav (و) and is not the full spelling ڤروفيسور given in the textbook table.",
+   "Option B is wrong because Yang Berhormat is written يڠ برحمت, missing the ر, and Doktor and the Rumi-to-Jawi pair lack the full spelling used in the textbook."
+  ]
+ },
+ "jawi_b4_akronim_melayu_q9": {
+  "stem_rumi": "Antara berikut, yang manakah huruf Jawi yang betul bagi vokal 'e pepet', 'e taling' dan 'u' di awal kata dalam akronim bahasa Melayu?",
+  "stem_jawi": "انتارا بريكوت، يڠ مناكه حروف جاوي يڠ بتول باݢي ۏوكل ڤيڤيت، تاليڠ دان او دأول كات دالم اكرونيم بهاس ملايو؟",
+  "options": [
+   {
+    "rumi": "e pepet = ا; e taling = او; u = اي",
+    "jawi": "ڤيڤيت = ا؛ تاليڠ = او؛ او = اي"
+   },
+   {
+    "rumi": "e pepet = او; e taling = اي; u = ا",
+    "jawi": "ڤيڤيت = او؛ تاليڠ = اي؛ او = ا"
+   },
+   {
+    "rumi": "e pepet = ا; e taling = اي; u = او",
+    "jawi": "ڤيڤيت = ا؛ تاليڠ = اي؛ او = او"
+   },
+   {
+    "rumi": "e pepet = ي; e taling = ا; u = او",
+    "jawi": "ڤيڤيت = ي؛ تاليڠ = ا؛ او = او"
+   }
+  ],
+  "answer": 2,
+  "explanation_rumi": "Mengikut panduan Tahukah Anda, e pepet ditulis dengan ا, e taling dengan اي dan u dengan او.",
+  "spelling": false,
+  "generated_by": "anthropic/claude-haiku-5.5",
+  "checked_by": "openai/gpt-6-luna",
+  "verified": false,
+  "check": "ok"
+ }
+}

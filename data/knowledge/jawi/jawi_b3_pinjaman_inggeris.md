@@ -77,9 +77,7 @@ verified: false            # a teacher must check before use
 | George Town | جورج تاءون |
 | Kentucky Fried Chicken | كينتاكي فرائيد چيكن |
 | A Famosa | أي فاموسا |
-| Old Town Cafe | اول[TIDAK JELAS] تاءون كيفي |
-
-Nota: Perkataan pertama bagi "Old Town Cafe" kelihatan dicetak "اول" (huruf "د" tidak jelas kelihatan); perlu disemak guru.
+| Old Town Cafe | اولد تاءون كيفي |
 
 ### v. Suku kata tertutup yang berakhir dengan huruf 'k' ditulis dengan huruf 'ك' (book p50)
 **Rumi:** Suku kata tertutup yang berakhir dengan huruf 'k' hendaklah ditulis dengan huruf 'ك' sebagai padanannya.

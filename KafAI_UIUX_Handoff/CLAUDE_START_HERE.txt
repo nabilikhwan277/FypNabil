@@ -1,0 +1,16 @@
+KAFAI UPKK UI/UX HANDOFF — START HERE
+
+Goal:
+Use the supplied responsive UI mockups as the visual source of truth to improve/implement the KafAI UPKK web application UI/UX.
+
+Start by reading:
+1. 00_README.md
+2. 01_PROJECT_CONTEXT.md
+3. 02_MASTER_UIUX_IMPLEMENTATION_PROMPT.md
+4. Review every PNG inside /screens
+
+Important:
+- Focus on UI/UX and frontend presentation.
+- Keep the actual KafAI UPKK backend/RAG/scoring logic intact unless integration requires small non-breaking changes.
+- Web app/desktop is the primary experience; tablet/mobile must remain responsive.
+- Do not merely describe changes: inspect, implement, run, test, and compare against the supplied mockups.

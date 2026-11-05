@@ -3,9 +3,9 @@
 Run (from the FypNabil folder):
     .venv\\Scripts\\uvicorn backend.app.main:app --port 8000
 
-SECURITY NOTE: prototype only. There is no authentication - a student is
-identified by name + class and the client sends student_id. Run on localhost
-or a trusted school LAN only; add real auth before any public deployment.
+SECURITY NOTE: prototype only. A student is identified by name + class and the
+client sends student_id. The admin pages need the admin password (admin_auth.py).
+Run on localhost or a trusted school LAN only; add real auth before any public deployment.
 """
 from __future__ import annotations
 
@@ -13,10 +13,12 @@ import logging
 import threading
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 from . import __doc__ as pkg_doc
+from . import admin_api, live_config
+from .admin_auth import require_admin
 from . import catalog as cat
 from . import chat as chat_module
 from .assess import pipeline
@@ -25,7 +27,8 @@ from .config import get_settings
 from .embeddings import embedder_loaded, get_embedder
 from .llm import get_llm, llm_loaded
 from .notes import note_body, source_label
-from .schemas import AVATARS, AnswerIn, ChatIn, LoginIn, Student
+from . import remote_llm
+from .schemas import AVATARS, AnswerIn, ChatIn, LoginIn, QwenEndpointIn, Student
 
 log = logging.getLogger("kafa")
 settings = get_settings()
@@ -37,7 +40,8 @@ def _warm_up() -> None:
     _warm["state"] = "loading"
     try:
         get_embedder()
-        get_llm()
+        if remote_llm.endpoint() is None and settings.local_llm:   # Qwen on Colab: nothing to load here
+            get_llm()
         _warm["state"] = "ready"
     except Exception as e:  # noqa: BLE001 - report, keep API alive (rule-only scoring still works)
         log.exception("model warm-up failed")
@@ -53,7 +57,9 @@ async def lifespan(_: FastAPI):
 
 app = FastAPI(title="Intelligent KAFA UPKK Learning Assistant API", version="0.2.0", description=pkg_doc, lifespan=lifespan)
 app.add_middleware(CORSMiddleware, allow_origins=settings.cors_origins,
-                   allow_methods=["GET", "POST"], allow_headers=["Content-Type"])
+                   allow_methods=["GET", "POST", "DELETE"], allow_headers=["Content-Type", "Authorization"])
+app.include_router(admin_api.public)
+app.include_router(admin_api.router)
 
 
 def _student_or_404(student_id: int) -> dict:
@@ -65,9 +71,44 @@ def _student_or_404(student_id: int) -> dict:
 
 @app.get("/api/health")
 def health() -> dict:
-    return {"status": "ok", "llm_model": settings.llm_model_id, "llm_loaded": llm_loaded(),
+    remote = remote_llm.endpoint()
+    return {"status": "ok", "llm_model": settings.llm_model_id, "llm_loaded": llm_loaded() or remote is not None,
+            "llm_location": "colab" if remote else ("local" if settings.local_llm else "none"),
             "embed_model": settings.embed_model_id, "embedder_loaded": embedder_loaded(),
-            "warm_up": _warm["state"], "scoring_config": load_config().name}
+            "warm_up": _warm["state"], "scoring_config": load_config().name,
+            "live_scorer": live_config.current(), "researcher_mode": settings.researcher_mode}
+
+
+@app.get("/api/eval/summary", dependencies=[Depends(require_admin)])
+def eval_summary_route() -> dict:
+    """Results for the evaluation page (admin only)."""
+    from .eval_summary import summary
+
+    return summary()
+
+
+@app.get("/api/settings/qwen", dependencies=[Depends(require_admin)])
+def qwen_endpoint_get() -> dict:
+    """Where Qwen runs: the saved Google Colab link (key hidden) and whether it answers."""
+    ep = remote_llm.endpoint()
+    return {"url": ep[0] if ep else "", "has_key": bool(ep and ep[1]), "local_llm": settings.local_llm,
+            "status": remote_llm.check() if ep else None}
+
+
+@app.post("/api/settings/qwen", dependencies=[Depends(require_admin)])
+def qwen_endpoint_set(body: QwenEndpointIn) -> dict:
+    """Test the Colab link, and save it only if the server answers."""
+    status = remote_llm.check(remote_llm.normalize(body.url), body.key)
+    if not status["ok"]:
+        raise HTTPException(400, f"Colab server did not answer: {status['error']}")
+    remote_llm.set_endpoint(body.url, body.key)
+    return {"saved": True, "status": status}
+
+
+@app.delete("/api/settings/qwen", dependencies=[Depends(require_admin)])
+def qwen_endpoint_clear() -> dict:
+    remote_llm.clear_endpoint()
+    return {"saved": False}
 
 
 @app.get("/api/avatars")
@@ -136,7 +177,7 @@ def progress(student_id: int) -> dict:
                                                    "attempts", "level_unlocked")}
                                  for b in x["babs"] for t in b["topics"] if t["has_questions"]]}
                      for x in subs],
-        "recent": mem.recent_attempts(student_id, 10),
+        "recent": mem.recent_attempts(student_id, 30),   # enough for the weekly trend and the history list
     }
 
 
@@ -149,7 +190,7 @@ def chat(body: ChatIn) -> dict:
             student_id=body.student_id,
             message=body.message,
             subject=body.subject or None,
-            history=body.history,
+            history=[{"role": t.role, "content": t.content} for t in body.history],
         )
     except chat_module.ChatLimitError:
         raise HTTPException(429, "Had bual bicara untuk sesi ini sudah habis. Log masuk semula untuk teruskan.")

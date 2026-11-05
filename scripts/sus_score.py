@@ -2,9 +2,10 @@
 
 CSV columns: respondent, role, q1..q10 (1-5), a, b (optional 1-5), comment
 Usage: .venv\\Scripts\\python scripts\\sus_score.py docs\\sus_responses.csv
-Writes eval/results/sus.md
+Writes eval/results/sus.md and sus.json
 """
 import csv
+import json
 import statistics
 import sys
 from pathlib import Path
@@ -45,6 +46,11 @@ def main(path: Path) -> None:
         lines += ["", "## Comments", ""] + [f"- {c}" for c in comments]
     out = ROOT / "eval" / "results" / "sus.md"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    # machine-readable copy for the evaluation dashboard (/api/eval/summary)
+    summary = {g: {"n": len(ss), "mean": round(statistics.mean([s for _, s, _ in ss]), 1)}
+               for g, ss in groups.items() if ss}
+    (out.with_suffix(".json")).write_text(json.dumps({"groups": summary, "comments": comments}, ensure_ascii=False, indent=1),
+                                          encoding="utf-8")
     print("\n".join(lines))
 
 

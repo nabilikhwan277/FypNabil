@@ -66,7 +66,10 @@ def run_react(
     label_probs=None,
     config=None,
     examples: list[dict] | None = None,
+    score_fn: Callable[[], tuple[RubricResult, dict]] | None = None,
 ) -> ReActResult:
+    """`score_fn`, if given, replaces step 3 (the live LLM marker, KAFA_SCORER); it returns the
+    rubric result and extra trace details. Everything else (memory, feedback, saving) is unchanged."""
     trace: list[Step] = []
 
     def record(thought, action, action_input, fn):
@@ -104,9 +107,13 @@ def run_react(
 
     # 3. Score against the rubric (Layer A rules, Layer B LLM judge)
     def _score():
-        r = score_answer(question, answer, embed=embed, generate=generate, label_probs=label_probs,
-                         context=context.strip(), config=config, thresholds=thresholds, examples=examples)
-        return ({"score": r.score, "max_marks": r.max_marks, "percent": r.percent,
+        extra: dict = {}
+        if score_fn is not None:
+            r, extra = score_fn()
+        else:
+            r = score_answer(question, answer, embed=embed, generate=generate, label_probs=label_probs,
+                             context=context.strip(), config=config, thresholds=thresholds, examples=examples)
+        return (extra | {"score": r.score, "max_marks": r.max_marks, "percent": r.percent,
                  "answer_similarity": r.answer_similarity, "llm_calls": r.llm_calls, "config": r.config,
                  "criteria": [{"criterion": c.criterion, "met": c.met, "awarded": c.awarded,
                                "layer": c.layer, "evidence": c.evidence, "similarity": c.similarity,

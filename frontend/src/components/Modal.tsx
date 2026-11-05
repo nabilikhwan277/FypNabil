@@ -63,7 +63,7 @@ export default function Modal({ open, onClose, labelledBy, children, decor }: Pr
     <AnimatePresence>
       {open && (
         <motion.div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -75,7 +75,7 @@ export default function Modal({ open, onClose, labelledBy, children, decor }: Pr
             role="dialog"
             aria-modal="true"
             aria-labelledby={labelledBy}
-            className="relative max-h-[90vh] w-full max-w-md overflow-y-auto rounded-[2rem] border-4 border-yellow-300 bg-white p-6 text-center shadow-2xl"
+            className="relative max-h-[90vh] w-full max-w-md overflow-y-auto rounded-[2rem] border border-line bg-surface p-6 text-center text-ink shadow-lg"
             initial={{ scale: 0.7, y: 40 }}
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0.8, opacity: 0 }}

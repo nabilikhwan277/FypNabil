@@ -15,8 +15,12 @@ def load_silver(split: str, programmatic_sample: int | None = None, seed: int = 
     Sampling keeps tuning fast: every paraphrase item is used; programmatic
     items are subsampled per kind so each failure mode stays represented.
     """
-    if split == "teacher":   # teacher-marked answers imported by scripts/teacher_sheet.py
-        items = json.loads((ROOT / "data" / "teacher" / "teacher_test.json").read_text(encoding="utf-8"))
+    if split == "teacher" or split.startswith("teacher:"):
+        # teacher:   settled final marks (scripts/teacher_sheet.py import)
+        # teacher:X  one label set from data/teacher/labels/X.json (guru_1, guru_2, ..., agreed)
+        name = split.split(":", 1)[1] if ":" in split else ""
+        path = (ROOT / "data" / "teacher" / "labels" / f"{name}.json") if name else (ROOT / "data" / "teacher" / "teacher_test.json")
+        items = json.loads(path.read_text(encoding="utf-8"))
         for it in items:
             it["family"] = "teacher"
         return items

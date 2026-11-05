@@ -57,3 +57,9 @@ class ChatIn(BaseModel):
     @classmethod
     def limit_history(cls, v: list) -> list:
         return v[-6:] if isinstance(v, list) else v
+
+
+class QwenEndpointIn(BaseModel):
+    """Link + key of the Qwen server on Google Colab (shown by the notebook)."""
+    url: str = Field(min_length=8, max_length=300, pattern=r"^https?://\S+$")
+    key: str = Field(default="", max_length=200)
