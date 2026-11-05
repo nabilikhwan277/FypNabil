@@ -28,6 +28,8 @@ def ask(monkeypatch):
         def generate(messages, **_):
             if model_reply is None:
                 raise RemoteUnavailable("no model")
+            if isinstance(model_reply, Exception):
+                raise model_reply
             return Gen(model_reply)
 
         monkeypatch.setattr(chat, "generate_text", generate)
@@ -64,3 +66,26 @@ def test_strong_match_without_a_model_or_key_fact_is_outside_the_notes(ask):
 def test_below_the_gate_is_outside_the_notes(ask):
     r = ask(0.3, "apa-apa")
     assert r.sources == [] and r.reply.startswith(NOTICE)
+
+
+@pytest.mark.parametrize("failure", [RuntimeError("CUDA out of memory"), OSError("model files not found"),
+                                     KeyError("choices")])
+def test_any_model_failure_gives_the_pupil_a_reply_not_a_server_error(ask, failure):
+    """A model that cannot load, or a Colab reply with no 'choices', behaves like no model."""
+    weak = ask(0.45, failure)
+    assert weak.sources == [] and weak.reply == NOTICE
+    strong = ask(0.7, failure)
+    assert strong.sources and strong.reply.startswith("Berdasarkan buku teks Solat Dhuha")
+
+
+def test_gate_eval_tells_a_pointer_to_the_teacher_from_a_real_answer():
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "eval"))
+    import chat_gate_eval as ev
+
+    pointer = f"{NOTICE} Sila tanya guru anda."
+    answer = f"{NOTICE} " + "Sungai terpanjang di Malaysia ialah Sungai Rajang. " * 5
+    assert ev.after_notice(pointer) == "Sila tanya guru anda." and len(ev.after_notice(pointer)) <= ev.LONG_EXTRA
+    assert len(ev.after_notice(answer)) > ev.LONG_EXTRA
+    assert ev.after_notice("Solat Dhuha ialah solat sunat.") == ""   # no notice: nothing to measure

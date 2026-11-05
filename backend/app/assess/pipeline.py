@@ -3,6 +3,7 @@ ReAct loop, then saves the attempt (step 7 of the system architecture)."""
 from __future__ import annotations
 
 import json
+import logging
 import random
 import time
 from dataclasses import dataclass
@@ -18,6 +19,8 @@ from ..notes import note_meta, source_label
 from ..questions import load_questions
 from .decision import load_config
 from .react import run_react
+
+log = logging.getLogger(__name__)
 
 MAX_ANSWER_CHARS = 2000
 
@@ -156,16 +159,17 @@ def _llm_score(question: dict, answer: str, student_id: int, mem: MemoryStore, o
     from .llm_marking import MarkConfig, mark
     from .rubric import CriterionResult, RubricResult, score_answer
 
-    cfg = MarkConfig.parse(live_scorer())
     h = mem.history(student_id, question["topic_id"])
     weak = sorted(mem.all_mastery(student_id).values(), key=lambda m: m["mastery"])[:2]
     memory = {"mastery": h.mastery, "attempts": h.attempts, "recent_mistakes": h.repeated_mistakes,
               "weak_topics": [w["topic_id"].split("_", 2)[-1].replace("_", " ") for w in weak]}
     try:
+        cfg = MarkConfig.parse(live_scorer())        # inside the try: a bad name in .env falls back to B2, not an error
         m = mark(question, answer, cfg, memory=memory)
         if not m.ok:
             raise RuntimeError(m.error)
     except Exception as e:  # noqa: BLE001 - any API problem: use the local scorer instead
+        log.warning("Live marking fell back to B2 (%s: %s)", type(e).__name__, e)
         r = score_answer(question, answer, embed=embed, generate=None, config=load_config())
         return r, {"scorer": "b2 (fallback)", "fallback_reason": f"{type(e).__name__}: {e}"[:200]}
     crits = [CriterionResult(criterion=c["criterion"], marks=c["marks"], awarded=c["awarded"], met=c["met"],

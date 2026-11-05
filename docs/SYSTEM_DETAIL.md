@@ -184,7 +184,7 @@ The system incorporates **ReAct (Reasoning + Acting)** and extractive anchoring 
      - Misleading textbook sources are completely suppressed (`sources = []`).
      - The assistant is strictly instructed and programmatically enforced to start its response with:
        > **"Data ini tiada dalam pangkalan data saya."** *(or "This data is not in my database." for English queries)*
-     - It then provides a concise, polite general knowledge reply (1–2 sentences) without confusing religious or UPKK syllabus terms.
+     - It then does not answer from general knowledge (a small model could state an unchecked religious ruling): it suggests, in one sentence, asking the teacher or checking the textbook.
 
 3. **Extractive Factual Anchoring & Safety Fallback:**
    - For syllabus questions, `_extract_anchor_fact()` extracts the exact verified bullet points (e.g. exact rakaat count or lafaz niat) directly from the textbook note.
@@ -583,7 +583,7 @@ API: `POST /api/chat`
    - *Case C (Out-of-Syllabus / Missing in Vector DB):* Dense cosine similarity $< 0.35$ (e.g. general questions or topics outside Year 5 textbooks). Misleading sources are suppressed (`sources = []`), and the assistant strictly starts its response with: `"Data ini tiada dalam pangkalan data saya."` (or `"This data is not in my database."`).
 4. **Reasoned Prompt Assembly** (prompt files in `backend/app/prompts/`, one sentence per line, joined into one paragraph by `prompts.render_paragraph`):
    - In-syllabus, `chat.txt`: injects the intent focus (`{focus}`) and the extracted textbook anchor (`{anchor}`) and instructs the model to keep answers short (1–3 sentences), factual, and faithful.
-   - Out-of-syllabus, `chat_outside.txt`: instructs the model to lead with the explicit database notice (`{notice}`), followed by a concise 1–2 sentence general knowledge reply.
+   - Out-of-syllabus, `chat_outside.txt`: instructs the model to lead with the explicit database notice (`{notice}`), then one sentence telling the pupil to ask the teacher or check the textbook; no general-knowledge answer is allowed.
 5. **LLM Generation:** Qwen 2.5 3B generates a concise response (`max_new_tokens = 150`, `temperature = 0.1`, `repetition_penalty = 1.0`, `no_repeat_ngram_size = 0`).
 6. **Extractive Safety Guardrail & Output Cleaning:**
    - If in-syllabus generation is degenerate or incomplete, the verified textbook anchor is used as an automatic fallback (*"Berdasarkan buku teks [Topik] (ms. [X]): [anchor]"*).
@@ -943,7 +943,7 @@ To resolve issues with inaccurate, circular, or hallucinated answers in the AI C
      - Questions scoring $\ge 0.55$ dense cosine similarity are answered with extractive textbook anchoring and textbook sources.
      - Questions scoring $< 0.55$ (not in database) strictly suppress textbook sources (`sources = []`) and lead with:
        > **"Data ini tiada dalam pangkalan data saya."** *(or "This data is not in my database." for English queries)*
-       followed by a concise, polite general knowledge reply (1–2 sentences).
+       followed by one sentence suggesting the pupil ask the teacher or check the textbook (no general-knowledge answer).
   4. **Subject Normalization:** Input aliases `ibadah` and `fiqah` automatically route to `fiqh` across ChromaDB dense vector searches and BM25 lexical indexing.
 
 ---

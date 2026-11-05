@@ -32,6 +32,18 @@ from backend.app.kb.retriever import dense_search  # noqa: E402
 
 RES = ROOT / "eval" / "results"
 SID = -1   # a test pupil id for the chat's turn counter (nothing is saved)
+NOTICES = ("tiada dalam pangkalan data saya.", "not in my database.")
+LONG_EXTRA = 160   # more text than this after the notice is a real answer, not a one-sentence pointer to the teacher
+
+
+def after_notice(reply: str) -> str:
+    """What follows the decline notice. The chat puts the notice in front of whatever the model said, so a reply with
+    the notice can still contain a full answer: this text tells the two apart."""
+    low = reply.lower()
+    for n in NOTICES:
+        if n in low:
+            return reply[low.index(n) + len(n):].strip()
+    return ""
 
 
 def model_in_use(no_model: bool) -> str:
@@ -66,7 +78,8 @@ def ask(text: str, subject: str | None) -> dict:
     r = chat.ask(student_id=SID, message=text, subject=subject)
     declined = "tiada dalam pangkalan data" in r.reply.lower() or "not in my database" in r.reply.lower()
     return {"question": text, "subject": subject or "", "score": round(score, 3), "band": band(score),
-            "declined": declined, "sources": len(r.sources), "reply": r.reply, "seconds": round(time.perf_counter() - t0, 1)}
+            "declined": declined, "answered_anyway": declined and len(after_notice(r.reply)) > LONG_EXTRA,
+            "sources": len(r.sources), "reply": r.reply, "seconds": round(time.perf_counter() - t0, 1)}
 
 
 def main(no_model: bool) -> None:
@@ -84,6 +97,7 @@ def main(no_model: bool) -> None:
     summary = {
         "answerable_answered": sum(not r["declined"] for r in ans), "answerable": len(ans),
         "oos_declined": sum(r["declined"] for r in oos), "oos": len(oos),
+        "oos_declined_but_answered": sum(r["answered_anyway"] for r in oos),
         "oos_declined_by_kind": {k: f"{sum(r['declined'] for r in oos if r['kind'] == k)}/{sum(r['kind'] == k for r in oos)}"
                                  for k in ("general", "near")},
         "oos_answered_with_sources": sum(not r["declined"] and r["sources"] > 0 for r in oos),
@@ -110,6 +124,8 @@ def markdown(res: dict) -> str:
           f"| Textbook questions answered | {s['answerable_answered']} of {s['answerable']} |",
           f"| Off-syllabus questions declined | {s['oos_declined']} of {s['oos']} (general {s['oos_declined_by_kind']['general']}, "
           f"near the syllabus {s['oos_declined_by_kind']['near']}) |",
+          f"| ...of those, the reply also answered from general knowledge (more than {LONG_EXTRA} characters after the notice) | "
+          f"{s['oos_declined_but_answered']} |",
           f"| Off-syllabus answered with textbook sources (the risky case) | {s['oos_answered_with_sources']} |",
           f"| Mean time per question | {s['seconds_mean']} s |", "",
           "| Best match | Textbook questions | of them declined | Off-syllabus | of them declined |", "|---|---|---|---|---|"]

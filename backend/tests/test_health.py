@@ -27,3 +27,23 @@ def test_eval_summary_only_for_the_admin(monkeypatch, tmp_path):
     body = r.json()
     assert {"targets", "runs", "spend", "labels"} <= set(body)
     assert body["targets"]["qwk"]["target"] == 0.70
+
+
+def test_health_does_not_call_a_dead_colab_link_loaded(monkeypatch):
+    from backend.app import remote_llm
+
+    monkeypatch.setattr("backend.app.main.settings.preload_models", False)
+    monkeypatch.setattr(remote_llm, "endpoint", lambda: ("https://dead.example", "k"))
+    monkeypatch.setattr("backend.app.main.llm_loaded", lambda: False)
+    calls = []
+    monkeypatch.setattr(remote_llm, "check", lambda *a: calls.append(a) or {"ok": False, "error": "down"})
+    remote_llm._served.clear(); remote_llm._dead.clear()
+    with TestClient(app) as client:
+        assert client.get("/api/health").json()["llm_loaded"] is False
+        assert client.get("/api/health").json()["llm_loaded"] is False
+    assert len(calls) == 1            # the second health call did not wait for the dead link again
+    monkeypatch.setattr(remote_llm, "check", lambda *a: {"ok": True, "model": "qwen"})
+    remote_llm._dead.clear()
+    with TestClient(app) as client:
+        assert client.get("/api/health").json()["llm_loaded"] is True
+    remote_llm._served.clear(); remote_llm._dead.clear()

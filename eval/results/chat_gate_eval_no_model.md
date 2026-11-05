@@ -1,13 +1,14 @@
 # Tanya Bulan: declining off-syllabus questions (no model (textbook-only fallback))
 
-Gate 0.35 (a model answers with the decline rule); textbook-only fallback 0.55. Questions of the RAG evaluation. Run 2026-11-02T08:10:15+00:00.
+Gate 0.35 (a model answers with the decline rule); textbook-only fallback 0.55. Questions of the RAG evaluation. Run 2026-11-05T04:18:03+00:00.
 
 | | Result |
 |---|---|
 | Textbook questions answered | 37 of 45 |
 | Off-syllabus questions declined | 23 of 24 (general 12/12, near the syllabus 11/12) |
+| ...of those, the reply also answered from general knowledge (more than 160 characters after the notice) | 0 |
 | Off-syllabus answered with textbook sources (the risky case) | 1 |
-| Mean time per question | 0.2 s |
+| Mean time per question | 0.3 s |
 
 | Best match | Textbook questions | of them declined | Off-syllabus | of them declined |
 |---|---|---|---|---|

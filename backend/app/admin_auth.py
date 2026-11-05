@@ -45,9 +45,10 @@ def issue() -> dict:
 
 def valid(token: str) -> bool:
     exp, _, sig = (token or "").partition(".")
-    if not enabled() or not exp.isdigit() or int(exp) < time.time():
-        return False
-    return hmac.compare_digest(sig, hmac.new(_key(), exp.encode(), hashlib.sha256).hexdigest())
+    if not enabled() or not (exp.isascii() and exp.isdigit()) or int(exp) < time.time():
+        return False        # isascii: a digit such as "²" passes isdigit() but int() raises on it
+    # compare bytes: compare_digest raises TypeError on a str with non-ASCII characters
+    return hmac.compare_digest(sig.encode(), hmac.new(_key(), exp.encode(), hashlib.sha256).hexdigest().encode())
 
 
 def require_admin(authorization: str | None = Header(default=None)) -> None:

@@ -30,3 +30,9 @@ def test_every_prompt_file_is_used():
     used = set(re.findall(r"""prompts\.render\w*\(\s*["'](\w+)["']""", code)) | set(re.findall(r"""render\w*\(\s*["'](\w+)["']""", code))
     files = {p.stem for p in (APP / "prompts").glob("*.txt")}
     assert files <= used, f"unused prompt files: {sorted(files - used)}"
+
+
+def test_out_of_syllabus_prompt_does_not_allow_an_unchecked_general_knowledge_answer():
+    p = prompts.render_paragraph("chat_outside", notice="Data ini tiada dalam pangkalan data saya.")
+    assert "boleh membantu memberi jawapan" not in p
+    assert "jangan jawab soalan tersebut" in p and "guru" in p

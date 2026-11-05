@@ -195,3 +195,14 @@ def test_warnings_point_the_teacher_to_unclear_and_broken_jawi():
     assert any("TIDAK JELAS" in x for x in w) and any("ادالah" in x for x in w)
     assert library.warnings_for("- **Rumi:** Hukumnya sunat. | **Jawi:** حكومڽ سنة.") == []
     assert library._keywords(["dua rakaat — دوا ركعة", "sunat muakkad"]) == ["dua rakaat", "دوا ركعة", "sunat muakkad"]
+
+
+def test_a_token_with_non_ascii_text_is_just_invalid_not_a_server_error(monkeypatch, tmp_path):
+    from backend.app import admin_auth
+
+    monkeypatch.setattr(get_settings(), "admin_password", "pw-test")
+    monkeypatch.setattr(get_settings(), "sqlite_path", tmp_path / "kafa.db")
+    good = admin_auth.issue()["token"]
+    assert admin_auth.valid(good)
+    for bad in ("9999999999.é", "²99999999.abc", "٣.abc", good[:-1] + "é"):
+        assert admin_auth.valid(bad) is False

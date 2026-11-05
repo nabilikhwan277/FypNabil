@@ -144,3 +144,36 @@ def test_a_cached_call_pays_nothing_but_keeps_its_list_price(monkeypatch):
     r = mark(Q, "Tiga kalimah dalam enam tempat.", MarkConfig.parse("b1:luna"))
     assert r.usage["cost"] == 0.0 and r.usage["cached"] == 1
     assert r.usage["list_cost"] == pytest.approx(0.0003)
+
+
+@pytest.mark.parametrize("bad", ["proposed:luna:R9:A2:off", "proposed:luna:R3:A7:off", "b3:luna:R0"])
+def test_config_with_an_unknown_rag_or_react_name_is_rejected(bad):
+    with pytest.raises(ValueError):
+        MarkConfig.parse(bad)
+
+
+def test_a1_survives_a_string_where_the_model_should_send_an_object(monkeypatch):
+    steps = [json.dumps({"thought": "", "action": "search_notes", "input": "mad farq"}),
+             json.dumps({"thought": "", "action": "submit_marks",
+                         "input": {"criteria": [{"no": 1, "verdict": "ya", "reason": ""},
+                                                {"no": 2, "verdict": "ya", "reason": ""}], "feedback": "Betul."}})]
+    fake, calls = fake_complete(steps)
+    monkeypatch.setattr(lm, "complete", fake)
+    monkeypatch.setattr(lm, "_retrieve", lambda *a, **k: type("R", (), {"context": "teks", "chunks": lambda self: []})())
+    r = mark(Q, "Tiga kalimah dalam enam tempat", MarkConfig.parse("proposed:luna:R1:A1:off"))
+    assert r.ok and r.score == 2.0 and len(calls) == 2
+
+
+def test_a_bad_live_scorer_name_falls_back_to_b2_and_is_logged(monkeypatch, caplog):
+    from types import SimpleNamespace
+
+    from backend.app.assess import pipeline, rubric
+
+    mem = SimpleNamespace(history=lambda sid, tid: SimpleNamespace(mastery=0.5, attempts=1, repeated_mistakes=[]),
+                          all_mastery=lambda sid: {})
+    monkeypatch.setattr(pipeline, "live_scorer", lambda: "proposed:luna:R9:A2:off")     # e.g. a typo in KAFA_SCORER
+    monkeypatch.setattr(rubric, "score_answer", lambda *a, **k: "B2-RESULT")
+    with caplog.at_level("WARNING"):
+        r, details = pipeline._llm_score({"topic_id": "t_x"}, "jawapan", 1, mem, {})
+    assert r == "B2-RESULT" and details["scorer"] == "b2 (fallback)" and "R9" in details["fallback_reason"]
+    assert "fell back to B2" in caplog.text

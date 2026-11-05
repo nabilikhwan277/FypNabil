@@ -71,6 +71,8 @@ def check(url: str | None = None, key: str | None = None) -> dict:
 
 
 _served: dict[str, dict] = {}
+_dead: dict[str, float] = {}      # link -> when it last failed to answer
+DEAD_FOR_S = 30                   # a link that did not answer is not asked again for this long (each ask can wait 20 s)
 
 
 def served() -> dict:
@@ -80,8 +82,11 @@ def served() -> dict:
     if ep is None:
         return {}
     if ep[0] not in _served:
+        if time.monotonic() - _dead.get(ep[0], -1e9) < DEAD_FOR_S:
+            return {}
         status = check(*ep)
         if not status["ok"]:
+            _dead[ep[0]] = time.monotonic()
             return {}
         _served[ep[0]] = status
     return _served[ep[0]]

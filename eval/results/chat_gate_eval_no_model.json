@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02T08:10:15+00:00",
+ "date": "2026-11-05T04:18:03+00:00",
  "model": "no model (textbook-only fallback)",
  "gates": {
   "gate": 0.35,
@@ -10,6 +10,7 @@
   "answerable": 45,
   "oos_declined": 23,
   "oos": 24,
+  "oos_declined_but_answered": 0,
   "oos_declined_by_kind": {
    "general": "12/12",
    "near": "11/12"
@@ -35,7 +36,7 @@
     "oos_declined": 1
    }
   },
-  "seconds_mean": 0.2
+  "seconds_mean": 0.3
  },
  "rows": [
   {
@@ -46,9 +47,10 @@
    "score": 0.622,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 3,
    "reply": "Berdasarkan buku teks Solat Dua Hari Raya, Bahagian: Pengertian Solat Dua Hari Raya",
-   "seconds": 0.6
+   "seconds": 1.0
   },
   {
    "kind": "answerable",
@@ -58,9 +60,10 @@
    "score": 0.668,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Solat Tahajud, Antara fadhilatnya ialah: Topik: Solat Tahajud; Bahagian: Fadhilat Solat Tahajud; Membersihkan hati daripada kebencian sesama manusia..",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -70,9 +73,10 @@
    "score": 0.772,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Solat Witir, Antara fadhilatnya ialah: Topik: Solat Witir; Bahagian: Fadhilat Solat Witir; Disukai oleh Allah SWT..",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -82,9 +86,10 @@
    "score": 0.685,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Solat Taubat, Rumi:** Solat taubat didirikan sebanyak dua rakaat ketika seseorang itu ingin bertaubat kepada Allah SWT atas segala dosa yang telah dilakukannya.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -94,9 +99,10 @@
    "score": 0.719,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 4,
    "reply": "Berdasarkan buku teks Solat Tarawih, Niatnya ialah: \"Sahaja aku solat sunat tarawih dua rakaat kerana Allah Taala.\"",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -106,9 +112,10 @@
    "score": 0.763,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Solat Taubat, Antara fadhilatnya ialah: Topik: Solat Taubat; Bahagian: Pengertian Solat Taubat; Rumi:** Solat taubat didirikan sebanyak dua rakaat ketika seseorang itu ingin bertaubat kepada Allah SWT atas segala dosa yang telah dilakukannya..",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -118,9 +125,10 @@
    "score": 0.55,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -130,9 +138,10 @@
    "score": 0.684,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Solat Hajat, Antara fadhilatnya ialah: Topik: Solat Hajat; Bahagian: Fadhilat Solat Hajat; Meningkatkan keimanan dan keyakinan kita kepada Allah SWT..",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -142,9 +151,10 @@
    "score": 0.714,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Solat Gerhana Matahari dan Bulan, Niatnya ialah: \"Sahaja aku solat sunat gerhana matahari dua rakaat kerana Allah Taala.\"",
-   "seconds": 0.2
+   "seconds": 0.5
   },
   {
    "kind": "answerable",
@@ -154,9 +164,10 @@
    "score": 0.621,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 3,
    "reply": "Berdasarkan buku teks Solat Dua Hari Raya, Bahagian: Pengertian Solat Dua Hari Raya",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -166,9 +177,10 @@
    "score": 0.692,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 4,
    "reply": "Berdasarkan buku teks Solat Hajat, Niatnya ialah: \"Sahaja aku solat sunat hajat dua rakaat kerana Allah Taala.\"",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -178,9 +190,10 @@
    "score": 0.737,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 3,
    "reply": "Berdasarkan buku teks Hikmah Puasa, Antara fadhilatnya ialah: Topik: Hikmah Puasa; Bahagian: Hikmah; Membentuk sifat sabar, berdisiplin dan bersyukur..",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -190,9 +203,10 @@
    "score": 0.655,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 4,
    "reply": "Berdasarkan buku teks Fadhilat dan Kepentingan Puasa, Puasa ialah perisai daripada api neraka.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -202,9 +216,10 @@
    "score": 0.722,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Perkara-perkara yang Membatalkan Puasa, Makan dan minum dengan sengaja walaupun sedikit.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -214,9 +229,10 @@
    "score": 0.708,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Puasa Wajib dan Sunat, Puasa sunat enam hari pada bulan Syawal kecuali 1 Syawal yang diharamkan berpuasa.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -226,9 +242,10 @@
    "score": 0.62,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 3,
    "reply": "Berdasarkan buku teks Mengeja Kata yang Menggunakan Imbuhan '-i' dengan Huruf '-ي', Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -238,9 +255,10 @@
    "score": 0.542,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -250,9 +268,10 @@
    "score": 0.726,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Kata Pinjaman Bahasa Arab, Bahagian: Pengertian (book p38)",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -262,9 +281,10 @@
    "score": 0.572,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mengeja Kata yang Menggunakan Imbuhan '-i' dengan Huruf '-ءي', Petikan (Jawi, seperti dicetak):**",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -274,9 +294,10 @@
    "score": 0.653,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 3,
    "reply": "Berdasarkan buku teks Mengeja Kata yang Menggunakan Imbuhan '-an' dengan Huruf '-ن', Kata dasar yang berakhir dengan huruf '-ي' terdiri daripada suku kata terbuka yang menggunakan vokal 'i' dan diftong 'ai'.",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -286,9 +307,10 @@
    "score": 0.662,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 3,
    "reply": "Berdasarkan buku teks Mengeja Kata yang Menggunakan Imbuhan '-an' dengan Huruf '-ءن', ساله ساتو اكتيۏيتي يڠ دجالنكن اياله مڠهياس كاوسن سكوله دڠن مڠݢنتوڠ بنديرا دان كاءين رنتڠ يڠ مڠاندوڠي كات٢ ڤاتريوتيك. ڤرتنديڠن مڠهياس كلس دڠن ڤلباݢاي بنتوق دان سايز بنديرا يڠ برورنا-ورني دجالنكن دسڤنجڠ بولن اوݢوس.",
-   "seconds": 0.1
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -298,9 +320,10 @@
    "score": 0.755,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Kata Pinjaman Bahasa Inggeris, Rumi:** Kata yang berakhir dengan bunyi 'e' pepet hendaklah ditulis dengan huruf 'ى' (ye).",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -310,9 +333,10 @@
    "score": 0.717,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Mengeja Kata yang Menggunakan Imbuhan '-i' dengan Huruf '-ي', Suku kata tertutup ialah suku kata yang diakhiri oleh huruf konsonan.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -322,9 +346,10 @@
    "score": 0.581,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mengeja Kata yang Menggunakan Imbuhan '-i' dengan Huruf '-ءي', Arahan: Baca petikan di bawah ini dengan teliti kemudian jawab semua soalan berdasarkan petikan itu.",
-   "seconds": 0.1
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -334,9 +359,10 @@
    "score": 0.539,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -346,9 +372,10 @@
    "score": 0.482,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -358,9 +385,10 @@
    "score": 0.563,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 3,
    "reply": "Berdasarkan buku teks Kata Pinjaman Bahasa Arab, Jawi (seperti dicetak):**",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -370,9 +398,10 @@
    "score": 0.549,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -382,9 +411,10 @@
    "score": 0.6,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Mengeja Kata yang Menggunakan Imbuhan '-an' dengan Huruf '-ءن', Petikan (Jawi, seperti dicetak):**",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -394,9 +424,10 @@
    "score": 0.366,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -406,9 +437,10 @@
    "score": 0.624,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mad Farq, Bahagian: Tahukah Anda?",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -418,9 +450,10 @@
    "score": 0.752,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Mad Farq, Rumi:** Mad Farq juga boleh dibaca dengan tashil iaitu membunyikan hamzah kedua antara bunyi hamzah dan alif, tetapi bacaan mad lebih utama.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -430,9 +463,10 @@
    "score": 0.696,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Mad Ta'zim, Rumi:** Bahagian kedua: Mad Far'i yang terbentuk dengan sebab terdapat huruf mati yang terletak selepas huruf mad. Hukum-hukum mad yang terbentuk adalah seperti berikut:",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -442,9 +476,10 @@
    "score": 0.681,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Mad Asli Kalimi, Rumi:** Kadar panjang bacaan mad asli kalimi ialah dua harakat.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "answerable",
@@ -454,9 +489,10 @@
    "score": 0.664,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mad Ta'zim, Rumi:** Mad Ta'zim ialah apabila terdapat kalimah {لَآ} yang menunjukkan penafian bertemu dengan kalimah {إِلَٰهَ}.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -466,9 +502,10 @@
    "score": 0.717,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Mad Lazim Harfi Muthaqqal, Rumi:** Cara bacaannya ialah dibaca dengan idgham beserta dengung.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -478,9 +515,10 @@
    "score": 0.748,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mad Farq, (Tiga kalimah itu ialah ءَآللَّهُ, ءَآلذَّكَرَيۡنِ dan ءَآلۡـَٰٔنَ, berdasarkan senarai di atas.)",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -490,9 +528,10 @@
    "score": 0.745,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Mad Lazim Harfi Muthaqqal, Rumi:** Mad Lazim Harfi Muthaqqal ialah apabila huruf mad bertemu dengan huruf mati dalam satu huruf yang terdapat di permulaan surah (fawatih al-suwar) dan diidghamkan ke dalam huruf berikutnya.",
-   "seconds": 0.2
+   "seconds": 0.5
   },
   {
    "kind": "answerable",
@@ -502,9 +541,10 @@
    "score": 0.682,
    "band": "strong",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -514,9 +554,10 @@
    "score": 0.59,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mad Silah Tawilah, Bahagian: Pengertian Mad Silah Tawilah",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -526,9 +567,10 @@
    "score": 0.68,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 4,
    "reply": "Berdasarkan buku teks Mad 'Aridh Lissukun, Rumi:** Kadar panjang bacaan Mad 'Aridh Lissukun ialah dua atau empat atau enam harakat.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -538,9 +580,10 @@
    "score": 0.674,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mad Ta'zim, Rumi:** Kadar panjang bacaan Mad Ta'zim ialah empat atau lima harakat.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -550,9 +593,10 @@
    "score": 0.579,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mad Lin, Hukum Mad Lin hanya berlaku ketika mewaqafkan ayat.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -562,9 +606,10 @@
    "score": 0.571,
    "band": "strong",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "answerable",
@@ -574,9 +619,10 @@
    "score": 0.728,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 1,
    "reply": "Berdasarkan buku teks Mad Tamkin, Rumi:** Mad Tamkin ialah apabila bertemu dua huruf ya di dalam satu kalimah, ya pertama berbaris bawah dan bertasydid manakala ya kedua mati.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -586,9 +632,10 @@
    "score": 0.41,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -598,9 +645,10 @@
    "score": 0.52,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -610,9 +658,10 @@
    "score": 0.34,
    "band": "below",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.4
   },
   {
    "kind": "general",
@@ -622,9 +671,10 @@
    "score": 0.463,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.4
   },
   {
    "kind": "general",
@@ -634,9 +684,10 @@
    "score": 0.451,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -646,9 +697,10 @@
    "score": 0.396,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -658,9 +710,10 @@
    "score": 0.371,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -670,9 +723,10 @@
    "score": 0.422,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -682,9 +736,10 @@
    "score": 0.401,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -694,9 +749,10 @@
    "score": 0.393,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -706,9 +762,10 @@
    "score": 0.352,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "kind": "general",
@@ -718,6 +775,7 @@
    "score": 0.41,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
    "seconds": 0.3
@@ -730,9 +788,10 @@
    "score": 0.474,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "near",
@@ -742,9 +801,10 @@
    "score": 0.502,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "near",
@@ -754,9 +814,10 @@
    "score": 0.592,
    "band": "strong",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "near",
@@ -766,9 +827,10 @@
    "score": 0.544,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "near",
@@ -778,9 +840,10 @@
    "score": 0.461,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "near",
@@ -790,9 +853,10 @@
    "score": 0.515,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "kind": "near",
@@ -802,9 +866,10 @@
    "score": 0.462,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "near",
@@ -814,9 +879,10 @@
    "score": 0.527,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "kind": "near",
@@ -826,9 +892,10 @@
    "score": 0.587,
    "band": "strong",
    "declined": false,
+   "answered_anyway": false,
    "sources": 2,
    "reply": "Berdasarkan buku teks Mengeja Kata yang Menggunakan Imbuhan '-an' dengan Huruf '-ان', Rumi:** Akhiran '-an' pada kata dasar yang diakhiri dengan huruf 'و' termasuk bunyi diftong 'au' hendaklah dieja dengan huruf '-ان'.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "near",
@@ -838,9 +905,10 @@
    "score": 0.505,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "near",
@@ -850,9 +918,10 @@
    "score": 0.419,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "kind": "near",
@@ -862,9 +931,10 @@
    "score": 0.431,
    "band": "weak",
    "declined": true,
+   "answered_anyway": false,
    "sources": 0,
    "reply": "Data ini tiada dalam pangkalan data saya.",
-   "seconds": 0.2
+   "seconds": 0.3
   }
  ]
 }

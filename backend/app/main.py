@@ -72,7 +72,7 @@ def _student_or_404(student_id: int) -> dict:
 @app.get("/api/health")
 def health() -> dict:
     remote = remote_llm.endpoint()
-    return {"status": "ok", "llm_model": settings.llm_model_id, "llm_loaded": llm_loaded() or remote is not None,
+    return {"status": "ok", "llm_model": settings.llm_model_id, "llm_loaded": llm_loaded() or bool(remote and remote_llm.served()),
             "llm_location": "colab" if remote else ("local" if settings.local_llm else "none"),
             "embed_model": settings.embed_model_id, "embedder_loaded": embedder_loaded(),
             "warm_up": _warm["state"], "scoring_config": load_config().name,

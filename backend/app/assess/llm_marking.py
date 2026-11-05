@@ -61,8 +61,14 @@ class MarkConfig:
         model = p[1] if len(p) > 1 else "luna"
         if p[0] != "b2" and model not in MODELS:
             raise ValueError(f"unknown model {model}")
-        return cls(system=p[0], model=model, rag=p[2] if len(p) > 2 else "R2",
-                   react=p[3] if len(p) > 3 else "A2", memory=len(p) > 4 and p[4] == "on")
+        from ..kb.rag import RAG_TYPES
+
+        rag, react = (p[2] if len(p) > 2 else "R2"), (p[3] if len(p) > 3 else "A2")
+        if rag not in RAG_TYPES:
+            raise ValueError(f"unknown RAG type {rag}")
+        if react not in REACT_TYPES:
+            raise ValueError(f"unknown ReAct type {react}")
+        return cls(system=p[0], model=model, rag=rag, react=react, memory=len(p) > 4 and p[4] == "on")
 
 
 @dataclass
@@ -327,10 +333,11 @@ def _a1(cfg: MarkConfig, q: dict, answer: str, memory: dict | None, fixed: dict,
         t0 = time.perf_counter()
         c = run.call(msgs, None, "react_step", max_tokens=2000)
         act = parse_json(c.text) or {}
-        action, inp = str(act.get("action", "")), act.get("input") or {}
+        action, raw = str(act.get("action", "")), act.get("input")
+        inp = raw if isinstance(raw, dict) else {}      # the model may send a string or a list here
         if action == "submit_marks":
             run.step(str(act.get("thought", "")), "submit_marks", inp, t0)
-            return _finish(cfg, q, inp if isinstance(inp, dict) else None, fixed, run, chunks)
+            return _finish(cfg, q, inp or None, fixed, run, chunks)
         if action == "get_rubric":
             obs = f"RUBRIK:\n{_rubric_text(q)}\n\nJAWAPAN RUJUKAN:\n{_reference(q)}"
         elif action == "search_notes":

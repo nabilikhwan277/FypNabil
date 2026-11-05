@@ -8,16 +8,18 @@ Rate limit: MAX_TURNS per session, tracked in-process (resets on restart).
 """
 from __future__ import annotations
 
+import logging
 import re
 import threading
 from dataclasses import dataclass, field
 
 from .kb.retriever import search_notes, dense_search
 from .llm import generate_text
-from .remote_llm import RemoteUnavailable
 from . import prompts
 
-MAX_TURNS = 10          # messages per session (reset on restart or re-login)
+log = logging.getLogger(__name__)
+
+MAX_TURNS = 10         # messages per session (reset on restart or re-login)
 MAX_Q_LEN = 500         # characters; trim silently
 MAX_HISTORY = 3         # assistant turns kept in the prompt
 MAX_NEW_TOKENS = 150
@@ -406,8 +408,9 @@ def ask(
             no_repeat_ngram_size=NO_REPEAT_NGRAM,
         )
         reply = _clean(gen.text)
-    except RemoteUnavailable:
-        reply = ""                    # no model reachable: the textbook anchor below is used instead
+    except Exception as e:  # noqa: BLE001 - any model failure (no Colab link, model not loadable, bad reply) must not give the pupil a server error
+        log.warning("Tanya Bulan: the model gave no reply (%s: %s)", type(e).__name__, e)
+        reply = ""                    # no model: the textbook anchor below is used instead
 
     declined = "tiada dalam pangkalan data" in reply.lower() or "not in my database" in reply.lower()
     if has_syllabus_match and (declined or not (reply or anchor)):
