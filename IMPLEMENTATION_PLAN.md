@@ -221,8 +221,7 @@ Run on held-out test split (485 answers).
 | Deliverable | File |
 |---|---|
 | Examiner README | `README.md` |
-| Chapter 3 revised | `docs/thesis/chapter3_revised.md` |
-| Chapter 4 results draft | `docs/thesis/chapter4_results_draft.md` |
+| Thesis chapters | Word files outside this repository (the old Markdown drafts were removed) |
 | Figures (PNG 2×) | `docs/figures/` |
 | SUS questionnaire | `docs/SUS_soal_selidik.md` + `scripts/sus_score.py` |
 | Teacher kit | `scripts/teacher_sheet.py` |

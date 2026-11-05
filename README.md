@@ -1,9 +1,13 @@
-# Intelligent KAFA UPKK Learning Assistant
+# KafAI UPKK
+
+*Belajar daripada setiap jawapan.* An intelligent KAFA UPKK learning assistant.
 
 A web-based prototype that assesses Year 5 KAFA pupils' text answers in **Ibadah (Fiqh), Jawi and Tajwid** and returns a score, the mistakes, the correct answer with its textbook page, and a next-step suggestion. It combines retrieval-augmented generation (RAG) over the official textbooks, a controlled ReAct loop, two-layer rubric scoring and a per-pupil learning memory. The interface works in both Rumi and Jawi script.
 
 Final Year Project, Bachelor of Information Systems (Hons.) Intelligent Systems Engineering, UiTM. Author: Muhammad Nabil Ikhwan bin Ahmad Safuwan. Supervisor: Dr. Ezzatul Akmal binti Kamaru-Zaman.
 
+> **Keep this repository private.** `data/knowledge/`, `data/questions/` and `data/finetune/` hold notes, questions and reference answers derived from copyrighted textbooks (Ibadah KAFA JAKIM, JAIS Tajwid, JAIS Jawi), which must not be published. Scanned books and exam papers go in `data/books_private/` and teacher names in `data/teacher/_names_private.json`; both are git-ignored. Never commit `.env` or `storage/`.
+>
 > **Prototype.** There is no authentication: a pupil is identified by name + class only. Run it on a single computer or a trusted school network. The textbook notes are AI-assisted transcriptions and are marked `verified: false` until a teacher has checked them (`data/REVIEW_CHECKLIST.md`).
 
 ## What it does
@@ -74,9 +78,9 @@ cd frontend; npm run build; npm run lint          # frontend
 | Teacher marks (Google Form) | `teacher_sheet.py form` → run `data/teacher/google_form/create_form.gs` in script.google.com → teachers fill the form → download responses as CSV → `from-form responses.csv` → settle blanks → `import` → `scoring_features.py teacher` → `evaluate.py 0 teacher` → `teacher_sheet.py report` | `eval/results/teacher_report.md` |
 | Usability (SUS) | fill in `docs/sus_responses.csv`, then `python scripts\sus_score.py docs\sus_responses.csv` | `eval/results/sus.md` |
 
-Current results use **silver labels** (AI-written and rule-built answers, see `data/silver/README.md`), not teacher marks.
+Final results use **50 constructed answers marked by three KAFA teachers** (no real pupil answers are used); silver labels (AI-written and rule-built answers, `data/silver/README.md`) were for development only. Experiments and conclusions: `docs/EXPERIMENTS_AND_CONCLUSIONS.md`; system description: `docs/SYSTEM_DETAIL.md`.
 
-### LLM experiments and evaluation (blueprint v0.4, `IMPLEMENTATION_PLAN_V2.md`)
+### LLM experiments and evaluation (plan: `EXPERIMENT_PLAN_V3.md`)
 API models run through OpenRouter: put `KAFA_OPENROUTER_API_KEY=...` in `.env` (git-ignored). Spending stops at `KAFA_LLM_BUDGET_USD` (default $4); every call is logged to `storage/llm_calls.jsonl` and cached in `storage/llm_cache/`.
 
 | Step | Command | Output |
@@ -109,8 +113,8 @@ data/splits/        train / test question ids
 data/silver/        silver answers for tuning/evaluation
 eval/               evaluation scripts and results
 scripts/            data validation, figures, demos, teacher/SUS kits
-docs/               thesis figures and drafts, SUS questionnaire
-IMPLEMENTATION_PLAN.md   phase-by-phase plan and status
+docs/               system detail, experiment conclusions, thesis figures, SUS questionnaire
+EXPERIMENT_PLAN_V3.md    the current experiment plan (IMPLEMENTATION_PLAN*.md are earlier plans)
 ```
 
 ## Configuration

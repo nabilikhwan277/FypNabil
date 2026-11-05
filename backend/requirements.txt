@@ -19,7 +19,9 @@ huggingface-hub==0.36.2
 
 # Vector DB + storage
 chromadb==1.5.9   # 1.x ships a prebuilt Rust core (0.6.x fails to build hnswlib on Windows/py3.12)
-sqlalchemy==2.0.36
+
+# Reading uploaded textbook PDFs (backend/app/library.py, eval/ocr_eval.py)
+PyMuPDF==1.24.10
 
 # Data
 pyyaml==6.0.2
@@ -32,3 +34,6 @@ httpx==0.28.1
 matplotlib==3.9.2
 # OCR comparison (eval/ocr_eval.py: character / word error rate); Tesseract itself is a separate install
 rapidfuzz==3.10.1
+
+# Screenshots and browser tests only (scripts/e2e_ui.py, scraper/); afterwards run: playwright install chromium
+playwright==1.47.0

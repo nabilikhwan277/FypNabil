@@ -419,9 +419,8 @@ def ask(
         has_syllabus_match, sources = False, []
 
     # Ensure out-of-database answers explicitly contain the requested notice
-    if not has_syllabus_match:
-        if not (reply.startswith(db_missing_prefix) or db_missing_prefix.lower() in reply.lower() or "tiada dalam pangkalan data" in reply.lower() or "not in my database" in reply.lower()):
-            reply = f"{db_missing_prefix} {reply}".strip()
+    if not has_syllabus_match and not declined:     # `declined`: the reply already carries the notice
+        reply = f"{db_missing_prefix} {reply}".strip()
 
     # Bulletproof fallback: If generation is degenerate, too short, or missed the specialized intent
     use_anchor_fallback = False
